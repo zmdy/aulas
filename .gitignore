@@ -1,3 +1,5 @@
 assets/media/img/test/
 src
 *.html
+node_modules/
+server/
