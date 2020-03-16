@@ -1,11 +1,7 @@
-assets/media/img/test/
+.DS_Store
+Thumbs.db
+db.json
+*.log
 node_modules/
-src
-*.html
-server/
-
-_site
-.sass-cache
-.jekyll-metadata
-.jekyll-cache/
-Gemfile.lock
+public/
+.deploy*/

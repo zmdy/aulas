@@ -1,0 +1,92 @@
+/** Defines the current theme font-families **/
+@font-face{
+  src: url('../../assets/media/fonts/montserrat/Montserrat-Bold.woff');
+  font-family: 'Montserrat Bold';
+}
+
+@font-face{
+  src: url('../../assets/media/fonts/oxygen/Oxygen-Regular.woff');
+  font-family: 'Oxygen Regular';
+}
+
+@font-face{
+  src: url('../../assets/media/fonts/anton/anton-regular.woff');
+  font-family: 'Anton';
+}
+
+/** Defines the globals **/
+:root{
+  --font-regular:   1em;
+  --font-small:     0.75em;
+  --font-smaller:   0.50em;
+  --font-medium:    1.25em;
+  --font-big:       1.50em;
+  --font-bigger:    1.75em;
+  --font-title:     2.5em;
+}
+
+/** Defines the theme **/
+*{
+  font-size: var(--font-regular);
+  font-family: 'Oxygen Regular';
+}
+
+h1, h2, h3, h4, h5, h6,
+b, strong{
+  font-family: 'Montserrat Bold';
+  font-size: var(--font-big);
+}
+
+/** Bonisa Root  **/
+#bonisaRoot{
+  background-image: url('../../assets/media/img/textura-01.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/** Bonisa Wait **/
+#bonisaWait{
+  color: var(--blue9);
+  margin-top: 25vw;
+}
+
+/** Configures all .bonisa content as absolute/relative positions **/
+.bonisa {
+  display: block;
+  position: relative;
+}
+
+.bonisa * {
+  position: absolute;
+}
+
+main .bonisa,
+section .bonisa,
+div .bonisa{
+  width: 100vw;
+  height: 100vh;
+}
+
+
+/** Configures the cover **/
+
+#bonisaSlide0 h1{
+  font-size: var(--font-title);
+  text-transform: uppercase;
+  color: var(--blue6);
+
+  padding-bottom: 2.5vh;
+  border-bottom: solid 0.15em var(--blue6);
+  width: 100%;
+}
+
+#bonisaSlide0 h2{
+  text-transform: uppercase;
+  color: var(--blue4);
+  margin-top: -2.5vh;
+  float: right;
+}
+
+.bonisa h1{
+  top: 0px;
+}

@@ -33,45 +33,45 @@ O projeto em si é livre e está distribuídas sob Licença MIT. Verifique a ses
 
 O conteúdo disponibilizado pode ser facilmente acessado pelo site do projeto, acessível em [aulas.txt](zmdy.github.io/aulas.txt)!
 
-Este projeto é hospedado via [GitHub Pages](https://pages.github.com/) utilizando [uma variação](https://github.com/zmdy/dotX) do tema [dotX](https://github.com/nandomoreirame/dotX), criado pelo programador [nandomoreirame](https://github.com/nandomoreirame).
+Este projeto é hospedado via [GitHub Pages](https://pages.github.com/) utilizando temas disponibilizados pelo framework [Hexo](https://hexo.io/themes/).
 
-Você pode baixar e rodar este site localmente, se desejar. Para isto basta seguir o passo a passo a seguir:
+Você pode baixar e rodar este site (e seus recursos) localmente, se desejar. Para isto basta seguir o passo a passo a seguir:
 
 #### Passo a passo
 
-Primeiramente, você precisará instalar o [Git](https://git-scm.com/) e o  [Jekyll](https://jekyllrb.com/docs/installation/windows/) em seu computador para garantir que tudo funcione corretamente.
+Primeiramente, você precisará instalar o [Git](https://git-scm.com/) e o [Node.js](https://nodejs.org/en/) em seu computador para garantir que tudo funcione corretamente.
 
 | #     | Software | O que é?  |
 | :---: | :---:    | :---:            |
 | 01    | [Git](https://git-scm.com/) | Sistema utilizado para organizar e gerenciar diferentes versões de arquivos e códigos-fonte/softwares. |
 | 02    | [GitHub](https://github.com/) | Site utilizado para armazenar códigos-fonte (*y otras cositas mas*) de *softwares* utilizando o [Git](https://git-scm.com/). |
-| 03    | [Ruby](https://www.ruby-lang.org/pt/) | Linguagem de programação elegante, simples e de fácil leitura. |
-| 04    | [Jekyll](https://jekyllrb.com/docs/installation/windows/) | Gerador de sites estáticos escrito em [Ruby](https://www.ruby-lang.org/pt/). |
+| 03    | [Java Script](https://developer.mozilla.org/pt-BR/docs/Aprender/JavaScript) | Linguagem de programação utilizada para implementar conteúdos dinâmicos- como mapas interativos, animações gráficas em 2D/3D e vídeos - em sites. |
+| 04    | [Node.js](https://nodejs.org/en/) | Interpretador de JavaScript repleto de funcionalidades *server-side*. |
+| 05    | [Hexo](https://hexo.io/) | Poderoso, simples e rápido framework escrito em [Node.js](https://nodejs.org/en/) para criação de blogs com arquivos de texto [Markdown](https://daringfireball.net/projects/markdown/). |
+| 05    | [Markdown](https://daringfireball.net/projects/markdown/)| Linguagem textual capaz de implementar esruturas HTML/XHTML em textos planos. |
 
-Após instalar todos os programas necessários, você deverá baixar o site [aulas.txt](zmdy.github.io/aulas.txt) para o seu computador. Caso queira, poderá também [clonar o respositório](https://git-scm.com/book/pt-pt/v2/No%C3%A7%C3%B5es-B%C3%A1sicas-do-Git-Obtendo-um-Reposit%C3%B3rio-Git).
+
+Após instalar todos os programas necessários, você deverá baixar o site [aulas.txt](zmdy.github.io/aulas.txt) para o seu computador.
 
 
 1. [Download](https://codeload.github.com/zmdy/aulas.txt/zip/gh-pages) direto do site: `https://github.com/zmdy/aulas.txt/tree/gh-pages`
 
-OU
 
-2. Clone do repositório: `git clone https://github.com/zmdy/aulas.txt/tree/gh-pages`
+Quando o download finalizar, você deverá extrair os arquivos baixados. Em seguida, acesse a pasta com os arquivos extraídos.
 
-Quando o download/clonagem finalizar, você deverá extrair os arquivos baixados OU acessar a pasta criada pelo comando `git clone`.
+2. Acessa a pasta extraída: `cd aulas.txt`
 
-3. Acessa a pasta criada: `cd aulas.txt`
+Agora basta instalar os módulos [Node.js](https://nodejs.org/en/) necessários para o funcionamento do [Hexo](https://hexo.io/).
 
-Agora basta instalar as dependências [Ruby](https://www.ruby-lang.org/pt/) (gems) necessárias. Isto pode levar algum tempo, é normal ;)
+3. Instalar as dependências Node.js: `npm install`
 
-4. Instala as *Ruby gems*: `bundle install`
+Com o download finalizado, basta iniciar o servidor [Hexo](https://hexo.io/).
 
-Com o download finalizado, basta iniciar o servidor [Jekyll](https://jekyllrb.com/).
+4. Inicia o servidor: `hexo server`
 
-5. Inicia o servidor: `jekyll serve`
+Para acessar o site, vá até o navegador de sua preferência e abra o endereço a seguir:
 
-Caso o comando acima não funcione, basta utilizar o comando a seguir. Isto é geralmente necessário somente da primeira vez que você iniciar o servidor Jekyll.
-
-6. Inicia o servidor via `bundle`: `bundle exec jekyll serve`
+6. Abrir o site com o navegador: `127.0.0.1:4000`
 
 ## Licenças
 ### aulas.txt
