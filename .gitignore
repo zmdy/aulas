@@ -1,5 +1,10 @@
 assets/media/img/test/
+node_modules/
 src
 *.html
-node_modules/
 server/
+
+_site
+.sass-cache
+.jekyll-metadata
+Gemfile.lock
