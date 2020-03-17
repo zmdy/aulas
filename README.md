@@ -48,8 +48,7 @@ Primeiramente, você precisará instalar o [Git](https://git-scm.com/) e o [Node
 | 03    | [Java Script](https://developer.mozilla.org/pt-BR/docs/Aprender/JavaScript) | Linguagem de programação utilizada para implementar conteúdos dinâmicos- como mapas interativos, animações gráficas em 2D/3D e vídeos - em sites. |
 | 04    | [Node.js](https://nodejs.org/en/) | Interpretador de JavaScript repleto de funcionalidades *server-side*. |
 | 05    | [Hexo](https://hexo.io/) | Poderoso, simples e rápido framework escrito em [Node.js](https://nodejs.org/en/) para criação de blogs com arquivos de texto [Markdown](https://daringfireball.net/projects/markdown/). |
-| 05    | [Markdown](https://daringfireball.net/projects/markdown/)| Linguagem textual capaz de implementar esruturas HTML/XHTML em textos planos. |
-
+| 06    | [Markdown](https://daringfireball.net/projects/markdown/)| Linguagem textual capaz de implementar esruturas HTML/XHTML em textos planos. |
 
 Após instalar todos os programas necessários, você deverá baixar o site [aulas.txt](zmdy.github.io/aulas.txt) para o seu computador.
 
