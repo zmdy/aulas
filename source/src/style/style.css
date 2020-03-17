@@ -1,0 +1,167 @@
+/* Global configurations */
+:root{
+  /* COLORS */
+  --green-color:  #0f9d58;
+  --yellow-color: #f4b400;
+  --red-color:    #bd3e3a;
+  --blue-color:   #326fab;
+  --orange-color: #ca7400;
+  --purple-color: #776bb5;
+
+  --dark-color:   #1a1a1a;
+  --white-color:  #f8f8f8;
+  --midle-color:  #3a5561;
+
+  /* FONT-SIZE */
+  --min-size:     11px;
+  --small-size:   12px;
+  --default-size: 15px;
+  --medium-size:  18px;
+  --big-size:     22px;
+  --title-size:   25px;
+
+  /* FONTS */
+  --text-regular-font:  'Oxygen Light', sans-serif;
+  --text-bold-font:     'Oxygen', sans-serif;
+  --text-title-font:    'Montserrat Bold', sans-serif;
+}
+
+/* FONTES */
+@font-face{
+  src: url('../../assets/media/fonts/oxygen/Oxygen-Regular.woff');
+  font-family: 'Oxygen';
+}
+
+@font-face{
+  src: url('../../assets/media/fonts/oxygen/Oxygen-Light.woff');
+  font-family: 'Oxygen Light';
+}
+
+@font-face{
+  src: url('../../assets/media/fonts/montserrat/Montserrat-Bold.woff');
+  font-family: 'Montserrat Bold';
+}
+
+/* Reset do browser */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5,
+h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub,
+sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup, menu, nav, output,
+ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    font-family: var(--text-regular-font);
+}
+
+html{
+  font-size: var(--default-size);
+}
+
+h1, h2, h3, h4, h5, h6{
+  color: #3a5561;
+  font-family: var(--text-title-font);
+  font-size: var(--title-size);
+}
+
+blockquote{
+  font-size: 1.25rem;
+  color: #3a5561;
+  border-left: solid 0.75vh #3a5561;
+  background-color: rgba(58, 85, 97, 0.1);
+  padding: 0.5%;
+}
+
+strong{
+  font-family: 'Montserrat';
+  font-weight: bolder;
+}
+
+a{
+  color: var(--blue-color);
+  text-decoration: none;
+  font-size: var(--default-size);
+}
+
+a:hover{
+  border-bottom: dashed 0.1vw var(--blue-color);
+  font-family: var(--text-bold-font);
+}
+
+/* Define o plano de fundo da página */
+body{
+  margin-top: 0;
+  background-color: #f8f9fb;
+  color: #111;
+  overflow-x: hidden;
+}
+
+/* Configurações Genéricas */
+.destaque-01{
+  color: #0f9d58;
+}
+
+.destaque-02{
+  color: #f4b400;
+}
+
+destaque-03{
+  color: #3a5561;
+}
+
+ul li.lista-permitido,
+ul li.lista-proibido,
+ul li.lista-atencao{
+  list-style-type: none;
+  margin-left: 2.5%;
+  font-size: 1em;
+  padding: 0.25%;
+}
+
+ul li.lista-permitido:hover{
+  background: rgba(15,157,88, 0.5);
+}
+
+ul li.lista-proibido:hover{
+  background: rgba(242,79,73, 0.5);
+}
+
+ul li.lista-atencao:hover{
+  background: rgba(244,180,0, 0.5);
+}
+
+
+ul li.lista-permitido::before,
+ul li.lista-proibido::before,
+ul li.lista-atencao::before{
+  font-size: 1.25em;
+  display: inline-block;
+  width: 2vw;
+  height: 2vw;
+  padding: 0.1%;
+  margin-right: 0.5%;
+  border-radius: 100% 100%;
+  text-align: center;
+  color: #f8f9fb;
+}
+
+ul li.lista-permitido::before{
+  content: '✔';
+  background-color: #0f9d58;
+}
+
+ul li.lista-proibido::before{
+  content: '✘';
+  background-color: #f24f49;
+}
+
+ul li.lista-atencao::before{
+  content: '\fe15';
+  background-color: #f4b400;
+  font-size: 1.15em;
+}
