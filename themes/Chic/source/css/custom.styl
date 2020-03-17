@@ -2,3 +2,52 @@
 // Custom style
 // ==============================
 //  Also You can override the variables in variable.styl to customize the style
+
+/** DEFINIÇÃO DAS LISTAS OK - NOT - WARNING **/
+  li ul .item-ok,
+  li ul .item-not,
+  li ul .item-warning{
+    list-style-type: none;
+  }
+
+  li ul .item-ok:before,
+  li ul .item-not:before,
+  li ul .item-warning:before{
+    margin-right: 1%;
+  }
+
+  /** ITEM-OK **/
+  li ul .item-ok:before{
+    content:  '\2714';
+    color: #009f32;
+  }
+
+  li ul .item-ok{
+    color: #009f32;
+  }
+
+  /** ITEM NOT **/
+  li ul .item-not:before{
+    content:  '\2717';
+    color: #C40233;
+  }
+
+  li ul .item-not{
+    color: #C40233;
+  }
+
+  /** ITEM WARNING **/
+  li ul .item-warning:before{
+    content:  '\0021';
+    font-weight: bold;
+    color: #d6af00;
+  }
+
+  li ul .item-warning{
+    color: #d6af00;
+  }
+
+/** DEFINIÇÃO DOS LINKS **/
+a:hover{
+  border-bottom: dashed 1px;
+}

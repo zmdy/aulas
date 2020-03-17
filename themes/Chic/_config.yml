@@ -1,22 +1,19 @@
 # Header
-navname: Bentham's Blog
+navname: aulas.txt
 
 # navigatior items
 nav:
+  Cursos: /cursos
+  Manual: /manual
   Posts: /archives
-  Categories: /category
-  Tags: /tag
-  About: /about
+  Sobre: /sobre
 
 # favicon
-favicon: /favicon.ico
-
-# Profile
-nickname: Jeremy Bentham
+favicon: /favicon.png
 
 ### this variable is MarkDown form.
-description: Lorem ipsum dolor sit amet, **consectetur adipiscing elit.** <br>Fusce eget urna vitae velit *eleifend interdum at ac* nisi.
-avatar: /image/avatar.jpeg
+description: Repositório de recursos utilizados em aulas diversas de Gestão Administrativa & Tecnologia da Informação.
+avatar: /image/avatar-01.png
 
 # main menu navigation
 ## links key words should not be changed.
@@ -33,7 +30,7 @@ links:
 #  Gallary:
 #  RSS:
 #  AliPay:
-  ZhiHu: https://www.zhihu.com/people/sirice
+#  ZhiHu: https://www.zhihu.com/people/sirice
 #  LinkedIn:
 #  FaceBook:
 #  Twitter:
@@ -43,13 +40,13 @@ links:
 #  Sketch:
 #  Gitlab:
 #  Dribble:
-  Instagram:
-  Reddit:
+#  Instagram:
+#  Reddit:
 #  YouTube:
 #  QQ:
 #  Weibo:
 #  WeChat:
-  Github: https://github.com/Siricee
+  Github: https://github.com/zmdy
 
 # how links show: you have 2 choice--text or icon.
 links_text_enable: false
@@ -81,8 +78,8 @@ page_title_enable: true
 ## Hexo uses Moment.js to parse and display date
 ## You can customize the date format as defined in
 ## http://momentjs.com/docs/#/displaying/format/
-date_format: MMMM D, YYYY
-time_format: H:mm:ss
+date_format: DD/MM/YYYY
+time_format: H:mm
 
 # stylesheets loaded in the <head>
 stylesheets:
