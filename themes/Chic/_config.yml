@@ -4,8 +4,9 @@ navname: aulas.txt
 # navigatior items
 nav:
   Cursos: /cursos
-  Manual: /manual
+  Materiais: /materiais
   Posts: /archives
+  Manual: /manual
   Sobre: /sobre
 
 # favicon
@@ -20,7 +21,7 @@ avatar: /image/avatar-01.png
 ## Complete url after key words.
 ## Unused key can be commented out.
 links:
-  Blog: /archives
+  Blog: ./archives
 #  Category:
 #  Tags: 
 #  Link:
