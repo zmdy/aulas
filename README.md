@@ -1,4 +1,4 @@
-﻿![aulas.txt](./source/assets/media/logo/logo-aulas-txt-github.svg)
+![aulas.txt](./assets/media/logo/logo-aulas-txt-github.svg)
 
 Este é um repositório de recursos (anotações, exercícios, materiais e recursos) utilizados em aulas diversas de Gestão Administrativa & Tecnologia da Informação.
 
