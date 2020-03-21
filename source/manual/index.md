@@ -31,6 +31,7 @@ ESTRUTURA DO BRANCH MASTER
   │       ├── img           	# Todas as imagesn utilizadas
   │       └── logo            # Logo do projeto aulas.txt
   |
+  ├── sources                 # Páginas e posts do site em formato Markdwon
   ├── .gitignore
   ├── LICENSE.txt
   └── README.md
@@ -100,4 +101,4 @@ Com o download finalizado, basta iniciar o servidor [Hexo](https://hexo.io/).
 
 Para acessar o site, vá até o navegador de sua preferência e abra o endereço a seguir:
 
-5. Abrir o site com o navegador: `127.0.0.1:4000`
+5. Abrir o site com o navegador: `127.0.0.1:4000/aulas.txt`
