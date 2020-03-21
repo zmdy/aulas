@@ -5,7 +5,7 @@ navname: aulas.txt
 nav:
   Cursos: /cursos
   Materiais: /materiais
-  Posts: /archives
+  Posts: /posts
   Manual: /manual
   Sobre: /sobre
 
@@ -21,7 +21,7 @@ avatar: /image/avatar-01.png
 ## Complete url after key words.
 ## Unused key can be commented out.
 links:
-  Blog: ./archives
+  Blog: ./posts
 #  Category:
 #  Tags: 
 #  Link:
@@ -47,7 +47,7 @@ links:
 #  QQ:
 #  Weibo:
 #  WeChat:
-  Github: https://github.com/zmdy
+  Github: https://github.com/zmdy/aulas.txt
 
 # how links show: you have 2 choice--text or icon.
 links_text_enable: false
@@ -57,17 +57,17 @@ links_icon_enable: true
 ## Post_meta
 post_meta_enable: true
 
-post_author_enable: true
+post_author_enable: false
 post_date_enable: true
 post_category_enable: true
 ## Post copyright
 post_copyright_enable: true
 
-post_copyright_author_enable: true
+post_copyright_author_enable: false
 post_copyright_permalink_enable: true
 post_copyright_license_enable: true
-post_copyright_license_text: Copyright (c) 2019 <a href="http://creativecommons.org/licenses/by-nc/4.0/">CC-BY-NC-4.0</a> LICENSE
-post_copyright_slogan_enable: true
+post_copyright_license_text: <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a>
+post_copyright_slogan_enable: false
 post_copyright_slogan_text: Do you believe in <strong>DESTINY</strong>?
 ## toc
 post_toc_enable: true
