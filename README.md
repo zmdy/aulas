@@ -70,7 +70,7 @@ Com o download finalizado, basta iniciar o servidor [Hexo](https://hexo.io/).
 
 Para acessar o site, vá até o navegador de sua preferência e abra o endereço a seguir:
 
-6. Abrir o site com o navegador: `127.0.0.1:4000`
+6. Abrir o site com o navegador: `127.0.0.1:4000/aulas.txt`
 
 ## Licenças
 ### aulas.txt
