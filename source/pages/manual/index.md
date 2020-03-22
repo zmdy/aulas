@@ -23,7 +23,11 @@ Ao baixar e extrair o conteúdo, você terá acesso à seguinte estrutura de pas
 ```
 ESTRUTURA DO BRANCH MASTER
   .
-  ├── assets                   
+  ├── sources                 
+  │  ├── _posts               # Posts do site em formato Markdown
+  │  ├── pages                # Páginas do site em formato Markdown  
+  │  ├── src                  # Scripts e arquivos personalizados
+  │  ├── assets                   
   │   ├── content             # Arquivos de texto usados para criar os slides
   │   └── media               # Arquvos de mídia
   │       ├── fonts         	# Fontes utilizadas nos slides
@@ -31,9 +35,10 @@ ESTRUTURA DO BRANCH MASTER
   │       ├── img           	# Todas as imagesn utilizadas
   │       └── logo            # Logo do projeto aulas.txt
   |
-  ├── sources                 # Páginas e posts do site em formato Markdwon
+  ├── _config.yml_            # Arquivo de configurações do Hexo
   ├── .gitignore
   ├── LICENSE.txt
+  ├── package.json            # Arquivo de configurações do Node
   └── README.md
 ```
 
@@ -56,9 +61,9 @@ Cada um dos itens mostrados na imagem acima (master, gh-pages e hexo-pages) é c
 
 Um *branch* nada mais é do que a ramificação de um projeto de software. No caso do [aulas.txt](zmdy.github.io/aulas.txt), há 3 diferentes ramos:
 
-- `master`: branch responsável pelo armazenamento de todos os conteúdos de texto, imagens e fontes (mostrado e explicado acima);
+- `master`: branch responsável pelo armazenamento dos arquivos do framework [Hexo](https://hexo.io/themes/) e das bibliotecas usadas para produzir os [slides](https://github.com/zmdy/bonisa).
+- `assets`: branch responsável pelo armazenamento de todos os conteúdos de texto, imagens e fontes (mostrado e explicado acima);
 - `gh-pages`: branch responsável pelo armazenamento deste [site](zmdy.github.io/aulas.txt);
-- `hexo-pages`: branch responsável pelo armazenamento dos arquivos do framework [Hexo](https://hexo.io/themes/) e das bibliotecas usadas para produzir os [slides](https://github.com/zmdy/bonisa).
 
 Por questões de praticidade, o branch `gh-pages` é automaticamente atualizado no processo de *deployment* do [Hexo](https://hexo.io/docs/github-pages). Por esta razão o mesmo **não é modificado manualmente**.
 

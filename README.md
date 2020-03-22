@@ -1,29 +1,8 @@
 ﻿![aulas.txt](./source/assets/media/logo/logo-aulas-txt-github.svg)
 
-Este é um repositório de recursos (anotações, exercícios, materiais e recursos) utilizados em aulas diversas de Gestão Administrativa & Tecnologia da Informação.
+Este é um repositório de apresentações, anotações, livros, apostilas, imagens, vídeos e recursos utilizados em diversas aulas de Administração e TI.
 
-Acesse todo o material em [aulas.txt](zmdy.github.io/aulas.txt)!
-
-
-## Conteúdos
-- Project Description
-  - [Descrição](#descrição)
-  - [Conteúdo](#conteudo)
-  - [Passo a Passo](#passo-a-passo)
-
-- [Licenças](#licencas)
- - [aulas.txt](#aulas-txt)
- - [Apresentaçãoes e Anotações](#apresentacoes-e-anotacoes)
- - [Conteúdos de Mídia](#conteudos-de-midia)
- - [Softwares](#softwares)
-
-
-## Project Description
-### Descrição
-
-"aulas.txt" é um repositório de apresentações, anotações, livros, apostilas, imagens, vídeos e recursos utilizados em diversas aulas de Administração e TI.
-
-Todo o conteúdo disponibilizado, incluindo (mas não se limitado a) textos, imagens, vídeos, fontes, ícones e/ou eventuais bibliotecas, módulos ou softwares utilizados para a criação de interações ou animaçãoes, é conteúdo livre (free/libre), **ao menos que explicitamente informado o contrário.**
+Todo o conteúdo disponibilizado, incluindo (mas não se limitado a) textos, imagens, vídeos, fontes, ícones e/ou eventuais bibliotecas, módulos ou softwares utilizados para a criação de interações ou animaçãoes, é **conteúdo livre** (free/libre), **ao menos que explicitamente informado o contrário.**
 
 O projeto em si é livre e está distribuídas sob Licença MIT. Verifique a sessão "LICENÇA" ao final deste documento e das apresentações para maiores detalhes.
 
@@ -33,30 +12,52 @@ O projeto em si é livre e está distribuídas sob Licença MIT. Verifique a ses
 
 O conteúdo disponibilizado pode ser facilmente acessado pelo site do projeto, acessível em [aulas.txt](zmdy.github.io/aulas.txt)!
 
+Ao baixar e extrair o conteúdo, você terá acesso à seguinte estrutura de pastas e arquivos:
+
+```
+ESTRUTURA DO BRANCH MASTER
+  .
+  ├── sources                 
+  │  ├── _posts               # Posts do site em formato Markdown
+  │  ├── pages                # Páginas do site em formato Markdown  
+  │  ├── src                  # Scripts e arquivos personalizados
+  │  ├── assets                   
+  │   ├── content             # Arquivos de texto usados para criar os slides
+  │   └── media               # Arquvos de mídia
+  │       ├── fonts         	# Fontes utilizadas nos slides
+  │       ├── icons           # Ícones diversos
+  │       ├── img           	# Todas as imagesn utilizadas
+  │       └── logo            # Logo do projeto aulas.txt
+  |
+  ├── _config.yml_            # Arquivo de configurações do Hexo
+  ├── .gitignore
+  ├── LICENSE.txt
+  ├── package.json            # Arquivo de configurações do Node
+  └── README.md
+```
+
+Caso queira utilizar alguma imagem, pdf, fonte, ou modificar algum conteúdo de texto **fique a vontade**! Só **não se esqueça** de manter o arquivo LICENSE.txt na pasta ;)
+
 Este projeto é hospedado via [GitHub Pages](https://pages.github.com/) utilizando temas disponibilizados pelo framework [Hexo](https://hexo.io/themes/).
 
 Você pode baixar e rodar este site (e seus recursos) localmente, se desejar. Para isto basta seguir o passo a passo a seguir:
 
 #### Passo a passo
 
-Primeiramente, você precisará instalar o [Git](https://git-scm.com/) e o [Node.js](https://nodejs.org/en/) em seu computador para garantir que tudo funcione corretamente.
+Primeiramente, você precisará instalar o [Node.js](https://nodejs.org/en/) em seu computador para garantir que tudo funcione corretamente.
 
 | #     | Software | O que é?  |
 | :---: | :---:    | :---:            |
-| 01    | [Git](https://git-scm.com/) | Sistema utilizado para organizar e gerenciar diferentes versões de arquivos e códigos-fonte/softwares. |
-| 02    | [GitHub](https://github.com/) | Site utilizado para armazenar códigos-fonte (*y otras cositas mas*) de *softwares* utilizando o [Git](https://git-scm.com/). |
-| 03    | [Java Script](https://developer.mozilla.org/pt-BR/docs/Aprender/JavaScript) | Linguagem de programação utilizada para implementar conteúdos dinâmicos- como mapas interativos, animações gráficas em 2D/3D e vídeos - em sites. |
-| 04    | [Node.js](https://nodejs.org/en/) | Interpretador de JavaScript repleto de funcionalidades *server-side*. |
-| 05    | [Hexo](https://hexo.io/) | Poderoso, simples e rápido framework escrito em [Node.js](https://nodejs.org/en/) para criação de blogs com arquivos de texto [Markdown](https://daringfireball.net/projects/markdown/). |
-| 06    | [Markdown](https://daringfireball.net/projects/markdown/)| Linguagem textual capaz de implementar esruturas HTML/XHTML em textos planos. |
+| 01    | [Java Script](https://developer.mozilla.org/pt-BR/docs/Aprender/JavaScript) | Linguagem de programação utilizada para implementar conteúdos dinâmicos- como mapas interativos, animações gráficas em 2D/3D e vídeos - em sites. |
+| 02    | [Node.js](https://nodejs.org/en/) | Interpretador de JavaScript repleto de funcionalidades *server-side*. |
+| 03    | [Hexo](https://hexo.io/) | Poderoso, simples e rápido framework escrito em [Node.js](https://nodejs.org/en/) para criação de blogs com arquivos de texto [Markdown](https://daringfireball.net/projects/markdown/). |
+| 04    | [Markdown](https://daringfireball.net/projects/markdown/)| Linguagem textual capaz de implementar esruturas HTML/XHTML em textos planos. |
 
-Após instalar todos os programas necessários, você deverá baixar o site [aulas.txt](zmdy.github.io/aulas.txt) para o seu computador.
+Após instalar todos os programas necessários, você deverá baixar o site [aulas.txt](zmdy.github.io/aulas.txt) para o seu computador, por meio do  branch `hexo-pages`.
 
+1. [Download](https://github.com/zmdy/aulas.txt/tree/hexo-pages) direto do site: `https://github.com/zmdy/aulas.txt/tree/hexo-pages`
 
-1. [Download](https://codeload.github.com/zmdy/aulas.txt/zip/gh-pages) direto do site: `https://github.com/zmdy/aulas.txt/tree/gh-pages`
-
-
-Quando o download finalizar, você deverá extrair os arquivos baixados. Em seguida, acesse a pasta com os arquivos extraídos.
+Quando o download finalizar, você deverá extrair os arquivos baixados. Em seguida, acesse a pasta com os arquivos extraídos. A partir dese momento você **deverá utilizar** um terminal (Prompt de Comando) para executar os passos.
 
 2. Acessa a pasta extraída: `cd aulas.txt`
 
@@ -70,24 +71,32 @@ Com o download finalizado, basta iniciar o servidor [Hexo](https://hexo.io/).
 
 Para acessar o site, vá até o navegador de sua preferência e abra o endereço a seguir:
 
-6. Abrir o site com o navegador: `127.0.0.1:4000/aulas.txt`
+5. Abrir o site com o navegador: `127.0.0.1:4000/aulas.txt`
 
 ## Licenças
 ### aulas.txt
 Este projeto como um todo está distribuído com a [Licença MIT](https://opensource.org/licenses/MIT): *a short and simple permissive license with conditions only requiring preservation of copyright and license notices.* ([Choose a License](choosealicense.com))
 
-- Sinta-se livre para:
-  - :heavy_check_mark: Distribuir
-  - :heavy_check_mark: Copiar
-  - :heavy_check_mark: Modificar
-  - :heavy_check_mark: Publicar
-  - :heavy_check_mark: Fazer uso comercial
-  - :heavy_check_mark: Fazer uso privado
-  - :heavy_check_mark: Criar conteúdo derivado, utilizando outra licença
-  - :heavy_check_mark: Fazer o que você quiser (literalmente)
+<ul>
+  <li> Sinta-se livre para:
+    <ul>
+      <li class='item-ok'>Distribuir</li>
+      <li class='item-ok'>Copiar</li>
+      <li class='item-ok'>Modificar</li>
+      <li class='item-ok'>Publicar</li>
+      <li class='item-ok'>Fazer uso comercial</li>
+      <li class='item-ok'>Fazer uso privado</li>
+      <li class='item-ok'>Criar conteúdo derivado, utilizando outra licença</li>
+      <li class='item-ok'>Fazer o que você quiser (literalmente)</li>
+    </ul>
+  </li>
 
-- Mas não se esqueça de:
-  - :heavy_minus_sign: Manter uma cópia do arquivo LICENSE e atribuir o devido crédito a *nóis*, porque *"dá trabalho pra fazer!"*.
+  <li> Mas não se esqueça de:
+    <ul>
+      <li class='item-warning'>Manter uma cópia do arquivo LICENSE e atribuir o devido crédito a <em>nóis</em>, porque <em>"dá trabalho pra fazer!"</em></li>
+    </ul>
+  </li>
+</ul>
 
 Guarde no fundo do seu coração que este projeto e todos os seus constituites vêm com *absolutamente nenhuma garantia*. O autor e a licença não são responsáveis por quaisquer danos ou problemas causados pelo uso dos recursos aqui distribuídos.
 
