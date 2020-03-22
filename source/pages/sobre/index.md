@@ -3,7 +3,7 @@ title: Sobre o Projeto
 date: 2020-03-17 08:52:28
 ---
 
-![aulas.txt](../assets/media/logo/logo-aulas-txt-branca.svg)
+![aulas.txt](../../assets/media/logo/logo-aulas-txt-branca.svg)
 
 Este é um repositório de apresentações, anotações, livros, apostilas, imagens, vídeos e recursos utilizados em diversas aulas de Administração e TI.
 

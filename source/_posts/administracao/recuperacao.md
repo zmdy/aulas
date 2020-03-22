@@ -2,6 +2,8 @@
 title: Auxiliar Administrativo - Trabalhos de Recuperação
 date: 2020-03-21 17:25:22
 tags:
+- Auxiliar Administrativo
+- Auxiliar Administrativo - Trabalhos de Recuperação
 ---
 
 A **recuperação paralela** tem por objetivo realizar a reposição das notas distribuídas no decorrer de cada módulo. Para tal todas as notas anteriores do aluno são zeradas e substituídas por um trabalho, valendo **40 pontos**, e por uma avaliação, valendo **60 pontos**.
