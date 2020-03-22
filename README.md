@@ -1,4 +1,4 @@
-![aulas.txt](./assets/media/logo/logo-aulas-txt-github.svg)
+﻿![aulas.txt](./source/assets/media/logo/logo-aulas-txt-github.svg)
 
 Este é um repositório de recursos (anotações, exercícios, materiais e recursos) utilizados em aulas diversas de Gestão Administrativa & Tecnologia da Informação.
 
@@ -70,7 +70,7 @@ Com o download finalizado, basta iniciar o servidor [Hexo](https://hexo.io/).
 
 Para acessar o site, vá até o navegador de sua preferência e abra o endereço a seguir:
 
-6. Abrir o site com o navegador: `127.0.0.1:4000`
+6. Abrir o site com o navegador: `127.0.0.1:4000/aulas.txt`
 
 ## Licenças
 ### aulas.txt
