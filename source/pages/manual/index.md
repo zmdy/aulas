@@ -5,18 +5,18 @@ date: 2020-03-17 10:00:00
 
 Todo o conteúdo disponibilizado é **livre** (free/libre), o que significa que você está **automaticamente autorizado** a baixar, estudar e modificar todo o conteúdo do projeto.
 
-Para acessar os conteúdos finais já processados, em **.pdf ou outros formatos**, acesse a página [Materiais](../materiais)
+Para acessar os conteúdos finais já processados, em **.pdf ou outros formatos**, acesse a página [Materiais](../../materiais)
 
 Os textos, imagens, fontes, ícones e eventuais bibliotecas, módulos ou softwares utilizados no site podem ser acessados pelo repositório do projeto no [GitHub](zmdy.github.io/aulas.txt).
 
 Ao acessar o repositório de aulas.txt, você verá uma tela como a mostrada a seguir:
 
 
-![Print da tela inicial do projeto no GitHub](../assets/media/img/github/github-inicial.png)
+![Print da tela inicial do projeto no GitHub](../../assets/media/img/github/github-inicial.png)
 
 Nesta página estão todos os conteúdos de texto, imagens e fontes utilizados no site e nos slides. Caso deseje baixar apenas este **conteúdo bruto** basta clicar no botão `Clone or Download` e em seguida clicar sobre `Download ZIP`.
 
-![Destaque da Área de Download no GitHub](../assets/media/img/github/github-download.png)
+![Destaque da Área de Download no GitHub](../../assets/media/img/github/github-download.png)
 
 Ao baixar e extrair o conteúdo, você terá acesso à seguinte estrutura de pastas e arquivos:
 
@@ -49,7 +49,7 @@ O site deste projeto é hospedado via [GitHub Pages](https://pages.github.com/) 
 
 Para acessar os arquivos (e frameworks) utilizados para criar o site e os slides, clique sobre `Branch: master` e em seguida clique na opção `hexo-pages`.
 
-![Destaque da Área de Branches no GitHub](../assets/media/img/github/github-branches.png)
+![Destaque da Área de Branches no GitHub](../../assets/media/img/github/github-branches.png)
 
 
 Cada um dos itens mostrados na imagem acima (master, gh-pages e hexo-pages) é chamado de *branch*.

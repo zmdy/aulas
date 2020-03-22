@@ -3,7 +3,7 @@ title: Auxiliar Administrativo
 date: 2020-03-20 17:08:37
 ---
 
-<img src="../assets/media/img/cursos/logo-auxiliar-administrativo-01.png" alt="Auxiliar Administrativo" title="Auxiliar Administrativo" class="img-50">
+<img src="../../assets/media/img/cursos/logo-auxiliar-administrativo-01.png" alt="Auxiliar Administrativo" title="Auxiliar Administrativo" class="img-50">
 
 O curso de Auxiliar Administrativo, ministrado no [CNI - Unidade Centro](http://grupocni.com.br/index.php/centro-2/), busca apresentar aos alunos os conhecimentos necessários para atuar nos processos administrativos de empresas públicas e privadas, dos mais diversos portes e segmentos, executando atividades de apoio nas áreas de recursos humanos, finanças, logística, administrativa e de vendas, observando os procedimentos operacionais e a legislação vigente.
 
@@ -24,7 +24,7 @@ Este curso aborda, em sua grade curricular, disciplinas que contribuirão para u
 
 **Duração:** 12 meses | 96 horas
 
-**Recursos do Curso:** [Acessar](./administracao.html)
+**Recursos do Curso:** [Acessar](../tag/Auxiliar-Administrativo/)
 
 ---
 
@@ -82,13 +82,13 @@ Distribuição das Notas dos Módulos
 
 - Demais casos não previstos serão analisados pelo professor ou coordenador do curso.
 
-- Todas as provas anteriormente aplicadas podem ser acessadas pelos alunos como forma de estudo e consulta [nesta página](../posts/administracao/provas-anteriores).
+- Todas as provas anteriormente aplicadas podem ser acessadas pelos alunos como forma de estudo e consulta [nesta página](../../posts/administracao/provas-anteriores).
 
 ### Trabalho de Recuperação
 
 - Aqueles que não obterem a nota mínima de aprovação terão um prazo de **1 mês** para realizarem o trabalho de recuperação.
 - A recuperação consiste em uma lista, contendo 25 exercícios, que deverá ser **impressa** . As questões deverão ser respondidas na **própria lista**.
-- Cabe aos alunos imprimirem o material de recuperação, que será **permanentemente disponibilizada** [nesta página](../posts/administracao/recuperacao).
+- Cabe aos alunos imprimirem o material de recuperação, que será **permanentemente disponibilizada** [nesta página](../../posts/administracao/recuperacao).
 - Caso o aluno não consiga imprimir a lista, o mesmo deverá avisar ao professor **com antencedência**.
 
 ---
