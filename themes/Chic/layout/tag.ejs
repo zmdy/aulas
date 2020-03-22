@@ -24,11 +24,14 @@ how to add a tag page:
 <% }else{ %>
     <div class="container">
         <div class="post-wrap tags">
-            <h2 class="post-title">-&nbsp;Tag Cloud&nbsp;-</h2>
-
+            <h2 class="post-title">- Conteúdos & Materiais -</h2>
+            <p>Selecione o conteúdo de aula desejado utilizando os links abaixo:</p>
             <div class="tag-cloud-tags">
                 <%site.tags.forEach(item=>{%>
-                    <a href="<%-url_for(item.path)%>"><%- item.name%><small>(<%-item.length%>)</small></a>
+                    <p><a href="<%-url_for(item.path)%>">
+                        <i class="icofont-clip"></i> 
+                        <%- item.name%><small>(<%-item.length%> posts)</small>
+                    </a></p>
                 <%})%>
             </div>
         </div>

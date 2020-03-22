@@ -3,11 +3,11 @@ navname: aulas.txt
 
 # navigatior items
 nav:
-  Cursos: /cursos
-  Materiais: /materiais
+  Cursos: /pages/cursos
+  Materiais: /pages/tag
   Posts: /posts
-  Manual: /manual
-  Sobre: /sobre
+  Manual: /pages/manual
+  Sobre: /pages/sobre
 
 # favicon
 favicon: /favicon.png
