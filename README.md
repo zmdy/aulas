@@ -36,7 +36,34 @@ ESTRUTURA DO BRANCH MASTER
   └── README.md
 ```
 
+Para baixar o **conteúdo bruto** (todo este conteúdo é chamado de *assets*), contendo os arquivos de texto, PDFs, imagens e fontes utilizados no site, você deverá acessar (e baixar) o branch `assets`.
+
+O branch `assets` contém todo o material bruto utilizado para produzir o [site](https://zmdy.github.io/aulas.txt/). Isto inclui imagens, fontes, PDFs, documentos e outros arquivos de texto.
+
+Ao baixar este *branch*, você terá acesso à seguinte estrutura de pastas:
+
+```
+ESTRUTURA DO BRANCH ASSETS
+  .
+  ├── assets                   
+  │   ├── content           # Arquivos de texto usados para criar os slides
+  │   └── media             # Arquivos de mídia
+  │      ├── fonts          # Fontes utilizadas nos slides
+  │      ├── icons          # Ícones diversos
+  │      ├── img            # Todas as imagens utilizadas
+  │      └── logo           # Logo do projeto aulas.txt
+  ├── sources                 
+  │  ├── _posts             # Posts do site em formato de texto
+  │  ├── pages              # Páginas do site em formato de texto  
+  │  ├── src                # Scripts e arquivos personalizados
+  |
+  ├── .gitignore            
+  ├── LICENSE.txt
+  └── RE
+
 Caso queira utilizar alguma imagem, pdf, fonte, ou modificar algum conteúdo de texto **fique a vontade**! Só **não se esqueça** de manter o arquivo LICENSE.txt na pasta ;)
+
+Por questões de praticidade, o branch `gh-pages` é automaticamente atualizado no processo de *deployment* do [Hexo](https://hexo.io/docs/github-pages). Por esta razão o mesmo **não é modificado manualmente**.
 
 Este projeto é hospedado via [GitHub Pages](https://pages.github.com/) utilizando temas disponibilizados pelo framework [Hexo](https://hexo.io/themes/).
 

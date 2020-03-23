@@ -5,7 +5,7 @@ date: 2020-03-17 10:00:00
 
 Todo o conteúdo disponibilizado é **livre** (free/libre), o que significa que você está **automaticamente autorizado** a baixar, estudar e modificar todo o conteúdo do projeto.
 
-Para acessar os conteúdos finais já processados, em **.pdf ou outros formatos**, acesse a página [Materiais](../../materiais)
+Para acessar os conteúdos finais já processados, em **.pdf ou outros formatos**, acesse a página [Materiais](../tag)
 
 Os textos, imagens, fontes, ícones e eventuais bibliotecas, módulos ou softwares utilizados no site podem ser acessados pelo repositório do projeto no [GitHub](https://github.com/zmdy/aulas.txt).
 
