@@ -57,7 +57,7 @@ Todos os slides utilizados no projeto (e o próprio site) são construídos util
 
 O site deste projeto é hospedado via [GitHub Pages](https://pages.github.com/) utilizando temas disponibilizados pelo framework [Hexo](https://hexo.io/themes/).
 
-Para acessar os arquivos (e frameworks) utilizados para criar o site e os slides, clique sobre `Branch: master` e em seguida clique na opção `assets`.
+Para acessar os arquivos utilizados para criar o site e os slides, clique sobre `Branch: master` e em seguida clique na opção `assets`.
 
 ![Destaque da Área de Branches no GitHub](../../assets/media/img/github/github-branches.png)
 
