@@ -59,7 +59,8 @@ ESTRUTURA DO BRANCH ASSETS
   |
   ├── .gitignore            
   ├── LICENSE.txt
-  └── RE
+  └── README.md
+```
 
 Caso queira utilizar alguma imagem, pdf, fonte, ou modificar algum conteúdo de texto **fique a vontade**! Só **não se esqueça** de manter o arquivo LICENSE.txt na pasta ;)
 
