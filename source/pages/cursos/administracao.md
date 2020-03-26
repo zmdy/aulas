@@ -62,6 +62,10 @@ Distribuição das Notas dos Módulos
 
 ### Correção dos Cadernos
 
+- Todos os alunos deverão fazer um **resumo** da matéria de **cada aula** no caderno. Os resumos devem ter **no mínimo** 10 linhas.
+
+- A cada aula serão propostos alguns exercícios de fixação para serem feitos em sala ou em casa. Estes exercícios deverão ser **identificados e respondidos** no caderno.
+
 - A avaliação do caderno vale **10 pontos**, distribuídos da seguinte forma:
 
 | Status                  | Nota       |
@@ -95,8 +99,7 @@ Distribuição das Notas dos Módulos
 
 ## Referências Bibliográficas
 
-BARRETO, João Marcelo. Introdução à Administração. Salvador: UFBA, Faculdade de Ciências Contábeis, Superintendência de Educação a
-Distância, 2017. 95 p.: il. Disponível em <https://bit.ly/3bm3Wo1>. 
+BARRETO, João Marcelo. Introdução à Administração. Salvador: UFBA, Faculdade de Ciências Contábeis, Superintendência de Educação a Distância, 2017. 95 p.: il. Disponível em <https://bit.ly/3bm3Wo1>. 
 
 BOAL, Augusto. Jogos para atores e não-atores. Rio de Janeiro: Civilização Brasileira, 1998.
 
@@ -106,8 +109,7 @@ BRASIL. CFA. Resolução Normativa CFA nº 537, de 22 de março de2018. Aprova o
 
 CAMARGO, R. F. Tudo sobre as diferenças entre MEI, ME, EI, EPP, EIRELI, SA e Ltda. TREASY, 2017. Disponível em <https://bit.ly/2QxIcxu>. Acesso em 26 jun. 2019.
 
-CARVALHO, José Luis Felício; FARIA, Marina Dias de. O teatro de improviso como proposta
-pedagógica na formação em ciências sociais aplicadas. Revista Interdisciplinar de Gestão Social, 3 (3), pp.79-104.
+CARVALHO, José Luis Felício; FARIA, Marina Dias de. O teatro de improviso como proposta pedagógica na formação em ciências sociais aplicadas. Revista Interdisciplinar de Gestão Social, 3 (3), pp.79-104.
 
 CHAUÍ, Marilena. Convite à filosofia. São Paulo: Editora Ática, 2000.
 
@@ -115,8 +117,7 @@ DUNKER, Christian; THEBAS, Cláudio. O palhaço e o psicanalista: Como escutar o
 
 FERNANDES, R. Quais as diferenças entre MEI, EI, ME, EPP, EIRELI, LTDA e S.A.? CAPITAL SOCIAL, 2015. Disponível em <https://bit.ly/3dfOn2O>. Acesso em 26 jun. 2019.
 
-FERREIRA, Brenno Jadvas Soares. Fluxo espontâneo e capacidade de jogo: Estudos atorais a
-partir de princípios do Teatro-Esporte e do Match de Improvisação. Dissertação de Mestrado.
+FERREIRA, Brenno Jadvas Soares. Fluxo espontâneo e capacidade de jogo: Estudos atorais a partir de princípios do Teatro-Esporte e do Match de Improvisação. Dissertação de Mestrado.
 Instituto de Artes- IARTE. Universidade Federal de Uberlândia. Uberlândia, 2015.
 
 GRCIC, Joseph. Ethics: Theory and Practice (English Edition) - 7 ed. Terre Haute: Philosophy Department / Indiana State University, 2015. 675 p.
