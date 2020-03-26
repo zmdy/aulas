@@ -11,6 +11,11 @@ Pretende-se com este curso "formar profissionais com conhecimento nas técnicas 
 
 Este curso aborda, em sua grade curricular, disciplinas que contribuirão para uma formação teórica do educando, aliada ao pensamento e a exemplos práticos, valorizando a postura ética e profissional.
 
+Para estudos complementares deste curso sugiro o material descrito nas referências bibliográficas, em especial:
+
+[BACARJI, Alencar Garcia. Formação Inicial e Continuada: Auxiliar Administrativo](https://www.ifmg.edu.br/portal/extensao/pronatec/cursos/cursos-fic/projeto-pedagogico-de-curso-auxiliar-administrativo)
+
+
 **Objetivo Geral:** Criar oportunidade de qualificação profissional, por meio do desenvolvimento de competências e habilidades para atuar na área administrativa de empresas públicas e privadas de todos os portes e segmentos
 
 **Requisitos & Materiais:**
@@ -99,6 +104,8 @@ Distribuição das Notas dos Módulos
 
 ## Referências Bibliográficas
 
+BACARJI, Alencar Garcia. Formação Incial e Continuada Auxiliar Administrativo. Curitiba: Instituto Federal do Paraná, 2012.
+
 BARRETO, João Marcelo. Introdução à Administração. Salvador: UFBA, Faculdade de Ciências Contábeis, Superintendência de Educação a Distância, 2017. 95 p.: il. Disponível em <https://bit.ly/3bm3Wo1>. 
 
 BOAL, Augusto. Jogos para atores e não-atores. Rio de Janeiro: Civilização Brasileira, 1998.
@@ -108,6 +115,8 @@ BOAL, Augusto. 200 exercícios e jogos para o ator e o não-ator com vontade de 
 BRASIL. CFA. Resolução Normativa CFA nº 537, de 22 de março de2018. Aprova o Código de Ética dos Profissionais de Administração previsto na Lei nº 4.769, de 09 de setembro de 1965. Disponível em <https://bit.ly/2QCq6dz>. Acesso en *20 de mar. de 2020*.
 
 CAMARGO, R. F. Tudo sobre as diferenças entre MEI, ME, EI, EPP, EIRELI, SA e Ltda. TREASY, 2017. Disponível em <https://bit.ly/2QxIcxu>. Acesso em 26 jun. 2019.
+
+CARAVANTES, G. R.P; KLOECKNER, C. M.; PANNO, C. Administração: teoria e processos. São Paulo: Pearson Prentice Hall, 2005.
 
 CARVALHO, José Luis Felício; FARIA, Marina Dias de. O teatro de improviso como proposta pedagógica na formação em ciências sociais aplicadas. Revista Interdisciplinar de Gestão Social, 3 (3), pp.79-104.
 
@@ -131,8 +140,6 @@ INSTITUTO FEDERAL DE EDUCAÇÃO CIÊNCIA E TECNOLOGIA CATARINENSE - CAMPUS IBIRA
 INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DE MINAS GERAIS. Projeto Pedagógico do Curso Auxiliar Administrativo Mulheres Mil - Educação, Cidadania e Desenvolvimento Sustentável. Belo Horizonte, 2015. Disponível em <https://bit.ly/2WA6jiK>. Acesso em *20 de mar. de 2020*.
 
 JUCESP. Guia Básico Sobre Formação de Nome Empresarial e Colidência. São Paulo: JUCESP, 2012.
-
-PEREIRA, Rodrigo da Cunha. O código de ética e a ética do código: algumas consideracões jurídicas. Psicol. cienc. prof.,  Brasília ,  v. 11, n. 1-4, p. 32-35,   1991 .   Disponível em <https://bit.ly/2Wy14QI>. acessos em  20  mar.  2020.
 
 RENNÓ, R. Administração Geral para Concursos. Rio de Janeiro, Campus Concursos, 2013. 645 p
 
