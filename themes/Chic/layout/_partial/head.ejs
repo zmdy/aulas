@@ -33,6 +33,13 @@ if (is_archive()){
 %>
 <title><% if (title){ %><%= title %> | <% } %><%= config.title %></title>
 
+<!-- HERE ARE SOME LIBARIES AND PERSONAL TOOLS OF THE SRC FOLDER -->
+<script src="/aulas.txt/src/libs/printjs/print.min.js"></script>
+<link rel="stylesheet" type="text/css" href="/aulas.txt/src/libs/printjs/print.min.css">
+<link rel="stylesheet" type="text/css" href="/aulas.txt/assets/media/fonts/icofont/icofont.css">
+<script>function printPage(){printJS({printable: 'aulas.txt', type: 'html', header: document.title, documentTitle: document.title});}</script>
+
+
 <%# favicon %>
 <% if (theme.favicon){ %>
     <link rel="icon" href="<%- url_for(theme.favicon) %>">
