@@ -6,13 +6,15 @@
 /** DEFINIÇÃO DAS LISTAS OK - NOT - WARNING **/
   .item-ok,
   .item-not,
-  .item-warning{
+  .item-warning,
+  .item-question{
     list-style-type: none;
   }
 
   .item-ok:before,
   .item-not:before,
-  .item-warning:before{
+  .item-warning:before,
+  .item-question:before{
     margin-right: 1%;
   }
 
@@ -45,6 +47,17 @@
 
   .item-warning{
     color: #d6af00;
+  }
+
+  /** ITEM QUESTION **/
+  .item-question:before{
+    content:  '\003f';
+    font-weight: bold;
+    color: #0066dd;
+  }
+  
+  .item-question{
+    color: #0066dd;
   }
 
 /** DEFINIÇÃO DOS LINKS **/

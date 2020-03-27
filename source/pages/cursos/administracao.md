@@ -126,8 +126,7 @@ DUNKER, Christian; THEBAS, Cláudio. O palhaço e o psicanalista: Como escutar o
 
 FERNANDES, R. Quais as diferenças entre MEI, EI, ME, EPP, EIRELI, LTDA e S.A.? CAPITAL SOCIAL, 2015. Disponível em <https://bit.ly/3dfOn2O>. Acesso em 26 jun. 2019.
 
-FERREIRA, Brenno Jadvas Soares. Fluxo espontâneo e capacidade de jogo: Estudos atorais a partir de princípios do Teatro-Esporte e do Match de Improvisação. Dissertação de Mestrado.
-Instituto de Artes- IARTE. Universidade Federal de Uberlândia. Uberlândia, 2015.
+FERREIRA, Brenno Jadvas Soares. Fluxo espontâneo e capacidade de jogo: Estudos atorais a partir de princípios do Teatro-Esporte e do Match de Improvisação. Dissertação de Mestrado. Instituto de Artes- IARTE. Universidade Federal de Uberlândia. Uberlândia, 2015.
 
 GRCIC, Joseph. Ethics: Theory and Practice (English Edition) - 7 ed. Terre Haute: Philosophy Department / Indiana State University, 2015. 675 p.
 
