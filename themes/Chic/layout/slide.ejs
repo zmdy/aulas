@@ -1,0 +1,25 @@
+<script>
+  window.onload = function(){
+    var 
+      content = document.querySelector("#slide-content").innerHTML,
+      metadata = content.split('---')[1];
+
+    // UPDATES THE CONTENT
+    content = content.replace(metadata, '').replace('------', '');
+
+    // REMOVES EVERYTHING FROM THE PAGE
+    document.body.innerHTML = '';
+    document.head.innerHTML = '';
+
+    // CALLS BONISA
+    Bonisa.init({
+      content: content,
+      SRC_DIR: '/aulas.txt/src/'
+    });
+    
+  }
+</script>
+
+<div id="slide-content">
+  <%- page.raw %>
+</div>
