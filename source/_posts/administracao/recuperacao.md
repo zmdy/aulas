@@ -14,5 +14,23 @@ O trabalho é composto por uma série de 25 exercícios que deverão ser resolvi
 
 Caso o aluno não consiga imprimir a lista, o mesmo deverá avisar ao professor **com antencedência**.
 
-<a href="../../../assets/content/administracao/trabalhos-de-recuperacao/trabalho-de-recuperacao.pdf" target="_blank"><i class="icofont-download"></i> Trabalho de Recuperação - Módulo 01</a>
+Abaixo seguem os trabalhos de recuperação de cada módulo do curso nos formatos PDF e DOCX (Word).
 
+## Módulo 01 - Auxiliar Administrativo
+<a href="../../../assets/content/administracao/trabalhos-de-recuperacao/modulo01 - trabalho-de-recuperacao.pdf" target="_blank"><i class="icofont-download"></i> MÓDULO 01 - Trabalho de Recuperação - PDF</a>
+
+<a href="../../../assets/content/administracao/trabalhos-de-recuperacao/modulo01 - trabalho-de-recuperacao.docx" target="_blank"><i class="icofont-download"></i> MÓDULO 01 - Trabalho de Recuperação - DOCX</a>
+
+## Módulo 02 - Contabilidade
+
+*Ainda não há conteúdos nesta categoria.*
+
+
+## Módulo 03 - Departamento Pessoal
+
+*Ainda não há conteúdos nesta categoria.*
+
+
+## Módulo 04 - Gestão de Pessoas
+
+*Ainda não há conteúdos nesta categoria.*
