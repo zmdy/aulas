@@ -19,7 +19,7 @@ Abaixo seguem os trabalhos de recuperação de cada módulo do curso nos formato
 ## Módulo 01 - Auxiliar Administrativo
 <a href="../../../assets/content/administracao/trabalhos-de-recuperacao/modulo01 - trabalho-de-recuperacao.pdf" target="_blank"><i class="icofont-download"></i> MÓDULO 01 - Trabalho de Recuperação - PDF</a>
 
-<a href="../../../assets/content/administracao/trabalhos-de-recuperacao/modulo01 - trabalho-de-recuperacao.pdf" target="_blank"><i class="icofont-download"></i> MÓDULO 01 - Trabalho de Recuperação - DOCX</a>
+<a href="../../../assets/content/administracao/trabalhos-de-recuperacao/modulo01 - trabalho-de-recuperacao.docx" target="_blank"><i class="icofont-download"></i> MÓDULO 01 - Trabalho de Recuperação - DOCX</a>
 
 ## Módulo 02 - Contabilidade
 
