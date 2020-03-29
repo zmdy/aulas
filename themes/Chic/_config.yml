@@ -5,7 +5,6 @@ navname: aulas.txt
 nav:
   Cursos: /pages/cursos
   Materiais: /pages/tag
-  Posts: /posts
   Manual: /pages/manual
   Sobre: /pages/sobre
 
