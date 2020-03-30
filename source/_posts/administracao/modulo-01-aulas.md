@@ -14,8 +14,8 @@ Acesse os recursos de cada aula do MÓDULO 01 - AUXILIAR ADMINISTRATIVO utilizan
 
 | Aula    | Conteúdo                            | Conteúdo da Aula |
 | :-----: | :-----:                             | :-----:          |
-| Aula 01 | Auxiliar Administrativo – Parte I   | [Acessar]()      | 
-| Aula 02 | Auxiliar Administrativo – Parte II  | [Acessar]()      |
+| Aula 01 | Auxiliar Administrativo – Parte I   | [Acessar](../aulas/aula-01)      | 
+| Aula 02 | Auxiliar Administrativo – Parte II  | [Acessar](../aulas/aula-02)      |
 | Aula 03 | Planejamento Financeiro - Parte I   | [Acessar]()      | 
 | Aula 04 | Planejamento Financeiro - Parte II  | [Acessar]()      | 
 | Aula 05 | Planejamento Financeiro - Parte III | [Acessar]()      | 

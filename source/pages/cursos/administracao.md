@@ -104,7 +104,9 @@ Distribuição das Notas dos Módulos
 
 ## Referências Bibliográficas
 
-BACARJI, Alencar Garcia. Formação Incial e Continuada Auxiliar Administrativo. Curitiba: Instituto Federal do Paraná, 2012.
+BACARJI, Alencar Garcia. Formação Incial e Continuada Auxiliar Administrativo. Curitiba: Instituto Federal do Paraná, 2012. Disponível em <https://bit.ly/2vZG4Y5>. Acesso en *20 de mar. de 2020*. 
+
+BÄCHTOLD, CIRO. Contabilidade Básica. Curitiba: Instituto Federal do Paraná, 2012.Disponível em <https://bit.ly/342pLX5>. Acesso en *20 de mar. de 2020*.
 
 BARRETO, João Marcelo. Introdução à Administração. Salvador: UFBA, Faculdade de Ciências Contábeis, Superintendência de Educação a Distância, 2017. 95 p.: il. Disponível em <https://bit.ly/3bm3Wo1>. 
 
@@ -121,6 +123,8 @@ CARAVANTES, G. R.P; KLOECKNER, C. M.; PANNO, C. Administração: teoria e proces
 CARVALHO, José Luis Felício; FARIA, Marina Dias de. O teatro de improviso como proposta pedagógica na formação em ciências sociais aplicadas. Revista Interdisciplinar de Gestão Social, 3 (3), pp.79-104.
 
 CHAUÍ, Marilena. Convite à filosofia. São Paulo: Editora Ática, 2000.
+
+CONWAY, Edmund. 50 ideias de economia que você precisa conhecer. São Paulo: Planeta do Brasil, 2015.
 
 DUNKER, Christian; THEBAS, Cláudio. O palhaço e o psicanalista: Como escutar os outros pode transformar vidas. São Paulo: Planeta do Brasil, 2019. 256 p.
 
