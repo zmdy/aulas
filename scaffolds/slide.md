@@ -3,7 +3,7 @@ title: {{ title }}
 layout: slide
 date: {{ date }}
 tags:
-- Slide
+- Slides
 ---
 
 # Welcome!
