@@ -1,6 +1,6 @@
 <div class="post-wrap archive">
     <% var last_year = ''; %>
-    <% page.posts.each(function (post) { %>
+    <% page.posts.sort('title', 'asc').each(function (post) { %>
         <% var cur_year = post.date.year(); %>
 
         <% if(last_year !== cur_year){ %>
