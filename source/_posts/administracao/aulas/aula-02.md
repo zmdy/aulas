@@ -215,7 +215,7 @@ As emoções de uma pessoa alteram a maneira como ela tende a responder este dil
 
 Independentemente das respostas a este e outros dilemas éticos, é importante ressaltar que estas decisões ainda se embasam na relação emocional das pessoas com o caso (RIBEIRO, 2020)- como revela o recente exemplo envolvendo o médico Drauzio Varella.
 
-> EXERCÍCIO: O que você faria nas duas situações envolvidas no Dilema do Bonde?
+> EXERCÍCIO: O que você faria nas duas situações envolvidas no Dilema do Bonde? Dê uma olhada [nesta criativa solução](https://www.youtube.com/watch?v=-N_RZJUAQY4).
 
 ---
 

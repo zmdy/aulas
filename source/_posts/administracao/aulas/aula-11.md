@@ -87,6 +87,8 @@ Outra crítica clássica a esta teoria está relacionada à excessiva carga de t
 
 > EXERCÍCIO: Explique como o taylor-fordismo possibilitou um aumento da produtividade nas fábricas.
 
+> EXERCÍCIO: Analise como [esta cena](https://www.youtube.com/watch?v=6n9ESFJTnHs) do filme Tempos Modernos (1936) exemplifica e critica o taylor-fordismo.
+
 ---
 
 ## Teoria Clássica da Administração - Fayol
@@ -113,38 +115,117 @@ Assim como Taylor, Fayol também se preocupava mais com os **aspectos internos d
 
 No contexto interno das organizações, a Teoria Clássica delimitou **14 princípios gerais**:
 
-1) Divisão do trabalho: consiste na especialização das tarefas e das pessoas para aumentar a eficiência;
+1) **Divisão do trabalho**: consiste na especialização das tarefas e das pessoas para aumentar a eficiência;
 
-2) Autoridade e responsabilidade: autoridade é o direito de dar ordens e o poder de esperar obediência. A responsabilidade é uma consequência natural da autoridade e significa o dever de prestar contas;
+2) **Autoridade e responsabilidade**: autoridade é o direito de dar ordens e o poder de esperar obediência. A responsabilidade é uma consequência natural da autoridade e significa o dever de prestar contas;
 
-3) Disciplina: depende de obediência, aplicação, energia, comportamento e respeito aos acordos estabelecidos;
+3) **Disciplina**: depende de obediência, aplicação, energia, comportamento e respeito aos acordos estabelecidos;
 
-4) Unidade de comando: cada empregado deve receber ordens de apenas um superior;
+4) **Unidade de comando**: cada empregado deve receber ordens de apenas um superior;
 
-5) Unidade de direção: uma cabeça e um plano para cada conjunto de atividades que tenham o mesmo objetivo;
+5) **Unidade de direção**: uma cabeça e um plano para cada conjunto de atividades que tenham o mesmo objetivo;
 
-6) Subordinação dos interesses individuais aos gerais;
+6) **Subordinação dos interesses individuais aos gerais**;
 
-7) Remuneração do pessoal: deve haver justa e garantida satisfação para os empregados e para a organização em termos de retribuição;
+7) **Remuneração do pessoal**: deve haver justa e garantida satisfação para os empregados e para a organização em termos de retribuição;
 
-8) Centralização: refere-se à concentração da autoridade no topo da hierarquia da organização;
+8) **Centralização**: refere-se à concentração da autoridade no topo da hierarquia da organização;
 
-9) Cadeia escalar: linha de autoridade que vai do escalão mais alto ao mais baixo da hierarquia;
+9) **Cadeia escalar**: linha de autoridade que vai do escalão mais alto ao mais baixo da hierarquia;
 
-10) Ordem: um lugar para cada coisa, e cada coisa em seu lugar;
+10) **Ordem**: um lugar para cada coisa, e cada coisa em seu lugar;
 
-11) Equidade: amabilidade e justiça para alcançar a lealdade dos empregados;
+11) **Equidade**: amabilidade e justiça para alcançar a lealdade dos empregados;
 
-12) Estabilidade do pessoal: a rotatividade do pessoal é prejudicial para a eficiência da organização;
+12) **Estabilidade do pessoal**: a rotatividade do pessoal é prejudicial para a eficiência da organização;
 
-13) Iniciativa: a capacidade de visualizar um plano e assegurar pessoalmente seu sucesso;
+13) **Iniciativa**: a capacidade de visualizar um plano e assegurar pessoalmente seu sucesso;
 
-14) Espírito de equipe: a harmonia e união entre as pessoas são grandes forças para a organização.
+14) **Espírito de equipe**: a harmonia e união entre as pessoas são grandes forças para a organização.
 
-Como problemas da Teoria Clássica, podemos citar a falta de preocupação com a organização informal das organizações (só focava na organização formal – linhas de autoridade, descrição de cargos, hierarquia etc.), além de uma ênfase exagerada na centralização, como o princípio da unidade de comando exemplifica.
+Como problemas da Teoria Clássica, podemos citar a **falta de preocupação com a organização informal** das organizações (só focava na organização formal – linhas de autoridade, descrição de cargos, hierarquia etc.), além de uma **ênfase exagerada na centralização**, como o princípio da unidade de comando exemplifica.
 
-A ideia de uma organização flexível ainda não estava na agenda. Infelizmente, a Teoria Clássica também não se preocupou muito com os aspectos ligados às pessoas. Temas como comunicação, motivação, negociação e liderança ainda eram pouco relevantes nestes estudos. Esse “vácuo” seria ocupado pela Teoria das Relações Humanas.
+A ideia de uma organização flexível ainda não estava na agenda. Infelizmente, a Teoria Clássica também não se preocupou muito com os **aspectos ligados às pessoas**. Temas como comunicação, motivação, negociação e liderança ainda eram pouco relevantes nestes estudos. Esse “vácuo” seria ocupado pela Teoria das Relações Humanas.
 
+> EXERCÍCIO: Analise como a utilização dos 14 Princípios Gerais de Fayol poderia ajudar no  [Restaurante Pé de Fava](https://www.youtube.com/watch?v=7WnrnIGRI6I), apresentado no  programa Pesadelo na Cozinha. Explique porque, de acordo com a Teoria de Fayol, Fábio não pode ser considerado [um bom administrador](https://www.youtube.com/watch?v=uiF03JTgJOg)?
+
+---
+
+# Teoria das Relações Humanas
+
+O crescimento das ciências sociais, como a psicologia, levou a diversos estudos dentro do contexto do homem no trabalho. Além disso, no início da década de 1930, a economia passou por uma grande depressão em todo o mundo. Com a crise, o desemprego cresceu muito.
+
+As **más condições de trabalho** predominavam na indústria, e os conflitos entre trabalhadores e patrões estavam aumentando. Nessa época, ocorreram muitas greves e conflitos nas fábricas por todo o mundo. 
+
+A ideia de que o homem deveria ser uma **engrenagem de uma “máquina”** passou a não ser mais aceita.  O Taylorismo começou a ser criticado por não se preocupar com o **aspecto humano**. Além disso, a produtividade prometida muitas vezes não se concretizou.
+
+Nesse cenário, a **Teoria das Relações Humanas** começou a tomar forma. Essa teoria buscou o aumento da produtividade através de uma atenção especial às pessoas. De acordo com seus teóricos, se os gestores **entendessem melhor seus funcionários** e se “adaptassem” a eles, as suas organizações teriam maior sucesso.
+
+Dentre os estudos que impulsionaram essa teoria se destacou o trabalho de um pesquisador de Harvard: **Elton Mayo**. Esse autor desenvolveu uma pesquisa dentro de uma indústria da **empresa Western Electric**, em Hawthorne. Seu intuito inicial foi entender o **efeito da iluminação no desempenho humano**.
+
+Qual foi a surpresa de Mayo ao descobrir que **uma mudança na iluminação – seja ela qual for – aumentava a motivação dos empregados**. Assim, ele aos poucos foi compreendendo que na verdade o que estava motivando esses funcionários era a **atenção dos pesquisadores**, não a iluminação em si.
+
+Esses **trabalhadores passaram a se sentir importantes**. Passaram a perceber que seu trabalho estava sendo observado e medido por pesquisadores. Com isso, se esforçavam mais. A iluminação em si era um aspecto menor. Já o **sentimento de orgulho** por fazer um trabalho bem-feito era fundamental no aumento da produtividade.
+
+Com essas descobertas, todo o enfoque da administração foi alterado. O foco de um gestor deveria ser voltado aos **aspectos emocionais e psicológicos** dos seus funcionários.
+
+Com esse aparecimento da noção de que a produtividade está ligada ao relacionamento entre as pessoas e ao funcionamento dos grupos dentro de uma empresa, nasceu essa nova teoria. O conceito que se remou então foi o de **Homem Social**.
+
+A pesquisa de Hawtorne mostrou que:
+
+1) **A integração social afeta a produtividade** – assim, não é a capacidade individual de cada funcionário o que de ne sua produtividade, e sim a sua capacidade social, sua integração no grupo.
+
+2) **O comportamento é determinado pelas regras do grupo** – os funcionários não agem isoladamente ou no vácuo, mas como membros de um grupo.
+
+3) **As organizações são formadas por grupos informais e formais** – volta-se o foco para os grupos que existem de modo informal na empresa e que não são relacionados aos cargos e funções.
+
+4) **A supervisão mais cooperativa aumenta produtividade** – o supervisor mais capaz é aquele que tem habilidade e capacidade de motivar e liderar seus funcionários em torno dos objetivos da empresa.
+
+5) **A autoridade do gerente deve se basear em competências sociais** – O gerente deve ser capaz de interagir, motivar e comandar seus funcionários. Apenas ter conhecimento técnico dos métodos de produção não é mais visto como o bastante
+
+Dessa maneira, a Teoria das Relações Humanas trouxe para o debate a necessidade de se criar um **ambiente de trabalho mais acolhedor** e de se compreender a influência da motivação e dos aspectos de **liderança** na produtividade das organizações. 
+
+Além disso, as **recompensas** não poderiam ser reduzidas aos **aspectos materiais**. O **reconhecimento social** é uma força motivadora, e um ambiente de trabalho saudável também influencia na produtividade.
+
+Apesar disso, a Teoria das Relações Humanas recebeu muitas **críticas**.  A primeira delas é a de que permaneceu a análise da organização como se ela existisse no vácuo, sem se relacionar com o “mundo exterior”. Ou seja, a abordagem de **sistema fechado** se manteve.
+
+A segunda é a de que **nem sempre** funcionários “felizes” e satisfeitos são **produtivos**. Ou seja, apenas os aspectos psicológicos e sociais não explicam de todo o fator produtividade.
+
+Outra crítica é a de que existiu uma **“negação” do conflito** inerente entre os funcionários e a empresa. Os **objetivos individuais** são muitas vezes diferentes dos objetivos organizacionais. Esse conflito deve ser administrado e não “negado”.
+
+Assim, podemos dizer que a Teoria das Relações Humanas se “esqueceu” dos **aspectos técnicos** envolvidos na produtividade. O aspecto humano é importante, mas não é a única variável da produtividade e do sucesso de uma organização.
+
+> EXERCÍCIO: Explique as [críticas](https://www.youtube.com/watch?v=e9dZQelULDk) da Teoria das Relações Humanas ao conceito de *Homo economicus*.
+
+---
+
+## Burocracia
+
+A **Teoria da Burocracia** foi mais uma que buscou adaptar as organizações aos novos desafios de uma sociedade moderna, com sua urbanização acelerada e a industrialização, que mudou o cenário econômico e social em que elas operavam.
+
+Com a industrialização e a introdução de regimes democráticos no meio do século XIX, as **sociedades** ficaram cada vez **mais complexas**. A introdução da máquina a vapor acarretou uma evolução tremenda dos meios de transporte. O** modelo burocrático** de Weber tinha como objetivo uma maior previsibilidade e **padronização** do desempenho dos seus funcionários, atingindo assim uma maior eficiência.
+
+O **modelo burocrático**, inspirado por Max Weber, veio então suprir a necessidade de impor uma administração adequada aos novos desafios do Estado moderno e das grandes empresas, com o objetivo de **combater o desperdício**, a ineficiência e a corrupção, ou seja, uma administração mais racional e impessoal. No caso específico das grandes empresas, o modelo buscava também o **aumento consistente da produção**.
+
+Dessa forma, o modelo burocrático surgiu como uma necessidade histórica baseada em uma sociedade cada vez mais complexa, em que as demandas sociais cresceram, e havia um ambiente com empresas cada vez maiores, com uma população que buscava uma maior participação nos destinos dos governos.
+
+Portanto, **não se podia** mais “depender” do arbítrio de um só indivíduo, sendo necessária a criação e aplicação de **regras gerais**.  As características da burocracia são:
+
+1) **Formalidade**:  a autoridade deriva de um **conjunto de normas** e leis, expressamente **escritas** e detalhadas. O poder do chefe é restrito aos objetivos propostos pela organização e somente é exercido no ambiente de trabalho – não na vida privada. As comunicações internas e externas também são todas padronizadas e formais.
+
+2) **Impessoalidade**: Os direitos e deveres são estabelecidos em normas. As **regras** são aplicadas de forma **igual a todos**, conforme seu cargo em função na organização. Segundo Weber, a Burocracia deve evitar lidar com elementos humanos, como a raiva, o ódio, o amor, ou seja, as emoções e as irracionalidades. As pessoas devem ser **promovidas por mérito**, e não por ligações afetivas. O poder é ligado não às pessoas, mas aos **cargos** – só se tem o poder em decorrência de estar ocupando um cargo.
+
+3) **Profissionalização**: As organizações são comandadas por **especialistas**, remunerados em dinheiro (e não em honrarias, títulos de nobreza, sinecuras, prebendas etc.), contratados pelo seu **mérito e seu conhecimento** (e não por alguma relação afetiva ou emocional).
+
+O modelo burocrático se caracterizou pela **meritocracia** na forma de contratação e promoção dos empregados. No setor público, temos o exemplo dos concursos públicos. Esse tipo de ingresso nas carreiras públicas buscou eliminar o hábito arraigado do **modelo patrimonialista** de ocupar espaço no aparelho do Estado através de **trocas de cargos públicos por favores pessoais ao soberano**.
+
+Além disso, outra característica importante da burocracia é a noção de **hierarquia**. Toda a organização é feita de modo hierarquizado, com a autoridade sendo baseada nas normas e leis internas que determinam a competência de cada cargo. Assim, seu chefe tem o **poder e a autoridade** concedidos a ele por deter um cargo acima do seu. A obediência é ao cargo e não à pessoa.
+
+Portanto, as organizações são estruturadas em vários **níveis hierárquicos**, em que o nível de cima controla o de baixo. É o que chamamos de **estrutura verticalizada**, na qual as decisões são tomadas na cúpula (topo da hierarquia ou nível estratégico). Essa situação acaba gerando uma **demora na tomada de decisões** e no fluxo de informações dentro da organização!
+
+Hoje em dia, o termo Burocracia virou sinônimo de **ineficiência e lentidão**, pois conhecemos os defeitos do modelo (que chamamos de **disfunções da Burocracia**), mas ele foi um passo adiante na sua época!
+
+> EXERCÍCIO: Analise os prós e contras da Teoria da Burocracia de Max Weber. Como esta teoria se apresenta nesta [animação](https://www.youtube.com/watch?v=kQjtK32mGJQ)?
 
 ---
 
