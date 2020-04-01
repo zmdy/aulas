@@ -24,7 +24,8 @@ Nesta aula iremos estudar o Código de Ética do Administrador, e aprenderemos s
 4. [Ética Profissional](#Etica-Profissional)
 5. [Comportamentos Profissionais](#Comportamentos-Profissionais)
 5. [Tipos de Empresa](#Tipos-de-Empresa)
-6. [Referências Bibliográficas](#Referencias-Bibliograficas)
+6. [Resumo](#Resumo)
+7. [Referências Bibliográficas](#Referencias-Bibliograficas)
 
 ---
 
@@ -84,6 +85,15 @@ Alguns exemplos de **regras morais** da nossa sociedade contemporânea são:
   <li class='item-ok'>Consumir determinados produtos culturais, como séries, filmes e músicas (cultura de massa)</li>
 </ul>
 
+Como a **moralidade** varia de cultura para cultura, há regras de conduta que não se aplicam em todas as sociedades. Para os indígenas, hindus e muitas tribos africanas, as pinturas corporais (e a maquiagem) são, em diversos rituais, obrigatórios, pelo fato de possuirem um significado cultural muito forte e enraizado. Já os muçulmanos acreditam que as tatuagens e pinturas corporais (e cirurgias plásticas) são erradas, pois representam uma tantativa de se alterar aquilo que foi criado por *Allah*.
+
+Imagine que um muçulmano analise as crenças indígenas sobre pinturas corporais: para eles (muçulmanos) as pinturas corporais são erradas e, logo, os indígenas apresentam comportamentos **imorais** (contrários à moral).
+
+Da mesma forma, para um indígena ou hindu, a falta de pinturas corporais em rituais sagrados é errada, e, logo, também imoral.
+
+Por outro lado, se considerarmos alguém neturo, que não possua nenhum pré-conceito sobre tatuagens e pinturas corporais, a presença ou falta de pinturas, por si só, não faz de alguém bom ou ruim. Esta pessoa neutra possui uma visão **amoral** sobre as tatuagens.
+
+> EXERCÍCIO: Explique, com suas palavras, a diferença entre imoral, amoral, antiético e aético.
 
 ### Ética
 
@@ -108,7 +118,7 @@ Alguns exemplos de **questionamentos éticos** são:
 
 ## Teorias Éticas
 
-Assim como existem diferentes visões morais sobre o mundo (lembre-se do exemplo da Ilha de Tonga), existem diferentes Teorias Éticas sobre a realidade. Iremos analisar brevemente 4 diferentes teorias: A *Teoria do Comando Divino*; A *Teoria Deontológica*; A *Teoria Consequencialista*; e por fim a *Teoria Contratualista*.
+Assim como existem diferentes visões morais sobre o mundo (lembre-se do exemplo da Ilha de Tonga), existem diferentes Teorias Éticas sobre as nossas ações. Iremos analisar brevemente 4 diferentes teorias: A *Teoria do Comando Divino*; A *Teoria Deontológica*; A *Teoria Consequencialista*; e por fim a *Teoria Contratualista*.
 
 ### Teoria do Comando Divino
 
@@ -217,6 +227,22 @@ Independentemente das respostas a este e outros dilemas éticos, é importante r
 
 > EXERCÍCIO: O que você faria nas duas situações envolvidas no Dilema do Bonde? Dê uma olhada [nesta criativa solução](https://www.youtube.com/watch?v=-N_RZJUAQY4).
 
+### Teoria Contratualista
+
+Imagine um mundo sem regras, onde nada é ilegal ou imoral: todos são absolutamente **livres**.
+
+Se, por um lado, este mundo parece ser utópico e libertador (já que não existiriam pressões sociais para estudar, trabalhar ou se preocupar com as outras pessoas e o futuro), por outro, pelo menos de acordo com o filósofo britânico **Thomas Hobbes**, este mundo seria seu pior pesadelo.
+
+Hobbes acreditava que as pessoas são, por natureza, egoístas, competitivas, orgulhosas, vingativas e ambiciosas: "*o homem é o lobo do homem*".
+
+Este mundo sem regras, como o descrito acima, foi chamado por Hobbes de **estado de natureza**. Neste mundo a vida seria uma constante guerra, de todos contra todos.
+
+Deste ponto de vista, a **moralidade** surge como uma **necessidade e um pacto**. A violência extrema provocada pela total liberdade individual faz com que as pessoas, com o tempo, abram mão de parte de sua liberdade em nome de sua própria segurança. Este **contrato social**, ou seja, o pacto feito entre as pessoas em nome de sua segurança individual, dá origem (para Hobbes) ao Estado.
+
+**Jean Jacques Rousseau**, séculos mais tarde, chegou em conclusões semelhantes às de Hobbes: para uma boa convivência entre as pessoas é necessário instituir um **contrato social** que garanta a liberdade e a segurança de todos. É bom ressaltar que Rousseau, ao contrário de Hobbes, acreditava que o **estado de natureza** do homem é livre, virtuoso, piedoso, amoral e bondoso.
+
+Ambos os filósofos ressaltam que as pessoas são, naturalmente *amorais e aéticas*. A moralidade e a ética surgem a partir do momento em que se institui um conjunto de regras para a conviência em sociedade, ou seja, por meio do **contrato social**.
+
 ---
 
 ## Ética Profissional
@@ -315,6 +341,27 @@ Em relação às empresas quanto ao objetivo financeiro, tem-se:
 
 ---
 
+# Resumo
+
+- Precisamos ter **consciência** sobre nós mesmos e nossas realizações; saber o que queremos já é um bom começo para o nosso sucesso.
+
+- Quando falamos sobre **ética ou moral**, estamos nos referindo aos costumes, comportamentos e hábitos de um povo ou sociedade. As duas palavras são traduzidas para o português como **costume**: *ethos* tem origem grega; e *mores* tem origem latina.
+  - A **moral** está relacionada ao **agir de acordo com os costumes** e regras socialmente difundidas.
+  - A **ética** nasce quando se passa a indagar o que são, de onde vêm e o que valem os costumes.
+
+- Assim como existem diferentes visões morais sobre o mundo, existem **diferentes Teorias Éticas** sobre as ações humanas.
+  - **Teoria do Comando Divino**: afirma que Deus (ou os deuses) são os responsáveis por *comandar e escolher* aquilo que é certo e errado;
+  - **Teoria Deontológica**: afirma que devemos seguir o Imperativo Categórico para decidir o que é certo e errado: *devemos agir da maneira como gostaríamos que todas as outras pessoas agissem - desde que isso não desrespeite sua autonomia*;
+  - **Teoria Consequencialista**: as ações devem ser analisadas em termos de quanta **felicidade ou prazer** elas produzem;
+  - **Teoria Contratualista**: afirma que a moralidade surge para garantir a liberdade por meio de regras sociais (Contrato Social).
+
+- Os Códigos de Ética Profissional são um conjunto de regras éticas próprias que orienta e direciona o comportamento dos profissionais da área.
+  - O Código de Ética do Administrador possui 23 artigos que dispõe sobre direitos, deveres e proibições inerentes aos profissionais administrativos.
+
+-  As empresas podem ser classificadas de acordo com **seu tipo de atividade** (INDÚSTRIA, COMÉRCIO E PRESTAÇÃO DE SERVIÇOS) ou com o **objetivo financeiro** (COM OU SEM FINS LUCRATIVOS).
+
+---
+
 ## Referências Bibliográficas
 
 ARRUDA, J. L. A ética nossa de cada dia. Estado de São Paulo, São Paulo, 4 de set. de 2018. Disponível em <https://bit.ly/2wFxJsQ>. Acesso em *27 de mar. de 2020*.
@@ -336,6 +383,8 @@ NELSEN, E. Would you sacrifice one person to save five? TED Ed, 2016. Disponíve
 RIBEIRO, F. T. Críticas a Drauzio revelam "lado B" da empatia, diz neurocientista. UOL, 10 de mar. de 2020. Disponível em <https://bit.ly/3dwfOp8>. Acesso em *29 de mar. de 2020*.
 
 TATIM, W. G. Imperativo Categórico. Filosofia na Escola, 1 de set. de 2019a. Disponível em <https://bit.ly/2Up3mjB>. Acesso em *29 de mar. de 2020*.
+
+TATIM, W. G. Utilitarismo. Filosofia na Escola, 1 de set. de 2019b. Disponível em <https://bit.ly/3bCLis7>. Acesso em *29 de mar. de 2020*.
 
 TATIM, W. G. Utilitarismo. Filosofia na Escola, 1 de set. de 2019b. Disponível em <https://bit.ly/3bCLis7>. Acesso em *29 de mar. de 2020*.
 

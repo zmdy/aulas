@@ -29,7 +29,8 @@ Sem mais delongas, *allons-y*!
 3. [Exercício Prático - Conhece-te a ti mesmo](#Exercicio-Pratico-Conhece-te-a-ti-mesmo)
 4. [Eficiência, Eficácia e Efetividade](#Eficiencia-Eficacia-e-Efetividade)
 5. [Vendendo Ideias!](#Vendendo-Ideias)
-6. [Referências Bibliográficas](#Referencias-Bibliograficas)
+6. [Resumo](#Resumu)
+7. [Referências Bibliográficas](#Referencias-Bibliograficas)
 
 ---
 
@@ -43,7 +44,7 @@ Por outro lado, para produzirem os bolos e pães da padaria, a equipe técnica n
 
 É neste contexto de *organizar e planejar* uma organização que surge a Administração.
 
-> A administração é o processo de consecução dos objetivos organizacionais de uma maneira eficiente, eficaz e efetiva, por meio do planejamento, da organização, da liderança e do controle dos recursos organizacionais.(CARAVANTES, 2005)
+"A administração é o processo de consecução dos objetivos organizacionais de uma maneira eficiente, eficaz e efetiva, por meio do planejamento, da organização, da liderança e do controle dos recursos organizacionais".(CARAVANTES, 2005)
 
 O auxiliar administrativo surge neste contexto como um **profissional multitarefas**, pois sua rotina abrange diferentes tarefas e dificilmente será monótona,pois ele sempre estará mudando de atividades e auxiliando diferentes setores da empresa.
 
@@ -155,7 +156,7 @@ Peter Drucker, considerado o Pai da Administração Moderna, disse certa vez: "*
 
 ## Vendendo Ideias!
 
-Joseph Scumpeter afirma que para sobreviverem e se desenvolverem, as empresas do mundo capitalista *precisam* inovar! Este impulso de mudança recebe o nome de *destruição criativa*.
+Joseph Schumpeter afirma que para sobreviverem e se desenvolverem, as empresas do mundo capitalista *precisam* inovar! Este impulso de mudança recebe o nome de *destruição criativa*.
 
 O conceito de Schumpeter está relacionado às **novas ideias** que são diariamente apresentadas no mercado. Estas ideias precisam ser, acima de tudo, viáveis e condizentes com a situação presente da empresa.
 
@@ -167,11 +168,25 @@ Toda ideia apresenta, por si só, **pontos fortes e fracos**. Não apresente uma
 - Analisar a sua **viabilidade** consiste em relacionar estes pontos positivos e negativos, buscando sempre solucionar todas possíveis objeções;
 - Há sempre um **momento certo** para apresentar suas ideias: o melhor momento é quando um projeto necessita ser planejado ou um problema foi detectado. 
 
-
 Se você tem uma ideia inovadora, precisará se preparar para dialogar e negociar com os detentores do capital para transformá-la em sucesso. Por isso, não basta apenas ter uma grande ideia. Os desafios atuais vão muito além da destruição criativa! (DORNELAS, 2014)
 
 > EXERCÍCIO: Maricleuza abriu uma empresa que produz produtos de beleza e higiene. No entanto, por ser nova no setor, sua empresa ainda não é muito conhecida no mercado.
 Planeje uma ideia que ajuda a empresa de Maricleuza a se tornar reconhecida. Analise sua ideia, levando em consideração os prós e contras, e a viabilidade da mesma.
+
+---
+
+## Resumo
+
+- A função do auxiliar administrativo é  dar apoio à administração de uma empresa em suas tarefas diárias, realizando **tarefas diversas e em diferentes setores**, como, por exemplo: compras, pessoal, logística, estoque, financeiro, marketing, etc.
+
+- 57% dos auxiliares administrativos possuem graduação e 12% têm Inglês Intermediário (CATHO, 2020), o que significa que a **especialização** é essencial para esta área! Saber utilizar o **Pacote Office**, se comunicar bem e demonstrar força de vontade e prontidão são competências importantes para se tornar um bom Auxiliar Administrativo.
+
+- A **Análise SWOT**, também conhecida como Matriz FOFA é uma estratégia utilizada para identificar os pontos fortes e fracos de uma pessoa, situação, ideia ou empresa.
+
+- **Eficiência** e **eficácia** são palavras semelhantes, mas com significados diferentes:  `Eficiência` consiste em utilizar bem os recursos e `Eficácia` consiste em atingir o objetivo ou metas de uma tarefa.
+
+- Toda ideia apresenta, por si só, **pontos fortes e fracos**. Há sempre um **momento certo** para apresentar suas ideias: o melhor momento é quando um projeto necessita ser planejado ou um problema foi detectado. 
+
 
 ---
 

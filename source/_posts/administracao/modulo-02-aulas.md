@@ -14,7 +14,7 @@ Acesse os recursos de cada aula do MÓDULO 02 - CONTABILIDADE utilizando os link
 
 | Aula    | Conteúdo                                      | Conteúdo da Aula |
 | :-----: | :-----:                                       | :-----:          |
-| Aula 01 | Introdução                                    | [Acessar]()      | 
+| Aula 01 | Introdução                                    | [Acessar](../aulas/aula-11)       | 
 | Aula 02 | Economia e Contabilidade                      | [Acessar]()      | 
 | Aula 03 | Pessoa Física x Jurídica – Tipos de Empresa   | [Acessar]()      | 
 | Aula 04 | Contrato Social e Alteração Contratual        | [Acessar]()      | 
@@ -26,4 +26,4 @@ Acesse os recursos de cada aula do MÓDULO 02 - CONTABILIDADE utilizando os link
 | Aula 10 | Apurando Resultados / DRE                     | [Acessar]()      | 
 | Aula 11 | TRABALHO PARCIAL II                           | [Acessar]()      | 
 | Aula 12 | Revisão                                       | [Acessar]()      | 
-| Aula 13 | PROVA FINAL                                   | [Acessar]()      | 
+| Aula 13 | PROVA FINAL                                   | [Acessar](../provas-anteriores) | 

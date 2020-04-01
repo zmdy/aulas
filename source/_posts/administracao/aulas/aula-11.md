@@ -30,11 +30,12 @@ Com tudo isso em mente, vamos lá!
 
 ## Sumário da Aula
 
-1. [O que é ser Auxiliar Administrativo](#O-que-e-ser-Auxiliar-Administrativo)
-2. [O mercado de Auxiliar Administrativo](#O-mercado-de-Auxiliar-Administrativo)
-3. [Exercício Prático - Conhece-te a ti mesmo](#Exercicio-Pratico-Conhece-te-a-ti-mesmo)
-4. [Eficiência, Eficácia e Efetividade](#Eficiencia-Eficacia-e-Efetividade)
-5. [Vendendo Ideias!](#Vendendo-Ideias)
+1. [Como Surgiu a Administração](#Como-Surgiu-a-Administracao)
+2. [Taylor & Ford - Teoria Científica da Administração](#Taylor-E-Ford-Teoria-Cientifica-da-Administracao)
+3. [Fayol - Teoria Clássica da Administração](#Fayol-Teoria-Classica-da-Administracao)
+4. [Mayo -Teoria das Relações Humanas](#Mayo-Teoria-das-Relacoes-Humanas)
+5. [Weber - Burocracia](#Weber-Burocracia)
+6. [Resumo](#Resumo)
 6. [Referências Bibliográficas](#Referencias-Bibliograficas)
 
 ---
@@ -59,7 +60,7 @@ Nas fábricas, os funcionários faziam seu trabalho de **forma empírica**, ou s
 
 ---
 
-# Taylorismo - Teoria Científica da Administração
+## Taylor & Ford - Teoria Científica da Administração
 
 A Administração Científica buscou, então, a **melhoria da ciência (técnica) da produtividade**. Com isso, passou-se a estudar então a “melhor maneira” de se fazer as tarefas. Esse trabalho foi chamado de **estudo de tempos e movimentos**.
 
@@ -91,7 +92,7 @@ Outra crítica clássica a esta teoria está relacionada à excessiva carga de t
 
 ---
 
-## Teoria Clássica da Administração - Fayol
+## Fayol - Teoria Clássica da Administração
 
 Em um contexto semelhante ao da Administração Científica (pois foram geradas na mesma época), a **Teoria Clássica da Administração**, desenvolvida por Henri Fayol, buscou a melhoria da ciência administrativa através do foco nas **estruturas organizacionais**.
 
@@ -151,7 +152,7 @@ A ideia de uma organização flexível ainda não estava na agenda. Infelizmente
 
 ---
 
-# Teoria das Relações Humanas
+## Mayo - Teoria das Relações Humanas
 
 O crescimento das ciências sociais, como a psicologia, levou a diversos estudos dentro do contexto do homem no trabalho. Além disso, no início da década de 1930, a economia passou por uma grande depressão em todo o mundo. Com a crise, o desemprego cresceu muito.
 
@@ -199,7 +200,7 @@ Assim, podemos dizer que a Teoria das Relações Humanas se “esqueceu” dos *
 
 ---
 
-## Burocracia
+## Weber - Burocracia
 
 A **Teoria da Burocracia** foi mais uma que buscou adaptar as organizações aos novos desafios de uma sociedade moderna, com sua urbanização acelerada e a industrialização, que mudou o cenário econômico e social em que elas operavam.
 
@@ -226,6 +227,35 @@ Portanto, as organizações são estruturadas em vários **níveis hierárquicos
 Hoje em dia, o termo Burocracia virou sinônimo de **ineficiência e lentidão**, pois conhecemos os defeitos do modelo (que chamamos de **disfunções da Burocracia**), mas ele foi um passo adiante na sua época!
 
 > EXERCÍCIO: Analise os prós e contras da Teoria da Burocracia de Max Weber. Como esta teoria se apresenta nesta [animação](https://www.youtube.com/watch?v=kQjtK32mGJQ)?
+
+---
+
+## Resumo
+
+- A Revolução Industrial provocou mudanças gigantescas na estrutura social e produtiva no mundo inteiro, fazendo com que as pessoas migrassem **dos campos para as cidades**.
+
+- A falta de qualificação e know-how dos funcionários (habilidades e técnicas) fez com que, inicialmente, houvesse grande desperdício (de tempo e de matéria prima) e empirismo (tudo era feito por meio da tentativa e erro) durante as etapas de produção.
+
+- **Taylor**, autor da **Administração Científica**, buscou resolver este problema por meio de reformas com **ênfase na cadeia produtiva** (processo). Com isso foi criada a **padronização de atividades** e a divisão de tarefas (**especialização**). Esta teoria indicou o pagamento por produtividade como forma compensação ao esforço dos
+funcionários.
+  - **Henry Ford** aperfeiçoou o modelo de Taylor ao introduzir a **esteira e a mecanização** do trabalho como forma de **produção em massa**.
+
+- **Fayol** desenvolveu a Teoria Clássica da Administração que deu maior ênfase à **estrutura interna** das fábricas e empresas como maneiras de se aumentar a produtividade por meio da **organização**. Para isso definiu as 6 funções empresariais; as 5 funções do administrador; e os 14 princípios gerais da Administração
+
+- A **Teoria das Relações Humanas** inaugurou a ideia do **Homem Social**:  as relações sociais e a motivação são fatores importantes para a produtividade, complementando a ideia então vigente do *Homo economicus* (o principal incentivo a uma pessoa no trabalho é a remuneração).
+
+- A **Teoria da Burocracia** de **Weber** surgiu para delimitar a criação e utilização de **regras**, regulamentos e critérios formais (escritos) e impessoais (seguido por todos) como forma de se coordenar uma
+empresa. A burocracia inclui a **profissionalização**, a estruturação vertical (**hierarquia**) das empresas e a **meritocracia** como características importantes para o bom gerenciamento de organizações (empresariais ou governamentais).
+
+- Todas as teorias vistas acima são de **sistema fechado** focadas no ambiente interno das fábricas e empresas, ignorando os fatores externos, como concorrência e clientes.
+
+| TEORIA           | AUTOR          | CARACTERÍSTICA PRINCIPAL         |
+| :--:             | :-----:        | :---:                            |
+| Científica       | Taylor         | Organizar o processo de produção |
+| Científica       | Ford           | Mecanizar o processo de produção (esteira) |
+| Clássica         | Fayol          | Organizar e estruturar a empresa |
+| Relações Humanas | Mayo           | Reconhecer e motivar os funcionários |
+| Burocracia       | Weber          | Criação de regras e regulamentos formais e impessoais |
 
 ---
 

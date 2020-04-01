@@ -14,13 +14,12 @@ Acesse os recursos de cada aula do MÓDULO 01 - AUXILIAR ADMINISTRATIVO utilizan
 
 | Aula    | Conteúdo                            | Conteúdo da Aula |
 | :-----: | :-----:                             | :-----:          |
-| Aula 01 | Auxiliar Administrativo – Parte I   | [Acessar](../aulas/aula-01)      | 
-| Aula 02 | Auxiliar Administrativo – Parte II  | [Acessar](../aulas/aula-02)      |
-| Aula 03 | Planejamento Financeiro - Parte I   | [Acessar]()      | 
-| Aula 04 | Planejamento Financeiro - Parte II  | [Acessar]()      | 
-| Aula 05 | Planejamento Financeiro - Parte III | [Acessar]()      | 
-| Aula 06 | TRABALHO PARCIAL                    | [Acessar]()      | 
-| Aula 07 | Impostos e Notas Fiscais            | [Acessar]()      | 
-| Aula 08 | Comunicação e Empreendedorismo      | [Acessar]()      | 
-| Aula 09 | Revisão                             | [Acessar]()      | 
-| Aula 10 | PROVA FINAL                         | [Acessar]()      | 
+| Aula 01 | Auxiliar Administrativo – Parte I   | [Acessar](../aulas/aula-01) | 
+| Aula 02 | Auxiliar Administrativo – Parte II  | [Acessar](../aulas/aula-02) |
+| Aula 03 | Planejamento Financeiro - Parte I   | <a href="../../../assets/content/administracao/modulo-01/03 - Resumo - Aula 03.pdf" target="_blank"><i class="icofont-download"></i> Acessar Material Antigo</a> | 
+| Aula 04 e 05 | Planejamento Financeiro - Parte II  | <a href="../../../assets/content/administracao/modulo-01/04 - Resumo - Aula 04 e 05.pdf" target="_blank"><i class="icofont-download"></i> Acessar Material Antigo</a> | 
+| Aula 06 | TRABALHO PARCIAL                    | <a href="../../../assets/content/administracao/modulo-01/05 - Revisão - Aulas 01 a 05.pdf" target="_blank"><i class="icofont-download"></i> Acessar Material Antigo</a> | 
+| Aula 07 | Impostos e Notas Fiscais            | <a href="../../../assets/content/administracao/modulo-01/07 - Resumo - Aula 07.pdf" target="_blank"><i class="icofont-download"></i> Acessar Material Antigo</a> | 
+| Aula 08 | Comunicação e Empreendedorismo      | <a href="../../../assets/content/administracao/modulo-01/08 - Resumo - Aula 08.pdf" target="_blank"><i class="icofont-download"></i> Acessar Material Antigo</a>| 
+| Aula 09 | Revisão                             | <a href="../../../assets/content/administracao/modulo-01/09 - Revisão - Aulas 01 a 08.pdf" target="_blank"><i class="icofont-download"></i> Acessar Material Antigo</a> | 
+| Aula 10 | PROVA FINAL                         | [Acessar](../provas-anteriores) | 
