@@ -35,11 +35,18 @@ if (is_archive()){
 
 <!-- HERE ARE SOME LIBARIES AND PERSONAL TOOLS OF THE SRC FOLDER -->
 <script src="/aulas.txt/src/js/bonisa.min.js"></script>
-<link rel="stylesheet" type="text/css" href="/aulas.txt/src/libs/paper-css/paper.css">
+<script src="/aulas.txt/src/libs/printjs/print.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="/aulas.txt/src/libs/printjs/print.css">
 <link rel="stylesheet" type="text/css" href="/aulas.txt/assets/media/fonts/icofont/icofont.css">
 <script>
   function printPage(){
-    window.print();
+    //window.print();
+    printJS({
+        printable: 'aulasTXT', type: 'html',
+        header: null,
+        css: '/aulas.txt/css/style.css'
+    });
   }
 </script>
 

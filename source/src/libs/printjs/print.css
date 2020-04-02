@@ -1,12 +1,5 @@
+/** Trick to remove CHROME titles **/
 @page { margin: 0; }
-body { margin: 0 }
-.sheet {
-  margin: 0;
-  overflow: hidden;
-  position: relative;
-  box-sizing: border-box;
-  page-break-after: always;
-}
 
 /** Paper sizes **/
 body.A3               .sheet { width: 297mm; height: 419mm }
@@ -27,36 +20,32 @@ body.legal.landscape  .sheet { width: 357mm; height: 215mm }
 .padding-20mm { padding: 20mm }
 .padding-25mm { padding: 25mm }
 
-/** Fix for Chrome issue #273306 **/
-@media print {
-  *{
-    orphans: 10;
-    widows: 10;
-  }
+*{
+  orphans: 10;
+  widows: 10;
+}
 
-  .navbar,
-  .navbar-mobile,
+body.A3.landscape { width: 420mm }
+body.A3, body.A4.landscape { width: 297mm }
+body.A4, body.A5.landscape { width: 210mm }
+body.A5                    { width: 148mm }
+body.letter, body.legal    { width: 216mm }
+body.letter.landscape      { width: 280mm }
+body.legal.landscape       { width: 357mm }
+
+hr { display: none; }
+
+h2  { page-break-before: always; margin-top: 10mm;}
+
+img { 
+  width: 150mm;
+  margin: 12.5mm 0;
+}
+
+@media print {
   .post-toc,
   .post-nav,
-  .post-tags,
-  #footer{
+  .post-tags{
     visibility: hidden;
-  }
-
-  body.A3.landscape { width: 420mm }
-  body.A3, body.A4.landscape { width: 297mm }
-  body.A4, body.A5.landscape { width: 210mm }
-  body.A5                    { width: 148mm }
-  body.letter, body.legal    { width: 216mm }
-  body.letter.landscape      { width: 280mm }
-  body.legal.landscape       { width: 357mm }
-
-  hr { display: none; }
-
-  h2  { page-break-before: always; margin-top: 10mm;}
-
-  img { 
-    width: 150mm;
-    margin: 12.5mm 0;
   }
 }
