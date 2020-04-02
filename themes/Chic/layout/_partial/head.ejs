@@ -39,36 +39,7 @@ if (is_archive()){
 <link rel="stylesheet" type="text/css" href="/aulas.txt/assets/media/fonts/icofont/icofont.css">
 <script>
   function printPage(){
-		// Define as configurações originais da página
-		var onPrintFinished = function(printed){
-			// Volta a visualização ao normal
-			document.querySelector('*').style.visibility = 'visible';
-			
-			// Volta o título ao normal
-			document.title += ' | aulas.txt';
-		}
-
-		// Altera a página para o tema claro
-		document.getElementsByTagName('body')[0].classList.remove('dark-theme');
-		document.getElementById("mobile-toggle-theme").innerText = "· Light";
-
-		// Altera a visualização dos elementos
-  	document.querySelector('*').style.visibility = 'hidden';
-		document.querySelector('#aulasTXT').style.visibility = 'visible';
-		document.querySelector('.post-toc').style.visibility = 'hidden';
-		document.querySelector('.post-nav').style.visibility = 'hidden';
-
-		// Muda o título da página provisoriamente
-		document.title = document.title.replace(' | aulas.txt', '');
-
-		// Imprime a página
-		onPrintFinished(window.print());
-
-
-		
-
-		
-
+    window.print();
   }
 </script>
 

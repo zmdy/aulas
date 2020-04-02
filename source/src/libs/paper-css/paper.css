@@ -21,11 +21,11 @@ body.legal            .sheet { width: 216mm; height: 356mm }
 body.legal.landscape  .sheet { width: 357mm; height: 215mm }
 
 /** Padding area **/
-.sheet.padding-05mm { padding: 5mm }
-.sheet.padding-10mm { padding: 10mm }
-.sheet.padding-15mm { padding: 15mm }
-.sheet.padding-20mm { padding: 20mm }
-.sheet.padding-25mm { padding: 25mm }
+.padding-05mm { padding: 5mm }
+.padding-10mm { padding: 10mm }
+.padding-15mm { padding: 15mm }
+.padding-20mm { padding: 20mm }
+.padding-25mm { padding: 25mm }
 
 /** Fix for Chrome issue #273306 **/
 @media print {
@@ -33,6 +33,16 @@ body.legal.landscape  .sheet { width: 357mm; height: 215mm }
     orphans: 10;
     widows: 10;
   }
+
+  .navbar,
+  .navbar-mobile,
+  .post-toc,
+  .post-nav,
+  .post-tags,
+  #footer{
+    visibility: hidden;
+  }
+
   body.A3.landscape { width: 420mm }
   body.A3, body.A4.landscape { width: 297mm }
   body.A4, body.A5.landscape { width: 210mm }
@@ -40,8 +50,11 @@ body.legal.landscape  .sheet { width: 357mm; height: 215mm }
   body.letter, body.legal    { width: 216mm }
   body.letter.landscape      { width: 280mm }
   body.legal.landscape       { width: 357mm }
+
   hr { display: none; }
+
   h2  { page-break-before: always; margin-top: 10mm;}
+
   img { 
     width: 150mm;
     margin: 12.5mm 0;

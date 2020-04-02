@@ -31,7 +31,7 @@ Com tudo isso em mente, vamos lá!
 ## Sumário da Aula
 
 1. [Como Surgiu a Administração](#Como-Surgiu-a-Administracao)
-2. [Taylor & Ford - Teoria Científica da Administração](#Taylor-E-Ford-Teoria-Cientifica-da-Administracao)
+2. [Taylor & Ford - Teoria Científica da Administração](#Taylor-amp-Ford-Teoria-Cientifica-da-Administracao)
 3. [Fayol - Teoria Clássica da Administração](#Fayol-Teoria-Classica-da-Administracao)
 4. [Mayo -Teoria das Relações Humanas](#Mayo-Teoria-das-Relacoes-Humanas)
 5. [Weber - Burocracia](#Weber-Burocracia)
@@ -50,9 +50,15 @@ Embora seja frequentemente aplicada à gestão de empresas e organizações, as 
 
 A **Revolução Industrial** provocou enormes mudanças na estrutura social e produtiva em todo o mundo. A utilização de **máquinas a vapor** proporcionou formas mais rápidas de transportes (trens e navios a vapor) que permitiu às empresas levarem seus produtos para um público cada vez maior e mais distante.
 
+> IMAGEM MAQUINA A VAPOR
+
 Esse novo maquinário levou a um novo tipo de processo produtivo: a **produção em massa**. A **produtividade** e a **velocidade de produção** foram ampliadas exponencialmente. As pequenas oficinas e artesanatos aos poucos deram espaço a **grandes indústrias**, em que o ambiente de trabalho era insalubre e perigoso, com jornadas de trabalho de mais de doze horas diárias.
 
+> IMAGEM TRABALHADORES
+
 A indústria na época contratava, em grande parte, os **moradores do campo**, que eram atraídos por melhores salários para executarem trabalhos manuais. Devido à **falta de qualificação** (e também às condições desumanas e degradantes de trabalho) existia, então, um **grande desperdício e pouca técnica**.
+
+> IMAGEM FÁBRICA
 
 Nas fábricas, os funcionários faziam seu trabalho de **forma empírica**, ou seja, na base da tentativa e erro. Os gerentes não estudavam as melhores formas de se trabalhar. **Frederick Taylor** foi o primeiro teórico a buscar uma solução para este problema por meio da **Teoria da Administração Científica**, também conhecida como **Taylorismo**. 
 
@@ -69,6 +75,8 @@ O trabalho do operário era **analisado e cronometrado**, de modo que os gerente
 Após a definição do modo mais rápido e fácil de executar uma tarefa (por exemplo, a montagem de uma roda), os funcionários eram treinados para executá-las dessa forma – criando assim uma **padronização do trabalho**.
 
 Essa padronização evitaria a execução de tarefas desnecessárias por parte dos empregados. Tudo isso ajudaria na **economia de esforços** e **evitaria uma rápida fadiga humana**.
+
+> TAYLOR
 
 Outro aspecto importante foi a **divisão do trabalho**. De acordo com os teóricos da Administração Científica, seria muito mais fácil treinar e capacitar um funcionário a executar uma tarefa específica (aparafusar um assento, por exemplo) do que fazer todo o trabalho sozinho (montar uma bicicleta inteira, por exemplo).
 
@@ -268,7 +276,6 @@ BÄCHTOLD, CIRO. Contabilidade Básica. Curitiba: Instituto Federal do Paraná, 
 GULLO, J. Administração: Para quem estuda, ensina e pratica. São Paulo, Bom Dia, 2006. 147 p
 
 NOGUEIRA, R.; BOLPETI, E. R.;SANTOS, C. F. C. dos. Síndrome de Burnout. Um estudo dos fatores mais relevantes que a desencadeiam.
-
 
 RENNÓ, R. Administração Geral para Concursos. Rio de Janeiro, Campus Concursos, 2013. 645 p
 
