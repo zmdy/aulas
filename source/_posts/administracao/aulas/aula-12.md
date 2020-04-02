@@ -125,4 +125,6 @@ GULLO, J. Administração: Para quem estuda, ensina e pratica. São Paulo, Bom D
 
 NOGUEIRA, R.; BOLPETI, E. R.;SANTOS, C. F. C. dos. Síndrome de Burnout. Um estudo dos fatores mais relevantes que a desencadeiam.
 
+OLIVO, Ana Maria; BOSCHILIA, Luiz. Contabilidade geral e gerencial: conceitos introdutórios para os cursos superiores de tecnologia. Florianópolis: Publicações do IF-SC, 2012. 102 p. : il.
+
 RENNÓ, R. Administração Geral para Concursos. Rio de Janeiro, Campus Concursos, 2013. 645 p

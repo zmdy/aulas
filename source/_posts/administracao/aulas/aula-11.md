@@ -16,11 +16,14 @@ Se desejar, você poderá realizar o *download* deste ou qualquer outro conteúd
 
 Sugiro, para estudos complementares deste curso o material descrito nas referências bibliográficas, em especial:
 
-[BÄCHTOLD, CIRO. Contabilidade Básica](http://redeetec.mec.gov.br/images/stories/pdf/proeja/contabil_basica.pdf)
+[BÄCHTOLD, Ciro. Contabilidade Básica](http://redeetec.mec.gov.br/images/stories/pdf/proeja/contabil_basica.pdf)
 
 [CONWAY, Edmund. 50 ideias de economia que você precisa conhecer](http://lelivros.love/book/baixar-livro-50-ideias-de-economia-edmund-conway-em-pdf-epub-e-mobi-ou-ler-online/)
 
 [DALIO, Ray. How The Economic Machine Works by Ray Dalio](https://www.youtube.com/watch?v=0unv5QSsoCs)
+
+[OLIVO, A. M.; BOSCHILIA, L. Contabilidade geral e gerencial - conceitos introdutórios
+para os cursos superiores de tecnologia](https://www.ifsc.edu.br/documents/30701/523474/Livro_contabilidade_miolo.pdf/f149d841-667c-9e0f-5cd2-a8bfb13d4ebf)
 
 [STUDIO 306. Como Funciona a Economia?](https://www.youtube.com/watch?v=YDF3kNQhfGY)
 
@@ -276,6 +279,8 @@ BÄCHTOLD, CIRO. Contabilidade Básica. Curitiba: Instituto Federal do Paraná, 
 GULLO, J. Administração: Para quem estuda, ensina e pratica. São Paulo, Bom Dia, 2006. 147 p
 
 NOGUEIRA, R.; BOLPETI, E. R.;SANTOS, C. F. C. dos. Síndrome de Burnout. Um estudo dos fatores mais relevantes que a desencadeiam.
+
+OLIVO, Ana Maria; BOSCHILIA, Luiz. Contabilidade geral e gerencial: conceitos introdutórios para os cursos superiores de tecnologia. Florianópolis: Publicações do IF-SC, 2012. 102 p. : il.
 
 RENNÓ, R. Administração Geral para Concursos. Rio de Janeiro, Campus Concursos, 2013. 645 p
 
