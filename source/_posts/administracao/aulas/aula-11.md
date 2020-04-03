@@ -20,12 +20,11 @@ Sugiro, para estudos complementares deste curso o material descrito nas referên
 
 [CONWAY, Edmund. 50 ideias de economia que você precisa conhecer](http://lelivros.love/book/baixar-livro-50-ideias-de-economia-edmund-conway-em-pdf-epub-e-mobi-ou-ler-online/)
 
-[DALIO, Ray. How The Economic Machine Works by Ray Dalio](https://www.youtube.com/watch?v=0unv5QSsoCs)
+[<i class="icofont-ui-video-chat"></i> DALIO, Ray. How The Economic Machine Works by Ray Dalio](https://www.youtube.com/watch?v=0unv5QSsoCs)
 
-[OLIVO, A. M.; BOSCHILIA, L. Contabilidade geral e gerencial - conceitos introdutórios
-para os cursos superiores de tecnologia](https://www.ifsc.edu.br/documents/30701/523474/Livro_contabilidade_miolo.pdf/f149d841-667c-9e0f-5cd2-a8bfb13d4ebf)
+[OLIVO, A. M.; BOSCHILIA, L. Contabilidade geral e gerencial - conceitos introdutórios para os cursos superiores de tecnologia](https://www.ifsc.edu.br/documents/30701/523474/Livro_contabilidade_miolo.pdf/f149d841-667c-9e0f-5cd2-a8bfb13d4ebf)
 
-[STUDIO 306. Como Funciona a Economia?](https://www.youtube.com/watch?v=YDF3kNQhfGY)
+[<i class="icofont-ui-video-chat"></i> STUDIO 306. Como Funciona a Economia?](https://www.youtube.com/watch?v=YDF3kNQhfGY)
 
 Com tudo isso em mente, vamos lá!
 
