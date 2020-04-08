@@ -185,29 +185,72 @@ Empréstimos, cartões de crédito e financiamentos são alguns dos **tipos de c
 
 ### Crédito e Consumo
 
+O crédito funciona como um **empréstimo**. Desta forma ele permite **aumentar o consumo** das pessoas a curto e médio prazo. A longo prazo, no entanto, a situação é diferente (logo veremos porquê).
 
+Apesar de ser uma importante parte da economia, o crédito ainda é bastante mal-compreendido. Parte desta confusão vêm de sua própria natureza: o crédito pode **surgir espontâneamente**, do nada.
+
+Imagine que você vá até um bar para comprar uma bebida (se você for menor de 18 anos ou de exatas, considere que você foi comprar um **Toddynho**). Esta transação será considerada **concluída** quando você tiver pago, em dinheiro, o dono do bar.
+
+![economia-transações-bar-dinheiro](../../../../assets/media/img/economia/exemplo-bar-dinheiro.jpg)
+(Imagem retirada do vídeo de [Ray Dalio](https://www.youtube.com/watch?v=PHe0bXAIuk0) - Todos os direitos reservados aos seus autores)
+
+Como nossa economia tem as opções de empréstimo e crédito, você poderia levar <strike>sua bebida </strike> seu *Toddyinho* para casa e só depois de um tempo pagar o dono do Bar.
+
+Esta opção de **crédito** não precisa estar relacionada diretamente ao **cartão de crédito**. Caso você comprasse o seu produto "*fiado*" e, futuramente, pagasse a sua dívida, você também estaria utilizando-se do crédito.
+
+![economia-transações-bar-credito](../../../../assets/media/img/economia/exemplo-bar-credito.jpg)
+(Imagem retirada do vídeo de [Ray Dalio](https://www.youtube.com/watch?v=PHe0bXAIuk0) - Todos os direitos reservados aos seus autores)
+
+Toda vez que o crédito é criado ele irá gerar 2 produtos diferentes: o **crédito** e o **débito**.
+
+![economia-transações-credito-e-debito](../../../../assets/media/img/economia/credito-debito.gif)
+(Imagem retirada do vídeo de [Ray Dalio](https://www.youtube.com/watch?v=PHe0bXAIuk0) - Todos os direitos reservados aos seus autores)
+
+Para o **devedor**, aquela transação gerou um **débito**, ou seja, uma **obrigação financeira** que deverá ser paga no futuro. Já para o **credor** aquela mesma transação gerou um **crédito**, ou seja, um **direito** de que ele irá receber o dinheiro emprestado, acrescido ou não de juros, no futuro.
+
+Quando o devedor pagar em dinheiro seu débito com o credor a transação será finalizada, e o crédito/débito deixará de existir.
+
+![economia-transações-bar-credito-pago](../../../../assets/media/img/economia/exemplo-bar-credito-pago.jpg)
+(Imagem retirada do vídeo de [Ray Dalio](https://www.youtube.com/watch?v=PHe0bXAIuk0) - Todos os direitos reservados aos seus autores)
+
+Por outro lado, caso o devedor dê um **calote** no seu credor e não pague a sua dívida, aquela relação de confiança criada no início do processo será quebrada, e com isso o devedor será **negativado** no mercado, tornando muito mais difícil que ele consiga outro empréstimo ou crédito. Do ponto de vista do credor, ele sairá lesionado nesta situação e poderá até mesmo recorrer a **meios jurídicos** para recuperar o seu dinheiro!
+
+![economia-transações-bar-credito-calote](../../../../assets/media/img/economia/exemplo-bar-calote.jpg)
+(Imagem retirada do vídeo de [Ray Dalio](https://www.youtube.com/watch?v=PHe0bXAIuk0) - Todos os direitos reservados aos seus autores)
+
+É importante perceber, acima de tudo, que o crédito significa uma maneira de se aumentar o consumo, **gerar mais transações** e com isso manter a economia funcionando.
+
+No entanto, para que os créditos não se tornem apenas uma infinidade de **calotes financeiros**, o devedor deverá **quitar** suas dívidas. Isto significa que, em algum momento no futuro ele deverá utilizar **parte do seu dinheiro** para pagar sua dívida. Com isso ele terá **menos dinheiro físico** para utilizar, e com isso poderá recorrer novamente ao crédito.
+
+![economia-ciclo-do-credito](../../../../assets/media/img/economia/credito-ciclo-consumidor.gif)
+(Imagem retirada do vídeo de [Ray Dalio](https://www.youtube.com/watch?v=PHe0bXAIuk0) - Todos os direitos reservados aos seus autores)
+
+
+Não pense, no entanto, que o crédito é algo ruim! O próprio Ray Dalio afirma que este recurso deve ser utilizado para **aumentar nossa capacidade de gerar valor**. Isto significa que utilizar o crédito para comprar um *TV de Tela Plana 4K Full-HD 3D pt-br vinda de Marte, que fala árabe e cuida dos seus filhos* pode não ser uma escolha tão boa quanto comprar um trator (ou utilizar o crédito para pagar as parcelas de um curso ou faculdade), já que este segundo exemplo irá ampliar sua capacidade de gerar renda!
+
+Repare que esta série de eventos constitui um **ciclo**! Quanto mais crédito alguém utilizar no presente, menos dinheiro ele terá no futuro (já que precisa pagar suas dívidas) e com isso ele poderá recorrer novamente ao crédito.
 
 ### Inflação, Deflação e Crises
 
-*Material em produção*
+Todos os ciclos de inflação, deflação, crises e *booms econômicos* surgem deste fenômeno! Quanto mais pessoas estiverem devendo seus credores, menos eles vão querem emprestar e com isso menos crédito terá disponível no mercado.
 
 ---
 
 ## Contabilidade e Economia
 
-*Material em produção*
+![Material em Produção](../../../../assets/media/img/wallpapers/producao.gif)
 
 ---
 
 ## Conceitos Contábeis
 
-*Material em produção*
+![Material em Produção](../../../../assets/media/img/wallpapers/producao.gif)
 
 ---
 
 ## Resumo
 
-*Material em produção*
+![Material em Produção](../../../../assets/media/img/wallpapers/producao.gif)
 
 ---
 
