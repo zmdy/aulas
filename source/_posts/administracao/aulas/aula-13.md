@@ -10,17 +10,17 @@ tags:
 
 Bem vindx a mais uma aula de Contabilidade.
 
-Hoje, finalmente, iremos entender o que é a Contabilidade e qual a importância dela no contexto da administração das empresas.
-
-Além disso, aprenderemos o básico sobre economia e sua importância social.
+Hoje aprenderemos o básico sobre economia e sua importância social e na organização empresarial. Aprenderemos também sua relação com a Contabilidade.
 
 Para melhor entender os conceitos desta aula, sugiro o material descrito nas referências bibliográficas, em especial:
 
-[BÄCHTOLD, Ciro. Contabilidade Básica](http://redeetec.mec.gov.br/images/stories/pdf/proeja/contabil_basica.pdf)
+[BÄCHTOLD. Contabilidade Básica](http://redeetec.mec.gov.br/images/stories/pdf/proeja/contabil_basica.pdf)
 
 [<i class="icofont-ui-video-chat"></i> DALIO, Ray. How The Economic Machine Works by Ray Dalio](https://www.youtube.com/watch?v=0unv5QSsoCs)
 
-[OLIVO, A. M.; BOSCHILIA, L. Contabilidade geral e gerencial - conceitos introdutórios para os cursos superiores de tecnologia](https://www.ifsc.edu.br/documents/30701/523474/Livro_contabilidade_miolo.pdf/f149d841-667c-9e0f-5cd2-a8bfb13d4ebf)
+[OLIVEIRA & MOREIRA. Noções de Contabilidade Básica Para Cursos Técnicos](https://www.ifb.edu.br/attachments/6243_no%C3%A7%C3%B5es%20de%20contabilidade%20b%C3%A1sica%20para%20cursos%20t%C3%A9cnicos%20final.pdf)
+
+[OLIVO & BOSCHILIA. Contabilidade geral e gerencial - conceitos introdutórios para os cursos superiores de tecnologia](https://www.ifsc.edu.br/documents/30701/523474/Livro_contabilidade_miolo.pdf/f149d841-667c-9e0f-5cd2-a8bfb13d4ebf)
 
 Assista, em especial, o vídeo do Ray Dalio sobre a máquina econômica, e sua versão resumida:
  
@@ -32,9 +32,9 @@ Vamos lá!
 
 ## Sumário da Aula
 
-1. [Teoria Estruturalista](#Teoria-Estruturalista)
-2. [Teoria de Sistemas](#Teoria-de-Sistemas)
-3. [Teoria Contingencial](#Teoria-Contingencial)
+1. [Como funciona a economia?](#Como-Funciona-a-Economia)
+2. [A Máquina Econômica de Ray Dalio](#A-Maquina-Economica-de-Ray-Dalio)
+3. [Contabilidade e Economia](#Contabilidade-e-Economia)
 4. [Resumo](#Resumo)
 5. [Referências Bibliográficas](#Referencias-Bibliograficas)
 
@@ -225,32 +225,99 @@ No entanto, para que os créditos não se tornem apenas uma infinidade de **calo
 ![economia-ciclo-do-credito](../../../../assets/media/img/economia/credito-ciclo-consumidor.gif)
 (Imagem retirada do vídeo de [Ray Dalio](https://www.youtube.com/watch?v=PHe0bXAIuk0) - Todos os direitos reservados aos seus autores)
 
+Não pense, no entanto, que o crédito é algo ruim! O próprio Ray Dalio afirma que este recurso deve ser utilizado para **aumentar nossa capacidade de gerar valor** -ou seja, aumentar nossa renda.
 
-Não pense, no entanto, que o crédito é algo ruim! O próprio Ray Dalio afirma que este recurso deve ser utilizado para **aumentar nossa capacidade de gerar valor**. Isto significa que utilizar o crédito para comprar um *TV de Tela Plana 4K Full-HD 3D pt-br vinda de Marte, que fala árabe e cuida dos seus filhos* pode não ser uma escolha tão boa quanto comprar um trator (ou utilizar o crédito para pagar as parcelas de um curso ou faculdade), já que este segundo exemplo irá ampliar sua capacidade de gerar renda!
+Isto significa que utilizar o crédito para comprar um *TV de Tela Plana 4K Full-HD 3D pt-br vinda de Marte, que fala árabe e leva seu cachorro para passear* pode não ser uma escolha tão boa quanto comprar um trator (ou utilizar o crédito para pagar as parcelas de um curso ou faculdade), já que este segundo exemplo irá ampliar sua capacidade de gerar renda a médio ou longo prazo!
 
 Repare que esta série de eventos constitui um **ciclo**! Quanto mais crédito alguém utilizar no presente, menos dinheiro ele terá no futuro (já que precisa pagar suas dívidas) e com isso ele poderá recorrer novamente ao crédito.
 
+> EXERCÍCIO: Dê exemplos da boa e má utilização do crédito.
+
 ### Inflação, Deflação e Crises
 
-Todos os ciclos de inflação, deflação, crises e *booms econômicos* surgem deste fenômeno! Quanto mais pessoas estiverem devendo seus credores, menos eles vão querem emprestar e com isso menos crédito terá disponível no mercado.
+Todos os ciclos de inflação, deflação, crises e *booms econômicos* surgem deste fenômeno cíclico! Quanto mais pessoas estiverem devendo seus credores, menos eles vão querem emprestar e com isso menos crédito terá disponível no mercado.
+
+Este primeiro impacto do crédito na economia a curto prazo recebe o nome de **Ciclo de Dívida de Curto Prazo**. Este nome pomposo apenas indica que inicialmente, quando há crédito disponível no mercado, a economia têm uma **expansão**, ou seja, há muitas transações acontecendo - logo, há mais pessoas comprando coisas e gerando renda.
+
+Por um lado, essa expansão da economia (graças à Lei da Oferta e Demanda) leva a um **aumento de preços**, pois as pessoas estão dispostas a pagar mais pelos bens e serviços. Esse aumento de preços é a famosa **inflação**.
+
+Lembra-se que para Ray Dalio a economia nada mais é do que uma **máquina**, composta por pessoas, empresas, bancos e o Governo.
+
+O Governo desempenha um importante papel na Economia, pois ele o maior comprador e vendedor. Primeiramente, é importante lembrar que o Governo é composto por 2 importantes partes: o Governo Central (que coleta impostos e gasta MUITO dinheiro) e o Banco Central (que imprime dinheiro novo e controla as taxas de crédito).
+
+![economia-governo](../../../../assets/media/img/economia/governo-partes.jpg)
+(Imagem retirada do vídeo de [Ray Dalio](https://www.youtube.com/watch?v=PHe0bXAIuk0) - Todos os direitos reservados aos seus autores)
+
+Quando a inflação econômica sobe, o Governo aumenta as taxas de juros (no Brasil essa taxa é a SELIC) e, com isso, menos pessoas irão pedir empréstimos (crédito) e mais pessoas passarão a dever seus credores (pois elas não terão mais tanto dinheiro ou crédito para gastar).
+
+![economia-banco-central-taxas-sobem](../../../../assets/media/img/economia/banco-central-taxas-sobem.jpg)
+(Imagem retirada do vídeo de [Ray Dalio](https://www.youtube.com/watch?v=PHe0bXAIuk0) - Todos os direitos reservados aos seus autores)
+
+Quando as pessoas compram menos, os preços caem: isto é **deflação**. Apesar de parecer, a princípio uma coisa boa (pois os produtos ficam mais baratos), as deflações criam **recessão econômica**, pois, lembre-se: não há crédito disponível no mercado, e mesmo com os preços mais baixos as TAXAS DE JUROS ainda estão altas!
+
+Para resolver o problema e tirar a economia da recessão, o Banco Central baixa as taxas de juros. Com isso, em pouco tempo, a economia passará por outra expansão.
+
+![economia-banco-central-taxas-caem](../../../../assets/media/img/economia/banco-central-taxas-caem.jpg)
+(Imagem retirada do vídeo de [Ray Dalio](https://www.youtube.com/watch?v=PHe0bXAIuk0) - Todos os direitos reservados aos seus autores)
+
+O **Ciclo de Dívida de Curto Prazo** ocorre, entre uma expansão e outra (ciclo completo), a cada **5 a 8 anos** e sempre se repete, por décadas.
+
+![economia-curto-prazo](../../../../assets/media/img/economia/economia-curto.jpg)
+(Imagem retirada do vídeo de [Ray Dalio](https://www.youtube.com/watch?v=PHe0bXAIuk0) - Todos os direitos reservados aos seus autores)
+
+É importante avisar que, entre um ciclo e outro há **crescimento econômico**: o PIB aumenta, as taxas de desemprego tendem a diminuir, e tudo **parece funcionar bem**. No entanto, nesse ciclo dos empréstimos e crédito, as pessoas tendem a **pegar mais e mais empréstimos** ao invés de quitar as suas dívidas.
+
+Com isso, a longo prazo, a situação muda: as dívidas crescem mais do que as rendas: entra em ação o **Ciclo de Dívida de Longo Prazo**, que estudaremos em outra aula.
+
+Por ora, é importante pensar nos seguintes pontos:
+
+1) A economia funciona a partir de transações, que criam mercados.
+
+2) Crédito e empréstimos permitem que mais transações aconteçam e, com isso, a economia se aqueça a curto prazo.
+
+3) De tempos em tempos o Governo, por meio do Banco Central, deve intervir na economia para controlar as taxas de juros.
 
 ---
 
 ## Contabilidade e Economia
 
-![Material em Produção](../../../../assets/media/img/wallpapers/producao.gif)
+O 1º Congresso Brasileiro de Contabilidade, que aconteceu de 17 a 24 de agosto de 1924, aprovou como oficial, a seguinte definição para a contabilidade:
 
----
+“*É a ciência que estuda e pratica as funções de orientação, controle e registro relativo aos atos e fatos da administração econômica*”.
 
-## Conceitos Contábeis
+A Contabilidade busca entender a dinâmica de funcionamento das empresas para ajudar seus gestores a tomar decisões e traçar objetivos para a entidade. Isso significa que é com as ferramentas contábeis que podemos conhecer a real situação de uma empresa e até mesmo prever o seu futuro.
 
-![Material em Produção](../../../../assets/media/img/wallpapers/producao.gif)
+Entender as dinâmicas de funcionamento do mercado, bem como os eventos econômicos de cada momento (desvalorização, inflação, deflação, crises...) são essenciais para uma boa análise contábil.
+
+Todas as empresas nascem com uma finalidade. A grande maioria das empresas visa resultados financeiros; outras buscam resultados sociais; outras buscam expansão. Mas no final, todas buscam atingir os objetivos traçados.
+
+A contabilidade é indispensável para que a empresa realize negócios, por exemplo, com órgãos governamentais (por meio de contratos e licitações), ou com os bancos, com fornecedores, etc (BÄCHTOLD, 2012).
+
+A própria expansão e continuidade das empresas dependem das análises contábeis: Nos últimos anos, o SEBRAE (Serviço Brasileiro de Apoio às Micro e Pequenas Empresas) vem realizando pesquisas para detectar o índice de mortalidade (fechamento) das empresas no primeiro ano de vida (abertura). Na mais recente pesquisa, os números apontavam que cerca de 48% dos negócios são fechados antes de completar 12 meses de funcionamento.
+
+A principal causa desta mortalidade é a falta de planejamento e controle dos negócios. Em suma, é a falta de Contabilidade. (BÄCHTOLD, 2012). 
+
+> EXERCÍCIO: Explique as relações entre a contabilidade e a economia.
 
 ---
 
 ## Resumo
 
-![Material em Produção](../../../../assets/media/img/wallpapers/producao.gif)
+- E **economia** é composta por pessoas, empresas, bancos e o Governo e funciona de **modo mecânico**.
+
+- A base de toda a máquina econômica de Ray Dalio são as **transações**: toda vez que um **comprador** adquire um produto, serviço ou ativo financeiro de um **vendedor**, por meio de *dinheiro ou crédito*, ocorre uma transação.
+
+- Um **mercado** consiste em todos os **compradores e vendedores** fazendo transações pela mesma coisa (produto, serviço ou ativo): há mercados de trigo, automóveis, alimentos, ações, e, claro, padarias.
+
+- A própria **Economia**, por sua vez, é o conjunto de todas as transações de todos os mercados que existem.  Embora pareça complexa à primeira vista, um economia é apenas a **soma de diversas transações** acontecendo ao mesmo tempo.
+ 
+- Os preços dos produtos ou serviços envolvidos nas transações seguem a **Lei da Oferta e Demanda**: 
+
+- Os preços raramente estão em **equilíbrio**, pois apresentam variações chamadas de **sazionalidades ou ruídos**. Estas variações incentivam ou reprimem os consumidores a comprarem, o que pode levar a **inflação** e **crises econômicas**.
+
+- Crédito e empréstimos são acordos de **confiança financeira** feitos entre devedores e credores. Estes empréstimos permitem que mais transações aconteçam e, com isso, a economia se aqueça a curto prazo.
+
+- De tempos em tempos o Governo, por meio do Banco Central, deve intervir na economia para controlar as taxas de juros.
 
 ---
 
@@ -267,6 +334,8 @@ GULLO, J. Administração: Para quem estuda, ensina e pratica. São Paulo, Bom D
 MOTTA, F. C. P. A teoria geral dos sistemas na teoria das organizações. Rev. adm. empres.,  São Paulo ,  v. 11, n. 1, p. 17-33,  Mar.  1971 .   Disponível em <http://www.scielo.br/scielo.php?script=sci_arttext&pid=S0034-75901971000100003&lng=en&nrm=iso>. Acesso en *03 de abr. de 2020*.
 
 NOGUEIRA, R.; BOLPETI, E. R.;SANTOS, C. F. C. dos. Síndrome de Burnout. Um estudo dos fatores mais relevantes que a desencadeiam.
+
+OLIVEIRA, M. S. de; MOREIRA, S C. Noções de contabilidade básica para cursos técnicos. Brasília, DF : Instituto Federal de Educação, Ciência e Tecnologia de Brasília, 2012. 120p.
 
 OLIVO, Ana Maria; BOSCHILIA, Luiz. Contabilidade geral e gerencial: conceitos introdutórios para os cursos superiores de tecnologia. Florianópolis: Publicações do IF-SC, 2012. 102 p. : il.
 
