@@ -16,7 +16,7 @@ Se desejar, você poderá realizar o *download* deste ou qualquer outro conteúd
 
 Sugiro, para estudos complementares deste curso o material descrito nas referências bibliográficas, em especial:
 
-[BACARJI, Alencar Garcia. Formação Inicial e Continuada: Auxiliar Administrativo](https://www.ifmg.edu.br/portal/extensao/pronatec/cursos/cursos-fic/projeto-pedagogico-de-curso-auxiliar-administrativo)
+[BACARJI, A. G. Formação Inicial e Continuada: Auxiliar Administrativo](https://bit.ly/3e9aqsA)
 
 Sem mais delongas, *allons-y*!
 
@@ -29,7 +29,7 @@ Sem mais delongas, *allons-y*!
 3. [Exercício Prático - Conhece-te a ti mesmo](#Exercicio-Pratico-Conhece-te-a-ti-mesmo)
 4. [Eficiência, Eficácia e Efetividade](#Eficiencia-Eficacia-e-Efetividade)
 5. [Vendendo Ideias!](#Vendendo-Ideias)
-6. [Resumo](#Resumu)
+6. [Resumo](#Resumo)
 7. [Referências Bibliográficas](#Referencias-Bibliograficas)
 
 ---
@@ -147,7 +147,6 @@ Peter Drucker, considerado o Pai da Administração Moderna, disse certa vez: "*
 `Efetividade` consiste em ser, ao mesmo tempo, eficiente e eficaz.
 
 > EXERCÍCIO: Gustavo e Gabriela são dois estudantes de um curso de Francês. Gabriela conseguiu, em um único dia, ler um livro indicado pelo professor. Gustavo, por outro lado, demorou 15 dias para terminar o mas livro, mas foi melhor que Gabriela na prova sobre o mesmo. Quem foi mais eficiente? E quem foi mais eficaz?
-
 
 ![Matriz FOFA - Exemplo Netflix](../../../../assets/media/img/ferramentas-gestao-desempenho/conceito-efetividade.png)
 
