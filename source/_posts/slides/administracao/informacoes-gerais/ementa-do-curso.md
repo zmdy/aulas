@@ -1,6 +1,7 @@
 ---
 title: Informações do Curso
 layout: slide
+theme: default
 tags:
   - Slides
 date: 2020-03-29 18:06:00

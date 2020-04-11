@@ -2,7 +2,8 @@
   window.onload = function(){
     var 
       content = document.querySelector("#slide-content").innerHTML,
-      metadata = content.split('---')[1];
+      metadata = content.split('---')[1],
+      theme = content.split('theme:')[1].replace(' ', '').split('\n')[0] || 'default';
 
     // UPDATES THE CONTENT
     content = content.replace(metadata, '').replace('------', '');
@@ -14,7 +15,8 @@
     // CALLS BONISA
     Bonisa.init({
       content: content,
-      SRC_DIR: '/aulas.txt/src/'
+      SRC_DIR: '/aulas.txt/src/',
+      themes: theme
     });
     
   }
