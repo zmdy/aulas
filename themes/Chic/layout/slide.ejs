@@ -1,9 +1,14 @@
+<% if (theme.favicon){ %>
+  <link rel="icon" href="<%- url_for(theme.favicon) %>">
+<% } %>
+
 <script>
   window.onload = function(){
     var 
       content = document.querySelector("#slide-content").innerHTML,
       metadata = content.split('---')[1],
-      theme = content.split('theme:')[1].replace(' ', '').split('\n')[0] || 'default';
+      theme = content.split('theme:')[1].replace(' ', '').split('\n')[0] || 'default',
+      title = content.split('title:')[1].replace(' ', '').split('\n')[0] || 'aulas.txt - Apresentação';
 
     // UPDATES THE CONTENT
     content = content.replace(metadata, '').replace('------', '');
@@ -16,9 +21,9 @@
     Bonisa.init({
       content: content,
       SRC_DIR: '/aulas.txt/src/',
-      themes: theme
+      themes: theme,
+      title: title
     });
-    
   }
 </script>
 
