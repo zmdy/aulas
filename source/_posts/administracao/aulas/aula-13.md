@@ -333,10 +333,8 @@ GULLO, J. Administração: Para quem estuda, ensina e pratica. São Paulo, Bom D
 
 MOTTA, F. C. P. A teoria geral dos sistemas na teoria das organizações. Rev. adm. empres.,  São Paulo ,  v. 11, n. 1, p. 17-33,  Mar.  1971 .   Disponível em <http://www.scielo.br/scielo.php?script=sci_arttext&pid=S0034-75901971000100003&lng=en&nrm=iso>. Acesso en *03 de abr. de 2020*.
 
-NOGUEIRA, R.; BOLPETI, E. R.;SANTOS, C. F. C. dos. Síndrome de Burnout. Um estudo dos fatores mais relevantes que a desencadeiam.
-
 OLIVEIRA, M. S. de; MOREIRA, S C. Noções de contabilidade básica para cursos técnicos. Brasília, DF : Instituto Federal de Educação, Ciência e Tecnologia de Brasília, 2012. 120p.
 
 OLIVO, Ana Maria; BOSCHILIA, Luiz. Contabilidade geral e gerencial: conceitos introdutórios para os cursos superiores de tecnologia. Florianópolis: Publicações do IF-SC, 2012. 102 p. : il.
 
-RENNÓ, R. Administração Geral para Concursos. Rio de Janeiro, Campus Concursos, 2013. 645 p
+RENNÓ, R. Administração Geral para Concursos. Rio de Janeiro, Elsevier, 2013.

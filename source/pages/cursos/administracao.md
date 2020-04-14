@@ -58,8 +58,8 @@ Distribuição das Notas dos Módulos
 | Conceito + Presença  | 05 pontos  | 
 | Caderno              | 10 pontos  | 
 | Lista de Exercícios  | 15 pontos  | 
-| 1° Trabalho em Grupo | 10 pontos  |
-| 2° Trabalho em Grupo | 20 pontos  |
+| Trabalho Parcial     | 10 pontos  |
+| Trabalho de Conclusão| 20 pontos  |
 | Prova Parcial        | 10 pontos  |
 | Prova Final          | 30 pontos  |
 | **TOTAL**            |**100 pontos**|
