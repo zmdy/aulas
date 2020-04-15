@@ -2,7 +2,6 @@
 title: Aula 03 -  Módulo 01 - Auxiliar Administrativo
 date: 2020-04-09 15:54:44
 tags:
-- Auxiliar Administrativo
 - Auxiliar Administrativo - Módulo 01 - Aulas
 ---
 
@@ -32,7 +31,8 @@ Vamos começar!
 2. [Regra de Três](#Regra-de-Tres)
 3. [Porcentagem](#Porcentagem)
 4. [Resumo](#Resumo)
-5. [Referências Bibliográficas](#Referencias-Bibliograficas)
+5. [Exercícios](#Exercicios)
+6. [Referências Bibliográficas](#Referencias-Bibliograficas)
 
 ---
 
@@ -55,6 +55,12 @@ Vamos começar!
 ---
 
 ## Resumo
+
+![Material em Produção](../../../../assets/media/img/wallpapers/producao.gif)
+
+---
+
+## Exercícios
 
 ![Material em Produção](../../../../assets/media/img/wallpapers/producao.gif)
 

@@ -2,7 +2,6 @@
 title: Aula 01 -  Módulo 01 - Auxiliar Administrativo
 date: 2020-03-25 20:49:26
 tags:
-- Auxiliar Administrativo
 - Auxiliar Administrativo - Módulo 01 - Aulas
 ---
 
@@ -30,7 +29,8 @@ Sem mais delongas, *allons-y*!
 4. [Eficiência, Eficácia e Efetividade](#Eficiencia-Eficacia-e-Efetividade)
 5. [Vendendo Ideias!](#Vendendo-Ideias)
 6. [Resumo](#Resumo)
-7. [Referências Bibliográficas](#Referencias-Bibliograficas)
+7. [Exercícios](#Exercicios)
+8. [Referências Bibliográficas](#Referencias-Bibliograficas)
 
 ---
 
@@ -105,8 +105,6 @@ Esta análise é composta por **4 diferentes fatores** (ou quadrantes):
 
 Cada fator deve ser detalhadamente analisado a fim de se compreender a dinâmica geral da pessoa ou empresa.
 
-> EXERCÍCIO: Levando em conta as habilidades e competências necessárias para ser um bom auxiliar administrativo, preencha uma Matriz FOFA com as suas características pessoais relacionadas ao cargo.
-
 
 ### S (strengths ou forças)
 
@@ -146,12 +144,9 @@ Peter Drucker, considerado o Pai da Administração Moderna, disse certa vez: "*
 
 `Efetividade` consiste em ser, ao mesmo tempo, eficiente e eficaz.
 
-> EXERCÍCIO: Gustavo e Gabriela são dois estudantes de um curso de Francês. Gabriela conseguiu, em um único dia, ler um livro indicado pelo professor. Gustavo, por outro lado, demorou 15 dias para terminar o mas livro, mas foi melhor que Gabriela na prova sobre o mesmo. Quem foi mais eficiente? E quem foi mais eficaz?
-
 ![Matriz FOFA - Exemplo Netflix](../../../../assets/media/img/ferramentas-gestao-desempenho/conceito-efetividade.png)
 
 ---
-
 
 ## Vendendo Ideias!
 
@@ -168,9 +163,6 @@ Toda ideia apresenta, por si só, **pontos fortes e fracos**. Não apresente uma
 - Há sempre um **momento certo** para apresentar suas ideias: o melhor momento é quando um projeto necessita ser planejado ou um problema foi detectado. 
 
 Se você tem uma ideia inovadora, precisará se preparar para dialogar e negociar com os detentores do capital para transformá-la em sucesso. Por isso, não basta apenas ter uma grande ideia. Os desafios atuais vão muito além da destruição criativa! (DORNELAS, 2014)
-
-> EXERCÍCIO: Maricleuza abriu uma empresa que produz produtos de beleza e higiene. No entanto, por ser nova no setor, sua empresa ainda não é muito conhecida no mercado.
-Planeje uma ideia que ajuda a empresa de Maricleuza a se tornar reconhecida. Analise sua ideia, levando em consideração os prós e contras, e a viabilidade da mesma.
 
 ---
 
@@ -189,6 +181,16 @@ Planeje uma ideia que ajuda a empresa de Maricleuza a se tornar reconhecida. Ana
 
 ---
 
+## Exercícios
+
+01. Levando em conta as habilidades e competências necessárias para ser um bom auxiliar administrativo, preencha uma Matriz FOFA com as suas características pessoais relacionadas ao cargo.
+
+02. Gustavo e Gabriela são dois estudantes de um curso de Francês. Gabriela conseguiu, em um único dia, ler um livro indicado pelo professor. Gustavo, por outro lado, demorou 15 dias para terminar o mas livro, mas foi melhor que Gabriela na prova sobre o mesmo. Quem foi mais eficiente? E quem foi mais eficaz?
+
+03. Maricleuza abriu uma empresa que produz produtos de beleza e higiene. No entanto, por ser nova no setor, sua empresa ainda não é muito conhecida no mercado.
+Planeje uma ideia que ajuda a empresa de Maricleuza a se tornar reconhecida. Analise sua ideia, levando em consideração os prós e contras, e a viabilidade da mesma.
+
+---
 ## Referências Bibliográficas
 
 BACARJI, Alencar Garcia. Formação Incial e Continuada Auxiliar Administrativo. Curitiba: Instituto Federal do Paraná, 2012.

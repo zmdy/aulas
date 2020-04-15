@@ -2,7 +2,6 @@
 title: Aula 02 -  Módulo 01 - Auxiliar Administrativo
 date: 2020-03-27 15:12:23
 tags:
-- Auxiliar Administrativo
 - Auxiliar Administrativo - Módulo 01 - Aulas
 ---
 
@@ -25,7 +24,8 @@ Nesta aula iremos estudar o Código de Ética do Administrador, e aprenderemos s
 5. [Comportamentos Profissionais](#Comportamentos-Profissionais)
 5. [Tipos de Empresa](#Tipos-de-Empresa)
 6. [Resumo](#Resumo)
-7. [Referências Bibliográficas](#Referencias-Bibliograficas)
+7. [Exercícios](#Exercicios)
+8. [Referências Bibliográficas](#Referencias-Bibliograficas)
 
 ---
 
@@ -93,7 +93,7 @@ Da mesma forma, para um indígena ou hindu, a falta de pinturas corporais em rit
 
 Por outro lado, se considerarmos alguém neturo, que não possua nenhum pré-conceito sobre tatuagens e pinturas corporais, a presença ou falta de pinturas, por si só, não faz de alguém bom ou ruim. Esta pessoa neutra possui uma visão **amoral** sobre as tatuagens.
 
-> EXERCÍCIO: Explique, com suas palavras, a diferença entre imoral, amoral, antiético e aético.
+
 
 ### Ética
 
@@ -111,8 +111,6 @@ Alguns exemplos de **questionamentos éticos** são:
   <li class='item-question'>Roubar ou matar é errado em todas as situações? Por que as pessoas roubam?</li>
   <li class='item-question'>Porque vamos ao cinema assistir Thor, mas geralmente zombamos das religiões de matriz  africana?</li>
 </ul>
-
-> EXERCÍCIO: Explique, com suas palavras, a diferença entre moral e ética. Exemplifique.
 
 ---
 
@@ -174,7 +172,6 @@ No exemplo acima estamos utilizando o agente bancário como um instrumento para 
 
 Resumindo sobre a Deontologia Kantiana: *devemos agir da maneira como gostaríamos que todas as outras pessoas agissem - desde que isso não desrespeite sua autonomia*.
 
-> EXERCÍCIO: Quando somos convidados por um amigo para ir na sua festa de aniversário - e vamos na festa com o objetivo de comer um pedaço de bolo - estamos tratando nosso amigo como um instrumento para conseguir aquilo que queremos?
 
 ### Consequencialismo
 
@@ -224,8 +221,6 @@ Para um utilitarista a resposta é a mesma. No entanto, do ponto de vista psicol
 As emoções de uma pessoa alteram a maneira como ela tende a responder este dilema ético (NELSEN, 2016), tornando a segunda situação mais desconfortável e pessoal. No entanto, outros pesquisadores afirmam que este experimento é tolo e irreal, de modo que as pessoas não reagem a ele da mesma forma que reagiriam no mundo real (KHAZAN, 2014).
 
 Independentemente das respostas a este e outros dilemas éticos, é importante ressaltar que estas decisões ainda se embasam na relação emocional das pessoas com o caso (RIBEIRO, 2020)- como revela o recente exemplo envolvendo o médico Drauzio Varella.
-
-> EXERCÍCIO: O que você faria nas duas situações envolvidas no Dilema do Bonde? Dê uma olhada [nesta criativa solução](https://www.youtube.com/watch?v=-N_RZJUAQY4).
 
 ### Teoria Contratualista
 
@@ -286,11 +281,6 @@ Este código apresenta 23 artigos, dos quais os mais importantes serão listados
   <li class='item-ok'>III - exigir justa remuneração por seu trabalho, a qual corresponderá às responsabilidades assumidas a seu tempo de serviço dedicado, sendo-lhe livre firmar acordos sobre salários, velando, no entanto, pelo seu justo valor;</li>
 </ul>
 
-> EXERCÍCIO:  Um auxiliar administrativo, acatando ordens de um superior, omitiu dados importantes da empresa em um documento que redigia para um cliente, induzindo-o assim a adquirir um produto da empresa. Analise o comportamento do auxiliar do ponto de vista ético;
-
-> EXERCÍCIO: Após a venda de um produto defeituoso, um cliente encaminhou-se até a empresa para pedir a troca do produto. Irritado com a situação, o cliente solicitou ao auxiliar administrativo que o atendia dados pessoais do vendedor que o atendeu no momento da compra. Do ponto de vista ético, o auxiliar deve ou não passar as informações ao cliente?
-
-
 ---
 
 ## Comportamentos Profissionais
@@ -337,8 +327,6 @@ Em relação às empresas quanto ao objetivo financeiro, tem-se:
   - As empresas com fins lucrativos são mantidas com o dinheiro que recebem em troca dos bens ou serviços que oferecem.
   - O lucro é necessário porque dele dependem a segurança e sobrevivência da empresa, seu crescimento e a melhoria das condições de trabalho.
 
-> EXERCÍCIO: Dê 5 exemplos de cada tipo de empresa: Indústria; Comércio; Prestador de Serviços; Com Fins Lucrativos e Sem Fins Lucrativos.
-
 ---
 
 # Resumo
@@ -359,6 +347,25 @@ Em relação às empresas quanto ao objetivo financeiro, tem-se:
   - O Código de Ética do Administrador possui 23 artigos que dispõe sobre direitos, deveres e proibições inerentes aos profissionais administrativos.
 
 -  As empresas podem ser classificadas de acordo com **seu tipo de atividade** (INDÚSTRIA, COMÉRCIO E PRESTAÇÃO DE SERVIÇOS) ou com o **objetivo financeiro** (COM OU SEM FINS LUCRATIVOS).
+
+
+---
+
+## Exercícios
+
+01. Explique, com suas palavras, a diferença entre moral e ética. Exemplifique.
+
+02. Explique, com suas palavras, a diferença entre imoral, amoral, antiético e aético.
+
+03. De acordo com a Teoria Ética Kantiana responda: Quando somos convidados por um amigo para ir na sua festa de aniversário - e vamos na festa com o único objetivo de comer um pedaço de bolo - estamos tratando nosso amigo como um instrumento para conseguir aquilo que queremos?
+
+04. O que você faria nas duas situações envolvidas no Dilema do Bonde? Dê uma olhada [nesta criativa solução](https://www.youtube.com/watch?v=-N_RZJUAQY4).
+
+05. Um auxiliar administrativo, acatando ordens de um superior, omitiu dados importantes da empresa em um documento que redigia para um cliente, induzindo-o assim a adquirir um produto da empresa. Analise o comportamento do auxiliar do ponto de vista ético;
+
+06. Após a venda de um produto defeituoso, um cliente encaminhou-se até a empresa para pedir a troca do produto. Irritado com a situação, o cliente solicitou ao auxiliar administrativo que o atendia dados pessoais do vendedor que o atendeu no momento da compra. Do ponto de vista ético, o auxiliar deve ou não passar as informações ao cliente?
+
+07. Dê 5 exemplos de cada tipo de empresa: Indústria; Comércio; Prestador de Serviços; Com Fins Lucrativos e Sem Fins Lucrativos.
 
 ---
 

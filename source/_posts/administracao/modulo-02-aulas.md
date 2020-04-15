@@ -2,7 +2,6 @@
 title: Módulo 02 - Aulas
 date: 2020-03-24 18:37:45
 tags:
-- Auxiliar Administrativo
 - Auxiliar Administrativo - Lista de Aulas
 ---
 

@@ -13,7 +13,7 @@ Este curso aborda, em sua grade curricular, disciplinas que contribuirão para u
 
 Para estudos complementares deste curso sugiro o material descrito nas referências bibliográficas, em especial:
 
-[BACARJI, Alencar Garcia. Formação Inicial e Continuada: Auxiliar Administrativo](https://www.ifmg.edu.br/portal/extensao/pronatec/cursos/cursos-fic/projeto-pedagogico-de-curso-auxiliar-administrativo)
+[BACARJI, Alencar Garcia. Formação Inicial e Continuada: Auxiliar Administrativo](https://bit.ly/3e9aqsA)
 
 
 **Objetivo Geral:** Criar oportunidade de qualificação profissional, por meio do desenvolvimento de competências e habilidades para atuar na área administrativa de empresas públicas e privadas de todos os portes e segmentos
@@ -104,7 +104,7 @@ Distribuição das Notas dos Módulos
 
 ## Referências Bibliográficas
 
-BACARJI, Alencar Garcia. Formação Incial e Continuada Auxiliar Administrativo. Curitiba: Instituto Federal do Paraná, 2012. Disponível em <https://bit.ly/2vZG4Y5>. Acesso en *20 de mar. de 2020*. 
+BACARJI, Alencar Garcia. Formação Incial e Continuada Auxiliar Administrativo. Curitiba: Instituto Federal do Paraná, 2012. Disponível em <https://bit.ly/3e9aqsA>. Acesso en *20 de mar. de 2020*. 
 
 BÄCHTOLD, CIRO. Contabilidade Básica. Curitiba: Instituto Federal do Paraná, 2012.Disponível em <https://bit.ly/342pLX5>. Acesso en *20 de mar. de 2020*.
 

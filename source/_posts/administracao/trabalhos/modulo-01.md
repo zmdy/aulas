@@ -2,8 +2,7 @@
 title: Módulo 01 - TCM
 date: 2020-04-14 12:46:54
 tags:
-- Auxiliar Administrativo
-- Auxiliar Administrativo - TCM
+- Auxiliar Administrativo - Trabalhos de Conclusão de Módulo
 ---
 
 Os Trabalho de Conclusão de Módulo (individual e em grupo), conforme previsto na [ementa do curso](../../../../pages/cursos/administracao.html), equivale a 30 pontos/módulo.

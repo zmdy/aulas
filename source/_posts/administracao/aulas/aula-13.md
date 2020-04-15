@@ -2,7 +2,6 @@
 title: Aula 03 -  Módulo 02 - Contabilidade
 date: 2020-04-03 12:01:09
 tags:
-- Auxiliar Administrativo
 - Auxiliar Administrativo - Módulo 02 - Aulas
 ---
 
@@ -36,7 +35,8 @@ Vamos lá!
 2. [A Máquina Econômica de Ray Dalio](#A-Maquina-Economica-de-Ray-Dalio)
 3. [Contabilidade e Economia](#Contabilidade-e-Economia)
 4. [Resumo](#Resumo)
-5. [Referências Bibliográficas](#Referencias-Bibliograficas)
+5. [Exercícios](#Exercicios)
+6. [Referências Bibliográficas](#Referencias-Bibliograficas)
 
 ---
 
@@ -116,8 +116,6 @@ Neste exemplo, pode-se perceber que:
 
 2) Há um preço de equilíbrio em que a quantidade do produto em estoque (oferta) é igual (ou o mais próximo possível) da quantidade de pedidos (demanda).
 
-> EXERCÍCIO: Qual é o preço de equilíbrio da barra de chocolate do exemplo?
-
 O segredo da economia é que, na verdade, os preços raramente estão em **equilíbrio**.  O preço dos chocolates tendem a aumentar antes da Páscoa pois existe uma maior **demanda**. Da mesma forma, o preços destes produtos caem logo após as datas festivas pois a demanda diminui. Esta variação de preços recebe o nome de **sazonalidade** ou **ruído**.
 
 O **preço de equilíbrio** de um produto qualquer depende da quantidade deste no estoque de em vendedor (oferta) e o **preço** que as pessoas estão dispostas a pagar (demanda).
@@ -181,8 +179,6 @@ Empréstimos, cartões de crédito e financiamentos são alguns dos **tipos de c
 
 É por isso que existem empréstimos e créditos especiais para funcionários públicos, aposentados e pensionistas (pois estes clientes tendem a pagar suas contas em dia) da mesma maneira que pode ser difícil para uma pessoa jovem e desempregada conseguir fazer um cartão de crédito (pois a possibilidade da pessoa não pagar a fatura é alta).
 
-> EXERCÍCIO: Explique o que é o *crédito* dos [cartões de crédito](https://www.serasaconsumidor.com.br/ensina/seu-credito/cartao-de-credito-o-que-e-e-como-funciona/).
-
 ### Crédito e Consumo
 
 O crédito funciona como um **empréstimo**. Desta forma ele permite **aumentar o consumo** das pessoas a curto e médio prazo. A longo prazo, no entanto, a situação é diferente (logo veremos porquê).
@@ -230,8 +226,6 @@ Não pense, no entanto, que o crédito é algo ruim! O próprio Ray Dalio afirma
 Isto significa que utilizar o crédito para comprar um *TV de Tela Plana 4K Full-HD 3D pt-br vinda de Marte, que fala árabe e leva seu cachorro para passear* pode não ser uma escolha tão boa quanto comprar um trator (ou utilizar o crédito para pagar as parcelas de um curso ou faculdade), já que este segundo exemplo irá ampliar sua capacidade de gerar renda a médio ou longo prazo!
 
 Repare que esta série de eventos constitui um **ciclo**! Quanto mais crédito alguém utilizar no presente, menos dinheiro ele terá no futuro (já que precisa pagar suas dívidas) e com isso ele poderá recorrer novamente ao crédito.
-
-> EXERCÍCIO: Dê exemplos da boa e má utilização do crédito.
 
 ### Inflação, Deflação e Crises
 
@@ -297,8 +291,6 @@ A própria expansão e continuidade das empresas dependem das análises contábe
 
 A principal causa desta mortalidade é a falta de planejamento e controle dos negócios. Em suma, é a falta de Contabilidade. (BÄCHTOLD, 2012). 
 
-> EXERCÍCIO: Explique as relações entre a contabilidade e a economia.
-
 ---
 
 ## Resumo
@@ -318,6 +310,18 @@ A principal causa desta mortalidade é a falta de planejamento e controle dos ne
 - Crédito e empréstimos são acordos de **confiança financeira** feitos entre devedores e credores. Estes empréstimos permitem que mais transações aconteçam e, com isso, a economia se aqueça a curto prazo.
 
 - De tempos em tempos o Governo, por meio do Banco Central, deve intervir na economia para controlar as taxas de juros.
+
+---
+
+## Exercícios
+
+01. Qual é o preço de equilíbrio da barra de chocolate apresentada na primeira tabela?
+
+02. Explique o que é o *crédito* dos [cartões de crédito](https://www.serasaconsumidor.com.br/ensina/seu-credito/cartao-de-credito-o-que-e-e-como-funciona/).
+
+03. Dê exemplos da boa e má utilização do crédito por pessoas e empresas.
+
+04. Explique as relações entre a contabilidade e a economia.
 
 ---
 

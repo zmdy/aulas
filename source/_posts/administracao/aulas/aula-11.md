@@ -2,7 +2,6 @@
 title: Aula 01 -  Módulo 02 - Contabilidade
 date: 2020-03-30 11:29:01
 tags:
-- Auxiliar Administrativo
 - Auxiliar Administrativo - Módulo 02 - Aulas
 ---
 
@@ -38,7 +37,8 @@ Com tudo isso em mente, vamos lá!
 4. [Mayo -Teoria das Relações Humanas](#Mayo-Teoria-das-Relacoes-Humanas)
 5. [Weber - Burocracia](#Weber-Burocracia)
 6. [Resumo](#Resumo)
-6. [Referências Bibliográficas](#Referencias-Bibliograficas)
+7. [Exercícios](#Exercicios)
+8. [Referências Bibliográficas](#Referencias-Bibliograficas)
 
 ---
 
@@ -63,8 +63,6 @@ A indústria na época contratava, em grande parte, os **moradores do campo**, q
 > IMAGEM FÁBRICA
 
 Nas fábricas, os funcionários faziam seu trabalho de **forma empírica**, ou seja, na base da tentativa e erro. Os gerentes não estudavam as melhores formas de se trabalhar. **Frederick Taylor** foi o primeiro teórico a buscar uma solução para este problema por meio da **Teoria da Administração Científica**, também conhecida como **Taylorismo**. 
-
-> EXERCÍCIO: Dê exemplos de como o empirismo (tentativa e erro) reduz a produtividade nos ambiente de trabalho.
 
 ---
 
@@ -95,10 +93,6 @@ Entretanto, a Administração Científica pecou por **não analisar a organizaç
 Dessa maneira, dizemos que é uma **teoria de sistema fechado** (dentro de uma lógica que não vê as interrelações e influências entre as demais organizações). Seria como analisar uma empresa no vácuo, sem imaginar a resposta dos seus concorrentes ao lançamento de um produto, por exemplo.
 
 Outra crítica clássica a esta teoria está relacionada à excessiva carga de trabalho a qual os funcionários eram submetidos. Além disso, a repetição de uma mesma tarefa de modo excessivo levava à uma contínua exaustão física e psicológica nos trabalhadores.
-
-> EXERCÍCIO: Explique como o taylor-fordismo possibilitou um aumento da produtividade nas fábricas.
-
-> EXERCÍCIO: Analise como [esta cena](https://www.youtube.com/watch?v=6n9ESFJTnHs) do filme Tempos Modernos (1936) exemplifica e critica o taylor-fordismo.
 
 ---
 
@@ -158,8 +152,6 @@ Como problemas da Teoria Clássica, podemos citar a **falta de preocupação com
 
 A ideia de uma organização flexível ainda não estava na agenda. Infelizmente, a Teoria Clássica também não se preocupou muito com os **aspectos ligados às pessoas**. Temas como comunicação, motivação, negociação e liderança ainda eram pouco relevantes nestes estudos. Esse “vácuo” seria ocupado pela Teoria das Relações Humanas.
 
-> EXERCÍCIO: Analise como a utilização dos 14 Princípios Gerais de Fayol poderia ajudar no  [Restaurante Pé de Fava](https://www.youtube.com/watch?v=7WnrnIGRI6I), apresentado no  programa Pesadelo na Cozinha. Explique porque, de acordo com a Teoria de Fayol, Fábio não pode ser considerado [um bom administrador](https://www.youtube.com/watch?v=uiF03JTgJOg)?
-
 ---
 
 ## Mayo - Teoria das Relações Humanas
@@ -206,8 +198,6 @@ Outra crítica é a de que existiu uma **“negação” do conflito** inerente 
 
 Assim, podemos dizer que a Teoria das Relações Humanas se “esqueceu” dos **aspectos técnicos** envolvidos na produtividade. O aspecto humano é importante, mas não é a única variável da produtividade e do sucesso de uma organização.
 
-> EXERCÍCIO: Explique as [críticas](https://www.youtube.com/watch?v=e9dZQelULDk) da Teoria das Relações Humanas ao conceito de *Homo economicus*.
-
 ---
 
 ## Weber - Burocracia
@@ -235,8 +225,6 @@ Além disso, outra característica importante da burocracia é a noção de **hi
 Portanto, as organizações são estruturadas em vários **níveis hierárquicos**, em que o nível de cima controla o de baixo. É o que chamamos de **estrutura verticalizada**, na qual as decisões são tomadas na cúpula (topo da hierarquia ou nível estratégico). Essa situação acaba gerando uma **demora na tomada de decisões** e no fluxo de informações dentro da organização!
 
 Hoje em dia, o termo Burocracia virou sinônimo de **ineficiência e lentidão**, pois conhecemos os defeitos do modelo (que chamamos de **disfunções da Burocracia**), mas ele foi um passo adiante na sua época!
-
-> EXERCÍCIO: Analise os prós e contras da Teoria da Burocracia de Max Weber. Como esta teoria se apresenta nesta [animação](https://www.youtube.com/watch?v=kQjtK32mGJQ)?
 
 ---
 
@@ -266,6 +254,22 @@ empresa. A burocracia inclui a **profissionalização**, a estruturação vertic
 | Clássica         | Fayol          | Organizar e estruturar a empresa |
 | Relações Humanas | Mayo           | Reconhecer e motivar os funcionários |
 | Burocracia       | Weber          | Criação de regras e regulamentos formais e impessoais |
+
+---
+
+## Exercícios
+
+01. Dê exemplos de como o empirismo (tentativa e erro) reduz a produtividade nos ambiente de trabalho.
+
+02. Explique como o taylor-fordismo possibilitou um aumento da produtividade nas fábricas.
+
+03. Analise como [esta cena](https://www.youtube.com/watch?v=6n9ESFJTnHs) do filme Tempos Modernos (1936) exemplifica e critica o taylor-fordismo.
+
+04. Analise como a utilização dos 14 Princípios Gerais de Fayol poderia ajudar o  [Restaurante Pé de Fava](https://www.youtube.com/watch?v=7WnrnIGRI6I), apresentado no  programa Pesadelo na Cozinha. Explique porque, de acordo com a Teoria de Fayol, Fábio não pode ser considerado [um bom administrador](https://www.youtube.com/watch?v=uiF03JTgJOg)?
+
+05. Explique as [críticas](https://www.youtube.com/watch?v=e9dZQelULDk) da Teoria das Relações Humanas ao conceito de *Homo economicus*.
+
+06. Analise os prós e contras da Teoria da Burocracia de Max Weber. Como esta teoria se apresenta nesta [animação](https://www.youtube.com/watch?v=kQjtK32mGJQ)?
 
 ---
 

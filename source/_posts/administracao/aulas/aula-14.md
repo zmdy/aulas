@@ -2,7 +2,6 @@
 title: Aula 04 -  Módulo 02 - Contabilidade
 date: 2020-04-09 10:30:33
 tags:
-- Auxiliar Administrativo
 - Auxiliar Administrativo - Módulo 02 - Aulas
 ---
 
@@ -30,7 +29,8 @@ Para melhor entender os conceitos desta aula, sugiro o material descrito nas ref
 2. [Conceitos Contábeis](#Conceitos-Contabeis)
 3. [Patrimônio Líquido](#Patrimonio-Liquido)
 4. [Resumo](#Resumo)
-5. [Referências Bibliográficas](#Referencias-Bibliograficas)
+5. [Exercícios](#Exercicios)
+6. [Referências Bibliográficas](#Referencias-Bibliograficas)
 
 ---
 
@@ -88,7 +88,7 @@ Imagine que você seja o dono de uma padaria. Conforme o tempo foi passando, e s
 
 Repare que nesta lista estão misturados os **bens** da padaria com os os seus bens pessoais. O princípio da Entidade nos diz que devemos sempre separar as duas coisas: o patrimônio da empresa é diferente do patrimônio do seu dono.
 
-> EXERCÍCIO: Em seu caderno, separe os bens acima pelo Princípio da Entidade.
+> EXERCÍCIO 01: Em seu caderno, separe os bens acima pelo Princípio da Entidade.
 
 ### Bens
 
@@ -117,7 +117,7 @@ Os bens podem ser **classificados** de diversas maneiras. Utilizaremos 3 defini�
   <li class='item-ok'>5 Receitas de Bolo Exclusivas da Padaria</li>
 </ul>
 
-> EXERCÍCIO: Em seu caderno, classifique os bens acima. Você pode utilizar mais de uma classificação (exemplo: bem imóvel intangível e permanente).
+> EXERCÍCIO 02: Em seu caderno, classifique os bens acima. Você pode utilizar mais de uma classificação (exemplo: bem imóvel intangível e permanente).
 
 ### Direitos
 
@@ -125,7 +125,7 @@ Os bens podem ser **classificados** de diversas maneiras. Utilizaremos 3 defini�
 
 Direitos geralmente aparecem acompanhados da expressão “a receber”, “a compensar”, a “recuperar”, “a creditar”, ou outra similar, indicando a **promessa de recebimento** ou que permita recuperar parte do bem transferido.
 
-> EXERCÍCIO: Relacione o conceito de crédito com os direitos contábeis de uma empresa.
+
 
 ### Obrigações
 
@@ -170,7 +170,7 @@ Os exigíveis geralmente aparecem acompanhadas da expressão: “a pagar”, “
   <li class='item-ok'>Provisão para Contribuição Social a Pagar</li>
 </ul>
 
-> EXERCÍCIO: Classifique os elementos patrimoniais acima em bens, direitos ou obrigações. Classifique-os também como ativos ou passivos.
+> EXERCÍCIO 03: Classifique os elementos patrimoniais acima em bens, direitos ou obrigações. Classifique-os também como ativos ou passivos.
 
 ### Ativos e Passivos
 
@@ -200,9 +200,9 @@ Para se fazer um Balanço Patrimonial deve-se montar uma **tabela** na qual são
 
 Na próxima aula entenderemos em detalhes o que é o Capital Social, mas por ora considere-o como **o dinheiro que os donos ou sócios de uma empresa investem nela**. Este dinheiro é um passivo, que será convertido em ativo para a compra de bens para a empresa ou como capital de giro em Caixa.
 
-> EXERCÍCIO: Explique porque o Capital Social é, ao mesmo tempo, ativo e passivo contábil.
 
-> EXERCÍCIO: Calcule o Patrimônio Líquido de uma empresa com os seguintes elementos:
+
+> EXERCÍCIO 04: Calcule o Patrimônio Líquido de uma empresa com os seguintes elementos:
 
 - Caixa: R$ 10.000,00 
 - Pagamento Fornecedores: R$ 2.500,00
@@ -213,7 +213,7 @@ Na próxima aula entenderemos em detalhes o que é o Capital Social, mas por ora
 - Contas a Pagar: R$ 6.00,00
 - Capital Social: R$ 15.000,00
 
-> EXERCÍCIO: Calcule o Patrimônio Líquido de uma empresa com os seguintes elementos:
+> EXERCÍCIO 05: Calcule o Patrimônio Líquido de uma empresa com os seguintes elementos:
 
 - Caixa: R$ 25.000,00 
 - Pagamento Fornecedores: R$ 5000,00
@@ -251,6 +251,16 @@ Na próxima aula entenderemos em detalhes o que é o Capital Social, mas por ora
 - **Ativos** compreendem os **bens e os direitos** da empresa; já os **passivos** são todas as **obrigações a pagar** que a empresa possui.
 
 - O **Patrimônio Líquido (PL)** é definido como o **saldo** resultante da diferença entre o valor do Ativo e do Passivo de uma empresa.
+
+---
+
+## Exercícios
+
+**Nesta aula os exercícios 01 ao 05 estão distribuídos pela matéria. Leia-a com atenção!**
+
+06. Relacione o conceito de crédito com os direitos contábeis de uma empresa.
+
+07. Explique porque o Capital Social é, ao mesmo tempo, ativo e passivo contábil.
 
 ---
 

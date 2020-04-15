@@ -2,7 +2,6 @@
 title: Aula 02 -  Módulo 02 - Contabilidade
 date: 2020-04-02 11:25:14
 tags:
-- Auxiliar Administrativo
 - Auxiliar Administrativo - Módulo 02 - Aulas
 ---
 
@@ -26,7 +25,8 @@ Para resolver estas discrepâncias e sintetizar as teorias clássicas foram dese
 2. [Teoria de Sistemas](#Teoria-de-Sistemas)
 3. [Teoria Contingencial](#Teoria-Contingencial)
 4. [Resumo](#Resumo)
-5. [Referências Bibliográficas](#Referencias-Bibliograficas)
+5. [Exercícios](#Exercicios)
+6. [Referências Bibliográficas](#Referencias-Bibliograficas)
 
 ---
 
@@ -45,10 +45,6 @@ A Teoria Estruturalista propôs diferentes concepções das organizações. **Al
 O **modelo racional** seria baseado no controle e no planejamento. A ideia era a de um **sistema fechado**, com pouca incerteza e preocupação para com o “mundo externo” à organização. 
 
 Já no **modelo natural** existe a noção de que a **realidade é incerta**, ou seja, há fatores externos às organizações que não podem ser previstos. A própria organização é um conjunto de órgãos e setores inter-relacionados e interdependentes. Assim, é um modelo que se preocupa com as “trocas” com o ambiente externo, ou seja, é um modelo de **sistema aberto**.
-
-> EXERCÍCIO: Explique as diferenças entre os conceitos: *Homo economicus*, Homem Social e Homem Organizacional.
-
-> EXERCÍCIO: Diferencia modelo natural de modelo racional.
 
 ---
 
@@ -74,8 +70,6 @@ Os principais conceitos da Teoria dos Sistemas são:
 
 4)	**Caixa-preta**: este conceito está relacionado à necessidade das empresas manterem para si, em segredo muitas vezes, sua estrutura interna de funcionamento. Não temos como saber analisando somente as entradas (matéria-prima) e saídas (produtos) do sistema os processos que ocorrem em seu interior (organização interna da empresa).
 
-> EXERCÍCIO: Explique a relação entre o sucesso de uma empresa com sua preocupação com o *feedback*.
-
 ---
 
 ## Teoria Contingencial
@@ -94,10 +88,6 @@ Por exemplo, o **mercado automobilístico** é formado por diversas **montadoras
 
 Se a demanda mudar e o produto não for mais desejado pelos clientes, a **mudança estratégica** seria mais fácil (é mais fácil cancelar um contrato do que demitir milhares de funcionários, não é verdade?). Assim, passa-se a focar em um **menor número** de variáveis para o bom funcionamento de uma organização, e flexibiliza-se todo o processo.
 
-> EXERCÍCIO: [Pesquise](https://www.ibccoaching.com.br/portal/as-principais-diferencas-entre-verticalizacao-e-horizontalizacao/) e diferencie as estratégias de gestão horizontal e vertical. Pesquisa, també, outros exemplos da utilização de organizações no mercado.
-
-> EXERCÍCIO: Contextualize as Teorias estudadas (sistema aberto e fechado) com este [vídeo](https://www.youtube.com/watch?v=XPgcC9Wamtw).
-
 ---
 
 ## Resumo
@@ -112,6 +102,19 @@ Se a demanda mudar e o produto não for mais desejado pelos clientes, a **mudan�
 - A **Teoria Contingencial** afirma que **não há fórmulas mágicas** para se resolver os problemas de uma organização pois há sempre **fatores internos** (variáveis dependentes) e **externos** (variáveis independentes) envolvidas no processo. Analisar e estudar a importância e interdependência de todos os fatores é essencial para se delimitar um plano de ação.
   - Uma importante **consequência** da Teoria Contingencial no mundo organizacional é a criação de **organizações em rede**. Este ambiente é uma rede formada por diversas organizações interligadas, tornando o processo de produção mais flexível e com menor número de variáveis.
 
+---
+
+## Exercícios
+
+01. Explique as diferenças entre os conceitos: *Homo economicus*, Homem Social e Homem Organizacional.
+
+02. Diferencia modelo natural de modelo racional.
+
+03. Explique a relação entre o sucesso de uma empresa com sua preocupação com o *feedback*.
+
+04. [Pesquise](https://www.ibccoaching.com.br/portal/as-principais-diferencas-entre-verticalizacao-e-horizontalizacao/) e diferencie as estratégias de gestão horizontal e vertical. Pesquisa, també, outros exemplos da utilização de organizações no mercado.
+
+05. Contextualize as Teorias estudadas (sistema aberto e fechado) com este [vídeo](https://www.youtube.com/watch?v=XPgcC9Wamtw).
 
 ---
 

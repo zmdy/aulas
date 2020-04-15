@@ -2,7 +2,6 @@
 title: Aula 04 -  Módulo 01 - Auxiliar Administrativo
 date: 2020-04-09 16:32:40
 tags:
-- Auxiliar Administrativo
 - Auxiliar Administrativo - Módulo 01 - Aulas
 ---
 
@@ -31,7 +30,8 @@ Vamos começar!
 2. [Juros Simples](#Juros-Simples)
 3. [Juros Compostos](#Juros-Compostos)
 4. [Resumo](#Resumo)
-5. [Referências Bibliográficas](#Referencias-Bibliograficas)
+5. [Exercícios](#Exercicios)
+6. [Referências Bibliográficas](#Referencias-Bibliograficas)
 
 ---
 
@@ -54,6 +54,12 @@ Vamos começar!
 ---
 
 ## Resumo
+
+![Material em Produção](../../../../assets/media/img/wallpapers/producao.gif)
+
+---
+
+## Exercícios
 
 ![Material em Produção](../../../../assets/media/img/wallpapers/producao.gif)
 
