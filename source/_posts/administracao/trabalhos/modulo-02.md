@@ -123,7 +123,7 @@ O resultado foi o seguinte:
 
 ![Regras do Trabalho](../../../../assets/media/img/etica/regras-de-convivencia.jpg)
 
-- <i class="icofont-link"></i> Link do [formulário](https://forms.gle/wBAKTb2NEEycSjK5A)
+- <i class="icofont-link"></i> Link do [formulário](https://forms.gle/fmBv5KGv3KpN7r8p6)
 
 - <i class="icofont-not-allowed"></i> É proibido o plágio de materiais, incluindo as perguntas elaboradas e as respostas inseridas no formulário;
 
