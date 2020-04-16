@@ -26,13 +26,23 @@ A configuração e manutenção de computadores é fundamental para garantir a p
 
 ---
 
-<img src="../../assets/media/img/cursos/logo-redes101.png" alt="Redes de Computadores" title="Redes de Computadores" class="img-50  bg-white">
+<img src="../../assets/media/img/cursos/logo-algoritmos.png" alt="Algoritmos" title="Algoritmos" class="img-50  bg-white">
 
 O compartilhamento de recursos (como impressoras, arquivos e programas) é prática comum nas empresas e residências. Para garantir este objetivo e manter a integridade e segurança dos equipamentos, é necessária a correta instalação e configuração de redes de computador. Neste curso são apresentadas as técnicas e ferramentas básicas utilizadas para a montagem de redes funcionais.
 
 **Objetivo Geral:** Desenvolver e aprimorar as habilidades técnicas e manuais necessárias para a correta montagem e configuração de redes cabeadas e *WiFi*.
 
 **Recursos do Curso:** [Acessar](./redes.html)
+
+---
+
+<img src="../../assets/media/img/cursos/logo-manutencao.png" alt="Montagem e Manutenção de Micros" title="Montagem e Manutenção de Micros" class="img-50  bg-white">
+
+A configuração e manutenção de computadores é fundamental para garantir a plena produtividade de empresas e usuários comuns. Com esta premissa em mente, o curso de MMC dedica-se a instruir aos alunos com as técnicas e ferramentas mais utilizadas neste ramo essencial da tecnologia moderna.
+
+**Objetivo Geral:** Desenvolver e aprimorar as habilidades técnicas e manuais necessárias para a correta avaliação e resolução de problemas de *hardware* e *software* de micros.
+
+**Recursos do Curso:** [Acessar](./manutencao.html)
 
 ---
 

@@ -33,14 +33,33 @@ Nesse trabalho você irá **criar o seu PDI**, estipulando suas metas e objetivo
 
 Esta ferramenta pode e deve ser usada para delimitarmos e  avaliarmos a nossa satisfação pessoal conosco mesmos. Assim, conseguimos aprimorar as nossas competências pessoais e nos satisfazer individualmente e profissionalmente.
 
+O PDI será desenvolvido em 4 etapas diferentes, de modo semelhante à uma Matriz FOFA.
 
-### Motivação
+Na primeira etapa você irá fazer uma análise de você mesmo, descobrindo (e re-descobrindo) seus pontos fortes e fracos, bem como os seus principais sonhos e objetivos.
 
-Muitas críticas já foram e continuam sendo feitas ao sistema educacional moderno.
+Na segunda etapa você irá pesquisar e relacionar, com maior profundidade, os fatores externos que poderão influenciar seus objetivos.
 
+Na terceira etapa você irá estruturar e organizar todos os dados coletados nas etapas anteriores no PDI propriamente dito, em forma de um documento.
 
+A última etapa será uma apresentação, que será feita em sala de aula.
 
-![Material em Produção](../../../../assets/media/img/wallpapers/producao.gif)
+### Primeira Etapa
+
+O futuro sempre foi motivo de nossa preocupação como meros mortais.
+
+Na cidade de Delfos, ao pés do Monte Pernaso, se localizava o mais importante templo grego de adoração a Apolo, o deus do Sol, da luz, da verdade e das profeciais.
+
+Todos os anos visitantes de toda Grécia passavam por um verdadeiro ritual de purificação e devoção para terem a honra de presenciarem as previsões da *pítia*, a Sacerdotisa do templo de Apolo, sobre o futuro.
+
+Antes mesmo de chegarem ao momento da epifânica revelação divina, já no pátio de entrada do templo, havia uma série de 147 máximas reveladas pelo própria Deus Apolo.
+
+Muitos desses aforismo, como "*Faça julgamentos justos*", "*Eduque seus filhos*", "*Ganhe posses justamente*" e "*Cumpra um favor*" poderiam ser confundidas com Imperativos Categóricos - mas são todos revelações apolínicas e anteriores ao próprio Kant.
+
+A frase mais conhecida e lembrada até hoje pode ser traduzida ao mesmo tempo, como "Conhece-te a ti mesmo" e "Seja você mesmo".
+
+É interessante pensar que a ideia de conhecer o futuro estava ligado, desde aquela época e mesmo que de uma forma indireta, ao conhecimento de si-próprio.
+
+Por isso a primeira etapa do trabalho será justamente uma análise pessoal.
 
 ---
 
@@ -63,3 +82,18 @@ Muitas críticas já foram e continuam sendo feitas ao sistema educacional moder
 ---
 
 ## Referências Bibliográficas
+
+https://aeon.co/ideas/more-than-know-thyself-on-all-the-other-delphic-maxims
+
+https://www.academia.edu/37995955/The_147_Delphic_Maxims_-_Commented
+
+https://www.researchgate.net/publication/311709005_Ontology_based_Taxonomies_for_the_Interpretation_of_the_Delphic_Maxims_as_Applied_Philosophy_in_Business_and_Governance_Management
+
+http://lounge.obviousmag.org/abismo/2013/09/nosce-te-ipsum-conhece-te-a-ti-mesmo.html
+
+https://www.os16tipos.com/a-teoria
+
+https://www.16personalities.com/br/teste-de-personalidade
+
+
+Teste --> Palográfico ou PMK
