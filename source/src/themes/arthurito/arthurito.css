@@ -1,17 +1,17 @@
 /** Defines the current theme font-families **/
   @font-face{
-    src: url('../../../media/fonts/raleway/Raleway-Black.woff');
+    src: url('../../../assets/media/fonts/raleway/Raleway-Black.woff');
     font-family: 'Raleway Black';
   }
 
 
   @font-face{
-    src: url('../../../media/fonts/eb-garamond/EBGaramondSC08-Regular.woff');
+    src: url('../../../assets/media/fonts/eb-garamond/EBGaramondSC08-Regular.woff');
     font-family: 'EB Garamond SC 08';
   }
 
   @font-face{
-    src: url('../../../media/fonts/eb-garamond/EBGaramond12-Regular.woff');
+    src: url('../../../assets/media/fonts/eb-garamond/EBGaramond12-Regular.woff');
     font-family: 'EB Garamond';
   }
 
@@ -63,23 +63,22 @@
     color: var(--color-brown);
   }
 
-  * > em,
-  * > a{
+  a{
     font-size: var(--font-small)!important;
+    text-decoration-color: var(--color-pale-yellow);
   }
 
-  a{
-    font-size: var(--font-regular)!important;
-    text-decoration-color: var(--color-pale-yellow);
+  a:hover{
+    color: var(--color-brown);
+    text-decoration-color: var(--color-black);
   }
   
   em, i{
-    font-size: var(--font-regular)!important;
-    color: var(--color-yellow);
+    font-size: var(--font-small)!important;
+    color: var(--color-brown);
   }
 
   code{
-    padding: 0.25%;
     background-color: var(--color-pale-yellow);
     color: var(--color-black);
   }
@@ -100,7 +99,6 @@
   img{
     height: 50vh;
     margin-right: 1.5%;
-    display: inline-block;
     float: left;
   }
 
@@ -150,8 +148,8 @@
 
   .bonisa h3{
     width: 80%;
-    height: 7vh;
-    padding-top: 3.5%;
+    height: 7.5%;
+    padding-top: 3.75%;
 
     border: solid 0.2em var(--color-pale-yellow);
   } .bonisa h3::after{
@@ -159,8 +157,8 @@
     display: block;
     border: inherit;
     width: 80%;
-    height: 20vh;
-    margin-top: -11.5%!important; 
+    height: 300%!important;
+    margin-top: -13%!important; 
     margin-left: 10%;
   } 
 
@@ -204,32 +202,32 @@
   .bonisa img.center{
     display: block;
 
-    width: 33vw;
+    width: 33%;
     height: auto;
     
-    margin-left: 33.5vw;
+    margin-left: 33.5%;
   }
 
   .bonisa img.img50{
-    width: 50vw;
+    width: 50%;
     height: auto;
   }
 
   .bonisa img.img50center{
-    width: 50vw;
+    width: 50%;
     height: auto;
-    margin-left: 25vw;
+    margin-left: 25%;
   }
 
   .bonisa img.img25{
-    width: 25vw;
+    width: 25%;
     height: auto;
   }
 
   .bonisa img.img25center{
-    width: 25vw;
+    width: 25%;
     height: auto;
-    margin-left: 37.5vw;
+    margin-left: 37.5%;
   }
 
   .bonisa figure{
@@ -252,23 +250,20 @@
   }
 
   .bonisa figure ~ *{
-    margin-left: 50vw;
+    margin-left: 50%;
     position: relative;
   }
 
   .bonisa figure.center{
     position: absolute;
-    width: 50vw;
-    max-height: 50vh!important;
-    margin-left: 25vw;
+    display: block;
+    width: 50vw!important;
+    margin-left: 25%!important;
   }
 
   .bonisa figure.center figcaption{
-    width: 50%;
-    height: auto;
-    padding: 1%;
-    
-    margin-left: 12.5%;
+    max-width: 50%!important;
+    margin-left: 12.5%!important;
   }
 
   .bonisa figure.center ~ *{
@@ -277,7 +272,6 @@
     margin-top: 76vh;
     margin-left: 12.5vw;
     
-
     text-align: center;
   }
 
@@ -298,11 +292,11 @@
   }
   
   table td:nth-child(odd){
-    border-right: solid 0.05vw var(--color-black); 
+    border-right: solid 0.05vw var(--color-brown); 
   }
   
   .bonisa table td{
-    border-bottom: solid 0.05vw var(--color-black);
+    border-bottom: solid 0.05vw var(--color-brown);
     padding: 0.5%;
     color: var(--color-brown);
   }

@@ -25,6 +25,21 @@ O principal objetivo do trabalho é o de centralizar os conhecimentos teóricos 
 
 ## Trabalho Individual
 
+A primeira parte do TCM deste módulo será a criação do seu PDI.
+
+O PDI - Plano de Desenvolvimento Individual - é uma ferramenta que nos auxilia a estipular metas e prazos para o nosso desenvolvimento pessoal.
+
+Nesse trabalho você irá **criar o seu PDI**, estipulando suas metas e objetivos para este curso.
+
+Esta ferramenta pode e deve ser usada para delimitarmos e  avaliarmos a nossa satisfação pessoal conosco mesmos. Assim, conseguimos aprimorar as nossas competências pessoais e nos satisfazer individualmente e profissionalmente.
+
+
+### Motivação
+
+Muitas críticas já foram e continuam sendo feitas ao sistema educacional moderno.
+
+
+
 ![Material em Produção](../../../../assets/media/img/wallpapers/producao.gif)
 
 ---
