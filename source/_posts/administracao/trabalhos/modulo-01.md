@@ -43,7 +43,7 @@ Na terceira etapa você irá estruturar e organizar todos os dados coletados nas
 
 A última etapa será uma apresentação, que será feita em sala de aula.
 
-### Primeira Etapa
+### Inspiração
 
 O futuro sempre foi motivo de nossa preocupação como meros mortais.
 
@@ -59,7 +59,13 @@ A frase mais conhecida e lembrada até hoje pode ser traduzida ao mesmo tempo, c
 
 É interessante pensar que a ideia de conhecer o futuro estava ligado, desde aquela época e mesmo que de uma forma indireta, ao conhecimento de si-próprio.
 
-Por isso a primeira etapa do trabalho será justamente uma análise pessoal.
+
+### Primeira Etapa
+
+Por isso a primeira etapa do trabalho consistirá uma análise pessoal possibilitada por 2 ferramentas psicométricas bastante utilizadas, documentadas e difundidas.
+
+A primeira ferramenta proposta é 
+
 
 ---
 
@@ -97,3 +103,21 @@ https://www.16personalities.com/br/teste-de-personalidade
 
 
 Teste --> Palográfico ou PMK
+
+https://digitalis-dsp.uc.pt/jspui/bitstream/10316.2/5595/7/10_Adapta%C3%A7%C3%A3o%20da%20Escala%20de%20Intelig%C3%AAncia....pdf
+
+ANÁLISE DE TESTES DE PERSONALIDADE:
+QUALIDADE DO MATERIAL, DAS INSTRUÇÕES, DA
+DOCUMENTAÇÃO E DOS ITENS QUALIDADE DE
+TESTES DE PERSONALIDADE
+
+Desenvolvimento e Validação de uma escala de Inteligência Emocional
+
+https://www.researchgate.net/publication/233990469
+
+Inteligência emocional, bem-estar e saúde mental: um estudo com técnicos de apoio
+à vítima
+
+INTELIGÊNCIA EMOCIONAL: CONTRIBUTOS ADICIONAIS
+PARA A VALIDAÇÃO DE UM INSTRUMENTO DE MEDIDA1
+e
