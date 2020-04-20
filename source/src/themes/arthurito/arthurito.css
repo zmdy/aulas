@@ -174,14 +174,15 @@
   blockquote,
   blockquote p,
   blockquote p>*{
-    font-size: var(--font-regular)!important;
+    font-size: var(--font-big)!important;
     color: var(--color-black);
   }
 
   blockquote{
     border-left: solid 1vw var(--color-pale-yellow);
-    padding: 0.25% 1%;
+    padding: 2% 1%;
     margin-left: 0%;
+    margin-top: 25%;
   }
 
 /** Defines the images **/
@@ -262,7 +263,7 @@
   }
 
   .bonisa figure.center figcaption{
-    max-width: 50%!important;
+    width: 75%!important;
     margin-left: 12.5%!important;
   }
 
