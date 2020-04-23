@@ -29,11 +29,13 @@ A primeira parte do TCM deste módulo será a criação do seu PDI.
 
 O PDI - Plano de Desenvolvimento Individual - é uma ferramenta que nos auxilia a estipular metas e prazos para o nosso desenvolvimento pessoal.
 
-Nesse trabalho você irá **criar o seu PDI**, estipulando suas metas e objetivos para este curso.
+Nesse trabalho você irá **criar o seu PDI**, estipulando suas metas e objetivos para este curso. Utilizaremos um modelo de Planejamento Estratégco Pessoal baseado no desenvolvido pelo autor canadense Sam Koshy.
+
+Este modelo se apoia fortemente no processo de **autoconhecimento** para o desenvolvimento **pessoal e profissional**. 
 
 Esta ferramenta pode e deve ser usada para delimitarmos e  avaliarmos a nossa satisfação pessoal conosco mesmos. Assim, conseguimos aprimorar as nossas competências pessoais e nos satisfazer individualmente e profissionalmente.
 
-O PDI será desenvolvido em 4 etapas diferentes, de modo semelhante à uma Matriz FOFA.
+O PDI será desenvolvido em 4 etapas diferentes.
 
 Na primeira etapa você irá fazer uma análise pessoal, descobrindo (e re-descobrindo) seus pontos fortes e fracos, bem como os seus principais sonhos e objetivos.
 
@@ -43,7 +45,7 @@ Na terceira etapa você irá estruturar e organizar todos os dados coletados nas
 
 A última etapa será uma apresentação, que será feita em sala de aula.
 
-### Primeira Etapa
+### Primeira Etapa - Teste de Personalidade
 
 1) Realizar os testes de personalidade (MBTI) online:
 
@@ -85,8 +87,97 @@ No entanto, em cada caso houve **um fator que se repetiu, no mínimo 2 vezes**. 
 
 - <i class="icofont-link"></i> [Formulário de Avaliação](https://forms.gle/HUwU47DxNqmHZfuj6) 
 
-
 Conforme afirma RAMOS (2005), devido a complexidade inerente à natureza dos tipos psicológicos junguianos, uma análise diagnóstica correta de sua natureza **só pode ser realizada por profissionais com experiência teória e prática na área**. No entanto, o autor ressalta que a posse de conhecimentos, ainda que intermediários, sobre o assunto pode traçar algumas definições e *insights* sobre a própria tipologia.
+
+5) Quem sou eu?
+
+Tendo, agora, os resultados dos testes em mãos, tire algum tempo para refletir sobre os seguintes pontos sobe você mesmo:
+
+- Eu me identifico com os resultados do teste?
+- Quais são os MEUS pontos fortes? E quais são os pontos fortes do MEU TIPO PSICOLÓGICO?
+- Quais são as minhas habilidades? Quais são os meus *hobbies*? O que eu gosto de fazer?
+- Quais são os MEUS pontos fracos? E quais são os pontos fracos do MEU TIPO PSICOLÓGICO?
+- Quais são os MEUS objetivos de vida? Como eu espero estar em 1 ano? E daqui a 5 anos?
+- Quais são os MEUS maiores medos? Estes medos me impedem de fazer as coisas?
+
+### Segunda Etapa - Análise SWOT
+
+Tendo terminado sua análise pessoal é hora de organizar seus objetivos.
+
+6) Lista de Objetivos:
+
+Realize, no seu caderno, um levantamento sobre os seus objetivos e sonhos para o **decorrer do ano**. Caso você queira poderá utilizar essas técnicas para um período maior, mas em nosso projeto utilizarem o período de 1 ano.
+
+Ao fazer a sua lista leve em consideração os seguintes pontos:
+
+- Quais são os seus objetivos ACADÊMICOS (cursos, escola, faculdade, etc.) para este prazo?
+  - Exemplo: "Nesta semana/mês vou estudar a matéria X para conseguir uma boa nota numa prova; mês que vem vou começar a fazer um novo curso; ano que vem pretendo descansar um pouco dos estudos".
+- Quais são os seus objetivos PROFISSIONAIS (trabalho, estágio, profissionalização, etc.) para este prazo?
+  - Exemplo: "Este ano estou fazendo os cursos X, Y e Z para tentar conseguir um estágio. Quando eu conseguir o estágio pretendo me dedicar para me tornar um funcionário definitivo na empresa".
+- Quais são os seus objetivos PESSOAIS (relacionamentos) para este prazo?
+  - Exemplo: "Pretendo neste ano sair com meus amigos para ir nos shows A, B e C; além disso quero ir na festa de aniversário da minha tia no Acre, já que tem muito tempo que não a vejo; no fim do ano irei para o interior para descansar."
+- Estes OBJETIVOS pessoais são verdadeiramente meus? Ou será que desejo alcançá-los apenas porque as outras pessoas (amigos, família, sociedade) esperam que eu faça isso?
+
+Esta lista deve levar em consideração os seus objetivos pessoais. Pense naquilo que você deseja.
+
+7) Lista de Deveres:
+
+Conforme ressalta Koshy (2005), devemos filtrar nossos planos pessoais também sob a ótica das nossas **atitudes, valores e papéis**.
+
+Aqui é importante pensarmos na nossa **liberdade**. Eu realmente quero fazer uma coisa por livre e espontânea vontade, ou apenas estou realizando os desejos dos outros?
+
+<iframe width="665" height="432" src="https://www.youtube.com/embed/fNJBdXa3Gew" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Para Freud e outros pensadores contemporâneos como Foucault, Hannah Arendt, Zygmunt Bauman e Guy Debord a liberdade não é algo inerente a nossa existência, ou seja, ninguém é **livre por si só**. A liberdade só existe quando estamos em contato com o outro.
+
+Somos, sim, pressionados socialmente pela família, por amigos, por conhecidos e desconhecidos a agir e ser de determinadas maneiras. Isto é a **moral** da sociedade.
+
+Reconhecer as nossas limitações, sejam elas próprias ou "deveres sociais" que devemos cumprir é um importante passo para sermos livres.
+
+Ser livre não é viver sem regras. Ser livre significa "flexibilizar as próprias limitações; é respeitá-las e defendê-las quando necessário, ultrapassá-las quando possível; jamais derrubá-las ou aniquilá-las" (GRANDINETTI, 2016).
+
+Por essa razão, muito além de pensar e listar aquilo que desejamos e pretendemos, é importante pensar no contexto social. Listar aquilo que nos limita é o primeiro passo para alcançar nossa liberdade.
+
+Ao fazer a sua lista leve em consideração os seguintes pontos:
+
+- O que EU espero de mim mesmo?
+- o que MINHA FAMÍLIA espera de mim? O que eu acho destas demandas?
+- O que MEUS AMIGOS esperam de mim? O que eu acho destas demandas?
+- O que A SOCIEDADE espera de miM? O que eu acho destas demandas?
+- O que EU espero das outras pessoas (família, amigos, conhecidos, sociedade)?
+
+Contardo Calligaris, famoso psicanalista brasileiro, utiliza bastante o conceito de *boçalidade*. O medo que temos da nossa liberdade (ou falta dela) é respondido por uma repressão no outro, ou seja, a nossa dificuldade em aceitar nossa liberdade individual nos leva a nos impor para os outros.
+
+Exemplo: "Eu tenho vontade de fazer uma coisa X mas não me permito isso (por causa da moral), por isso xingo, bato, maltrato, ofendo, faço brincadeiras nas pessoas que fazem X".
+
+**O quão boçal você é?**
+
+> Ser boçal significa justamente isso: reprimir no outro a liberdade que me apavora. **Contardo Caligaris**
+
+<iframe width="640" height="360" src="https://www.youtube.com/embed/WP8rmMIfU70" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Agora que já temos as nossas listas de objetivos, e uma boa reflexão sobre eles, é hora de uma análise prática e objetiva. Para isso utilizaremos a análise SWOT.
+
+8) Análise SWOT:
+
+Para **cada um dos objetivos** que você delimitou nas etapas anteriores, monte uma análise SWOT dos mesmo. Não é necessário desenhar a tabela.
+
+Exemplo: "Um dos meus objetivos é sair com meus amigos para ir nos shows A, B e C".
+
+**Pontos Positivos (internos) desta Ideia:**
+- Irei me divertir;
+- Irei assistir a algo que gosto;
+
+**Pontos Negativos (internos) desta Ideia:**
+- Poderia utilizar o dinheiro e tempo gastos com estes shows para fazer outras atividades;
+
+**Pontos Positivos (externos) desta Ideia:**
+- Irei interagir com meus amigos;
+- Irei conhecer mais pessoas com os mesmos gostos que os meus;
+
+**Pontos Negativos (externos) desta Ideia:**
+- Terei que gastar dinheiro com os ingressos, passagens, alimentação, bebidas...
+- No dia poderá chover, o que dificulta minha chegada no local da apresentação;
 
 ---
 

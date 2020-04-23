@@ -29,9 +29,8 @@ Vamos começar!
 1. [Juros](#Juros)
 2. [Juros Simples](#Juros-Simples)
 3. [Juros Compostos](#Juros-Compostos)
-4. [Resumo](#Resumo)
-5. [Exercícios](#Exercicios)
-6. [Referências Bibliográficas](#Referencias-Bibliograficas)
+4. [Exercícios](#Exercicios)
+5. [Referências Bibliográficas](#Referencias-Bibliograficas)
 
 ---
 

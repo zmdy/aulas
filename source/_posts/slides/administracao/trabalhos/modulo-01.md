@@ -118,11 +118,36 @@ Tanto o tímido quanto o extrovertido são <em>carentes</em>. [...] a diferença
 
 # Funções Psíquicas Jungunianas
 
-Além das disposições, Jung desenvolveu o conceito de função psíquica. Para ele há 4 funções psíquicas diferentes:
+Além das disposições, Jung desenvolveu o conceito de função psíquica. Para ele há 4 funções psíquicas diferentes: pensamento, sentimento, sensação e intuição.
 
-As funções de percepção (sensação e intuição)
+Essas funções se estruturam em pares:
 
 ***
+
+# Pensamento & Sentimento
+
+A função **Pensamento** estabelece a conexão lógica e conceitual entre os fatos percebidos. Não se preocupa tanto com os valores afetivos das coisas.
+
+A função **Sentimento** julga o valor intrínseco das coisas, tende a valorizar os sentimentos em suas avaliações, preocupa­se com a harmonia do ambiente e incentiva movimentos sociais. Utilizam­se de valores pessoais (seus ou de outros) na tomada de decisões, mesmo que essas decisões não tenham lógica do ponto de vista da causalidade
+
+Para Nise da Silveira, a pessoa que utiliza a função Sentimento
+“estabelece julgamentos como o pensamento, mas a sua lógica é toda diferente. É a lógica do coração”. Silveira (1988: 54)
+
+***
+
+## Sensação & Intuição
+
+A função **Sensação** é a função dos sentidos, a função do real, a função que traz as informações (percepções) do mundo através dos órgãos do sentidos. Pessoas do tipo Sensação acreditam nos fatos, têm facilidade para lembrar­se deles e dão atenção ao presente. Essas pessoas têm enfoque no real e no concreto, são voltadas para o “aqui ­ agora” e costumam ser práticas e realistas. Preocupamse mais em manter as coisas funcionando do que em criar novos caminhos.
+
+
+função Intuição, onde a percepção se dá através do inconsciente e a
+apreensão do ambiente geralmente acontece por meio de “pressentimentos”, “palpites” ou
+“inspirações”. Os sonhos premonitórios e as comunicações telepáticas via inconsciente são algumas
+das propriedades da intuição. A intuição busca os significados, as relações e possibilidades futuras da
+informação recebida. Pessoas do tipo intuição tendem a ver o todo e não as partes, e, por isso,
+costumam apresentar dificuldades na percepção de detalhes.
+
+--
 
 # Funções Psíquicas Myers e Briggs
 
