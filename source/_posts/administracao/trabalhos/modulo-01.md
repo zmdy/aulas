@@ -179,7 +179,39 @@ Exemplo: "Um dos meus objetivos é sair com meus amigos para ir nos shows A, B e
 - Terei que gastar dinheiro com os ingressos, passagens, alimentação, bebidas...
 - No dia poderá chover, o que dificulta minha chegada no local da apresentação;
 
----
+### Terceira Etapa: 
+
+Agora que já temos todo material que precisamos, iremos organizá-lo em um documento.
+
+Para este trabalho iremos utilizar o Word (ou programa similar) para produzir um documento do tipo **relatório técnico**.
+
+Conforme a [Norma ABNT NBR 10719:2015](https://www.abntcatalogo.com.br/norma.aspx?ID=333594) os relatórios técnicos/científicos são documentos que descrevem progresso e resultados de uma pesquisa técnica ou científica.
+
+Apesar deste trabalho não se enquadrar como uma Pesquisa Técnica/Científica, iremos utilizar esta norma como base para produção do nosso relatório - em conformidade com o [proposto pela ABNT](http://www.abnt.org.br/noticias/3824-relatorio-tecnico-e-ou-cientifico).
+
+Nas aulas sobre documentos e contratos seu professor irá explicar detalhadamente estas regras de formatação. Por ora, é importante saber de 3 coisas:
+
+1) Todo trabalho acadêmico deve, **obrigatoriamente**, conter:
+a) Capa: é a primeira página do documento;
+b) Folha de Rosto: é a contracapa do documento, no qual estão as principais informações sobre o trabalho;
+c) Resumo: deve apresentar, entre 150 e 500 palavras, os pontos mais relevantes do trabalho, com uma visão rápida e clara de seu conteúdo e conclusão;
+d) Sumário: é a apresentação enumerada da estrutura do trabalho, apresentando os itens na ordem em que aparecem no documento;
+e) Elementos Textuais: é o texto do trabalho em si, incluindo a introdução, desenvolvimento e conclusão;
+f) Referências: apresenta todos os livros, sites e documentos utilizados para a pesquisa.
+
+2) Existem algumas regras de formatação, incluindo a fonte utilizada (tipo de letra), o tamanho da folha de papel, as margens e o espaçamento entre as linhas. Tudo isso deve ser configurado no *software* usado para se fazer o trabalho.
+
+3) Todas as fontes utilizadas para consulta nos trabalhos de vem ser indicadas nas Referências Bibliográficas utilizando algumas regras (que serão apresentadas em sala).
+
+Para facilitar vossas vidas, disponibilizo abaixo um documento *docx* (Word) já formatado com as temidas regras.
+
+> COLOCAR DOCUMENTO AQUI
+
+Após baixá-lo, é hora de colocar as mãos à obra.
+
+
+
+### Capa e Folha de Rosto
 
 ## Trabalho em Grupo
 
@@ -201,9 +233,24 @@ Exemplo: "Um dos meus objetivos é sair com meus amigos para ir nos shows A, B e
 
 ## Referências Bibliográficas
 
+AUGUSTIN, E. S. Planejamento Pessoal e sua ligação com o Planejamento Estratégico Organizacional. 2008. 163 f. Dissertação (Mestrado em Engenharia de Produção) - Universidade Federal de Santa Maria, Santa Maria - RS, 2008. Disponível em < https://bit.ly/3eNv2qr>.  Acesso em: *24 abr. de 2020*.
+
+BRASIL. Lei nº 9.394, de 20 de dezembro de 1996. Estabelece as Diretrizes e Bases da Educação
+Nacional. Diário Oficial da União. Brasília, DF. Disponível em: <https://bit.ly/3cKPWEK>. Acesso em: *24 abr. de 2020*.
+
+BRASIL. CFA. Resolução Normativa CFA nº 537, de 22 de março de 2018. Aprova o Código de Ética dos Profissionais de Administração previsto na Lei nº 4.769, de 09 de setembro de 1965. Disponível em <https://bit.ly/2QCq6dz>. Acesso en *20 de mar. de 2020*.
+
 CAMPOS, R. C. (2017). Do processo de avaliação da personalidade em contextos clínicos ao diagnóstico psicodinâmico: Contributos para uma avaliação psicológica psicodinâmica. Revista Iberoamericana de Diagnóstico y Evaluación – e Avaliação Psicológica, 4, 44-56. Disponível em <https://bit.ly/2XTuIk1>. Acesso em *20 de abr. de 2020*.
 
+ESTRADA, R. J. S.; NETO, L. M.; AUGUSTIN, E. S. Planejamento estratégico pessoal. Revista de Ciências da Administração, Florianópolis, p. 118-145, jan. 2011. ISSN 2175-8077. Disponível em: <https://bit.ly/2KyefK1>. Acesso em: *24 abr. de 2020*.
+
+GASPAR, Ricardo Carlos. A trajetória da economia mundial: da recuperação do pós-guerra aos desafios contemporâneos. Cad. Metrop.,  São Paulo,  v. 17, n. 33, p. 265-296,  Maio  2015. Disponível em <https://bit.ly/3ayRLU1>. Acesso em: *25 abr. de 2020*.
+
+MACHADO-DA-SILVA, C. L.; FONSECA, V. S. da. Competitividade organizacional: uma tentativa de reconstrução analítica. Organ. Soc,  Salvador,  v. 4, n. 7, p. 97-114, Dez.  1996. Disponível em <https://bit.ly/2zv4UR8>. Acesso em: *25 abr. de 2020*.
+
 RAMOS, L. M. A. Os tipos psicológicos na psicologia analítica de Carl Gustav Jung e o inventário de personalidade "Myers-Briggs Type Indicator (MBTI)": contribuições para a psicologia educacional, organizacional e clínica. ETD – Educação Temática Digital, Campinas, v.6, n.2, p.137-180, jun. 2005. Disponível em <https://bit.ly/2yqonlo>. Acesso em *20 de abr. de 2020*.
+
+VANDERLEY, L. G. Capital humano: a vantagem competitiva. Organ. Soc., Salvador, v. 8, n. 22, p. 65-74, Dez. 2001. Disponível em <https://bit.ly/3cQJRXl>. Acesso em: *25 abr. de 2020*.
 
 https://aeon.co/ideas/more-than-know-thyself-on-all-the-other-delphic-maxims
 
