@@ -25,23 +25,23 @@ O principal objetivo do trabalho é o de centralizar os conhecimentos teóricos 
 
 ## Trabalho Individual
 
-A primeira parte do TCM deste módulo será a criação do seu PDI.
+A primeira parte do TCM deste módulo será a criação do seu PEP.
 
-O PDI - Plano de Desenvolvimento Individual - é uma ferramenta que nos auxilia a estipular metas e prazos para o nosso desenvolvimento pessoal.
+O PEP - Planejamento Estratégico Pessoal - é uma ferramenta que nos auxilia a estipular metas e prazos para o nosso desenvolvimento pessoal.
 
-Nesse trabalho você irá **criar o seu PDI**, estipulando suas metas e objetivos para este curso. Utilizaremos um modelo de Planejamento Estratégco Pessoal baseado no desenvolvido pelo autor canadense Sam Koshy.
+Nesse trabalho você irá **criar o seu PEP**, estipulando suas metas e objetivos para este curso. Utilizaremos como base o modelo de Planejamento Estratégco Pessoal desenvolvido pelos autores brasileiros Estrada, Neto e Augustin.
 
-Este modelo se apoia fortemente no processo de **autoconhecimento** para o desenvolvimento **pessoal e profissional**. 
+Este modelo é composto por cinco planejamentos específicos: individual; profissional; familiar; de negócios pessoais, e de participação social. Destes, daremos ênfase nos planejamentos individual e social.
 
 Esta ferramenta pode e deve ser usada para delimitarmos e  avaliarmos a nossa satisfação pessoal conosco mesmos. Assim, conseguimos aprimorar as nossas competências pessoais e nos satisfazer individualmente e profissionalmente.
 
-O PDI será desenvolvido em 4 etapas diferentes.
+O PEP será desenvolvido em 4 etapas diferentes.
 
 Na primeira etapa você irá fazer uma análise pessoal, descobrindo (e re-descobrindo) seus pontos fortes e fracos, bem como os seus principais sonhos e objetivos.
 
 Na segunda etapa você irá pesquisar e relacionar, com maior profundidade, os fatores externos que poderão influenciar seus objetivos.
 
-Na terceira etapa você irá estruturar e organizar todos os dados coletados nas etapas anteriores no PDI propriamente dito, em forma de um documento.
+Na terceira etapa você irá estruturar e organizar todos os dados coletados nas etapas anteriores no PEP propriamente dito, em forma de um documento.
 
 A última etapa será uma apresentação, que será feita em sala de aula.
 
@@ -179,6 +179,137 @@ Exemplo: "Um dos meus objetivos é sair com meus amigos para ir nos shows A, B e
 - Terei que gastar dinheiro com os ingressos, passagens, alimentação, bebidas...
 - No dia poderá chover, o que dificulta minha chegada no local da apresentação;
 
+9) Priorizando Tarefas
+
+No decorrer de nossas vidas muitas vezes devemos tomar decisões e priorizar algumas atividades em detrimento de outras.
+
+Vale mais a pena passarmos a noite toda estudando para uma prova que *precisamos* ir bem, ou relaxar e assistir nossa série favorita?
+
+> Com todas essas prioridades zunindo ao redor do seu cérebro ao mesmo tempo, é difícil dar conta de qualquer uma delas. A ansiedade de não saber por onde começar está te deixando em um estado de dúvida paralisante. Você se sente travado e pressionado. ** Lauren Moon**
+
+Para nos ajudar nestes dilemas que enfrentamos no dia a dia, existem algumas ferramentas bastante úteis e simples de sere utilizada: a Matriz de Eisenhower e o Modelo GUT.
+
+A melhor maneira de se priorizar nossas tarefas é fazendo uma análise sobre suas **prioridades**. O Modelo GUT (também chamada de Matriz de Prioridades) é uma ótima ferramenta para este contexto.
+
+Este modelo de prioridades se baseia em 3 fatores diferentes: Gravidade, Urgência e Tendência - cada um deles pontuados numa escala de 1 a 5.
+
+A **gravidade** está relacionada com a seriedade do problema, ou seja, com sua importância.
+
+A **urgência** está relacionada com os prazos que temos para se realizar as tarefas.
+
+A **Tendência** é a probabilidade do problema ou situação se agravar no futuro.
+
+Uma análise pelo Modelo GUT deve ser feita em algumas etapas:
+
+#### Primeira Etapa - Listagem dos Problemas
+
+A primeira ação a tomar na Análise GUT é elencar os problemas que precisam ser resolvidos em uma determinada atividade, área, projeto etc.
+
+Exemplo:
+
+- Estudar para a prova da matéria X;
+- Assistir ao episódio final da série Y;
+- Sair com os amigos para um lugar Z;
+- Ir dormir;
+
+#### Segunda Etapa - Definição dos Fatores
+
+Dê uma pontuação para cada problema listado na Tabela GUT. Esta pontuação pode ser feita utilizando-se como referência a tabela abaixo:
+
+| Pontuação | Gravidade | Urgência | Tendência: |
+|-----------|--------------------|----------------------------------------|--------------------------|
+| 1 | Sem gravidade | Pode esperar | Não irá mudar |
+| 2 | Pouco grave | Pouco urgente | Irá piorar a longo prazo |
+| 3 | Grave | Urgente, merece atenção no curto prazo | Irá piorar a médio prazo |
+| 4 | Muito grave | Muito urgente | Irá piorar a curto prazo |
+| 5 | Extremamente grave | Necessidade de ação imediata | Irá piorar rapidamente |
+
+Analiando as situações ou problemas que foram destacados, podemos pontuá-los individualmente:
+
+- Estudar para a prova da matéria X --> Gravidade: 5; Urgência: 5; Tendência: 5;
+- Assistir ao episódio final da série Y --> Gravidade: 5; Urgência: 1; Tendência: 1;
+- Sair com os amigos para um lugar Z --> Gravidade: 1; Urgência: 5; Tendência: 1;
+- Ir dormir --> Gravidade: 5; Urgência: 5; Tendência: 5;
+
+> INSERIR IMAGEM
+
+A combinação dessas pontuações definirá quais ações serão prioritárias. Essa combinação é feita com um cálculo de multiplicação dos três fatores (G) x (U) x (T). Portanto, o resultado com maior pontuação no Método GUT será o de 125 pontos e o menor, 1.
+
+Nos exemplos dados, temos as pontuações:
+
+- Estudar para a prova da matéria X --> 125 pontos
+- Assistir ao episódio final da série Y --> 5 pontos
+- Sair com os amigos para um lugar Z --> 5 pontos
+- Ir dormir --> 125 pontos
+
+Neste exemplo obtivemos pontuações altas nos itens "estudar" e "ir dormir", ambos atingindo 125 pontos.
+
+Em uma análise mais realista e detalhada, os problemas iriam apresentar pontuações diferentes, e a solução seria facilmente encontrada. Mas, para casos com pontuações iguais pelo modelo GUT, podemos utilizar, novamente, a Análise SWOT e verificar os pontos fortes e fracos de cada situação/problema.
+
+10) Tomando decisões
+
+Outra ferramenta que pode auxiliar bastante na tomada de decisões, após se verificar a prioridade entre elas, é a Matriz de Eisenhower.
+
+Eisenhower foi um militar norte americano que devido ao seu importante papel estratégico durante a Segunda Guerra Mundial, mais tarde se tornou o 34º presidente dos EUA. Durante seu governo foi aprovada a criação da NASA e do DARPA, organização que deu origem à Internet.
+
+Para gerenciar o seu tempo, o Presidente Eisenhower baseava-se em um conceito bem simples: "O importante é raramente urgente, e o que é urgente é raramente importante".
+
+Por isso, para organizar e decidir aquilo que era importante, Eisenhower organizava suas tarefas em uma tabela composta por 4 áreas:
+
+> INSERIR IMAGEM
+
+A Matriz de Eisenhower é dividida em 4 quadrantes: a ideia é que todas as suas tarefas podem ser distribuídas dentro do mesmo, conforme sua **importância** e **urgência**.
+
+Uma tarefa **urgente** é aquela que precisa ser feita imediatamente, ou seja, que possui um prazo de entrega apertado. Recomenda-se fazer sempre a pergunta "*Isso pode esperar?*".
+
+Por outro lado, uma tarefa **importante** é aquela que não pode ser deixada de lado e que precisa ser, cedo ou tarde, resolvida. Tarefas importantes geralmente estão associadas a mudanças ou problemas que precisam ser resolvidos. Recomenda-se fazer sempre a pergunta "*Isso precisa ser resolvido? Isso precisa mudar?*".
+
+#### Prioridade 1 - Tarefas Urgentes e Importantes
+
+Faça estas tarefas imediatamente (*Do it now*). Sua prioridade é máxima.
+
+"Essas são as tarefas que você deve dedicar os seus esforços para terminar de uma vez. Elas não podem esperar, e devem ser resolvidas o quanto antes."
+
+#### Prioridade 2 - Tarefas Importantes mas não Urgentes
+
+Decida sobre estas tarefas, dedique algum tempo a elas. (*Schedule a time to do it*).
+
+"Este é o quadrante onde deveríamos passar a maior parte do nosso tempo, obviamente após resolver as tarefas do quadrante anterior. Essas tarefas são importantes, porém não são urgentes, isso nos permite avaliar, planejar e executar de maneira eficiente, gerando bons resultados no médio e longo prazo."
+
+#### Prioridade 3 - Tarefas urgentes, mas não importantes
+
+Distribua estas tarefas para outras pessoas. Quem pode fazê-las por você? (*Delegate*).
+
+"Nesse quadrante temos as tarefas que mesmo sendo urgentes não precisam de uma atenção especial por não serem importantes. As pessoas normalmente passam muito tempo nessas tarefas por serem urgentes, mas sem perceber que elas não vão trazer resultados. Assim, o tempo que poderia ser gasto no quadrante dois é muitas vezes mal gasto no terceiro. Exemplos desse tipo de tarefa: e-mails irrelevantes, telefonemas, visitas de amigos e favores. Tudo nesse quadrante pode ser deixado para quando houver tempo livre."
+
+#### Prioridade 4 - Tarefas nem importantes e nem urgentes
+
+Elimine estas tarefas. Elas podem esperar (*Delete*).
+
+Aparentemente, a maioria das pessoas sofre bastante com o tempo gasto no quadrante número quatro. Esse talvez seja o quadrante que mais afete a solução dos outros. Nessa parte estão as redes sociais, mensagens de texto, sites de entretenimento, jogos online e televisão. Quantas vezes você já ligou seu computador para fazer alguma tarefa e perdeu seu tempo no Facebook, e acabou tendo que fazer sua tarefa sob pressão? Ou decidiu resolver um problema, mas passou mais tempo respondendo a mensagens de texto do que se concentrando no que deveria? Ou saiu para resolver uma coisa, mas acabou gastando seu tempo em uma loja ou conversando com um velho amigo na rua.
+
+11) Elaborando os planos de ação
+
+Após decidirmos as nossas prioridades, o próximo passo é **agir**. O plano de ação de qualquer projeto ou decisão deve ser claro e objetivo.
+
+Uma das ferramentas mais usadas para a elaboração dos planos de ação é o **5W2H**. Esse *checklist* tem como função definir o que será feito, porque, onde, quem irá fazer, quando será feito, como e quanto custará.
+
+A sigla é formada pelas iniciais, em inglês, dos sete parâmetros do projeto, que devem ser estabelecidos e delimitados. São eles:
+
+- What (o que será feito?)
+- Why (por que será feito?)
+- Where (onde será feito?)
+- When (quando será feito?)
+- Who (por quem será feito?)
+- How (como será feito?)
+- How much(quanto vai custar?)
+
+Esse modelo consiste em responder todas essas perguntas, o que pode ser feito em uma folha de papel, documento de texto, ou planilha eletrônica (Excel).
+
+Um exemplo de utilização do 5W2H está no planejamento de uma festa de aniversário, por exemplo:
+
+> INSERIR IMAGEM
+
 ### Terceira Etapa: 
 
 Agora que já temos todo material que precisamos, iremos organizá-lo em um documento.
@@ -235,8 +366,7 @@ Após baixá-lo, é hora de colocar as mãos à obra.
 
 AUGUSTIN, E. S. Planejamento Pessoal e sua ligação com o Planejamento Estratégico Organizacional. 2008. 163 f. Dissertação (Mestrado em Engenharia de Produção) - Universidade Federal de Santa Maria, Santa Maria - RS, 2008. Disponível em < https://bit.ly/3eNv2qr>.  Acesso em: *24 abr. de 2020*.
 
-BRASIL. Lei nº 9.394, de 20 de dezembro de 1996. Estabelece as Diretrizes e Bases da Educação
-Nacional. Diário Oficial da União. Brasília, DF. Disponível em: <https://bit.ly/3cKPWEK>. Acesso em: *24 abr. de 2020*.
+BRASIL. Lei nº 9.394, de 20 de dezembro de 1996. Estabelece as Diretrizes e Bases da Educação Nacional. Diário Oficial da União. Brasília, DF. Disponível em: <https://bit.ly/3cKPWEK>. Acesso em: *24 abr. de 2020*.
 
 BRASIL. CFA. Resolução Normativa CFA nº 537, de 22 de março de 2018. Aprova o Código de Ética dos Profissionais de Administração previsto na Lei nº 4.769, de 09 de setembro de 1965. Disponível em <https://bit.ly/2QCq6dz>. Acesso en *20 de mar. de 2020*.
 
@@ -247,6 +377,8 @@ ESTRADA, R. J. S.; NETO, L. M.; AUGUSTIN, E. S. Planejamento estratégico pessoa
 GASPAR, Ricardo Carlos. A trajetória da economia mundial: da recuperação do pós-guerra aos desafios contemporâneos. Cad. Metrop.,  São Paulo,  v. 17, n. 33, p. 265-296,  Maio  2015. Disponível em <https://bit.ly/3ayRLU1>. Acesso em: *25 abr. de 2020*.
 
 MACHADO-DA-SILVA, C. L.; FONSECA, V. S. da. Competitividade organizacional: uma tentativa de reconstrução analítica. Organ. Soc,  Salvador,  v. 4, n. 7, p. 97-114, Dez.  1996. Disponível em <https://bit.ly/2zv4UR8>. Acesso em: *25 abr. de 2020*.
+
+NORONHA, A. P. P. (2002). Os problemas mais graves e mais freqüentes no uso dos testes psicológicos. Psicologia: Reflexão e Crítica, 15(1), 135-142. Disponível em <https://bit.ly/3cWdVBe>. Acesso em: *25 abr. de 2020*.
 
 RAMOS, L. M. A. Os tipos psicológicos na psicologia analítica de Carl Gustav Jung e o inventário de personalidade "Myers-Briggs Type Indicator (MBTI)": contribuições para a psicologia educacional, organizacional e clínica. ETD – Educação Temática Digital, Campinas, v.6, n.2, p.137-180, jun. 2005. Disponível em <https://bit.ly/2yqonlo>. Acesso em *20 de abr. de 2020*.
 
@@ -286,3 +418,5 @@ PARA A VALIDAÇÃO DE UM INSTRUMENTO DE MEDIDA1
 e
 
 https://openpsychometrics.org/tests/16PF.php
+
+https://blog.trello.com/br/matriz-de-eisenhower

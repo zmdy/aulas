@@ -3,7 +3,7 @@ title: Aula 03 -  Módulo 01 - Auxiliar Administrativo
 date: 2020-04-09 15:54:44
 tags:
 - Auxiliar Administrativo - Módulo 01 - Aulas
-mathjax: true # add this statement,MathJax will enable in this post.
+mathjax: true
 ---
 
 <img src="../../../../assets/media/img/cursos/logo-auxiliar-administrativo-01.png" alt="Auxiliar Administrativo" title="Auxiliar Administrativo" class="img-50  bg-white">
