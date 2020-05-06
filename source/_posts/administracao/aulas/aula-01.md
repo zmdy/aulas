@@ -144,7 +144,7 @@ Peter Drucker, considerado o Pai da Administração Moderna, disse certa vez: "*
 
 `Efetividade` consiste em ser, ao mesmo tempo, eficiente e eficaz.
 
-![Matriz FOFA - Exemplo Netflix](../../../../assets/media/img/ferramentas-gestao-desempenho/conceito-efetividade.png)
+![Conceito - Efetividade](../../../../assets/media/img/ferramentas-gestao-desempenho/conceito-efetividade.png)
 
 ---
 

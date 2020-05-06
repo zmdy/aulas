@@ -25,6 +25,7 @@ Sugiro, para estudos complementares deste curso o material descrito nas referên
 Vamos começar!
 
 ---
+
 ## Sumário da Aula
 
 1. [Juros](#Juros)
@@ -51,7 +52,7 @@ O Capital é a quantia emprestada ou investida no início da aplicação. Em nos
 
 ### Prazo (t)
 
-Toda aplicação financeira possui um prazo, ou seja, um período para ser finalizado. No caso de um empréstimo o prazo indica o tempo proposto para se quitar a dívida; no aso de uma aplicação, o prazo indica o período no qual o capital será resgatado.
+Toda aplicação financeira possui um prazo, ou seja, um período para ser finalizado. No caso de um empréstimo o prazo indica o tempo proposto para se quitar a dívida; no caso de uma aplicação, o prazo indica o período no qual o capital será resgatado.
 
 Como estamos falando em **tempo**, é importante fazer algumas considerações:
 

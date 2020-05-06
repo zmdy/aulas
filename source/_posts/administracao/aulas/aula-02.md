@@ -236,6 +236,8 @@ Deste ponto de vista, a **moralidade** surge como uma **necessidade e um pacto**
 
 **Jean Jacques Rousseau**, séculos mais tarde, chegou em conclusões semelhantes às de Hobbes: para uma boa convivência entre as pessoas é necessário instituir um **contrato social** que garanta a liberdade e a segurança de todos. É bom ressaltar que Rousseau, ao contrário de Hobbes, acreditava que o **estado de natureza** do homem é livre, virtuoso, piedoso, amoral e bondoso.
 
+![teoria-contratualista](../../../../assets/media/img/etica/teoria-contratualista.png)
+
 Ambos os filósofos ressaltam que as pessoas são, naturalmente *amorais e aéticas*. A moralidade e a ética surgem a partir do momento em que se institui um conjunto de regras para a conviência em sociedade, ou seja, por meio do **contrato social**.
 
 ---

@@ -16,7 +16,8 @@ Acesse os recursos de cada aula do MÓDULO 01 - AUXILIAR ADMINISTRATIVO utilizan
 | Aula 01 | Auxiliar Administrativo – Parte I   | [Acessar](../aulas/aula-01) | 
 | Aula 02 | Auxiliar Administrativo – Parte II  | [Acessar](../aulas/aula-02) |
 | Aula 03 | Planejamento Financeiro - Parte I   | [Acessar](../aulas/aula-03) | 
-| Aula 04 e 05 | Planejamento Financeiro - Parte II  | [Acessar](../aulas/aula-04) | 
+| Aula 04 | Planejamento Financeiro - Parte II  | [Acessar](../aulas/aula-04) | 
+| Aula 05 | Resumo  | [Acessar](../aulas/aula-05) | 
 | Aula 06 | TRABALHO PARCIAL                    | <a href="../../../assets/content/administracao/modulo-01/05 - Revisão - Aulas 01 a 05.pdf" target="_blank"><i class="icofont-download"></i> Acessar Material Antigo</a> | 
 | Aula 07 | Impostos e Notas Fiscais            | <a href="../../../assets/content/administracao/modulo-01/07 - Resumo - Aula 07.pdf" target="_blank"><i class="icofont-download"></i> Acessar Material Antigo</a> | 
 | Aula 08 | Comunicação e Empreendedorismo      | <a href="../../../assets/content/administracao/modulo-01/08 - Resumo - Aula 08.pdf" target="_blank"><i class="icofont-download"></i> Acessar Material Antigo</a>| 

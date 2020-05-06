@@ -13,16 +13,16 @@ Acesse os recursos de cada aula do MÓDULO 02 - CONTABILIDADE utilizando os link
 
 | Aula    | Conteúdo                                      | Conteúdo da Aula |
 | :-----: | :-----:                                       | :-----:          |
-| Aula 01 | Introdução                                    | [Acessar](../aulas/aula-11)       | 
-| Aula 02 | Economia e Contabilidade                      | [Acessar](../aulas/aula-12)      | 
-| Aula 03 | Pessoa Física x Jurídica – Tipos de Empresa   | [Acessar](../aulas/aula-13)      | 
-| Aula 04 | Contrato Social e Alteração Contratual        | [Acessar](../aulas/aula-14)      | 
-| Aula 05 | Constituição de uma empresa                   | [Acessar](../aulas/aula-15)      | 
-| Aula 06 | TRABALHO PARCIAL                              | [Acessar]()      | 
-| Aula 07 | Balanço Patrimonial e suas operações          | [Acessar]()      | 
-| Aula 08 | Contabilização das contas                     | [Acessar]()      | 
-| Aula 09 | Grupo e plano de contas                       | [Acessar]()      | 
-| Aula 10 | Apurando Resultados / DRE                     | [Acessar]()      | 
+| Aula 01 | História da Administração (parte 01) | [Acessar](../aulas/aula-11)       | 
+| Aula 02 | História da Administração (parte 02) | [Acessar](../aulas/aula-12)       | 
+| Aula 03 | Economia e Contabilidade                      | [Acessar](../aulas/aula-13)      |
+| Aula 04 | Conceitos Básicos de Contabilidade            | [Acessar](../aulas/aula-14)      |  
+| Aula 05 | Pessoa Física x Jurídica                      | [Acessar](../aulas/aula-15)      | 
+| Aula 06 | Tipos de Empresa, Contrato Social e Alteração Contratual | [Acessar](../aulas/aula-16)      | 
+| Aula 07 | TRABALHO PARCIAL I                             | [Acessar]()      | 
+| Aula 08 | Balanço Patrimonial e suas operações          | [Acessar]()      | 
+| Aula 09 | Contabilização das contas                     | [Acessar]()      | 
+| Aula 10 | Apuração de Resultados/DRE | [Acessar]()      | 
 | Aula 11 | TRABALHO PARCIAL II                           | [Acessar]()      | 
 | Aula 12 | Revisão                                       | [Acessar]()      | 
 | Aula 13 | PROVA FINAL                                   | [Acessar](../provas-anteriores) | 
