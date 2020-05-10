@@ -67,7 +67,7 @@ Aqui temos um exemplo de código-fonte: <code>for(;;){console.log('Loop');} </co
 
 Este é um [link](#) que redireciona para a Terra da Representação.
 
-> Esta é uma frase otimista sobre o futuro da humanidade. Irônico o tema se chamar *Arthurito*, não?
+<blockqoute>Este é um exemplo simples de uma frase utilizando o &lt;blockqoute&gt;</blockquote>
 
 ---
 
