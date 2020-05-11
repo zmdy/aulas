@@ -117,9 +117,42 @@ O resultado foi o seguinte:
 
 Para o Trabalho em Grupo, os alunos deverão formar grupos de 3 a 5 pessoas.
 
-O objetivo deste trabalho será de preencher o **Contrato Social** de uma empresa. Para isso, o grupo deverá simular a criação de uma empresa.
+O objetivo deste trabalho será de preencher o **Contrato Social** de uma sociedade comercial. Para isso, o grupo deverá simular a criação de uma empresa.
+
+Além do contrato social, o grupo deverá realizar o planejamento contábil de sua empresa por meio de uma **DRE**.
 
 Antes de preencher o Contrato, o grupo deverá preencher uma apresentação de slides com as principais informações da empresa. Alguns modelos serão disponibilizados.
+
+Lista de Itens do Projeto em Grupo:
+
+1) Apresentação de Slides, contendo:
+  - Capa;
+  - Departamentos da Empresa;
+  - Organograma da Empresa;
+  - Objeto Social;
+  - CNAE;
+  - Tabela de Produtos;
+  - Promoção;
+  - Nome Fantasia e Nome Empresarial;
+  - Porte da Empresa;
+  - Enquadramento Jurídico;
+  - Enquadramento Tributário;
+  - CNPJ e Inscrição Estadual;
+  - Endereço da Sede;
+  - Capital Social;
+  - Print do fluxo de caixa;
+  - Print do Comprovante de CNPJ;
+  - Print da Ata de Fundação;
+  - Logotipo da empresa;
+
+2) Comprovante de CNPJ;
+
+3) Ata de Fundação + Atas de Reuniões;
+
+4) Fluxo de Caixa Mensal;
+
+5) Contrato Social;
+
 
 ### Objeto Social e CNAE
 
@@ -163,6 +196,26 @@ ATIVIDADES SECUNDÁRIAS:
 - 1092-9/00 Fabricação de biscoitos e bolachas
 - 5611-2/03 Lanchonetes, casas de chá, de sucos e similares
 - 1094-5/00 Fabricação de massas alimentícias
+
+### Organização da Empresa
+
+Como vimos nas aulas sobre teorias administrativas, as empresas se organizam em diversos departamentos e órgãos, cada um responsável por uma função dentre da mesma.
+
+Para Fayol, em sua Teoria Clássica, as funções empresariais seriam: a **técnica**, a **comercial**, a **financeira**, a de **segurança**, a **contábil** e a **administrativa**. Essa última seria a responsável pela coordenação das outras funções.
+
+Já na Teoria da Burocracia de Weber, dá-se uma importância maior às hierarquias da empresa.
+
+Organogramas são gráficos que representam a estrutura hierárquica de uma empresa, mostrando os departamentos da mesma e suas inter-relações. 
+
+Em nossa padaria de exemplo poderíamos ter como **departamentos**:
+
+1) O **departamento comercial e administrativo**, responsável por administrar a empresa;
+2) O **departamento de produção**, formado pelos cozinheiros, padeiros e confeiteiros, e responsável pela produção dos produtos da padaria;
+3) O **departamento de vendas**, formado pelos atendentes, vendedores motoristas e entregadores.
+
+Após delimitar os departamentos, o grupo deverá montar o **organograma** de sua empresa, utilizando o Power Point. Em nosso exemplo da padaria, ele ficaria assim:
+
+![Organograma de uma Padaria](../../../../assets/media/img/contabilidade/organograma-padaria.png)
 
 ### Produtos Ofertados
 
@@ -271,6 +324,26 @@ No desenvolvimento da apresentação, o grupo deverá explicar as razões que le
 
 A escolha de um bom endereço de sede é fundamental para o destaque de seu negócio. Escolha-o bem!
 
+### Demonstrações Financeiras
+
+A apuração de resultados financeiros é importantíssima para se verificar o balanço final das operações após determinado período.
+
+Todas as empresas, para garantirem uma boa administração dos seus recursos, devem ter um lançamento diário de seu fluxo de caixa. Estes documentos ajudam os administradores a tomarem decisões sobre seus negócios.
+
+Para este trabalho o grupo deverá preencher um modelo de Fluxo de Caixa que irá calcular, automaticamente, um relatório financeiro do período.
+
+Neste modelo, deverão ser cadastrados, nesta ordem:
+
+1) Entre 25 (mínimo) e 50 produtos (máximo);
+2) Entre 90 (mínimo) e 180 vendas (máximo);
+3) Entre 30 (mínimo) e 60 saídas de caixa (máximo);
+
+![Fluxo de Caixa](../../../../assets/media/img/contabilidade/modelo-fluxo-de-caixa.png)
+
+Todos estes dados estão disponíveis no documento abaixo:
+
+<a href="../../../../assets/content/administracao/modulo-02/modelo-fluxo-de-caixa-mensal.xlsx" target="_blank"><i class="icofont-download"></i> XLSX - Modelo de Fluxo de Caixa Mensal</a>
+
 ### Apresentação de Slide
 
 Para facilitar o levantamento de informações, abaixo seguem alguns modelos de Apresentação de Slides para serem preenchidos com os dados de sua empresa.
@@ -328,6 +401,8 @@ AO FINAL DO PROCESSO VOCÊS DEVERÃO EXPORTAR AS ATAS PARA O FORMATO PDF E IMPRI
 <a href="../../../../assets/content/administracao/modelos/modelo-contrato-social.pdf" target="_blank"><i class="icofont-download"></i> PDF - Modelo de Contrato Social para Sociedade Simples Pura e Limitada</a>
 
 <a href="../../../../assets/content/administracao/modelos/modelo-contrato-social-ltda.docx" target="_blank"><i class="icofont-download"></i> DOCX - Modelo de Contrato Social para Sociedade Simples Limitada</a>
+
+<a href="../../../../assets/content/administracao/modulo-02/modelo-fluxo-de-caixa-mensal.xlsx" target="_blank"><i class="icofont-download"></i> XLSX - Modelo de Fluxo de Caixa Mensal</a>
 
 ---
 
