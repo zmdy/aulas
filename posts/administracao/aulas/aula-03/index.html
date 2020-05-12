@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="UTF-8">
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="author" content="zmdy">
+
+
+
+
+
+<title>Aula 03 -  Módulo 01 - Auxiliar Administrativo | aulas.txt</title>
+
+<!-- HERE ARE SOME LIBARIES AND PERSONAL TOOLS OF THE SRC FOLDER -->
+<script src="/aulas.txt/src/js/bonisa.min.js"></script>
+<script src="/aulas.txt/src/libs/printjs/print.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="/aulas.txt/assets/media/fonts/icofont/icofont.css">
+<script>
+  function printPage(){
+    printJS({
+        printable: 'aulasTXT', type: 'html',
+        header: null,
+        css: '/aulas.txt/css/style.css'
+    });
+  }
+</script>
+
+
+
+
+    <link rel="icon" href="/aulas.txt/favicon.png">
+
+
+
+
+    <!-- stylesheets list from _config.yml -->
+    
+    <link rel="stylesheet" href="/aulas.txt/css/style.css">
+    
+
+
+
+    <!-- scripts list from _config.yml -->
+    
+    <script src="/aulas.txt/js/script.js"></script>
+    
+    <script src="/aulas.txt/js/tocbot.min.js"></script>
+    
+
+
+
+    
+    
+        
+            <!-- MathJax配置，可通过单美元符号书写行内公式等 -->
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+    "HTML-CSS": {
+        preferredFont: "TeX",
+        availableFonts: ["STIX","TeX"],
+        linebreaks: { automatic:true },
+        EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50)
+    },
+    tex2jax: {
+        inlineMath: [ ["$", "$"], ["\\(","\\)"] ],
+        processEscapes: true,
+        ignoreClass: "tex2jax_ignore|dno",
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    },
+    TeX: {
+        equationNumbers: { autoNumber: "AMS" },
+        noUndefined: { attributes: { mathcolor: "red", mathbackground: "#FFEEEE", mathsize: "90%" } },
+        Macros: { href: "{}" }
+    },
+    messageStyle: "none"
+    });
+</script>
+<!-- 给MathJax元素添加has-jax class -->
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+<!-- 通过连接CDN加载MathJax的js代码 -->
+<script type="text/javascript" async
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+
+        
+    
+
+
+<meta name="generator" content="Hexo 4.2.0"><!-- hexo-inject:begin --><!-- hexo-inject:end --></head>
+<body>
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><div class="wrapper">
+        <header>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header header-logo"><a href="/aulas.txt/">aulas.txt</a></div>
+            <div class="menu navbar-right">
+                
+                    <a class="menu-item" href="/aulas.txt/pages/cursos">Cursos</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/tag">Materiais</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/manual">Manual</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/sobre">Sobre</a>
+                
+                <input id="switch_default" type="checkbox" class="switch_default">
+                <label for="switch_default" class="toggleBtn"></label>
+            </div>
+        </div>
+    </nav>
+
+    
+    <nav class="navbar-mobile" id="nav-mobile">
+        <div class="container">
+            <div class="navbar-header">
+                <div>
+                    <a href="/aulas.txt/">aulas.txt</a><a id="mobile-toggle-theme">·&nbsp;Light</a>
+                </div>
+                <div class="menu-toggle" onclick="mobileBtn()">&#9776; Menu</div>
+            </div>
+            <div class="menu" id="mobile-menu">
+                
+                    <a class="menu-item" href="/aulas.txt/pages/cursos">Cursos</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/tag">Materiais</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/manual">Manual</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/sobre">Sobre</a>
+                
+            </div>
+        </div>
+    </nav>
+
+</header>
+<script>
+    var mobileBtn = function f() {
+        var toggleMenu = document.getElementsByClassName("menu-toggle")[0];
+        var mobileMenu = document.getElementById("mobile-menu");
+        if(toggleMenu.classList.contains("active")){
+           toggleMenu.classList.remove("active")
+            mobileMenu.classList.remove("active")
+        }else{
+            toggleMenu.classList.add("active")
+            mobileMenu.classList.add("active")
+        }
+    }
+</script>
+        <div class="main padding-05mm" id="aulasTXT">
+            <div class="container">
+    
+    
+        <div class="post-toc">
+    <div class="tocbot-list">
+    </div>
+    <div class="tocbot-list-menu">
+        <a class="tocbot-toc-expand" onclick="expand_toc()">Expand all</a>
+        <a onclick="go_top()">Back to top</a>
+        <a onclick="go_bottom()">Go to bottom</a>
+    </div>
+</div>
+
+<script>
+    document.ready(
+        function () {
+            tocbot.init({
+                tocSelector: '.tocbot-list',
+                contentSelector: '.post-content',
+                headingSelector: 'h1, h2, h3, h4, h5',
+                collapseDepth: 1,
+                orderedList: false,
+                scrollSmooth: true,
+            })
+        }
+    )
+
+    function expand_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 6,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "collapse_toc()");
+        b.innerHTML = "Collapse all"
+    }
+
+    function collapse_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 1,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "expand_toc()");
+        b.innerHTML = "Expand all"
+    }
+
+    function go_top() {
+        window.scrollTo(0, 0);
+    }
+
+    function go_bottom() {
+        window.scrollTo(0, document.body.scrollHeight);
+    }
+
+</script>
+    
+
+    
+    <article class="post-wrap">
+        <header class="post-header">
+            <h1 class="post-title">Aula 03 -  Módulo 01 - Auxiliar Administrativo</h1>
+            
+                <div class="post-meta">
+                    
+
+                    
+                        <span class="post-time">
+                        Data de Publicação: <a href="#">09/04/2020&nbsp;&nbsp;15:54</a>
+                        </span>
+                    
+                    
+                </div>
+            
+        </header>
+
+        <div class="post-content">
+            <img src="../../../../assets/media/img/cursos/logo-auxiliar-administrativo-01.png" alt="Auxiliar Administrativo" title="Auxiliar Administrativo" class="img-50  bg-white">
+
+<p>Bem vindx à mais uma aula do curso de Auxiliar Administrativo!</p>
+<p>Hoje veremos a primeira parte do conteúdo de matemática financeira. </p>
+<p>Se quiser aessar o material anteriormente produzido e utilizado, basta clicar aqui:  <a href="../../../../assets/content/administracao/modulo-01/03 - Resumo - Aula 03.pdf" target="_blank"><i class="icofont-download"></i>Material - Aula 03</a> </p>
+<p>Sugiro, para estudos complementares deste curso o material descrito nas referências bibliográficas, em especial:</p>
+<p><a href="https://bit.ly/3e9aqsA" target="_blank" rel="noopener">BACARJI, A. G. Formação Inicial e Continuada: Auxiliar Administrativo</a></p>
+<p><a href="https://bit.ly/2JRzNkL" target="_blank" rel="noopener">JUNIOR, R. Matemática Financeira</a></p>
+<p><a href="https://bit.ly/2UVPNZf" target="_blank" rel="noopener">VIANNA, R. de M. I. Matemática Financeira</a></p>
+<p>Vamos começar!</p>
+<hr>
+<h2 id="Sumario-da-Aula"><a href="#Sumario-da-Aula" class="headerlink" title="Sumário da Aula"></a>Sumário da Aula</h2><ol>
+<li><a href="#Matematica-Financeira">Matemática Financeira</a></li>
+<li><a href="#Razao-e-Proporcao">Razão e Proporção</a></li>
+<li><a href="#Regra-de-Tres-Simples">Regra de Três Simples</a></li>
+<li><a href="#Regra-de-Tres-Composta">Regra de Três Composta</a></li>
+<li><a href="#Porcentagem">Porcentagem</a></li>
+<li><a href="#Exercicios">Exercícios</a></li>
+<li><a href="#Referencias-Bibliograficas">Referências Bibliográficas</a></li>
+</ol>
+<hr>
+<h2 id="Matematica-Financeira"><a href="#Matematica-Financeira" class="headerlink" title="Matemática Financeira"></a>Matemática Financeira</h2><p>A <strong>Matemática Financeira</strong> é bastante utilizada para avaliar aplicações financeiras e econômicas.</p>
+<p>As fórmulas e ferramentas possibilitadas por essa área permitem utilizações diversas: desde analisar se um investimento irá gerar um bom lucro para o investidor, até mesmo nos ajudar no dia a dia a escolher o melhor produto para comprar-mos.</p>
+<hr>
+<h2 id="Razao-e-Proporcao"><a href="#Razao-e-Proporcao" class="headerlink" title="Razão e Proporção"></a>Razão e Proporção</h2><p>A noção de <strong>relação algébrica</strong> em matemática financeira é importante para representar de modo geral as relações que estabeleceremos entre o dinheiro, os juros e o tempo. Em muitos casos iremos utilizar o conceito de <strong>razão e proporção</strong>.</p>
+<p>O conceito de <strong>razão</strong> nada mais é, em matemática, do que uma divisão entre dois números, <em>a</em> e <em>b</em>.</p>
+<p>$\frac{a}{b}=a:b=a/b$</p>
+<p>Esta razão pode ser ser representada como uma fração($\frac{a}{b}$) ou como um <strong>número decimal</strong>.</p>
+<p>Vamos pensar, por exemplo, nas seguintes <strong>frações</strong>:</p>
+<p>a) $\frac{15}{5}$<br>b) $\frac{10}{5}$<br>c) $\frac{5}{5}$<br>d) $\frac{3}{5}$<br>e) $\frac{1}{5}$</p>
+<p>Estas frações podem ser representadas como números decimais. Para isto basta dividir o numerador (“número de cima”) pelo denominador (“número de baixo”). Nos exemplos mostrados teríamos:</p>
+<p>a) $\frac{15}{5}=3$<br>b) $\frac{10}{5}=2$<br>c) $\frac{5}{5}=1$<br>d) $\frac{3}{5}=0,60$<br>e) $\frac{1}{5}=0,20$</p>
+<hr>
+<h2 id="Regra-de-Tres-Simples"><a href="#Regra-de-Tres-Simples" class="headerlink" title="Regra de Três Simples"></a>Regra de Três Simples</h2><p>A <strong>Regra de Três</strong> é uma maneira simples e fácil de resolver problemas que envolvem calcular <strong>valores desconhecidos</strong> quando já dispomos de 3 valores conhecidos.</p>
+<blockquote>
+<p>Exemplo Prático 01: Um Boeing 737 consegue transportar, em média, 215 passageiros por viagem. Quantos aviões deste modelo são necessários para transportar os 786 moradores de Serra da Saudade, a cidade com a menor população do Brasil?</p>
+</blockquote>
+<blockquote>
+<p>Exemplo Prático 02: Mariana fez uma viagem de carro para a cidade de seus avós. Sabendo que com o carro a 100km/h ela levou 5 horas para chegar à cidade de seus avós, em quanto tempo ela faria a mesma viagem se o seu carro estivesse a 150km/h?</p>
+</blockquote>
+<p>Problemas envolvendo regras de três podem ser facilmente resolvidos em algumas etapas.</p>
+<h3 id="Primeira-Etapa-Relacionar-as-Grandezas"><a href="#Primeira-Etapa-Relacionar-as-Grandezas" class="headerlink" title="Primeira Etapa: Relacionar as Grandezas"></a>Primeira Etapa: Relacionar as Grandezas</h3><p>Para resolver problemas envolvendo regras de três, devemos, primeiramente, <strong>relacionar as grandezas</strong> envolvidas no problema, como diretamente ou inversamente proporcionais – em relação à incógnita.</p>
+<p>Uma <strong>grandeza</strong> nada mais é do que algo que pode ser medido: quantidade de pães, dinheiro, tamanhos, pesos, quantidades, etc.</p>
+<p>Duas grandezas são <strong>diretamente proporcionais</strong> quando o aumento em uma provoca um aumento na outra.</p>
+<p>Duas grandezas são <strong>inversamente proporcionais</strong> quando o aumento em uma provoca uma redução na outra.</p>
+<p>Vamos analisar os exemplos dados:</p>
+<blockquote>
+<p>Exemplo Prático 01: se nós aumentarmos a quantidade de aviões (<i class="icofont-long-arrow-up"></i>) iremos aumentar, também, a quantidade de passageiros (<i class="icofont-long-arrow-up"></i>). Neste caso as grandezas são <strong>diretamente proporcionais</strong>.</p>
+</blockquote>
+<blockquote>
+<p>Exemplo Prático 02: quanto mais rápido for o carro, ou seja, quanto maior for a velocidade (<i class="icofont-long-arrow-up"></i>) em menos tempo Mariana irá chegar na casa de seus avós (<i class="icofont-long-arrow-down"></i>). Neste caso as grandezas são <strong>inversamente proporcionais</strong>.</p>
+</blockquote>
+<h3 id="Segunda-Etapa-Relacionar-os-Valores"><a href="#Segunda-Etapa-Relacionar-os-Valores" class="headerlink" title="Segunda Etapa: Relacionar os Valores"></a>Segunda Etapa: Relacionar os Valores</h3><p>Após relacionar as grandezas, basta <strong>relacionar os valores</strong> em uma proporção. Para facilitar, tente montar uma tabela com os dados informados no problema.</p>
+<p><strong>Exemplo Prático 01:</strong></p>
+<table>
+<thead>
+<tr>
+<th>nº de Aviões <i class="icofont-long-arrow-up"></i></th>
+<th align="center">nº de Passageiros <i class="icofont-long-arrow-up"></i></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td align="center">215</td>
+</tr>
+<tr>
+<td>x</td>
+<td align="center">786</td>
+</tr>
+</tbody></table>
+<p><strong>Exemplo Prático 02:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Velocidade <i class="icofont-long-arrow-up"></i></th>
+<th align="center">Tempo <i class="icofont-long-arrow-down"></i></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>100</td>
+<td align="center">5</td>
+</tr>
+<tr>
+<td>150</td>
+<td align="center">x</td>
+</tr>
+</tbody></table>
+<h3 id="Terceira-Etapa-Calcular"><a href="#Terceira-Etapa-Calcular" class="headerlink" title="Terceira Etapa: Calcular"></a>Terceira Etapa: Calcular</h3><p>Com as tabelas já feitas, podemos, finalmente, calcular os resultados.</p>
+<p>Para resolver a regra de três basta realizar a <strong>multiplicação cruzada</strong> das grandezas desconhecidas.</p>
+<p>Quando tivermos <strong>grandezas diretamente proporcionais</strong>, basta montar a regra de três exatamente como se encontra a tabela feita anteriormente.</p>
+<p>Quando temos <strong>grandezas inversamente proporcionais</strong>, devemos <strong>inverter as colunas</strong> onde se encontra a incógnita, de modo a deixar todas as grandezas diretamente proporcionais.</p>
+<p>Vamos resolver, primeiramente, o Exemplo 01:</p>
+<table>
+<thead>
+<tr>
+<th>nº de Aviões <i class="icofont-long-arrow-up"></i></th>
+<th align="center">nº de Passageiros <i class="icofont-long-arrow-up"></i></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td align="center">215</td>
+</tr>
+<tr>
+<td>x</td>
+<td align="center">786</td>
+</tr>
+</tbody></table>
+<p>Para calcular o valor de <em>x</em> basta montar a proporção:</p>
+<p>$\frac{1}{x} = \frac{215}{786}$</p>
+<p>$ x * 215 = 1 * 786$</p>
+<p>$ x = \frac{1 * 786}{215}$</p>
+<p>$ x \approx 3,66$</p>
+<p>Antes de calcularmos o Exemplo 02, precisaremos realizar algumas modificações na nossa tabela:</p>
+<table>
+<thead>
+<tr>
+<th>Velocidade <i class="icofont-long-arrow-up"></i></th>
+<th align="center">Tempo <i class="icofont-long-arrow-down"></i></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>100</td>
+<td align="center">5</td>
+</tr>
+<tr>
+<td>150</td>
+<td align="center">x</td>
+</tr>
+</tbody></table>
+<p>Para efetuar os cálculos devemos, primeiramente, inverter uma das duas colunas. Repare agora que as duas setas (<i class="icofont-long-arrow-up"></i>) estão apontando para a mesma direção:</p>
+<table>
+<thead>
+<tr>
+<th>Velocidade <i class="icofont-long-arrow-up"></i></th>
+<th align="center">Tempo <i class="icofont-long-arrow-up"></i></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>100</td>
+<td align="center">x</td>
+</tr>
+<tr>
+<td>150</td>
+<td align="center">5</td>
+</tr>
+</tbody></table>
+<p>Agora é só realizar o cálculo normalmente!</p>
+<p>$\frac{100}{150} = \frac{x}{5}$</p>
+<p>$ 100 * 5 = 150 * x$</p>
+<p>$ x = \frac{500}{150}$</p>
+<p>$ x \approx 3,33$</p>
+<h3 id="Quarta-Etapa-Avaliar"><a href="#Quarta-Etapa-Avaliar" class="headerlink" title="Quarta Etapa: Avaliar"></a>Quarta Etapa: Avaliar</h3><p>Após realizarmos as operações é sempre bom fazermos a seguinte pergunta: “minha resposta faz sentido?”.</p>
+<p>As respostas precisam ser coerentes com a natureza de cada problema.</p>
+<p>Pensando nos exemplos acima, para o primeiro problema tivemos como resposta o número 3,66. Devemos nos lembrar que este número indica a <strong>quantidade de aviões</strong> necessários para transportar os 786 passageiros.</p>
+<p>Esse número contém uma parte inteira (3) e uma parte decimal (0,66). Isso significa que vamos precisar de 3 aviões inteiros e 0,66 outro avião. Isso faz sentido?</p>
+<p>Do ponto de vista prático não, pois não dá para pegarmos uma avião, dividir ele em vários pedaços e utilizar 0,66 pedaços do mesmo. Assim, nesse exemplo, é mais prático indicar que são necessários 4 aviões.</p>
+<p>Matematicamente, podemos indicar apenas o número 3,66.</p>
+<p>Já o segundo exemplo teve como resposta o número 3,33. Este número indica a quantidade de horas que Mariana irá levar para chegar na cidade de seus avós.</p>
+<p>Esse número contém uma parte inteira (3) e uma parte decimal (0,33). Isso significa que vamos precisar de 3 horas e 0,33 partes de uma hora para fazer a viagem. Isso faz sentido?</p>
+<p>Neste caso faz, pois podemos dividir uma hora em unidades menores, como minutos ou segundos. Na verdade 0,33 horas representam 20 minutos. Ou seja: Mariana irá levar 3 horas e 20 minutos para fazer a sua viagem.</p>
+<hr>
+<h2 id="Regra-de-Tres-Composta"><a href="#Regra-de-Tres-Composta" class="headerlink" title="Regra de Três Composta"></a>Regra de Três Composta</h2><p>Regras de Três que possuem mais de duas grandezas são chamadas de <strong>compostas</strong>. Não há segredo em resolvê-las.</p>
+<p>Para exemplificar o processo vamos analisar 2 exemplos:</p>
+<blockquote>
+<p>Exemplo Prático 03: Utilizando 5 impressoras, os 15 funcionários de uma gráfica conseguem produzir 300 livros em um dia. Quantos livros 10 funcionários conseguirão produzir de utilizarem 10 impressoras?</p>
+</blockquote>
+<blockquote>
+<p>Exemplo Prático 04: Os 4 confeiteiros de uma padaria conseguem produzir, em 6 dias, 72 bolos de aniversário. Quantos confeiteiros precisamos para produzir 96 bolos de aniversário em 3 dias?</p>
+</blockquote>
+<p>Vamos resolver estes problemas seguindo o passo-a-passo já mostrado acima.</p>
+<h3 id="Primeira-Etapa-Relacionar-as-Grandezas-1"><a href="#Primeira-Etapa-Relacionar-as-Grandezas-1" class="headerlink" title="Primeira Etapa: Relacionar as Grandezas"></a>Primeira Etapa: Relacionar as Grandezas</h3><blockquote>
+<p>Exemplo Prático 03: Se aumentarmos a quantidade de impressoras (<i class="icofont-long-arrow-up"></i>) poderemos aumentar a quantidade de livros (<i class="icofont-long-arrow-up"></i>) e de funcionários (<i class="icofont-long-arrow-up"></i>).</p>
+</blockquote>
+<blockquote>
+<p>Exemplo Prático 04: Quanto mais confeiteiros tiver na padaria (<i class="icofont-long-arrow-up"></i>) mais bolos de aniversário eles irão fazer (<i class="icofont-long-arrow-up"></i>) em menos tempo (<i class="icofont-long-arrow-down"></i>).</p>
+</blockquote>
+<h3 id="Segunda-Etapa-Relacionar-os-Valores-1"><a href="#Segunda-Etapa-Relacionar-os-Valores-1" class="headerlink" title="Segunda Etapa: Relacionar os Valores"></a>Segunda Etapa: Relacionar os Valores</h3><p><strong>Exemplo Prático 03:</strong></p>
+<table>
+<thead>
+<tr>
+<th>nº de Impressoras <i class="icofont-long-arrow-up"></i></th>
+<th align="center">nº de Funcionários <i class="icofont-long-arrow-up"></i></th>
+<th>nº de Livros <i class="icofont-long-arrow-up"></i></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>5</td>
+<td align="center">15</td>
+<td>300</td>
+</tr>
+<tr>
+<td>10</td>
+<td align="center">10</td>
+<td>x</td>
+</tr>
+</tbody></table>
+<p><strong>Exemplo Prático 04:</strong></p>
+<table>
+<thead>
+<tr>
+<th>nº de Confeiteiros <i class="icofont-long-arrow-up"></i></th>
+<th align="center">nº de Dias <i class="icofont-long-arrow-down"></i></th>
+<th>nº de Bolos <i class="icofont-long-arrow-up"></i></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>4</td>
+<td align="center">6</td>
+<td>72</td>
+</tr>
+<tr>
+<td>x</td>
+<td align="center">3</td>
+<td>96</td>
+</tr>
+</tbody></table>
+<h3 id="Terceira-Etapa-Calcular-1"><a href="#Terceira-Etapa-Calcular-1" class="headerlink" title="Terceira Etapa: Calcular"></a>Terceira Etapa: Calcular</h3><p>Os cálculos das regras de três compostas envolvem um pequeno detalhe: antes de fazermos a multiplicação cruzada devemos relacionar as colunas da tabela.</p>
+<p>Para isso basta montar uma regra de três como a mostrada a seguir:</p>
+<table>
+<thead>
+<tr>
+<th>nº de Impressoras <i class="icofont-long-arrow-up"></i></th>
+<th align="center">nº de Funcionários <i class="icofont-long-arrow-up"></i></th>
+<th>nº de Livros <i class="icofont-long-arrow-up"></i></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>5</td>
+<td align="center">15</td>
+<td>300</td>
+</tr>
+<tr>
+<td>10</td>
+<td align="center">10</td>
+<td>x</td>
+</tr>
+</tbody></table>
+<p>$\frac{5}{10} *  \frac{15}{10} = \frac{300}{x}$</p>
+<p>Após montar a regra de três, devemos multiplicar os valores da primeira parte da nossa igualdade: $\frac{5}{10}$ e $\frac{15}{10}$.</p>
+<p>Lembrando que a multiplicação de frações deve ser feita por partes: os numeradores devem ser multiplicados entre si, assim como os denominadores. Ou seja:</p>
+<p>$\frac{5}{10} *  \frac{15}{10} = \frac{5 * 15}{10 * 10} = \frac{75}{100}$</p>
+<p>Agora basta realizar as operações normalmente:</p>
+<p>$\frac{75}{100} = \frac{300}{x}$</p>
+<p>$75 * x = 100 * 300$</p>
+<p>$x = \frac{100 * 300}{75} = 400$</p>
+<h4 id="Grandezas-Inversamente-Proporcionais"><a href="#Grandezas-Inversamente-Proporcionais" class="headerlink" title="Grandezas Inversamente Proporcionais"></a>Grandezas Inversamente Proporcionais</h4><p>Assim como as regras de três simples, quando tivermos grandezas inversamente proporcionais devemos, antes de calcular, reordenar as colunas de modo a deixar todas elas diretamente proporcionais.</p>
+<table>
+<thead>
+<tr>
+<th>nº de Confeiteiros <i class="icofont-long-arrow-up"></i></th>
+<th align="center">nº de Dias <i class="icofont-long-arrow-down"></i></th>
+<th>nº de Bolos <i class="icofont-long-arrow-up"></i></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>4</td>
+<td align="center">6</td>
+<td>72</td>
+</tr>
+<tr>
+<td>x</td>
+<td align="center">3</td>
+<td>96</td>
+</tr>
+</tbody></table>
+<p>O resultado da tabela acima, após ordenado é:</p>
+<table>
+<thead>
+<tr>
+<th>nº de Confeiteiros <i class="icofont-long-arrow-up"></i></th>
+<th align="center">nº de Dias <i class="icofont-long-arrow-up"></i></th>
+<th>nº de Bolos <i class="icofont-long-arrow-up"></i></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>4</td>
+<td align="center">3</td>
+<td>72</td>
+</tr>
+<tr>
+<td>x</td>
+<td align="center">6</td>
+<td>96</td>
+</tr>
+</tbody></table>
+<p>Efetuando as operações, tem-se:</p>
+<p>$\frac{4}{x} =  \frac{3}{6} * \frac{72}{96}$</p>
+<p>Após montar a regra de três, devemos multiplicar os valores da primeira parte da nossa igualdade: $\frac{3}{6}$ e $\frac{72}{96}$.</p>
+<p>$\frac{3}{6} * \frac{72}{96} = \frac{3 * 72}{6 * 96} = \frac{216}{576}$</p>
+<p>Agora basta realizar as operações normalmente:</p>
+<p>$\frac{4}{x} = \frac{216}{576}$</p>
+<p>$4 * 576 = x * 216$</p>
+<p>$2304 = 216 * x$</p>
+<p>$x = \frac{2304}{216} = 10,66$</p>
+<p>Precisamos, então de aproximadamente 11 confeiteiros para atendera à demanda solicitada.</p>
+<hr>
+<h2 id="Porcentagem"><a href="#Porcentagem" class="headerlink" title="Porcentagem"></a>Porcentagem</h2><p>Em muitos exemplos do dia a dia utilizamos razões em que o denominador é o numero 100. Temos aí as <strong>porcentagens</strong>.</p>
+<p>Ao dividir qualquer número por 100 você obtém como resultado <strong>1% daquele número</strong>. A partir daí fica muito fácil encontrar o percentual de qualquer número.</p>
+<p>$\frac{x}{100}$ = 1% de x</p>
+<p>Para calcular <strong>qualquer porcentagem</strong> basta dividir o número por 100 e multiplica-lo pelo percentual desejado.</p>
+<p>Exemplo 01: 30% de 150 = $\frac{150}{100} * 30 = 1,5 * 30 = 45$</p>
+<p>Exemplo 02: 21% de 300 =  $\frac{300}{100} * 21 = 63$</p>
+<p>É importante ressaltar a <strong>comutatividade</strong> das porcentagens: X% de Y = Y % de X.</p>
+<p>Exemplo 03: 5% de 200 = $\frac{200}{100} * 5 = 2 * 5 = 10$</p>
+<p>Exemplo 04: 200% de 5 = $\frac{5}{100} * 200 = 0,05 * 200 = 10$</p>
+<h3 id="Representacao-de-Porcentagens"><a href="#Representacao-de-Porcentagens" class="headerlink" title="Representação de Porcentagens"></a>Representação de Porcentagens</h3><p>Outra técnica que pode facilitar sua vida no estudo de porcentagem é transformar a linguagem de percentuais em <strong>fração</strong>. Veja um exemplo:</p>
+<p>40% de 250 = $\frac{250}{100} * 40 = \frac{250}{100} * \frac{40}{1} = \frac{250 * 40}{100 * 1} = \frac{10000}{100} = 100$</p>
+<p>Podemos transformar qualquer porcentagem em um <strong>número decimal</strong> ao efetuar as divisões necessárias:</p>
+<p>25% de 160 = $\frac{160}{100} * 25 = \frac{4000}{100} = 40$</p>
+<h3 id="Porcentagens-maiores-que-100"><a href="#Porcentagens-maiores-que-100" class="headerlink" title="Porcentagens maiores que 100%"></a>Porcentagens maiores que 100%</h3><p>Uma dúvida comum entre muitos é sobre o cálculo de porcentagens maiores que 100%.</p>
+<p>Para facilitar o raciocínio, lembre que 100% de uma barra de chocolate, por exemplo, é uma barra inteira dividida em 100 partes. </p>
+<p>Cada parte representa 1%. </p>
+<p>150% da uma barra de chocolate equivale a uma barra (100%) mais metade de outra barra (50%)</p>
+<p>Assim podemos raciocinar para quando se tratarem de exemplos como estes.</p>
+<h3 id="Resolvendo-problemas-de-porcentagem"><a href="#Resolvendo-problemas-de-porcentagem" class="headerlink" title="Resolvendo problemas de porcentagem"></a>Resolvendo problemas de porcentagem</h3><p>Os cálculos de porcentagem podem ser facilmente feitos utilizando-se <strong>regras de três</strong>.</p>
+<p>Para isso basta identificar corretamente os valores e as porcentagens indicadas nos problemas e montar uma regra de três com <strong>grandezas proporcionais</strong>.</p>
+<p>Exemplo 05: O preço de um produto comprado à prazo em uma loja é 5,3% maior que o preço do mesmo produto comprado à vista.  Sabendo que João realizou a compra de uma televisão nesta loja, pagando-a em 4 prestações iguais de R$ 210,60, calcule o preço da mesma televisão quando comprada à vista.</p>
+<p>Primeiramente devemos calcular o <strong>preço total da TV</strong>: 4 * 210,60 = R$ 842,40.</p>
+<p>Este valor corresponde ao preço à vista da TV (100%) somado com os 5,3%. Assim sendo, podemos montar a tabela a seguir:</p>
+<table>
+<thead>
+<tr>
+<th>Preço</th>
+<th align="center">Porcentagem</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>842,40</td>
+<td align="center">105,3%</td>
+</tr>
+<tr>
+<td>x</td>
+<td align="center">100%</td>
+</tr>
+</tbody></table>
+<p>Montando as proporções e efetuando as opereções temos: x = R$800,00</p>
+<hr>
+<h2 id="Exercicios"><a href="#Exercicios" class="headerlink" title="Exercícios"></a>Exercícios</h2><ol>
+<li><p>Represente as frações abaixo na forma de números decimais:<br>a) $\frac{1}{5}$<br>b) $\frac{2}{10}$<br>c) $\frac{1}{10}$<br>d) $\frac{11}{22}$<br>e) $\frac{5}{0,25}$<br>f) $\frac{0,15}{3}$<br>g) $\frac{400}{1600}$</p>
+</li>
+<li><p>Em cada situação abaixo, informe se as grandezas são inversamente ou diretamente proporcionais.<br>a) João deseja contratar mais vendedores para sua loja. Com isso suas vendas irão aumentar.<br>b) Rosicleide pagou 3 faturas e ficou com 600 reais de seu salário. Se ela pagasse 4 faturas iria ficar com 400 reais.<br>c) Angélica vende trufas recheadas. Utilizando 1 barra de chocolate ela consegue produzir 25 bombons. Utilizando 2 barras, ela consegue produzir 50 bombons.<br>d) Caio consegue ler 20 páginas por dia, e com isso, terminar a leitura de 1 livro em 20 dias. Se ele ler 40 páginas por dia, irá terminar a leitura em 10 dias.<br>e) Gustavo e seu ajudante conseguem consertar 6 automóveis por dia. Se ele contratar mais 2 ajudantes, conseguirá consertar 24 automóveis em 2 dias.</p>
+</li>
+<li><p>João percorreu de bicicleta 150 km em 3 dias, pedalando 2 horas, diariamente. Pedalando 4 horas por dia, durante  5 dias, ele percorrerá quantos quilômetros?</p>
+</li>
+<li><p>O investimento de 10.000,00 na melhoria da logística de uma empresa gera uma economia de 2.000,00.<br>a) Para termos uma economia de 3.500,00 quanto devemos investir?<br>b) Quanto tempo levaríamos para recuperar um investimento de 15.000,00 feito nas mesmas condições.</p>
+</li>
+<li><p>Para descarregar 15 vagões de trem em uma hora e meia precisamos de 5 funcionários. Quantos funcionários serão necessários para descarregar 120 vagões em 6  Horas?</p>
+</li>
+<li><p>O preço de custo de uma mercadoria é de R$ 450,00. Para que se tenha um lucro de 20% na venda dessa mercadoria, por quanto deve-se vende-la?</p>
+</li>
+<li><p>Numa promoção o preço de um objeto foi reduzido de R$ 920,50 para R$ 845,75. De quantos por cento foi redução?</p>
+</li>
+<li><p>Victor recebeu um aumento de 15% e com isso seu salário chegou a R$1.322,50. Calcule o salário inicial de Victor.</p>
+</li>
+<li><p>Em certo trimestre, as cadernetas de poupança renderam 2,5% de correção monetária. Paulo deixou R$ 2.318,00 depositados durante três meses. Quanto Paulo resgatou?</p>
+</li>
+<li><p>João comprou uma TV à prazo, pois não podia pagar à vista. Sabendo que o valor à vista é de R$ 1500,00 e que o valor total à prazo é 12,5% maior que o valor à vista, responda: Quanto João vai pagar no total?</p>
+</li>
+</ol>
+<hr>
+<h2 id="Referencias-Bibliograficas"><a href="#Referencias-Bibliograficas" class="headerlink" title="Referências Bibliográficas"></a>Referências Bibliográficas</h2><p>BACARJI, Alencar Garcia. Formação Incial e Continuada Auxiliar Administrativo. Curitiba: Instituto Federal do Paraná, 2012.  Disponível em <a href="https://bit.ly/3e9aqsA" target="_blank" rel="noopener">https://bit.ly/3e9aqsA</a>. Acesso em <em>27 de mar. de 2020</em>.</p>
+<p>CARAVANTES, G. R.P; KLOECKNER, C. M.; PANNO, C. Administração: teoria e processos. São Paulo: Pearson Prentice Hall, 2005.</p>
+<p>JUNIOR, R. J. M. Matemática Financeira. Curitiba, PR: Instituto Federal do Paraná, 2012. 176 p. Disponível em <a href="https://bit.ly/2JRzNkL" target="_blank" rel="noopener">https://bit.ly/2JRzNkL</a>. Acesso em <em>27 de mar. de 2020</em>.</p>
+<p>SÁ, C. A.  Matemática Financeira. Rio de Janeiro: FGV Management – Cursos de Educação Continuada. 54p. Disponível em <a href="https://bit.ly/39XbhZY" target="_blank" rel="noopener">https://bit.ly/39XbhZY</a>. Acesso em <em>27 de mar. de 2020</em>.</p>
+<p>VIANNA, R. de M. I.  Matemática financeira. Salvador: UFBA, Faculdade de Ciências Contábeis; Superintendência de Educação a Distância, 2018. 131 p. : il. Disponível em <a href="https://bit.ly/2UVPNZf" target="_blank" rel="noopener">https://bit.ly/2UVPNZf</a>. Acesso em <em>27 de mar. de 2020</em>.</p>
+
+        </div>
+
+        
+            <section class="post-copyright">
+                
+                
+                    <p class="copyright-item">
+                        <span>Conteúdo disponível em:</span>
+                        <span><a href="http://zmdy.github.io/aulas.txt/posts/administracao/aulas/aula-03/">http://zmdy.github.io/aulas.txt/posts/administracao/aulas/aula-03/</a></span>
+                    </p>
+                
+                
+                    <p class="copyright-item">
+                        <span>Licença:</span>
+                        <span>Este material está distribuído com uma licença <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC-BY-4.0</a></span>
+                    </p>
+                
+                
+
+            </section>
+        
+        <section class="post-tags">
+            <div>
+                <span>Tag(s):</span>
+                <span class="tag">
+                    
+                    
+                        <a href="/aulas.txt/pages/tag/Auxiliar-Administrativo-Modulo-01-Aulas/"># Auxiliar Administrativo - Módulo 01 - Aulas</a>
+                    
+                        
+                </span>
+            </div>
+            <div>
+                <a href="javascript:window.history.back();">voltar</a>
+                <span>· </span>
+                <a href="/aulas.txt/">home</a>
+            </div>
+        </section>
+        <section class="post-nav">
+            
+                <a class="prev" rel="prev" href="/aulas.txt/posts/administracao/aulas/aula-04/">Aula 04 -  Módulo 01 - Auxiliar Administrativo</a>
+            
+            
+            <a class="next" rel="next" href="/aulas.txt/posts/administracao/aulas/aula-14/">Aula 04 -  Módulo 02 - Contabilidade</a>
+            
+        </section>
+
+
+    </article>
+</div>
+
+        </div>
+        <footer id="footer" class="footer">
+    <div class="copyright">
+        <span>© aulas.txt | Feito com <a href="https://hexo.io" target="_blank">Hexo</a> & <a href="https://github.com/Siricee/hexo-theme-Chic" target="_blank">Chic</a> | <a target="_blank" onclick="printPage()">Imprimir esta página em PDF</a></span>
+    </div>
+</footer>
+
+    </div><!-- hexo-inject:begin --><!-- Begin: Injected MathJax -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({"tex2jax":{"inlineMath":[["$","$"],["\\(","\\)"]],"skipTags":["script","noscript","style","textarea","pre","code"],"processEscapes":true},"TeX":{"equationNumbers":{"autoNumber":"AMS"}}});
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+      all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+</script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js">
+</script>
+<!-- End: Injected MathJax -->
+<!-- hexo-inject:end -->
+</body>
+</html>

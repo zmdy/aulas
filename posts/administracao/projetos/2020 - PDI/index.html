@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="UTF-8">
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="author" content="zmdy">
+
+
+
+
+
+<title>Projeto TCM - Plano de Desenvolvimento Individual (PDI) | aulas.txt</title>
+
+<!-- HERE ARE SOME LIBARIES AND PERSONAL TOOLS OF THE SRC FOLDER -->
+<script src="/aulas.txt/src/js/bonisa.min.js"></script>
+<script src="/aulas.txt/src/libs/printjs/print.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="/aulas.txt/assets/media/fonts/icofont/icofont.css">
+<script>
+  function printPage(){
+    printJS({
+        printable: 'aulasTXT', type: 'html',
+        header: null,
+        css: '/aulas.txt/css/style.css'
+    });
+  }
+</script>
+
+
+
+
+    <link rel="icon" href="/aulas.txt/favicon.png">
+
+
+
+
+    <!-- stylesheets list from _config.yml -->
+    
+    <link rel="stylesheet" href="/aulas.txt/css/style.css">
+    
+
+
+
+    <!-- scripts list from _config.yml -->
+    
+    <script src="/aulas.txt/js/script.js"></script>
+    
+    <script src="/aulas.txt/js/tocbot.min.js"></script>
+    
+
+
+
+    
+    
+        
+    
+
+
+<meta name="generator" content="Hexo 4.2.0"><!-- hexo-inject:begin --><!-- hexo-inject:end --></head>
+<body>
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><div class="wrapper">
+        <header>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header header-logo"><a href="/aulas.txt/">aulas.txt</a></div>
+            <div class="menu navbar-right">
+                
+                    <a class="menu-item" href="/aulas.txt/pages/cursos">Cursos</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/tag">Materiais</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/manual">Manual</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/sobre">Sobre</a>
+                
+                <input id="switch_default" type="checkbox" class="switch_default">
+                <label for="switch_default" class="toggleBtn"></label>
+            </div>
+        </div>
+    </nav>
+
+    
+    <nav class="navbar-mobile" id="nav-mobile">
+        <div class="container">
+            <div class="navbar-header">
+                <div>
+                    <a href="/aulas.txt/">aulas.txt</a><a id="mobile-toggle-theme">·&nbsp;Light</a>
+                </div>
+                <div class="menu-toggle" onclick="mobileBtn()">&#9776; Menu</div>
+            </div>
+            <div class="menu" id="mobile-menu">
+                
+                    <a class="menu-item" href="/aulas.txt/pages/cursos">Cursos</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/tag">Materiais</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/manual">Manual</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/sobre">Sobre</a>
+                
+            </div>
+        </div>
+    </nav>
+
+</header>
+<script>
+    var mobileBtn = function f() {
+        var toggleMenu = document.getElementsByClassName("menu-toggle")[0];
+        var mobileMenu = document.getElementById("mobile-menu");
+        if(toggleMenu.classList.contains("active")){
+           toggleMenu.classList.remove("active")
+            mobileMenu.classList.remove("active")
+        }else{
+            toggleMenu.classList.add("active")
+            mobileMenu.classList.add("active")
+        }
+    }
+</script>
+        <div class="main padding-05mm" id="aulasTXT">
+            <div class="container">
+    
+    
+        <div class="post-toc">
+    <div class="tocbot-list">
+    </div>
+    <div class="tocbot-list-menu">
+        <a class="tocbot-toc-expand" onclick="expand_toc()">Expand all</a>
+        <a onclick="go_top()">Back to top</a>
+        <a onclick="go_bottom()">Go to bottom</a>
+    </div>
+</div>
+
+<script>
+    document.ready(
+        function () {
+            tocbot.init({
+                tocSelector: '.tocbot-list',
+                contentSelector: '.post-content',
+                headingSelector: 'h1, h2, h3, h4, h5',
+                collapseDepth: 1,
+                orderedList: false,
+                scrollSmooth: true,
+            })
+        }
+    )
+
+    function expand_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 6,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "collapse_toc()");
+        b.innerHTML = "Collapse all"
+    }
+
+    function collapse_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 1,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "expand_toc()");
+        b.innerHTML = "Expand all"
+    }
+
+    function go_top() {
+        window.scrollTo(0, 0);
+    }
+
+    function go_bottom() {
+        window.scrollTo(0, document.body.scrollHeight);
+    }
+
+</script>
+    
+
+    
+    <article class="post-wrap">
+        <header class="post-header">
+            <h1 class="post-title">Projeto TCM - Plano de Desenvolvimento Individual (PDI)</h1>
+            
+                <div class="post-meta">
+                    
+
+                    
+                        <span class="post-time">
+                        Data de Publicação: <a href="#">22/04/2020&nbsp;&nbsp;9:00</a>
+                        </span>
+                    
+                    
+                </div>
+            
+        </header>
+
+        <div class="post-content">
+            <h2 id="Resumo"><a href="#Resumo" class="headerlink" title="Resumo"></a>Resumo</h2><p>Tendo em vista o papel social da educação como processo de desenvolvimento e preparo do educando para o exercício da cidadania e qualificação profissional, deve-se ressaltar a importância da gestão pessoal como meio para estes objetivos.</p>
+<p>Neste contexto, a apresentação de ferramentas e modelos que propiciem ao educando reconhecer-se como capital humano para as mais diversas organizações sociais e planejarem o seu crescimento pessoal mostra-se vital como estratégia educacional.</p>
+<p>Desta forma, buscando contribuir com estas discussões, apresentou-se no decorrer do curso livre de Auxiliar Administrativo ministrado no CNI – Centro de Formação Profissional Unidade Centro/B H, uma série de ferramentas, modelos e técnicas para o desenvolvimento e avaliação de um Plano de Desenvolvimento Individual (PDI) baseado no modelo de Planejamento Estratégico Pessoal (PEP) do autor canadense Sam Koshy. </p>
+<p>Este trabalho foi desenvolvido em <strong>N</strong> etapas distintas, e posteriormente avaliado em 3 momentos:</p>
+<ol>
+<li>apresentação dos planejamentos individuais;</li>
+<li>avaliação, após 12 meses, dos resultados obtidos individualmente pelos alunos; 3.<br>Discussão dos resultados gerais.</li>
+</ol>
+<h2 id="Objetivos"><a href="#Objetivos" class="headerlink" title="Objetivos"></a>Objetivos</h2><ul>
+<li><p>Identificar a confiabilidade de testes online auto-avaliados para o desenvolvimento do auto-conhecimento;</p>
+</li>
+<li><p>Utilizar o modelo de Koshy (2005) para desenvolver o PDI dos alunos;</p>
+</li>
+</ul>
+<h2 id="Hipoteses-Testadas"><a href="#Hipoteses-Testadas" class="headerlink" title="Hipóteses Testadas"></a>Hipóteses Testadas</h2><ul>
+<li><p><strong>Hipótese H<sub>0</sub>:</strong> os testes avaliados apresentam um bom nível de confiabilidade (Alpha de Cronbach);</p>
+</li>
+<li><p><strong>Hipótese H<sub>1</sub>:</strong> os resultados dos testes condizem, de maneira fidedigna, com a auto-descrição e auto-avaliação dos voluntários;</p>
+</li>
+<li><p><strong>Hipótese H<sub>2</sub>:</strong> os resultados dos diferentes testes apresentam boa concordância;</p>
+</li>
+</ul>
+<h2 id="Metodologia"><a href="#Metodologia" class="headerlink" title="Metodologia"></a>Metodologia</h2><blockquote>
+<p>Conhece-te a Ti mesmo e conhecerás todo o universo e os deuses, porque se o que procuras não achares primeiro dentro de ti mesmo, não acharás em lugar algum.</p>
+</blockquote>
+<p>Baseado nesta máxima apolínica, iremos construir a primeira etapa deste trabalho por meio de uma análise pessoal possibilitada por 2 ferramentas bastante utilizadas, documentadas e difundidas.</p>
+<p>A primeira ferramenta proposta é o <a href="https://www.16personalities.com/br" target="_blank" rel="noopener">Teste MBTI</a>, mais conhecido como <em>Teste das 16 Personalidades</em>.</p>
+<p>Este teste baseia-se na Teoria de Tipos Psicológicos desenvolvida pelo psiquiatra suíço Carl Gustav Jung na década de 1920, e mais tarde adaptada por Myers e Briggs no Inventário de Personalidades hoje conhecido como <em>Myers-Briggs Type Indicator</em> ou MBTI.</p>
+<p>Esta teoria, junto aos testes a ela associados, permitem traçar definições precisas sobre a personalidade e tipologia das pessoas, bem como auxiliar no <em>Processo de Individuação</em>, em que ocorre o auto-conhecimento por meio da descoberta de suas próprias disposições e funções psíquicas mais inconscientes (RAMOS, 2005).</p>
+<p>Para fins deste trabalho, os alunos deverão realizar 3 testes online, baseados no MBTI. Estes testes foram especificamente escolhidos devido a clareza presente nos mesmos sobre a metodologia e as teorias utilizadas como base para sua construção, bem como a relação dos resultados dos mesmos com as do Instrumento MBTI;</p>
+<ul>
+<li><i class="icofont-link"></i> <a href="https://www.16personalities.com/br" target="_blank" rel="noopener">Teste 16 Personalities</a></li>
+<li><i class="icofont-link"></i> <a href="http://inspiira.org/" target="_blank" rel="noopener">Teste Inspiira</a></li>
+<li><i class="icofont-link"></i> <a href="https://www.idrlabs.com/pt/teste.php" target="_blank" rel="noopener">Teste IDRlabs</a>  </li>
+</ul>
+<p>Cada um destes teste irá retornar um tipo de personalidade baseado nas respostas que você deu às perguntas. Como foram feitos diferentes testes é possível que os resultados de cada um tenha sido ligeiramente diferentes.</p>
+<p>Os 16 tipos de Myers e Briggs são identificados cada um por quatro letras. Cada letra desta sequência está relacionada a uma característica da personalidade do indivíduo.</p>
+<p>A primeira letra (E ou I) refere-se à <strong>disposição principal</strong>, que está relacionada com um comportamento extrovertido (E) ou introvertido (I).</p>
+<p>A segunda letra da sequência (S ou N) se relaciona à <strong>função de percepção</strong>, ou seja, a maneira pela qual a pessoa percebe o mundo ao seu redor, utilizando somente as sensações (S) ou intuições (N).</p>
+<p>A terceira letra se refere à <strong>função de julgamento</strong>, isto é, a principal maneira que a pessoa tende a tomar decisões, por pensamento (T) ou sentimento (F).</p>
+<p>A quarta, e última letra da sigla se refere ao estilo de vida, ou seja, o modo que a pessoa aborda conscientemente o mundo externo, por julgamento (J) ou percepção (P).</p>
+<p>Para conciliar os resultados (possivelmente diferentes) dos 3 testes feitos, você deverá preencher, no caderno, a seguinte tabela:</p>
+<table>
+<thead>
+<tr>
+<th>Teste</th>
+<th>Disposição Principal (E ou I)</th>
+<th>Função de Percepção (S ou N)</th>
+<th>Função de Julgamento (T ou F)</th>
+<th>Estilo de Vida (P ou J)</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="https://www.16personalities.com/br" target="_blank" rel="noopener">Teste 16 Personalities</a></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="http://inspiira.org/" target="_blank" rel="noopener">Teste Inspiira</a></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://www.idrlabs.com/pt/teste.php" target="_blank" rel="noopener">Teste IDRlabs</a></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>RESULTADO MÉDIO</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+<p>Esta tabela deverá ser preenchida conforme os resultados de seus relatórios em cada site, conforme o exemplo abaixo:</p>
+<table>
+<thead>
+<tr>
+<th>Teste</th>
+<th>Disposição Principal (E ou I)</th>
+<th>Função de Percepção (S ou N)</th>
+<th>Função de Julgamento (T ou F)</th>
+<th>Estilo de Vida (P ou J)</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="https://www.16personalities.com/br" target="_blank" rel="noopener">Teste 16 Personalities</a></td>
+<td>I</td>
+<td>N</td>
+<td>F</td>
+<td>P</td>
+</tr>
+<tr>
+<td><a href="http://inspiira.org/" target="_blank" rel="noopener">Teste Inspiira</a></td>
+<td>E</td>
+<td>N</td>
+<td>F</td>
+<td>J</td>
+</tr>
+<tr>
+<td><a href="https://www.idrlabs.com/pt/teste.php" target="_blank" rel="noopener">Teste IDRlabs</a></td>
+<td>I</td>
+<td>N</td>
+<td>F</td>
+<td>J</td>
+</tr>
+</tbody></table>
+<p>Repare <strong>no exemplo acima</strong> que os 3 testes tiveram resultados diferentes. No entanto, em relação aos itens Percepção e Julgamento todos eles apresentaram o mesmo resultado.</p>
+<p>Em relação aos itens Disposição e Estilo de Vida, no entanto, houveram variações entre os testes. Mas, ainda assim, em cada caso houve <strong>um fator que se repetiu, no mínimo 2 vezes</strong>. Vamos utilizar este fator como referência para o nosso resultado.</p>
+<table>
+<thead>
+<tr>
+<th>Teste</th>
+<th>Disposição Principal (E ou I)</th>
+<th>Função de Percepção (S ou N)</th>
+<th>Função de Julgamento (T ou F)</th>
+<th>Estilo de Vida (P ou J)</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="https://www.16personalities.com/br" target="_blank" rel="noopener">Teste 16 Personalities</a></td>
+<td>I</td>
+<td>N</td>
+<td>F</td>
+<td><del>P</del></td>
+</tr>
+<tr>
+<td><a href="http://inspiira.org/" target="_blank" rel="noopener">Teste Inspiira</a></td>
+<td><del>E</del></td>
+<td>N</td>
+<td>F</td>
+<td>J</td>
+</tr>
+<tr>
+<td><a href="https://www.idrlabs.com/pt/teste.php" target="_blank" rel="noopener">Teste IDRlabs</a></td>
+<td>I</td>
+<td>N</td>
+<td>F</td>
+<td>J</td>
+</tr>
+<tr>
+<td><strong>RESULTADO MÉDIO</strong></td>
+<td><strong>I</strong></td>
+<td><strong>N</strong></td>
+<td><strong>F</strong></td>
+<td><strong>J</strong></td>
+</tr>
+</tbody></table>
+<p>Após preencher a tabela você deverá preencher um formulário contando sua experiência pessoal com estes testes. Os resultados serão discutidos em sala de aula.</p>
+<ul>
+<li><i class="icofont-link"></i> <a href="https://forms.gle/HUwU47DxNqmHZfuj6" target="_blank" rel="noopener">Formulário de Avaliação</a> </li>
+</ul>
+<p>Conforme afirma RAMOS (2005), devido a complexidade inerente à natureza dos tipos psicológicos junguianos, uma análise diagnóstica correta de sua natureza <strong>só pode ser realizada por profissionais com experiência teória e prática na área</strong>. No entanto, o autor ressalta que a posse de conhecimentos, ainda que intermediários, sobre o assunto pode traçar algumas definições e <em>insights</em> sobre a própria tipologia.</p>
+
+        </div>
+
+        
+            <section class="post-copyright">
+                
+                
+                    <p class="copyright-item">
+                        <span>Conteúdo disponível em:</span>
+                        <span><a href="http://zmdy.github.io/aulas.txt/posts/administracao/projetos/2020%20-%20PDI/">http://zmdy.github.io/aulas.txt/posts/administracao/projetos/2020%20-%20PDI/</a></span>
+                    </p>
+                
+                
+                    <p class="copyright-item">
+                        <span>Licença:</span>
+                        <span>Este material está distribuído com uma licença <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC-BY-4.0</a></span>
+                    </p>
+                
+                
+
+            </section>
+        
+        <section class="post-tags">
+            <div>
+                <span>Tag(s):</span>
+                <span class="tag">
+                    
+                    
+                        <a href="/aulas.txt/pages/tag/Auxiliar-Administrativo-Projetos/"># Auxiliar Administrativo - Projetos</a>
+                    
+                        
+                </span>
+            </div>
+            <div>
+                <a href="javascript:window.history.back();">voltar</a>
+                <span>· </span>
+                <a href="/aulas.txt/">home</a>
+            </div>
+        </section>
+        <section class="post-nav">
+            
+                <a class="prev" rel="prev" href="/aulas.txt/posts/administracao/aulas/aula-05/">Aula 05 -  Módulo 01 - Auxiliar Administrativo</a>
+            
+            
+            <a class="next" rel="next" href="/aulas.txt/posts/slides/administracao/trabalhos/modulo-01/">TCM - Módulo 01</a>
+            
+        </section>
+
+
+    </article>
+</div>
+
+        </div>
+        <footer id="footer" class="footer">
+    <div class="copyright">
+        <span>© aulas.txt | Feito com <a href="https://hexo.io" target="_blank">Hexo</a> & <a href="https://github.com/Siricee/hexo-theme-Chic" target="_blank">Chic</a> | <a target="_blank" onclick="printPage()">Imprimir esta página em PDF</a></span>
+    </div>
+</footer>
+
+    </div><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+</body>
+</html>

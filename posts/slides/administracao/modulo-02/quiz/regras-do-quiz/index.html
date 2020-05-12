@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="UTF-8">
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="author" content="zmdy">
+
+
+
+
+
+<title>slides/administracao/modulo-02/quiz/regras-do-quiz | aulas.txt</title>
+
+<!-- HERE ARE SOME LIBARIES AND PERSONAL TOOLS OF THE SRC FOLDER -->
+<script src="/aulas.txt/src/js/bonisa.min.js"></script>
+<script src="/aulas.txt/src/libs/printjs/print.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="/aulas.txt/assets/media/fonts/icofont/icofont.css">
+<script>
+  function printPage(){
+    printJS({
+        printable: 'aulasTXT', type: 'html',
+        header: null,
+        css: '/aulas.txt/css/style.css'
+    });
+  }
+</script>
+
+
+
+
+    <link rel="icon" href="/aulas.txt/favicon.png">
+
+
+
+
+    <!-- stylesheets list from _config.yml -->
+    
+    <link rel="stylesheet" href="/aulas.txt/css/style.css">
+    
+
+
+
+    <!-- scripts list from _config.yml -->
+    
+    <script src="/aulas.txt/js/script.js"></script>
+    
+    <script src="/aulas.txt/js/tocbot.min.js"></script>
+    
+
+
+
+    
+    
+        
+    
+
+
+<meta name="generator" content="Hexo 4.2.0"><!-- hexo-inject:begin --><!-- hexo-inject:end --></head>
+<body>
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><div class="wrapper">
+        <header>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header header-logo"><a href="/aulas.txt/">aulas.txt</a></div>
+            <div class="menu navbar-right">
+                
+                    <a class="menu-item" href="/aulas.txt/pages/cursos">Cursos</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/tag">Materiais</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/manual">Manual</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/sobre">Sobre</a>
+                
+                <input id="switch_default" type="checkbox" class="switch_default">
+                <label for="switch_default" class="toggleBtn"></label>
+            </div>
+        </div>
+    </nav>
+
+    
+    <nav class="navbar-mobile" id="nav-mobile">
+        <div class="container">
+            <div class="navbar-header">
+                <div>
+                    <a href="/aulas.txt/">aulas.txt</a><a id="mobile-toggle-theme">·&nbsp;Light</a>
+                </div>
+                <div class="menu-toggle" onclick="mobileBtn()">&#9776; Menu</div>
+            </div>
+            <div class="menu" id="mobile-menu">
+                
+                    <a class="menu-item" href="/aulas.txt/pages/cursos">Cursos</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/tag">Materiais</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/manual">Manual</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/sobre">Sobre</a>
+                
+            </div>
+        </div>
+    </nav>
+
+</header>
+<script>
+    var mobileBtn = function f() {
+        var toggleMenu = document.getElementsByClassName("menu-toggle")[0];
+        var mobileMenu = document.getElementById("mobile-menu");
+        if(toggleMenu.classList.contains("active")){
+           toggleMenu.classList.remove("active")
+            mobileMenu.classList.remove("active")
+        }else{
+            toggleMenu.classList.add("active")
+            mobileMenu.classList.add("active")
+        }
+    }
+</script>
+        <div class="main padding-05mm" id="aulasTXT">
+            <div class="container">
+    
+    
+        <div class="post-toc">
+    <div class="tocbot-list">
+    </div>
+    <div class="tocbot-list-menu">
+        <a class="tocbot-toc-expand" onclick="expand_toc()">Expand all</a>
+        <a onclick="go_top()">Back to top</a>
+        <a onclick="go_bottom()">Go to bottom</a>
+    </div>
+</div>
+
+<script>
+    document.ready(
+        function () {
+            tocbot.init({
+                tocSelector: '.tocbot-list',
+                contentSelector: '.post-content',
+                headingSelector: 'h1, h2, h3, h4, h5',
+                collapseDepth: 1,
+                orderedList: false,
+                scrollSmooth: true,
+            })
+        }
+    )
+
+    function expand_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 6,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "collapse_toc()");
+        b.innerHTML = "Collapse all"
+    }
+
+    function collapse_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 1,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "expand_toc()");
+        b.innerHTML = "Expand all"
+    }
+
+    function go_top() {
+        window.scrollTo(0, 0);
+    }
+
+    function go_bottom() {
+        window.scrollTo(0, document.body.scrollHeight);
+    }
+
+</script>
+    
+
+    
+    <article class="post-wrap">
+        <header class="post-header">
+            <h1 class="post-title">slides/administracao/modulo-02/quiz/regras-do-quiz</h1>
+            
+                <div class="post-meta">
+                    
+
+                    
+                        <span class="post-time">
+                        Data de Publicação: <a href="#">12/05/2020&nbsp;&nbsp;9:33</a>
+                        </span>
+                    
+                    
+                </div>
+            
+        </header>
+
+        <div class="post-content">
+            <h1 id="Contabilidade"><a href="#Contabilidade" class="headerlink" title="Contabilidade"></a>Contabilidade</h1><h2 id="Regras-do-Quiz"><a href="#Regras-do-Quiz" class="headerlink" title="Regras do Quiz"></a>Regras do Quiz</h2><hr>
+<h1 id="Quiz-1ª-Etapa-Funcionamento"><a href="#Quiz-1ª-Etapa-Funcionamento" class="headerlink" title="Quiz - 1ª Etapa - Funcionamento"></a>Quiz - 1ª Etapa - Funcionamento</h1><ul>
+<li><p>A turma deverá formar <strong>duplas</strong>, à preferência dos alunos. Caso sobre algum aluno, o mesmo deverá se unir a uma dupla já existente e formar um <strong>trio</strong>.</p>
+</li>
+<li><p>Todos os integrantes das <strong>dupla</strong> ou <strong>trio</strong> deverão responder às perguntas feitas durante o jogo no caderno.</p>
+</li>
+<li><p>Além disso, um <strong>gabarito</strong> será entregue para cada <strong>grupo</strong> e o mesmo deverá preenchê-lo, com as respostas das perguntas feitas.</p>
+</li>
+<li><p>Após todas as perguntas terem sido respondidas, as duplas entregarão seus <strong>gabaritos</strong> para  outra dupla, que deverá <strong>corrigi-lo</strong>.</p>
+</li>
+</ul>
+<hr>
+<h1 id="Quiz-1ª-Etapa-Regras"><a href="#Quiz-1ª-Etapa-Regras" class="headerlink" title="Quiz - 1ª Etapa - Regras"></a>Quiz - 1ª Etapa - Regras</h1><ul>
+<li><p>Será declarado <strong>vencedora</strong> a dupla que acertar maior quantidade de perguntas.</p>
+</li>
+<li><p>Em caso de <strong>empate</strong>, uma nova rodada será feita entre as duplas com maiores notas.</p>
+</li>
+<li><p>Nesta etapa todos receberão <strong>0,5 ponto de participação</strong>. A dupla vencedora receberá 1,0 ponto a mais, totalizando <strong>1,5 ponto</strong>.</p>
+</li>
+</ul>
+<hr>
+<h1 id="Quiz-2ª-Etapa-Funcionamento"><a href="#Quiz-2ª-Etapa-Funcionamento" class="headerlink" title="Quiz - 2ª Etapa - Funcionamento"></a>Quiz - 2ª Etapa - Funcionamento</h1><ul>
+<li><p>A <strong>dupla vencedora</strong> da etapa anterior irá escolher <strong>2 outras duplas</strong>, excetuando a si próprios, que se enfrentarão em uma nova etapa.</p>
+</li>
+<li><p>Um dos integrantes da dupla vencedora fará o papel de <strong>juiz</strong>.</p>
+</li>
+<li><p>Nesta etapa, cada dupla deverá escolher <strong>1 integrante</strong> para participar do duelo, no qual serão feitas <strong>perguntas fechadas</strong> referentes ao tema estudado.</p>
+</li>
+</ul>
+<hr>
+<h1 id="Quiz-2ª-Etapa-Regras"><a href="#Quiz-2ª-Etapa-Regras" class="headerlink" title="Quiz - 2ª Etapa - Regras"></a>Quiz - 2ª Etapa - Regras</h1><ul>
+<li><p>Os <strong>participantes</strong> devem ficar com a mão atrás da orelha até que o <strong>juiz</strong> autorize responder a pergunta feita. Neste ponto, o participante que <strong>primeiro se manifestar</strong> deverá responder a pergunta.</p>
+</li>
+<li><p>Caso acerte a pergunta, o outro participante será eliminado e outra dupla será desafiada pelo <strong>participante vencedor</strong>.</p>
+</li>
+<li><p>Caso erre a pergunta, o outro participante tentará respondê-la. Em caso de <strong>acerto</strong> o participante original é eliminado, valendo-se da regra anterior. Em caso de <strong>erro</strong> os 2 participantes serão eliminadas, e o juiz irá escolher outras duplas.</p>
+</li>
+<li><p>Caso o participante tenha dificuldades em responder à pergunta o mesmo poderá consultar sua dupla. Cada dupla terá, no máximo <strong>3 tentativas</strong> de consulta.</p>
+</li>
+<li><p>Nesta etapa todos receberão <strong>0,5 ponto de participação</strong>. A dupla vencedora receberá 1,0 ponto a mais, totalizando <strong>1,5 ponto</strong>.</p>
+</li>
+</ul>
+
+        </div>
+
+        
+            <section class="post-copyright">
+                
+                
+                    <p class="copyright-item">
+                        <span>Conteúdo disponível em:</span>
+                        <span><a href="http://zmdy.github.io/aulas.txt/posts/slides/administracao/modulo-02/quiz/regras-do-quiz/">http://zmdy.github.io/aulas.txt/posts/slides/administracao/modulo-02/quiz/regras-do-quiz/</a></span>
+                    </p>
+                
+                
+                    <p class="copyright-item">
+                        <span>Licença:</span>
+                        <span>Este material está distribuído com uma licença <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC-BY-4.0</a></span>
+                    </p>
+                
+                
+
+            </section>
+        
+        <section class="post-tags">
+            <div>
+                <span>Tag(s):</span>
+                <span class="tag">
+                    
+                </span>
+            </div>
+            <div>
+                <a href="javascript:window.history.back();">voltar</a>
+                <span>· </span>
+                <a href="/aulas.txt/">home</a>
+            </div>
+        </section>
+        <section class="post-nav">
+            
+                <a class="prev" rel="prev" href="/aulas.txt/posts/slides/administracao/modulo-02/quiz/etapa-3-perguntas-casa/">slides/administracao/modulo-02/quiz/etapa-3-perguntas-casa</a>
+            
+            
+            <a class="next" rel="next" href="/aulas.txt/posts/slides/administracao/modulo-02/avisos-iniciais/">slides/administracao/modulo-02/avisos-iniciais</a>
+            
+        </section>
+
+
+    </article>
+</div>
+
+        </div>
+        <footer id="footer" class="footer">
+    <div class="copyright">
+        <span>© aulas.txt | Feito com <a href="https://hexo.io" target="_blank">Hexo</a> & <a href="https://github.com/Siricee/hexo-theme-Chic" target="_blank">Chic</a> | <a target="_blank" onclick="printPage()">Imprimir esta página em PDF</a></span>
+    </div>
+</footer>
+
+    </div><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+</body>
+</html>

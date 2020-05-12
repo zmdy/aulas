@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="UTF-8">
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="author" content="zmdy">
+
+
+
+
+
+<title>Aula 04 -  Módulo 02 - Contabilidade | aulas.txt</title>
+
+<!-- HERE ARE SOME LIBARIES AND PERSONAL TOOLS OF THE SRC FOLDER -->
+<script src="/aulas.txt/src/js/bonisa.min.js"></script>
+<script src="/aulas.txt/src/libs/printjs/print.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="/aulas.txt/assets/media/fonts/icofont/icofont.css">
+<script>
+  function printPage(){
+    printJS({
+        printable: 'aulasTXT', type: 'html',
+        header: null,
+        css: '/aulas.txt/css/style.css'
+    });
+  }
+</script>
+
+
+
+
+    <link rel="icon" href="/aulas.txt/favicon.png">
+
+
+
+
+    <!-- stylesheets list from _config.yml -->
+    
+    <link rel="stylesheet" href="/aulas.txt/css/style.css">
+    
+
+
+
+    <!-- scripts list from _config.yml -->
+    
+    <script src="/aulas.txt/js/script.js"></script>
+    
+    <script src="/aulas.txt/js/tocbot.min.js"></script>
+    
+
+
+
+    
+    
+        
+    
+
+
+<meta name="generator" content="Hexo 4.2.0"><!-- hexo-inject:begin --><!-- hexo-inject:end --></head>
+<body>
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><div class="wrapper">
+        <header>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header header-logo"><a href="/aulas.txt/">aulas.txt</a></div>
+            <div class="menu navbar-right">
+                
+                    <a class="menu-item" href="/aulas.txt/pages/cursos">Cursos</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/tag">Materiais</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/manual">Manual</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/sobre">Sobre</a>
+                
+                <input id="switch_default" type="checkbox" class="switch_default">
+                <label for="switch_default" class="toggleBtn"></label>
+            </div>
+        </div>
+    </nav>
+
+    
+    <nav class="navbar-mobile" id="nav-mobile">
+        <div class="container">
+            <div class="navbar-header">
+                <div>
+                    <a href="/aulas.txt/">aulas.txt</a><a id="mobile-toggle-theme">·&nbsp;Light</a>
+                </div>
+                <div class="menu-toggle" onclick="mobileBtn()">&#9776; Menu</div>
+            </div>
+            <div class="menu" id="mobile-menu">
+                
+                    <a class="menu-item" href="/aulas.txt/pages/cursos">Cursos</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/tag">Materiais</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/manual">Manual</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/sobre">Sobre</a>
+                
+            </div>
+        </div>
+    </nav>
+
+</header>
+<script>
+    var mobileBtn = function f() {
+        var toggleMenu = document.getElementsByClassName("menu-toggle")[0];
+        var mobileMenu = document.getElementById("mobile-menu");
+        if(toggleMenu.classList.contains("active")){
+           toggleMenu.classList.remove("active")
+            mobileMenu.classList.remove("active")
+        }else{
+            toggleMenu.classList.add("active")
+            mobileMenu.classList.add("active")
+        }
+    }
+</script>
+        <div class="main padding-05mm" id="aulasTXT">
+            <div class="container">
+    
+    
+        <div class="post-toc">
+    <div class="tocbot-list">
+    </div>
+    <div class="tocbot-list-menu">
+        <a class="tocbot-toc-expand" onclick="expand_toc()">Expand all</a>
+        <a onclick="go_top()">Back to top</a>
+        <a onclick="go_bottom()">Go to bottom</a>
+    </div>
+</div>
+
+<script>
+    document.ready(
+        function () {
+            tocbot.init({
+                tocSelector: '.tocbot-list',
+                contentSelector: '.post-content',
+                headingSelector: 'h1, h2, h3, h4, h5',
+                collapseDepth: 1,
+                orderedList: false,
+                scrollSmooth: true,
+            })
+        }
+    )
+
+    function expand_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 6,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "collapse_toc()");
+        b.innerHTML = "Collapse all"
+    }
+
+    function collapse_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 1,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "expand_toc()");
+        b.innerHTML = "Expand all"
+    }
+
+    function go_top() {
+        window.scrollTo(0, 0);
+    }
+
+    function go_bottom() {
+        window.scrollTo(0, document.body.scrollHeight);
+    }
+
+</script>
+    
+
+    
+    <article class="post-wrap">
+        <header class="post-header">
+            <h1 class="post-title">Aula 04 -  Módulo 02 - Contabilidade</h1>
+            
+                <div class="post-meta">
+                    
+
+                    
+                        <span class="post-time">
+                        Data de Publicação: <a href="#">09/04/2020&nbsp;&nbsp;10:30</a>
+                        </span>
+                    
+                    
+                </div>
+            
+        </header>
+
+        <div class="post-content">
+            <img src="../../../../assets/media/img/cursos/logo-auxiliar-administrativo-01.png" alt="Auxiliar Administrativo" title="Auxiliar Administrativo" class="img-50  bg-white">
+
+<p>Bem vindx a mais uma aula de Contabilidade.</p>
+<p>Hoje, finalmente, iremos entender o que é a Contabilidade e qual a importância dela no contexto da administração das empresas.</p>
+<p>Para melhor entender os conceitos desta aula, sugiro o material descrito nas referências bibliográficas, em especial:</p>
+<p><a href="http://redeetec.mec.gov.br/images/stories/pdf/proeja/contabil_basica.pdf" target="_blank" rel="noopener">BÄCHTOLD. Contabilidade Básica</a></p>
+<p><a href="https://www.ifb.edu.br/attachments/6243_no%C3%A7%C3%B5es%20de%20contabilidade%20b%C3%A1sica%20para%20cursos%20t%C3%A9cnicos%20final.pdf" target="_blank" rel="noopener">OLIVEIRA &amp; MOREIRA. Noções de Contabilidade Básica Para Cursos Técnicos</a></p>
+<p><a href="https://www.ifsc.edu.br/documents/30701/523474/Livro_contabilidade_miolo.pdf/f149d841-667c-9e0f-5cd2-a8bfb13d4ebf" target="_blank" rel="noopener">OLIVO &amp; BOSCHILIA. Contabilidade geral e gerencial - conceitos introdutórios para os cursos superiores de tecnologia</a></p>
+<p><em>Allons-y, Alonso!</em></p>
+<hr>
+<h2 id="Sumario-da-Aula"><a href="#Sumario-da-Aula" class="headerlink" title="Sumário da Aula"></a>Sumário da Aula</h2><ol>
+<li><a href="#O-que-e-a-Contabilidade-Revisao">O que é a Contabilidade - Revisão</a></li>
+<li><a href="#Conceitos-Contabeis">Conceitos Contábeis</a></li>
+<li><a href="#Patrimonio-Liquido">Patrimônio Líquido</a></li>
+<li><a href="#Resumo">Resumo</a></li>
+<li><a href="#Exercicios">Exercícios</a></li>
+<li><a href="#Referencias-Bibliograficas">Referências Bibliográficas</a></li>
+</ol>
+<hr>
+<h2 id="O-que-e-a-Contabilidade-Revisao"><a href="#O-que-e-a-Contabilidade-Revisao" class="headerlink" title="O que é a Contabilidade (Revisão)"></a>O que é a Contabilidade (Revisão)</h2><p>O 1º Congresso Brasileiro de Contabilidade, que aconteceu de 17 a 24 de agosto de 1924, aprovou como oficial, a seguinte definição para a contabilidade:</p>
+<p>“<em>É a ciência que estuda e pratica as funções de orientação, controle e registro relativo aos atos e fatos da administração econômica</em>”.</p>
+<p>A Contabilidade busca entender a dinâmica de funcionamento das empresas para ajudar seus gestores a tomar decisões e traçar objetivos para a entidade. Isso significa que é com as ferramentas contábeis que podemos conhecer a real situação de uma empresa e até mesmo prever o seu futuro.</p>
+<p>Entender as dinâmicas de funcionamento do mercado, bem como os eventos econômicos de cada momento (desvalorização, inflação, deflação, crises…) são essenciais para uma boa análise contábil.</p>
+<p>Todas as empresas nascem com uma finalidade. A grande maioria das empresas visa resultados financeiros; outras buscam resultados sociais; outras buscam expansão. Mas no final, todas buscam atingir os objetivos traçados.</p>
+<p>A contabilidade é indispensável para que a empresa realize negócios, por exemplo, com órgãos governamentais (por meio de contratos e licitações), ou com os bancos, com fornecedores, etc (BÄCHTOLD, 2012).</p>
+<p>A própria expansão e continuidade das empresas dependem das análises contábeis: Nos últimos anos, o SEBRAE (Serviço Brasileiro de Apoio às Micro e Pequenas Empresas) vem realizando pesquisas para detectar o índice de mortalidade (fechamento) das empresas no primeiro ano de vida (abertura). Na mais recente pesquisa, os números apontavam que cerca de 48% dos negócios são fechados antes de completar 12 meses de funcionamento.</p>
+<p>A principal causa desta mortalidade é a falta de planejamento e controle dos negócios. Em suma, é a falta de Contabilidade. (BÄCHTOLD, 2012). </p>
+<hr>
+<h2 id="Conceitos-Contabeis"><a href="#Conceitos-Contabeis" class="headerlink" title="Conceitos Contábeis"></a>Conceitos Contábeis</h2><p>A função mais importante da contabilidade é o <strong>controle</strong>, pois ele permite, como vimos, uma análise minuciosa da verdadeira situação de uma empresa. Esta análise está baseada em alguns princípios e conceitos básicos:</p>
+<p>1) <strong>Princípio da Entidade</strong>: o patrimônio de uma entidade é diferente e autônomo do patrimônio particular de seus gestores ou sócios. Em resumo: o patrimônio de uma empresa não deve ser confundido com o patrimônio de seus donos/sócios.</p>
+<p>2) <strong>Princípio da Continuidade</strong>: pressupõe-se que a empresa continuará a existir no futuro. Por esta razão, mesmo que a situação não seja favorável, deve-se sempre levar em consideração que a empresa continuará existindo.</p>
+<p>3) <strong>Princípio da Prudência</strong>: pressupõe-se que uma empresa precisa manter-se prudente quanto às estimativas de condições incertas. Em resumo: uma empresa deve tomar cuidado em relação à ofertas e ideias miraculosas ou mui pessimistas.</p>
+<p>Apesar de existirem outros princípios, os três mostrados acima descrevem bem a dinâmica de uma empresa. Para melhor entender estes princípios, devemos conhecer alguns conceitos básicos da contabilidade.</p>
+<h3 id="Patrimonio"><a href="#Patrimonio" class="headerlink" title="Patrimônio"></a>Patrimônio</h3><p>Toda empresa possui um <strong>patrimônio</strong>, isto é, um conjunto de bens, direitos e obrigações vinculados a ela.</p>
+<p>Imagine que você seja o dono de uma padaria. Conforme o tempo foi passando, e sua padaria gerando lucro, você conseguiu adquirir alguns <strong>bens</strong>, tanto para você quanto para a sua padaria: </p>
+<ul>
+  <li class='item-ok'>2 Fornos Industriais</li>
+  <li class='item-ok'>1 automóvel para seu uso pessoal</li>
+  <li class='item-ok'>1 Freezer Horizontal</li>
+  <li class='item-ok'>2 Geladeiras Comerciais</li>
+  <li class='item-ok'>1 imóvel comercial próprio para a sede da padaria</li>
+  <li class='item-ok'>3 Computadores de Atendimento</li>
+  <li class='item-ok'>1 Motocicleta para o seu primo</li>
+  <li class='item-ok'>5 Fatiadores de Frios</li>
+  <li class='item-ok'>1 casa de praia para você e sua família passarem os fins de semana</li>
+  <li class='item-ok'>2 Balcões de Encosto</li>
+  <li class='item-ok'>1 *TV de Tela Plana 4K Full-HD 3D pt-br vinda de Marte, que fala árabe e leva seu cachorro para passear*</li>
+</ul>
+
+<p>Repare que nesta lista estão misturados os <strong>bens</strong> da padaria com os os seus bens pessoais. O princípio da Entidade nos diz que devemos sempre separar as duas coisas: o patrimônio da empresa é diferente do patrimônio do seu dono.</p>
+<blockquote>
+<p>EXERCÍCIO 01: Em seu caderno, separe os bens acima pelo Princípio da Entidade.</p>
+</blockquote>
+<h3 id="Bens"><a href="#Bens" class="headerlink" title="Bens"></a>Bens</h3><p>Em contabilidade <strong>bens</strong> são os elementos que podem ser <strong>avaliados monetariamente</strong> e podem ser destinados para uso, troca ou venda. Os bens <strong>possuem utilidade</strong>, pois são eles que satisfazem as necessidades de seus proprietários (BÄCHTOLD, 2012). </p>
+<p>Os bens podem ser <strong>classificados</strong> de diversas maneiras. Utilizaremos 3 definições diferentes:</p>
+<p><strong>Bens Tangíveis &amp; Intangíveis</strong>: são aqueles que podemos, respectivamente, tocar ou não. Exemplo: um automóvel é um bem tangível; o nome comercial da empresa é um bem intangível.</p>
+<p><strong>Bens Móveis &amp; Imóveis</strong>: são aqules bens que, respectivamente, podem ou não ser movidos ou deslocados. Exemplo: um estoque de mercadorias pode ser movido; um prédio comercial (sede de uma empresa) não o pode.</p>
+<p><strong>Bens Permanentes &amp; Bens de Consumo</strong>: são aqueles que possuem longa ou curta vida útil. Exemplo: um automóvel é um bem permanente, pois será usado durante muito tempo; já um pacote de folhas de papel (bem de consumo) será utilizado em pouco tempo.</p>
+<ul>
+  <li class='item-ok'>2 Fornos Industriais</li>
+  <li class='item-ok'>1 automóvel para seu uso nas entregas de pedidos da padaria</li>
+  <li class='item-ok'>1 Freezer Horizontal</li>
+  <li class='item-ok'>1 Conta Bancária Empresarial</li>
+  <li class='item-ok'>2 Geladeiras Comerciais</li>
+  <li class='item-ok'>1 imóvel comercial próprio para a sede da padaria</li>
+  <li class='item-ok'>3 Computadores de Atendimento</li>
+  <li class='item-ok'>2 Filiais da Padaria</li>
+  <li class='item-ok'>5 Fatiadores de Frios</li>
+  <li class='item-ok'>O Nome Empresarial da Padaria</li>
+  <li class='item-ok'>2 Balcões de Encosto</li>
+  <li class='item-ok'>5 Receitas de Bolo Exclusivas da Padaria</li>
+</ul>
+
+<blockquote>
+<p>EXERCÍCIO 02: Em seu caderno, classifique os bens acima. Você pode utilizar mais de uma classificação (exemplo: bem imóvel intangível e permanente).</p>
+</blockquote>
+<h3 id="Direitos"><a href="#Direitos" class="headerlink" title="Direitos"></a>Direitos</h3><p><strong>Direitos</strong> são os elementos que representam os bens que a empresa tem a receber. Exemplo: contribuições a receber, títulos a receber, adiantamento concedido, <strong>créditos</strong> a receber, etc.</p>
+<p>Direitos geralmente aparecem acompanhados da expressão “a receber”, “a compensar”, a “recuperar”, “a creditar”, ou outra similar, indicando a <strong>promessa de recebimento</strong> ou que permita recuperar parte do bem transferido.</p>
+<h3 id="Obrigacoes"><a href="#Obrigacoes" class="headerlink" title="Obrigações"></a>Obrigações</h3><p><strong>Obrigações</strong> são as responsabilidades de pagamento por bens adquiridos ou despesas realizadas. Portanto, temos aqui uma obrigação, uma <strong>dívida</strong> que poderá ser paga imediatamente ou a prazo. As obrigações na contabilidade recebem o nome técnico de <strong>exigível</strong>, por se exigir da empresa o pagamento das dívidas (BÄCHTOLD, 2012). </p>
+<p>Os exigíveis geralmente aparecem acompanhadas da expressão: “a pagar”, “a recolher”, “passivos”, “a liquidar” ou outra similar. Exemplo: salários a pagar, impostos a recolher, fornecedor, entre muitas outras.</p>
+<ul>
+  <li class='item-ok'>Caixa</li>
+  <li class='item-ok'>Empréstimos Bancários</li>
+  <li class='item-ok'>Financiamentos a Pagar</li>
+  <li class='item-ok'>Empréstimos a Sócios</li>
+  <li class='item-ok'>Empréstimos de Sócios</li>
+  <li class='item-ok'>SIMPLES a Recolher</li>
+  <li class='item-ok'>IPI a Recolher</li>
+  <li class='item-ok'>Títulos a Receber</li>
+  <li class='item-ok'>Terrenos</li>
+  <li class='item-ok'>INSS a Pagar</li>
+  <li class='item-ok'>Computadores</li>
+  <li class='item-ok'>Contas a Receber</li>
+  <li class='item-ok'>Salários a Pagar</li>
+  <li class='item-ok'>Banco conta corrente</li>
+  <li class='item-ok'>FGTS a Pagar</li>
+  <li class='item-ok'>Fornecedores</li>
+  <li class='item-ok'>Títulos a Pagar</li>
+  <li class='item-ok'>Máquinas e Equipamentos</li>
+  <li class='item-ok'>COFINS a Recolher</li>
+  <li class='item-ok'>PIS a Recolher</li>
+  <li class='item-ok'>Duplicatas a Receber</li>
+  <li class='item-ok'>Contas a Pagar</li>
+  <li class='item-ok'>ICMS a recuperar</li>
+  <li class='item-ok'>Estoque de Mercadorias</li>
+  <li class='item-ok'>Móveis e Utensílios</li>
+  <li class='item-ok'>Aluguéis a Pagar</li>
+  <li class='item-ok'>Comissões a Pagar</li>
+  <li class='item-ok'>ICMS a Recolher</li>
+  <li class='item-ok'>Duplicatas a Pagar</li>
+  <li class='item-ok'>Encargos Sociais a Pagar</li>
+  <li class='item-ok'>Água, Luz e Telefone a Pagar</li>
+  <li class='item-ok'>Veículos</li>
+  <li class='item-ok'>Provisão para Imposto de Renda a Pagar</li>
+  <li class='item-ok'>Provisão para Contribuição Social a Pagar</li>
+</ul>
+
+<blockquote>
+<p>EXERCÍCIO 03: Classifique os elementos patrimoniais acima em bens, direitos ou obrigações. Classifique-os também como ativos ou passivos.</p>
+</blockquote>
+<h3 id="Ativos-e-Passivos"><a href="#Ativos-e-Passivos" class="headerlink" title="Ativos e Passivos"></a>Ativos e Passivos</h3><p>O <strong>ativo</strong> compreende os <strong>bens e os direitos</strong> controlados pela entidade e expresso em moeda e possuem a característica de <strong>gerar benefícios de fluxos de Caixa</strong> futuros para a entidade (OLIVEIRA &amp; MOREIRA, 2012).</p>
+<p>Exemplos de bens e direitos registrados no Ativo: Caixa, bancos, clientes, contas a receber, Estoque, empréstimos concedidos a terceiros, imóveis, veículos, máquinas e equipamentos, entre outros.</p>
+<p>Já os <strong>passivos</strong> são todas as <strong>obrigações a pagar</strong> que a empresa possui, ou seja, são compromissos para com terceiros devido ao consumo de recursos (OLIVEIRA &amp; MOREIRA, 2012).</p>
+<p>Exemplos de compromissos registrados no Passivo: fornecedores, contas a pagar, empréstimos a pagar, financiamentos a pagar, salários a pagar, entre outros.</p>
+<hr>
+<h2 id="Patrimonio-Liquido"><a href="#Patrimonio-Liquido" class="headerlink" title="Patrimônio Líquido"></a>Patrimônio Líquido</h2><p>O <strong>Patrimônio Líquido</strong> é definido como o <strong>saldo</strong> resultante da diferença entre o valor do Ativo e do Passivo de uma empresa.</p>
+<p>Exemplo: se uma empresa possuir um Ativo (bens + direitos) no valor de R$ 50.000 e um Passivo (obrigações) no valor de R$ 30.000, então, tem-se um Patrimônio Líquido de R$ 20.000</p>
+<p><code>PATRIMÔNIO LÍQUIDO (PL) = ATIVOS - PASSIVOS</code></p>
+<p>O <strong>Patrimônio Líquido</strong> deve ser registrado no <strong>Balanço Patrimonial</strong>, que consiste num gráfico ou demonstrativo da situação financeira (patrimonial) de uma empresa em um dado momento. Em aulas futuras etudaremos o Balanço Patrimonial com detalhes.</p>
+<p>Para se fazer um Balanço Patrimonial deve-se montar uma <strong>tabela</strong> na qual são representados, por convenção, os ativos, do lado <strong>esquerdo</strong>, e os passivos do lado <strong>direito</strong>. Junto aos passivos deve ser somado também o <strong>Patrimônio Líquido</strong> e o <strong>Capital Social</strong>.</p>
+<p><img src="../../../../assets/media/img/contabilidade/modelo-balanco-patrimonial.png" alt="contabilidade-balanco"></p>
+<p>Na próxima aula entenderemos em detalhes o que é o Capital Social, mas por ora considere-o como <strong>o dinheiro que os donos ou sócios de uma empresa investem nela</strong>. Este dinheiro é um passivo, que será convertido em ativo para a compra de bens para a empresa ou como capital de giro em Caixa.</p>
+<blockquote>
+<p>EXERCÍCIO 04: Calcule o Patrimônio Líquido de uma empresa com os seguintes elementos:</p>
+</blockquote>
+<ul>
+<li>Caixa: R$ 10.000,00 </li>
+<li>Pagamento Fornecedores: R$ 2.500,00</li>
+<li>Imóveis Próprios: R$ 25.000,00</li>
+<li>Veículos Próprios: R$ 5.500,00</li>
+<li>Contas a Receber: R$ 3.000,00</li>
+<li>Salários a Pagar: R$ 5.000,00</li>
+<li>Contas a Pagar: R$ 6.00,00</li>
+<li>Capital Social: R$ 15.000,00</li>
+</ul>
+<blockquote>
+<p>EXERCÍCIO 05: Calcule o Patrimônio Líquido de uma empresa com os seguintes elementos:</p>
+</blockquote>
+<ul>
+<li>Caixa: R$ 25.000,00 </li>
+<li>Pagamento Fornecedores: R$ 5000,00</li>
+<li>Imóveis Próprios: R$ 10.000,00</li>
+<li>Veículos Próprios: R$ 20.000,00</li>
+<li>Impostos a pagar: R$ 2.000,00</li>
+<li>Contas a Receber: R$ 3.000,00</li>
+<li>Salários a Pagar: R$ 15.000,00</li>
+<li>Empréstimos Bancários: R$ 10.000,00</li>
+<li>Contas a Pagar: R$ 25.000,00</li>
+<li>Capital Social: R$ 15.000,00</li>
+</ul>
+<hr>
+<h2 id="Resumo"><a href="#Resumo" class="headerlink" title="Resumo"></a>Resumo</h2><ul>
+<li><p>A Contabilidade busca estudar e praticar as funções de orientação, controle e registro relativo aos atos e fatos da administração econômica de uma empresa.</p>
+</li>
+<li><p>A função mais importante da contabilidade é o <strong>controle</strong>, pois ele permite analisar a verdadeira situação de uma empresa. Esta análise está baseada em alguns princípios e conceitos básicos.</p>
+</li>
+<li><p>O <strong>Princípio da Entidade</strong> nos diz que devemos sempre separar o patrimônio da empresa e o patrimônio do seus donos ou sócios.</p>
+</li>
+<li><p>O <strong>Princípio da Continuidade</strong> pressupõe-se que a empresa continuará a existir no futuro. Por esta razão, mesmo que a situação não seja favorável, deve-se sempre levar em consideração que a empresa continuará existindo.</p>
+</li>
+<li><p>O <strong>Princípio da Prudência</strong>: pressupõe-se que uma empresa deve tomar cuidado em relação ao mercado, a fim de manter seu funcionamento.</p>
+</li>
+<li><p><strong>Patrimônio</strong> é um conjunto de bens, direitos e obrigações vinculados às organizações.</p>
+</li>
+<li><p><strong>Bens</strong> são os elementos que podem ser <strong>avaliados monetariamente</strong> e <strong>possuem utilidade</strong>. Podem ser tangíveis, intangíves, móveis, imóveis, permanentes ou de consumo.</p>
+</li>
+<li><p><strong>Direitos</strong> são os elementos que representam os bens que a empresa tem a receber.</p>
+</li>
+<li><p><strong>Obrigações</strong> são as responsabilidades de pagamento por bens adquiridos ou despesas realizadas, isto é, dívidas.</p>
+</li>
+<li><p><strong>Ativos</strong> compreendem os <strong>bens e os direitos</strong> da empresa; já os <strong>passivos</strong> são todas as <strong>obrigações a pagar</strong> que a empresa possui.</p>
+</li>
+<li><p>O <strong>Patrimônio Líquido (PL)</strong> é definido como o <strong>saldo</strong> resultante da diferença entre o valor do Ativo e do Passivo de uma empresa.</p>
+</li>
+</ul>
+<hr>
+<h2 id="Exercicios"><a href="#Exercicios" class="headerlink" title="Exercícios"></a>Exercícios</h2><p><strong>Nesta aula os exercícios 01 ao 05 estão distribuídos pela matéria. Leia-a com atenção!</strong></p>
+<ol start="6">
+<li><p>Relacione o conceito de crédito com os direitos contábeis de uma empresa.</p>
+</li>
+<li><p>Explique porque o Capital Social é, ao mesmo tempo, ativo e passivo contábil.</p>
+</li>
+</ol>
+<hr>
+<h2 id="Referencias-Bibliograficas"><a href="#Referencias-Bibliograficas" class="headerlink" title="Referências Bibliográficas"></a>Referências Bibliográficas</h2><p>BACARJI, Alencar Garcia. Formação Incial e Continuada Auxiliar Administrativo. Curitiba: Instituto Federal do Paraná, 2012. Disponível em <a href="https://bit.ly/2vZG4Y5" target="_blank" rel="noopener">https://bit.ly/2vZG4Y5</a>. Acesso en <em>20 de mar. de 2020</em>. </p>
+<p>BÄCHTOLD, CIRO. Contabilidade Básica. Curitiba: Instituto Federal do Paraná, 2012.Disponível em <a href="https://bit.ly/342pLX5" target="_blank" rel="noopener">https://bit.ly/342pLX5</a>. Acesso en <em>20 de mar. de 2020</em>.</p>
+<p>DALIO, R. A Template for Understanding How the Economic Machine Works and How it is Reflected Now. Westport: BRIDGETWATER, 2011</p>
+<p>GULLO, J. Administração: Para quem estuda, ensina e pratica. São Paulo, Bom Dia, 2006. 147 p</p>
+<p>MOTTA, F. C. P. A teoria geral dos sistemas na teoria das organizações. Rev. adm. empres.,  São Paulo ,  v. 11, n. 1, p. 17-33,  Mar.  1971 .   Disponível em <a href="http://www.scielo.br/scielo.php?script=sci_arttext&amp;pid=S0034-75901971000100003&amp;lng=en&amp;nrm=iso" target="_blank" rel="noopener">http://www.scielo.br/scielo.php?script=sci_arttext&amp;pid=S0034-75901971000100003&amp;lng=en&amp;nrm=iso</a>. Acesso en <em>03 de abr. de 2020</em>.</p>
+<p>OLIVEIRA, M. S. de; MOREIRA, S C. Noções de contabilidade básica para cursos técnicos. Brasília, DF : Instituto Federal de Educação, Ciência e Tecnologia de Brasília, 2012. 120p.</p>
+<p>OLIVO, Ana Maria; BOSCHILIA, Luiz. Contabilidade geral e gerencial: conceitos introdutórios para os cursos superiores de tecnologia. Florianópolis: Publicações do IF-SC, 2012. 102 p. : il.</p>
+<p>RENNÓ, R. Administração Geral para Concursos. Rio de Janeiro, Elsevier, 2013.</p>
+
+        </div>
+
+        
+            <section class="post-copyright">
+                
+                
+                    <p class="copyright-item">
+                        <span>Conteúdo disponível em:</span>
+                        <span><a href="http://zmdy.github.io/aulas.txt/posts/administracao/aulas/aula-14/">http://zmdy.github.io/aulas.txt/posts/administracao/aulas/aula-14/</a></span>
+                    </p>
+                
+                
+                    <p class="copyright-item">
+                        <span>Licença:</span>
+                        <span>Este material está distribuído com uma licença <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC-BY-4.0</a></span>
+                    </p>
+                
+                
+
+            </section>
+        
+        <section class="post-tags">
+            <div>
+                <span>Tag(s):</span>
+                <span class="tag">
+                    
+                    
+                        <a href="/aulas.txt/pages/tag/Auxiliar-Administrativo-Modulo-02-Aulas/"># Auxiliar Administrativo - Módulo 02 - Aulas</a>
+                    
+                        
+                </span>
+            </div>
+            <div>
+                <a href="javascript:window.history.back();">voltar</a>
+                <span>· </span>
+                <a href="/aulas.txt/">home</a>
+            </div>
+        </section>
+        <section class="post-nav">
+            
+                <a class="prev" rel="prev" href="/aulas.txt/posts/administracao/aulas/aula-03/">Aula 03 -  Módulo 01 - Auxiliar Administrativo</a>
+            
+            
+            <a class="next" rel="next" href="/aulas.txt/posts/administracao/aulas/aula-13/">Aula 03 -  Módulo 02 - Contabilidade</a>
+            
+        </section>
+
+
+    </article>
+</div>
+
+        </div>
+        <footer id="footer" class="footer">
+    <div class="copyright">
+        <span>© aulas.txt | Feito com <a href="https://hexo.io" target="_blank">Hexo</a> & <a href="https://github.com/Siricee/hexo-theme-Chic" target="_blank">Chic</a> | <a target="_blank" onclick="printPage()">Imprimir esta página em PDF</a></span>
+    </div>
+</footer>
+
+    </div><!-- hexo-inject:begin --><!-- Begin: Injected MathJax -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({"tex2jax":{"inlineMath":[["$","$"],["\\(","\\)"]],"skipTags":["script","noscript","style","textarea","pre","code"],"processEscapes":true},"TeX":{"equationNumbers":{"autoNumber":"AMS"}}});
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+      all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+</script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js">
+</script>
+<!-- End: Injected MathJax -->
+<!-- hexo-inject:end -->
+</body>
+</html>

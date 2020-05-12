@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="UTF-8">
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="author" content="zmdy">
+
+
+
+
+
+<title>aulas.txt</title>
+
+<!-- HERE ARE SOME LIBARIES AND PERSONAL TOOLS OF THE SRC FOLDER -->
+<script src="/aulas.txt/src/js/bonisa.min.js"></script>
+<script src="/aulas.txt/src/libs/printjs/print.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="/aulas.txt/assets/media/fonts/icofont/icofont.css">
+<script>
+  function printPage(){
+    printJS({
+        printable: 'aulasTXT', type: 'html',
+        header: null,
+        css: '/aulas.txt/css/style.css'
+    });
+  }
+</script>
+
+
+
+
+    <link rel="icon" href="/aulas.txt/favicon.png">
+
+
+
+
+    <!-- stylesheets list from _config.yml -->
+    
+    <link rel="stylesheet" href="/aulas.txt/css/style.css">
+    
+
+
+
+    <!-- scripts list from _config.yml -->
+    
+    <script src="/aulas.txt/js/script.js"></script>
+    
+    <script src="/aulas.txt/js/tocbot.min.js"></script>
+    
+
+
+
+    
+    
+        
+    
+
+
+<meta name="generator" content="Hexo 4.2.0"><!-- hexo-inject:begin --><!-- hexo-inject:end --></head>
+<body>
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><div class="wrapper">
+        <header>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header header-logo"><a href="/aulas.txt/">aulas.txt</a></div>
+            <div class="menu navbar-right">
+                
+                    <a class="menu-item" href="/aulas.txt/pages/cursos">Cursos</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/tag">Materiais</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/manual">Manual</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/sobre">Sobre</a>
+                
+                <input id="switch_default" type="checkbox" class="switch_default">
+                <label for="switch_default" class="toggleBtn"></label>
+            </div>
+        </div>
+    </nav>
+
+    
+    <nav class="navbar-mobile" id="nav-mobile">
+        <div class="container">
+            <div class="navbar-header">
+                <div>
+                    <a href="/aulas.txt/">aulas.txt</a><a id="mobile-toggle-theme">·&nbsp;Light</a>
+                </div>
+                <div class="menu-toggle" onclick="mobileBtn()">&#9776; Menu</div>
+            </div>
+            <div class="menu" id="mobile-menu">
+                
+                    <a class="menu-item" href="/aulas.txt/pages/cursos">Cursos</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/tag">Materiais</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/manual">Manual</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/sobre">Sobre</a>
+                
+            </div>
+        </div>
+    </nav>
+
+</header>
+<script>
+    var mobileBtn = function f() {
+        var toggleMenu = document.getElementsByClassName("menu-toggle")[0];
+        var mobileMenu = document.getElementById("mobile-menu");
+        if(toggleMenu.classList.contains("active")){
+           toggleMenu.classList.remove("active")
+            mobileMenu.classList.remove("active")
+        }else{
+            toggleMenu.classList.add("active")
+            mobileMenu.classList.add("active")
+        }
+    }
+</script>
+        <div class="main padding-05mm" id="aulasTXT">
+            <div class="container">
+    <article class="post-wrap page">
+        
+        <h2 class="post-title"></h2>
+        
+        <section class="post-content">
+            <h1 id="jsHashes"><a href="#jsHashes" class="headerlink" title="jsHashes  "></a>jsHashes <a href="https://travis-ci.org/h2non/jshashes" target="_blank" rel="noopener"><img src="https://travis-ci.org/h2non/jshashes.svg" alt="Build Status"></a> <a href="https://www.npmjs.com/package/jshashes" target="_blank" rel="noopener"><img src="https://img.shields.io/npm/v/jshashes.svg" alt="NPM version"></a></h1><p><code>jshashes</code> is lightweight library implementing the most extended <a href="http://en.wikipedia.org/wiki/Cryptographic_hash_function" target="_blank" rel="noopener">cryptographic hash function</a> algorithms in pure JavaScript (ES5 compliant).</p>
+<p>The goal is to provide an dependency-free, fast and reliable solution for hash algorithms for both client-side and server-side JavaScript environments.<br>The code is fully compatible with the ECMAScript 5 specification and is used in production in browsers and <a href="http://nodejs.org" target="_blank" rel="noopener">node.js</a>/<a href="http://iojs.org" target="_blank" rel="noopener">io.js</a></p>
+<p>If you are looking for a low-level performance library for the server-side, note that node.js/io.js provides its own native module: <a href="http://nodejs.org/api/crypto.html" target="_blank" rel="noopener"><code>crypto</code></a></p>
+<h2 id="Supported-hash-algorithms"><a href="#Supported-hash-algorithms" class="headerlink" title="Supported hash algorithms"></a>Supported hash algorithms</h2><ul>
+<li><code>MD5</code> (<a href="http://www.ietf.org/rfc/rfc1321.txt" target="_blank" rel="noopener">http://www.ietf.org/rfc/rfc1321.txt</a>)</li>
+<li><code>SHA1</code> (<a href="http://www.itl.nist.gov/fipspubs/fip180-1.htm" target="_blank" rel="noopener">http://www.itl.nist.gov/fipspubs/fip180-1.htm</a>)</li>
+<li><code>SHA256</code> (<a href="http://csrc.nist.gov/publications/fips/fips180-2/fips180-2.pdf" target="_blank" rel="noopener">http://csrc.nist.gov/publications/fips/fips180-2/fips180-2.pdf</a>)</li>
+<li><code>SHA512</code> (<a href="http://csrc.nist.gov/publications/fips/fips180-2/fips180-2.pdf" target="_blank" rel="noopener">http://csrc.nist.gov/publications/fips/fips180-2/fips180-2.pdf</a>)</li>
+<li><code>HMAC</code> (<a href="http://www.ietf.org/rfc/rfc2104.txt" target="_blank" rel="noopener">http://www.ietf.org/rfc/rfc2104.txt</a>)</li>
+<li><code>RIPEMD-160</code> (<a href="http://homes.esat.kuleuven.be/~bosselae/ripemd160.html" target="_blank" rel="noopener">http://homes.esat.kuleuven.be/~bosselae/ripemd160.html</a>)</li>
+</ul>
+<p><strong>Aditional functionalities</strong></p>
+<ul>
+<li><code>Base64 encoding/decoding</code> (<a href="http://tools.ietf.org/html/rfc3548" target="_blank" rel="noopener">http://tools.ietf.org/html/rfc3548</a>)</li>
+<li><code>CRC-32 calculation</code></li>
+<li><code>UTF-8 encoding/decoding</code></li>
+</ul>
+<h2 id="Environments"><a href="#Environments" class="headerlink" title="Environments"></a>Environments</h2><ul>
+<li>Browsers (ES3)</li>
+<li>node.js/io.js (all versions)</li>
+<li>Rhino</li>
+<li>RingoJS</li>
+</ul>
+<h2 id="Usage"><a href="#Usage" class="headerlink" title="Usage"></a>Usage</h2><p>Each algorithm has its respective own instantiable <code>object</code>. Here you can see an example of how to create a new instance for each one:</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// new MD5 instance</span></span><br><span class="line"><span class="keyword">var</span> MD5 = <span class="keyword">new</span> Hashes.MD5</span><br><span class="line"><span class="comment">// new SHA1 instance</span></span><br><span class="line"><span class="keyword">var</span> SHA1 = <span class="keyword">new</span> Hashes.SHA1</span><br><span class="line"><span class="comment">// new SHA256 instance</span></span><br><span class="line"><span class="keyword">var</span> SHA256 =  <span class="keyword">new</span> Hashes.SHA256</span><br><span class="line"><span class="comment">// new SHA512 instace</span></span><br><span class="line"><span class="keyword">var</span> SHA512 = <span class="keyword">new</span> Hashes.SHA512</span><br><span class="line"><span class="comment">// new RIPEMD-160 instace</span></span><br><span class="line"><span class="keyword">var</span> RMD160 = <span class="keyword">new</span> Hashes.RMD160</span><br></pre></td></tr></table></figure>
+
+<p>An example of how to generate an hexadecimal-based hash encoding for each algorithm:</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// sample string</span></span><br><span class="line"><span class="keyword">var</span> str = <span class="string">'Sample text!'</span></span><br><span class="line"><span class="comment">// output to console</span></span><br><span class="line"><span class="built_in">console</span>.log(<span class="string">'MD5: '</span> + MD5.hex(str))</span><br><span class="line"><span class="built_in">console</span>.log(<span class="string">'SHA1: '</span> + SHA1.hex(str))</span><br><span class="line"><span class="built_in">console</span>.log(<span class="string">'SHA256: '</span> + SHA256.hex(str))</span><br><span class="line"><span class="built_in">console</span>.log(<span class="string">'SHA512: '</span> + SHA512.hex(str))</span><br><span class="line"><span class="built_in">console</span>.log(<span class="string">'RIPEMD-160: '</span> + RMD160.hex(str))</span><br></pre></td></tr></table></figure>
+
+<h3 id="Browsers"><a href="#Browsers" class="headerlink" title="Browsers"></a>Browsers</h3><p>This is a simple implementation for a client-side environment:</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">"text/javascript"</span> <span class="attr">src</span>=<span class="string">"src/hashes.js"</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">"text/javascript"</span>&gt;</span></span><br><span class="line"><span class="actionscript"><span class="comment">// sample string</span></span></span><br><span class="line"><span class="actionscript"><span class="keyword">var</span> str = <span class="string">'This is a sample text!'</span></span></span><br><span class="line"><span class="actionscript"><span class="comment">// new MD5 instance and hexadecimal string encoding</span></span></span><br><span class="line"><span class="actionscript"><span class="keyword">var</span> MD5 = <span class="keyword">new</span> Hashes.MD5().hex(str)</span></span><br><span class="line"><span class="actionscript"><span class="comment">// output into DOM</span></span></span><br><span class="line"><span class="handlebars"><span class="xml">document.write('<span class="tag">&lt;<span class="name">p</span>&gt;</span>MD5: <span class="tag">&lt;<span class="name">b</span>&gt;</span>' + MD5 + '<span class="tag">&lt;/<span class="name">b</span>&gt;</span><span class="tag">&lt;/<span class="name">p</span>&gt;</span>')</span></span></span><br><span class="line"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="node-js-io-js"><a href="#node-js-io-js" class="headerlink" title="node.js / io.js"></a>node.js / io.js</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// require the module</span></span><br><span class="line"><span class="keyword">var</span> Hashes = <span class="built_in">require</span>(<span class="string">'jshashes'</span>)</span><br><span class="line"><span class="comment">// sample string</span></span><br><span class="line"><span class="keyword">var</span> str = <span class="string">'This is a sample text!'</span></span><br><span class="line"><span class="comment">// new SHA1 instance and base64 string encoding</span></span><br><span class="line"><span class="keyword">var</span> SHA1 = <span class="keyword">new</span> Hashes.SHA1().b64(str)</span><br><span class="line"><span class="comment">// output to console</span></span><br><span class="line"><span class="built_in">console</span>.log(<span class="string">'SHA1: '</span> + SHA1)</span><br></pre></td></tr></table></figure>
+
+<h3 id="Command-line-interface"><a href="#Command-line-interface" class="headerlink" title="Command-line interface"></a>Command-line interface</h3><p>You can use the simple command-line interface to generate hashes.</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">$ hashes sha1-hex This is a sample string</span><br><span class="line">&gt; b6a8501d8a70e74e1dc12a6082102622fdc719bb</span><br><span class="line"></span><br><span class="line"><span class="comment"># or with quotes</span></span><br><span class="line">$ hashes sha1-hex <span class="string">"This is a sample string"</span></span><br><span class="line">&gt; b6a8501d8a70e74e1dc12a6082102622fdc719bb</span><br></pre></td></tr></table></figure>
+
+<p>For more information about the options supported, type:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hashes -h</span><br></pre></td></tr></table></figure>
+
+<h3 id="Installation"><a href="#Installation" class="headerlink" title="Installation"></a>Installation</h3><p>Via <a href="https://npmjs.org" target="_blank" rel="noopener">npm</a></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install jshashes</span><br></pre></td></tr></table></figure>
+
+<p>Via <a href="http://bower.io/" target="_blank" rel="noopener">Bower</a>:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ bower install jshashes</span><br></pre></td></tr></table></figure>
+
+<p>Via <a href="https://github.com/component/component" target="_blank" rel="noopener">Component</a>:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ component install h2non&#x2F;jshashes</span><br></pre></td></tr></table></figure>
+
+<p>Or loading the script directly:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">http:&#x2F;&#x2F;cdn.rawgit.com&#x2F;h2non&#x2F;jsHashes&#x2F;master&#x2F;hashes.js</span><br></pre></td></tr></table></figure>
+
+<h2 id="Public-methods"><a href="#Public-methods" class="headerlink" title="Public methods"></a>Public methods</h2><p>Each algorithm <code>class</code> provides the following public methods:</p>
+<ul>
+<li><code>hex(string)</code> - Hexadecimal hash encoding from string.</li>
+<li><code>b64(string)</code> - Base64 hash encondig from string.</li>
+<li><code>any(string,encoding)</code> - Custom hash algorithm values encoding.</li>
+<li><code>hex_hmac(key,string)</code> - Hexadecimal hash with HMAC salt key.</li>
+<li><code>b64_hmac(key,string)</code> - Base64 hash with HMAC salt key.</li>
+<li><code>any_hmac(key,string,encoding)</code> - Custom hash values encoding with HMAC salt key support.</li>
+<li><code>vm_test()</code> - Simple self-test to see is working. Returns <code>this</code> Object.</li>
+<li><code>setUpperCase(boolean)</code> - Enable/disable uppercase hexadecimal returned string. Returns <code>this</code> Object.</li>
+<li><code>setPad(string)</code> - Defines a custom base64 pad string. Default is ‘=’ according with the RFC standard. Returns <code>this</code> Object.</li>
+<li><code>setUTF8(boolean)</code> - Enable/disable UTF-8 character encoding. Returns <code>this</code> Object.</li>
+</ul>
+<h2 id="Hash-encoding-formats-supported"><a href="#Hash-encoding-formats-supported" class="headerlink" title="Hash encoding formats supported"></a>Hash encoding formats supported</h2><ul>
+<li>Hexadecimal (most extended)</li>
+<li>Base64</li>
+<li>Custom hash values <code>any()</code> method</li>
+</ul>
+<h2 id="Benchmark"><a href="#Benchmark" class="headerlink" title="Benchmark"></a>Benchmark</h2><p>Node.js 0.6.18 running on a VPS Intel I7 930 with 512 MB of RAM (see <code>server/benchmark.js</code>)</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">Simple benchmark test generating <span class="number">10000</span> hashes <span class="keyword">for</span> each algorithm.</span><br><span class="line"><span class="built_in">String</span>: <span class="string">"A0gTtNtKh3RaduBfIo59ZdfTc5pTdOQrkxdZ5EeVOIZh1cXxqPyexKZBg6VlE1KzIz6pd6r1LLIpT5B8THRfcGvbJElwhWBi9ZAE"</span></span><br><span class="line"></span><br><span class="line">* MD5</span><br><span class="line">** Done <span class="keyword">in</span>: <span class="number">205</span> miliseconds</span><br><span class="line">* SHA1</span><br><span class="line">** Done <span class="keyword">in</span>: <span class="number">277</span> miliseconds</span><br><span class="line">* SHA256</span><br><span class="line">** Done <span class="keyword">in</span>: <span class="number">525</span> miliseconds</span><br><span class="line">* SHA512</span><br><span class="line">** Done <span class="keyword">in</span>: <span class="number">593</span> miliseconds</span><br><span class="line">* RMD160</span><br><span class="line">** Done <span class="keyword">in</span>: <span class="number">383</span> miliseconds</span><br></pre></td></tr></table></figure>
+
+<p>See <code>client/benchmark.html</code> for client-side.</p>
+<h2 id="Notes"><a href="#Notes" class="headerlink" title="Notes"></a>Notes</h2><ul>
+<li>Don’t support checksum hash for files on the server-side, only strings-based inputs are supported.</li>
+<li>It has not been planned to include support for more hash algorithms.</li>
+<li>The goal is to provide the same JavaScript code in both server and client side, so it isn’t planned to improve it in other ways.</li>
+<li>Only Node.js server-side was tested, so with minimal changes, you can setup <code>jsHashes</code> in other server-side JS environment.</li>
+</ul>
+<h2 id="Changelog"><a href="#Changelog" class="headerlink" title="Changelog"></a>Changelog</h2><ul>
+<li><code>1.0.7</code><ul>
+<li>Merge #37: fix terminator statement token.</li>
+</ul>
+</li>
+<li><code>1.0.6</code><ul>
+<li>Fix #34: options <code>pad</code> typo.</li>
+</ul>
+</li>
+<li><code>1.0.4</code><ul>
+<li>Fix CLI script call error when use it from Bash</li>
+<li>Added CLI usage example</li>
+</ul>
+</li>
+<li><code>1.0.3</code><ul>
+<li>Important bugfixes to UTF-8 encoding (broken in 1.0.2) and the RIPEMD-160 hash (broken in 1.0.1). (gh #6)</li>
+<li>New test suite for hashes, CRC32, and hmac; run with ‘npm test’ in node.</li>
+<li>Fixed global variable leaks. (gh #13)</li>
+<li>CRC32 will now always return positive values. (gh #11)</li>
+<li>Added package version property to the exposed Hashes Object</li>
+<li>Updated CLI script utility supporting all algorithms (see bin/hashes)</li>
+<li>Fixed UTF-8 encoding/decoding error (if input parameter is undefined or invalid)</li>
+</ul>
+</li>
+<li><code>1.0.2</code><ul>
+<li>Performance improvements and minimal refactor (length property caching, literal notation)</li>
+<li>Available from Bower package manager</li>
+</ul>
+</li>
+<li><code>1.0.1</code><ul>
+<li>Refactoring (hoisting, coercion, removed redundant functions, scoping, restructure…)</li>
+<li>Performance improves</li>
+<li>JSLint validation (except bitwise operators)</li>
+<li>Now the library can be used like a AMD CommonJS module</li>
+<li>Updated documentation</li>
+<li>New folders structure</li>
+<li>Added closure compiled and minimized library version</li>
+<li>Available from Jam package manager</li>
+</ul>
+</li>
+<li><code>0.1.5b</code><ul>
+<li>Added index.js for easy call the module in Node.js</li>
+<li>Updated documentation</li>
+</ul>
+</li>
+<li><code>0.1.4b</code><ul>
+<li>Now declaring objects using Literal Notation.</li>
+<li>Solved sintax errors on minimized version (jshashes.min.js)</li>
+<li>Added benchmark test and sample</li>
+</ul>
+</li>
+<li><code>0.1.3b</code><ul>
+<li>Starting non-redundancy code refactorization</li>
+<li>Added <code>Helpers</code> Object with some global functions</li>
+<li>Added native support for Base64 provided as <code>class</code></li>
+<li>Added CRC-32 calculation support</li>
+<li>Added URL encode/decode helpers functions</li>
+</ul>
+</li>
+<li><code>0.1.2b</code><ul>
+<li>SHA1 error fixed.</li>
+<li>General code changes (renaming classes, private methods, new methods…).</li>
+<li>Changing library namespace to ‘Hashes’.</li>
+<li>Starting code documentation.</li>
+<li>Added new examples of how to use.</li>
+</ul>
+</li>
+<li><code>0.1.1b</code><ul>
+<li>Minimal library improvements.</li>
+<li>There has been added some samples, like how to use it and support for NPM package.</li>
+</ul>
+</li>
+<li><code>0.1.0b</code><ul>
+<li>First release: the code is stable, but the library is still beta and must be improved and documented.</li>
+</ul>
+</li>
+</ul>
+<h2 id="TODO"><a href="#TODO" class="headerlink" title="TODO"></a>TODO</h2><ul>
+<li>Performance benchmarking</li>
+</ul>
+<h2 id="Authors"><a href="#Authors" class="headerlink" title="Authors"></a>Authors</h2><h3 id="Library-author"><a href="#Library-author" class="headerlink" title="Library author"></a>Library author</h3><ul>
+<li><a href="https://github.com/h2non/" target="_blank" rel="noopener">Tomas Aparicio</a></li>
+</ul>
+<h3 id="Original-algorithm-authors"><a href="#Original-algorithm-authors" class="headerlink" title="Original algorithm authors"></a>Original algorithm authors</h3><ul>
+<li><a href="http://pajhome.org.uk/crypt/md5/" target="_blank" rel="noopener">Paul Johnston</a></li>
+<li>Angel Marin (SHA256)</li>
+<li>Jeremy Lin (RIPEMD-160)</li>
+</ul>
+<h3 id="Other-contributors"><a href="#Other-contributors" class="headerlink" title="Other contributors"></a>Other contributors</h3><ul>
+<li><a href="https://github.com/cscott" target="_blank" rel="noopener">C. Scott Ananian</a></li>
+<li>Greg Holt</li>
+<li>Andrew Kepert</li>
+<li>Ydnar</li>
+<li>Lostinet</li>
+</ul>
+<h2 id="License"><a href="#License" class="headerlink" title="License"></a>License</h2><p>jsHashes is released under <code>New BSD</code> license. See <code>LICENSE</code> file.</p>
+<h2 id="Issues"><a href="#Issues" class="headerlink" title="Issues"></a>Issues</h2><p>Feel free to report any issue you experiment via Github <a href="https://github.com/h2non/jsHashes/issues" target="_blank" rel="noopener">https://github.com/h2non/jsHashes/issues</a>.</p>
+
+        </section>
+    </article>
+</div>
+
+        </div>
+        <footer id="footer" class="footer">
+    <div class="copyright">
+        <span>© aulas.txt | Feito com <a href="https://hexo.io" target="_blank">Hexo</a> & <a href="https://github.com/Siricee/hexo-theme-Chic" target="_blank">Chic</a> | <a target="_blank" onclick="printPage()">Imprimir esta página em PDF</a></span>
+    </div>
+</footer>
+
+    </div><!-- hexo-inject:begin --><!-- Begin: Injected MathJax -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({"tex2jax":{"inlineMath":[["$","$"],["\\(","\\)"]],"skipTags":["script","noscript","style","textarea","pre","code"],"processEscapes":true},"TeX":{"equationNumbers":{"autoNumber":"AMS"}}});
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+      all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+</script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js">
+</script>
+<!-- End: Injected MathJax -->
+<!-- hexo-inject:end -->
+</body>
+</html>

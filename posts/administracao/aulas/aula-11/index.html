@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="UTF-8">
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="author" content="zmdy">
+
+
+
+
+
+<title>Aula 01 -  Módulo 02 - Contabilidade | aulas.txt</title>
+
+<!-- HERE ARE SOME LIBARIES AND PERSONAL TOOLS OF THE SRC FOLDER -->
+<script src="/aulas.txt/src/js/bonisa.min.js"></script>
+<script src="/aulas.txt/src/libs/printjs/print.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="/aulas.txt/assets/media/fonts/icofont/icofont.css">
+<script>
+  function printPage(){
+    printJS({
+        printable: 'aulasTXT', type: 'html',
+        header: null,
+        css: '/aulas.txt/css/style.css'
+    });
+  }
+</script>
+
+
+
+
+    <link rel="icon" href="/aulas.txt/favicon.png">
+
+
+
+
+    <!-- stylesheets list from _config.yml -->
+    
+    <link rel="stylesheet" href="/aulas.txt/css/style.css">
+    
+
+
+
+    <!-- scripts list from _config.yml -->
+    
+    <script src="/aulas.txt/js/script.js"></script>
+    
+    <script src="/aulas.txt/js/tocbot.min.js"></script>
+    
+
+
+
+    
+    
+        
+    
+
+
+<meta name="generator" content="Hexo 4.2.0"><!-- hexo-inject:begin --><!-- hexo-inject:end --></head>
+<body>
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><div class="wrapper">
+        <header>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header header-logo"><a href="/aulas.txt/">aulas.txt</a></div>
+            <div class="menu navbar-right">
+                
+                    <a class="menu-item" href="/aulas.txt/pages/cursos">Cursos</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/tag">Materiais</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/manual">Manual</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/sobre">Sobre</a>
+                
+                <input id="switch_default" type="checkbox" class="switch_default">
+                <label for="switch_default" class="toggleBtn"></label>
+            </div>
+        </div>
+    </nav>
+
+    
+    <nav class="navbar-mobile" id="nav-mobile">
+        <div class="container">
+            <div class="navbar-header">
+                <div>
+                    <a href="/aulas.txt/">aulas.txt</a><a id="mobile-toggle-theme">·&nbsp;Light</a>
+                </div>
+                <div class="menu-toggle" onclick="mobileBtn()">&#9776; Menu</div>
+            </div>
+            <div class="menu" id="mobile-menu">
+                
+                    <a class="menu-item" href="/aulas.txt/pages/cursos">Cursos</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/tag">Materiais</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/manual">Manual</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/sobre">Sobre</a>
+                
+            </div>
+        </div>
+    </nav>
+
+</header>
+<script>
+    var mobileBtn = function f() {
+        var toggleMenu = document.getElementsByClassName("menu-toggle")[0];
+        var mobileMenu = document.getElementById("mobile-menu");
+        if(toggleMenu.classList.contains("active")){
+           toggleMenu.classList.remove("active")
+            mobileMenu.classList.remove("active")
+        }else{
+            toggleMenu.classList.add("active")
+            mobileMenu.classList.add("active")
+        }
+    }
+</script>
+        <div class="main padding-05mm" id="aulasTXT">
+            <div class="container">
+    
+    
+        <div class="post-toc">
+    <div class="tocbot-list">
+    </div>
+    <div class="tocbot-list-menu">
+        <a class="tocbot-toc-expand" onclick="expand_toc()">Expand all</a>
+        <a onclick="go_top()">Back to top</a>
+        <a onclick="go_bottom()">Go to bottom</a>
+    </div>
+</div>
+
+<script>
+    document.ready(
+        function () {
+            tocbot.init({
+                tocSelector: '.tocbot-list',
+                contentSelector: '.post-content',
+                headingSelector: 'h1, h2, h3, h4, h5',
+                collapseDepth: 1,
+                orderedList: false,
+                scrollSmooth: true,
+            })
+        }
+    )
+
+    function expand_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 6,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "collapse_toc()");
+        b.innerHTML = "Collapse all"
+    }
+
+    function collapse_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 1,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "expand_toc()");
+        b.innerHTML = "Expand all"
+    }
+
+    function go_top() {
+        window.scrollTo(0, 0);
+    }
+
+    function go_bottom() {
+        window.scrollTo(0, document.body.scrollHeight);
+    }
+
+</script>
+    
+
+    
+    <article class="post-wrap">
+        <header class="post-header">
+            <h1 class="post-title">Aula 01 -  Módulo 02 - Contabilidade</h1>
+            
+                <div class="post-meta">
+                    
+
+                    
+                        <span class="post-time">
+                        Data de Publicação: <a href="#">30/03/2020&nbsp;&nbsp;11:29</a>
+                        </span>
+                    
+                    
+                </div>
+            
+        </header>
+
+        <div class="post-content">
+            <img src="../../../../assets/media/img/cursos/logo-auxiliar-administrativo-01.png" alt="Auxiliar Administrativo" title="Auxiliar Administrativo" class="img-50  bg-white">
+
+<p>Bem vindx à primeira aula do curso de Contabilidade!</p>
+<p>Antes de iniciar o conteúdo propriamente dito, dê uma olhada na <a href="../../../../pages/cursos/administracao.html">ementa</a> para ficar por dentro dos requisitos, regras e outros detalhes do curso.</p>
+<p>Se desejar, você poderá realizar o <em>download</em> deste ou qualquer outro conteúdo do site pressionando o botão <code>Imprimir esta página em PDF</code> localizado no rodapé da página.</p>
+<p>Sugiro, para estudos complementares deste curso o material descrito nas referências bibliográficas, em especial:</p>
+<p><a href="http://redeetec.mec.gov.br/images/stories/pdf/proeja/contabil_basica.pdf" target="_blank" rel="noopener">BÄCHTOLD, Ciro. Contabilidade Básica</a></p>
+<p><a href="http://lelivros.love/book/baixar-livro-50-ideias-de-economia-edmund-conway-em-pdf-epub-e-mobi-ou-ler-online/" target="_blank" rel="noopener">CONWAY, Edmund. 50 ideias de economia que você precisa conhecer</a></p>
+<p><a href="https://www.youtube.com/watch?v=0unv5QSsoCs" target="_blank" rel="noopener"><i class="icofont-ui-video-chat"></i> DALIO, Ray. How The Economic Machine Works by Ray Dalio</a></p>
+<p><a href="https://www.ifsc.edu.br/documents/30701/523474/Livro_contabilidade_miolo.pdf/f149d841-667c-9e0f-5cd2-a8bfb13d4ebf" target="_blank" rel="noopener">OLIVO, A. M.; BOSCHILIA, L. Contabilidade geral e gerencial - conceitos introdutórios para os cursos superiores de tecnologia</a></p>
+<p><a href="https://www.youtube.com/watch?v=YDF3kNQhfGY" target="_blank" rel="noopener"><i class="icofont-ui-video-chat"></i> STUDIO 306. Como Funciona a Economia?</a></p>
+<p>Com tudo isso em mente, vamos lá!</p>
+<hr>
+<h2 id="Sumario-da-Aula"><a href="#Sumario-da-Aula" class="headerlink" title="Sumário da Aula"></a>Sumário da Aula</h2><ol>
+<li><a href="#Como-Surgiu-a-Administracao">Como Surgiu a Administração</a></li>
+<li><a href="#Taylor-amp-Ford-Teoria-Cientifica-da-Administracao">Taylor &amp; Ford - Teoria Científica da Administração</a></li>
+<li><a href="#Fayol-Teoria-Classica-da-Administracao">Fayol - Teoria Clássica da Administração</a></li>
+<li><a href="#Mayo-Teoria-das-Relacoes-Humanas">Mayo -Teoria das Relações Humanas</a></li>
+<li><a href="#Weber-Burocracia">Weber - Burocracia</a></li>
+<li><a href="#Resumo">Resumo</a></li>
+<li><a href="#Exercicios">Exercícios</a></li>
+<li><a href="#Referencias-Bibliograficas">Referências Bibliográficas</a></li>
+</ol>
+<hr>
+<h2 id="Como-Surgiu-a-Administracao"><a href="#Como-Surgiu-a-Administracao" class="headerlink" title="Como Surgiu a Administração?"></a>Como Surgiu a Administração?</h2><p>“Administrar é utilizar recursos escassos e torná-los suficientes para atingir um objetivo.”</p>
+<p>A Administração é uma área do conhecimento humano que estuda as melhores maneiras de se utilizar recursos (capital, pessoas, máquina, etc.) para se atingir um determinado objetivo.</p>
+<p>Embora seja frequentemente aplicada à gestão de empresas e organizações, as técnicas desenvolvidas pela Administração também permitem aplicações práticas no nosso cotidiano.</p>
+<p>A <strong>Revolução Industrial</strong> provocou enormes mudanças na estrutura social e produtiva em todo o mundo. A utilização de <strong>máquinas a vapor</strong> proporcionou formas mais rápidas de transportes (trens e navios a vapor) que permitiu às empresas levarem seus produtos para um público cada vez maior e mais distante.</p>
+<blockquote>
+<p>IMAGEM MAQUINA A VAPOR</p>
+</blockquote>
+<p>Esse novo maquinário levou a um novo tipo de processo produtivo: a <strong>produção em massa</strong>. A <strong>produtividade</strong> e a <strong>velocidade de produção</strong> foram ampliadas exponencialmente. As pequenas oficinas e artesanatos aos poucos deram espaço a <strong>grandes indústrias</strong>, em que o ambiente de trabalho era insalubre e perigoso, com jornadas de trabalho de mais de doze horas diárias.</p>
+<blockquote>
+<p>IMAGEM TRABALHADORES</p>
+</blockquote>
+<p>A indústria na época contratava, em grande parte, os <strong>moradores do campo</strong>, que eram atraídos por melhores salários para executarem trabalhos manuais. Devido à <strong>falta de qualificação</strong> (e também às condições desumanas e degradantes de trabalho) existia, então, um <strong>grande desperdício e pouca técnica</strong>.</p>
+<blockquote>
+<p>IMAGEM FÁBRICA</p>
+</blockquote>
+<p>Nas fábricas, os funcionários faziam seu trabalho de <strong>forma empírica</strong>, ou seja, na base da tentativa e erro. Os gerentes não estudavam as melhores formas de se trabalhar. <strong>Frederick Taylor</strong> foi o primeiro teórico a buscar uma solução para este problema por meio da <strong>Teoria da Administração Científica</strong>, também conhecida como <strong>Taylorismo</strong>. </p>
+<hr>
+<h2 id="Taylor-amp-Ford-Teoria-Cientifica-da-Administracao"><a href="#Taylor-amp-Ford-Teoria-Cientifica-da-Administracao" class="headerlink" title="Taylor &amp; Ford - Teoria Científica da Administração"></a>Taylor &amp; Ford - Teoria Científica da Administração</h2><p>A Administração Científica buscou, então, a <strong>melhoria da ciência (técnica) da produtividade</strong>. Com isso, passou-se a estudar então a “melhor maneira” de se fazer as tarefas. Esse trabalho foi chamado de <strong>estudo de tempos e movimentos</strong>.</p>
+<p>O trabalho do operário era <strong>analisado e cronometrado</strong>, de modo que os gerentes pudessem determinar a maneira mais eficiente – “<em>the one best way</em>” ou a maneira certa de se fazer uma tarefa.</p>
+<p>Após a definição do modo mais rápido e fácil de executar uma tarefa (por exemplo, a montagem de uma roda), os funcionários eram treinados para executá-las dessa forma – criando assim uma <strong>padronização do trabalho</strong>.</p>
+<p>Essa padronização evitaria a execução de tarefas desnecessárias por parte dos empregados. Tudo isso ajudaria na <strong>economia de esforços</strong> e <strong>evitaria uma rápida fadiga humana</strong>.</p>
+<blockquote>
+<p>TAYLOR</p>
+</blockquote>
+<p>Outro aspecto importante foi a <strong>divisão do trabalho</strong>. De acordo com os teóricos da Administração Científica, seria muito mais fácil treinar e capacitar um funcionário a executar uma tarefa específica (aparafusar um assento, por exemplo) do que fazer todo o trabalho sozinho (montar uma bicicleta inteira, por exemplo).</p>
+<p>Esse conceito foi a base da <strong>linha de montagem</strong> – processo produtivo em que a peça a ser feita vai passando de funcionário a funcionário, até que todos tenham montado “sua parte”.</p>
+<p>Chamamos isso de <strong>especialização</strong>. O empregado ficava restrito a uma pequena parte do processo produtivo, de modo que seu treinamento e adaptação à “melhor maneira” (o modo padronizado de se trabalhar) fossem facilitados.</p>
+<p>Taylor acreditava que o incentivo material levava a uma maior motivação para o trabalho. Essa foi a base do conceito do “<em>Homo economicus</em>”. Ou seja, a ideia de que a principal motivação de uma pessoa no trabalho seria a remuneração (ou benefícios materiais). Assim, indicou o <strong>pagamento por produtividade</strong> (pagamento por peça produzida, por exemplo) como essencial para que o funcionário buscasse um maior esforço.</p>
+<p>A teoria de Taylor conquistou adeptos e foi, mais tarde, aperfeiçoada por <strong>Henry Ford</strong>, ao incluir a <strong>linha de montagem coordenada por uma esteira</strong> ao processo produtivo. Henry Ford tornou os carros produtos de consumo. Ele conseguiu reduzir os preços através da produção em massa de produtos padronizados, com forte mecanização do trabalho.</p>
+<p>Entretanto, a Administração Científica pecou por <strong>não analisar a organização em todo seu contexto</strong>. Ou seja, só analisava seu ambiente interno e seus problemas e as demandas de produção (ou seja, os problemas do “chão de fábrica”).</p>
+<p>Dessa maneira, dizemos que é uma <strong>teoria de sistema fechado</strong> (dentro de uma lógica que não vê as interrelações e influências entre as demais organizações). Seria como analisar uma empresa no vácuo, sem imaginar a resposta dos seus concorrentes ao lançamento de um produto, por exemplo.</p>
+<p>Outra crítica clássica a esta teoria está relacionada à excessiva carga de trabalho a qual os funcionários eram submetidos. Além disso, a repetição de uma mesma tarefa de modo excessivo levava à uma contínua exaustão física e psicológica nos trabalhadores.</p>
+<hr>
+<h2 id="Fayol-Teoria-Classica-da-Administracao"><a href="#Fayol-Teoria-Classica-da-Administracao" class="headerlink" title="Fayol - Teoria Clássica da Administração"></a>Fayol - Teoria Clássica da Administração</h2><p>Em um contexto semelhante ao da Administração Científica (pois foram geradas na mesma época), a <strong>Teoria Clássica da Administração</strong>, desenvolvida por Henri Fayol, buscou a melhoria da ciência administrativa através do foco nas <strong>estruturas organizacionais</strong>.</p>
+<p>O foco da teoria de Fayol saiu das tarefas para a <strong>estrutura</strong>. Ele tinha uma visão de “cima para baixo” das empresas, vendo cada departamento como uma parte importante para o seu funcionamento, assim como um <strong>organismo vivo</strong>. Por esta razão a Teoria Clássica de Fayol é considerado uma <strong>teoria fisiologista</strong>.</p>
+<p>A Teoria Clássica buscou instituir os princípios gerais do trabalho de um administrador. Para isso, o autor buscou definir as funções empresariais que as organizações em geral devem conter. As funções seriam: a <strong>técnica</strong>, a <strong>comercial</strong>, a <strong>financeira</strong>, a de <strong>segurança, a contábil</strong> e a <strong>administrativa</strong>. Essa última seria a responsável pela coordenação das outras funções.</p>
+<p>Fayol afirma que a função Administração é a mais importante de todas, e que deve ser vista como uma função separada das demais, na empresa. Afirma também que a Administração é uma atividade utilizada em todas as atividades humanas (família, negócios e governo, entre outras).</p>
+<p>Além disso, Fayol definiu o trabalho de um administrador dentro do que ele chamou de <strong>processo administrativo</strong> – as funções do administrador. Este processo engloba todas as principais características que um gestor deve se atentar para realizar bem o seu trabalho, <strong>independentemente do seu nível hierárquico</strong>. As funções são:</p>
+<ul>
+<li><em>Prever</em>: visualizar o futuro e traçar o programa de ação em médio e longo prazos;</li>
+<li><em>Organizar</em>: constituir a estrutura material e humana para realizar o empreendimento da empresa;</li>
+<li><em>Comandar</em>: dirigir e orientar o pessoal para mantê-lo ativo na empresa;</li>
+<li><em>Coordenar</em>: ligar e harmonizar todos os atos e todos os esforços coletivos;</li>
+<li><em>Controlar</em>: cuidar para que tudo se realize de acordo com os planos da empresa.</li>
+</ul>
+<p>Esses seriam elementos que estariam presentes no trabalho de cada administrador, independentemente de seu nível hierárquico. Assim, desde o presidente da empresa até um mero supervisor deveriam desempenhar essas funções em seu dia a dia.</p>
+<p>Assim como Taylor, Fayol também se preocupava mais com os <strong>aspectos internos das organizações</strong>, sem analisar as interrelações e trocas entre a organização e seu ambiente externo. Por esta razão a Teoria Clássica da Administração também é uma <strong>teoria de sistema fechado</strong>. Outro aspecto correlato entre as duas teorias está na utilização do conceito de “<em>Homo economicus</em>”.</p>
+<p>No contexto interno das organizações, a Teoria Clássica delimitou <strong>14 princípios gerais</strong>:</p>
+<p>1) <strong>Divisão do trabalho</strong>: consiste na especialização das tarefas e das pessoas para aumentar a eficiência;</p>
+<p>2) <strong>Autoridade e responsabilidade</strong>: autoridade é o direito de dar ordens e o poder de esperar obediência. A responsabilidade é uma consequência natural da autoridade e significa o dever de prestar contas;</p>
+<p>3) <strong>Disciplina</strong>: depende de obediência, aplicação, energia, comportamento e respeito aos acordos estabelecidos;</p>
+<p>4) <strong>Unidade de comando</strong>: cada empregado deve receber ordens de apenas um superior;</p>
+<p>5) <strong>Unidade de direção</strong>: uma cabeça e um plano para cada conjunto de atividades que tenham o mesmo objetivo;</p>
+<p>6) <strong>Subordinação dos interesses individuais aos gerais</strong>;</p>
+<p>7) <strong>Remuneração do pessoal</strong>: deve haver justa e garantida satisfação para os empregados e para a organização em termos de retribuição;</p>
+<p>8) <strong>Centralização</strong>: refere-se à concentração da autoridade no topo da hierarquia da organização;</p>
+<p>9) <strong>Cadeia escalar</strong>: linha de autoridade que vai do escalão mais alto ao mais baixo da hierarquia;</p>
+<p>10) <strong>Ordem</strong>: um lugar para cada coisa, e cada coisa em seu lugar;</p>
+<p>11) <strong>Equidade</strong>: amabilidade e justiça para alcançar a lealdade dos empregados;</p>
+<p>12) <strong>Estabilidade do pessoal</strong>: a rotatividade do pessoal é prejudicial para a eficiência da organização;</p>
+<p>13) <strong>Iniciativa</strong>: a capacidade de visualizar um plano e assegurar pessoalmente seu sucesso;</p>
+<p>14) <strong>Espírito de equipe</strong>: a harmonia e união entre as pessoas são grandes forças para a organização.</p>
+<p>Como problemas da Teoria Clássica, podemos citar a <strong>falta de preocupação com a organização informal</strong> das organizações (só focava na organização formal – linhas de autoridade, descrição de cargos, hierarquia etc.), além de uma <strong>ênfase exagerada na centralização</strong>, como o princípio da unidade de comando exemplifica.</p>
+<p>A ideia de uma organização flexível ainda não estava na agenda. Infelizmente, a Teoria Clássica também não se preocupou muito com os <strong>aspectos ligados às pessoas</strong>. Temas como comunicação, motivação, negociação e liderança ainda eram pouco relevantes nestes estudos. Esse “vácuo” seria ocupado pela Teoria das Relações Humanas.</p>
+<hr>
+<h2 id="Mayo-Teoria-das-Relacoes-Humanas"><a href="#Mayo-Teoria-das-Relacoes-Humanas" class="headerlink" title="Mayo - Teoria das Relações Humanas"></a>Mayo - Teoria das Relações Humanas</h2><p>O crescimento das ciências sociais, como a psicologia, levou a diversos estudos dentro do contexto do homem no trabalho. Além disso, no início da década de 1930, a economia passou por uma grande depressão em todo o mundo. Com a crise, o desemprego cresceu muito.</p>
+<p>As <strong>más condições de trabalho</strong> predominavam na indústria, e os conflitos entre trabalhadores e patrões estavam aumentando. Nessa época, ocorreram muitas greves e conflitos nas fábricas por todo o mundo. </p>
+<p>A ideia de que o homem deveria ser uma <strong>engrenagem de uma “máquina”</strong> passou a não ser mais aceita.  O Taylorismo começou a ser criticado por não se preocupar com o <strong>aspecto humano</strong>. Além disso, a produtividade prometida muitas vezes não se concretizou.</p>
+<p>Nesse cenário, a <strong>Teoria das Relações Humanas</strong> começou a tomar forma. Essa teoria buscou o aumento da produtividade através de uma atenção especial às pessoas. De acordo com seus teóricos, se os gestores <strong>entendessem melhor seus funcionários</strong> e se “adaptassem” a eles, as suas organizações teriam maior sucesso.</p>
+<p>Dentre os estudos que impulsionaram essa teoria se destacou o trabalho de um pesquisador de Harvard: <strong>Elton Mayo</strong>. Esse autor desenvolveu uma pesquisa dentro de uma indústria da <strong>empresa Western Electric</strong>, em Hawthorne. Seu intuito inicial foi entender o <strong>efeito da iluminação no desempenho humano</strong>.</p>
+<p>Qual foi a surpresa de Mayo ao descobrir que <strong>uma mudança na iluminação – seja ela qual for – aumentava a motivação dos empregados</strong>. Assim, ele aos poucos foi compreendendo que na verdade o que estava motivando esses funcionários era a <strong>atenção dos pesquisadores</strong>, não a iluminação em si.</p>
+<p>Esses <strong>trabalhadores passaram a se sentir importantes</strong>. Passaram a perceber que seu trabalho estava sendo observado e medido por pesquisadores. Com isso, se esforçavam mais. A iluminação em si era um aspecto menor. Já o <strong>sentimento de orgulho</strong> por fazer um trabalho bem-feito era fundamental no aumento da produtividade.</p>
+<p>Com essas descobertas, todo o enfoque da administração foi alterado. O foco de um gestor deveria ser voltado aos <strong>aspectos emocionais e psicológicos</strong> dos seus funcionários.</p>
+<p>Com esse aparecimento da noção de que a produtividade está ligada ao relacionamento entre as pessoas e ao funcionamento dos grupos dentro de uma empresa, nasceu essa nova teoria. O conceito que se remou então foi o de <strong>Homem Social</strong>.</p>
+<p>A pesquisa de Hawtorne mostrou que:</p>
+<p>1) <strong>A integração social afeta a produtividade</strong> – assim, não é a capacidade individual de cada funcionário o que de ne sua produtividade, e sim a sua capacidade social, sua integração no grupo.</p>
+<p>2) <strong>O comportamento é determinado pelas regras do grupo</strong> – os funcionários não agem isoladamente ou no vácuo, mas como membros de um grupo.</p>
+<p>3) <strong>As organizações são formadas por grupos informais e formais</strong> – volta-se o foco para os grupos que existem de modo informal na empresa e que não são relacionados aos cargos e funções.</p>
+<p>4) <strong>A supervisão mais cooperativa aumenta produtividade</strong> – o supervisor mais capaz é aquele que tem habilidade e capacidade de motivar e liderar seus funcionários em torno dos objetivos da empresa.</p>
+<p>5) <strong>A autoridade do gerente deve se basear em competências sociais</strong> – O gerente deve ser capaz de interagir, motivar e comandar seus funcionários. Apenas ter conhecimento técnico dos métodos de produção não é mais visto como o bastante</p>
+<p>Dessa maneira, a Teoria das Relações Humanas trouxe para o debate a necessidade de se criar um <strong>ambiente de trabalho mais acolhedor</strong> e de se compreender a influência da motivação e dos aspectos de <strong>liderança</strong> na produtividade das organizações. </p>
+<p>Além disso, as <strong>recompensas</strong> não poderiam ser reduzidas aos <strong>aspectos materiais</strong>. O <strong>reconhecimento social</strong> é uma força motivadora, e um ambiente de trabalho saudável também influencia na produtividade.</p>
+<p>Apesar disso, a Teoria das Relações Humanas recebeu muitas <strong>críticas</strong>.  A primeira delas é a de que permaneceu a análise da organização como se ela existisse no vácuo, sem se relacionar com o “mundo exterior”. Ou seja, a abordagem de <strong>sistema fechado</strong> se manteve.</p>
+<p>A segunda é a de que <strong>nem sempre</strong> funcionários “felizes” e satisfeitos são <strong>produtivos</strong>. Ou seja, apenas os aspectos psicológicos e sociais não explicam de todo o fator produtividade.</p>
+<p>Outra crítica é a de que existiu uma <strong>“negação” do conflito</strong> inerente entre os funcionários e a empresa. Os <strong>objetivos individuais</strong> são muitas vezes diferentes dos objetivos organizacionais. Esse conflito deve ser administrado e não “negado”.</p>
+<p>Assim, podemos dizer que a Teoria das Relações Humanas se “esqueceu” dos <strong>aspectos técnicos</strong> envolvidos na produtividade. O aspecto humano é importante, mas não é a única variável da produtividade e do sucesso de uma organização.</p>
+<hr>
+<h2 id="Weber-Burocracia"><a href="#Weber-Burocracia" class="headerlink" title="Weber - Burocracia"></a>Weber - Burocracia</h2><p>A <strong>Teoria da Burocracia</strong> foi mais uma que buscou adaptar as organizações aos novos desafios de uma sociedade moderna, com sua urbanização acelerada e a industrialização, que mudou o cenário econômico e social em que elas operavam.</p>
+<p>Com a industrialização e a introdução de regimes democráticos no meio do século XIX, as <strong>sociedades</strong> ficaram cada vez <strong>mais complexas</strong>. A introdução da máquina a vapor acarretou uma evolução tremenda dos meios de transporte. O** modelo burocrático** de Weber tinha como objetivo uma maior previsibilidade e <strong>padronização</strong> do desempenho dos seus funcionários, atingindo assim uma maior eficiência.</p>
+<p>O <strong>modelo burocrático</strong>, inspirado por Max Weber, veio então suprir a necessidade de impor uma administração adequada aos novos desafios do Estado moderno e das grandes empresas, com o objetivo de <strong>combater o desperdício</strong>, a ineficiência e a corrupção, ou seja, uma administração mais racional e impessoal. No caso específico das grandes empresas, o modelo buscava também o <strong>aumento consistente da produção</strong>.</p>
+<p>Dessa forma, o modelo burocrático surgiu como uma necessidade histórica baseada em uma sociedade cada vez mais complexa, em que as demandas sociais cresceram, e havia um ambiente com empresas cada vez maiores, com uma população que buscava uma maior participação nos destinos dos governos.</p>
+<p>Portanto, <strong>não se podia</strong> mais “depender” do arbítrio de um só indivíduo, sendo necessária a criação e aplicação de <strong>regras gerais</strong>.  As características da burocracia são:</p>
+<p>1) <strong>Formalidade</strong>:  a autoridade deriva de um <strong>conjunto de normas</strong> e leis, expressamente <strong>escritas</strong> e detalhadas. O poder do chefe é restrito aos objetivos propostos pela organização e somente é exercido no ambiente de trabalho – não na vida privada. As comunicações internas e externas também são todas padronizadas e formais.</p>
+<p>2) <strong>Impessoalidade</strong>: Os direitos e deveres são estabelecidos em normas. As <strong>regras</strong> são aplicadas de forma <strong>igual a todos</strong>, conforme seu cargo em função na organização. Segundo Weber, a Burocracia deve evitar lidar com elementos humanos, como a raiva, o ódio, o amor, ou seja, as emoções e as irracionalidades. As pessoas devem ser <strong>promovidas por mérito</strong>, e não por ligações afetivas. O poder é ligado não às pessoas, mas aos <strong>cargos</strong> – só se tem o poder em decorrência de estar ocupando um cargo.</p>
+<p>3) <strong>Profissionalização</strong>: As organizações são comandadas por <strong>especialistas</strong>, remunerados em dinheiro (e não em honrarias, títulos de nobreza, sinecuras, prebendas etc.), contratados pelo seu <strong>mérito e seu conhecimento</strong> (e não por alguma relação afetiva ou emocional).</p>
+<p>O modelo burocrático se caracterizou pela <strong>meritocracia</strong> na forma de contratação e promoção dos empregados. No setor público, temos o exemplo dos concursos públicos. Esse tipo de ingresso nas carreiras públicas buscou eliminar o hábito arraigado do <strong>modelo patrimonialista</strong> de ocupar espaço no aparelho do Estado através de <strong>trocas de cargos públicos por favores pessoais ao soberano</strong>.</p>
+<p>Além disso, outra característica importante da burocracia é a noção de <strong>hierarquia</strong>. Toda a organização é feita de modo hierarquizado, com a autoridade sendo baseada nas normas e leis internas que determinam a competência de cada cargo. Assim, seu chefe tem o <strong>poder e a autoridade</strong> concedidos a ele por deter um cargo acima do seu. A obediência é ao cargo e não à pessoa.</p>
+<p>Portanto, as organizações são estruturadas em vários <strong>níveis hierárquicos</strong>, em que o nível de cima controla o de baixo. É o que chamamos de <strong>estrutura verticalizada</strong>, na qual as decisões são tomadas na cúpula (topo da hierarquia ou nível estratégico). Essa situação acaba gerando uma <strong>demora na tomada de decisões</strong> e no fluxo de informações dentro da organização!</p>
+<p>Hoje em dia, o termo Burocracia virou sinônimo de <strong>ineficiência e lentidão</strong>, pois conhecemos os defeitos do modelo (que chamamos de <strong>disfunções da Burocracia</strong>), mas ele foi um passo adiante na sua época!</p>
+<hr>
+<h2 id="Resumo"><a href="#Resumo" class="headerlink" title="Resumo"></a>Resumo</h2><ul>
+<li><p>A Revolução Industrial provocou mudanças gigantescas na estrutura social e produtiva no mundo inteiro, fazendo com que as pessoas migrassem <strong>dos campos para as cidades</strong>.</p>
+</li>
+<li><p>A falta de qualificação e know-how dos funcionários (habilidades e técnicas) fez com que, inicialmente, houvesse grande desperdício (de tempo e de matéria prima) e empirismo (tudo era feito por meio da tentativa e erro) durante as etapas de produção.</p>
+</li>
+<li><p><strong>Taylor</strong>, autor da <strong>Administração Científica</strong>, buscou resolver este problema por meio de reformas com <strong>ênfase na cadeia produtiva</strong> (processo). Com isso foi criada a <strong>padronização de atividades</strong> e a divisão de tarefas (<strong>especialização</strong>). Esta teoria indicou o pagamento por produtividade como forma compensação ao esforço dos<br>funcionários.</p>
+<ul>
+<li><strong>Henry Ford</strong> aperfeiçoou o modelo de Taylor ao introduzir a <strong>esteira e a mecanização</strong> do trabalho como forma de <strong>produção em massa</strong>.</li>
+</ul>
+</li>
+<li><p><strong>Fayol</strong> desenvolveu a Teoria Clássica da Administração que deu maior ênfase à <strong>estrutura interna</strong> das fábricas e empresas como maneiras de se aumentar a produtividade por meio da <strong>organização</strong>. Para isso definiu as 6 funções empresariais; as 5 funções do administrador; e os 14 princípios gerais da Administração</p>
+</li>
+<li><p>A <strong>Teoria das Relações Humanas</strong> inaugurou a ideia do <strong>Homem Social</strong>:  as relações sociais e a motivação são fatores importantes para a produtividade, complementando a ideia então vigente do <em>Homo economicus</em> (o principal incentivo a uma pessoa no trabalho é a remuneração).</p>
+</li>
+<li><p>A <strong>Teoria da Burocracia</strong> de <strong>Weber</strong> surgiu para delimitar a criação e utilização de <strong>regras</strong>, regulamentos e critérios formais (escritos) e impessoais (seguido por todos) como forma de se coordenar uma<br>empresa. A burocracia inclui a <strong>profissionalização</strong>, a estruturação vertical (<strong>hierarquia</strong>) das empresas e a <strong>meritocracia</strong> como características importantes para o bom gerenciamento de organizações (empresariais ou governamentais).</p>
+</li>
+<li><p>Todas as teorias vistas acima são de <strong>sistema fechado</strong> focadas no ambiente interno das fábricas e empresas, ignorando os fatores externos, como concorrência e clientes.</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th align="center">TEORIA</th>
+<th align="center">AUTOR</th>
+<th align="center">CARACTERÍSTICA PRINCIPAL</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">Científica</td>
+<td align="center">Taylor</td>
+<td align="center">Organizar o processo de produção</td>
+</tr>
+<tr>
+<td align="center">Científica</td>
+<td align="center">Ford</td>
+<td align="center">Mecanizar o processo de produção (esteira)</td>
+</tr>
+<tr>
+<td align="center">Clássica</td>
+<td align="center">Fayol</td>
+<td align="center">Organizar e estruturar a empresa</td>
+</tr>
+<tr>
+<td align="center">Relações Humanas</td>
+<td align="center">Mayo</td>
+<td align="center">Reconhecer e motivar os funcionários</td>
+</tr>
+<tr>
+<td align="center">Burocracia</td>
+<td align="center">Weber</td>
+<td align="center">Criação de regras e regulamentos formais e impessoais</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="Exercicios"><a href="#Exercicios" class="headerlink" title="Exercícios"></a>Exercícios</h2><ol>
+<li><p>Dê exemplos de como o empirismo (tentativa e erro) reduz a produtividade nos ambiente de trabalho.</p>
+</li>
+<li><p>Explique como o taylor-fordismo possibilitou um aumento da produtividade nas fábricas.</p>
+</li>
+<li><p>Analise como <a href="https://www.youtube.com/watch?v=6n9ESFJTnHs" target="_blank" rel="noopener">esta cena</a> do filme Tempos Modernos (1936) exemplifica e critica o taylor-fordismo.</p>
+</li>
+<li><p>Analise como a utilização dos 14 Princípios Gerais de Fayol poderia ajudar o  <a href="https://www.youtube.com/watch?v=7WnrnIGRI6I" target="_blank" rel="noopener">Restaurante Pé de Fava</a>, apresentado no  programa Pesadelo na Cozinha. Explique porque, de acordo com a Teoria de Fayol, Fábio não pode ser considerado <a href="https://www.youtube.com/watch?v=uiF03JTgJOg" target="_blank" rel="noopener">um bom administrador</a>?</p>
+</li>
+<li><p>Explique as <a href="https://www.youtube.com/watch?v=e9dZQelULDk" target="_blank" rel="noopener">críticas</a> da Teoria das Relações Humanas ao conceito de <em>Homo economicus</em>.</p>
+</li>
+<li><p>Analise os prós e contras da Teoria da Burocracia de Max Weber. Como esta teoria se apresenta nesta <a href="https://www.youtube.com/watch?v=kQjtK32mGJQ" target="_blank" rel="noopener">animação</a>?</p>
+</li>
+</ol>
+<hr>
+<h2 id="Referencias-Bibliograficas"><a href="#Referencias-Bibliograficas" class="headerlink" title="Referências Bibliográficas"></a>Referências Bibliográficas</h2><p>BACARJI, Alencar Garcia. Formação Incial e Continuada Auxiliar Administrativo. Curitiba: Instituto Federal do Paraná, 2012. Disponível em <a href="https://bit.ly/2vZG4Y5" target="_blank" rel="noopener">https://bit.ly/2vZG4Y5</a>. Acesso en <em>20 de mar. de 2020</em>. </p>
+<p>BÄCHTOLD, CIRO. Contabilidade Básica. Curitiba: Instituto Federal do Paraná, 2012.Disponível em <a href="https://bit.ly/342pLX5" target="_blank" rel="noopener">https://bit.ly/342pLX5</a>. Acesso en <em>20 de mar. de 2020</em>.</p>
+<p>GULLO, J. Administração: Para quem estuda, ensina e pratica. São Paulo, Bom Dia, 2006. 147 p</p>
+<p>OLIVO, Ana Maria; BOSCHILIA, Luiz. Contabilidade geral e gerencial: conceitos introdutórios para os cursos superiores de tecnologia. Florianópolis: Publicações do IF-SC, 2012. 102 p. : il.</p>
+<p>RENNÓ, R. Administração Geral para Concursos. Rio de Janeiro, Elsevier, 2013.</p>
+
+        </div>
+
+        
+            <section class="post-copyright">
+                
+                
+                    <p class="copyright-item">
+                        <span>Conteúdo disponível em:</span>
+                        <span><a href="http://zmdy.github.io/aulas.txt/posts/administracao/aulas/aula-11/">http://zmdy.github.io/aulas.txt/posts/administracao/aulas/aula-11/</a></span>
+                    </p>
+                
+                
+                    <p class="copyright-item">
+                        <span>Licença:</span>
+                        <span>Este material está distribuído com uma licença <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC-BY-4.0</a></span>
+                    </p>
+                
+                
+
+            </section>
+        
+        <section class="post-tags">
+            <div>
+                <span>Tag(s):</span>
+                <span class="tag">
+                    
+                    
+                        <a href="/aulas.txt/pages/tag/Auxiliar-Administrativo-Modulo-02-Aulas/"># Auxiliar Administrativo - Módulo 02 - Aulas</a>
+                    
+                        
+                </span>
+            </div>
+            <div>
+                <a href="javascript:window.history.back();">voltar</a>
+                <span>· </span>
+                <a href="/aulas.txt/">home</a>
+            </div>
+        </section>
+        <section class="post-nav">
+            
+                <a class="prev" rel="prev" href="/aulas.txt/posts/administracao/aulas/aula-12/">Aula 02 -  Módulo 02 - Contabilidade</a>
+            
+            
+            <a class="next" rel="next" href="/aulas.txt/posts/slides/administracao/informacoes-gerais/ementa-do-curso/">Informações do Curso</a>
+            
+        </section>
+
+
+    </article>
+</div>
+
+        </div>
+        <footer id="footer" class="footer">
+    <div class="copyright">
+        <span>© aulas.txt | Feito com <a href="https://hexo.io" target="_blank">Hexo</a> & <a href="https://github.com/Siricee/hexo-theme-Chic" target="_blank">Chic</a> | <a target="_blank" onclick="printPage()">Imprimir esta página em PDF</a></span>
+    </div>
+</footer>
+
+    </div><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+</body>
+</html>

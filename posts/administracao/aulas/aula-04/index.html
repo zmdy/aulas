@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="UTF-8">
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="author" content="zmdy">
+
+
+
+
+
+<title>Aula 04 -  Módulo 01 - Auxiliar Administrativo | aulas.txt</title>
+
+<!-- HERE ARE SOME LIBARIES AND PERSONAL TOOLS OF THE SRC FOLDER -->
+<script src="/aulas.txt/src/js/bonisa.min.js"></script>
+<script src="/aulas.txt/src/libs/printjs/print.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="/aulas.txt/assets/media/fonts/icofont/icofont.css">
+<script>
+  function printPage(){
+    printJS({
+        printable: 'aulasTXT', type: 'html',
+        header: null,
+        css: '/aulas.txt/css/style.css'
+    });
+  }
+</script>
+
+
+
+
+    <link rel="icon" href="/aulas.txt/favicon.png">
+
+
+
+
+    <!-- stylesheets list from _config.yml -->
+    
+    <link rel="stylesheet" href="/aulas.txt/css/style.css">
+    
+
+
+
+    <!-- scripts list from _config.yml -->
+    
+    <script src="/aulas.txt/js/script.js"></script>
+    
+    <script src="/aulas.txt/js/tocbot.min.js"></script>
+    
+
+
+
+    
+    
+        
+            <!-- MathJax配置，可通过单美元符号书写行内公式等 -->
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+    "HTML-CSS": {
+        preferredFont: "TeX",
+        availableFonts: ["STIX","TeX"],
+        linebreaks: { automatic:true },
+        EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50)
+    },
+    tex2jax: {
+        inlineMath: [ ["$", "$"], ["\\(","\\)"] ],
+        processEscapes: true,
+        ignoreClass: "tex2jax_ignore|dno",
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    },
+    TeX: {
+        equationNumbers: { autoNumber: "AMS" },
+        noUndefined: { attributes: { mathcolor: "red", mathbackground: "#FFEEEE", mathsize: "90%" } },
+        Macros: { href: "{}" }
+    },
+    messageStyle: "none"
+    });
+</script>
+<!-- 给MathJax元素添加has-jax class -->
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+<!-- 通过连接CDN加载MathJax的js代码 -->
+<script type="text/javascript" async
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+
+        
+    
+
+
+<meta name="generator" content="Hexo 4.2.0"><!-- hexo-inject:begin --><!-- hexo-inject:end --></head>
+<body>
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><div class="wrapper">
+        <header>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header header-logo"><a href="/aulas.txt/">aulas.txt</a></div>
+            <div class="menu navbar-right">
+                
+                    <a class="menu-item" href="/aulas.txt/pages/cursos">Cursos</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/tag">Materiais</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/manual">Manual</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/sobre">Sobre</a>
+                
+                <input id="switch_default" type="checkbox" class="switch_default">
+                <label for="switch_default" class="toggleBtn"></label>
+            </div>
+        </div>
+    </nav>
+
+    
+    <nav class="navbar-mobile" id="nav-mobile">
+        <div class="container">
+            <div class="navbar-header">
+                <div>
+                    <a href="/aulas.txt/">aulas.txt</a><a id="mobile-toggle-theme">·&nbsp;Light</a>
+                </div>
+                <div class="menu-toggle" onclick="mobileBtn()">&#9776; Menu</div>
+            </div>
+            <div class="menu" id="mobile-menu">
+                
+                    <a class="menu-item" href="/aulas.txt/pages/cursos">Cursos</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/tag">Materiais</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/manual">Manual</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/sobre">Sobre</a>
+                
+            </div>
+        </div>
+    </nav>
+
+</header>
+<script>
+    var mobileBtn = function f() {
+        var toggleMenu = document.getElementsByClassName("menu-toggle")[0];
+        var mobileMenu = document.getElementById("mobile-menu");
+        if(toggleMenu.classList.contains("active")){
+           toggleMenu.classList.remove("active")
+            mobileMenu.classList.remove("active")
+        }else{
+            toggleMenu.classList.add("active")
+            mobileMenu.classList.add("active")
+        }
+    }
+</script>
+        <div class="main padding-05mm" id="aulasTXT">
+            <div class="container">
+    
+    
+        <div class="post-toc">
+    <div class="tocbot-list">
+    </div>
+    <div class="tocbot-list-menu">
+        <a class="tocbot-toc-expand" onclick="expand_toc()">Expand all</a>
+        <a onclick="go_top()">Back to top</a>
+        <a onclick="go_bottom()">Go to bottom</a>
+    </div>
+</div>
+
+<script>
+    document.ready(
+        function () {
+            tocbot.init({
+                tocSelector: '.tocbot-list',
+                contentSelector: '.post-content',
+                headingSelector: 'h1, h2, h3, h4, h5',
+                collapseDepth: 1,
+                orderedList: false,
+                scrollSmooth: true,
+            })
+        }
+    )
+
+    function expand_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 6,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "collapse_toc()");
+        b.innerHTML = "Collapse all"
+    }
+
+    function collapse_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 1,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "expand_toc()");
+        b.innerHTML = "Expand all"
+    }
+
+    function go_top() {
+        window.scrollTo(0, 0);
+    }
+
+    function go_bottom() {
+        window.scrollTo(0, document.body.scrollHeight);
+    }
+
+</script>
+    
+
+    
+    <article class="post-wrap">
+        <header class="post-header">
+            <h1 class="post-title">Aula 04 -  Módulo 01 - Auxiliar Administrativo</h1>
+            
+                <div class="post-meta">
+                    
+
+                    
+                        <span class="post-time">
+                        Data de Publicação: <a href="#">09/04/2020&nbsp;&nbsp;16:32</a>
+                        </span>
+                    
+                    
+                </div>
+            
+        </header>
+
+        <div class="post-content">
+            <img src="../../../../assets/media/img/cursos/logo-auxiliar-administrativo-01.png" alt="Auxiliar Administrativo" title="Auxiliar Administrativo" class="img-50  bg-white">
+
+<p>Bem vindx à mais uma aula do curso de Auxiliar Administrativo!</p>
+<p>Hoje veremos a segunda parte do conteúdo de matemática financeira. </p>
+<p>Se quiser acessar o material anteriormente produzido e utilizado, basta clicar aqui:  <a href="../../../../assets/content/administracao/modulo-01/04 - Resumo - Aula 04 e 05.pdf" target="_blank"><i class="icofont-download"></i> Material Aula 04</a></p>
+<p>Sugiro, para estudos complementares deste curso o material descrito nas referências bibliográficas, em especial:</p>
+<p><a href="https://bit.ly/3e9aqsA" target="_blank" rel="noopener">BACARJI, A. G. Formação Inicial e Continuada: Auxiliar Administrativo</a></p>
+<p><a href="https://bit.ly/2JRzNkL" target="_blank" rel="noopener">JUNIOR, R. Matemática Financeira</a></p>
+<p><a href="https://bit.ly/2UVPNZf" target="_blank" rel="noopener">VIANNA, R. de M. I. Matemática Financeira</a></p>
+<p>Vamos começar!</p>
+<hr>
+<h2 id="Sumario-da-Aula"><a href="#Sumario-da-Aula" class="headerlink" title="Sumário da Aula"></a>Sumário da Aula</h2><ol>
+<li><a href="#Juros">Juros</a></li>
+<li><a href="#Juros-Simples">Juros Simples</a></li>
+<li><a href="#Juros-Compostos">Juros Compostos</a></li>
+<li><a href="#Exercicios">Exercícios</a></li>
+<li><a href="#Referencias-Bibliograficas">Referências Bibliográficas</a></li>
+</ol>
+<hr>
+<h2 id="Juros"><a href="#Juros" class="headerlink" title="Juros"></a>Juros</h2><p>“Juro é o valor que se paga pelo uso de dinheiro que se toma emprestado”, refere-se ao quanto será acrescentado à parcela de compra para cobrir as despesas financeiras, que por vezes é uma das partes do lucro (JUNIOR, 2012).</p>
+<p>Juros são um conceito importantíssimo em Finanças, e fundamentalmente muito simples:</p>
+<p>Suponhamos que você tenha pedido emprestado a um amigo a quantia de  100,00. Quando você for pagá-lo ele poderá cobrar um valor a mais, digamos  120,00 pelo empréstimo. Estes  20,00 de diferença são os <strong>juros</strong>.</p>
+<p>Antes de analisarmos os tipos de juros e suas fórmulas, vamos analisar algumas definições.</p>
+<h3 id="Capital-C"><a href="#Capital-C" class="headerlink" title="Capital (C)"></a>Capital (C)</h3><p>O Capital é a quantia emprestada ou investida no início da aplicação. Em nosso exemplo acima, o <strong>capital</strong> é de  100,00.</p>
+<h3 id="Prazo-t"><a href="#Prazo-t" class="headerlink" title="Prazo (t)"></a>Prazo (t)</h3><p>Toda aplicação financeira possui um prazo, ou seja, um período para ser finalizado. No caso de um empréstimo o prazo indica o tempo proposto para se quitar a dívida; no caso de uma aplicação, o prazo indica o período no qual o capital será resgatado.</p>
+<p>Como estamos falando em <strong>tempo</strong>, é importante fazer algumas considerações:</p>
+<p>1) O <strong>Calendário Civil</strong> que utilizamos no nosso dia-a-dia possui 365 dias, divididos em 12 meses. Alguns meses possuem 31 dias, outros possuem 30, e fevereiro possui 28 ou 29.</p>
+<p>2) Toda operação financeira utiliza o <strong>Calendário Financeiro</strong>, que possui <strong>360 dias</strong>, divididos em 12 meses com 30 dias cada.</p>
+<p>3) Quando se tratam de <em>prazos</em>, o tempo deve ser contado no <strong>Calendário Civil</strong>.</p>
+<p>Em resumo: para os conceitos financeiros, definimos que <strong>todos os meses</strong> possuem 30 dias, e que o ano possui <strong>12 meses</strong> ou <strong>360 dias</strong>.</p>
+<p>Os prazos mais utilizados são dados em: mes, bimestre, trimestre, semestre e anos.</p>
+<ul>
+<li>1 mês = 30 dias</li>
+<li>2 meses = 1 bimestre = 60 dias</li>
+<li>3 meses = 1 trimestre = 90 dias</li>
+<li>6 meses = 1 semestre = 180 dias</li>
+<li>12 meses = 1 ano = 360 dias</li>
+</ul>
+<h3 id="Taxa-de-Juros-i"><a href="#Taxa-de-Juros-i" class="headerlink" title="Taxa de Juros (i)"></a>Taxa de Juros (i)</h3><p>A taxa de juros representa uma porcentagem (%) sobre o capital a cada período de tempo. Parece complicado, mas é bem simples…</p>
+<p>As taxas podem ser dadas em diferentes unidades de tempo, tais como:</p>
+<ul>
+<li>ao dia = a.d.</li>
+<li>ao mês = a.m.</li>
+<li>ao bimestre = a.b.</li>
+<li>ao trimestre = a.t.</li>
+<li>ao semestre = a.s.</li>
+<li>ao ano = a.a.</li>
+</ul>
+<p>Vamos voltar ao exemplo do empréstimo de  100,00 com nosso amigo. Assim que pegamos o dinheiro emprestado, ele irá propor uma <em>taxa</em> - digamos de <em>5% a.m.</em>.</p>
+<p>Esta taxa indica que, a cada mês (a.m.) iremos pagar ao nosso amigo <strong>juros cumulativos</strong> de 5% sobre o valor do capital.</p>
+<p>Ou seja:</p>
+<ul>
+<li>Capital =  100,00</li>
+<li>Após 1 mês = 5% de  100,00 =  5,00</li>
+<li>Após 2 meses = 10% de  100,00 =  10,00</li>
+<li>Após 3 meses = 15% de  100,00 =  15,00<br>…</li>
+</ul>
+<p>Toda taxa pode se representada como uma porcentagem (como 5%) ou da forma decimal (0,05). Repare que esta conversão para a forma decimal já foi vista na aula anterior!</p>
+<h3 id="Juros-J"><a href="#Juros-J" class="headerlink" title="Juros (J)"></a>Juros (J)</h3><p>É a remuneração obtida pelo uso do capital por um intervalo de tempo,<br>isto é, é o custo do crédito obtido. Pode ser entendido também como sendo o aluguel pelo uso do dinheiro.</p>
+<p>Os Regime de Capitalização (termo chique para juros) podem ser simples ou composto.</p>
+<p>Em resumo, o juro é a quantia a mais que será paga em uma aplicação financeira.</p>
+<p>Exemplo: após 6 meses do empréstimo (Capital =  100,00), pagamos ao nosso amigo uma quantia de  160,00. Os  60,00 correspondem aos juros.</p>
+<h3 id="Montante-M"><a href="#Montante-M" class="headerlink" title="Montante (M)"></a>Montante (M)</h3><p>É a quantia em dinheiro no fim da aplicação, sendo a soma do capital<br>aplicado e o juro produzido em um determinado período. É também chamado de <em>valor futuro</em>, valor final, saldo, entre outros.</p>
+<p>Em nosso exemplo anterior, temos que o <strong>montante</strong> de 160,00.</p>
+<p>Aqui cabe a primeira definição: os juros (J) equivalem ao Montante (M) menos o valor do Capital (C).</p>
+<p>$J = M - C$</p>
+<p>Supondo que pegamos emprestado, em um banco, a quantia de 500,00 e tenhamos pago um montante de  650,00. Quanto vale os juros da aplicação?</p>
+<p>Neste exemplos os juros serão: $J = M - C = 650 - 500 = 150,00$</p>
+<hr>
+<h2 id="Juros-Simples"><a href="#Juros-Simples" class="headerlink" title="Juros Simples"></a>Juros Simples</h2><p>No Regime de Capitalização Simples a taxa de juros incide diretamente sobre o valor do capital. Sua fórmula é dada por:</p>
+<p>$J = C * i * t$</p>
+<p>Na fórmula acima o <strong>valor da taxa deve ser dado como um número decimal</strong>, como 0,05. Se você preferir utilizar a taxa como uma porcentagem (5%), a fórmula fica:</p>
+<p>$J = \frac{C * i * t}{100}$</p>
+<p>Voltando ao nosso exemplo original, supondo que a taxa proposta de juros seja de 5%, podemos analisar a variação dos juros a cada mês:</p>
+<p>Ou seja:</p>
+<ul>
+<li>Capital =  100,00</li>
+<li>Após 1 mês = 5% de  100,00 = 5,00 + 100,00 = 105,00</li>
+<li>Após 2 meses = 10% de  100,00 = 10,00 + 100,00 = 110,00</li>
+<li>Após 3 meses = 15% de  100,00 = 15,00 + 100,00 = 115,00</li>
+<li>Após 4 meses = 20% de  100,00 = 20,00 + 100,00 = 120,00</li>
+<li>Após 5 meses = 25% de  100,00 = 25,00 + 100,00 = 125,00</li>
+<li>Após 6 meses = 30% de  100,00 = 30,00 + 100,00 = 130,00<br>…</li>
+</ul>
+<hr>
+<h2 id="Juros-Compostos"><a href="#Juros-Compostos" class="headerlink" title="Juros Compostos"></a>Juros Compostos</h2><p>No Regime de Capitalização Composta, a taxa de juros incide diretamente sobre o valor do montante do período anterior. É também chamado de Juros Compostos.</p>
+<p>Este regime de juros geralmente produz um melhor retorno financeiro, sendo, por isto, muito utilizado em operações bancárias.</p>
+<p>A fórmula dos juros compostos, ao contrário da de juros simples produz como resultado o <strong>montante</strong>.</p>
+<p>$M = C * (1+i)^t$</p>
+<p>Esta fórmula, apesar de simple, possui uma importante particularidade:</p>
+<ul>
+<li>O valor da taxa (i) deve, <strong>obrigatoriamente</strong> ser dado como um valor decimal.</li>
+</ul>
+<p>Para exemplificar o uso desta fórmula, iremos analisar o mesmo exemplo visto anteriormente, só que desta vez utilizando juros compostos.</p>
+<ul>
+<li>Capital = 100,00</li>
+<li>Taxa = 5 % a.m.</li>
+<li>Tempo = 6 meses</li>
+</ul>
+<p>O primeiro passo é converter a nossa taxa para um número decimal. Neste caso, 5% = 0,05.</p>
+<p>Ao se aplicar a fórmula, tem-se:</p>
+<p>$M = C * (1+i)^t$<br>$M = 100 * (1+0,05)^6$<br>$M = 100 * 1,05^6$</p>
+<p>O termo $1,05^6$ é um exemplo de uma potenciação. Neste exemplo, significa que devemos multiplicar o valor 1,05 por ele mesmo 6 vezes, ou seja:</p>
+<p>$1,05^6 = 1,05 * 1,05 * 1,05 * 1,05 * 1,05 * 1,05 = 1,340$</p>
+<p>Para facilitar os cálculos, segue uma tabela com alguns exemplos de taxas comuns e seus respectivos valores $(1 + i)^t$.</p>
+<blockquote>
+<p>INSERIR ARQUIVO</p>
+</blockquote>
+<p>Se analisarmos a variação dos juros mês a mês, fica fácil entender a diferença entre os 2 sistemas.</p>
+<ul>
+<li>Capital =  100,00</li>
+<li>Após 1 mês = 5% de  100,00 = 5,00 + 100,00 = 105,00</li>
+<li>Após 2 meses = 5% de  105,00 = 5,25 + 100,00 = 110,25</li>
+<li>Após 3 meses = 5% de  110,25 = 5,51 + 110,25 = 115,76</li>
+<li>Após 4 meses = 5% de  115,76 = 5,79 + 115,76 = 121,55</li>
+<li>Após 5 meses = 5% de  121,55 = 6,08 + 121,55 = 127,63</li>
+<li>Após 6 meses = 5% de  127,63 = 6,38 + 127,63 = 134,01</li>
+</ul>
+<p>O sistema de Juros Compostos gera um montante maior que o de Juros Simples, quando analisado um mesmo período.</p>
+<p>A diferença entre os dois se tornará maior quanto maior for o período. O empréstimo de 100 reais, por exemplo, quando pago após 120 meses (10 anos) geraria um montante de 700,000 no sistema de juros simples, e 34.891,20 no regime composto - por isso os bancos usam juros compostos.</p>
+<hr>
+<h2 id="Exercicios"><a href="#Exercicios" class="headerlink" title="Exercícios"></a>Exercícios</h2><ol>
+<li><p>Converta os prazos abaixo para dias:<br>a) 1 mês<br>b) 1 mês e meio<br>c) 2 meses<br>d) 2 trimestres<br>e) 3 semestres<br>f) 1 ano e meio</p>
+</li>
+<li><p>Converta os prazos abaixo para meses:<br>a) 2 bimestres<br>b) 3 trimestres<br>c) 4 semestres<br>d) 5 anos e 5 meses</p>
+</li>
+<li><p>Converta as taxas abaixo para o seu valor decimal:<br>a) 1%<br>b) 2,5%<br>c) 5%<br>d) 10%<br>e) 15%<br>f) 25%<br>g) 50%<br>h) 75%<br>i) 100%<br>j) 150%<br>k) 500%</p>
+</li>
+<li><p>Converta as taxas decimais abaixo para os valores percentuais (%).<br>a) 0,0151<br>b) 0,352<br>c) 0,5<br>d) 0,18<br>e) 1,25<br>f) 5,05</p>
+</li>
+<li><p>Converta as taxas abaixo para % a.m.:<br>a) 12% ao ano<br>b) 6% ao semestre<br>c) 45% ao trimestre<br>d) 36% ao ano<br>e) 20% ao bimestre</p>
+</li>
+</ol>
+<ol start="6">
+<li><p>Identifique, nos exemplos abaixo, o capital, juros e montante. Calcule-os se necessário for.<br>a) João realizou um empréstimo de 2000,00 e após 5 meses pagou 220,00 de juros.<br>b) Após comprar um produto por 55,00, Maricleuza vendeu o mesmo por 85,00.<br>c) Mário realizou um financiamento estudantil e, após alguns meses, pagou um total de 1200,00, dos quais 300,00 foram de juros.</p>
+</li>
+<li><p>Calcule os juros correspondentes à aplicação de 2.400,00 por cinco meses, à taxa de 2,5% ao mês.</p>
+</li>
+<li><p>Calcule o montante referente a um capital de 15.000,00, aplicado à taxa de juros simples de 15% ao trimestre, ao longo de 20 meses.</p>
+</li>
+<li><p>Paulo emprestou 200,00, a juros simples comerciais, lucrando 55,00 de juros. Sabendo-se que o prazo de aplicação foi de 150 dias, calcule a taxa de juros utilizada.</p>
+</li>
+<li><p>Qual o capital inicial que deve ser aplicado à uma taxa de 2% a.m., para ao final de 1 ano gerar 6.000,00, nos regimes de juros simples?</p>
+</li>
+<li><p>Cidinha tem um pequeno comércio e pede emprestado aos pais R$ 5.000,00, para capital de giro. Ela propõe pagar os juros todo mês e oferece uma taxa de 2,5% ao mês. Após 1 ano Cidinha devolve o dinheiro conforme combinado. Qual o montante que ela pagou aos pais?</p>
+</li>
+<li><p>Um empréstimo de R$ 24.000,00 após 8 meses rendeu R$ 1.800,00 de juros simples. Calcule a taxa mensal e anual aproximada usada para remunerar esse empréstimo. </p>
+</li>
+<li><p>Calcule os juros compostos correspondentes à aplicação de R$ 3.500,00 por dois anos, à taxa de 1,25% ao mês.</p>
+</li>
+<li><p>Calcule o montante referente a um capital de R$ 12.000,00, aplicado á taxa de juros compostos de 12% ao trimestre, ao longo de 1 ano e meio.</p>
+</li>
+<li><p>Qual o capital inicial que deve ser aplicado à uma taxa de 3,50% a.m., para ao final de 1 ano gerar um montante de R$ 6.000,00, nos regimes de juros compostos?</p>
+</li>
+<li><p>Determinado capital gerou, após 1 ano e 3 meses, um montante de R$ 12.000,00. Sabendo que a taxa de juros é de 1,75% ao mês, determine o valor desse capital.</p>
+</li>
+<li><p>Uma empresa A aplica um capital de 200 mil reais, em janeiro de 2018, em um investimento que proporciona uma taxa de juro composto de 4,5% ao ano. A empresa B aplica 150 mil reais, também em janeiro de 2018, a uma taxa de 8% ao ano. Calcule o retorno dos investimentos das empresas após 1 ano de aplicação.</p>
+</li>
+<li><p>Calcule o montante referente a uma aplicação de $ 4.100,00,  feita por seis meses no regime dos juros compostos à taxa de 9% ao trimestre.</p>
+</li>
+<li><p>Maricleuza deseja fazer um empréstimo, no valor de R$ 2.000 para ser pago em 2 anos. Ao consultar um amigo próximo, o mesmo resolve emprestá-la o valor, cobrando uma taxa de juros simples de 2,5% a.m. Sabendo que a agência bancária de Maricleuza oferece o mesmo empréstimo a uma taxa de juros compostos de 18% a.a., calcule a aplicação que gerará menos juros.</p>
+</li>
+<li><p>Considere que uma pessoa decida investir uma determinada quantia e que lhe sejam apresentadas três possibilidades de investimento, com rentabilidades líquidas garantidas pelo período de um ano, conforme descritas:</p>
+</li>
+</ol>
+<p>a) Investimento A: 3% ao mês ao sistema de juros simples.<br>b) Investimento B: 36% ao ano ao sistema de juros compostos.<br>c) Investimento C: 18% ao semestre ao sistema de juros simples.</p>
+<ul>
+<li>Calcule o montante produzido por cada investimento.</li>
+</ul>
+<hr>
+<h2 id="Referencias-Bibliograficas"><a href="#Referencias-Bibliograficas" class="headerlink" title="Referências Bibliográficas"></a>Referências Bibliográficas</h2><p>BACARJI, Alencar Garcia. Formação Incial e Continuada Auxiliar Administrativo. Curitiba: Instituto Federal do Paraná, 2012.  Disponível em <a href="https://bit.ly/3e9aqsA" target="_blank" rel="noopener">https://bit.ly/3e9aqsA</a>. Acesso em <em>27 de mar. de 2020</em>.</p>
+<p>CARAVANTES, G. R.P; KLOECKNER, C. M.; PANNO, C. Administração: teoria e processos. São Paulo: Pearson Prentice Hall, 2005.</p>
+<p>JUNIOR, R. J. M. Matemática Financeira. Curitiba, PR: Instituto Federal do Paraná, 2012. 176 p. Disponível em <a href="https://bit.ly/2JRzNkL" target="_blank" rel="noopener">https://bit.ly/2JRzNkL</a>. Acesso em <em>27 de mar. de 2020</em>.</p>
+<p>SÁ, C. A.  Matemática Financeira. Rio de Janeiro: FGV Management – Cursos de Educação Continuada. 54p. Disponível em <a href="https://bit.ly/39XbhZY" target="_blank" rel="noopener">https://bit.ly/39XbhZY</a>. Acesso em <em>27 de mar. de 2020</em>.</p>
+<p>VIANNA, R. de M. I.  Matemática financeira. Salvador: UFBA, Faculdade de Ciências Contábeis; Superintendência de Educação a Distância, 2018. 131 p. : il. Disponível em <a href="https://bit.ly/2UVPNZf" target="_blank" rel="noopener">https://bit.ly/2UVPNZf</a>. Acesso em <em>27 de mar. de 2020</em>.</p>
+
+        </div>
+
+        
+            <section class="post-copyright">
+                
+                
+                    <p class="copyright-item">
+                        <span>Conteúdo disponível em:</span>
+                        <span><a href="http://zmdy.github.io/aulas.txt/posts/administracao/aulas/aula-04/">http://zmdy.github.io/aulas.txt/posts/administracao/aulas/aula-04/</a></span>
+                    </p>
+                
+                
+                    <p class="copyright-item">
+                        <span>Licença:</span>
+                        <span>Este material está distribuído com uma licença <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC-BY-4.0</a></span>
+                    </p>
+                
+                
+
+            </section>
+        
+        <section class="post-tags">
+            <div>
+                <span>Tag(s):</span>
+                <span class="tag">
+                    
+                    
+                        <a href="/aulas.txt/pages/tag/Auxiliar-Administrativo-Modulo-01-Aulas/"># Auxiliar Administrativo - Módulo 01 - Aulas</a>
+                    
+                        
+                </span>
+            </div>
+            <div>
+                <a href="javascript:window.history.back();">voltar</a>
+                <span>· </span>
+                <a href="/aulas.txt/">home</a>
+            </div>
+        </section>
+        <section class="post-nav">
+            
+                <a class="prev" rel="prev" href="/aulas.txt/posts/slides/temas/arturito/">Demonstração do Tema - Arthurito</a>
+            
+            
+            <a class="next" rel="next" href="/aulas.txt/posts/administracao/aulas/aula-03/">Aula 03 -  Módulo 01 - Auxiliar Administrativo</a>
+            
+        </section>
+
+
+    </article>
+</div>
+
+        </div>
+        <footer id="footer" class="footer">
+    <div class="copyright">
+        <span>© aulas.txt | Feito com <a href="https://hexo.io" target="_blank">Hexo</a> & <a href="https://github.com/Siricee/hexo-theme-Chic" target="_blank">Chic</a> | <a target="_blank" onclick="printPage()">Imprimir esta página em PDF</a></span>
+    </div>
+</footer>
+
+    </div><!-- hexo-inject:begin --><!-- Begin: Injected MathJax -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({"tex2jax":{"inlineMath":[["$","$"],["\\(","\\)"]],"skipTags":["script","noscript","style","textarea","pre","code"],"processEscapes":true},"TeX":{"equationNumbers":{"autoNumber":"AMS"}}});
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+      all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+</script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js">
+</script>
+<!-- End: Injected MathJax -->
+<!-- hexo-inject:end -->
+</body>
+</html>

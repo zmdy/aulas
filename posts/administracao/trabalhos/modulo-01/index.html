@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="UTF-8">
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="author" content="zmdy">
+
+
+
+
+
+<title>Módulo 01 - TCM | aulas.txt</title>
+
+<!-- HERE ARE SOME LIBARIES AND PERSONAL TOOLS OF THE SRC FOLDER -->
+<script src="/aulas.txt/src/js/bonisa.min.js"></script>
+<script src="/aulas.txt/src/libs/printjs/print.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="/aulas.txt/assets/media/fonts/icofont/icofont.css">
+<script>
+  function printPage(){
+    printJS({
+        printable: 'aulasTXT', type: 'html',
+        header: null,
+        css: '/aulas.txt/css/style.css'
+    });
+  }
+</script>
+
+
+
+
+    <link rel="icon" href="/aulas.txt/favicon.png">
+
+
+
+
+    <!-- stylesheets list from _config.yml -->
+    
+    <link rel="stylesheet" href="/aulas.txt/css/style.css">
+    
+
+
+
+    <!-- scripts list from _config.yml -->
+    
+    <script src="/aulas.txt/js/script.js"></script>
+    
+    <script src="/aulas.txt/js/tocbot.min.js"></script>
+    
+
+
+
+    
+    
+        
+    
+
+
+<meta name="generator" content="Hexo 4.2.0"><!-- hexo-inject:begin --><!-- hexo-inject:end --></head>
+<body>
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><div class="wrapper">
+        <header>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header header-logo"><a href="/aulas.txt/">aulas.txt</a></div>
+            <div class="menu navbar-right">
+                
+                    <a class="menu-item" href="/aulas.txt/pages/cursos">Cursos</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/tag">Materiais</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/manual">Manual</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/sobre">Sobre</a>
+                
+                <input id="switch_default" type="checkbox" class="switch_default">
+                <label for="switch_default" class="toggleBtn"></label>
+            </div>
+        </div>
+    </nav>
+
+    
+    <nav class="navbar-mobile" id="nav-mobile">
+        <div class="container">
+            <div class="navbar-header">
+                <div>
+                    <a href="/aulas.txt/">aulas.txt</a><a id="mobile-toggle-theme">·&nbsp;Light</a>
+                </div>
+                <div class="menu-toggle" onclick="mobileBtn()">&#9776; Menu</div>
+            </div>
+            <div class="menu" id="mobile-menu">
+                
+                    <a class="menu-item" href="/aulas.txt/pages/cursos">Cursos</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/tag">Materiais</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/manual">Manual</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/sobre">Sobre</a>
+                
+            </div>
+        </div>
+    </nav>
+
+</header>
+<script>
+    var mobileBtn = function f() {
+        var toggleMenu = document.getElementsByClassName("menu-toggle")[0];
+        var mobileMenu = document.getElementById("mobile-menu");
+        if(toggleMenu.classList.contains("active")){
+           toggleMenu.classList.remove("active")
+            mobileMenu.classList.remove("active")
+        }else{
+            toggleMenu.classList.add("active")
+            mobileMenu.classList.add("active")
+        }
+    }
+</script>
+        <div class="main padding-05mm" id="aulasTXT">
+            <div class="container">
+    
+    
+        <div class="post-toc">
+    <div class="tocbot-list">
+    </div>
+    <div class="tocbot-list-menu">
+        <a class="tocbot-toc-expand" onclick="expand_toc()">Expand all</a>
+        <a onclick="go_top()">Back to top</a>
+        <a onclick="go_bottom()">Go to bottom</a>
+    </div>
+</div>
+
+<script>
+    document.ready(
+        function () {
+            tocbot.init({
+                tocSelector: '.tocbot-list',
+                contentSelector: '.post-content',
+                headingSelector: 'h1, h2, h3, h4, h5',
+                collapseDepth: 1,
+                orderedList: false,
+                scrollSmooth: true,
+            })
+        }
+    )
+
+    function expand_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 6,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "collapse_toc()");
+        b.innerHTML = "Collapse all"
+    }
+
+    function collapse_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 1,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "expand_toc()");
+        b.innerHTML = "Expand all"
+    }
+
+    function go_top() {
+        window.scrollTo(0, 0);
+    }
+
+    function go_bottom() {
+        window.scrollTo(0, document.body.scrollHeight);
+    }
+
+</script>
+    
+
+    
+    <article class="post-wrap">
+        <header class="post-header">
+            <h1 class="post-title">Módulo 01 - TCM</h1>
+            
+                <div class="post-meta">
+                    
+
+                    
+                        <span class="post-time">
+                        Data de Publicação: <a href="#">14/04/2020&nbsp;&nbsp;12:46</a>
+                        </span>
+                    
+                    
+                </div>
+            
+        </header>
+
+        <div class="post-content">
+            <p>Os Trabalho de Conclusão de Módulo (individual e em grupo), conforme previsto na <a href="../../../../pages/cursos/administracao.html">ementa do curso</a>, equivale a 30 pontos/módulo.</p>
+<p>Este Trabalho se estrutura em 2 partes, distintas e correlatas.</p>
+<p>Na <strong>1º Parte</strong> será feito um exercício individual, pautado nos aspectos técnicos e teóricos absorvidos pelo educando no processo educacional.</p>
+<p>Na <strong>2ª Parte</strong> do TCM haverá o desenvolvimento de uma série de atividades e exercícios em grupo que buscarão conciliar os aspectos teóricos e técnicos das matérias estudadas em sala, com as demandas e anseios de cada estudante e o mercado administrativo.</p>
+<p>O principal objetivo do trabalho é o de centralizar os conhecimentos teóricos adquiridos pelo aluno no decorrer do módulo em uma atividade prática pautada nos seguintes pontos (IFC, 2015):</p>
+<ol>
+<li><p>Capacitar os alunos nos aspectos técnicos das práticas administrativas, habilidades interpessoais e de liderança, organização, criatividade e interesse por tarefas de cunho administrativo e social.</p>
+</li>
+<li><p>Estimular a disseminação de conhecimento vivido e adquirido entre alunos, organização e sociedade.</p>
+</li>
+<li><p>Aguçar o empreendedorismo nos alunos, capacitando-os nas técnicas de soluções criativas e inovadoras, no âmbito da ciência da Administração.</p>
+</li>
+</ol>
+<hr>
+<h2 id="Trabalho-Individual"><a href="#Trabalho-Individual" class="headerlink" title="Trabalho Individual"></a>Trabalho Individual</h2><p>A primeira parte do TCM deste módulo será a criação do seu PEP.</p>
+<p>O PEP - Planejamento Estratégico Pessoal - é uma ferramenta que nos auxilia a estipular metas e prazos para o nosso desenvolvimento pessoal.</p>
+<p>Nesse trabalho você irá <strong>criar o seu PEP</strong>, estipulando suas metas e objetivos para este curso. Utilizaremos como base o modelo de Planejamento Estratégco Pessoal desenvolvido pelos autores brasileiros Estrada, Neto e Augustin.</p>
+<p>Este modelo é composto por cinco planejamentos específicos: individual; profissional; familiar; de negócios pessoais, e de participação social. Destes, daremos ênfase nos planejamentos individual e social.</p>
+<p>Esta ferramenta pode e deve ser usada para delimitarmos e  avaliarmos a nossa satisfação pessoal conosco mesmos. Assim, conseguimos aprimorar as nossas competências pessoais e nos satisfazer individualmente e profissionalmente.</p>
+<p>O PEP será desenvolvido em 4 etapas diferentes.</p>
+<p>Na primeira etapa você irá fazer uma análise pessoal, descobrindo (e re-descobrindo) seus pontos fortes e fracos, bem como os seus principais sonhos e objetivos.</p>
+<p>Na segunda etapa você irá pesquisar e relacionar, com maior profundidade, os fatores externos que poderão influenciar seus objetivos.</p>
+<p>Na terceira etapa você irá estruturar e organizar todos os dados coletados nas etapas anteriores no PEP propriamente dito, em forma de um documento.</p>
+<p>A última etapa será uma apresentação, que será feita em sala de aula.</p>
+<h3 id="Primeira-Etapa-Teste-de-Personalidade"><a href="#Primeira-Etapa-Teste-de-Personalidade" class="headerlink" title="Primeira Etapa - Teste de Personalidade"></a>Primeira Etapa - Teste de Personalidade</h3><p>1) Realizar os testes de personalidade (MBTI) online:</p>
+<ul>
+<li><i class="icofont-link"></i> <a href="https://www.16personalities.com/br" target="_blank" rel="noopener">Teste 16 Personalities</a></li>
+<li><i class="icofont-link"></i> <a href="http://inspiira.org/" target="_blank" rel="noopener">Teste Inspiira</a></li>
+<li><i class="icofont-link"></i> <a href="https://www.idrlabs.com/pt/teste.php" target="_blank" rel="noopener">Teste IDRlabs</a>  </li>
+</ul>
+<p>2) Preencher, no caderno, uma tabela com os resultados:</p>
+<table>
+<thead>
+<tr>
+<th>Teste</th>
+<th>Disposição Principal (E ou I)</th>
+<th>Função de Percepção (S ou N)</th>
+<th>Função de Julgamento (T ou F)</th>
+<th>Estilo de Vida (P ou J)</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="https://www.16personalities.com/br" target="_blank" rel="noopener">Teste 16 Personalities</a></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="http://inspiira.org/" target="_blank" rel="noopener">Teste Inspiira</a></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://www.idrlabs.com/pt/teste.php" target="_blank" rel="noopener">Teste IDRlabs</a></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>RESULTADO MÉDIO</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+<p>Esta tabela deverá ser preenchida conforme os resultados de seus relatórios em cada site, conforme o exemplo abaixo:</p>
+<table>
+<thead>
+<tr>
+<th>Teste</th>
+<th>Disposição Principal (E ou I)</th>
+<th>Função de Percepção (S ou N)</th>
+<th>Função de Julgamento (T ou F)</th>
+<th>Estilo de Vida (P ou J)</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="https://www.16personalities.com/br" target="_blank" rel="noopener">Teste 16 Personalities</a></td>
+<td>I</td>
+<td>N</td>
+<td>F</td>
+<td>P</td>
+</tr>
+<tr>
+<td><a href="http://inspiira.org/" target="_blank" rel="noopener">Teste Inspiira</a></td>
+<td>E</td>
+<td>N</td>
+<td>F</td>
+<td>J</td>
+</tr>
+<tr>
+<td><a href="https://www.idrlabs.com/pt/teste.php" target="_blank" rel="noopener">Teste IDRlabs</a></td>
+<td>I</td>
+<td>N</td>
+<td>F</td>
+<td>J</td>
+</tr>
+</tbody></table>
+<p>3) Preencher o campo “RESULTADO MÉDIO”:</p>
+<p>Repare <strong>no exemplo acima</strong> que os 3 testes tiveram resultados diferentes. </p>
+<p>No entanto, em cada caso houve <strong>um fator que se repetiu, no mínimo 2 vezes</strong>. Vamos utilizar este fator como referência para o nosso resultado.</p>
+<table>
+<thead>
+<tr>
+<th>Teste</th>
+<th>Disposição Principal (E ou I)</th>
+<th>Função de Percepção (S ou N)</th>
+<th>Função de Julgamento (T ou F)</th>
+<th>Estilo de Vida (P ou J)</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="https://www.16personalities.com/br" target="_blank" rel="noopener">Teste 16 Personalities</a></td>
+<td>I</td>
+<td>N</td>
+<td>F</td>
+<td><del>P</del></td>
+</tr>
+<tr>
+<td><a href="http://inspiira.org/" target="_blank" rel="noopener">Teste Inspiira</a></td>
+<td><del>E</del></td>
+<td>N</td>
+<td>F</td>
+<td>J</td>
+</tr>
+<tr>
+<td><a href="https://www.idrlabs.com/pt/teste.php" target="_blank" rel="noopener">Teste IDRlabs</a></td>
+<td>I</td>
+<td>N</td>
+<td>F</td>
+<td>J</td>
+</tr>
+<tr>
+<td><strong>RESULTADO MÉDIO</strong></td>
+<td><strong>I</strong></td>
+<td><strong>N</strong></td>
+<td><strong>F</strong></td>
+<td><strong>J</strong></td>
+</tr>
+</tbody></table>
+<p>4) Preencher o formulário de avaliação:</p>
+<ul>
+<li><i class="icofont-link"></i> <a href="https://forms.gle/HUwU47DxNqmHZfuj6" target="_blank" rel="noopener">Formulário de Avaliação</a> </li>
+</ul>
+<p>Conforme afirma RAMOS (2005), devido a complexidade inerente à natureza dos tipos psicológicos junguianos, uma análise diagnóstica correta de sua natureza <strong>só pode ser realizada por profissionais com experiência teória e prática na área</strong>. No entanto, o autor ressalta que a posse de conhecimentos, ainda que intermediários, sobre o assunto pode traçar algumas definições e <em>insights</em> sobre a própria tipologia.</p>
+<p>5) Quem sou eu?</p>
+<p>Tendo, agora, os resultados dos testes em mãos, tire algum tempo para refletir sobre os seguintes pontos sobe você mesmo:</p>
+<ul>
+<li>Eu me identifico com os resultados do teste?</li>
+<li>Quais são os MEUS pontos fortes? E quais são os pontos fortes do MEU TIPO PSICOLÓGICO?</li>
+<li>Quais são as minhas habilidades? Quais são os meus <em>hobbies</em>? O que eu gosto de fazer?</li>
+<li>Quais são os MEUS pontos fracos? E quais são os pontos fracos do MEU TIPO PSICOLÓGICO?</li>
+<li>Quais são os MEUS objetivos de vida? Como eu espero estar em 1 ano? E daqui a 5 anos?</li>
+<li>Quais são os MEUS maiores medos? Estes medos me impedem de fazer as coisas?</li>
+</ul>
+<h3 id="Segunda-Etapa-Analise-SWOT"><a href="#Segunda-Etapa-Analise-SWOT" class="headerlink" title="Segunda Etapa - Análise SWOT"></a>Segunda Etapa - Análise SWOT</h3><p>Tendo terminado sua análise pessoal é hora de organizar seus objetivos.</p>
+<p>6) Lista de Objetivos:</p>
+<p>Realize, no seu caderno, um levantamento sobre os seus objetivos e sonhos para o <strong>decorrer do ano</strong>. Caso você queira poderá utilizar essas técnicas para um período maior, mas em nosso projeto utilizarem o período de 1 ano.</p>
+<p>Ao fazer a sua lista leve em consideração os seguintes pontos:</p>
+<ul>
+<li>Quais são os seus objetivos ACADÊMICOS (cursos, escola, faculdade, etc.) para este prazo?<ul>
+<li>Exemplo: “Nesta semana/mês vou estudar a matéria X para conseguir uma boa nota numa prova; mês que vem vou começar a fazer um novo curso; ano que vem pretendo descansar um pouco dos estudos”.</li>
+</ul>
+</li>
+<li>Quais são os seus objetivos PROFISSIONAIS (trabalho, estágio, profissionalização, etc.) para este prazo?<ul>
+<li>Exemplo: “Este ano estou fazendo os cursos X, Y e Z para tentar conseguir um estágio. Quando eu conseguir o estágio pretendo me dedicar para me tornar um funcionário definitivo na empresa”.</li>
+</ul>
+</li>
+<li>Quais são os seus objetivos PESSOAIS (relacionamentos) para este prazo?<ul>
+<li>Exemplo: “Pretendo neste ano sair com meus amigos para ir nos shows A, B e C; além disso quero ir na festa de aniversário da minha tia no Acre, já que tem muito tempo que não a vejo; no fim do ano irei para o interior para descansar.”</li>
+</ul>
+</li>
+<li>Estes OBJETIVOS pessoais são verdadeiramente meus? Ou será que desejo alcançá-los apenas porque as outras pessoas (amigos, família, sociedade) esperam que eu faça isso?</li>
+</ul>
+<p>Esta lista deve levar em consideração os seus objetivos pessoais. Pense naquilo que você deseja.</p>
+<p>7) Lista de Deveres:</p>
+<p>Conforme ressalta Koshy (2005), devemos filtrar nossos planos pessoais também sob a ótica das nossas <strong>atitudes, valores e papéis</strong>.</p>
+<p>Aqui é importante pensarmos na nossa <strong>liberdade</strong>. Eu realmente quero fazer uma coisa por livre e espontânea vontade, ou apenas estou realizando os desejos dos outros?</p>
+<iframe width="665" height="432" src="https://www.youtube.com/embed/fNJBdXa3Gew" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p>Para Freud e outros pensadores contemporâneos como Foucault, Hannah Arendt, Zygmunt Bauman e Guy Debord a liberdade não é algo inerente a nossa existência, ou seja, ninguém é <strong>livre por si só</strong>. A liberdade só existe quando estamos em contato com o outro.</p>
+<p>Somos, sim, pressionados socialmente pela família, por amigos, por conhecidos e desconhecidos a agir e ser de determinadas maneiras. Isto é a <strong>moral</strong> da sociedade.</p>
+<p>Reconhecer as nossas limitações, sejam elas próprias ou “deveres sociais” que devemos cumprir é um importante passo para sermos livres.</p>
+<p>Ser livre não é viver sem regras. Ser livre significa “flexibilizar as próprias limitações; é respeitá-las e defendê-las quando necessário, ultrapassá-las quando possível; jamais derrubá-las ou aniquilá-las” (GRANDINETTI, 2016).</p>
+<p>Por essa razão, muito além de pensar e listar aquilo que desejamos e pretendemos, é importante pensar no contexto social. Listar aquilo que nos limita é o primeiro passo para alcançar nossa liberdade.</p>
+<p>Ao fazer a sua lista leve em consideração os seguintes pontos:</p>
+<ul>
+<li>O que EU espero de mim mesmo?</li>
+<li>o que MINHA FAMÍLIA espera de mim? O que eu acho destas demandas?</li>
+<li>O que MEUS AMIGOS esperam de mim? O que eu acho destas demandas?</li>
+<li>O que A SOCIEDADE espera de miM? O que eu acho destas demandas?</li>
+<li>O que EU espero das outras pessoas (família, amigos, conhecidos, sociedade)?</li>
+</ul>
+<p>Contardo Calligaris, famoso psicanalista brasileiro, utiliza bastante o conceito de <em>boçalidade</em>. O medo que temos da nossa liberdade (ou falta dela) é respondido por uma repressão no outro, ou seja, a nossa dificuldade em aceitar nossa liberdade individual nos leva a nos impor para os outros.</p>
+<p>Exemplo: “Eu tenho vontade de fazer uma coisa X mas não me permito isso (por causa da moral), por isso xingo, bato, maltrato, ofendo, faço brincadeiras nas pessoas que fazem X”.</p>
+<p><strong>O quão boçal você é?</strong></p>
+<blockquote>
+<p>Ser boçal significa justamente isso: reprimir no outro a liberdade que me apavora. <strong>Contardo Caligaris</strong></p>
+</blockquote>
+<iframe width="640" height="360" src="https://www.youtube.com/embed/WP8rmMIfU70" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p>Agora que já temos as nossas listas de objetivos, e uma boa reflexão sobre eles, é hora de uma análise prática e objetiva. Para isso utilizaremos a análise SWOT.</p>
+<p>8) Análise SWOT:</p>
+<p>Para <strong>cada um dos objetivos</strong> que você delimitou nas etapas anteriores, monte uma análise SWOT dos mesmo. Não é necessário desenhar a tabela.</p>
+<p>Exemplo: “Um dos meus objetivos é sair com meus amigos para ir nos shows A, B e C”.</p>
+<p><strong>Pontos Positivos (internos) desta Ideia:</strong></p>
+<ul>
+<li>Irei me divertir;</li>
+<li>Irei assistir a algo que gosto;</li>
+</ul>
+<p><strong>Pontos Negativos (internos) desta Ideia:</strong></p>
+<ul>
+<li>Poderia utilizar o dinheiro e tempo gastos com estes shows para fazer outras atividades;</li>
+</ul>
+<p><strong>Pontos Positivos (externos) desta Ideia:</strong></p>
+<ul>
+<li>Irei interagir com meus amigos;</li>
+<li>Irei conhecer mais pessoas com os mesmos gostos que os meus;</li>
+</ul>
+<p><strong>Pontos Negativos (externos) desta Ideia:</strong></p>
+<ul>
+<li>Terei que gastar dinheiro com os ingressos, passagens, alimentação, bebidas…</li>
+<li>No dia poderá chover, o que dificulta minha chegada no local da apresentação;</li>
+</ul>
+<p>9) Priorizando Tarefas</p>
+<p>No decorrer de nossas vidas muitas vezes devemos tomar decisões e priorizar algumas atividades em detrimento de outras.</p>
+<p>Vale mais a pena passarmos a noite toda estudando para uma prova que <em>precisamos</em> ir bem, ou relaxar e assistir nossa série favorita?</p>
+<blockquote>
+<p>Com todas essas prioridades zunindo ao redor do seu cérebro ao mesmo tempo, é difícil dar conta de qualquer uma delas. A ansiedade de não saber por onde começar está te deixando em um estado de dúvida paralisante. Você se sente travado e pressionado. ** Lauren Moon**</p>
+</blockquote>
+<p>Para nos ajudar nestes dilemas que enfrentamos no dia a dia, existem algumas ferramentas bastante úteis e simples de sere utilizada: a Matriz de Eisenhower e o Modelo GUT.</p>
+<p>A melhor maneira de se priorizar nossas tarefas é fazendo uma análise sobre suas <strong>prioridades</strong>. O Modelo GUT (também chamada de Matriz de Prioridades) é uma ótima ferramenta para este contexto.</p>
+<p>Este modelo de prioridades se baseia em 3 fatores diferentes: Gravidade, Urgência e Tendência - cada um deles pontuados numa escala de 1 a 5.</p>
+<p>A <strong>gravidade</strong> está relacionada com a seriedade do problema, ou seja, com sua importância.</p>
+<p>A <strong>urgência</strong> está relacionada com os prazos que temos para se realizar as tarefas.</p>
+<p>A <strong>Tendência</strong> é a probabilidade do problema ou situação se agravar no futuro.</p>
+<p>Uma análise pelo Modelo GUT deve ser feita em algumas etapas:</p>
+<h4 id="Primeira-Etapa-Listagem-dos-Problemas"><a href="#Primeira-Etapa-Listagem-dos-Problemas" class="headerlink" title="Primeira Etapa - Listagem dos Problemas"></a>Primeira Etapa - Listagem dos Problemas</h4><p>A primeira ação a tomar na Análise GUT é elencar os problemas que precisam ser resolvidos em uma determinada atividade, área, projeto etc.</p>
+<p>Exemplo:</p>
+<ul>
+<li>Estudar para a prova da matéria X;</li>
+<li>Assistir ao episódio final da série Y;</li>
+<li>Sair com os amigos para um lugar Z;</li>
+<li>Ir dormir;</li>
+</ul>
+<h4 id="Segunda-Etapa-Definicao-dos-Fatores"><a href="#Segunda-Etapa-Definicao-dos-Fatores" class="headerlink" title="Segunda Etapa - Definição dos Fatores"></a>Segunda Etapa - Definição dos Fatores</h4><p>Dê uma pontuação para cada problema listado na Tabela GUT. Esta pontuação pode ser feita utilizando-se como referência a tabela abaixo:</p>
+<table>
+<thead>
+<tr>
+<th>Pontuação</th>
+<th>Gravidade</th>
+<th>Urgência</th>
+<th>Tendência:</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td>Sem gravidade</td>
+<td>Pode esperar</td>
+<td>Não irá mudar</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Pouco grave</td>
+<td>Pouco urgente</td>
+<td>Irá piorar a longo prazo</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Grave</td>
+<td>Urgente, merece atenção no curto prazo</td>
+<td>Irá piorar a médio prazo</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Muito grave</td>
+<td>Muito urgente</td>
+<td>Irá piorar a curto prazo</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Extremamente grave</td>
+<td>Necessidade de ação imediata</td>
+<td>Irá piorar rapidamente</td>
+</tr>
+</tbody></table>
+<p>Analiando as situações ou problemas que foram destacados, podemos pontuá-los individualmente:</p>
+<ul>
+<li>Estudar para a prova da matéria X –&gt; Gravidade: 5; Urgência: 5; Tendência: 5;</li>
+<li>Assistir ao episódio final da série Y –&gt; Gravidade: 5; Urgência: 1; Tendência: 1;</li>
+<li>Sair com os amigos para um lugar Z –&gt; Gravidade: 1; Urgência: 5; Tendência: 1;</li>
+<li>Ir dormir –&gt; Gravidade: 5; Urgência: 5; Tendência: 5;</li>
+</ul>
+<blockquote>
+<p>INSERIR IMAGEM</p>
+</blockquote>
+<p>A combinação dessas pontuações definirá quais ações serão prioritárias. Essa combinação é feita com um cálculo de multiplicação dos três fatores (G) x (U) x (T). Portanto, o resultado com maior pontuação no Método GUT será o de 125 pontos e o menor, 1.</p>
+<p>Nos exemplos dados, temos as pontuações:</p>
+<ul>
+<li>Estudar para a prova da matéria X –&gt; 125 pontos</li>
+<li>Assistir ao episódio final da série Y –&gt; 5 pontos</li>
+<li>Sair com os amigos para um lugar Z –&gt; 5 pontos</li>
+<li>Ir dormir –&gt; 125 pontos</li>
+</ul>
+<p>Neste exemplo obtivemos pontuações altas nos itens “estudar” e “ir dormir”, ambos atingindo 125 pontos.</p>
+<p>Em uma análise mais realista e detalhada, os problemas iriam apresentar pontuações diferentes, e a solução seria facilmente encontrada. Mas, para casos com pontuações iguais pelo modelo GUT, podemos utilizar, novamente, a Análise SWOT e verificar os pontos fortes e fracos de cada situação/problema.</p>
+<p>10) Tomando decisões</p>
+<p>Outra ferramenta que pode auxiliar bastante na tomada de decisões, após se verificar a prioridade entre elas, é a Matriz de Eisenhower.</p>
+<p>Eisenhower foi um militar norte americano que devido ao seu importante papel estratégico durante a Segunda Guerra Mundial, mais tarde se tornou o 34º presidente dos EUA. Durante seu governo foi aprovada a criação da NASA e do DARPA, organização que deu origem à Internet.</p>
+<p>Para gerenciar o seu tempo, o Presidente Eisenhower baseava-se em um conceito bem simples: “O importante é raramente urgente, e o que é urgente é raramente importante”.</p>
+<p>Por isso, para organizar e decidir aquilo que era importante, Eisenhower organizava suas tarefas em uma tabela composta por 4 áreas:</p>
+<blockquote>
+<p>INSERIR IMAGEM</p>
+</blockquote>
+<p>A Matriz de Eisenhower é dividida em 4 quadrantes: a ideia é que todas as suas tarefas podem ser distribuídas dentro do mesmo, conforme sua <strong>importância</strong> e <strong>urgência</strong>.</p>
+<p>Uma tarefa <strong>urgente</strong> é aquela que precisa ser feita imediatamente, ou seja, que possui um prazo de entrega apertado. Recomenda-se fazer sempre a pergunta “<em>Isso pode esperar?</em>“.</p>
+<p>Por outro lado, uma tarefa <strong>importante</strong> é aquela que não pode ser deixada de lado e que precisa ser, cedo ou tarde, resolvida. Tarefas importantes geralmente estão associadas a mudanças ou problemas que precisam ser resolvidos. Recomenda-se fazer sempre a pergunta “<em>Isso precisa ser resolvido? Isso precisa mudar?</em>“.</p>
+<h4 id="Prioridade-1-Tarefas-Urgentes-e-Importantes"><a href="#Prioridade-1-Tarefas-Urgentes-e-Importantes" class="headerlink" title="Prioridade 1 - Tarefas Urgentes e Importantes"></a>Prioridade 1 - Tarefas Urgentes e Importantes</h4><p>Faça estas tarefas imediatamente (<em>Do it now</em>). Sua prioridade é máxima.</p>
+<p>“Essas são as tarefas que você deve dedicar os seus esforços para terminar de uma vez. Elas não podem esperar, e devem ser resolvidas o quanto antes.”</p>
+<h4 id="Prioridade-2-Tarefas-Importantes-mas-nao-Urgentes"><a href="#Prioridade-2-Tarefas-Importantes-mas-nao-Urgentes" class="headerlink" title="Prioridade 2 - Tarefas Importantes mas não Urgentes"></a>Prioridade 2 - Tarefas Importantes mas não Urgentes</h4><p>Decida sobre estas tarefas, dedique algum tempo a elas. (<em>Schedule a time to do it</em>).</p>
+<p>“Este é o quadrante onde deveríamos passar a maior parte do nosso tempo, obviamente após resolver as tarefas do quadrante anterior. Essas tarefas são importantes, porém não são urgentes, isso nos permite avaliar, planejar e executar de maneira eficiente, gerando bons resultados no médio e longo prazo.”</p>
+<h4 id="Prioridade-3-Tarefas-urgentes-mas-nao-importantes"><a href="#Prioridade-3-Tarefas-urgentes-mas-nao-importantes" class="headerlink" title="Prioridade 3 - Tarefas urgentes, mas não importantes"></a>Prioridade 3 - Tarefas urgentes, mas não importantes</h4><p>Distribua estas tarefas para outras pessoas. Quem pode fazê-las por você? (<em>Delegate</em>).</p>
+<p>“Nesse quadrante temos as tarefas que mesmo sendo urgentes não precisam de uma atenção especial por não serem importantes. As pessoas normalmente passam muito tempo nessas tarefas por serem urgentes, mas sem perceber que elas não vão trazer resultados. Assim, o tempo que poderia ser gasto no quadrante dois é muitas vezes mal gasto no terceiro. Exemplos desse tipo de tarefa: e-mails irrelevantes, telefonemas, visitas de amigos e favores. Tudo nesse quadrante pode ser deixado para quando houver tempo livre.”</p>
+<h4 id="Prioridade-4-Tarefas-nem-importantes-e-nem-urgentes"><a href="#Prioridade-4-Tarefas-nem-importantes-e-nem-urgentes" class="headerlink" title="Prioridade 4 - Tarefas nem importantes e nem urgentes"></a>Prioridade 4 - Tarefas nem importantes e nem urgentes</h4><p>Elimine estas tarefas. Elas podem esperar (<em>Delete</em>).</p>
+<p>Aparentemente, a maioria das pessoas sofre bastante com o tempo gasto no quadrante número quatro. Esse talvez seja o quadrante que mais afete a solução dos outros. Nessa parte estão as redes sociais, mensagens de texto, sites de entretenimento, jogos online e televisão. Quantas vezes você já ligou seu computador para fazer alguma tarefa e perdeu seu tempo no Facebook, e acabou tendo que fazer sua tarefa sob pressão? Ou decidiu resolver um problema, mas passou mais tempo respondendo a mensagens de texto do que se concentrando no que deveria? Ou saiu para resolver uma coisa, mas acabou gastando seu tempo em uma loja ou conversando com um velho amigo na rua.</p>
+<p>11) Elaborando os planos de ação</p>
+<p>Após decidirmos as nossas prioridades, o próximo passo é <strong>agir</strong>. O plano de ação de qualquer projeto ou decisão deve ser claro e objetivo.</p>
+<p>Uma das ferramentas mais usadas para a elaboração dos planos de ação é o <strong>5W2H</strong>. Esse <em>checklist</em> tem como função definir o que será feito, porque, onde, quem irá fazer, quando será feito, como e quanto custará.</p>
+<p>A sigla é formada pelas iniciais, em inglês, dos sete parâmetros do projeto, que devem ser estabelecidos e delimitados. São eles:</p>
+<ul>
+<li>What (o que será feito?)</li>
+<li>Why (por que será feito?)</li>
+<li>Where (onde será feito?)</li>
+<li>When (quando será feito?)</li>
+<li>Who (por quem será feito?)</li>
+<li>How (como será feito?)</li>
+<li>How much(quanto vai custar?)</li>
+</ul>
+<p>Esse modelo consiste em responder todas essas perguntas, o que pode ser feito em uma folha de papel, documento de texto, ou planilha eletrônica (Excel).</p>
+<p>Um exemplo de utilização do 5W2H está no planejamento de uma festa de aniversário, por exemplo:</p>
+<blockquote>
+<p>INSERIR IMAGEM</p>
+</blockquote>
+<h3 id="Terceira-Etapa"><a href="#Terceira-Etapa" class="headerlink" title="Terceira Etapa:"></a>Terceira Etapa:</h3><p>Agora que já temos todo material que precisamos, iremos organizá-lo em um documento.</p>
+<p>Para este trabalho iremos utilizar o Word (ou programa similar) para produzir um documento do tipo <strong>relatório técnico</strong>.</p>
+<p>Conforme a <a href="https://www.abntcatalogo.com.br/norma.aspx?ID=333594" target="_blank" rel="noopener">Norma ABNT NBR 10719:2015</a> os relatórios técnicos/científicos são documentos que descrevem progresso e resultados de uma pesquisa técnica ou científica.</p>
+<p>Apesar deste trabalho não se enquadrar como uma Pesquisa Técnica/Científica, iremos utilizar esta norma como base para produção do nosso relatório - em conformidade com o <a href="http://www.abnt.org.br/noticias/3824-relatorio-tecnico-e-ou-cientifico" target="_blank" rel="noopener">proposto pela ABNT</a>.</p>
+<p>Nas aulas sobre documentos e contratos seu professor irá explicar detalhadamente estas regras de formatação. Por ora, é importante saber de 3 coisas:</p>
+<p>1) Todo trabalho acadêmico deve, <strong>obrigatoriamente</strong>, conter:<br>a) Capa: é a primeira página do documento;<br>b) Folha de Rosto: é a contracapa do documento, no qual estão as principais informações sobre o trabalho;<br>c) Resumo: deve apresentar, entre 150 e 500 palavras, os pontos mais relevantes do trabalho, com uma visão rápida e clara de seu conteúdo e conclusão;<br>d) Sumário: é a apresentação enumerada da estrutura do trabalho, apresentando os itens na ordem em que aparecem no documento;<br>e) Elementos Textuais: é o texto do trabalho em si, incluindo a introdução, desenvolvimento e conclusão;<br>f) Referências: apresenta todos os livros, sites e documentos utilizados para a pesquisa.</p>
+<p>2) Existem algumas regras de formatação, incluindo a fonte utilizada (tipo de letra), o tamanho da folha de papel, as margens e o espaçamento entre as linhas. Tudo isso deve ser configurado no <em>software</em> usado para se fazer o trabalho.</p>
+<p>3) Todas as fontes utilizadas para consulta nos trabalhos de vem ser indicadas nas Referências Bibliográficas utilizando algumas regras (que serão apresentadas em sala).</p>
+<p>Para facilitar vossas vidas, disponibilizo abaixo um documento <em>docx</em> (Word) já formatado com as temidas regras.</p>
+<blockquote>
+<p>COLOCAR DOCUMENTO AQUI</p>
+</blockquote>
+<p>Após baixá-lo, é hora de colocar as mãos à obra.</p>
+<h3 id="Capa-e-Folha-de-Rosto"><a href="#Capa-e-Folha-de-Rosto" class="headerlink" title="Capa e Folha de Rosto"></a>Capa e Folha de Rosto</h3><h2 id="Trabalho-em-Grupo"><a href="#Trabalho-em-Grupo" class="headerlink" title="Trabalho em Grupo"></a>Trabalho em Grupo</h2><p><img src="../../../../assets/media/img/wallpapers/producao.gif" alt="Material em Produção"></p>
+<hr>
+<h2 id="Regras"><a href="#Regras" class="headerlink" title="Regras"></a>Regras</h2><p><img src="../../../../assets/media/img/wallpapers/producao.gif" alt="Material em Produção"></p>
+<hr>
+<h2 id="Datas"><a href="#Datas" class="headerlink" title="Datas"></a>Datas</h2><p><img src="../../../../assets/media/img/wallpapers/producao.gif" alt="Material em Produção"></p>
+<hr>
+<h2 id="Referencias-Bibliograficas"><a href="#Referencias-Bibliograficas" class="headerlink" title="Referências Bibliográficas"></a>Referências Bibliográficas</h2><p>AUGUSTIN, E. S. Planejamento Pessoal e sua ligação com o Planejamento Estratégico Organizacional. 2008. 163 f. Dissertação (Mestrado em Engenharia de Produção) - Universidade Federal de Santa Maria, Santa Maria - RS, 2008. Disponível em &lt; <a href="https://bit.ly/3eNv2qr&gt;" target="_blank" rel="noopener">https://bit.ly/3eNv2qr&gt;</a>.  Acesso em: <em>24 abr. de 2020</em>.</p>
+<p>BRASIL. Lei nº 9.394, de 20 de dezembro de 1996. Estabelece as Diretrizes e Bases da Educação Nacional. Diário Oficial da União. Brasília, DF. Disponível em: <a href="https://bit.ly/3cKPWEK" target="_blank" rel="noopener">https://bit.ly/3cKPWEK</a>. Acesso em: <em>24 abr. de 2020</em>.</p>
+<p>BRASIL. CFA. Resolução Normativa CFA nº 537, de 22 de março de 2018. Aprova o Código de Ética dos Profissionais de Administração previsto na Lei nº 4.769, de 09 de setembro de 1965. Disponível em <a href="https://bit.ly/2QCq6dz" target="_blank" rel="noopener">https://bit.ly/2QCq6dz</a>. Acesso en <em>20 de mar. de 2020</em>.</p>
+<p>CAMPOS, R. C. (2017). Do processo de avaliação da personalidade em contextos clínicos ao diagnóstico psicodinâmico: Contributos para uma avaliação psicológica psicodinâmica. Revista Iberoamericana de Diagnóstico y Evaluación – e Avaliação Psicológica, 4, 44-56. Disponível em <a href="https://bit.ly/2XTuIk1" target="_blank" rel="noopener">https://bit.ly/2XTuIk1</a>. Acesso em <em>20 de abr. de 2020</em>.</p>
+<p>ESTRADA, R. J. S.; NETO, L. M.; AUGUSTIN, E. S. Planejamento estratégico pessoal. Revista de Ciências da Administração, Florianópolis, p. 118-145, jan. 2011. ISSN 2175-8077. Disponível em: <a href="https://bit.ly/2KyefK1" target="_blank" rel="noopener">https://bit.ly/2KyefK1</a>. Acesso em: <em>24 abr. de 2020</em>.</p>
+<p>GASPAR, Ricardo Carlos. A trajetória da economia mundial: da recuperação do pós-guerra aos desafios contemporâneos. Cad. Metrop.,  São Paulo,  v. 17, n. 33, p. 265-296,  Maio  2015. Disponível em <a href="https://bit.ly/3ayRLU1" target="_blank" rel="noopener">https://bit.ly/3ayRLU1</a>. Acesso em: <em>25 abr. de 2020</em>.</p>
+<p>MACHADO-DA-SILVA, C. L.; FONSECA, V. S. da. Competitividade organizacional: uma tentativa de reconstrução analítica. Organ. Soc,  Salvador,  v. 4, n. 7, p. 97-114, Dez.  1996. Disponível em <a href="https://bit.ly/2zv4UR8" target="_blank" rel="noopener">https://bit.ly/2zv4UR8</a>. Acesso em: <em>25 abr. de 2020</em>.</p>
+<p>NORONHA, A. P. P. (2002). Os problemas mais graves e mais freqüentes no uso dos testes psicológicos. Psicologia: Reflexão e Crítica, 15(1), 135-142. Disponível em <a href="https://bit.ly/3cWdVBe" target="_blank" rel="noopener">https://bit.ly/3cWdVBe</a>. Acesso em: <em>25 abr. de 2020</em>.</p>
+<p>RAMOS, L. M. A. Os tipos psicológicos na psicologia analítica de Carl Gustav Jung e o inventário de personalidade “Myers-Briggs Type Indicator (MBTI)”: contribuições para a psicologia educacional, organizacional e clínica. ETD – Educação Temática Digital, Campinas, v.6, n.2, p.137-180, jun. 2005. Disponível em <a href="https://bit.ly/2yqonlo" target="_blank" rel="noopener">https://bit.ly/2yqonlo</a>. Acesso em <em>20 de abr. de 2020</em>.</p>
+<p>VANDERLEY, L. G. Capital humano: a vantagem competitiva. Organ. Soc., Salvador, v. 8, n. 22, p. 65-74, Dez. 2001. Disponível em <a href="https://bit.ly/3cQJRXl" target="_blank" rel="noopener">https://bit.ly/3cQJRXl</a>. Acesso em: <em>25 abr. de 2020</em>.</p>
+<p><a href="https://aeon.co/ideas/more-than-know-thyself-on-all-the-other-delphic-maxims" target="_blank" rel="noopener">https://aeon.co/ideas/more-than-know-thyself-on-all-the-other-delphic-maxims</a></p>
+<p><a href="https://www.academia.edu/37995955/The_147_Delphic_Maxims_-_Commented" target="_blank" rel="noopener">https://www.academia.edu/37995955/The_147_Delphic_Maxims_-_Commented</a></p>
+<p><a href="https://www.researchgate.net/publication/311709005_Ontology_based_Taxonomies_for_the_Interpretation_of_the_Delphic_Maxims_as_Applied_Philosophy_in_Business_and_Governance_Management" target="_blank" rel="noopener">https://www.researchgate.net/publication/311709005_Ontology_based_Taxonomies_for_the_Interpretation_of_the_Delphic_Maxims_as_Applied_Philosophy_in_Business_and_Governance_Management</a></p>
+<p><a href="http://lounge.obviousmag.org/abismo/2013/09/nosce-te-ipsum-conhece-te-a-ti-mesmo.html" target="_blank" rel="noopener">http://lounge.obviousmag.org/abismo/2013/09/nosce-te-ipsum-conhece-te-a-ti-mesmo.html</a></p>
+<p><a href="https://www.os16tipos.com/a-teoria" target="_blank" rel="noopener">https://www.os16tipos.com/a-teoria</a></p>
+<p><a href="https://www.16personalities.com/br/teste-de-personalidade" target="_blank" rel="noopener">https://www.16personalities.com/br/teste-de-personalidade</a></p>
+<p>Teste –&gt; Palográfico ou PMK</p>
+<p><a href="https://digitalis-dsp.uc.pt/jspui/bitstream/10316.2/5595/7/10_Adapta%C3%A7%C3%A3o%20da%20Escala%20de%20Intelig%C3%AAncia....pdf" target="_blank" rel="noopener">https://digitalis-dsp.uc.pt/jspui/bitstream/10316.2/5595/7/10_Adapta%C3%A7%C3%A3o%20da%20Escala%20de%20Intelig%C3%AAncia....pdf</a></p>
+<p>ANÁLISE DE TESTES DE PERSONALIDADE:<br>QUALIDADE DO MATERIAL, DAS INSTRUÇÕES, DA<br>DOCUMENTAÇÃO E DOS ITENS QUALIDADE DE<br>TESTES DE PERSONALIDADE</p>
+<p>Desenvolvimento e Validação de uma escala de Inteligência Emocional</p>
+<p><a href="https://www.researchgate.net/publication/233990469" target="_blank" rel="noopener">https://www.researchgate.net/publication/233990469</a></p>
+<p>Inteligência emocional, bem-estar e saúde mental: um estudo com técnicos de apoio<br>à vítima</p>
+<p>INTELIGÊNCIA EMOCIONAL: CONTRIBUTOS ADICIONAIS<br>PARA A VALIDAÇÃO DE UM INSTRUMENTO DE MEDIDA1<br>e</p>
+<p><a href="https://openpsychometrics.org/tests/16PF.php" target="_blank" rel="noopener">https://openpsychometrics.org/tests/16PF.php</a></p>
+<p><a href="https://blog.trello.com/br/matriz-de-eisenhower" target="_blank" rel="noopener">https://blog.trello.com/br/matriz-de-eisenhower</a></p>
+
+        </div>
+
+        
+            <section class="post-copyright">
+                
+                
+                    <p class="copyright-item">
+                        <span>Conteúdo disponível em:</span>
+                        <span><a href="http://zmdy.github.io/aulas.txt/posts/administracao/trabalhos/modulo-01/">http://zmdy.github.io/aulas.txt/posts/administracao/trabalhos/modulo-01/</a></span>
+                    </p>
+                
+                
+                    <p class="copyright-item">
+                        <span>Licença:</span>
+                        <span>Este material está distribuído com uma licença <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC-BY-4.0</a></span>
+                    </p>
+                
+                
+
+            </section>
+        
+        <section class="post-tags">
+            <div>
+                <span>Tag(s):</span>
+                <span class="tag">
+                    
+                    
+                        <a href="/aulas.txt/pages/tag/Auxiliar-Administrativo-Trabalhos-de-Conclusao-de-Modulo/"># Auxiliar Administrativo - Trabalhos de Conclusão de Módulo</a>
+                    
+                        
+                </span>
+            </div>
+            <div>
+                <a href="javascript:window.history.back();">voltar</a>
+                <span>· </span>
+                <a href="/aulas.txt/">home</a>
+            </div>
+        </section>
+        <section class="post-nav">
+            
+                <a class="prev" rel="prev" href="/aulas.txt/posts/administracao/trabalhos/modulo-02/">Módulo 02 - TCM</a>
+            
+            
+            <a class="next" rel="next" href="/aulas.txt/posts/administracao/aulas/aula-15/">Aula 05 -  Módulo 02 - Contabilidade</a>
+            
+        </section>
+
+
+    </article>
+</div>
+
+        </div>
+        <footer id="footer" class="footer">
+    <div class="copyright">
+        <span>© aulas.txt | Feito com <a href="https://hexo.io" target="_blank">Hexo</a> & <a href="https://github.com/Siricee/hexo-theme-Chic" target="_blank">Chic</a> | <a target="_blank" onclick="printPage()">Imprimir esta página em PDF</a></span>
+    </div>
+</footer>
+
+    </div><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+</body>
+</html>

@@ -1,0 +1,75 @@
+/** Defines the current theme font-families **/
+@font-face{
+  src: url('../../../assets/media/fonts/montserrat/Montserrat-Bold.woff');
+  font-family: 'Montserrat Bold';
+}
+
+@font-face{
+  src: url('../../../assets/media/fonts/oxygen/Oxygen-Regular.woff');
+  font-family: 'Oxygen Regular';
+}
+
+@font-face{
+  src: url('../../../assets/media/fonts/anton/anton-regular.woff');
+  font-family: 'Anton';
+}
+
+/** Defines the globals **/
+:root{
+  --font-regular:   1em;
+  --font-small:     0.75em;
+  --font-smaller:   0.50em;
+  --font-medium:    1.25em;
+  --font-big:       1.50em;
+  --font-bigger:    1.75em;
+  --font-title:     2.5em;
+}
+
+/** Defines the theme **/
+*{
+  font-size: var(--font-regular);
+  font-family: 'Oxygen Regular';
+}
+
+h1, h2, h3, h4, h5, h6,
+b, strong{
+  font-family: 'Montserrat Bold';
+  font-size: var(--font-big);
+}
+
+/** Configures all .bonisa content as absolute/relative positions **/
+.bonisa {
+  display: block;
+  position: absolute;
+}
+
+.bonisa * {
+  position: relative;
+}
+
+main .bonisa,
+section .bonisa,
+div .bonisa{
+  width: 100vw;
+  height: 100vh;
+}
+
+/** Cover Page **/
+#bonisaRoot{
+  background-image: url('./bg-01.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+
+}
+
+#bonisaSlide0 h1{
+  font-family: 'Anton';
+  font-size: 4em;
+  text-transform: uppercase;
+  text-align: center;
+
+  width: 100%;
+  margin-top: 25vh;
+
+  color: #1a1a1add;
+}

@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="UTF-8">
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="author" content="zmdy">
+
+
+
+
+
+<title>slides/administracao/modulo-02/avisos-iniciais | aulas.txt</title>
+
+<!-- HERE ARE SOME LIBARIES AND PERSONAL TOOLS OF THE SRC FOLDER -->
+<script src="/aulas.txt/src/js/bonisa.min.js"></script>
+<script src="/aulas.txt/src/libs/printjs/print.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="/aulas.txt/assets/media/fonts/icofont/icofont.css">
+<script>
+  function printPage(){
+    printJS({
+        printable: 'aulasTXT', type: 'html',
+        header: null,
+        css: '/aulas.txt/css/style.css'
+    });
+  }
+</script>
+
+
+
+
+    <link rel="icon" href="/aulas.txt/favicon.png">
+
+
+
+
+    <!-- stylesheets list from _config.yml -->
+    
+    <link rel="stylesheet" href="/aulas.txt/css/style.css">
+    
+
+
+
+    <!-- scripts list from _config.yml -->
+    
+    <script src="/aulas.txt/js/script.js"></script>
+    
+    <script src="/aulas.txt/js/tocbot.min.js"></script>
+    
+
+
+
+    
+    
+        
+    
+
+
+<meta name="generator" content="Hexo 4.2.0"><!-- hexo-inject:begin --><!-- hexo-inject:end --></head>
+<body>
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><div class="wrapper">
+        <header>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header header-logo"><a href="/aulas.txt/">aulas.txt</a></div>
+            <div class="menu navbar-right">
+                
+                    <a class="menu-item" href="/aulas.txt/pages/cursos">Cursos</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/tag">Materiais</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/manual">Manual</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/sobre">Sobre</a>
+                
+                <input id="switch_default" type="checkbox" class="switch_default">
+                <label for="switch_default" class="toggleBtn"></label>
+            </div>
+        </div>
+    </nav>
+
+    
+    <nav class="navbar-mobile" id="nav-mobile">
+        <div class="container">
+            <div class="navbar-header">
+                <div>
+                    <a href="/aulas.txt/">aulas.txt</a><a id="mobile-toggle-theme">·&nbsp;Light</a>
+                </div>
+                <div class="menu-toggle" onclick="mobileBtn()">&#9776; Menu</div>
+            </div>
+            <div class="menu" id="mobile-menu">
+                
+                    <a class="menu-item" href="/aulas.txt/pages/cursos">Cursos</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/tag">Materiais</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/manual">Manual</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/sobre">Sobre</a>
+                
+            </div>
+        </div>
+    </nav>
+
+</header>
+<script>
+    var mobileBtn = function f() {
+        var toggleMenu = document.getElementsByClassName("menu-toggle")[0];
+        var mobileMenu = document.getElementById("mobile-menu");
+        if(toggleMenu.classList.contains("active")){
+           toggleMenu.classList.remove("active")
+            mobileMenu.classList.remove("active")
+        }else{
+            toggleMenu.classList.add("active")
+            mobileMenu.classList.add("active")
+        }
+    }
+</script>
+        <div class="main padding-05mm" id="aulasTXT">
+            <div class="container">
+    
+    
+        <div class="post-toc">
+    <div class="tocbot-list">
+    </div>
+    <div class="tocbot-list-menu">
+        <a class="tocbot-toc-expand" onclick="expand_toc()">Expand all</a>
+        <a onclick="go_top()">Back to top</a>
+        <a onclick="go_bottom()">Go to bottom</a>
+    </div>
+</div>
+
+<script>
+    document.ready(
+        function () {
+            tocbot.init({
+                tocSelector: '.tocbot-list',
+                contentSelector: '.post-content',
+                headingSelector: 'h1, h2, h3, h4, h5',
+                collapseDepth: 1,
+                orderedList: false,
+                scrollSmooth: true,
+            })
+        }
+    )
+
+    function expand_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 6,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "collapse_toc()");
+        b.innerHTML = "Collapse all"
+    }
+
+    function collapse_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 1,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "expand_toc()");
+        b.innerHTML = "Expand all"
+    }
+
+    function go_top() {
+        window.scrollTo(0, 0);
+    }
+
+    function go_bottom() {
+        window.scrollTo(0, document.body.scrollHeight);
+    }
+
+</script>
+    
+
+    
+    <article class="post-wrap">
+        <header class="post-header">
+            <h1 class="post-title">slides/administracao/modulo-02/avisos-iniciais</h1>
+            
+                <div class="post-meta">
+                    
+
+                    
+                        <span class="post-time">
+                        Data de Publicação: <a href="#">12/05/2020&nbsp;&nbsp;9:33</a>
+                        </span>
+                    
+                    
+                </div>
+            
+        </header>
+
+        <div class="post-content">
+            <h1 id="Contabilidade"><a href="#Contabilidade" class="headerlink" title="Contabilidade"></a>Contabilidade</h1><h2 id="Avisos-Iniciais"><a href="#Avisos-Iniciais" class="headerlink" title="Avisos Iniciais"></a>Avisos Iniciais</h2><hr>
+<h1 id="Distribuicao-de-Pontos"><a href="#Distribuicao-de-Pontos" class="headerlink" title="Distribuição de Pontos"></a>Distribuição de Pontos</h1><table>
+<thead>
+<tr>
+<th align="center">Atividade</th>
+<th align="center">Nota</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">Conceito + Presença</td>
+<td align="center">05 pontos</td>
+</tr>
+<tr>
+<td align="center">Caderno</td>
+<td align="center">10 pontos</td>
+</tr>
+<tr>
+<td align="center">Lista de Exercícios</td>
+<td align="center">15 pontos</td>
+</tr>
+<tr>
+<td align="center">1° Trabalho em Grupo</td>
+<td align="center">10 pontos</td>
+</tr>
+<tr>
+<td align="center">2° Trabalho em Grupo</td>
+<td align="center">20 pontos</td>
+</tr>
+<tr>
+<td align="center">Prova Parcial</td>
+<td align="center">10 pontos</td>
+</tr>
+<tr>
+<td align="center">Prova Final</td>
+<td align="center">30 pontos</td>
+</tr>
+</tbody></table>
+<hr>
+<h1 id="Avisos-Importantes"><a href="#Avisos-Importantes" class="headerlink" title="Avisos Importantes"></a>Avisos Importantes</h1><ul>
+<li>Para melhor balancear a distribuição das notas, 60% da pontuação será dada com exercícios avaliativos e 40% em provas.</li>
+<li>Por esta razão, a média para aprovação será aumentada para <strong>70 pontos</strong>. </li>
+<li>A partir deste módulo haverá avaliação da <strong>participação em sala</strong> (conceito). Evitem faltar!</li>
+<li>Todos os <strong>trabalhos, exercícios e notas avaliativas individuais</strong> podem receber, exceto em casos individualmente analisados, avaliações equivalentes a 100%, 75%, 50%, 25% ou 0% do valor total do item.</li>
+</ul>
+<hr>
+<h1 id="Correcao-dos-Cadernos"><a href="#Correcao-dos-Cadernos" class="headerlink" title="Correção dos Cadernos"></a>Correção dos Cadernos</h1><ul>
+<li>A avaliação do caderno vale <strong>10 pontos</strong>, distribuídos da seguinte forma:</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th align="center">Status</th>
+<th align="center">Nota</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">Anotações das aulas</td>
+<td align="center">2,5 pontos</td>
+</tr>
+<tr>
+<td align="center">Resumo</td>
+<td align="center">2,5 pontos</td>
+</tr>
+<tr>
+<td align="center">Resolução de Exercícios</td>
+<td align="center">2,5 pontos</td>
+</tr>
+<tr>
+<td align="center">Organização</td>
+<td align="center">2,5 pontos</td>
+</tr>
+</tbody></table>
+<hr>
+<h1 id="Reposicao-das-Provas"><a href="#Reposicao-das-Provas" class="headerlink" title="Reposição das Provas"></a>Reposição das Provas</h1><ul>
+<li><p>As provas serão <strong>repostas</strong>, garantindo seu valor integral (100%), mediante a apresentação de <strong>justificativas ou atestados</strong>, que expliquem uma possível falta.</p>
+</li>
+<li><p>Em caso da <strong>não apresentação</strong> de justificativas por escrito das faltas ocorridas em data de prova(s), haverá:</p>
+<ul>
+<li>Reposição da PROVA PARCIAL, em data acertada, por trabalho de valor equivalente a 60% do valor da prova;</li>
+<li>Nulidade da nota da PROVA FINAL.</li>
+</ul>
+</li>
+<li><p>Demais casos não previstos serão analisados pelo professor ou coordenador do curso.</p>
+</li>
+</ul>
+<hr>
+<h1 id="Trabalho-de-Recuperacao"><a href="#Trabalho-de-Recuperacao" class="headerlink" title="Trabalho de Recuperação"></a>Trabalho de Recuperação</h1><ul>
+<li>Aqueles que não obterem a nota mínima de aprovação terão um prazo de <strong>1 mês</strong> para realizarem o trabalho de recuperação.</li>
+<li>A recuperação consiste em uma lista, contendo 25 exercícios, que deverá ser <strong>impressa</strong> . As questões deverão ser respondidas na <strong>própria lista</strong>.</li>
+<li>Cabe aos alunos imprimirem o material de recuperação, que será <strong>permanentemente disponibilizado</strong> em plataforma escolhida pelo professor.</li>
+<li>Caso o aluno não consiga imprimir a lista, o mesmo deverá avisar ao professor <strong>com antencedência</strong>.</li>
+</ul>
+
+        </div>
+
+        
+            <section class="post-copyright">
+                
+                
+                    <p class="copyright-item">
+                        <span>Conteúdo disponível em:</span>
+                        <span><a href="http://zmdy.github.io/aulas.txt/posts/slides/administracao/modulo-02/avisos-iniciais/">http://zmdy.github.io/aulas.txt/posts/slides/administracao/modulo-02/avisos-iniciais/</a></span>
+                    </p>
+                
+                
+                    <p class="copyright-item">
+                        <span>Licença:</span>
+                        <span>Este material está distribuído com uma licença <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC-BY-4.0</a></span>
+                    </p>
+                
+                
+
+            </section>
+        
+        <section class="post-tags">
+            <div>
+                <span>Tag(s):</span>
+                <span class="tag">
+                    
+                </span>
+            </div>
+            <div>
+                <a href="javascript:window.history.back();">voltar</a>
+                <span>· </span>
+                <a href="/aulas.txt/">home</a>
+            </div>
+        </section>
+        <section class="post-nav">
+            
+                <a class="prev" rel="prev" href="/aulas.txt/posts/slides/administracao/modulo-02/quiz/regras-do-quiz/">slides/administracao/modulo-02/quiz/regras-do-quiz</a>
+            
+            
+            <a class="next" rel="next" href="/aulas.txt/posts/slides/administracao/modulo-02/quiz/etapa-1-perguntas/">slides/administracao/modulo-02/quiz/etapa-1-perguntas</a>
+            
+        </section>
+
+
+    </article>
+</div>
+
+        </div>
+        <footer id="footer" class="footer">
+    <div class="copyright">
+        <span>© aulas.txt | Feito com <a href="https://hexo.io" target="_blank">Hexo</a> & <a href="https://github.com/Siricee/hexo-theme-Chic" target="_blank">Chic</a> | <a target="_blank" onclick="printPage()">Imprimir esta página em PDF</a></span>
+    </div>
+</footer>
+
+    </div><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+</body>
+</html>

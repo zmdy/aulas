@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="UTF-8">
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="author" content="zmdy">
+
+
+
+
+
+<title>Aula 06 -  Módulo 02 - Contabilidade | aulas.txt</title>
+
+<!-- HERE ARE SOME LIBARIES AND PERSONAL TOOLS OF THE SRC FOLDER -->
+<script src="/aulas.txt/src/js/bonisa.min.js"></script>
+<script src="/aulas.txt/src/libs/printjs/print.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="/aulas.txt/assets/media/fonts/icofont/icofont.css">
+<script>
+  function printPage(){
+    printJS({
+        printable: 'aulasTXT', type: 'html',
+        header: null,
+        css: '/aulas.txt/css/style.css'
+    });
+  }
+</script>
+
+
+
+
+    <link rel="icon" href="/aulas.txt/favicon.png">
+
+
+
+
+    <!-- stylesheets list from _config.yml -->
+    
+    <link rel="stylesheet" href="/aulas.txt/css/style.css">
+    
+
+
+
+    <!-- scripts list from _config.yml -->
+    
+    <script src="/aulas.txt/js/script.js"></script>
+    
+    <script src="/aulas.txt/js/tocbot.min.js"></script>
+    
+
+
+
+    
+    
+        
+    
+
+
+<meta name="generator" content="Hexo 4.2.0"><!-- hexo-inject:begin --><!-- hexo-inject:end --></head>
+<body>
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><div class="wrapper">
+        <header>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header header-logo"><a href="/aulas.txt/">aulas.txt</a></div>
+            <div class="menu navbar-right">
+                
+                    <a class="menu-item" href="/aulas.txt/pages/cursos">Cursos</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/tag">Materiais</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/manual">Manual</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/sobre">Sobre</a>
+                
+                <input id="switch_default" type="checkbox" class="switch_default">
+                <label for="switch_default" class="toggleBtn"></label>
+            </div>
+        </div>
+    </nav>
+
+    
+    <nav class="navbar-mobile" id="nav-mobile">
+        <div class="container">
+            <div class="navbar-header">
+                <div>
+                    <a href="/aulas.txt/">aulas.txt</a><a id="mobile-toggle-theme">·&nbsp;Light</a>
+                </div>
+                <div class="menu-toggle" onclick="mobileBtn()">&#9776; Menu</div>
+            </div>
+            <div class="menu" id="mobile-menu">
+                
+                    <a class="menu-item" href="/aulas.txt/pages/cursos">Cursos</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/tag">Materiais</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/manual">Manual</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/sobre">Sobre</a>
+                
+            </div>
+        </div>
+    </nav>
+
+</header>
+<script>
+    var mobileBtn = function f() {
+        var toggleMenu = document.getElementsByClassName("menu-toggle")[0];
+        var mobileMenu = document.getElementById("mobile-menu");
+        if(toggleMenu.classList.contains("active")){
+           toggleMenu.classList.remove("active")
+            mobileMenu.classList.remove("active")
+        }else{
+            toggleMenu.classList.add("active")
+            mobileMenu.classList.add("active")
+        }
+    }
+</script>
+        <div class="main padding-05mm" id="aulasTXT">
+            <div class="container">
+    
+    
+        <div class="post-toc">
+    <div class="tocbot-list">
+    </div>
+    <div class="tocbot-list-menu">
+        <a class="tocbot-toc-expand" onclick="expand_toc()">Expand all</a>
+        <a onclick="go_top()">Back to top</a>
+        <a onclick="go_bottom()">Go to bottom</a>
+    </div>
+</div>
+
+<script>
+    document.ready(
+        function () {
+            tocbot.init({
+                tocSelector: '.tocbot-list',
+                contentSelector: '.post-content',
+                headingSelector: 'h1, h2, h3, h4, h5',
+                collapseDepth: 1,
+                orderedList: false,
+                scrollSmooth: true,
+            })
+        }
+    )
+
+    function expand_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 6,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "collapse_toc()");
+        b.innerHTML = "Collapse all"
+    }
+
+    function collapse_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 1,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "expand_toc()");
+        b.innerHTML = "Expand all"
+    }
+
+    function go_top() {
+        window.scrollTo(0, 0);
+    }
+
+    function go_bottom() {
+        window.scrollTo(0, document.body.scrollHeight);
+    }
+
+</script>
+    
+
+    
+    <article class="post-wrap">
+        <header class="post-header">
+            <h1 class="post-title">Aula 06 -  Módulo 02 - Contabilidade</h1>
+            
+                <div class="post-meta">
+                    
+
+                    
+                        <span class="post-time">
+                        Data de Publicação: <a href="#">04/05/2020&nbsp;&nbsp;10:05</a>
+                        </span>
+                    
+                    
+                </div>
+            
+        </header>
+
+        <div class="post-content">
+            <img src="../../../../assets/media/img/cursos/logo-auxiliar-administrativo-01.png" alt="Auxiliar Administrativo" title="Auxiliar Administrativo" class="img-50  bg-white">
+
+<p>Bem vindx a mais uma aula de Contabilidade.</p>
+<p>Na última aula estudamos o conceito de <strong>Personalidade Jurídica</strong> e entendemos como o mesmo está relacionado com as Pessoas Fìsicas e Jurídicas.</p>
+<p>Vimos também que existem diferentes <strong>formas de organização</strong> que se diferenciam pelos seus objetivos sociais e econômicos. Além disso, discutimos brevemente sobre os estatutos - documentos que regem o funcionamento das sociedades.</p>
+<p>Hoje iremos discutir sobre os estatutos e planos de negócios, e falar sobre um tipo de documento específico que existe em toda <strong>sociedade comercial</strong> (empresa): o Contrato Social.</p>
+<p><a href="https://bit.ly/3beO2w4" target="_blank" rel="noopener">RENNÓ. Administração Geral para Concursos</a></p>
+<p>Vamos lá!</p>
+<hr>
+<h2 id="Sumario-da-Aula"><a href="#Sumario-da-Aula" class="headerlink" title="Sumário da Aula"></a>Sumário da Aula</h2><ol>
+<li><a href="#Formalizacao-de-Empresas">Formalização de Empresas</a></li>
+<li><a href="#Conceitos-Importantes">Conceitos Importantes</a></li>
+<li><a href="#Tipos-de-Empresa">Tipos de Empresa</a></li>
+<li><a href="#Contrato-Social">Contrato Social</a></li>
+<li><a href="#Plano-de-Negocios">Plano de Negócios</a></li>
+<li><a href="#Resumo">Resumo</a></li>
+<li><a href="#Exercicios">Exercícios</a></li>
+<li><a href="#Referencias-Bibliograficas">Referências Bibliográficas</a></li>
+</ol>
+<hr>
+<h2 id="Formalizacao-de-Empresas"><a href="#Formalizacao-de-Empresas" class="headerlink" title="Formalização de Empresas"></a>Formalização de Empresas</h2><p>Assim como existem diferentes tipos de Pessoas Jurídicas e de formas de organização, o mesmo se aplica para as Empresas.</p>
+<p>As empresas surgem como uma forma de ofertar produtos ou serviços para a sociedade visando o <strong>lucro</strong> para os seus sócios. No entanto, a <strong>formalização</strong> de uma sociedade como uma empresa trás uma de benefícios e de deveres para os seus fundadores (ANTIONARO, 2014).</p>
+<p>Os principais benefícios da formalização, ou seja, do registro de uma empresa perante ao Governo, são:</p>
+<ul>
+  <li class='item-ok'><strong>Emissão de Notas Fiscais</strong>: isso garante a possibilidade da sua empresa vender para outras empresas e até mesmo para o Governo;</li>
+  <li class='item-ok'><strong>Contratação de Funcionários</strong>: garante a divisão de tarefas e maior produtividade na sua empresa;</li>
+  <li class='item-ok'><strong>Acesso a Serviços Bancários</strong>: permite que as empresas façam empréstimos com juros reduzidos e outros incentivos fiscais;</li>
+  <li class='item-ok'><strong>Formação de Consórcios</strong>: as empresas possuem o direito de se unirem em grupos para venderem e comprarem em conjunto, reduzindo gastos e aumentando a cartela de clientes;</li>
+</ul>
+
+<p>Por outro lado a formalização apresenta algumas desvantagens, como:</p>
+<ul>
+  <li class='item-not'><strong>Pagamento de Impostos</strong>: parte do lucro obtido pela empresa deve ser destinada para o pagamento de tributos governamentais (impostos, taxas e contribuições) diversas, como Seguro Desemprego, ICMS, ISS, etc.;</li>
+  <li class='item-not'><strong>Documentação</strong>: o registro de uma empresa, bem como o seu funcionamento, demanda de uma série de documentos (Alvarás, Licenças, Contratos, CNPJ, pagamentos fiscais e trabalhistas, etc) que devem ser mantidos atualizados e guardados durante algum tempo, o que demanda de uma organização documental dentro da empresa;</li>
+  <li class='item-not'><strong>Burocracia</strong>: a regularização ou atualização de dados cadastrais pode ser extremamente demorada, sendo necessário recorrer a diversos órgãos de registro ou governamentais;</li>
+  <li class='item-not'><strong>Sistemas Descentralizados</strong>: o pagamento de impostos e as pendências fiscais e trabalhistas devem ser feitos por diferentes departamentos da empresa (ou tercerizados) utilizando diferentes sites e sistemas fornecidos pelo Governo, devido a falta de um Sistema Único por parte do Governo;</li>
+</ul>
+
+<p>O processo de formalização de um negócio deve ser feito em várias etapas distintas, o que pode ser bastante lento em alguns casos. Estas etapas são:</p>
+<p>1) <strong>Consulta Prévia</strong>: O empresário deve realizar uma consulta prévia na Junta Comercial Estadual sobre o nome de sua empresa (para garantir se ele já foi ou não utilizado); além disso, ele deve solicitar à Prefeitura de sua cidade o TVL (Termo de Viabilidade de Localização), um documento que será utilizado para a emissão do alvará de funcionamento.</p>
+<p>2) <strong>Receita Federal</strong>: Após realizar as consultas prévias é hora de registrar a empresa na Receita Federal, gerando um CNPJ e um número de inscrição estadual (IE). Este processo pode ser feito pela Internet.</p>
+<p>3) <strong>Registro Comercial</strong>: Tendo recebido o CNPJ, a empresa deverá ser registrada na Junta Comercial do seu Estado, garantindo assim que ela seja devidamente regulamentada. Neste ponto, a empresa passa a possuir o NIRE (Número de Identificação de Registro de Empresa) que garante que a mesma possa emitir notas fiscais, obter empréstimos e crédio bancário e até mesmo fazer compras de alguns fornecedores.</p>
+<p>4) <strong>Registro Municipal</strong>: A última etapa do processo consiste na emissão do alvará de localização e funcionamento, que assegura à empresa operar em sua sede.</p>
+<hr>
+<h2 id="Conceitos-Empresariais"><a href="#Conceitos-Empresariais" class="headerlink" title="Conceitos Empresariais"></a>Conceitos Empresariais</h2><p>No processo de abertura de uma empresa, bem como do preenchimento de seu contrato social e plano de negócios, é importante definir algumas bases que guiarão o funcionamento da mesma. Por esta razão é importante conhecer alguns termos.</p>
+<h3 id="Capital-Social"><a href="#Capital-Social" class="headerlink" title="Capital Social"></a>Capital Social</h3><p>Para se abrir uma empresa é necessário investir um capital inicial (dinheiro), seja por meio de dinheiro em espécie, crédito ou bens (como móveis, imóveis, equipamentos…). Este investimento recebe o nome de <strong>capital social</strong>.</p>
+<h3 id="Quotas"><a href="#Quotas" class="headerlink" title="Quotas"></a>Quotas</h3><p>Em empresas formadas por mais de 1 empresário, o Capital Social é formado pela união do cada sócio contribuiu.</p>
+<p>Imagine que 4 amigos resolveram abrir uma lanchonete, e por isso cada um deles irá investir uma quantia em espécie:</p>
+<ul>
+<li>João  = R$ 2.000,00</li>
+<li>Pedro = R$ 2.500,00</li>
+<li>Maria = R$ 3.000,00</li>
+<li>Ana   = R$ 7.500,00</li>
+</ul>
+<p>O Capital Social desta lanchonete foi de R$15.000,00. No entanto cada sócio investiu uma parte deste valor, ou seja, uma <strong>quota</strong> diferente.</p>
+<p>Quotas geralmente são definidas pelo seu valor, em espécie, e pela <strong>porcentagem</strong> que este valor representa do Capital Social (CS).</p>
+<ul>
+<li>João  = R$ 2.000,00 = 13,3%</li>
+<li>Pedro = R$ 2.500,00 = 16,7%</li>
+<li>Maria = R$ 3.000,00 = 20,0%</li>
+<li>Ana   = R$ 7.500,00 = 50,0%</li>
+</ul>
+<p>Vamos supor que, após alguns meses, a lanchonete tenha lucrado R$ 5000,00. Como este valor deverá ser dividido entre os sócios?</p>
+<p>A resposta é simples: cada um receberá proporcionalmente àquilo que investiram, ou seja:</p>
+<ul>
+<li>João receberá 13,3% do lucro da empresa</li>
+<li>Pedro receberá 16,7% do lucro da empresa</li>
+<li>Maria receberá 20% do lucro da empresa</li>
+<li>Ana receberá 50% do lucro da empresa</li>
+</ul>
+<p>O mesmo princípio se aplica caso a empresa tenha algum prejuízo… se ela contrair uma alta <strong>dívida</strong>, Ana deverá (na maioria dos casos) contribuir com mais dinheiro do que João.</p>
+<h3 id="Nome-Empresarial-e-Nome-Fantasia"><a href="#Nome-Empresarial-e-Nome-Fantasia" class="headerlink" title="Nome Empresarial e Nome Fantasia"></a>Nome Empresarial e Nome Fantasia</h3><p>Toda empresa deve possuir 2 denominações diferentes: o Nome Fantasia e o Nome Empresarial (razão social).</p>
+<p>O <strong>Nome Fantasia</strong> de uma empresa é o nome pelo qual os clientes e o mercado a conhecem. Exemplos:</p>
+<ul>
+<li>Padaria da Dona Maria</li>
+<li>Supermercados BH</li>
+<li>C&amp;A</li>
+<li>Ricardo Eletro</li>
+<li>Gol Linhas Aéreas</li>
+<li>Positivo Tecnologia</li>
+<li>UBER</li>
+</ul>
+<p>Já o <strong>Nome Empresarial</strong> é o nome de registro da empresa, ou seja, o nome pelo qual ela responde legalmente. Esta denominação é utilizada nos documentos da empresa (CNPJ, contratos) e nas relações comerciais que ela realiza no mercado. Exemplos:</p>
+<ul>
+<li>Isabel G. B. Confeiteira</li>
+<li>Supermercados BH Comércio de Alimentos LTDA.</li>
+<li>C&amp;A Modas S.A.</li>
+<li>RN Comércio Varejista S.A.</li>
+<li>Gol Linhas Aéreas Inteligentes S.A.</li>
+<li>Positivo Tecnologia S.A.</li>
+<li>Uber do Brasil Tecnologia LTDA.</li>
+</ul>
+<p>Para formar o nome empresarial, é necessário utilizar os nomes dos titulares e as atividades efetuadas pela empresa:</p>
+<p><img src="../../../../assets/media/img/tipos-de-organizacao/regras-de-nomeacao-explicacao.png" alt="Nome Empresarial"></p>
+<p>Existem dois tipos diferentes de <a href="https://www.sebrae.com.br/sites/PortalSebrae/artigos/como-formalizar-seu-nome-empresarial,538a634e2ca62410VgnVCM100000b272010aRCRD" target="_blank" rel="noopener">nomes empresariais</a>.</p>
+<p><img src="../../../../assets/media/img/tipos-de-organizacao/regras-de-nomeacao.png" alt="Nome Empresarial Tipos"></p>
+<p>Regras para nomeação por Denominação.</p>
+<p><img src="../../../../assets/media/img/tipos-de-organizacao/regras-de-nomeacao-denominacao.png" alt="Nome Empresarial Denominação"></p>
+<p>Regras para nomeação por Firma.</p>
+<p><img src="../../../../assets/media/img/tipos-de-organizacao/regras-de-nomeacao-firma.png" alt="Nome Empresarial Denominação"></p>
+<h3 id="Objeto-Social-e-CNAE"><a href="#Objeto-Social-e-CNAE" class="headerlink" title="Objeto Social e CNAE"></a>Objeto Social e CNAE</h3><p>Todas as empresas são fundadas para realizarem algum tipo de atividade específico: uma padaria e uma pizzaria, apesar de possuírem semelhanças, desempenham atividades comerciais diferentes. O <strong>objeto social</strong> de uma empresa é o conjunto de atividades econômicas que a mesma irá desempenhar.</p>
+<p>O Objeto Social deve ser explicitamente indicado no Contrato Social, bem como profundamente analisado no Plano de Negócios. </p>
+<p>O IBGE possui um sistema de classificação das atividades econômicas do Brasil, chamado de <strong>CNAE</strong>.</p>
+<p>O CNAE consiste em uma base de dados que relaciona cada atividade econômica a um código específico. Esta classificação se estrutura em uma hierarquia específica.</p>
+<p>Para fins contábeis geralmente seu utiliza a <strong>subclasse</strong> da atividade econômica, que corresponde ao nível com maior descrição da mesma:</p>
+<p><img src="../../../../assets/media/img/contabilidade/cnae-estrutura.png" alt="CNAE - Subclasse"></p>
+<p>A base de dados do CNAE pode ser acessada no site do <a href="https://concla.ibge.gov.br/busca-online-cnae.html" target="_blank" rel="noopener">IBGE</a>. Para relizar uma pesquisa basta inserir o termo procurado na caixa de pesquisa e clicar sobre a opção “Buscar”.</p>
+<p><img src="../../../../assets/media/img/contabilidade/cnae-site.png" alt="CNAE - Site"></p>
+<p>A página de resultados mostrará um série de atividades relacionadas ao tema. Leia cuidadosamente cada descrição para encontrar a atividade correta da empresa em questão.</p>
+<p><img src="../../../../assets/media/img/contabilidade/cnae-site-2.png" alt="CNAE - Pesquisa"></p>
+<p>Ao clicar sobre o código da atividade, abrirá uma nova página contendo importantes detalhes sobre a subclasse escolhida. Lembrando que o código utilizado está apresentado no item <strong>subclasse</strong>.</p>
+<p><img src="../../../../assets/media/img/contabilidade/cnae-site-3.png" alt="CNAE - Resultado de uma Pesquisa"></p>
+<p>Uma empresa pode realizar mais de 1 atividade (CNAE). No entanto, uma destas atividades deverá ser a <strong>principal</strong>  e as outras deverão ser consideradas <strong>secundárias</strong>.  Considerando, a exemplo, uma padaria, pode-se ter:</p>
+<p>ATIVIDADE PRINCIPAL:</p>
+<ul>
+<li>1091-1/02 Fabricação de produtos de padaria e confeitaria com predominância de produção própria</li>
+</ul>
+<p>ATIVIDADES SECUNDÁRIAS:</p>
+<ul>
+<li>1092-9/00 Fabricação de biscoitos e bolachas</li>
+<li>5611-2/03 Lanchonetes, casas de chá, de sucos e similares</li>
+<li>1094-5/00 Fabricação de massas alimentícias</li>
+</ul>
+<h3 id="Portes-de-Empresas"><a href="#Portes-de-Empresas" class="headerlink" title="Portes de Empresas"></a>Portes de Empresas</h3><p>As empresas podem ser classificadas conforme o seu tamanho. Este porte é utilizado como base para se definir o enquadramento tributário das mesmas.</p>
+<p>O porte de uma empresa pode ser definido tendo como base sua renda anual:</p>
+<p><img src="../../../../assets/media/img/tipos-de-organizacao/porte-empresas-receita.png" alt="Porte de Empresas por Renda"></p>
+<p>Outro tipo de classificação utilizada diz respeito ao tipo de funcionários. Neste caso a área de atuação da empresa (comércio ou indústria) também é levada em consideração.</p>
+<p><img src="../../../../assets/media/img/tipos-de-organizacao/porte-empresas-funcionarios-comercio.png" alt="Porte de Empresas Comerciais por Funcionários"></p>
+<p><img src="../../../../assets/media/img/tipos-de-organizacao/porte-empresas-funcionarios-industria.png" alt="Porte de Empresas Industriais por Funcionários"></p>
+<h3 id="Enquadramento-Juridico"><a href="#Enquadramento-Juridico" class="headerlink" title="Enquadramento Jurídico"></a>Enquadramento Jurídico</h3><p>Trata-se do tipo da empresa, que será apresentado abaixo.</p>
+<h3 id="Enquadramento-Tributario"><a href="#Enquadramento-Tributario" class="headerlink" title="Enquadramento Tributário"></a>Enquadramento Tributário</h3><p>Toda empresa, por exercer atividade comercial ou técnico-científica, deve pagar uma série de impostos e taxas ao Governo. Este pagamento pode ser feito por meio de diferentes modelos de tributação.</p>
+<p>No <strong>Simples Nacional</strong>, modelo criado em 2006, micro e pequenas empresas com lucro anual de até R$ 4,8 milhões, o recolhimento de vários impostos (IRPJ, CSLL, PIS/Pasep, Cofins, IPI, ICMS, ISS e a Contribuição para a Seguridade Social destinada à Previdência Social a cargo da pessoa jurídica (CPP)) é feito por meio de um Documento Único de Arrecadaçã (DAS).</p>
+<p>Outra vantagem do Simples está na existência de um sistema eletrônico centralizado, com todas as funcionalidades necessárias para a tributação.</p>
+<p>Para empresas com lucro anual entre R$ 4,8 milhões e R$ 78 milhões, o sistema mais indicado é o de <strong>Lucro Presumido</strong>, que possui vantagens relacionadas ao porte das empresas - mas a principal desvantagem é que o pagamento de cada imposto deve ser feito separadamente.</p>
+<p>O modelo de <strong>Lucro Real</strong>, por sua vez, garante diversos benefícios fiscais à empresa (taxas de juros reduzidas, condições especiais de crédito) mas tende a ter custos operacionais altos, vistos que os impostos são pagos individualmente e com maior rigor.</p>
+<hr>
+<h2 id="Tipos-de-Empresa"><a href="#Tipos-de-Empresa" class="headerlink" title="Tipos de Empresa"></a>Tipos de Empresa</h2><p>Durante o processo de formalização de uma empresa, os empresários (ou sócios) podem optar de enquadrarem seus negócios de acordo com um <strong>tipo empresarial</strong> (enquadramento jurídico) diferente.</p>
+<p>Em alguns casos pode ser vantajoso para o empresário pagar uma menor quantidade de impostos tendo, para isso, que limitar o número de funcionários de sua empresa. Pense em um pequeno bar, por exemplo: para o seu proprietário não há a necessidade de se contratar muitos funcionários, visto que o seu negócio é pequeno e localizado - e nesse caso ele terá como vantagem o pagamento de menos impostos.</p>
+<p>Por outro lado, uma grande empresa, como uma rede de supermercados, precisa de muitos funcionários. Isso aumenta os gastos com impostos e taxas de contribuição, mas também garante que a mesma possa fazer empréstimos bancários, e até mesmo associações com outras empresas, de maneira mais facilitada e com maiores vantagens.</p>
+<p>Vamos analisar os diferentes tipos de empresa existentes no Brasil, de acordo com o Código Civil (BRASIL, 2002).</p>
+<h3 id="MEI-Microempreendedor-Individual"><a href="#MEI-Microempreendedor-Individual" class="headerlink" title="MEI - Microempreendedor Individual"></a>MEI - Microempreendedor Individual</h3><p>O enquadramento jurídico MEI é recente no Brasil (criado em 2008) e garante às pessoas físicas a possibilidade de abrirem seus negócios sem muita burocracia.</p>
+<p>Todo o processo de registro e regularização é feito <a href="http://www.portaldoempreendedor.gov.br/" target="_blank" rel="noopener">online</a>, não demandando por parte do empreendedor uma maior preocupação com os quesitos jurídicos envolvidos.</p>
+<p>Este enquadramento associa o CNPJ única e exclusivamente à própria pessoa física, ou seja, neste caso a pessoa (física) passa também a ser uma empresa (pessoa jurídica).</p>
+<p>Diferentemente dos demais tipos, ao MEI não se aplica o Princípio Contábil da Entidade, ou seja, não há a separação patrimonial - não existe distinção entre o que é da empresa e o que é do MEI. O lado negativo da MEI (e do EI) é que se a empresa começar a se endividar, os bens como pessoa física podem ser confiscados.</p>
+<ul>
+  <li class='item-warning'><strong>Atividades</strong>: há <a href="http://www.portaldoempreendedor.gov.br/temas/quero-ser/formalize-se/atividades-permitidas" target="_blank" rel="noopener">atividades específicas</a> que podem ser desempenhadas pelo MEI;</li>
+  <li class='item-ok'><strong>Faturamento</strong>: máximo de R$ 81.000,00 por ano (ou R$ 6.750,00 por mês);</li>
+  <li class='item-ok'><strong>Funcionários</strong>: pode ter apenas 1 funcionário contratado;</li>
+  <li class='item-ok'><strong>Enquadramento Tributário</strong>: os impostos são pagos de forma centralizada por meio do Simples Nacional (SIMEI);</li>
+  <li class='item-not'><strong>Filiais</strong>: não pode possuir filiais, apenas 1 estabelecimento;</li>
+  <li class='item-not'><strong>Sócios</strong>: só é permitido 1 pessoa física, que não pode participar como sócio de outra empresa;</li>
+</ul>
+
+<h3 id="Empresario-Individual"><a href="#Empresario-Individual" class="headerlink" title="Empresário Individual"></a>Empresário Individual</h3><p>Assim como o MEI, o Empresário Individual se constitui como uma empresa em que não há a separação dos bens da pessoa física e da pessoa jurídica (não se aplica o Princípio da Entidade).</p>
+<p>Ao contrário do MEI, não há limitações quanto as <a href="http://www.redesim.gov.br/servicos/constitua-sua-pj/conheca-os-tipos-de-pessoa-juridica/ei" target="_blank" rel="noopener">atividades econômicas</a> que podem ser desempenhadas pelo empresário.</p>
+<p>Por outro lado, não pode ser empresário o prestador de serviços que exerce profissão intelectual, de natureza científica, literária ou artística como médicos, engenheiros, arquitetos, psicólogos e entre outros. Esses atuarão individualmente como <strong>autônomos</strong> (pessoa física com registro na Prefeitura Municipal) ou com <strong>sócios</strong> através da constituição de uma Sociedade Simples.</p>
+<ul>
+  <li class='item-ok'><strong>Atividades</strong>: não há restrições em termos de atividades comerciais (excetuando atividades intelectuais);</li>
+  <li class='item-ok'><strong>Faturamento</strong>: Até R$ 4,8 milhões no enquadramento simples, e R$ 78 milhões no Lucro Presumido;</li>
+  <li class='item-ok'><strong>Funcionários</strong>: não há limite máximo;</li>
+  <li class='item-ok'><strong>Enquadramento Tributário</strong>: os impostos podem ser pagos por meio do Simples Nacional (SIMEI) ou Lucro Presumido;</li>
+  <li class='item-ok'><strong>Filiais</strong>: não há limites máximos, desde que as filiais possuam o mesmo objeto social da matriz;</li>
+  <li class='item-not'><strong>Sócios</strong>: só é permitido 1 pessoa física, que pode participar como sócio de outra empresa;</li>
+</ul>
+
+
+<h3 id="EIRELI-Empresa-Individual-de-Responsabilidade-Limitada"><a href="#EIRELI-Empresa-Individual-de-Responsabilidade-Limitada" class="headerlink" title="EIRELI - Empresa Individual de Responsabilidade Limitada"></a>EIRELI - Empresa Individual de Responsabilidade Limitada</h3><p>Neste tipo de empresa, também formada por um único empresário, aplica-se o Princípio da Entidade, ou seja, ocorre distinção entre os bens da empresa e do empresário.</p>
+<p>Trata-se do mais novo tipo empresarial, regulamentado em 2011, e possui uma importante de particularidades em relação à MEI e EI.  Na EIRELI, o <strong>Capital Social</strong> necessário para se abrir a empresa deve ser de, no mínimo, 100 salários mínimos. Para EI e MEI não há esse limite.</p>
+<p>A EIRELI foi criada para combater um crime bastante comum no país. Se o proprietário de uma empresa não desejasse responder pessoalmente por suas dívidas (Princípio da Entidade), ele poderia abrir uma Sociedade Limitada com sócio fictício.</p>
+<p>Esse “jeitinho” era a maneira encontrada para proteger seu patrimônio pessoal. Com o advento da Eireli, a prática se tornou desnecessária e caiu em desuso.</p>
+<p>Outro aspecto positivo da EIRELI é que a empresa pode se beneficiar diretamente de vários incentivos e subsídios do governo. Alguns deles são a Inovação Tecnológica e o PAT (Programa de Alimentação do Trabalhador).</p>
+<ul>
+  <li class='item-ok'><strong>Atividades</strong>: não há restrições em termos de atividades comerciais;</li>
+  <li class='item-ok'><strong>Faturamento</strong>: teoricamente não há um valor máximo!;</li>
+  <li class='item-ok'><strong>Funcionários</strong>: não há limite máximo;</li>
+  <li class='item-ok'><strong>Enquadramento Tributário</strong>: os impostos podem ser pagos por meio do Simples Nacional (SIMEI) ou Lucro Presumido;</li>
+  <li class='item-ok'><strong>Filiais</strong>: não há limites máximos, desde que as filiais possuam o mesmo objeto social da matriz;</li>
+  <li class='item-not'><strong>Sócios</strong>: só é permitido 1 pessoa física, que pode participar como sócio de outra empresa;</li>
+</ul>
+
+<h3 id="SS-Sociedade-Simples"><a href="#SS-Sociedade-Simples" class="headerlink" title="SS - Sociedade Simples"></a>SS - Sociedade Simples</h3><p>As restrições de atividades científicas, técnicas, artísticas e intelectuais que se aplicam ao IE podem ser facilmente resolvidas com as Sociedades Simples, também chamadas de Sociedades Profissionais.</p>
+<p>Uma Sociedade Simples é constituída por 2 ou mais sócios que se unem para <strong>prestar serviços</strong> de profissão intelectual, de natureza científica, artística ou literária, sem elemento de empresa (ex. médicos, psicólogos, dentistas, engenheiros, arquitetos, etc.).</p>
+<p>Estas sociedades apresentam <strong>responsabilidade ilimitada</strong>, ou seja, a responsabilidade dos sócios não está limitada à sua quota do capital social.</p>
+<p>Vejamos um exemplo: Paula e Fernanda são psicólogas que resolveram abrir um Sociedade Simples. Paula forneceu, para a abertura da empresa R$5.000,00 (25% do Capital Social) e Fernanda forneceu R$15.000,00 (75% do Capital). A natureza de responsabilidade ilimitada afirma que, caso a empresa contraia uma dívida, de digamos R$ 10.000,00, não há um limite de quanto cada uma poderia ofertar para quitar o débito.</p>
+<p>Caso a empresa fosse de natureza limitada, o que não pode ser feito pelas SS, cada uma das sócios só poderia ofertar uma porcentagem do valor da dívida, relativa a suas quotas do Capital Social. </p>
+<ul>
+  <li class='item-ok'><strong>Atividades</strong>: devem obrigatoriamente ser de natureza intelectual, científica, artística ou literária;</li>
+  <li class='item-ok'><strong>Faturamento</strong>: Até R$ 4,8 milhões no enquadramento simples, e R$ 78 milhões no Lucro Presumido;</li>
+  <li class='item-ok'><strong>Funcionários</strong>: não há limite máximo;</li>
+  <li class='item-ok'><strong>Enquadramento Tributário</strong>: os impostos podem ser pagos por meio do Simples Nacional (SIMEI) ou Lucro Presumido;</li>
+  <li class='item-ok'><strong>Filiais</strong>: não há limites máximos, desde que as filiais possuam o mesmo objeto social da matriz;</li>
+  <li class='item-not'><strong>Sócios</strong>: 2 ou mais sócios ;</li>
+</ul>
+
+<h3 id="Ltda-Sociedade-Empresaria-Limitada"><a href="#Ltda-Sociedade-Empresaria-Limitada" class="headerlink" title="Ltda - Sociedade Empresária Limitada"></a>Ltda - Sociedade Empresária Limitada</h3><p>A espécie de sociedade empresária mais adotada no Brasil é a Sociedade Limitada (LTDA.), por ser mais simples e pela proteção ao patrimônio pessoal dos sócios. Como o nome já sugere, esse tipo de empresa deve conter dois ou mais sócios. Cada sócio se responsabiliza pela parte financeira e administrativa, de acordo com o capital investido, que é indicado no contrato social da empresa.</p>
+<p>As Sociedades Empresárias Limitadas limitam a participação dos sócios por suas quotas do capital social. Isto significa que os ganhos e perdas feitos pela empresa serão distribuídos proporcionalmente entre os sócios.</p>
+<p>Este tipo de empresa pode exercer atividades de produção, circulação de bens, prestação de serviços e outras atividades de natureza comercial - excetuando aquelas cabíveis às Sociedades Simples.</p>
+<p>Os sócios das empresas podem responder com seus bens pessoais nos casos de comprovação de má-fé, sonegação fiscal, confusão patrimonial, estelionato, fraude contra credores e etc. Dívidas trabalhistas: A Justiça do Trabalho, recorrentemente, condena os sócios ao pagamento da dívida trabalhista com o patrimônio pessoal, no caso de os bens da empresa não serem suficientes.</p>
+<ul>
+  <li class='item-ok'><strong>Atividades</strong>: não podem ser de natureza intelectual, científica, artística ou literária;</li>
+  <li class='item-ok'><strong>Faturamento</strong>: Até R$ 4,8 milhões no enquadramento simples, e R$ 78 milhões no Lucro Presumido;</li>
+  <li class='item-ok'><strong>Funcionários</strong>: não há limite máximo;</li>
+  <li class='item-ok'><strong>Enquadramento Tributário</strong>: os impostos podem ser pagos por meio do Simples Nacional (SIMEI) ou Lucro Presumido;</li>
+  <li class='item-ok'><strong>Filiais</strong>: não há limites máximos;</li>
+  <li class='item-not'><strong>Sócios</strong>: 2 ou mais sócios;</li>
+</ul>
+
+
+<h3 id="SA-Sociedade-Anonima"><a href="#SA-Sociedade-Anonima" class="headerlink" title="SA - Sociedade Anônima"></a>SA - Sociedade Anônima</h3><p>As Sociedades Anônimas são tipos empresariais utilizados para empresas de grande porte (Companhias). Neste enquadramento jurídico o capital da empresa é dividido em quotas chamadas ações.</p>
+<p>Diferentemente dos outros modelos, nas Sociedades Anônimas os sócios são chamados de acionistas e podem comprar ações (isso será visto em aulas futuras sobre Economia), que são semelhantes às quotas de responsabilidade limitada.</p>
+<p>Além disso, as sociedades anônimas possuem uma administração mais fragmentada devido a uma presença menos significativa dos acionistas, comparada aos sócios das sociedades limitadas.</p>
+<ul>
+  <li class='item-ok'><strong>Atividades</strong>: não podem ser de natureza intelectual, científica, artística ou literária;</li>
+  <li class='item-ok'><strong>Faturamento</strong>: Mais de R$ 3,6 milhões por ano;</li>
+  <li class='item-ok'><strong>Funcionários</strong>: não há limite máximo;</li>
+  <li class='item-ok'><strong>Enquadramento Tributário</strong>: os impostos são pagos em um complexo modelo chamado Lucro Presumido;</li>
+  <li class='item-ok'><strong>Filiais</strong>: não há limites máximos;</li>
+  <li class='item-not'><strong>Sócios</strong>: 2 ou mais acionistas ;</li>
+</ul>
+
+<hr>
+<h2 id="Contrato-Social"><a href="#Contrato-Social" class="headerlink" title="Contrato Social"></a>Contrato Social</h2><p>Quando um grupo de sócios decide fundar uma empresa é necessário estruturar as regras de funcionamento da mesma. Estas regras são definidas pelo Estatuto das empresas, que recebe o nome especial de <strong>Contrato Social</strong>.</p>
+<p>Os contratos Sociais devem conter todas as informações referentes ao funcionamento interno da empresa, podendo ser modificados no futuro. Alguns dos pontos abordados neste documento são:</p>
+<ul>
+  <li class='item-ok'>A denominação da organização (nome);</li>
+  <li class='item-ok'>O endereço da sede;</li>
+  <li class='item-ok'>A duração da organização, isto é, por quanto tempo ela irá existir;</li>
+  <li class='item-ok'>Os fins (objetivos) da organização;</li>
+  <li class='item-ok'>A estrutura da organização (órgãos que a compõe);</li>
+  <li class='item-ok'>A responsabilidade de cada sócio;</li>
+  <li class='item-ok'>As regras para a entrada ou saída de sócios;</li>
+  <li class='item-ok'>Capital Social e Quotas;</li>
+  <li class='item-ok'>As regras para a divisão dos lucros;</li>
+  <li class='item-ok'>Delimitação do patrimônio;</li>
+  <li class='item-ok'>Disposições Gerais (regras gerais da organização, como a cláusula de dissolução e asa regras de votação)</li>
+</ul>
+
+<p>Cada tipo de Empresa possui particularidades em relação ao Contrato Social.</p>
+<p>O MEI não precisa possuir este documento, visto que se trata de uma única pessoa adotando um sistema de empresa simplificado.</p>
+<p>Para o EI, o Contrato Social recebe o nome de <strong>Requerimento de Empresário</strong>. e nada mais é do que um formulário estabelecido pelo Governo Federal, que não pode ser modificado. Por esta razão, é indicado a empresas que possuem uma atividade já estabelecida no mercado, sem previsões de mudanças a curto e médio prazo.</p>
+<p>O EIRELI possui o <strong>Ato Constitutivo</strong>, que funciona de modo semelhante ao Contrato Social padrão, possuindo algumas diferenças pontuais.</p>
+<p>Para as Socieades Empresárias (SS, LTDA e SA) os contratos devem ser registrados - em cartório, no caso das SS, e nas juntas comercias, no caso das LTDA e SA - e, em alguns casos, deve possuir a assinatura de um advogado (exceto se a empresa for ME ou EPP)</p>
+<p>Abaixo seguem modelos dos diferentes tipos de contratos sociais. Baixe-os e estude-os.</p>
+<p><a href="../../../../assets/content/administracao/modelos/modelo-requerimento-de-empresario.docx" target="_blank"><i class="icofont-download"></i>EI - Modelo de Requerimento de Empresário</a></p>
+<p><a href="../../../../assets/content/administracao/modelos/modelo-ato-constitutivo-ei.docx" target="_blank"><i class="icofont-download"></i>EI - Modelo de Ato Constitutivo</a></p>
+<p><a href="../../../../assets/content/administracao/modelos/modelo-ato-constitutivo-eireli.docx" target="_blank"><i class="icofont-download"></i>EIRELI - Modelo de Ato Constitutivo</a></p>
+<p><a href="../../../../assets/content/administracao/modelos/modelo-contrato-social.pdf" target="_blank"><i class="icofont-download"></i>PDF - Modelo de Contrato Social para Sociedade Simples Pura e Limitada</a></p>
+<p><a href="../../../../assets/content/administracao/modelos/modelo-contrato-social-ltda.docx" target="_blank"><i class="icofont-download"></i>LTDA - Modelo de Contrato Social para Sociedade Simples Limitada</a></p>
+<p>Após a confeção e registro do contrato, o mesmo poderá ser modificado. Para a alteração do Contrato Social, deve-se reunir todos os sócios da empresa (ou maioria simples) afim de se realizar uma <strong>Assembleia</strong> (reunião).</p>
+<p>Nesta assembleia ocorrerá a modificação do contrato social conforme as necessidades da situação. Em toda reunião deverá ser feita uma <strong>Ata</strong> contendo os pontos abordados na mesma.</p>
+<p><a href="../../../../assets/content/administracao/modelos/modelo-alteracao-contratual.doc" target="_blank"><i class="icofont-download"></i>LTDA - Modelo de Alteração Contratual para Sociedade Simples Pura e Limitada</a></p>
+<p><a href="../../../../assets/content/administracao/modelos/modelo-basico-ata-assembleia.doc" target="_blank"><i class="icofont-download"></i>Modelo de Ata Para Reunião</a></p>
+<hr>
+<h2 id="Plano-de-Negocios"><a href="#Plano-de-Negocios" class="headerlink" title="Plano de Negócios"></a>Plano de Negócios</h2><p>Antes mesmo de se iniciar a redação dos Contratos Sociais, os sócios das empresas precisar realizar um estudo aprofundado sobre o mercado em que vão atuar.</p>
+<p>Este levantamento recebe o nome de Plano de Negócios. </p>
+<p>“Um plano de negócio é um documento que descreve por escrito os objetivos de um negócio e quais passos devem ser dados para que esses objetivos sejam alcançados, diminuindo os riscos e as incertezas. Um plano de negócio permite identificar e restringir seus erros no papel, ao invés de cometê-los no mercado.” (SEBRAE, 2013)</p>
+<p>A análise realizada pelo Plano de Negócios é complexa e composta por várias etapas. Futuramente iremos estudá-las com profundidade. Por ora é importante saber que é o Plano de Negócios o responsável pelo sucesso de uma empresa, pois nele está o planejamento do seu negócio.</p>
+<hr>
+<h2 id="Resumo"><a href="#Resumo" class="headerlink" title="Resumo"></a>Resumo</h2><ul>
+<li><p>O processo de formalização de empresas é composto por várias etapas que devem ser seguidas a risca.</p>
+</li>
+<li><p>O CNPJ é o número de identificação de uma empresa - assim como o CPF é o documento de identificação das pessoas físicas. Além dele, as empresas necessitam de uma Inscrição Estadual (IE), de um cadastro na junta comercial (NIRE) e de um alvará municipal de funcionamento.</p>
+</li>
+<li><p>Há 6 principais tipos de empresas no Brasil, que se diferenciam conforme o tipo de atividade ofertado e a quantidade de sócios:</p>
+<ul>
+<li><table>
+<thead>
+<tr>
+<th>Tipo de Empresa</th>
+<th>Nº de Sócios</th>
+<th>Atividades Permitidas</th>
+<th>Faturamento Máximo Anual</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>MEI</td>
+<td>1</td>
+<td>Limitadas a uma <a href="http://www.portaldoempreendedor.gov.br/temas/quero-ser/formalize-se/atividades-permitidas" target="_blank" rel="noopener">lista restrita</a></td>
+<td>R$ 81.000,00</td>
+</tr>
+<tr>
+<td>EI</td>
+<td>1</td>
+<td>Exceto atividades intelectuais</td>
+<td>R$ 4.800.000,00 (simples)</td>
+</tr>
+<tr>
+<td>EIRELI</td>
+<td>1</td>
+<td>Sem exceções</td>
+<td>R$ 4.800.000,00 (simples)</td>
+</tr>
+<tr>
+<td>SS</td>
+<td>2 ou mais</td>
+<td>Científicas, técnicas, artísticas e intelectuais</td>
+<td>R$ 4.800.000,00 (simples)</td>
+</tr>
+<tr>
+<td>LTDA</td>
+<td>2 ou mais</td>
+<td>Exceto atividades intelectuais</td>
+<td>R$ 4.800.000,00 (simples)</td>
+</tr>
+</tbody></table>
+</li>
+</ul>
+</li>
+<li><p>O Contrato Social define as regras, objetivos, estrutura e divisão de tarefas de uma empresa.</p>
+<ul>
+<li>MEI não precisa possuir Contrato Social;</li>
+<li>EI e EIRELI possuem modelos específicos de Contrato denominados, respectivamente, <em>Requerimento Empresário</em> e <em>Ato Constitutivo</em>.</li>
+<li>EI, EIRELI, SS, SA e LTDA devem registrar os Contratos Sociais em Cartório ou na Junta Comercial. Algumas vezes pode ser necessário a assinatura de um advogado nos mesmos.</li>
+</ul>
+</li>
+<li><p>O Plano de Negócios é um documento escrito que formaliza os objetivos de um negócio e analisa seus pontos fortes e fracos, o mercado, a divisão de processos, etc.</p>
+</li>
+</ul>
+<hr>
+<h2 id="Exercicios"><a href="#Exercicios" class="headerlink" title="Exercícios"></a>Exercícios</h2><ol>
+<li><p>Quais as diferenças entre empresários, empreendedores, autônomos e comerciantes?</p>
+</li>
+<li><p>Pesquise o nome empresarial das empresas abaixo (ou de uma de suas filiais):<br>a) Supermercados EPA<br>b) Supermercados Verdemar<br>c) FIAT<br>d) Lenovo<br>e) Microsoft<br>f) McDonald’s<br>g) Burguer King</p>
+</li>
+<li><p>Pesquise o CNPJ das sociedades abaixo:<br>a) Município de Belo Horizonte<br>b) Google Akwan Internet LTDA (<em>sede da Google em BH</em>)<br>c) Fiat Betim<br>d) Subway<br>e) Rede Globo de Televisão<br>f) Assembleia Legislativa do Estado de Minas Gerais<br>g) UFMG</p>
+</li>
+</ol>
+<ol start="4">
+<li><p>O que é uma sociedade anônima? Quais as diferenças entre este modelo e as sociedades limitadas?</p>
+</li>
+<li><p>Quais as diferenças entre a Empresa Individual, EIRELI e MEI?</p>
+</li>
+<li><p>Qual é o passo-a-passo necessário para se abrir uma empresa no Brasil?</p>
+</li>
+</ol>
+<hr>
+<h2 id="Referencias-Bibliograficas"><a href="#Referencias-Bibliograficas" class="headerlink" title="Referências Bibliográficas"></a>Referências Bibliográficas</h2><p>ANTIONARO, Fábio. Formalização para começar bem: como formalizar o seu negócio: manual do participante. Brasília : Sebrae, 2014. 36 p. il. Disponível em <a href="https://bit.ly/2W2KaZV" target="_blank" rel="noopener">https://bit.ly/2W2KaZV</a>. Acesso em <em>4 de mai. de 2020</em>.</p>
+<p>BRASIL. LEI N o 10.406, DE 10 DE JANEIRO DE 2002. Institui o Código Civil. Disponível em <a href="http://www.planalto.gov.br/ccivil_03/leis/2002/l10406.htm" target="_blank" rel="noopener">http://www.planalto.gov.br/ccivil_03/leis/2002/l10406.htm</a>. Acesso em Acesso en <em>4 de mai. de 2020</em>.</p>
+<p>SEBRAE. Como elaborar um Plano de Negócios. Brasília, Sebrae NA, 2013. Disponível em <a href="https://bit.ly/2VZAe34" target="_blank" rel="noopener">https://bit.ly/2VZAe34</a>.  Acesso em Acesso en <em>4 de mai. de 2020</em>.</p>
+<p>SEBRAE. Abertura de Empresas. Manaues, Sebrae AM, 2018. Disponível em <a href="https://bit.ly/3djcSLR" target="_blank" rel="noopener">https://bit.ly/3djcSLR</a>. Acesso em <em>4 de mai. de 2020</em>.</p>
+<p>SEBRAE. Cartilha do empreendedor. 3. ed. rev. e ampl. - Salvador, Sebrae Bahia, 2009. 68 p. : il. Disponível em <a href="https://bit.ly/2KVsBEJ" target="_blank" rel="noopener">https://bit.ly/2KVsBEJ</a>. Acesso em <em>4 de mai. de 2020</em>.</p>
+
+        </div>
+
+        
+            <section class="post-copyright">
+                
+                
+                    <p class="copyright-item">
+                        <span>Conteúdo disponível em:</span>
+                        <span><a href="http://zmdy.github.io/aulas.txt/posts/administracao/aulas/aula-16/">http://zmdy.github.io/aulas.txt/posts/administracao/aulas/aula-16/</a></span>
+                    </p>
+                
+                
+                    <p class="copyright-item">
+                        <span>Licença:</span>
+                        <span>Este material está distribuído com uma licença <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC-BY-4.0</a></span>
+                    </p>
+                
+                
+
+            </section>
+        
+        <section class="post-tags">
+            <div>
+                <span>Tag(s):</span>
+                <span class="tag">
+                    
+                    
+                        <a href="/aulas.txt/pages/tag/Auxiliar-Administrativo-Modulo-02-Aulas/"># Auxiliar Administrativo - Módulo 02 - Aulas</a>
+                    
+                        
+                </span>
+            </div>
+            <div>
+                <a href="javascript:window.history.back();">voltar</a>
+                <span>· </span>
+                <a href="/aulas.txt/">home</a>
+            </div>
+        </section>
+        <section class="post-nav">
+            
+                <a class="prev" rel="prev" href="/aulas.txt/posts/slides/temas/standard/">Demonstração do Tema - Standard</a>
+            
+            
+            <a class="next" rel="next" href="/aulas.txt/posts/administracao/aulas/aula-05/">Aula 05 -  Módulo 01 - Auxiliar Administrativo</a>
+            
+        </section>
+
+
+    </article>
+</div>
+
+        </div>
+        <footer id="footer" class="footer">
+    <div class="copyright">
+        <span>© aulas.txt | Feito com <a href="https://hexo.io" target="_blank">Hexo</a> & <a href="https://github.com/Siricee/hexo-theme-Chic" target="_blank">Chic</a> | <a target="_blank" onclick="printPage()">Imprimir esta página em PDF</a></span>
+    </div>
+</footer>
+
+    </div><!-- hexo-inject:begin --><!-- Begin: Injected MathJax -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({"tex2jax":{"inlineMath":[["$","$"],["\\(","\\)"]],"skipTags":["script","noscript","style","textarea","pre","code"],"processEscapes":true},"TeX":{"equationNumbers":{"autoNumber":"AMS"}}});
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+      all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+</script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js">
+</script>
+<!-- End: Injected MathJax -->
+<!-- hexo-inject:end -->
+</body>
+</html>

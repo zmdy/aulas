@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="UTF-8">
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="author" content="zmdy">
+
+
+
+
+
+<title>aulas.txt</title>
+
+<!-- HERE ARE SOME LIBARIES AND PERSONAL TOOLS OF THE SRC FOLDER -->
+<script src="/aulas.txt/src/js/bonisa.min.js"></script>
+<script src="/aulas.txt/src/libs/printjs/print.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="/aulas.txt/assets/media/fonts/icofont/icofont.css">
+<script>
+  function printPage(){
+    printJS({
+        printable: 'aulasTXT', type: 'html',
+        header: null,
+        css: '/aulas.txt/css/style.css'
+    });
+  }
+</script>
+
+
+
+
+    <link rel="icon" href="/aulas.txt/favicon.png">
+
+
+
+
+    <!-- stylesheets list from _config.yml -->
+    
+    <link rel="stylesheet" href="/aulas.txt/css/style.css">
+    
+
+
+
+    <!-- scripts list from _config.yml -->
+    
+    <script src="/aulas.txt/js/script.js"></script>
+    
+    <script src="/aulas.txt/js/tocbot.min.js"></script>
+    
+
+
+
+    
+    
+        
+    
+
+
+<meta name="generator" content="Hexo 4.2.0"><!-- hexo-inject:begin --><!-- hexo-inject:end --></head>
+<body>
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><div class="wrapper">
+        <header>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header header-logo"><a href="/aulas.txt/">aulas.txt</a></div>
+            <div class="menu navbar-right">
+                
+                    <a class="menu-item" href="/aulas.txt/pages/cursos">Cursos</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/tag">Materiais</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/manual">Manual</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/sobre">Sobre</a>
+                
+                <input id="switch_default" type="checkbox" class="switch_default">
+                <label for="switch_default" class="toggleBtn"></label>
+            </div>
+        </div>
+    </nav>
+
+    
+    <nav class="navbar-mobile" id="nav-mobile">
+        <div class="container">
+            <div class="navbar-header">
+                <div>
+                    <a href="/aulas.txt/">aulas.txt</a><a id="mobile-toggle-theme">·&nbsp;Light</a>
+                </div>
+                <div class="menu-toggle" onclick="mobileBtn()">&#9776; Menu</div>
+            </div>
+            <div class="menu" id="mobile-menu">
+                
+                    <a class="menu-item" href="/aulas.txt/pages/cursos">Cursos</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/tag">Materiais</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/manual">Manual</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/sobre">Sobre</a>
+                
+            </div>
+        </div>
+    </nav>
+
+</header>
+<script>
+    var mobileBtn = function f() {
+        var toggleMenu = document.getElementsByClassName("menu-toggle")[0];
+        var mobileMenu = document.getElementById("mobile-menu");
+        if(toggleMenu.classList.contains("active")){
+           toggleMenu.classList.remove("active")
+            mobileMenu.classList.remove("active")
+        }else{
+            toggleMenu.classList.add("active")
+            mobileMenu.classList.add("active")
+        }
+    }
+</script>
+        <div class="main padding-05mm" id="aulasTXT">
+            <div class="container">
+    <article class="post-wrap page">
+        
+        <h2 class="post-title"></h2>
+        
+        <section class="post-content">
+            <a href="https://marked.js.org" target="_blank" rel="noopener">
+  <img width="60px" height="60px" src="https://marked.js.org/img/logo-black.svg" align="right" />
+</a>
+
+<h1 id="Marked"><a href="#Marked" class="headerlink" title="Marked"></a>Marked</h1><p><a href="https://www.npmjs.com/package/marked" target="_blank" rel="noopener"><img src="https://badgen.net/npm/v/marked" alt="npm"></a><br><a href="https://cdn.jsdelivr.net/npm/marked/marked.min.js" target="_blank" rel="noopener"><img src="https://badgen.net/badgesize/gzip/https://cdn.jsdelivr.net/npm/marked/marked.min.js" alt="gzip size"></a><br><a href="https://packagephobia.now.sh/result?p=marked" target="_blank" rel="noopener"><img src="https://badgen.net/packagephobia/install/marked" alt="install size"></a><br><a href="https://www.npmjs.com/package/marked" target="_blank" rel="noopener"><img src="https://badgen.net/npm/dt/marked" alt="downloads"></a><br><a href="https://david-dm.org/markedjs/marked" target="_blank" rel="noopener"><img src="https://badgen.net/david/dep/markedjs/marked?label=deps" alt="dep"></a><br><a href="https://david-dm.org/markedjs/marked?type=dev" target="_blank" rel="noopener"><img src="https://badgen.net/david/dev/markedjs/marked?label=devDeps" alt="dev dep"></a><br><a href="https://travis-ci.org/markedjs/marked" target="_blank" rel="noopener"><img src="https://badgen.net/travis/markedjs/marked" alt="travis"></a><br><a href="https://snyk.io/test/npm/marked" target="_blank" rel="noopener"><img src="https://snyk.io/test/npm/marked/badge.svg" alt="snyk"></a></p>
+<ul>
+<li>⚡ built for speed</li>
+<li>⬇️ low-level compiler for parsing markdown without caching or blocking for long periods of time</li>
+<li>⚖️ light-weight while implementing all markdown features from the supported flavors &amp; specifications</li>
+<li>🌐 works in a browser, on a server, or from a command line interface (CLI)</li>
+</ul>
+<h2 id="Demo"><a href="#Demo" class="headerlink" title="Demo"></a>Demo</h2><p>Checkout the <a href="https://marked.js.org/demo/" target="_blank" rel="noopener">demo page</a> to see marked in action ⛹️</p>
+<h2 id="Docs"><a href="#Docs" class="headerlink" title="Docs"></a>Docs</h2><p>Our <a href="https://marked.js.org" target="_blank" rel="noopener">documentation pages</a> are also rendered using marked 💯</p>
+<p>Also read about:</p>
+<ul>
+<li><a href="https://marked.js.org/#/USING_ADVANCED.md" target="_blank" rel="noopener">Options</a></li>
+<li><a href="https://marked.js.org/#/USING_PRO.md" target="_blank" rel="noopener">Extensibility</a></li>
+</ul>
+<h2 id="Installation"><a href="#Installation" class="headerlink" title="Installation"></a>Installation</h2><p><strong>CLI:</strong> <code>npm install -g marked</code></p>
+<p><strong>In-browser:</strong> <code>npm install marked</code></p>
+<h2 id="Usage"><a href="#Usage" class="headerlink" title="Usage"></a>Usage</h2><h3 id="Warning-🚨-Marked-does-not-sanitize-the-output-HTML-Please-use-a-sanitize-library-like-DOMPurify-recommended-sanitize-html-or-insane-on-the-output-HTML-🚨"><a href="#Warning-🚨-Marked-does-not-sanitize-the-output-HTML-Please-use-a-sanitize-library-like-DOMPurify-recommended-sanitize-html-or-insane-on-the-output-HTML-🚨" class="headerlink" title="Warning: 🚨 Marked does not sanitize the output HTML. Please use a sanitize library, like DOMPurify (recommended), sanitize-html or insane on the output HTML! 🚨"></a>Warning: 🚨 Marked does not <a href="https://marked.js.org/#/USING_ADVANCED.md#options" target="_blank" rel="noopener">sanitize</a> the output HTML. Please use a sanitize library, like <a href="https://github.com/cure53/DOMPurify" target="_blank" rel="noopener">DOMPurify</a> (recommended), <a href="https://github.com/apostrophecms/sanitize-html" target="_blank" rel="noopener">sanitize-html</a> or <a href="https://github.com/bevacqua/insane" target="_blank" rel="noopener">insane</a> on the output HTML! 🚨</h3><p><strong>CLI</strong></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">$ marked -o hello.html</span><br><span class="line">hello world</span><br><span class="line">^D</span><br><span class="line">$ cat hello.html</span><br><span class="line">&lt;p&gt;hello world&lt;/p&gt;</span><br></pre></td></tr></table></figure>
+
+<p><strong>Browser</strong></p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;!doctype <span class="meta-keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">"utf-8"</span>/&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">title</span>&gt;</span>Marked in the browser<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">"content"</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"https://cdn.jsdelivr.net/npm/marked/marked.min.js"</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="javascript">    <span class="built_in">document</span>.getElementById(<span class="string">'content'</span>).innerHTML =</span></span><br><span class="line"><span class="actionscript">      marked(<span class="string">'# Marked in the browser\n\nRendered by **marked**.'</span>);</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="License"><a href="#License" class="headerlink" title="License"></a>License</h2><p>Copyright (c) 2011-2018, Christopher Jeffrey. (MIT License)</p>
+
+        </section>
+    </article>
+</div>
+
+        </div>
+        <footer id="footer" class="footer">
+    <div class="copyright">
+        <span>© aulas.txt | Feito com <a href="https://hexo.io" target="_blank">Hexo</a> & <a href="https://github.com/Siricee/hexo-theme-Chic" target="_blank">Chic</a> | <a target="_blank" onclick="printPage()">Imprimir esta página em PDF</a></span>
+    </div>
+</footer>
+
+    </div><!-- hexo-inject:begin --><!-- Begin: Injected MathJax -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({"tex2jax":{"inlineMath":[["$","$"],["\\(","\\)"]],"skipTags":["script","noscript","style","textarea","pre","code"],"processEscapes":true},"TeX":{"equationNumbers":{"autoNumber":"AMS"}}});
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+      all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+</script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js">
+</script>
+<!-- End: Injected MathJax -->
+<!-- hexo-inject:end -->
+</body>
+</html>

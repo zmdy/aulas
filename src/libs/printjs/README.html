@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="UTF-8">
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="author" content="zmdy">
+
+
+
+
+
+<title>aulas.txt</title>
+
+<!-- HERE ARE SOME LIBARIES AND PERSONAL TOOLS OF THE SRC FOLDER -->
+<script src="/aulas.txt/src/js/bonisa.min.js"></script>
+<script src="/aulas.txt/src/libs/printjs/print.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="/aulas.txt/assets/media/fonts/icofont/icofont.css">
+<script>
+  function printPage(){
+    printJS({
+        printable: 'aulasTXT', type: 'html',
+        header: null,
+        css: '/aulas.txt/css/style.css'
+    });
+  }
+</script>
+
+
+
+
+    <link rel="icon" href="/aulas.txt/favicon.png">
+
+
+
+
+    <!-- stylesheets list from _config.yml -->
+    
+    <link rel="stylesheet" href="/aulas.txt/css/style.css">
+    
+
+
+
+    <!-- scripts list from _config.yml -->
+    
+    <script src="/aulas.txt/js/script.js"></script>
+    
+    <script src="/aulas.txt/js/tocbot.min.js"></script>
+    
+
+
+
+    
+    
+        
+    
+
+
+<meta name="generator" content="Hexo 4.2.0"><!-- hexo-inject:begin --><!-- hexo-inject:end --></head>
+<body>
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><div class="wrapper">
+        <header>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header header-logo"><a href="/aulas.txt/">aulas.txt</a></div>
+            <div class="menu navbar-right">
+                
+                    <a class="menu-item" href="/aulas.txt/pages/cursos">Cursos</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/tag">Materiais</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/manual">Manual</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/sobre">Sobre</a>
+                
+                <input id="switch_default" type="checkbox" class="switch_default">
+                <label for="switch_default" class="toggleBtn"></label>
+            </div>
+        </div>
+    </nav>
+
+    
+    <nav class="navbar-mobile" id="nav-mobile">
+        <div class="container">
+            <div class="navbar-header">
+                <div>
+                    <a href="/aulas.txt/">aulas.txt</a><a id="mobile-toggle-theme">·&nbsp;Light</a>
+                </div>
+                <div class="menu-toggle" onclick="mobileBtn()">&#9776; Menu</div>
+            </div>
+            <div class="menu" id="mobile-menu">
+                
+                    <a class="menu-item" href="/aulas.txt/pages/cursos">Cursos</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/tag">Materiais</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/manual">Manual</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/sobre">Sobre</a>
+                
+            </div>
+        </div>
+    </nav>
+
+</header>
+<script>
+    var mobileBtn = function f() {
+        var toggleMenu = document.getElementsByClassName("menu-toggle")[0];
+        var mobileMenu = document.getElementById("mobile-menu");
+        if(toggleMenu.classList.contains("active")){
+           toggleMenu.classList.remove("active")
+            mobileMenu.classList.remove("active")
+        }else{
+            toggleMenu.classList.add("active")
+            mobileMenu.classList.add("active")
+        }
+    }
+</script>
+        <div class="main padding-05mm" id="aulasTXT">
+            <div class="container">
+    <article class="post-wrap page">
+        
+        <h2 class="post-title"></h2>
+        
+        <section class="post-content">
+            <h1 id="Print-js"><a href="#Print-js" class="headerlink" title="Print.js"></a>Print.js</h1><p><a href="https://travis-ci.org/crabbly/Print.js" target="_blank" rel="noopener"><img src="https://travis-ci.org/crabbly/Print.js.svg?branch=master" alt="Build Status"></a><br><a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat" alt="Software License"></a><br><a href="http://standardjs.com/" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/code_style-standard-brightgreen.svg" alt="Standard - JavaScript Style Guide"></a><br><a href="https://www.npmjs.com/package/print-js" target="_blank" rel="noopener"><img src="https://img.shields.io/npm/v/print-js.svg" alt="npm"></a></p>
+<p>A tiny javascript library to help printing from the web.</p>
+<blockquote>
+<p>For documentation and examples please visit: <a href="http://printjs.crabbly.com" target="_blank" rel="noopener">printjs.crabbly.com</a></p>
+</blockquote>
+<h2 id="Installation"><a href="#Installation" class="headerlink" title="Installation"></a>Installation</h2><p>You can download the latest version of Print.js from the <a href="https://github.com/crabbly/Print.js/releases/latest" target="_blank" rel="noopener">GitHub releases</a> or use the <a href="http://printjs.crabbly.com/#cdn" target="_blank" rel="noopener">Print.js CDN</a> available on the documentation page.</p>
+<p>To install via npm:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install <span class="built_in">print</span>-js --save</span><br></pre></td></tr></table></figure>
+
+<p>To install via yarn:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yarn add <span class="built_in">print</span>-js</span><br></pre></td></tr></table></figure>
+
+<p>Import the library into your project:</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> printJS <span class="keyword">from</span> <span class="string">'print-js'</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="Documentation"><a href="#Documentation" class="headerlink" title="Documentation"></a>Documentation</h2><p>You can find documentation at <a href="http://printjs.crabbly.com/#documentation" target="_blank" rel="noopener">printjs.crabbly.com</a>.</p>
+<h2 id="Contributing-to-Print-js"><a href="#Contributing-to-Print-js" class="headerlink" title="Contributing to Print.js"></a>Contributing to Print.js</h2><p><a href="https://david-dm.org/crabbly/print.js?type=dev" target="_blank" rel="noopener"><img src="https://david-dm.org/crabbly/print.js/dev-status.svg" alt="devDependencies Status"></a><br><a href="https://david-dm.org/crabbly/print.js" target="_blank" rel="noopener"><img src="https://david-dm.org/crabbly/print.js/status.svg" alt="dependencies Status"></a></p>
+<p>Contributions to Print.js are welcome and encouraged.</p>
+<h5 id="Using-issues"><a href="#Using-issues" class="headerlink" title="Using issues"></a>Using issues</h5><p>The <a href="https://github.com/crabbly/Print.js/issues" target="_blank" rel="noopener">issue tracker</a> is the preferred channel for reporting bugs, requesting new features and submitting pull requests.</p>
+<p>Keep in mind that we would like to keep this a lightweight library.</p>
+<p>Please do not use the issues channel for support requests. For help using Print.js, please ask questions on Stack Overflow and use the tag <code>printjs</code>.</p>
+<h5 id="Reporting-bugs"><a href="#Reporting-bugs" class="headerlink" title="Reporting bugs"></a>Reporting bugs</h5><p>Well structured, detailed bug reports are hugely valuable for the project.</p>
+<ul>
+<li>Check the issue search to see if it has already been reported</li>
+<li>Isolate the problem to a simple test case</li>
+</ul>
+<p>Please provide any additional details associated with the bug.</p>
+<h5 id="Pull-requests"><a href="#Pull-requests" class="headerlink" title="Pull requests"></a>Pull requests</h5><p>Clear, concise pull requests are excellent at continuing the project’s community driven growth.  </p>
+<p>Please make your commits in logical sections with clear commit messages.  </p>
+<h5 id="Setting-up-a-dev-environment"><a href="#Setting-up-a-dev-environment" class="headerlink" title="Setting up a dev environment"></a>Setting up a dev environment</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm install</span><br><span class="line">npm run watch</span><br></pre></td></tr></table></figure>
+
+<h5 id="Tests"><a href="#Tests" class="headerlink" title="Tests"></a>Tests</h5><p>The library is written following the <a href="https://standardjs.com" target="_blank" rel="noopener">Javascript Standard</a> code style. When running tests, we will also test for any style issues or warnings.</p>
+<p>Automated tests are written using the <a href="https://jasmine.github.io" target="_blank" rel="noopener">Jasmine</a> framework and <a href="https://karma-runner.github.io" target="_blank" rel="noopener">Karma</a> runner.</p>
+<p>To run the automated tests:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm run <span class="built_in">test</span></span><br></pre></td></tr></table></figure>
+
+<p>To manually test the library features:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm start</span><br></pre></td></tr></table></figure>
+
+<p>This will serve <code>test\manual\test.html</code> and open <code>http://localhost:8080/test/manual</code> in your default browser.</p>
+<h2 id="License"><a href="#License" class="headerlink" title="License"></a>License</h2><p>Print.js is available under the <a href="https://github.com/crabbly/Print.js/blob/master/LICENSE" target="_blank" rel="noopener">MIT license</a>.</p>
+
+        </section>
+    </article>
+</div>
+
+        </div>
+        <footer id="footer" class="footer">
+    <div class="copyright">
+        <span>© aulas.txt | Feito com <a href="https://hexo.io" target="_blank">Hexo</a> & <a href="https://github.com/Siricee/hexo-theme-Chic" target="_blank">Chic</a> | <a target="_blank" onclick="printPage()">Imprimir esta página em PDF</a></span>
+    </div>
+</footer>
+
+    </div><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+</body>
+</html>

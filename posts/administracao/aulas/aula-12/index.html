@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="UTF-8">
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="author" content="zmdy">
+
+
+
+
+
+<title>Aula 02 -  Módulo 02 - Contabilidade | aulas.txt</title>
+
+<!-- HERE ARE SOME LIBARIES AND PERSONAL TOOLS OF THE SRC FOLDER -->
+<script src="/aulas.txt/src/js/bonisa.min.js"></script>
+<script src="/aulas.txt/src/libs/printjs/print.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="/aulas.txt/assets/media/fonts/icofont/icofont.css">
+<script>
+  function printPage(){
+    printJS({
+        printable: 'aulasTXT', type: 'html',
+        header: null,
+        css: '/aulas.txt/css/style.css'
+    });
+  }
+</script>
+
+
+
+
+    <link rel="icon" href="/aulas.txt/favicon.png">
+
+
+
+
+    <!-- stylesheets list from _config.yml -->
+    
+    <link rel="stylesheet" href="/aulas.txt/css/style.css">
+    
+
+
+
+    <!-- scripts list from _config.yml -->
+    
+    <script src="/aulas.txt/js/script.js"></script>
+    
+    <script src="/aulas.txt/js/tocbot.min.js"></script>
+    
+
+
+
+    
+    
+        
+    
+
+
+<meta name="generator" content="Hexo 4.2.0"><!-- hexo-inject:begin --><!-- hexo-inject:end --></head>
+<body>
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><div class="wrapper">
+        <header>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header header-logo"><a href="/aulas.txt/">aulas.txt</a></div>
+            <div class="menu navbar-right">
+                
+                    <a class="menu-item" href="/aulas.txt/pages/cursos">Cursos</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/tag">Materiais</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/manual">Manual</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/sobre">Sobre</a>
+                
+                <input id="switch_default" type="checkbox" class="switch_default">
+                <label for="switch_default" class="toggleBtn"></label>
+            </div>
+        </div>
+    </nav>
+
+    
+    <nav class="navbar-mobile" id="nav-mobile">
+        <div class="container">
+            <div class="navbar-header">
+                <div>
+                    <a href="/aulas.txt/">aulas.txt</a><a id="mobile-toggle-theme">·&nbsp;Light</a>
+                </div>
+                <div class="menu-toggle" onclick="mobileBtn()">&#9776; Menu</div>
+            </div>
+            <div class="menu" id="mobile-menu">
+                
+                    <a class="menu-item" href="/aulas.txt/pages/cursos">Cursos</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/tag">Materiais</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/manual">Manual</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/sobre">Sobre</a>
+                
+            </div>
+        </div>
+    </nav>
+
+</header>
+<script>
+    var mobileBtn = function f() {
+        var toggleMenu = document.getElementsByClassName("menu-toggle")[0];
+        var mobileMenu = document.getElementById("mobile-menu");
+        if(toggleMenu.classList.contains("active")){
+           toggleMenu.classList.remove("active")
+            mobileMenu.classList.remove("active")
+        }else{
+            toggleMenu.classList.add("active")
+            mobileMenu.classList.add("active")
+        }
+    }
+</script>
+        <div class="main padding-05mm" id="aulasTXT">
+            <div class="container">
+    
+    
+        <div class="post-toc">
+    <div class="tocbot-list">
+    </div>
+    <div class="tocbot-list-menu">
+        <a class="tocbot-toc-expand" onclick="expand_toc()">Expand all</a>
+        <a onclick="go_top()">Back to top</a>
+        <a onclick="go_bottom()">Go to bottom</a>
+    </div>
+</div>
+
+<script>
+    document.ready(
+        function () {
+            tocbot.init({
+                tocSelector: '.tocbot-list',
+                contentSelector: '.post-content',
+                headingSelector: 'h1, h2, h3, h4, h5',
+                collapseDepth: 1,
+                orderedList: false,
+                scrollSmooth: true,
+            })
+        }
+    )
+
+    function expand_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 6,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "collapse_toc()");
+        b.innerHTML = "Collapse all"
+    }
+
+    function collapse_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 1,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "expand_toc()");
+        b.innerHTML = "Expand all"
+    }
+
+    function go_top() {
+        window.scrollTo(0, 0);
+    }
+
+    function go_bottom() {
+        window.scrollTo(0, document.body.scrollHeight);
+    }
+
+</script>
+    
+
+    
+    <article class="post-wrap">
+        <header class="post-header">
+            <h1 class="post-title">Aula 02 -  Módulo 02 - Contabilidade</h1>
+            
+                <div class="post-meta">
+                    
+
+                    
+                        <span class="post-time">
+                        Data de Publicação: <a href="#">02/04/2020&nbsp;&nbsp;11:25</a>
+                        </span>
+                    
+                    
+                </div>
+            
+        </header>
+
+        <div class="post-content">
+            <img src="../../../../assets/media/img/cursos/logo-auxiliar-administrativo-01.png" alt="Auxiliar Administrativo" title="Auxiliar Administrativo" class="img-50  bg-white">
+
+<p>Bem vindx à segunda aula do curso de Contabilidade!</p>
+<p>Na última aula estudamos as primeiras Teorias Administrativas desenvolvidas, conhecidas como <a href="../aula-11">Teorias de Sistema Fechado</a>. Neste primeiro momento não houve preocupação com a análise dos <strong>fatores externos</strong> às empresas, como a concorrência, clientes e o ambiente.</p>
+<p>Além disso, as Teorias Clássicas apresentam micro visões do ambiente interno de uma organização, focando em aspectos específicos do contexto geral, como o processo produtivo (Taylor e Ford), a departamentalização (Fayol) e a organização dos processos (burocracia Weberiana).</p>
+<p>Para resolver estas discrepâncias e sintetizar as teorias clássicas foram desenvolvidas as <strong>Teorias de Sistema Aberto</strong>.</p>
+<p><em>Simbora, meu povo!</em></p>
+<hr>
+<h2 id="Sumario-da-Aula"><a href="#Sumario-da-Aula" class="headerlink" title="Sumário da Aula"></a>Sumário da Aula</h2><ol>
+<li><a href="#Teoria-Estruturalista">Teoria Estruturalista</a></li>
+<li><a href="#Teoria-de-Sistemas">Teoria de Sistemas</a></li>
+<li><a href="#Teoria-Contingencial">Teoria Contingencial</a></li>
+<li><a href="#Resumo">Resumo</a></li>
+<li><a href="#Exercicios">Exercícios</a></li>
+<li><a href="#Referencias-Bibliograficas">Referências Bibliográficas</a></li>
+</ol>
+<hr>
+<h2 id="Teoria-Estruturalista"><a href="#Teoria-Estruturalista" class="headerlink" title="Teoria Estruturalista"></a>Teoria Estruturalista</h2><p>Um de seus mais importantes teóricos estruturalistas, <strong>Amitai Etzione</strong> considerava a organização como “<em>um complexo de grupos sociais cujos interesses podem ou não ser conflitantes</em>”. Dessa maneira, essa teoria buscou “complementar” ou sintetizar as teorias anteriores (clássicas e humanas), pois acredita que aquelas focavam apenas em <strong>partes do todo</strong>. Desta forma, a ideia principal foi considerar a organização em todos os aspectos como <strong>uma só estrutura</strong> – integrando todas as “visões” anteriores.</p>
+<p>Para os <strong>estruturalistas</strong>, a sociedade moderna seria uma <strong>Sociedade de Organizações</strong>. O homem dependeria dessas organizações para tudo (trabalho, consumo, diversão, etc.) e desempenharia, em cada uma delas, uma série de <strong>“papéis” diferentes</strong>.</p>
+<p>Assim, apareceu o conceito de <strong>Homem Organizacional</strong>, aquele que desempenha diversos papéis nas diversas organizações.</p>
+<p>O <strong>homem organizacional</strong> era o indivíduo idealizado para compor o cenário industrializado e com alta rotatividade que se formava naquela época, era preciso que os funcionários entendessem que em nome da empresa ele precisaria <strong>ser capaz de adiar ou abdicar de seus interesses</strong>, ser flexível diante dos diversos papéis que ele poderia exercer dentro das organizações.</p>
+<p>A Teoria Estruturalista propôs diferentes concepções das organizações. <strong>Alvir Gouldner</strong> propôs a existência de <strong>2 modelos</strong> diferentes de organizações: as naturais e as racionais.</p>
+<p>O <strong>modelo racional</strong> seria baseado no controle e no planejamento. A ideia era a de um <strong>sistema fechado</strong>, com pouca incerteza e preocupação para com o “mundo externo” à organização. </p>
+<p>Já no <strong>modelo natural</strong> existe a noção de que a <strong>realidade é incerta</strong>, ou seja, há fatores externos às organizações que não podem ser previstos. A própria organização é um conjunto de órgãos e setores inter-relacionados e interdependentes. Assim, é um modelo que se preocupa com as “trocas” com o ambiente externo, ou seja, é um modelo de <strong>sistema aberto</strong>.</p>
+<hr>
+<h2 id="Teoria-de-Sistemas"><a href="#Teoria-de-Sistemas" class="headerlink" title="Teoria de Sistemas"></a>Teoria de Sistemas</h2><p>A <strong>Teoria dos Sistemas na Administração</strong> – TGS – foi derivada do trabalho do biólogo <strong>Ludwig von Bertalanffy</strong>. </p>
+<p>Um <strong>sistema</strong>, de acordo com Bertalanffy, é um conjunto de unidades reciprocamente relacionadas para alcançar um propósito ou objetivo. </p>
+<p>Assim, a <strong>Teoria dos Sistemas</strong> acolheu o conceito no qual as <strong>organizações são sistemas abertos</strong>, ou seja, que trocam continuamente energia (ou matéria-prima, informações etc.) com o meio ambiente.</p>
+<p>Não podemos entender uma <strong>organização</strong> sem saber o <strong>contexto</strong> em que ela opera (mercado). Do mesmo modo, uma organização é a <strong>soma de suas partes</strong> (gerência de marketing, gerência de finanças etc.) e <strong>uma área depende da outra</strong> – o conceito de interdependência.</p>
+<p>Dessa forma, o administrador deve ter uma <strong>visão do todo</strong>! De como as áreas da organização interagem e quais são as interdependências.</p>
+<p>Os principais conceitos da Teoria dos Sistemas são:</p>
+<p>1)    <strong>Entrada</strong>: se relaciona com tudo o que o sistema <strong>recebe do ambiente externo</strong> para poder funcionar (matéria prima, funcionários, influências do Mercado).</p>
+<p>2) <strong>Saída</strong>: é o que o sistema <strong>produz</strong>. Uma saída pode ser: energia, uma informação, um produto etc.</p>
+<p>3)    <strong>Feedback</strong>: é o <strong>retorno</strong> ou <strong>resposta</strong> sobre o que foi produzido, de modo que o Sistema possa se corrigir ou modificar. O <em>feedback</em> pode ser <strong>positivo</strong>, quando há uma boa resposta/recepção a uma saída; ou <strong>negativo</strong>, quando não há uma boa resposta àquilo que foi produzido.</p>
+<p>4)    <strong>Caixa-preta</strong>: este conceito está relacionado à necessidade das empresas manterem para si, em segredo muitas vezes, sua estrutura interna de funcionamento. Não temos como saber analisando somente as entradas (matéria-prima) e saídas (produtos) do sistema os processos que ocorrem em seu interior (organização interna da empresa).</p>
+<hr>
+<h2 id="Teoria-Contingencial"><a href="#Teoria-Contingencial" class="headerlink" title="Teoria Contingencial"></a>Teoria Contingencial</h2><p>Para a <strong>Teoria Contingencial</strong>, não existe uma “fórmula mágica” para se resolver os <strong>problemas das organizações</strong>. Cada situação pede uma resposta diferente. Assim, tudo é relativo. Tudo depende.</p>
+<p>A palavra <strong>contingência</strong> significa algo incerto ou eventual, que pode suceder ou não; refere-se a uma proposição que só pode ser conhecida pela <strong>experiência</strong> e pela evidência e não pela razão. </p>
+<p>Ou seja, antes que um administrador possa determinar qual é o <strong>“caminho” correto</strong> para uma empresa, é necessária uma <strong>análise ambiental</strong> (estudo) levando em conta fatores como o tamanho da empresa, o mercado e sua estrutura. Os fatores devem, sempre, ser levados em conta para se delimitar um curso de ação.</p>
+<p>Dessa forma, para a Teoria Contingencial <strong>não há uma única maneira</strong> de se alcançar um objetivo, pois há sempre <strong>fatores internos</strong> (variáveis dependentes) e <strong>externos</strong> (variáveis independentes) envolvidas no processo. <strong>Analisar e estudar</strong> a importância de todos os fatores e a delimitação das contingências é essencial para delimitar um plano de ação.</p>
+<p>Uma importante <strong>consequência</strong> da Teoria Contingencial no mundo organizacional é a criação de <strong>organizações em rede</strong>. Este ambiente é uma rede formada por diversas <strong>organizações interligadas</strong>, tornando o processo de produção <strong>mais flexível</strong> e com <strong>menor número de variáveis</strong>.</p>
+<p>Por exemplo, o <strong>mercado automobilístico</strong> é formado por diversas <strong>montadoras</strong>, oficinas, seguradoras, fábricas de peças etc. Assim, em vez de a empresa <strong>verticalizar sua produção</strong> e “fazer tudo sozinha” – como comprar uma indústria e contratar funcionários – faz-se um <strong>contrato com um parceiro</strong> que passa a cumprir essa função.</p>
+<p>Se a demanda mudar e o produto não for mais desejado pelos clientes, a <strong>mudança estratégica</strong> seria mais fácil (é mais fácil cancelar um contrato do que demitir milhares de funcionários, não é verdade?). Assim, passa-se a focar em um <strong>menor número</strong> de variáveis para o bom funcionamento de uma organização, e flexibiliza-se todo o processo.</p>
+<hr>
+<h2 id="Resumo"><a href="#Resumo" class="headerlink" title="Resumo"></a>Resumo</h2><ul>
+<li><p>As <strong>Teorias de Sistema Aberto</strong> buscaram levar em consideração <strong>fatores externos</strong>, como concorrência e clientes no contexto da Administração de Organizações.</p>
+</li>
+<li><p>A <strong>Teoria Estruturalista</strong> afirma que a sociedade moderna é uma <strong>sociedade de organizações</strong>, na qual o homem cumpre diferentes papéis (família, amigos, trabalho, religião) e deve, muitas vezes, adiar ou abdicar a interesses em nome das organizações (especialmente as empresas), devendo ser um <strong>Homem Organizacional</strong>.</p>
+<ul>
+<li>Para sintetizar as ideias das teorias clássicas, <strong>Gouldner</strong> (Teoria Estruturalista) propõe a existência de <strong>2 tipos de organizações</strong>: as <strong>racionais</strong> (que não levam em consideração os fatores externos à organização) e as <strong>naturais</strong> (preocupa-se com as relações da organização com o mundo externo).</li>
+</ul>
+</li>
+<li><p>A <strong>Teoria dos Sistemas</strong> leva em consideração o <strong>contexto de operação</strong> de uma organização (mercado) e a <strong>interdependência</strong> de todas suas partes/setores, bem como as <strong>entradas</strong> (tudo o que a organização recebe do ambiente externo), <strong>saídas</strong> (tudo o que é produzido) e <strong>feedbacks</strong> (críticas, comentários e elogios recebidos) que o sistema está sujeito. </p>
+</li>
+<li><p>A <strong>Teoria Contingencial</strong> afirma que <strong>não há fórmulas mágicas</strong> para se resolver os problemas de uma organização pois há sempre <strong>fatores internos</strong> (variáveis dependentes) e <strong>externos</strong> (variáveis independentes) envolvidas no processo. Analisar e estudar a importância e interdependência de todos os fatores é essencial para se delimitar um plano de ação.</p>
+<ul>
+<li>Uma importante <strong>consequência</strong> da Teoria Contingencial no mundo organizacional é a criação de <strong>organizações em rede</strong>. Este ambiente é uma rede formada por diversas organizações interligadas, tornando o processo de produção mais flexível e com menor número de variáveis.</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="Exercicios"><a href="#Exercicios" class="headerlink" title="Exercícios"></a>Exercícios</h2><ol>
+<li><p>Explique as diferenças entre os conceitos: <em>Homo economicus</em>, Homem Social e Homem Organizacional.</p>
+</li>
+<li><p>Diferencia modelo natural de modelo racional.</p>
+</li>
+<li><p>Explique a relação entre o sucesso de uma empresa com sua preocupação com o <em>feedback</em>.</p>
+</li>
+<li><p><a href="https://www.ibccoaching.com.br/portal/as-principais-diferencas-entre-verticalizacao-e-horizontalizacao/" target="_blank" rel="noopener">Pesquise</a> e diferencie as estratégias de gestão horizontal e vertical. Pesquisa, també, outros exemplos da utilização de organizações no mercado.</p>
+</li>
+<li><p>Contextualize as Teorias estudadas (sistema aberto e fechado) com este <a href="https://www.youtube.com/watch?v=XPgcC9Wamtw" target="_blank" rel="noopener">vídeo</a>.</p>
+</li>
+</ol>
+<hr>
+<h2 id="Referencias-Bibliograficas"><a href="#Referencias-Bibliograficas" class="headerlink" title="Referências Bibliográficas"></a>Referências Bibliográficas</h2><p>BACARJI, Alencar Garcia. Formação Incial e Continuada Auxiliar Administrativo. Curitiba: Instituto Federal do Paraná, 2012. Disponível em <a href="https://bit.ly/2vZG4Y5" target="_blank" rel="noopener">https://bit.ly/2vZG4Y5</a>. Acesso en <em>20 de mar. de 2020</em>. </p>
+<p>BÄCHTOLD, CIRO. Contabilidade Básica. Curitiba: Instituto Federal do Paraná, 2012.Disponível em <a href="https://bit.ly/342pLX5" target="_blank" rel="noopener">https://bit.ly/342pLX5</a>. Acesso en <em>20 de mar. de 2020</em>.</p>
+<p>GULLO, J. Administração: Para quem estuda, ensina e pratica. São Paulo, Bom Dia, 2006. 147 p</p>
+<p>OLIVO, Ana Maria; BOSCHILIA, Luiz. Contabilidade geral e gerencial: conceitos introdutórios para os cursos superiores de tecnologia. Florianópolis: Publicações do IF-SC, 2012. 102 p. : il.</p>
+<p>RENNÓ, R. Administração Geral para Concursos. Rio de Janeiro, Elsevier, 2013.</p>
+
+        </div>
+
+        
+            <section class="post-copyright">
+                
+                
+                    <p class="copyright-item">
+                        <span>Conteúdo disponível em:</span>
+                        <span><a href="http://zmdy.github.io/aulas.txt/posts/administracao/aulas/aula-12/">http://zmdy.github.io/aulas.txt/posts/administracao/aulas/aula-12/</a></span>
+                    </p>
+                
+                
+                    <p class="copyright-item">
+                        <span>Licença:</span>
+                        <span>Este material está distribuído com uma licença <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC-BY-4.0</a></span>
+                    </p>
+                
+                
+
+            </section>
+        
+        <section class="post-tags">
+            <div>
+                <span>Tag(s):</span>
+                <span class="tag">
+                    
+                    
+                        <a href="/aulas.txt/pages/tag/Auxiliar-Administrativo-Modulo-02-Aulas/"># Auxiliar Administrativo - Módulo 02 - Aulas</a>
+                    
+                        
+                </span>
+            </div>
+            <div>
+                <a href="javascript:window.history.back();">voltar</a>
+                <span>· </span>
+                <a href="/aulas.txt/">home</a>
+            </div>
+        </section>
+        <section class="post-nav">
+            
+                <a class="prev" rel="prev" href="/aulas.txt/posts/administracao/aulas/aula-13/">Aula 03 -  Módulo 02 - Contabilidade</a>
+            
+            
+            <a class="next" rel="next" href="/aulas.txt/posts/administracao/aulas/aula-11/">Aula 01 -  Módulo 02 - Contabilidade</a>
+            
+        </section>
+
+
+    </article>
+</div>
+
+        </div>
+        <footer id="footer" class="footer">
+    <div class="copyright">
+        <span>© aulas.txt | Feito com <a href="https://hexo.io" target="_blank">Hexo</a> & <a href="https://github.com/Siricee/hexo-theme-Chic" target="_blank">Chic</a> | <a target="_blank" onclick="printPage()">Imprimir esta página em PDF</a></span>
+    </div>
+</footer>
+
+    </div><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+</body>
+</html>

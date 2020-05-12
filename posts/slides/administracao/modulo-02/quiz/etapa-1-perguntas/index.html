@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="UTF-8">
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="author" content="zmdy">
+
+
+
+
+
+<title>slides/administracao/modulo-02/quiz/etapa-1-perguntas | aulas.txt</title>
+
+<!-- HERE ARE SOME LIBARIES AND PERSONAL TOOLS OF THE SRC FOLDER -->
+<script src="/aulas.txt/src/js/bonisa.min.js"></script>
+<script src="/aulas.txt/src/libs/printjs/print.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="/aulas.txt/assets/media/fonts/icofont/icofont.css">
+<script>
+  function printPage(){
+    printJS({
+        printable: 'aulasTXT', type: 'html',
+        header: null,
+        css: '/aulas.txt/css/style.css'
+    });
+  }
+</script>
+
+
+
+
+    <link rel="icon" href="/aulas.txt/favicon.png">
+
+
+
+
+    <!-- stylesheets list from _config.yml -->
+    
+    <link rel="stylesheet" href="/aulas.txt/css/style.css">
+    
+
+
+
+    <!-- scripts list from _config.yml -->
+    
+    <script src="/aulas.txt/js/script.js"></script>
+    
+    <script src="/aulas.txt/js/tocbot.min.js"></script>
+    
+
+
+
+    
+    
+        
+    
+
+
+<meta name="generator" content="Hexo 4.2.0"><!-- hexo-inject:begin --><!-- hexo-inject:end --></head>
+<body>
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><div class="wrapper">
+        <header>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header header-logo"><a href="/aulas.txt/">aulas.txt</a></div>
+            <div class="menu navbar-right">
+                
+                    <a class="menu-item" href="/aulas.txt/pages/cursos">Cursos</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/tag">Materiais</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/manual">Manual</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/sobre">Sobre</a>
+                
+                <input id="switch_default" type="checkbox" class="switch_default">
+                <label for="switch_default" class="toggleBtn"></label>
+            </div>
+        </div>
+    </nav>
+
+    
+    <nav class="navbar-mobile" id="nav-mobile">
+        <div class="container">
+            <div class="navbar-header">
+                <div>
+                    <a href="/aulas.txt/">aulas.txt</a><a id="mobile-toggle-theme">·&nbsp;Light</a>
+                </div>
+                <div class="menu-toggle" onclick="mobileBtn()">&#9776; Menu</div>
+            </div>
+            <div class="menu" id="mobile-menu">
+                
+                    <a class="menu-item" href="/aulas.txt/pages/cursos">Cursos</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/tag">Materiais</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/manual">Manual</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/sobre">Sobre</a>
+                
+            </div>
+        </div>
+    </nav>
+
+</header>
+<script>
+    var mobileBtn = function f() {
+        var toggleMenu = document.getElementsByClassName("menu-toggle")[0];
+        var mobileMenu = document.getElementById("mobile-menu");
+        if(toggleMenu.classList.contains("active")){
+           toggleMenu.classList.remove("active")
+            mobileMenu.classList.remove("active")
+        }else{
+            toggleMenu.classList.add("active")
+            mobileMenu.classList.add("active")
+        }
+    }
+</script>
+        <div class="main padding-05mm" id="aulasTXT">
+            <div class="container">
+    
+    
+        <div class="post-toc">
+    <div class="tocbot-list">
+    </div>
+    <div class="tocbot-list-menu">
+        <a class="tocbot-toc-expand" onclick="expand_toc()">Expand all</a>
+        <a onclick="go_top()">Back to top</a>
+        <a onclick="go_bottom()">Go to bottom</a>
+    </div>
+</div>
+
+<script>
+    document.ready(
+        function () {
+            tocbot.init({
+                tocSelector: '.tocbot-list',
+                contentSelector: '.post-content',
+                headingSelector: 'h1, h2, h3, h4, h5',
+                collapseDepth: 1,
+                orderedList: false,
+                scrollSmooth: true,
+            })
+        }
+    )
+
+    function expand_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 6,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "collapse_toc()");
+        b.innerHTML = "Collapse all"
+    }
+
+    function collapse_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 1,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "expand_toc()");
+        b.innerHTML = "Expand all"
+    }
+
+    function go_top() {
+        window.scrollTo(0, 0);
+    }
+
+    function go_bottom() {
+        window.scrollTo(0, document.body.scrollHeight);
+    }
+
+</script>
+    
+
+    
+    <article class="post-wrap">
+        <header class="post-header">
+            <h1 class="post-title">slides/administracao/modulo-02/quiz/etapa-1-perguntas</h1>
+            
+                <div class="post-meta">
+                    
+
+                    
+                        <span class="post-time">
+                        Data de Publicação: <a href="#">12/05/2020&nbsp;&nbsp;9:33</a>
+                        </span>
+                    
+                    
+                </div>
+            
+        </header>
+
+        <div class="post-content">
+            <h1 id="Quiz-Contabilidade"><a href="#Quiz-Contabilidade" class="headerlink" title="Quiz Contabilidade"></a>Quiz Contabilidade</h1><h2 id="Etapa-01"><a href="#Etapa-01" class="headerlink" title="Etapa 01"></a>Etapa 01</h2><hr>
+<h1 id="Pergunta-01"><a href="#Pergunta-01" class="headerlink" title="Pergunta 01"></a>Pergunta 01</h1><p>Quais dos seguintes conceitos não está presente na Teoria da Burocracia?</p>
+<p>a. profissionalização e carreira</p>
+<p>b. hierarquia verticalizada</p>
+<p>c. contratação por critérios políticos</p>
+<p>d. regras impessoais e formais</p>
+<hr>
+<h1 id="Pergunta-01-1"><a href="#Pergunta-01-1" class="headerlink" title="Pergunta 01"></a>Pergunta 01</h1><p>Quais dos seguintes conceitos não está presente na Teoria da Burocracia?</p>
+<p>a. profissionalização e carreira</p>
+<p>b. hierarquia verticalizada</p>
+<p><strong>c. contratação por critérios políticos</strong></p>
+<p>d. regras impessoais e formais</p>
+<hr>
+<h1 id="Pergunta-02"><a href="#Pergunta-02" class="headerlink" title="Pergunta 02"></a>Pergunta 02</h1><p>O estudo da evolução do pensamento administrativo permite concluir, acertadamente, que:</p>
+<p>a. O Taylor-Fordismo é uma abordagem de sistema aberto</p>
+<p>b. A Teoria Relações Humanas usa o conceito de homem real</p>
+<p>c. A Teoria de Sistemas reflete uma abordagem normativa</p>
+<p>d. A Teoria da Contingência relativiza a solução de problemas</p>
+<hr>
+<h1 id="Pergunta-02-1"><a href="#Pergunta-02-1" class="headerlink" title="Pergunta 02"></a>Pergunta 02</h1><p>O estudo da evolução do pensamento administrativo permite concluir, acertadamente, que:</p>
+<p>a. O Taylor-Fordismo é uma abordagem de sistema aberto</p>
+<p>b. A Teoria Relações Humanas usa o conceito de homem real</p>
+<p>c. A Teoria de Sistemas reflete uma abordagem normativa</p>
+<p><strong>d. A Teoria da Contingência relativiza a solução de problemas</strong></p>
+<hr>
+<h1 id="Pergunta-03"><a href="#Pergunta-03" class="headerlink" title="Pergunta 03"></a>Pergunta 03</h1><p>O estudo de tempos e movimentos de Taylor teve como consequência:</p>
+<p>a. A observação das ações dos funcionários durante a produção</p>
+<p>b. A renovação constante das técnicas usadas na produção</p>
+<p>c. A participação ativa dos funcionários processo produtivo</p>
+<p>d. A combinação de valores individuais no processo produtivo</p>
+<hr>
+<h1 id="Pergunta-03-1"><a href="#Pergunta-03-1" class="headerlink" title="Pergunta 03"></a>Pergunta 03</h1><p>O estudo de tempos e movimentos de Taylor teve como consequência:</p>
+<p><strong>a. A observação das ações dos funcionários durante a produção</strong></p>
+<p>b. A renovação constante das técnicas usadas na produção</p>
+<p>c. A participação ativa dos funcionários processo produtivo</p>
+<p>d. A combinação de valores individuais no processo produtivo</p>
+<hr>
+<h1 id="Pergunta-04"><a href="#Pergunta-04" class="headerlink" title="Pergunta 04"></a>Pergunta 04</h1><p>Impessoalidade, hierarquia, confiança nos funcionários, especialização e ênfase nos controles são todas características dos modelos das organizações burocráticos de gestão. A frase acima pode ser considerada:</p>
+<p>a. VERDADEIRA</p>
+<p>b. FALSA</p>
+<hr>
+<h1 id="Pergunta-04-1"><a href="#Pergunta-04-1" class="headerlink" title="Pergunta 04"></a>Pergunta 04</h1><p>Impessoalidade, hierarquia, confiança nos funcionários, especialização e ênfase nos controles são todas características dos modelos das organizações burocráticos de gestão. A frase acima pode ser considerada:</p>
+<p>a. VERDADEIRA</p>
+<p><strong>b. FALSA, pois confiança nos funcionários não é uma caracteristica burocrática</strong></p>
+<hr>
+<h1 id="Pergunta-05"><a href="#Pergunta-05" class="headerlink" title="Pergunta 05"></a>Pergunta 05</h1><p>Em uma abordagem de sistema aberto, a resposta dada pelo ambiente externo às saídas do sistema recebe o nome de:</p>
+<p>a. homeostase</p>
+<p>b. entrada</p>
+<p>c. caixa-preta</p>
+<p>d. feedback</p>
+<hr>
+<h1 id="Pergunta-05-1"><a href="#Pergunta-05-1" class="headerlink" title="Pergunta 05"></a>Pergunta 05</h1><p>Em uma abordagem de sistema aberto, a resposta dada pelo ambiente externo às saídas do sistema recebe o nome de:</p>
+<p>a. homeostase</p>
+<p>b. entrada</p>
+<p>c. caixa-preta</p>
+<p><strong>d. feedback</strong></p>
+<hr>
+<h1 id="Pergunta-06"><a href="#Pergunta-06" class="headerlink" title="Pergunta 06"></a>Pergunta 06</h1><p>A verticalização da produção por meio da criação de organizações em rede não está relacionada com:</p>
+<p>a. A criação de parcerias contratuais entre empresas da cadeia</p>
+<p>b. O aumento do número de contingências internas para análise</p>
+<p>c. A mudança estratégica de parceriais</p>
+<p>d. A interligação de organizações no processo produtivo</p>
+<hr>
+<h1 id="Pergunta-06-1"><a href="#Pergunta-06-1" class="headerlink" title="Pergunta 06"></a>Pergunta 06</h1><p>A verticalização da produção por meio da criação de organizações em rede não está relacionada com:</p>
+<p>a. A criação de parcerias contratuais entre empresas da cadeia</p>
+<p><strong>b. O aumento do número de contingências internas para análise</strong></p>
+<p>c. A mudança estratégica de parceriais</p>
+<p>d. A interligação de organizações no processo produtivo</p>
+<hr>
+<h1 id="Pergunta-07"><a href="#Pergunta-07" class="headerlink" title="Pergunta 07"></a>Pergunta 07</h1><p>Alvir Gouldner, teórico estruturalista, propôs a existência de 2 modelos diferentes de organizações. A respeito destes modelos julgue as alternativas como Verdadeiras ou Falsas:</p>
+<ul>
+<li>O modelo natural se preocupa com as trocas com o exterior</li>
+<li>O modelo natural se baseia na incerteza da realidade</li>
+<li>O modelo racional está baseado no controle e planejamento</li>
+<li>O modelo racional não se preocupa com o ambiente interno</li>
+</ul>
+<hr>
+<h1 id="Pergunta-07-1"><a href="#Pergunta-07-1" class="headerlink" title="Pergunta 07"></a>Pergunta 07</h1><p>Alvir Gouldner, teórico estruturalista, propôs a existência de 2 modelos diferentes de organizações. A respeito destes modelos julgue as alternativas como Verdadeiras ou Falsas:</p>
+<p>** F. O modelo natural se preocupa com as trocas com o exterior**<br>** V. O modelo natural se baseia na incerteza da realidade **<br>** V. O modelo racional está baseado no controle e planejamento **<br>** V. O modelo racional não se preocupa com o ambiente interno **</p>
+<hr>
+<h1 id="Pergunta-08"><a href="#Pergunta-08" class="headerlink" title="Pergunta 08"></a>Pergunta 08</h1><p>Relacione os conceitos apresentados na coluna à esquerda com as devidas Teorias Administrativas. Cada opção pode estar relacinada à mais de uma teoria!</p>
+<table>
+<thead>
+<tr>
+<th align="center">#</th>
+<th align="center">CONCEITO</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">1</td>
+<td align="center"><em>Homo economicus</em></td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td align="center">Homem Social</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td align="center">Homem Organizacional</td>
+</tr>
+</tbody></table>
+<table>
+<thead>
+<tr>
+<th align="center">#</th>
+<th align="center">TEORIA</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">A</td>
+<td align="center">Adm. Científica</td>
+</tr>
+<tr>
+<td align="center">B</td>
+<td align="center">Teoria Clássica</td>
+</tr>
+<tr>
+<td align="center">C</td>
+<td align="center">Relações Humanas</td>
+</tr>
+<tr>
+<td align="center">D</td>
+<td align="center">Burocracia</td>
+</tr>
+<tr>
+<td align="center">E</td>
+<td align="center">Teoria Estruturalista</td>
+</tr>
+</tbody></table>
+<hr>
+<h1 id="Pergunta-09"><a href="#Pergunta-09" class="headerlink" title="Pergunta 09"></a>Pergunta 09</h1><p>Relacione cada autor à devida Teoria Adminsitrativa. Cada teoria pode estar relacinada à mais de um autor!</p>
+<table>
+<thead>
+<tr>
+<th align="center">#</th>
+<th align="center">TEORIA</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">1</td>
+<td align="center">Adm. Científica</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td align="center">Teoria Clássica</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td align="center">Relações Humanas</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td align="center">Burocracia</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td align="center">Teoria Estruturalista</td>
+</tr>
+</tbody></table>
+<table>
+<thead>
+<tr>
+<th align="center">#</th>
+<th align="center">AUTOR</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">A</td>
+<td align="center">Elton Mayo</td>
+</tr>
+<tr>
+<td align="center">B</td>
+<td align="center">Frederick Taylor</td>
+</tr>
+<tr>
+<td align="center">C</td>
+<td align="center">Henri Fayol</td>
+</tr>
+<tr>
+<td align="center">D</td>
+<td align="center">Henry Ford</td>
+</tr>
+<tr>
+<td align="center">E</td>
+<td align="center">Max Weber</td>
+</tr>
+</tbody></table>
+<hr>
+<h1 id="Pergunta-10"><a href="#Pergunta-10" class="headerlink" title="Pergunta 10"></a>Pergunta 10</h1><p>Elton Mayo realizou um experimento em uma indústria da empresa Western Elect r ic, na cidade de Hawthorne. Correlacione a experiência de Mayo com os conceitos de <em>Homo economicus</em> e Homem Social.</p>
+<table>
+<thead>
+<tr>
+<th align="center">RESPOSTA ABERTA</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center"></td>
+</tr>
+</tbody></table>
+<hr>
+<h1 id="FIM-DAS-PERGUNTAS"><a href="#FIM-DAS-PERGUNTAS" class="headerlink" title="FIM DAS PERGUNTAS"></a>FIM DAS PERGUNTAS</h1><p>(a seguir estão as perguntas para desempate)</p>
+
+        </div>
+
+        
+            <section class="post-copyright">
+                
+                
+                    <p class="copyright-item">
+                        <span>Conteúdo disponível em:</span>
+                        <span><a href="http://zmdy.github.io/aulas.txt/posts/slides/administracao/modulo-02/quiz/etapa-1-perguntas/">http://zmdy.github.io/aulas.txt/posts/slides/administracao/modulo-02/quiz/etapa-1-perguntas/</a></span>
+                    </p>
+                
+                
+                    <p class="copyright-item">
+                        <span>Licença:</span>
+                        <span>Este material está distribuído com uma licença <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC-BY-4.0</a></span>
+                    </p>
+                
+                
+
+            </section>
+        
+        <section class="post-tags">
+            <div>
+                <span>Tag(s):</span>
+                <span class="tag">
+                    
+                </span>
+            </div>
+            <div>
+                <a href="javascript:window.history.back();">voltar</a>
+                <span>· </span>
+                <a href="/aulas.txt/">home</a>
+            </div>
+        </section>
+        <section class="post-nav">
+            
+                <a class="prev" rel="prev" href="/aulas.txt/posts/slides/administracao/modulo-02/avisos-iniciais/">slides/administracao/modulo-02/avisos-iniciais</a>
+            
+            
+            <a class="next" rel="next" href="/aulas.txt/posts/slides/administracao/informacoes-gerais/instrucoes-para-provas/">slides/administracao/informacoes-gerais/instrucoes-para-provas</a>
+            
+        </section>
+
+
+    </article>
+</div>
+
+        </div>
+        <footer id="footer" class="footer">
+    <div class="copyright">
+        <span>© aulas.txt | Feito com <a href="https://hexo.io" target="_blank">Hexo</a> & <a href="https://github.com/Siricee/hexo-theme-Chic" target="_blank">Chic</a> | <a target="_blank" onclick="printPage()">Imprimir esta página em PDF</a></span>
+    </div>
+</footer>
+
+    </div><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+</body>
+</html>

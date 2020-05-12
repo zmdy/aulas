@@ -1,0 +1,186 @@
+/** DEFINIÇÃO DAS LISTAS OK - NOT - WARNING **/
+.item-ok,
+.item-not,
+.item-warning,
+.item-question {
+  list-style-type: none;
+}
+.item-ok:before,
+.item-not:before,
+.item-warning:before,
+.item-question:before {
+  margin-right: 1%;
+}
+/** ITEM-OK **/
+.item-ok:before {
+  content: '\2714';
+  color: #009f32;
+}
+.item-ok {
+  color: #009f32;
+}
+/** ITEM NOT **/
+.item-not:before {
+  content: '\2717';
+  color: #c40233;
+}
+.item-not {
+  color: #c40233;
+}
+/** ITEM WARNING **/
+.item-warning:before {
+  content: '\0021';
+  font-weight: bold;
+  color: #d6af00;
+}
+.item-warning {
+  color: #d6af00;
+}
+/** ITEM QUESTION **/
+.item-question:before {
+  content: '\003f';
+  font-weight: bold;
+  color: #06d;
+}
+.item-question {
+  color: #06d;
+}
+/** DEFINIÇÃO DOS LINKS **/
+.post-content a:hover {
+  border-bottom: dashed 0.075em;
+  text-decoration: none !important;
+}
+/** DEFINIÇÃO DE IMAGENS**/
+.img-left,
+.img-right,
+.img-50 {
+  padding: 2%;
+}
+.img-left,
+.img-right {
+  display: inline-block;
+  width: 45%;
+  padding: 2%;
+}
+.img-left {
+  float: left;
+}
+.img-right {
+  float: right;
+}
+img.img-50 {
+  display: block;
+  width: 50%;
+  margin-left: 25%;
+}
+/** DEFINIÇÕES DE IMPRESSÃO **/
+/** Trick to remove CHROME titles **/
+@page {
+  margin: 0;
+}
+/** Paper sizes **/
+body.A3 .sheet {
+  width: 297mm;
+  height: 419mm;
+}
+body.A3.landscape .sheet {
+  width: 420mm;
+  height: 296mm;
+}
+body.A4 .sheet {
+  width: 210mm;
+  height: 296mm;
+}
+body.A4.landscape .sheet {
+  width: 297mm;
+  height: 209mm;
+}
+body.A5 .sheet {
+  width: 148mm;
+  height: 209mm;
+}
+body.A5.landscape .sheet {
+  width: 210mm;
+  height: 147mm;
+}
+body.letter .sheet {
+  width: 216mm;
+  height: 279mm;
+}
+body.letter.landscape .sheet {
+  width: 280mm;
+  height: 215mm;
+}
+body.legal .sheet {
+  width: 216mm;
+  height: 356mm;
+}
+body.legal.landscape .sheet {
+  width: 357mm;
+  height: 215mm;
+}
+/** Padding area **/
+.padding-05mm {
+  padding: 5mm;
+}
+.padding-10mm {
+  padding: 10mm;
+}
+.padding-15mm {
+  padding: 15mm;
+}
+.padding-20mm {
+  padding: 20mm;
+}
+.padding-25mm {
+  padding: 25mm;
+}
+* {
+  orphans: 10;
+  widows: 10;
+}
+body.A3.landscape {
+  width: 420mm;
+}
+body.A3,
+body.A4.landscape {
+  width: 297mm;
+}
+body.A4,
+body.A5.landscape {
+  width: 210mm;
+}
+body.A5 {
+  width: 148mm;
+}
+body.letter,
+body.legal {
+  width: 216mm;
+}
+body.letter.landscape {
+  width: 280mm;
+}
+body.legal.landscape {
+  width: 357mm;
+}
+hr {
+  display: none;
+}
+h2 {
+  page-break-before: always;
+  margin-top: 10mm;
+}
+table {
+  page-break-before: always;
+}
+img {
+  width: 150mm;
+  margin: 12.5mm 0;
+}
+@media print {
+  .post-toc,
+  .post-nav,
+  .post-tags {
+    visibility: hidden;
+  }
+}

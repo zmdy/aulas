@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="UTF-8">
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="author" content="zmdy">
+
+
+
+
+
+<title>Aula 05 -  Módulo 02 - Contabilidade | aulas.txt</title>
+
+<!-- HERE ARE SOME LIBARIES AND PERSONAL TOOLS OF THE SRC FOLDER -->
+<script src="/aulas.txt/src/js/bonisa.min.js"></script>
+<script src="/aulas.txt/src/libs/printjs/print.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="/aulas.txt/assets/media/fonts/icofont/icofont.css">
+<script>
+  function printPage(){
+    printJS({
+        printable: 'aulasTXT', type: 'html',
+        header: null,
+        css: '/aulas.txt/css/style.css'
+    });
+  }
+</script>
+
+
+
+
+    <link rel="icon" href="/aulas.txt/favicon.png">
+
+
+
+
+    <!-- stylesheets list from _config.yml -->
+    
+    <link rel="stylesheet" href="/aulas.txt/css/style.css">
+    
+
+
+
+    <!-- scripts list from _config.yml -->
+    
+    <script src="/aulas.txt/js/script.js"></script>
+    
+    <script src="/aulas.txt/js/tocbot.min.js"></script>
+    
+
+
+
+    
+    
+        
+    
+
+
+<meta name="generator" content="Hexo 4.2.0"><!-- hexo-inject:begin --><!-- hexo-inject:end --></head>
+<body>
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><div class="wrapper">
+        <header>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header header-logo"><a href="/aulas.txt/">aulas.txt</a></div>
+            <div class="menu navbar-right">
+                
+                    <a class="menu-item" href="/aulas.txt/pages/cursos">Cursos</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/tag">Materiais</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/manual">Manual</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/sobre">Sobre</a>
+                
+                <input id="switch_default" type="checkbox" class="switch_default">
+                <label for="switch_default" class="toggleBtn"></label>
+            </div>
+        </div>
+    </nav>
+
+    
+    <nav class="navbar-mobile" id="nav-mobile">
+        <div class="container">
+            <div class="navbar-header">
+                <div>
+                    <a href="/aulas.txt/">aulas.txt</a><a id="mobile-toggle-theme">·&nbsp;Light</a>
+                </div>
+                <div class="menu-toggle" onclick="mobileBtn()">&#9776; Menu</div>
+            </div>
+            <div class="menu" id="mobile-menu">
+                
+                    <a class="menu-item" href="/aulas.txt/pages/cursos">Cursos</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/tag">Materiais</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/manual">Manual</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/sobre">Sobre</a>
+                
+            </div>
+        </div>
+    </nav>
+
+</header>
+<script>
+    var mobileBtn = function f() {
+        var toggleMenu = document.getElementsByClassName("menu-toggle")[0];
+        var mobileMenu = document.getElementById("mobile-menu");
+        if(toggleMenu.classList.contains("active")){
+           toggleMenu.classList.remove("active")
+            mobileMenu.classList.remove("active")
+        }else{
+            toggleMenu.classList.add("active")
+            mobileMenu.classList.add("active")
+        }
+    }
+</script>
+        <div class="main padding-05mm" id="aulasTXT">
+            <div class="container">
+    
+    
+        <div class="post-toc">
+    <div class="tocbot-list">
+    </div>
+    <div class="tocbot-list-menu">
+        <a class="tocbot-toc-expand" onclick="expand_toc()">Expand all</a>
+        <a onclick="go_top()">Back to top</a>
+        <a onclick="go_bottom()">Go to bottom</a>
+    </div>
+</div>
+
+<script>
+    document.ready(
+        function () {
+            tocbot.init({
+                tocSelector: '.tocbot-list',
+                contentSelector: '.post-content',
+                headingSelector: 'h1, h2, h3, h4, h5',
+                collapseDepth: 1,
+                orderedList: false,
+                scrollSmooth: true,
+            })
+        }
+    )
+
+    function expand_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 6,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "collapse_toc()");
+        b.innerHTML = "Collapse all"
+    }
+
+    function collapse_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 1,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "expand_toc()");
+        b.innerHTML = "Expand all"
+    }
+
+    function go_top() {
+        window.scrollTo(0, 0);
+    }
+
+    function go_bottom() {
+        window.scrollTo(0, document.body.scrollHeight);
+    }
+
+</script>
+    
+
+    
+    <article class="post-wrap">
+        <header class="post-header">
+            <h1 class="post-title">Aula 05 -  Módulo 02 - Contabilidade</h1>
+            
+                <div class="post-meta">
+                    
+
+                    
+                        <span class="post-time">
+                        Data de Publicação: <a href="#">14/04/2020&nbsp;&nbsp;9:15</a>
+                        </span>
+                    
+                    
+                </div>
+            
+        </header>
+
+        <div class="post-content">
+            <img src="../../../../assets/media/img/cursos/logo-auxiliar-administrativo-01.png" alt="Auxiliar Administrativo" title="Auxiliar Administrativo" class="img-50  bg-white">
+
+<p>Bem vindx a mais uma aula de Contabilidade.</p>
+<p>Hoje vamos começar a entender sobre a constituição das empresas, bem como os diferentes tipos de organização que existem.</p>
+<p>Este conteúdo é <strong>fundamental</strong> para o desenvolvimento do Trabalho de Conclusão de Módulo (TCM), que será apresentado na próxima aula.</p>
+<p>Os conceitos estudados podem ser aprofundados com maiores detalhes nas obras abaixo:</p>
+<p><a href="https://bit.ly/2XzFvj9" target="_blank" rel="noopener">VALLE &amp; BAPTISTA. Formas de Organização – Associação, Fundação, Cooperativa, Empresa</a></p>
+<p><a href="https://bit.ly/3beO2w4" target="_blank" rel="noopener">RENNÓ. Administração Geral para Concursos</a></p>
+<p><em>Empieza el matriarcado… i els estudios!</em></p>
+<hr>
+<h2 id="Sumario-da-Aula"><a href="#Sumario-da-Aula" class="headerlink" title="Sumário da Aula"></a>Sumário da Aula</h2><ol>
+<li><a href="#Pessoas-Fisicas-e-Juridicas">Pessoas Físicas e Jurídicas</a></li>
+<li><a href="#Sociedades-e-Organizacoes">Sociedades e Organizações</a></li>
+<li><a href="#Tipos-de-Organizacao">Tipos de Organização</a></li>
+<li><a href="#Estatutos">Estatutos</a></li>
+<li><a href="#Estrutura-das-Organizacoes">Estrutura das Organizações</a></li>
+<li><a href="#Resumo">Resumo</a></li>
+<li><a href="#Exercicios">Exercícios</a></li>
+<li><a href="#Referencias-Bibliograficas">Referências Bibliográficas</a></li>
+</ol>
+<hr>
+<h2 id="Pessoas-Fisicas-e-Juridicas"><a href="#Pessoas-Fisicas-e-Juridicas" class="headerlink" title="Pessoas Físicas e Jurídicas"></a>Pessoas Físicas e Jurídicas</h2><p>Todo <strong>ser humano</strong> nasce com <strong>direitos e obrigações</strong> natas à sua existência. Isso significa que toda pessoa tem <strong>direito</strong> à alimentação, à moradia, à liberdade, à vida… assim como também possui <strong>deveres</strong>, como os de pagar impostos, votar e possuir documentos de identificação. </p>
+<p>Esses direitos e deveres natos significam que todos os seres humanos possuem <strong>personalidade jurídica</strong> que é adquirida com o nascimento desta pessoa.</p>
+<p><strong>Personalidade Jurídica</strong>, é a ideia de que todas as pessoas (físicas e jurídicas) possuem direitos e deveres.</p>
+<p>Isso não quer dizer, no entanto, que toda pessoa é uma <strong>pessoa jurídica</strong>. Mas, afinal de contas, o que é uma pessoa física e uma pessoa jurídica?</p>
+<p><strong>Pessoa Física</strong> nada mais é do que um termo utilizado para designar todo e qualquer ser-humano.</p>
+<p>Já uma <strong>Pessoa Jurídica</strong> consiste simplesmente um um conjunto de pessoas físicas que se unem para alcançarem <strong>objetivos comuns</strong>, sejam eles econômicos ou não, formando uma <strong>sociedade</strong> ou organização.</p>
+<hr>
+<h2 id="Sociedades-e-Organizacoes"><a href="#Sociedades-e-Organizacoes" class="headerlink" title="Sociedades e Organizações"></a>Sociedades e Organizações</h2><p>Imagine que um alguns amigos, todos com formação em pedagogia, decidam se unir para formar um grupo de apoio para auxiliar crianças carentes com dificuldades de aprendizagem. Este grupo, a parir do momento em que é estruturado, regulamentado e organizado passará a constituir uma <strong>organização</strong>.</p>
+<p>Uma <strong>organização</strong> (ou sociedade) é um sistema humano, social e cultural, que, através de colaboração das pessoas entre si (cooperação), recursos, normas estabelecidas e divisão de tarefas, realiza atividades com o objetivo de alcançar objetivos comuns (compartilhados) (GULLO, 2006).</p>
+<p>Para que uma organização se torne uma <strong>Pessoa Jurídica</strong> é necessário que a mesma se registre em um cartório, junta comercial ou órgãos afins (Receita Federal, Associação ou Organização de Controle, etc). Cabe ressaltar que <strong>não é necessária</strong> a regulamentação como Pessoa Jurídica para se consolidar uma sociedade.</p>
+<p><img src="../../../../assets/media/img/tipos-de-organizacao/pessoa-juridica.jpg" alt="Pessoas Jurídicas - Esquema"><br>(Imagem retirada do livro <a href="https://bit.ly/2XzFvj9" target="_blank" rel="noopener">Formas de Organização – Associação, Fundação, Cooperativa, Empresa</a> - Todos os direitos reservados aos seus autores)</p>
+<p>Se considerarmos um <strong>grupo de vizinhos</strong> que se voluntariam para fazer alguma obra de melhoria em sua rua, ou mesmo para coletar alimentos para outras organizações, há um exemplo de <strong>sociedade</strong>, mesmo não sendo necessário que a mesma se registre formalmente (Pessoa Jurídica).</p>
+<p>Neste ponto é importante avisar que existem algumas <strong>vantagens</strong> ao se registrar formalmente uma Pessoa Jurídica.</p>
+<p>A principal vantagem é a obtenção do direito de se abrir contas bancárias <strong>para a organização</strong> (lembre-se do Princípio Contábil da Entidade) e de conseguir, em alguns casos, dinheiro público para se investir na organização (em especial associações e ONGs). Além disso as Pessoas Jurídicas podem conseguir condições especiais para o pagamento de dívidas (como contas de água e luz).</p>
+<p>Outra vantagem do registro é a possibilidade de conseguir parcerias comerciais e estratégicas que podem facilitar e alavancar os objetivos e visões da organização.</p>
+<p>A Legislação Brasileira, por meio do seu Código Civil, divide as Pessoas Jurídicas em 2 classificações diferentes: as de <strong>direito público</strong> e as de <strong>direito privado</strong>.</p>
+<p>As <strong>Pessoas Jurídicas de Direito Público</strong> são organizações geridas pelo Estado, como é o caso da União (País), dos Estados, dos Municípios, das Autarquias (como o INSS), as nações estrangeiras e os organismos internacionais (ONU, União Europeia, Mercosul, UNESCO, FAO…).</p>
+<p>Já as <strong>Pessoas Jurídicas de Direito Privado</strong> são aquelas formadas por pessoas físicas que buscam objetivos comuns e gerem estes objetivos sem a intervenção do Estado, como é o caso do <strong>grupo de vizinhos</strong>.</p>
+<hr>
+<h2 id="Tipos-de-Organizacao"><a href="#Tipos-de-Organizacao" class="headerlink" title="Tipos de Organização"></a>Tipos de Organização</h2><p>O Código Civil Brasileiro reconhece diferentes <strong>tipos de pessoas jurídicas de direito privado</strong> – Associações, OSCIPs, Fundações, Cooperativas e Empresas.</p>
+<p>Estas organizações se diferenciam, principalmente, por suas  <strong>finalidades sociais</strong> e seus <strong>objetivos econômicos</strong>.</p>
+<p>Cada uma possui as suas particularidades, que poderão ser estudadas detalhadamente nas obras citadas nas <a href="#Referencias-Bibliograficas">Referências Bibliográficas</a>.</p>
+<blockquote>
+<p>TRABALHO PARCIAL DO MÓDULO: Não se esqueça de fazer o Trabalho Parcial do Módulo!</p>
+</blockquote>
+<h3 id="Associacoes-Sem-Fins-Lucrativos"><a href="#Associacoes-Sem-Fins-Lucrativos" class="headerlink" title="Associações Sem Fins Lucrativos"></a>Associações Sem Fins Lucrativos</h3><p><strong>Quando são criadas:</strong> quando um grupo de pessoas se reúne para atingir um objetivo comum, sem finalidades econômicas. As pessoas que ajudam a formas a associação são chamadas de <strong>sócios</strong> ou <strong>associados</strong>.</p>
+<p><strong>O que é necessário para formá-las:</strong> para criar uma associação não é preciso ter um patrimônio formado, apenas a <strong>vontade</strong> de um grupo de pessoas para fazer alguma coisa.</p>
+<p><strong>Principais características:</strong> não podem ter fins lucrativos. Isto significa que o dinheiro arrecadado por estas organizações deve ser obrigatoriamente utilizado em seus projetos e atividades.</p>
+<p><strong>Associações podem realizar vendas?</strong> Sim, desde que este não seja o objetivo principal da associação. Vendas e outras formas de arrecadação devem ter seu capital convertido para a manutenção da associação.</p>
+<p><strong>Associações podem ter funcionários?</strong> Sim. Mesmo com a proibição de se distribuir lucro entre os associados, estas organizações podem ter <strong>funcionários remunerados</strong>, conforme as leis trabalhistas.</p>
+<p><strong>Exemplos:</strong> Associações de Proteção aos Direitos dos Animais; Associações de Divulgação da Cultura; Associações para Arrecadação de Medicamentos e Alimentos; etc.</p>
+<h3 id="Organizacao-da-Sociedade-Civil-de-Interesse-Publico-OSCIP"><a href="#Organizacao-da-Sociedade-Civil-de-Interesse-Publico-OSCIP" class="headerlink" title="Organização da Sociedade Civil de Interesse Público OSCIP"></a>Organização da Sociedade Civil de Interesse Público OSCIP</h3><p><strong>O que são:</strong> OSCIPs são um tipo especial de associações sem fins lucrativos que mantém uma parceria com o Governo.</p>
+<p><strong>Toda Associação é uma OSCIP?</strong> Não, a OSCIP é uma categoria à parte das associações. No entanto, <strong>associações</strong> das áreas de assistência social, cultura, educação gratuita, meio ambiente e outras temáticas sociais de interesse público podem se tornar OSCIPs por meio de parcerias com o Governo, diretamente com o Ministério da Justiça.</p>
+<p><strong>O que garante esta parceria?</strong> As parcerias com o Governo garantem às OSCIPs uma facilitação ao acesso de fundos públicos (dinheiro público) para o desenvolvimento de seus projetos. Por outro lado, todas as contas da OSCIP passarão a ser fiscalizadas e controladas pelo Governo.</p>
+<p><strong>O acesso ao fundo público é imediato?</strong> Não. A qualificação de OSCIP não garante o acesso os fundos públicos - apenas facilita-os de algumas maneiras.</p>
+<h3 id="Fundacoes"><a href="#Fundacoes" class="headerlink" title="Fundações"></a>Fundações</h3><p><strong>O que são:</strong> a fundação é uma organização sem fins lucrativos cuja <strong>origem</strong> se encontra na vontade de um <strong>instituidor</strong> em destinar parte do seu patrimônio para realizar atividades sem finalidade lucrativa.</p>
+<p><strong>O instituidor (ou seus herdeiros) é o dono da Fundação?</strong> Não. A transformação do patrimônio do instituidor em uma Fundação é um ato irrevogável e regido pelo <em>Princípio da Entidade</em> - o patrimônio passa a pertencer à Fundação, de forma separada do seu fundador.</p>
+<p><strong>Como funcionam as Fundações?</strong> Para se criar uma fundação o instituidor deve registrar em cartório um documento que declare os bens que irá doar e os fins que estes bens se destinam. A partir deste momento estes bens passarão a ser da Fundação que é fiscalizada de perto pelo Ministério Público, afim de garantir que o dinheiro da mesma está sendo bem aplicado - e que os objetivos do instituidor estão sendo alcançados.</p>
+<p><strong>Especificidades:</strong> ao contrário das associações e OSCIPs, que podem ser ter qualquer finalidade, as Fundações só podem ser criadas para fins religiosos, morais, culturais ou de assistência social.</p>
+<p><strong>Exemplo:</strong> Fundação Ezequiel Dias (FUNED) - Instituto  mineiro que realiza pesquisas na área de saúde pública, com produção de medicamentos, vacinas e soros.</p>
+<h3 id="Cooperativas"><a href="#Cooperativas" class="headerlink" title="Cooperativas"></a>Cooperativas</h3><p><strong>Quando são criadas:</strong> quando um grupo de pessoas se reúne para atingir um objetivo comum, <strong>com finalidades econômicas</strong>. As pessoas que ajudam a formas a associação são chamadas de <strong>cooperados</strong>.</p>
+<p><strong>Como funciona as Cooperativas?</strong> Imagine que um grupo de artesãos deseja se unir para vender seus produtos juntos. Além disso o grupo também deseja realizar cursos de profissionalização para os cooperados e a comunidade. Como há um objetivo econômico (vender os produtos) e um objetivo social (capacitação), a melhor forma de organização para o grupo é uma <strong>cooperativa</strong>.</p>
+<p><strong>De onde vem os recursos da Cooperativa?</strong> As cooperativas, diferentemente das associações e OSCIPs, pode cobrar pelos serviços prestados. Supondo que uma cooperativa realize uma feira e venda, nesta feira, um produto de um artesão por R$ 100,00 ela pode cobrar uma taxa de contribuição por esta venda, digamos R$ 5,00, e devolver ao artesão o restante R$ 95,00.</p>
+<p><strong>Quais as vantagens das Cooperativas?</strong> Em primeiro lugar o objetivo principal destas organizações deve ser de <strong>prestar serviços</strong> aos seus associados (fornecer cursos e planos médicos, por exemplo). No entanto, pelo fato de contar com vários profissionais de uma mesma área (artesões, por exemplo) a Cooperativa também está autorizada a <strong>vender os produtos</strong> e repassar o dinheiro arrecadado (excetuando das taxas de contribuição) para os cooperados. Outra vantagem pode estar na socialização das ferramentas e locais, ou seja, na sede da Cooperativa pode contar com ferramentas e matérias-primas que podem usados por todos os cooperados, sem a necessidade deles comprarem estes materiais por conta própria.</p>
+<p><strong>Exemplo:</strong> Cooperfins - cooperativa dos taxistas que trabalham próximo ao Aeroporto de Confins. A organização oferece aos cooperados uma série de vantagens, como sede própria, sala de reuniões e pagamentos de <em>vouchers</em> aos taxistas.</p>
+<h3 id="Empresas"><a href="#Empresas" class="headerlink" title="Empresas"></a>Empresas</h3><p><strong>Quando são criadas:</strong> Também chamadas de <strong>sociedades comerciais</strong>, as empresas são criadas com objetivos comerciais visando o lucro financeiro de seus <strong>sócios</strong>.</p>
+<p><strong>Como funcionam as Empresas?</strong> Diferentemente das outras formas de organização, nas quais existe uma preocupação social em facilitar a vida dos associados e da comunidade, as empresas distribuem o lucro obtido pela venda (ou prestação de serviços) entre os sócios.</p>
+<p><strong>Diferenças entre Cooperativas e Empresas:</strong> A principal diferença entre as duas formas de organização está na distribuição do <strong>poder de voto</strong>. Quando é necessário realizar alguma decisão nas organizações, todos os associados devem opinar e votar. Nas cooperativas todos os associados tem direito ao voto - e todos os votos tem o mesmo valor. Já nas empresas, devido ao <strong>capital social</strong> o voto de um sócio que investiu mais dinheiro na empresa tem mais valor e importância do que o voto de outro sócio que não investiu tanto assim.</p>
+<p><strong>É possível formar empresas com apenas 1 sócio?</strong> Sim. Diferentemente de outras formas de associação onde é necessário um grupo organizado de pessoas para se estruturar a organização - as empresas podem ser constituídas por apenas 1 dono.</p>
+<hr>
+<h2 id="Estatutos"><a href="#Estatutos" class="headerlink" title="Estatutos"></a>Estatutos</h2><p>Uma importante característica comum a todas as formas de organização vistas é a existência de um <strong>estatuto</strong>.</p>
+<p>Quando um grupo de pessoas decide iniciar uma organização é necessário estruturar as regras de funcionamento da mesma.</p>
+<p>Imagine que você junto a alguns colegas de classe decidam formar um grupo (organização) de estudos e plantão, em alguns dias e horários durante a semana, para tirarem dúvidas das matérias. Neste grupo haveriam pelo menos 2 tipos de integrantes: aqueles alunos que estão com dúvidas e aqueles que irão tirar estas dúvidas (monitores).</p>
+<p>Repare que neste exemplo temos uma <strong>divisão de tarefas</strong>, entre os monitores e os alunos e algumas <strong>regras de funcionamento</strong>, como os dias e horários que o grupo irá se reunir.</p>
+<p>Mesmo neste exemplo simples existe a necessidade de se criar regras de funcionamento para este grupo. Conforme vimos nas aulas de história da administração, como o tempo houve a necessidade de se estruturar estas regras em <strong>estruturas formais e impessoais</strong>, ou seja, em documentos escritos (Teoria da Burocracia de Weber).</p>
+<p>No contexto das organizações também é necessário possuir documentos escritos com as regras daquele grupo. O principal documento que define as regras, objetivos, estrutura e divisão de tarefas de uma organização é o <strong>estatuto</strong>.</p>
+<p>As empresas possuem uma forma específica de estatuto chamada de <strong>contrato social</strong>, que será estudado na próxima aula.</p>
+<p>De modo geral, os estatutos devem conter:</p>
+<ul>
+  <li class='item-ok'>A denominação da organização (nome);</li>
+  <li class='item-ok'>O endereço da sede;</li>
+  <li class='item-ok'>A duração da organização, isto é, por quanto tempo ela irá existir;</li>
+  <li class='item-ok'>Os fins (objetivos) da organização;</li>
+  <li class='item-ok'>A estrutura da organização (órgãos que a compõe);</li>
+  <li class='item-ok'>Delimitação do patrimônio;</li>
+  <li class='item-ok'>Disposições Gerais (regras gerais da organização, como a cláusula de dissolução e asa regras de votação)</li>
+</ul>
+
+<hr>
+<h2 id="Estrutura-das-Organizacoes"><a href="#Estrutura-das-Organizacoes" class="headerlink" title="Estrutura das Organizações"></a>Estrutura das Organizações</h2><p>Uma importante parte dos estatutos é a <strong>delimitação da estrutura</strong> de uma organização, ou seja, quais são os órgãos que compõe aquele grupo.</p>
+<p>A exemplo iremos analisar uma Cooperativa de Artesãos, pelo fato desta organização possuir características híbridas.</p>
+<p>Esta cooperativa é formada pelos artesãos de uma determinada região e tem por objetivo ofertar cursos, ferramentas, matéria-prima e tratamento médico para os seus cooperados.</p>
+<p>Por ser uma cooperativa, esta organização será constituída por… <strong>cooperados</strong>. A legislação prevê que uma cooperativa necessita de, no mínimo, 20 cooperados para poder ser definida como tal.</p>
+<p>O principal órgão de uma organização (salvo as empresas) é a sua <strong>Assembleia Geral</strong>, que consiste no grupo com todos os seus cooperados ou associados.</p>
+<p>A Assembleia Geral tem por objetivo definir as estratégias da cooperativa e realizar *<em>deliberações *</em>(sugestões) sobre o futuro da mesma.</p>
+<p>É importante e necessário que as organizações possuam uma <strong>Direção</strong> ou <strong>Conselho de Administração</strong> formado por integrantes da Assembleia Geral escolhidos por meio da votação.</p>
+<p>Cabe ao <strong>Conselho de Administração</strong> realizar todas as <strong>decisões</strong> econômicas e sociais de interesse da cooperativa e seus cooperados. Isto significa que, as sugestões dadas pela Assembleia Geral são, por sua vez, analisadas e sancionadas (ou vetadas) pela Direção.</p>
+<p>Além destes 2 órgãos, é importante que as organizações possuam um <strong>Conselho Fiscal</strong> independente que irá <strong>fiscalizar</strong> o Conselho Administrativo e as operações financeiras da organização.</p>
+<p>Estas estruturas podem variar de uma organização para outra, mas, em geral tem-se uma divisão do poder e das tarefas. A própria esfera política e governamental de um país segue este particionamento, por meio dos 3 Poderes (Executivo, Legislativo e Judiciário) e dos diferentes cargos políticos (Prefeitos/Governadors/Presidentes, Vereadores/Deputados/Senadores e Juízes/Ministros).</p>
+<hr>
+<h2 id="Resumo"><a href="#Resumo" class="headerlink" title="Resumo"></a>Resumo</h2><ul>
+<li><p><strong>Personalidade Jurídica</strong> é o conceito que afirma que todas as pessoas (físicas e jurídicas) possuem direitos e deveres.</p>
+</li>
+<li><p><strong>Pessoa Física</strong> é um termo utilizado para designar todo e qualquer ser-humano.</p>
+</li>
+<li><p><strong>Pessoa Jurídica</strong> é um um conjunto de pessoas físicas que se unem para alcançarem <strong>objetivos comuns</strong>, sejam eles econômicos ou não, formando uma <strong>sociedade</strong> ou organização.</p>
+</li>
+<li><p>Pessoas Jurídicas podem assumir-se como de direito público ou privado, dependendo da influência do Estado em sua gestão.</p>
+</li>
+<li><p>No Brasil existem diferentes <strong>tipos de pessoas jurídicas de direito privado</strong> – Associações, OSCIPs, Fundações, Cooperativas e Empresas. Estas organizações se diferenciam por suas <strong>finalidades sociais</strong> e seus <strong>objetivos econômicos</strong>.</p>
+</li>
+<li><p>O documento que define as regras, objetivos, estrutura e divisão de tarefas de uma organização é o seu <strong>estatuto</strong>.</p>
+</li>
+<li><p>As organizações (excetuando as empresas) se estruturam internamente em Assembleia Geral, Conselho Administrativo e Conselho Fiscal, cada um responsável por um conjunto de funções especificadas no Estatuto da Organização.</p>
+</li>
+</ul>
+<hr>
+<h2 id="Exercicios"><a href="#Exercicios" class="headerlink" title="Exercícios"></a>Exercícios</h2><ol>
+<li><p>Dê 3 exemplos de Pessoas Físicas e Pessoas Jurídicas.</p>
+</li>
+<li><p>Dê exemplos da <strong>personalidade jurídica</strong> (direitos e deveres) de Pessoas Físicas e Pessoas Jurídicas. </p>
+</li>
+<li><p>Quais são as <strong>vantagens e desvantagens</strong> de se registar uma Pessoa Jurídica?</p>
+</li>
+<li><p>Dê 5 exemplos de Pessoas Jurídicas de Direito Público e Privado.</p>
+</li>
+<li><p>Diferencie OSCIP de Associação, dando 5 exemplos de cada uma e indicando suas áreas de atuação. Exemplo: Associação de Pais e Mestres da Escola XYZ - Área de atuação: educação</p>
+</li>
+<li><p>Diferencie sociedade econômica de cooperativa.</p>
+</li>
+<li><p>Dê exemplos de situações nas quais é mais viável constituir uma cooperativa do que uma empresa.</p>
+</li>
+<li><p>Explique as semelhanças e diferenças entre Contrato Social e Estatuto Social.</p>
+</li>
+<li><p>Relacione cada um dos 3 Poderes Políticos aos órgãos da cooperativa utilizada como exemplo.</p>
+</li>
+</ol>
+<hr>
+<h2 id="Referencias-Bibliograficas"><a href="#Referencias-Bibliograficas" class="headerlink" title="Referências Bibliográficas"></a>Referências Bibliográficas</h2><p>BÄCHTOLD, CIRO. Contabilidade Básica. Curitiba: Instituto Federal do Paraná, 2012. Disponível em <a href="https://bit.ly/342pLX5" target="_blank" rel="noopener">https://bit.ly/342pLX5</a>. Acesso en <em>20 de mar. de 2020</em>.</p>
+<p>RENNÓ, R. Administração Geral para Concursos. Rio de Janeiro, Elsevier, 2013.</p>
+<p>VALLE, R. S. T. do; BAPTISTA, F. M. Formas de Organização – Associação, Fundação, Cooperativa, Empresa. INSTITUTO SOCIOAMBIENTAL, São Paulo, 2002.  Disponível em <a href="https://bit.ly/2XzFvj9" target="_blank" rel="noopener">https://bit.ly/2XzFvj9</a>. Acesso em 14 abr. 2020.</p>
+
+        </div>
+
+        
+            <section class="post-copyright">
+                
+                
+                    <p class="copyright-item">
+                        <span>Conteúdo disponível em:</span>
+                        <span><a href="http://zmdy.github.io/aulas.txt/posts/administracao/aulas/aula-15/">http://zmdy.github.io/aulas.txt/posts/administracao/aulas/aula-15/</a></span>
+                    </p>
+                
+                
+                    <p class="copyright-item">
+                        <span>Licença:</span>
+                        <span>Este material está distribuído com uma licença <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC-BY-4.0</a></span>
+                    </p>
+                
+                
+
+            </section>
+        
+        <section class="post-tags">
+            <div>
+                <span>Tag(s):</span>
+                <span class="tag">
+                    
+                    
+                        <a href="/aulas.txt/pages/tag/Auxiliar-Administrativo-Modulo-02-Aulas/"># Auxiliar Administrativo - Módulo 02 - Aulas</a>
+                    
+                        
+                </span>
+            </div>
+            <div>
+                <a href="javascript:window.history.back();">voltar</a>
+                <span>· </span>
+                <a href="/aulas.txt/">home</a>
+            </div>
+        </section>
+        <section class="post-nav">
+            
+                <a class="prev" rel="prev" href="/aulas.txt/posts/administracao/trabalhos/modulo-01/">Módulo 01 - TCM</a>
+            
+            
+            <a class="next" rel="next" href="/aulas.txt/posts/slides/temas/arturito/">Demonstração do Tema - Arthurito</a>
+            
+        </section>
+
+
+    </article>
+</div>
+
+        </div>
+        <footer id="footer" class="footer">
+    <div class="copyright">
+        <span>© aulas.txt | Feito com <a href="https://hexo.io" target="_blank">Hexo</a> & <a href="https://github.com/Siricee/hexo-theme-Chic" target="_blank">Chic</a> | <a target="_blank" onclick="printPage()">Imprimir esta página em PDF</a></span>
+    </div>
+</footer>
+
+    </div><!-- hexo-inject:begin --><!-- Begin: Injected MathJax -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({"tex2jax":{"inlineMath":[["$","$"],["\\(","\\)"]],"skipTags":["script","noscript","style","textarea","pre","code"],"processEscapes":true},"TeX":{"equationNumbers":{"autoNumber":"AMS"}}});
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+      all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+</script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js">
+</script>
+<!-- End: Injected MathJax -->
+<!-- hexo-inject:end -->
+</body>
+</html>

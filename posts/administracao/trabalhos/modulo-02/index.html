@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="UTF-8">
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="author" content="zmdy">
+
+
+
+
+
+<title>Módulo 02 - TCM | aulas.txt</title>
+
+<!-- HERE ARE SOME LIBARIES AND PERSONAL TOOLS OF THE SRC FOLDER -->
+<script src="/aulas.txt/src/js/bonisa.min.js"></script>
+<script src="/aulas.txt/src/libs/printjs/print.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="/aulas.txt/assets/media/fonts/icofont/icofont.css">
+<script>
+  function printPage(){
+    printJS({
+        printable: 'aulasTXT', type: 'html',
+        header: null,
+        css: '/aulas.txt/css/style.css'
+    });
+  }
+</script>
+
+
+
+
+    <link rel="icon" href="/aulas.txt/favicon.png">
+
+
+
+
+    <!-- stylesheets list from _config.yml -->
+    
+    <link rel="stylesheet" href="/aulas.txt/css/style.css">
+    
+
+
+
+    <!-- scripts list from _config.yml -->
+    
+    <script src="/aulas.txt/js/script.js"></script>
+    
+    <script src="/aulas.txt/js/tocbot.min.js"></script>
+    
+
+
+
+    
+    
+        
+    
+
+
+<meta name="generator" content="Hexo 4.2.0"><!-- hexo-inject:begin --><!-- hexo-inject:end --></head>
+<body>
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><div class="wrapper">
+        <header>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header header-logo"><a href="/aulas.txt/">aulas.txt</a></div>
+            <div class="menu navbar-right">
+                
+                    <a class="menu-item" href="/aulas.txt/pages/cursos">Cursos</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/tag">Materiais</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/manual">Manual</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/sobre">Sobre</a>
+                
+                <input id="switch_default" type="checkbox" class="switch_default">
+                <label for="switch_default" class="toggleBtn"></label>
+            </div>
+        </div>
+    </nav>
+
+    
+    <nav class="navbar-mobile" id="nav-mobile">
+        <div class="container">
+            <div class="navbar-header">
+                <div>
+                    <a href="/aulas.txt/">aulas.txt</a><a id="mobile-toggle-theme">·&nbsp;Light</a>
+                </div>
+                <div class="menu-toggle" onclick="mobileBtn()">&#9776; Menu</div>
+            </div>
+            <div class="menu" id="mobile-menu">
+                
+                    <a class="menu-item" href="/aulas.txt/pages/cursos">Cursos</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/tag">Materiais</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/manual">Manual</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/sobre">Sobre</a>
+                
+            </div>
+        </div>
+    </nav>
+
+</header>
+<script>
+    var mobileBtn = function f() {
+        var toggleMenu = document.getElementsByClassName("menu-toggle")[0];
+        var mobileMenu = document.getElementById("mobile-menu");
+        if(toggleMenu.classList.contains("active")){
+           toggleMenu.classList.remove("active")
+            mobileMenu.classList.remove("active")
+        }else{
+            toggleMenu.classList.add("active")
+            mobileMenu.classList.add("active")
+        }
+    }
+</script>
+        <div class="main padding-05mm" id="aulasTXT">
+            <div class="container">
+    
+    
+        <div class="post-toc">
+    <div class="tocbot-list">
+    </div>
+    <div class="tocbot-list-menu">
+        <a class="tocbot-toc-expand" onclick="expand_toc()">Expand all</a>
+        <a onclick="go_top()">Back to top</a>
+        <a onclick="go_bottom()">Go to bottom</a>
+    </div>
+</div>
+
+<script>
+    document.ready(
+        function () {
+            tocbot.init({
+                tocSelector: '.tocbot-list',
+                contentSelector: '.post-content',
+                headingSelector: 'h1, h2, h3, h4, h5',
+                collapseDepth: 1,
+                orderedList: false,
+                scrollSmooth: true,
+            })
+        }
+    )
+
+    function expand_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 6,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "collapse_toc()");
+        b.innerHTML = "Collapse all"
+    }
+
+    function collapse_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 1,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "expand_toc()");
+        b.innerHTML = "Expand all"
+    }
+
+    function go_top() {
+        window.scrollTo(0, 0);
+    }
+
+    function go_bottom() {
+        window.scrollTo(0, document.body.scrollHeight);
+    }
+
+</script>
+    
+
+    
+    <article class="post-wrap">
+        <header class="post-header">
+            <h1 class="post-title">Módulo 02 - TCM</h1>
+            
+                <div class="post-meta">
+                    
+
+                    
+                        <span class="post-time">
+                        Data de Publicação: <a href="#">14/04/2020&nbsp;&nbsp;12:47</a>
+                        </span>
+                    
+                    
+                </div>
+            
+        </header>
+
+        <div class="post-content">
+            <p>Os Trabalho de Conclusão de Módulo (individual e em grupo), conforme previsto na <a href="../../../../pages/cursos/administracao.html">ementa do curso</a>, equivale a 30 pontos/módulo.</p>
+<p>Este Trabalho se estrutura em 2 partes, distintas e correlatas.</p>
+<p>Na <strong>1º Parte</strong> será feito um exercício individual, pautado nos aspectos técnicos e teóricos absorvidos pelo educando no processo educacional.</p>
+<p>Na <strong>2ª Parte</strong> do TCM haverá o desenvolvimento de uma série de atividades e exercícios em grupo que buscarão conciliar os aspectos teóricos e técnicos das matérias estudadas em sala, com as demandas e anseios de cada estudante e o mercado administrativo.</p>
+<p>O principal objetivo do trabalho é o de centralizar os conhecimentos teóricos adquiridos pelo aluno no decorrer do módulo em uma atividade prática pautada nos seguintes pontos (IFC, 2015):</p>
+<ol>
+<li><p>Capacitar os alunos nos aspectos técnicos das práticas administrativas, habilidades interpessoais e de liderança, organização, criatividade e interesse por tarefas de cunho administrativo e social.</p>
+</li>
+<li><p>Estimular a disseminação de conhecimento vivido e adquirido entre alunos, organização e sociedade.</p>
+</li>
+<li><p>Aguçar o empreendedorismo nos alunos, capacitando-os nas técnicas de soluções criativas e inovadoras, no âmbito da ciência da Administração.</p>
+</li>
+</ol>
+<hr>
+<h2 id="Trabalho-Individual"><a href="#Trabalho-Individual" class="headerlink" title="Trabalho Individual"></a>Trabalho Individual</h2><p>A primeira parte do TCM de Contabilidade consiste em uma <strong>pesquisa individual</strong> sobre o tema <strong>Formas de Organização</strong>.</p>
+<p>O professor irá sortear para cada aluno um tema diferente do livro <a href="https://bit.ly/2XzFvj9" target="_blank" rel="noopener">Formas de Organização – Associação, Fundação, Cooperativa, Empresa</a>.</p>
+<p>Os temas disponíveis são:</p>
+<ol>
+<li>Associação sem fins lucrativos</li>
+<li>Organização de Sociedade Civil de Interesse Público (OSCIP)</li>
+<li>Fundação</li>
+<li>Cooperativa</li>
+<li>Empresa Sociedade Limitada</li>
+<li>Empresa Sociedade Anônima</li>
+<li>Empresa Microempresa</li>
+</ol>
+<p>Seu objetivo será <strong>preencher um formulário</strong> contendo os seguintes tópicos sobre o tipo de organização sorteado:</p>
+<ol>
+<li>Principais características</li>
+<li>Objetivos</li>
+<li>Funcionamento Interno Estrutura</li>
+<li>Passo a Passo de criação e legalização</li>
+<li>Exemplos de organizações deste tipo</li>
+</ol>
+<p>Você deverá elaborar, também, 2 perguntas, referentes ao tema sorteado. As perguntas deverão ser <strong>inseridas no formulário</strong>, no campo disponibilizado para tal.</p>
+<p>Você poderá escolher o tipo de pergunta, dentre as opções a seguir</p>
+<ol>
+<li>Múltipla Escolha</li>
+<li>Verdadeiro ou Falso</li>
+<li>Completar/Preencher</li>
+<li>Relacionar colunas</li>
+<li>Resposta Longa/Aberta</li>
+</ol>
+<p><em>As perguntas deverão ser originais, não sendo permitido o plágio ( de materiais ou questões, seja da Internet ou de livros. O não cumprimento deste critério irá anular o seu trabalho!</em></p>
+<p>Você deverá responder às perguntas desenvolvidas, explicando detalhadamente sua resposta. Pelo amor de Deus <strong>não responda</strong> somente com “sim”, “não”, “talvez”, “depende”, “tanto faz” ou outras respostas monossilábicas.</p>
+<p>Após a data de entrega disponibilizarei <strong>guias de estudo</strong> contendop as perguntas elaboradas por todos os alunos. <strong>As perguntas das provas serão retiradas deste guia</strong>.</p>
+<p>Cada aluno deverá, então, escolher no <strong>mínimo 10 perguntas</strong> dentre as disponibilizadas para serem respondidas, de forma manuscrita ou digitada (a critério do professor).</p>
+<p>Distribuição dos Pontos</p>
+<table>
+<thead>
+<tr>
+<th align="center">Critério</th>
+<th align="center">Nota</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">Entrega no prazo correto</td>
+<td align="center">2,5 pontos</td>
+</tr>
+<tr>
+<td align="center">Coerências nas respostas do formulário</td>
+<td align="center">2,5 pontos</td>
+</tr>
+<tr>
+<td align="center">Originalidade nas questões elaboradas</td>
+<td align="center">2,5 pontos</td>
+</tr>
+<tr>
+<td align="center">Coerência nas respostas elaboradas</td>
+<td align="center">2,5 pontos</td>
+</tr>
+<tr>
+<td align="center">TOTAL</td>
+<td align="center">10 pontos</td>
+</tr>
+</tbody></table>
+<h3 id="Sorteios-dos-Temas"><a href="#Sorteios-dos-Temas" class="headerlink" title="Sorteios dos Temas"></a>Sorteios dos Temas</h3><p>Para sortear os temas, ordenei os 23 alunos das 2 turmas - Quarta e Sábado por ordem alfabética.</p>
+<p>Em seguida embaralhei os nomes, aleatoriamente utilizando um <a href="https://sorteador.com.br/" target="_blank" rel="noopener">sorteador online</a>.</p>
+<p>Os temas foram, então, distribuídos para cada aluno pela sua ordem no <a href="https://sorteador.com.br/embaralhador/resultado/188692" target="_blank" rel="noopener">sorteio</a>. </p>
+<p>Desta forma o primeiro aluno sorteado ficou com o primeiro tema (Associação), o segundo aluno ficou com o segundo tema(OSCIP) e assim por diante.</p>
+<p>O resultado foi o seguinte:</p>
+<ul>
+<li>Jade Clarisse Borges de Oliveira     - Associação sem fins lucrativos</li>
+<li>Milena Carla de Souza Costa     - Organização de Sociedade Civil de Interesse Público (OSCIP)</li>
+<li>Pablo Henrique de Morais     - Fundação</li>
+<li>Kênia Cristina de Souza     - Cooperativa</li>
+<li>Debora Ferreira Santos     - Empresa Sociedade Limitada</li>
+<li>Hadassa Assis Venuto Pereira     - Empresa Sociedade Anônima</li>
+<li>Isabella Júlia Silva dos Santos     - Empresa Microempresa</li>
+<li>Richard Gerard Silva Felix     - Associação sem fins lucrativos</li>
+<li>Rosemeri Cristine Andrade     - Organização de Sociedade Civil de Interesse Público (OSCIP)</li>
+<li>Simon Antony de Oliveira     - Fundação</li>
+<li>Rafaela Josiane Domingos Passos     - Cooperativa</li>
+<li>Vivian Leal Dias     - Empresa Sociedade Limitada</li>
+<li>Guilherme Pereira dos Reis Souza     - Empresa Sociedade Anônima</li>
+<li>Victor Matheus Esteve de Souza     - Empresa Microempresa</li>
+<li>Thalita Ferreira de Oliveira     - Associação sem fins lucrativos</li>
+<li>Camile Floriano Santos     - Organização de Sociedade Civil de Interesse Público (OSCIP)</li>
+<li>Alice Azevedo Pereira     - Fundação</li>
+<li>Ana Luiza Mapa     - Cooperativa</li>
+<li>Samuel Martins de Souza     - Empresa Sociedade Limitada</li>
+<li>Yuri dos Santos Cruz     - Empresa Sociedade Anônima</li>
+<li>Luiz Davi Therezone Pereira     - Empresa Microempresa</li>
+<li>Raquel Almeida de Araújo     - Associação sem fins lucrativos</li>
+<li>Tainá Vitória Aparecida Florencio    - Organização de Sociedade Civil de Interesse Público (OSCIP)</li>
+</ul>
+<hr>
+<h2 id="Trabalho-em-Grupo"><a href="#Trabalho-em-Grupo" class="headerlink" title="Trabalho em Grupo"></a>Trabalho em Grupo</h2><p>Para o Trabalho em Grupo, os alunos deverão formar grupos de 3 a 5 pessoas.</p>
+<p>O objetivo deste trabalho será de preencher o <strong>Contrato Social</strong> de uma sociedade comercial. Para isso, o grupo deverá simular a criação de uma empresa.</p>
+<p>Além do contrato social, o grupo deverá realizar o planejamento contábil de sua empresa por meio de uma <strong>DRE</strong>.</p>
+<p>Antes de preencher o Contrato, o grupo deverá preencher uma apresentação de slides com as principais informações da empresa. Alguns modelos serão disponibilizados.</p>
+<p>Lista de Itens do Projeto em Grupo:</p>
+<p>1) Apresentação de Slides, contendo:</p>
+<ul>
+<li>Capa;</li>
+<li>Departamentos da Empresa;</li>
+<li>Organograma da Empresa;</li>
+<li>Objeto Social;</li>
+<li>CNAE;</li>
+<li>Tabela de Produtos;</li>
+<li>Promoção;</li>
+<li>Nome Fantasia e Nome Empresarial;</li>
+<li>Porte da Empresa;</li>
+<li>Enquadramento Jurídico;</li>
+<li>Enquadramento Tributário;</li>
+<li>CNPJ e Inscrição Estadual;</li>
+<li>Endereço da Sede;</li>
+<li>Capital Social;</li>
+<li>Print do fluxo de caixa;</li>
+<li>Print do Comprovante de CNPJ;</li>
+<li>Print da Ata de Fundação;</li>
+<li>Logotipo da empresa;</li>
+</ul>
+<p>2) Comprovante de CNPJ;</p>
+<p>3) Ata de Fundação + Atas de Reuniões;</p>
+<p>4) Fluxo de Caixa Mensal;</p>
+<p>5) Contrato Social;</p>
+<h3 id="Objeto-Social-e-CNAE"><a href="#Objeto-Social-e-CNAE" class="headerlink" title="Objeto Social e CNAE"></a>Objeto Social e CNAE</h3><p>O primeiro passo do trabalho será delimitar o <strong>objeto social</strong> da empresa, ou seja, em que área ela irá atuar. Vocês poderão escolher o tema que quiserem, mas recomendo que escolham um tema que agrade a todos.</p>
+<p>Exemplos de temas (já feitos por outros alunos):</p>
+<ul>
+<li>Confeitaria</li>
+<li>Estúdio de Fotografia</li>
+<li>Loja de Artigos Esportivos</li>
+<li>Loja de Festas</li>
+<li>Loja de Roupas</li>
+<li>Padaria</li>
+</ul>
+<p>Para complementar o Objeto Social, o grupo deverá pesquisar a subclasse CNAE das atividades principal e secundára ofertadas por sua empresa.</p>
+<p>O CNAE consiste em uma base de dados que relaciona cada atividade econômica a um código específico. Esta classificação se estrutura em uma hierarquia específica.</p>
+<p>Para fins contábeis geralmente seu utiliza a <strong>subclasse</strong> da atividade econômica, que corresponde ao nível com maior descrição da mesma:</p>
+<p><img src="../../../../assets/media/img/contabilidade/cnae-estrutura.png" alt="CNAE - Subclasse"></p>
+<p>A base de dados do CNAE pode ser acessada no site do <a href="https://concla.ibge.gov.br/busca-online-cnae.html" target="_blank" rel="noopener">IBGE</a>. Para relizar uma pesquisa basta inserir o termo procurado na caixa de pesquisa e clicar sobre a opção “Buscar”.</p>
+<p><img src="../../../../assets/media/img/contabilidade/cnae-site.png" alt="CNAE - Site"></p>
+<p>A página de resultados mostrará um série de atividades relacionadas ao tema. Leia cuidadosamente cada descrição para encontrar a atividade correta da empresa em questão.</p>
+<p><img src="../../../../assets/media/img/contabilidade/cnae-site-2.png" alt="CNAE - Pesquisa"></p>
+<p>Ao clicar sobre o código da atividade, abrirá uma nova página contendo importantes detalhes sobre a subclasse escolhida. Lembrando que o código utilizado está apresentado no item <strong>subclasse</strong>.</p>
+<p><img src="../../../../assets/media/img/contabilidade/cnae-site-3.png" alt="CNAE - Resultado de uma Pesquisa"></p>
+<p>Uma empresa pode realizar mais de 1 atividade (CNAE). No entanto, uma destas atividades deverá ser a <strong>principal</strong>  e as outras deverão ser consideradas <strong>secundárias</strong>.  Considerando, a exemplo, uma padaria, pode-se ter:</p>
+<p>ATIVIDADE PRINCIPAL:</p>
+<ul>
+<li>1091-1/02 Fabricação de produtos de padaria e confeitaria com predominância de produção própria</li>
+</ul>
+<p>ATIVIDADES SECUNDÁRIAS:</p>
+<ul>
+<li>1092-9/00 Fabricação de biscoitos e bolachas</li>
+<li>5611-2/03 Lanchonetes, casas de chá, de sucos e similares</li>
+<li>1094-5/00 Fabricação de massas alimentícias</li>
+</ul>
+<h3 id="Organizacao-da-Empresa"><a href="#Organizacao-da-Empresa" class="headerlink" title="Organização da Empresa"></a>Organização da Empresa</h3><p>Como vimos nas aulas sobre teorias administrativas, as empresas se organizam em diversos departamentos e órgãos, cada um responsável por uma função dentre da mesma.</p>
+<p>Para Fayol, em sua Teoria Clássica, as funções empresariais seriam: a <strong>técnica</strong>, a <strong>comercial</strong>, a <strong>financeira</strong>, a de <strong>segurança</strong>, a <strong>contábil</strong> e a <strong>administrativa</strong>. Essa última seria a responsável pela coordenação das outras funções.</p>
+<p>Já na Teoria da Burocracia de Weber, dá-se uma importância maior às hierarquias da empresa.</p>
+<p>Organogramas são gráficos que representam a estrutura hierárquica de uma empresa, mostrando os departamentos da mesma e suas inter-relações. </p>
+<p>Em nossa padaria de exemplo poderíamos ter como <strong>departamentos</strong>:</p>
+<p>1) O <strong>departamento comercial e administrativo</strong>, responsável por administrar a empresa;<br>2) O <strong>departamento de produção</strong>, formado pelos cozinheiros, padeiros e confeiteiros, e responsável pela produção dos produtos da padaria;<br>3) O <strong>departamento de vendas</strong>, formado pelos atendentes, vendedores motoristas e entregadores.</p>
+<p>Após delimitar os departamentos, o grupo deverá montar o <strong>organograma</strong> de sua empresa, utilizando o Power Point. Em nosso exemplo da padaria, ele ficaria assim:</p>
+<p><img src="../../../../assets/media/img/contabilidade/organograma-padaria.png" alt="Organograma de uma Padaria"></p>
+<h3 id="Produtos-Ofertados"><a href="#Produtos-Ofertados" class="headerlink" title="Produtos Ofertados"></a>Produtos Ofertados</h3><p>Tendo finalizado o levantamento do objeto social e CNAE, é hora de seu grupo escolher alguns dos produtos ofertados por sua empresa.</p>
+<p>Faça uma breve pesquisa de mercado para encontrar os produtos e serviços mais oferecidos por empresas do mesmo ramo, e monte alguns pacotes, promoções ou produtos próprios. Escolha também os <strong>preços dos seus produtos</strong>!</p>
+<p>Ainda continuando no exemplo de uma padaria, os produtos ofertados poderiam ser:</p>
+<ul>
+<li>Pães caseiros salgados recheados = R$ 10,00 kg</li>
+<li>Pães doces especiais = R$ 15,00 kg</li>
+<li>Bolinho de chuva recheado - Nutella ou Doce de Leite = R$ 5,00 pacote com 7 unidades</li>
+<li>Salgadinhos para festa sortidos = R$ 25,00 por cento de salgados</li>
+<li>Pacote de Festas: Bolo de Aniversário + 100 docinhos + 250 salgados + 3 refigerantes por apenas R$ 99,90</li>
+</ul>
+<h3 id="Promocao-Especial"><a href="#Promocao-Especial" class="headerlink" title="Promoção Especial"></a>Promoção Especial</h3><p>O grupo deverá criar uma promoção especial para divulgar a empresa. Usem a imaginação.</p>
+<p>Em nosso exemplo da padaria, e levando em conta o mês de maio (dia das mães), a promoção poderia ser:</p>
+<ul>
+<li>Cesta de Café da Manhã para dia das mães - R$ 89,90 - contendo: … (aqui iria uma descrição dos produtos, mas fiquei com preguiça kjkjkj. Deu pra pegar a ideia, certo?)</li>
+</ul>
+<h3 id="Nome-Fantasia-e-Nome-Empresarial"><a href="#Nome-Fantasia-e-Nome-Empresarial" class="headerlink" title="Nome Fantasia e Nome Empresarial"></a>Nome Fantasia e Nome Empresarial</h3><p>Após escolher o tema, é hora de nomear sua empresa. Escolham o nome fantasia que mais agradar ao grupo - e que mais represente o seu negócio.</p>
+<p>Além do nome o grupo deverá desenvolver um logotipo para a Empresa. Recomenda-se que sejam utilizados modelos de fontes personalizadas, ícones e outros elementos gráficos que chamem a atenção. Por questões de simplicidade, recomendo que utilizem o PowerPoint para a criação desta arte, como será mostrado em sala de aula.</p>
+<p>Os seguintes sites podem ser utilizados para pesquisa de imagens, ícones e outros recursos gráficos interessantes para a confecção da Logo.</p>
+<p><a href="https://www.flaticon.com/" target="_blank" rel="noopener">Flaticon - Site de Ícones - Inglês</a><br><a href="https://br.freepik.com/" target="_blank" rel="noopener">Freepik - Site de Ícones, Imagens e Vetores - Português</a><br><a href="https://www.pexels.com/pt-br/" target="_blank" rel="noopener">Pexels - Site com Imagens e Vídeos Gratuitos - Português</a><br><a href="https://pixabay.com/pt/" target="_blank" rel="noopener">Pixabay - Site com Imagens e Vídeos Gratuitos - Português</a><br><a href="https://librestock.com/" target="_blank" rel="noopener">LibreStock - Site com Imagens e Vídeos Gratuitos - Português</a><br><a href="https://ccsearch.creativecommons.org/" target="_blank" rel="noopener">CCSearch - Site com Imagens, Vídeos, Áudios e Textos Gratuitos - Português</a></p>
+<p>Criada a identidade visual básica de sua marca chegou um momento crucial: definir o nome empresarial.</p>
+<p>O nome empresarial de um negócio está intimamente relacionado com o seu enquadramento jurídico. Existem diversas regras de colidência e nomeação de empresas - sendo as principais listadas a seguir:</p>
+<blockquote>
+<p>INCLUIR REGRAS AQUI</p>
+</blockquote>
+<h3 id="Porte-da-Empresa"><a href="#Porte-da-Empresa" class="headerlink" title="Porte da Empresa"></a>Porte da Empresa</h3><p>Você deverá estimar um lucro anual para a sua empresa. Com isso poderá definir o seu porte.</p>
+<p>O porte de uma empresa pode ser definido tendo como base sua renda anual:</p>
+<p><img src="../../../../assets/media/img/tipos-de-organizacao/porte-empresas-receita.png" alt="Porte de Empresas por Renda"></p>
+<p>Outro tipo de classificação utilizada diz respeito ao tipo de funcionários. Neste caso a área de atuação da empresa (comércio ou indústria) também é levada em consideração.</p>
+<p><img src="../../../../assets/media/img/tipos-de-organizacao/porte-empresas-funcionarios-comercio.png" alt="Porte de Empresas Comerciais por Funcionários"></p>
+<p><img src="../../../../assets/media/img/tipos-de-organizacao/porte-empresas-funcionarios-industria.png" alt="Porte de Empresas Industriais por Funcionários"></p>
+<h3 id="Enquadramento-Juridico-e-Tributario"><a href="#Enquadramento-Juridico-e-Tributario" class="headerlink" title="Enquadramento Jurídico e Tributário"></a>Enquadramento Jurídico e Tributário</h3><p>Como estamos fazendo um trabalho em grupo, o enquadramento jurídico escolhido poderá ser <strong>exclusivamente</strong>: Sociedade Simples (SS) ou Sociedade Limitada (LTDA).</p>
+<p>Recomenda-se que se escolha o enquadramento tributário Simples Nacional, mas o grupo é livre para fazer a escolha que melhor lhe convier.</p>
+<h3 id="CNPJ-e-Inscricao-Estadual"><a href="#CNPJ-e-Inscricao-Estadual" class="headerlink" title="CNPJ e Inscrição Estadual"></a>CNPJ e Inscrição Estadual</h3><p>Outro fator importante para este trabalho será a utilização do CNPJ e da Inscrição Estadual para o preenchimento de um modelo de Comprovante de CNPJ.</p>
+<p><img src="../../../../assets/media/img/contabilidade/modelo-comprovante-cnpj.png" alt="Comprovante CNPJ"></p>
+<p>Este tipo de documento pode ser gerado, por empresas verdadeiras, no site da Receita Federal. Para fins deste trabalho, o Comprovante deverá ser <strong>simulado</strong> preenchendo o modelo a seguir:</p>
+<p><a href="../../../../assets/content/administracao/modulo-02/modelo-comprovante-cnpj.pptx" target="_blank"><i class="icofont-download"></i> PPTX - Modelo de Comprovante CNPJ</a></p>
+<p>A Receita Federal possui uma tabela com os códigos dos diferentes tipos de natureza jurídica existentes no Brasil. Consulte a <a href="http://receita.economia.gov.br/orientacao/tributaria/cadastros/cadastro-nacional-de-pessoas-juridicas-cnpj/tabelas-utilizadas-pelo-programa-cnpj/tabela-de-natureza-juridica-e-qualificacao-do-quadro-de-socios-e-administradores" target="_blank" rel="noopener">tabela</a> para preencher corretamente o Comprovante do CNPJ.</p>
+<ul>
+<li>206-2    = Sociedade Empresária Limitada</li>
+<li>223-2    =    Sociedade Simples Pura</li>
+<li>224-0 = Sociedade Simples Limitada</li>
+</ul>
+<p>Para gerar os números do CNPJ e IE, deverá ser utilizado as ferramentas online disponibilizadas abaixo:</p>
+<p><a href="https://www.4devs.com.br/gerador_de_empresas" target="_blank" rel="noopener">Gerador de Empresas - 4Devs</a><br><a href="https://www.geradorcnpj.com/" target="_blank" rel="noopener">Gerador de CNPJ</a><br><a href="https://www.4devs.com.br/validador_cnpj" target="_blank" rel="noopener">Validador de CNPJ</a></p>
+<p>Os números do CNPJ são gerados utilizando regras específicas. Não se trata apenas de escolher 14 dígitos aleatórios.</p>
+<p>Exemplo de CNPJ Válido: 54.421.474/0001-36</p>
+<p>Os 8 primeiros dígitos do CNPJ (54.421.474) correspondem ao número-base de identificação da empresa.</p>
+<p>Os 4 números após a barra (/) representam o número de ordem das filiais da empresa. Caso a empresa possua apenas 1 filial, o CNPJ conterá a sequência /0001; caso ela possua 2 filiais, o CNPJ conterá a sequência /0002 e assim por diante.</p>
+<p>Os 2 últimos números do CNPJ são chamados de dígitos verificadores.</p>
+<h3 id="Endereco-da-Sede"><a href="#Endereco-da-Sede" class="headerlink" title="Endereço da Sede"></a>Endereço da Sede</h3><p>Por último, mas não menos importante, o grupo deverá escolher um endereço para a sede da empresa.</p>
+<p>Esta decisão deve ser tomada com bastante atenção: a escolha de um bom endereço facilita a aquisição de clientes e a entrega dos seus produtos. Caso escolham abrir uma empresa comercial, endereços movimentados, como Centros e Bairros Comerciais são os mais indicados;</p>
+<p>Para aquelas empresas que realizam distribuição de mercadorias, indicam-se sedes localizadas próximas a Rodovias e Estradas; já para Indústrias, deve-se utilizar áreas de grande extensão localizadas em bairros especiais, longe de residências (de preferência) visto o perigo inerente a diversos processos efetuados.</p>
+<p>No desenvolvimento da apresentação, o grupo deverá explicar as razões que levaram a escolha do endereço sede da empresa. Deve-se incluir <strong>um print</strong> da localização (obviamente fictícia) da empresa, utilizado o Google Maps ou simiares.</p>
+<p>A escolha de um bom endereço de sede é fundamental para o destaque de seu negócio. Escolha-o bem!</p>
+<h3 id="Demonstracoes-Financeiras"><a href="#Demonstracoes-Financeiras" class="headerlink" title="Demonstrações Financeiras"></a>Demonstrações Financeiras</h3><p>A apuração de resultados financeiros é importantíssima para se verificar o balanço final das operações após determinado período.</p>
+<p>Todas as empresas, para garantirem uma boa administração dos seus recursos, devem ter um lançamento diário de seu fluxo de caixa. Estes documentos ajudam os administradores a tomarem decisões sobre seus negócios.</p>
+<p>Para este trabalho o grupo deverá preencher um modelo de Fluxo de Caixa que irá calcular, automaticamente, um relatório financeiro do período.</p>
+<p>Neste modelo, deverão ser cadastrados, nesta ordem:</p>
+<p>1) Entre 25 (mínimo) e 50 produtos (máximo);<br>2) Entre 90 (mínimo) e 180 vendas (máximo);<br>3) Entre 30 (mínimo) e 60 saídas de caixa (máximo);</p>
+<p><img src="../../../../assets/media/img/contabilidade/modelo-fluxo-de-caixa.png" alt="Fluxo de Caixa"></p>
+<p>Todos estes dados estão disponíveis no documento abaixo:</p>
+<p><a href="../../../../assets/content/administracao/modulo-02/modelo-fluxo-de-caixa-mensal.xlsx" target="_blank"><i class="icofont-download"></i> XLSX - Modelo de Fluxo de Caixa Mensal</a></p>
+<h3 id="Apresentacao-de-Slide"><a href="#Apresentacao-de-Slide" class="headerlink" title="Apresentação de Slide"></a>Apresentação de Slide</h3><p>Para facilitar o levantamento de informações, abaixo seguem alguns modelos de Apresentação de Slides para serem preenchidos com os dados de sua empresa.</p>
+<p><a href="../../../../assets/content/administracao/modulo-02/modelo-slide-tcm.pptx" target="_blank"><i class="icofont-download"></i> PPTX - Modelo de Apresentação de Slides - TCM</a></p>
+<p>AO FINAL DO PROCESSO VOCÊS DEVERÃO EXPORTAR A APRESENTAÇÃO PARA O FORMATO PDF!</p>
+<h3 id="Contrato-Social-amp-Ata"><a href="#Contrato-Social-amp-Ata" class="headerlink" title="Contrato Social &amp; Ata"></a>Contrato Social &amp; Ata</h3><p>Com o slide feito, é hora de preencher o Contrato Social, que deve ser feito em um processador de textos, como o Word ou Libre Office Writer.</p>
+<p>AO FINAL DO PROCESSO VOCÊS DEVERÃO EXPORTAR O CONTRATO PARA O FORMATO PDF E IMPRIMI-LO!</p>
+<p><a href="../../../../assets/content/administracao/modelos/modelo-contrato-social.pdf" target="_blank"><i class="icofont-download"></i> PDF - Modelo de Contrato Social para Sociedade Simples Pura e Limitada</a></p>
+<p><a href="../../../../assets/content/administracao/modelos/modelo-contrato-social-ltda.docx" target="_blank"><i class="icofont-download"></i> LTDA - Modelo de Contrato Social para Sociedade Simples Limitada</a></p>
+<p>Como vimos em sala, em toda reunião feita pelos sócios de uma empresa é necessário redigir uma ata. Por esta razão, vocês também deverão escrever as atas de suas reuniões, registrando o passo a passo da criação de sua empresa.</p>
+<p><a href="../../../../assets/content/administracao/modelos/modelo-basico-ata-assembleia.doc" target="_blank"><i class="icofont-download"></i> Modelo de Ata Para Reunião</a></p>
+<p>AO FINAL DO PROCESSO VOCÊS DEVERÃO EXPORTAR AS ATAS PARA O FORMATO PDF E IMPRIMI-LAS!</p>
+<hr>
+<h2 id="Regras"><a href="#Regras" class="headerlink" title="Regras"></a>Regras</h2><p><img src="../../../../assets/media/img/etica/regras-de-convivencia.jpg" alt="Regras do Trabalho"></p>
+<ul>
+<li><p><i class="icofont-link"></i>  Link do <a href="https://forms.gle/fmBv5KGv3KpN7r8p6" target="_blank" rel="noopener">formulário</a></p>
+</li>
+<li><p><i class="icofont-not-allowed"></i>  É proibido o plágio de materiais, incluindo as perguntas elaboradas e as respostas inseridas no formulário;</p>
+</li>
+<li><p><i class="icofont-clock-time"></i>  Data Máxima de Entrega - Trabalho Individual: 25/04/2020, 17:00</p>
+</li>
+<li><p><i class="icofont-dollar"></i>  Valor do Trabalho: 10 pontos (TRABALHO INDIVIDUAL); 20 pontos (TRABALHO EM GRUPO)</p>
+</li>
+</ul>
+<hr>
+<h2 id="Modelos"><a href="#Modelos" class="headerlink" title="Modelos"></a>Modelos</h2><p><a href="../../../../assets/content/administracao/modelos/modelo-slide-com-regras.pptx" target="_blank"><i class="icofont-download"></i> PPTX - Template de Apresentação de Slides - Regras</a></p>
+<p><a href="../../../../assets/content/administracao/modulo-02/modelo-slide-tcm.pptx" target="_blank"><i class="icofont-download"></i> PPTX - Template de Apresentação de Slides - TCM</a></p>
+<p><a href="../../../../assets/content/administracao/modulo-02/pack-slides.rar" target="_blank"><i class="icofont-download"></i> RAR - Template de Apresentação de Slides + Imagens</a></p>
+<p><a href="../../../../assets/content/administracao/modulo-02/modelo-comprovante-cnpj.pptx" target="_blank"><i class="icofont-download"></i> PPTX - Modelo de Comprovante CNPJ</a></p>
+<p><a href="../../../../assets/content/administracao/modulo-02/modelo-ata-fundacao-empresa.doc" target="_blank"><i class="icofont-download"></i> DOCX - Exemplo (preenchido) de Ata de Fundação de Empresa</a></p>
+<p><a href="../../../../assets/content/administracao/modelos/modelo-basico-ata-assembleia.doc" target="_blank"><i class="icofont-download"></i> DOCX - Modelo de Ata Para Reunião</a></p>
+<p><a href="../../../../assets/content/administracao/modelos/modelo-contrato-social.pdf" target="_blank"><i class="icofont-download"></i> PDF - Modelo de Contrato Social para Sociedade Simples Pura e Limitada</a></p>
+<p><a href="../../../../assets/content/administracao/modelos/modelo-contrato-social-ltda.docx" target="_blank"><i class="icofont-download"></i> DOCX - Modelo de Contrato Social para Sociedade Simples Limitada</a></p>
+<p><a href="../../../../assets/content/administracao/modulo-02/modelo-fluxo-de-caixa-mensal.xlsx" target="_blank"><i class="icofont-download"></i> XLSX - Modelo de Fluxo de Caixa Mensal</a></p>
+<hr>
+<h2 id="Referencias-Bibliograficas"><a href="#Referencias-Bibliograficas" class="headerlink" title="Referências Bibliográficas"></a>Referências Bibliográficas</h2><p>BÄCHTOLD, CIRO. Contabilidade Básica. Curitiba: Instituto Federal do Paraná, 2012. Disponível em <a href="https://bit.ly/342pLX5" target="_blank" rel="noopener">https://bit.ly/342pLX5</a>. Acesso en <em>20 de mar. de 2020</em>.</p>
+<p>VALLE, R. S. T. do; BAPTISTA, F. M. Formas de Organização –  Associação, Fundação, Cooperativa, Empresa. INSTITUTO SOCIOAMBIENTAL, São Paulo, 2002.  Disponível em <a href="https://bit.ly/2XzFvj9" target="_blank" rel="noopener">https://bit.ly/2XzFvj9</a>. Acesso em 14 abr. 2020.</p>
+
+        </div>
+
+        
+            <section class="post-copyright">
+                
+                
+                    <p class="copyright-item">
+                        <span>Conteúdo disponível em:</span>
+                        <span><a href="http://zmdy.github.io/aulas.txt/posts/administracao/trabalhos/modulo-02/">http://zmdy.github.io/aulas.txt/posts/administracao/trabalhos/modulo-02/</a></span>
+                    </p>
+                
+                
+                    <p class="copyright-item">
+                        <span>Licença:</span>
+                        <span>Este material está distribuído com uma licença <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC-BY-4.0</a></span>
+                    </p>
+                
+                
+
+            </section>
+        
+        <section class="post-tags">
+            <div>
+                <span>Tag(s):</span>
+                <span class="tag">
+                    
+                    
+                        <a href="/aulas.txt/pages/tag/Auxiliar-Administrativo-Trabalhos-de-Conclusao-de-Modulo/"># Auxiliar Administrativo - Trabalhos de Conclusão de Módulo</a>
+                    
+                        
+                </span>
+            </div>
+            <div>
+                <a href="javascript:window.history.back();">voltar</a>
+                <span>· </span>
+                <a href="/aulas.txt/">home</a>
+            </div>
+        </section>
+        <section class="post-nav">
+            
+                <a class="prev" rel="prev" href="/aulas.txt/posts/slides/administracao/trabalhos/modulo-01/">TCM - Módulo 01</a>
+            
+            
+            <a class="next" rel="next" href="/aulas.txt/posts/administracao/trabalhos/modulo-01/">Módulo 01 - TCM</a>
+            
+        </section>
+
+
+    </article>
+</div>
+
+        </div>
+        <footer id="footer" class="footer">
+    <div class="copyright">
+        <span>© aulas.txt | Feito com <a href="https://hexo.io" target="_blank">Hexo</a> & <a href="https://github.com/Siricee/hexo-theme-Chic" target="_blank">Chic</a> | <a target="_blank" onclick="printPage()">Imprimir esta página em PDF</a></span>
+    </div>
+</footer>
+
+    </div><!-- hexo-inject:begin --><!-- Begin: Injected MathJax -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({"tex2jax":{"inlineMath":[["$","$"],["\\(","\\)"]],"skipTags":["script","noscript","style","textarea","pre","code"],"processEscapes":true},"TeX":{"equationNumbers":{"autoNumber":"AMS"}}});
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+      all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+</script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js">
+</script>
+<!-- End: Injected MathJax -->
+<!-- hexo-inject:end -->
+</body>
+</html>

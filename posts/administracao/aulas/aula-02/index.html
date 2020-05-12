@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="UTF-8">
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="author" content="zmdy">
+
+
+
+
+
+<title>Aula 02 -  Módulo 01 - Auxiliar Administrativo | aulas.txt</title>
+
+<!-- HERE ARE SOME LIBARIES AND PERSONAL TOOLS OF THE SRC FOLDER -->
+<script src="/aulas.txt/src/js/bonisa.min.js"></script>
+<script src="/aulas.txt/src/libs/printjs/print.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="/aulas.txt/assets/media/fonts/icofont/icofont.css">
+<script>
+  function printPage(){
+    printJS({
+        printable: 'aulasTXT', type: 'html',
+        header: null,
+        css: '/aulas.txt/css/style.css'
+    });
+  }
+</script>
+
+
+
+
+    <link rel="icon" href="/aulas.txt/favicon.png">
+
+
+
+
+    <!-- stylesheets list from _config.yml -->
+    
+    <link rel="stylesheet" href="/aulas.txt/css/style.css">
+    
+
+
+
+    <!-- scripts list from _config.yml -->
+    
+    <script src="/aulas.txt/js/script.js"></script>
+    
+    <script src="/aulas.txt/js/tocbot.min.js"></script>
+    
+
+
+
+    
+    
+        
+    
+
+
+<meta name="generator" content="Hexo 4.2.0"><!-- hexo-inject:begin --><!-- hexo-inject:end --></head>
+<body>
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><div class="wrapper">
+        <header>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header header-logo"><a href="/aulas.txt/">aulas.txt</a></div>
+            <div class="menu navbar-right">
+                
+                    <a class="menu-item" href="/aulas.txt/pages/cursos">Cursos</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/tag">Materiais</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/manual">Manual</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/sobre">Sobre</a>
+                
+                <input id="switch_default" type="checkbox" class="switch_default">
+                <label for="switch_default" class="toggleBtn"></label>
+            </div>
+        </div>
+    </nav>
+
+    
+    <nav class="navbar-mobile" id="nav-mobile">
+        <div class="container">
+            <div class="navbar-header">
+                <div>
+                    <a href="/aulas.txt/">aulas.txt</a><a id="mobile-toggle-theme">·&nbsp;Light</a>
+                </div>
+                <div class="menu-toggle" onclick="mobileBtn()">&#9776; Menu</div>
+            </div>
+            <div class="menu" id="mobile-menu">
+                
+                    <a class="menu-item" href="/aulas.txt/pages/cursos">Cursos</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/tag">Materiais</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/manual">Manual</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/sobre">Sobre</a>
+                
+            </div>
+        </div>
+    </nav>
+
+</header>
+<script>
+    var mobileBtn = function f() {
+        var toggleMenu = document.getElementsByClassName("menu-toggle")[0];
+        var mobileMenu = document.getElementById("mobile-menu");
+        if(toggleMenu.classList.contains("active")){
+           toggleMenu.classList.remove("active")
+            mobileMenu.classList.remove("active")
+        }else{
+            toggleMenu.classList.add("active")
+            mobileMenu.classList.add("active")
+        }
+    }
+</script>
+        <div class="main padding-05mm" id="aulasTXT">
+            <div class="container">
+    
+    
+        <div class="post-toc">
+    <div class="tocbot-list">
+    </div>
+    <div class="tocbot-list-menu">
+        <a class="tocbot-toc-expand" onclick="expand_toc()">Expand all</a>
+        <a onclick="go_top()">Back to top</a>
+        <a onclick="go_bottom()">Go to bottom</a>
+    </div>
+</div>
+
+<script>
+    document.ready(
+        function () {
+            tocbot.init({
+                tocSelector: '.tocbot-list',
+                contentSelector: '.post-content',
+                headingSelector: 'h1, h2, h3, h4, h5',
+                collapseDepth: 1,
+                orderedList: false,
+                scrollSmooth: true,
+            })
+        }
+    )
+
+    function expand_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 6,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "collapse_toc()");
+        b.innerHTML = "Collapse all"
+    }
+
+    function collapse_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 1,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "expand_toc()");
+        b.innerHTML = "Expand all"
+    }
+
+    function go_top() {
+        window.scrollTo(0, 0);
+    }
+
+    function go_bottom() {
+        window.scrollTo(0, document.body.scrollHeight);
+    }
+
+</script>
+    
+
+    
+    <article class="post-wrap">
+        <header class="post-header">
+            <h1 class="post-title">Aula 02 -  Módulo 01 - Auxiliar Administrativo</h1>
+            
+                <div class="post-meta">
+                    
+
+                    
+                        <span class="post-time">
+                        Data de Publicação: <a href="#">27/03/2020&nbsp;&nbsp;15:12</a>
+                        </span>
+                    
+                    
+                </div>
+            
+        </header>
+
+        <div class="post-content">
+            <img src="../../../../assets/media/img/cursos/logo-auxiliar-administrativo-01.png" alt="Auxiliar Administrativo" title="Auxiliar Administrativo" class="img-50  bg-white">
+
+<p>Bem vindx à segunda aula do curso de Auxiliar Administrativo!</p>
+<p>Espero, de coração, que tu tenha feito o <strong>resumo e os exercícios</strong> referentes a aula anterior.</p>
+<p>Nesta aula iremos estudar o Código de Ética do Administrador, e aprenderemos sobre os diferentes tipos de empresa.</p>
+<hr>
+<h2 id="Sumario-da-Aula"><a href="#Sumario-da-Aula" class="headerlink" title="Sumário da Aula"></a>Sumário da Aula</h2><ol>
+<li><a href="#Percepcao">Perceção</a></li>
+<li><a href="#Etica-Moral-e-Costumes">Ética, Moral e Costumes</a></li>
+<li><a href="#Teorias-Eticas">Teorias Éticas</a></li>
+<li><a href="#Etica-Profissional">Ética Profissional</a></li>
+<li><a href="#Comportamentos-Profissionais">Comportamentos Profissionais</a></li>
+<li><a href="#Tipos-de-Empresa">Tipos de Empresa</a></li>
+<li><a href="#Resumo">Resumo</a></li>
+<li><a href="#Exercicios">Exercícios</a></li>
+<li><a href="#Referencias-Bibliograficas">Referências Bibliográficas</a></li>
+</ol>
+<hr>
+<h2 id="Percepcao"><a href="#Percepcao" class="headerlink" title="Percepção"></a>Percepção</h2><p>Precisamos ter <strong>consciência</strong> sobre nós mesmos e nossas realizações; saber o que queremos já é um bom começo para o nosso sucesso.</p>
+<p>O profissional que devido a <strong>estabilidade no emprego</strong>, não busca mudanças, informações  profissionais, podem ter certeza, esta fora do mercado.</p>
+<p>O <strong>medo de errar</strong>, muitas vezes, acaba levando a uma <strong>inércia do agir</strong>: por ter medo de fazermos algo errado, acabamos não fazendo nada. Não podemos permitir que os nossos medos interfiram no nosso desenvolvimento pessoal e profissional. Por isto, o auto-conhecimento e a correta percepção sobre suas realizações, sonhos e objetivos é fundamental para o nosso crescimento.</p>
+<p>O mercado exige cada vez mais um <strong>profissional globalizado</strong>, preparado para habituar-se e adaptar-se. Por esta razão, nunca deixe de aprender.</p>
+<hr>
+<h2 id="Etica-Moral-e-Costumes"><a href="#Etica-Moral-e-Costumes" class="headerlink" title="Ética, Moral e Costumes"></a>Ética, Moral e Costumes</h2><p>Em nosso cotidiano, constantemente discutimos sobre ética, moral e os costumes.</p>
+<p>Estamos acostumados, em tempos de corrupção política tão escancaradas, a falar sobre a (falta) de ética dos políticos. Com isso, lembramos (ou somos lembrados por outros) de outras épocas, quando “<em>a moral e os bons-costumes</em>“ produzia pessoas mais cultas, respeitosas e éticas.</p>
+<p>A ética também está presente nas relações profissionais: médicos, psicólogos, advogados e administradores possuem <strong>códigos de ética</strong> que devem ser seguidos e respeitados pelos profissionais.</p>
+<p>Em meio a tantos exemplos e significados destes termos, é importante perguntar: afinal de contas, o que é a <strong>moral</strong> e o que é a <strong>ética</strong>?</p>
+<h3 id="Costumes-e-Habitos"><a href="#Costumes-e-Habitos" class="headerlink" title="Costumes e Hábitos"></a>Costumes e Hábitos</h3><p>Quando falamos sobre <strong>ética ou moral</strong>, estamos nos referindo aos costumes, comportamentos e hábitos de um povo ou sociedade. As duas palavras são traduzidas para o português como <strong>costume</strong>: <em>ethos</em> tem origem grega; e <em>mores</em> tem origem latina.</p>
+<p>Toda cultura e cada sociedade institui uma série de costumes e comportamentos que são naturalizados pelos cidadãos. Estas costumes, por serem anteriores ao nosso nascimento e formam o tecido da sociedade em que vivemos, são considerados inquestionáveis e quase sagrados (CHAUÍ, 2000).</p>
+<p>Alguns exemplos de comportamentos de nossa sociedade contemporânea são:</p>
+<ul>
+<li>Usar roupa;</li>
+<li>Usar dinheiro;</li>
+<li>Ir a templos religiosos;</li>
+<li>Não trabalhar em determinados feriados;</li>
+<li>Tabus, como morte, sexo e política.</li>
+</ul>
+<h3 id="Moral"><a href="#Moral" class="headerlink" title="Moral"></a>Moral</h3><p>A <strong>moral</strong> está relacionada ao <strong>agir de acordo com os costumes</strong> e regras socialmente difundidas. Este comportamento leva-nos a acreditar que estes hábitos são regras morais evidentes - dizemos, por exemplo: “<em>É certo fazer tal ação, porque meus antepassados a fizeram e meus parentes a fazem</em>”.</p>
+<p>Em 1771 o Capitão inglês James Cook visitou a ilha de Tonga, no Pacífico Sul. Lá ele observou que durante as refeições homens e mulheres se alimentavam em diferentes locais. Ao questionar o chefe local a razão deste comportamento, o chefe respondeu, somente: “<em>Taboo</em>“ (GRCIC, 2015).</p>
+<p>Há diversos valores sociais que muitas vezes se travestem como <em>tabus</em>: há fatos, assuntos e temas que não podem ser (e não são) discutidos.</p>
+<p>Alguns exemplos de <strong>regras morais</strong> da nossa sociedade contemporânea são:</p>
+<ul>
+  <li class='item-ok'>Usar roupa quando estiver em público;</li>
+  <li class='item-ok'>Ir a templos religiosos;</li>
+  <li class='item-not'>Não trabalhar em determinados feriados;</li>
+  <li class='item-not'>Não conversar sobre tabus, como morte, sexo, política...</li>
+  <li class='item-ok'>Votar a cada 2 anos</li>
+  <li class='item-not'>Não roubar</li>
+  <li class='item-ok'>Consumir determinados produtos culturais, como séries, filmes e músicas (cultura de massa)</li>
+</ul>
+
+<p>Como a <strong>moralidade</strong> varia de cultura para cultura, há regras de conduta que não se aplicam em todas as sociedades. Para os indígenas, hindus e muitas tribos africanas, as pinturas corporais (e a maquiagem) são, em diversos rituais, obrigatórios, pelo fato de possuirem um significado cultural muito forte e enraizado. Já os muçulmanos acreditam que as tatuagens e pinturas corporais (e cirurgias plásticas) são erradas, pois representam uma tantativa de se alterar aquilo que foi criado por <em>Allah</em>.</p>
+<p>Imagine que um muçulmano analise as crenças indígenas sobre pinturas corporais: para eles (muçulmanos) as pinturas corporais são erradas e, logo, os indígenas apresentam comportamentos <strong>imorais</strong> (contrários à moral).</p>
+<p>Da mesma forma, para um indígena ou hindu, a falta de pinturas corporais em rituais sagrados é errada, e, logo, também imoral.</p>
+<p>Por outro lado, se considerarmos alguém neturo, que não possua nenhum pré-conceito sobre tatuagens e pinturas corporais, a presença ou falta de pinturas, por si só, não faz de alguém bom ou ruim. Esta pessoa neutra possui uma visão <strong>amoral</strong> sobre as tatuagens.</p>
+<h3 id="Etica"><a href="#Etica" class="headerlink" title="Ética"></a>Ética</h3><p>A <strong>ética</strong> nasce quando se passa a indagar o que são, de onde vêm e o que valem os costumes, pois a ética não pode ser dissociada da filosofia moral. Ela está relacionada ao pensar racionalmente sobre os costumes e hábitos.</p>
+<p>É com a ética (também chamada de <strong>filosofia moral</strong>) que ocorrem os questionamentos e as análises racionais dos comportamentos e hábitos das diferentes sociedades.</p>
+<p>Alguns exemplos de <strong>questionamentos éticos</strong> são:</p>
+<ul>
+  <li class='item-question'>Por que usamos roupa?</li>
+  <li class='item-question'>Por que devemos trabalhar? É errado não trabalhar?</li>
+  <li class='item-question'>Por que não conversamos sobre a morte?</li>
+  <li class='item-question'>Votar a cada 2 anos realmente significa participar da vida política do país?</li>
+  <li class='item-question'>Roubar ou matar é errado em todas as situações? Por que as pessoas roubam?</li>
+  <li class='item-question'>Porque vamos ao cinema assistir Thor, mas geralmente zombamos das religiões de matriz  africana?</li>
+</ul>
+
+<hr>
+<h2 id="Teorias-Eticas"><a href="#Teorias-Eticas" class="headerlink" title="Teorias Éticas"></a>Teorias Éticas</h2><p>Assim como existem diferentes visões morais sobre o mundo (lembre-se do exemplo da Ilha de Tonga), existem diferentes Teorias Éticas sobre as nossas ações. Iremos analisar brevemente 4 diferentes teorias: A <em>Teoria do Comando Divino</em>; A <em>Teoria Deontológica</em>; A <em>Teoria Consequencialista</em>; e por fim a <em>Teoria Contratualista</em>.</p>
+<h3 id="Teoria-do-Comando-Divino"><a href="#Teoria-do-Comando-Divino" class="headerlink" title="Teoria do Comando Divino"></a>Teoria do Comando Divino</h3><p>Esta a Teoria Ética mais antiga e ainda a mais aceita. Ela afirma que Deus (ou os deuses) são os responsáveis por <em>comandar</em> aquilo que é certo e errado.</p>
+<p>Nas mais diferentes religiões existentes há diferentes exemplos desta Teoria.</p>
+<p>A fé judaico-cristã afirma que Deus entregou a Moisés duas tábuas contendo <em>Os Dez Mandamentos</em>. Estes mandamentos são <em>leis divinas</em> que devem ser seguidas por todos - e se não forem seguidas há consequências divinas a este desrespeito.</p>
+<p>Para os muçulmanos há <em>5 Pilares</em>, revelados por Allah e salientados pelo Arcanjo Gabriel, que devem guiar a fé islâmica, incluindo a oração, a caridade, o jejum e a peregrinação à cidade de Meca.</p>
+<p>Os hindus, por sua vez, não apenas consideram as vacas como animais sagrados, mas também os ratos, as cobras, os crocodilos e os búfalos. Para eles, estes animais representam a pureza e resiliência - além de carregarem (espiritualmente ou literalmente) diferentes deuses. Assim sendo, matar ou ferir algum destes animais seria equivalente a ferir um deus, ou seja, uma blasfêmia (HELLERN, NOTAKER &amp; GAARDER, 2000).</p>
+<p><img src="../../../../assets/media/img/etica/teoria-do-comando-divino.png" alt="teoria-do-comando-divino"></p>
+<p>Apesar de sua grande difusão, esta Teoria apresenta alguns problemas filosóficos.</p>
+<p>O primeiro e principal deles está relacionado à sua abrangência: qual religião deveria ser utilizada como base para se definir as regras éticas de uma profissão, por exemplo?</p>
+<p>O segundo problema com esta teoria está relacionado com um problema conhecido como <em>O Dilema de Eutífron</em> que questiona a racionalidade dos comandos divinos.</p>
+<p>Por outro lado a Teoria do Comando Divino, junto a suas recompensas e punições, fornece uma <em>motivação</em> para agirmos de forma moral. Além disso, muitos defensores desta ética afirmam que as falhas e faltas que a Justiça apresenta, em casos como de Hitler e Stalin (que evitaram a punição humana pelos seus atos) são compensadas pela justiça divina.</p>
+<p>Muitos se sentem como o escritor russo Dostoevsky, cujo um dos personagens de sua obra <em>Os Irmãos Karamazov</em> diz: “Se destruísse no homem a fé na imortalidade [de Deus], não somente o amor secará nele, mas também a força de continuar a vida no mundo. Mais ainda, não haverá então nada de imoral, tudo será autorizando, até mesmo o canibalismo”.</p>
+<h3 id="Deontologia"><a href="#Deontologia" class="headerlink" title="Deontologia"></a>Deontologia</h3><p>Para resolver alguns dos dilemas criados pela Teoria do Comando Divino, Immanuel Kant desenvolveu uma filosofia moral baseada na <em>universalidade das ações</em>. </p>
+<p>A Teoria Kantiana, também chamada de <strong>Deontologia</strong>, apoia-se no conceito de <strong>imperativo categórico</strong>.</p>
+<p>Imperativos Categóricos representam “a regra fundamental que toda pessoa deveria respeitar para agir moralmente. Então, para o filósofo, se quisermos ser pessoas boas, devemos fazer aquilo que esse imperativo exige” (TATIM, 2019a).</p>
+<p>Para entender bem este conceito é importante ressaltar que Kant divide seu imperativo em duas partes (fórmulas).</p>
+<p><img src="../../../../assets/media/img/etica/teoria-katiana-deontologia.png" alt="teoria-kantiana-deontologia"></p>
+<p>A <strong>primeira fórmula do Imperativo Categórico</strong>, também chamada de Fórmula da Lei Universal, diz: “<em>Age apenas segundo uma máxima tal que possas ao mesmo tempo querer que ela se torne lei universal.</em>“</p>
+<p>Esta ideia afirma que devemos agir somente de acordo com as ações (ao que Kant chama de <em>máximas</em>) que podem ser universalizáveis. Em termos simples: devemos agir da maneira como queremos que <em>todas as outras pessoas</em> ajam.</p>
+<p>Exemplo: imagine que você está com problemas financeiros e decide pedir dinheiro emprestado. Você sabe que não tem condições para pagar o empréstimo, mas, na hora de fazê-lo mente para o agente bancário e ele lhe concede o dinheiro.</p>
+<p>Para Kant, o exemplo acima evoca a máxima “Mentir para conseguir aquilo que se deseja”. Dizer que esta máxima é universalizável significa afirmar que não há problemas se todas as pessoas mentissem para conseguirem o que querem.</p>
+<p>Isto seria uma coisa boa? Claro que não, pois assim não seria possível confiar nas pessoas e em pouco tempo ninguém mais emprestaria dinheiro para ninguém. Logo, o <strong>Imperativo Categórico</strong> afirma que não podemos querer que todas ajam segundo esta máxima, ou seja, ela deve ser rejeitada.</p>
+<p>A <strong>segunda fórmula do Imperativo Categórico</strong>, também conhecida como Fórmula do Fim em Si, é a seguinte: “<em>Age de tal maneira que uses a tua humanidade, tanto na tua pessoa como na pessoa de qualquer outro, sempre e simultaneamente como fim e nunca simplesmente como meio.</em>“.</p>
+<p>Esta fórmula afirma que é errado usar as pessoas como meios para atingir os nossos fins. “Pessoas são agentes racionais, são seres dotados de autonomia, capazes de escolher livremente os seus objetivos” (TATIM, 2019a) e por isto devemos sempre repeitá-los.</p>
+<p>No exemplo acima estamos utilizando o agente bancário como um instrumento para conseguirmos dinheiro. O mesmo vale quando aponta-se uma arma para roubar alguém: estas ações violam a sua autonomia como pessoa e as obrigam (ou forçam) a fazer coisas que elas não querem.</p>
+<p>Resumindo sobre a Deontologia Kantiana: <em>devemos agir da maneira como gostaríamos que todas as outras pessoas agissem - desde que isso não desrespeite sua autonomia</em>.</p>
+<h3 id="Consequencialismo"><a href="#Consequencialismo" class="headerlink" title="Consequencialismo"></a>Consequencialismo</h3><p>Enquanto a Teoria Kantiana focava na <em>intenção</em> por trás das nossas ações, os filósofos Jeremy Bentham e John Stuart Mill começaram a focar nas <em>consequências das ações</em>.</p>
+<p>Assim surgiu o <em>Utilitarianismo</em>, que mais tarde foi renomeado como <em>Consequencialismo</em>. Para esta Teoria, as ações devem ser analisadas em termos de quanta felicidade ou prazer elas produzem.</p>
+<p>Ao contrário de Kant, a base desta Teoria está no <strong>Princípio da Utilidade</strong>. Este princípio afirma que devemos sempre escolher, de forma imparcial, as ações que irão produzir a maior quantidade de felicidade para o grupo (ou causar a menor quantidade possível de infelicidade). </p>
+<p><img src="../../../../assets/media/img/etica/teoria-consequencialista.png" alt="teoria-consequencialista"></p>
+<p>Para entender melhor o Consequencialismo vamos pensar no clássico Dilema do Bonde.</p>
+<h3 id="O-Dilema-do-Bonde"><a href="#O-Dilema-do-Bonde" class="headerlink" title="O Dilema do Bonde"></a>O Dilema do Bonde</h3><p><img src="../../../../assets/media/img/etica/dilema-do-bonde.gif" alt="dilema-do-bonde"><br>(Imagem retirada da <a href="https://www.youtube.com/watch?v=yg16u_bzjPE" target="_blank" rel="noopener">TED ED de Eleanor Nelsen</a> - Todos os direitos reservados aos seus autores)</p>
+<p>O Dilema do Bonde foi apresentado pela primeira vez em 1967 pela filósofa moral britânica Phillipa Foot. Este dilema propõe a seguinte situação: imagine que você está próximo a uma linha de um bonde que está desgovernado. Caso nada seja feito ele irá seguir em frente e mater 5 operários que estão na linha. Não há tempo para você avisar aos funcionários para saírem do trilho, mas, você pode utilizar uma alavanca para desviar o bonde para outro trilho.</p>
+<p>Neste outro trilho, porém, há um outro trabalhador que também não pode ser avisado a tempo.</p>
+<p>O que você faz: deixa o bonde seguir em frente e matar 5 funcionários, ou utiliza a alavanca para matar apenas 1?</p>
+<p><img src="../../../../assets/media/img/etica/dilema-do-bonde-utilitarismo.jpg" alt="dilema-do-bonde"><br>(Imagem retirada do site <a href="https://filosofianaescola.com/moral/utilitarismo/" target="_blank" rel="noopener">Filosofia na Escola</a> - Todos os direitos reservados aos seus autores)</p>
+<p>Do ponto de vista <strong>kantiano</strong> você não pode matar nenhuma pessoa. Kant pensaria, em primeiro lugar, que ao não agir para desviar o bonde, você não está fazendo nada errado, pois não tem a intenção de matar cinco pessoas. Na verdade, se trata de uma fatalidade pela qual não deve ser responsabilizado.</p>
+<p>Em segundo lugar, consideraria que, caso desvie o bonde, está usando uma pessoa simplesmente como um meio para um bem maior. Para Kant isso seria incorreto, pois você está tratando a pessoa como uma coisa, não como um ser humano, já que está ignorando completamente sua capacidade de escolha.</p>
+<p>Do ponto de vista <strong>utilitarista</strong> você deve puxar a alavanca. Matar uma pessoa para salvar cinco claramente resultará num saldo maior de felicidade do que não fazer nada. Portanto, se você fosse um utilitarista coerente, deveria puxar a alavanca.</p>
+<p>“É importante diferenciar o utilitarismo do egoísmo. De acordo com essa visão, o certo é aquilo que nos é benéfico. Uma pessoa egoísta, no dilema do trem, optaria pela ação que vai lhe deixar mais confortável. Um utilitarista, ao contrário, considera a felicidade de todas as pessoas que serão afetadas pela ação” (TOTIM, 2019b).</p>
+<p><img src="../../../../assets/media/img/etica/dilema-do-bonde-trilhos.jpeg" alt="dilema-do-bonde"></p>
+<p>(Imagem retirada da <a href="https://www.youtube.com/watch?v=yg16u_bzjPE" target="_blank" rel="noopener">TED ED de Eleanor Nelsen</a> - Todos os direitos reservados aos seus autores)</p>
+<p>Outra variação deste experimento mental propõe agora que você considere que está em uma ponte junto com um desconhecido obeso. A única maneira de impedir o bonde de atropelar os 5 trabalhadores é jogando esta pessoa desconhecida da ponte. O que você faria?</p>
+<p><img src="../../../../assets/media/img/etica/dilema-do-bonde-ponte.jpeg" alt="dilema-do-bonde"><br>(Imagem retirada da <a href="https://www.youtube.com/watch?v=yg16u_bzjPE" target="_blank" rel="noopener">TED ED de Eleanor Nelsen</a> - Todos os direitos reservados aos seus autores)</p>
+<p>Para um utilitarista a resposta é a mesma. No entanto, do ponto de vista psicológico, a primeira situação tende a provocar menor desconforto nas pessoas: 89% das pessoas puxariam a alavanca, mas apenas 11% delas lançaria o desconhecido-obeso para parar o trem (KHAZAN, 2014).</p>
+<p>As emoções de uma pessoa alteram a maneira como ela tende a responder este dilema ético (NELSEN, 2016), tornando a segunda situação mais desconfortável e pessoal. No entanto, outros pesquisadores afirmam que este experimento é tolo e irreal, de modo que as pessoas não reagem a ele da mesma forma que reagiriam no mundo real (KHAZAN, 2014).</p>
+<p>Independentemente das respostas a este e outros dilemas éticos, é importante ressaltar que estas decisões ainda se embasam na relação emocional das pessoas com o caso (RIBEIRO, 2020)- como revela o recente exemplo envolvendo o médico Drauzio Varella.</p>
+<h3 id="Teoria-Contratualista"><a href="#Teoria-Contratualista" class="headerlink" title="Teoria Contratualista"></a>Teoria Contratualista</h3><p>Imagine um mundo sem regras, onde nada é ilegal ou imoral: todos são absolutamente <strong>livres</strong>.</p>
+<p>Se, por um lado, este mundo parece ser utópico e libertador (já que não existiriam pressões sociais para estudar, trabalhar ou se preocupar com as outras pessoas e o futuro), por outro, pelo menos de acordo com o filósofo britânico <strong>Thomas Hobbes</strong>, este mundo seria seu pior pesadelo.</p>
+<p>Hobbes acreditava que as pessoas são, por natureza, egoístas, competitivas, orgulhosas, vingativas e ambiciosas: “<em>o homem é o lobo do homem</em>“.</p>
+<p>Este mundo sem regras, como o descrito acima, foi chamado por Hobbes de <strong>estado de natureza</strong>. Neste mundo a vida seria uma constante guerra, de todos contra todos.</p>
+<p>Deste ponto de vista, a <strong>moralidade</strong> surge como uma <strong>necessidade e um pacto</strong>. A violência extrema provocada pela total liberdade individual faz com que as pessoas, com o tempo, abram mão de parte de sua liberdade em nome de sua própria segurança. Este <strong>contrato social</strong>, ou seja, o pacto feito entre as pessoas em nome de sua segurança individual, dá origem (para Hobbes) ao Estado.</p>
+<p><strong>Jean Jacques Rousseau</strong>, séculos mais tarde, chegou em conclusões semelhantes às de Hobbes: para uma boa convivência entre as pessoas é necessário instituir um <strong>contrato social</strong> que garanta a liberdade e a segurança de todos. É bom ressaltar que Rousseau, ao contrário de Hobbes, acreditava que o <strong>estado de natureza</strong> do homem é livre, virtuoso, piedoso, amoral e bondoso.</p>
+<p><img src="../../../../assets/media/img/etica/teoria-contratualista.png" alt="teoria-contratualista"></p>
+<p>Ambos os filósofos ressaltam que as pessoas são, naturalmente <em>amorais e aéticas</em>. A moralidade e a ética surgem a partir do momento em que se institui um conjunto de regras para a conviência em sociedade, ou seja, por meio do <strong>contrato social</strong>.</p>
+<hr>
+<h2 id="Etica-Profissional"><a href="#Etica-Profissional" class="headerlink" title="Ética Profissional"></a>Ética Profissional</h2><p>Para se evitar o julgamento emocional e subjetivo dos profissionais perante aos dilemas vivenciados no ambiente de trabalho, todas as profissões possuem um <strong>Código de Ética</strong>, isto é, um conjunto de regras éticas próprias que orienta e direciona o comportamento dos profissionais da área (BRASIL, CFA, 2018). </p>
+<p>O objetivo do <strong>Código de Ética ** é, acima de tudo, padronizar o comportamento e as ações dos profissionais, oferecendo algumas respostas aos dilemas mais comuns daquela profissão. Apesar de muitas vezes serem publicados como Leis Complementares ou Resoluções Normativas, os códigos de ética **não são Leis Jurídicas</strong>. Cada código prevê, com base nas Leis do País, as punições que os profissionais antiéticos devem enfrentar, mas isso não os qualifica como leis jurídicas.</p>
+<p>Um exemplo bastante comum de Ética Profissional está relacionado aos médicos. Seu código de ética garante a obrigação dos profissionais em manterem sigilo sobre as informações de todos os pacientes. Já o código de ética dos jornalistas baseia-se no direito dos cidadãos de terem acesso à informação, mas pode resguardar o sigilo das fontes utilizadas para transmitirem esta informação.</p>
+<p>Os administradores também possuem um <a href="https://cfa.org.br/wp-content/uploads/2018/11/resolucao_537_2018_665.pdf" target="_blank" rel="noopener">Código de Ética</a>, aprovado em 2018.</p>
+<p>Este código apresenta 23 artigos, dos quais os mais importantes serão listados abaixo.</p>
+<p>(Art. 2º) São deveres do profissional de Administração:</p>
+<ul>
+  <li class='item-ok'>II – defender os direitos e interesses do cliente;</li>
+  <li class='item-ok'>III - guardar sigilo sobre o que saiba em razão do exercício profissional lícito de seu ofício,</li>
+  <li class='item-ok'>IV - manter independência técnica na orientação de serviços, sem abdicar de sua dignidade e prerrogativas, seja como profissional liberal ou empregado;</li>
+  <li class='item-ok'>VII – esclarecer o cliente sobre a função social da organização e a necessidade de preservação do meio ambiente.</li>
+</ul>
+
+
+<p>(Art. 3º) Constitui infração disciplinar::</p>
+<ul>
+  <li class='item-not'>I. tratar outros profissionais ou profissões sem urbanidade, de modo a ofender sua dignidade, ou discriminá-los de qualquer forma; </li>
+  <li class='item-not'>III. assinar documentos elaborados por terceiros sem a sua orientação ou supervisão; </li>
+  <li class='item-not'>IV. afastar-se, sem justificativa, de suas atividades profissionais sem comunicar previamente ao seu cliente ou empregador;</li>
+  <li class='item-not'>V. violar, sem justa causa, sigilo profissional;</li>
+  <li class='item-not'>XV. praticar, no exercício da atividade profissional, ato contrário à lei ou destinado a fraudá-la, ou contribuir para a realização de ato definido como ilícito penal;</li>
+  <li class='item-not'>XVI. usar de artifícios enganosos ou fraudulentos para obter vantagem indevida;</li>
+</ul>
+
+<p>(Art. 4º) São direitos do Profissional de Administração:</p>
+<ul>
+  <li class='item-ok'>I - exercer a profissão independentemente  de questões religiosas, raça, sexo, nacionalidade, cor, idade, condição social, orientação sexual ou de qualquer natureza discriminatória; </li>
+  <li class='item-ok'>II - apontar falhas nos regulamentos e normas das instituições, quando as julgar indignas do exercício profissional ou prejudiciais ao cliente, devendo, nesse caso, dirigir-se aos órgãos competentes, em especial ao Conselho Regional de Administração;</li>
+  <li class='item-ok'>III - exigir justa remuneração por seu trabalho, a qual corresponderá às responsabilidades assumidas a seu tempo de serviço dedicado, sendo-lhe livre firmar acordos sobre salários, velando, no entanto, pelo seu justo valor;</li>
+</ul>
+
+<hr>
+<h2 id="Comportamentos-Profissionais"><a href="#Comportamentos-Profissionais" class="headerlink" title="Comportamentos Profissionais"></a>Comportamentos Profissionais</h2><p>Baseado nas regras do Código de Ética, é importante que os profissionais sigam algumas dicas de bom comportamento profissional.</p>
+<ul>
+  <li class='item-ok'>Conhecer bem a empresa e tudo que ela oferece, saber quais são seus diferencias em relação aos seus concorrentes;</li>
+  <li class='item-ok'>Saber usar equipamentos como fax, computador (internet, dentre outros programas);</li>
+  <li class='item-ok'>Estar em dia com a tecnologia, ou seja, ter conhecimento de informática;</li>
+  <li class='item-ok'>Estar bem informado, fazer cursos de especializações;</li>
+  <li class='item-not'>Não usar sua posição em beneficio próprio ou de terceiros;</li>
+  <li class='item-ok'>Ser responsável da administração de documentos, ou papéis de importância;</li>
+  <li class='item-warning'>Só interromper o chefe quando não puder resolver um problema sozinho;</li>
+  <li class='item-warning'>Anotar assuntos pendentes ao longo da jornada para evitar interrupções frequentes;</li>
+  <li class='item-ok'>Incentivar sua participação em reuniões de trabalho e cursos extras.</li>
+</ul>
+
+<hr>
+<h2 id="Tipos-de-Empresa"><a href="#Tipos-de-Empresa" class="headerlink" title="Tipos de Empresa"></a>Tipos de Empresa</h2><p>No módulo de Contabilidade estudaremos a fundo os diferentes tipos de empresas e organizações existentes. Por enquanto é importante lembrarmos que existem alguns tipos diferentes de empresas, que podem ser classificadas de acordo com <strong>seu tipo de atividade</strong> ou com o <strong>objetivo financeiro</strong>.</p>
+<p>Em relação às empresas por tipo de atividade, temos:</p>
+<ul>
+<li><strong>Indústria</strong><ul>
+<li>Tem como objetivo a transformação da matéria-prima em um bem material;</li>
+<li>Exemplos: Fábricas e montadoras</li>
+</ul>
+</li>
+<li><strong>Comércio</strong><ul>
+<li>Compra o que as indústrias produzem e distribui esses produtos em pontos de vendas; Vendem produtos diretamente ao consumidor;</li>
+<li>Exemplo: Restaurantes, supermercados, papelarias, etc.</li>
+</ul>
+</li>
+<li><strong>Prestadoras de Serviço</strong><ul>
+<li>São aquelas cujas atividades não resultam na entrega de mercadorias, mas da oferta do próprio trabalho ao consumidor.</li>
+<li>Exemplos: Escolas, hospitais, cinema</li>
+</ul>
+</li>
+</ul>
+<p>Em relação às empresas quanto ao objetivo financeiro, tem-se:</p>
+<ul>
+<li><strong>Empresas sem fins lucrativos</strong><ul>
+<li>Também chamadas de filantrópicas ou beneficentes</li>
+<li>São mantidas com doações ou verbas governamentais</li>
+<li>Exemplos: ONGS</li>
+</ul>
+</li>
+<li><strong>Empresas com fins lucrativos</strong><ul>
+<li>As empresas com fins lucrativos são mantidas com o dinheiro que recebem em troca dos bens ou serviços que oferecem.</li>
+<li>O lucro é necessário porque dele dependem a segurança e sobrevivência da empresa, seu crescimento e a melhoria das condições de trabalho.</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h1 id="Resumo"><a href="#Resumo" class="headerlink" title="Resumo"></a>Resumo</h1><ul>
+<li><p>Precisamos ter <strong>consciência</strong> sobre nós mesmos e nossas realizações; saber o que queremos já é um bom começo para o nosso sucesso.</p>
+</li>
+<li><p>Quando falamos sobre <strong>ética ou moral</strong>, estamos nos referindo aos costumes, comportamentos e hábitos de um povo ou sociedade. As duas palavras são traduzidas para o português como <strong>costume</strong>: <em>ethos</em> tem origem grega; e <em>mores</em> tem origem latina.</p>
+<ul>
+<li>A <strong>moral</strong> está relacionada ao <strong>agir de acordo com os costumes</strong> e regras socialmente difundidas.</li>
+<li>A <strong>ética</strong> nasce quando se passa a indagar o que são, de onde vêm e o que valem os costumes.</li>
+</ul>
+</li>
+<li><p>Assim como existem diferentes visões morais sobre o mundo, existem <strong>diferentes Teorias Éticas</strong> sobre as ações humanas.</p>
+<ul>
+<li><strong>Teoria do Comando Divino</strong>: afirma que Deus (ou os deuses) são os responsáveis por <em>comandar e escolher</em> aquilo que é certo e errado;</li>
+<li><strong>Teoria Deontológica</strong>: afirma que devemos seguir o Imperativo Categórico para decidir o que é certo e errado: <em>devemos agir da maneira como gostaríamos que todas as outras pessoas agissem - desde que isso não desrespeite sua autonomia</em>;</li>
+<li><strong>Teoria Consequencialista</strong>: as ações devem ser analisadas em termos de quanta <strong>felicidade ou prazer</strong> elas produzem;</li>
+<li><strong>Teoria Contratualista</strong>: afirma que a moralidade surge para garantir a liberdade por meio de regras sociais (Contrato Social).</li>
+</ul>
+</li>
+<li><p>Os Códigos de Ética Profissional são um conjunto de regras éticas próprias que orienta e direciona o comportamento dos profissionais da área.</p>
+<ul>
+<li>O Código de Ética do Administrador possui 23 artigos que dispõe sobre direitos, deveres e proibições inerentes aos profissionais administrativos.</li>
+</ul>
+</li>
+<li><p>As empresas podem ser classificadas de acordo com <strong>seu tipo de atividade</strong> (INDÚSTRIA, COMÉRCIO E PRESTAÇÃO DE SERVIÇOS) ou com o <strong>objetivo financeiro</strong> (COM OU SEM FINS LUCRATIVOS).</p>
+</li>
+</ul>
+<hr>
+<h2 id="Exercicios"><a href="#Exercicios" class="headerlink" title="Exercícios"></a>Exercícios</h2><ol>
+<li><p>Explique, com suas palavras, a diferença entre moral e ética. Exemplifique.</p>
+</li>
+<li><p>Explique, com suas palavras, a diferença entre imoral, amoral, antiético e aético.</p>
+</li>
+<li><p>De acordo com a Teoria Ética Kantiana responda: Quando somos convidados por um amigo para ir na sua festa de aniversário - e vamos na festa com o único objetivo de comer um pedaço de bolo - estamos tratando nosso amigo como um instrumento para conseguir aquilo que queremos?</p>
+</li>
+<li><p>O que você faria nas duas situações envolvidas no Dilema do Bonde? Dê uma olhada <a href="https://www.youtube.com/watch?v=-N_RZJUAQY4" target="_blank" rel="noopener">nesta criativa solução</a>.</p>
+</li>
+<li><p>Um auxiliar administrativo, acatando ordens de um superior, omitiu dados importantes da empresa em um documento que redigia para um cliente, induzindo-o assim a adquirir um produto da empresa. Analise o comportamento do auxiliar do ponto de vista ético;</p>
+</li>
+<li><p>Após a venda de um produto defeituoso, um cliente encaminhou-se até a empresa para pedir a troca do produto. Irritado com a situação, o cliente solicitou ao auxiliar administrativo que o atendia dados pessoais do vendedor que o atendeu no momento da compra. Do ponto de vista ético, o auxiliar deve ou não passar as informações ao cliente?</p>
+</li>
+<li><p>Dê 5 exemplos de cada tipo de empresa: Indústria; Comércio; Prestador de Serviços; Com Fins Lucrativos e Sem Fins Lucrativos.</p>
+</li>
+</ol>
+<hr>
+<h2 id="Referencias-Bibliograficas"><a href="#Referencias-Bibliograficas" class="headerlink" title="Referências Bibliográficas"></a>Referências Bibliográficas</h2><p>ARRUDA, J. L. A ética nossa de cada dia. Estado de São Paulo, São Paulo, 4 de set. de 2018. Disponível em <a href="https://bit.ly/2wFxJsQ" target="_blank" rel="noopener">https://bit.ly/2wFxJsQ</a>. Acesso em <em>27 de mar. de 2020</em>.</p>
+<p>BRASIL. CFA. Resolução Normativa CFA nº 537, de 22 de março de 2018. Aprova o Código de Ética dos Profissionais de Administração previsto na Lei nº 4.769, de 09 de setembro de 1965. Disponível em <a href="https://bit.ly/2QCq6dz" target="_blank" rel="noopener">https://bit.ly/2QCq6dz</a>. Acesso en <em>20 de mar. de 2020</em>.</p>
+<p>CHAUÍ, Marilena. Convite à filosofia. São Paulo: Editora Ática, 2000.</p>
+<p>DOSTOEVSKY, F. M. Os Irmãos Karamazov. São Paulo: 34, 2008</p>
+<p>GRCIC, Joseph. Ethics: Theory and Practice (English Edition) - 7 ed. Terre Haute: Philosophy Department / Indiana State University, 2015. 675 p.</p>
+<p>HELLERN, V., NOTAKER, H., &amp; GAARDER, J. (2000). O livro das religiões. São Paulo: Companhia das Letras.</p>
+<p>KHAZAN, O. Is One of the Most Popular Psychology Experiments Worthless? The Atlantic, 24 de jul. de 2014. Disponível em <a href="https://bit.ly/3dFSipJ" target="_blank" rel="noopener">https://bit.ly/3dFSipJ</a>. Acesso em <em>29 de mar. de 2020</em>.</p>
+<p>NELSEN, E. Would you sacrifice one person to save five? TED Ed, 2016. Disponível em <a href="https://bit.ly/2JmvSw3" target="_blank" rel="noopener">https://bit.ly/2JmvSw3</a>. Acesso em <em>29 de mar. de 2020</em>.</p>
+<p>RIBEIRO, F. T. Críticas a Drauzio revelam “lado B” da empatia, diz neurocientista. UOL, 10 de mar. de 2020. Disponível em <a href="https://bit.ly/3dwfOp8" target="_blank" rel="noopener">https://bit.ly/3dwfOp8</a>. Acesso em <em>29 de mar. de 2020</em>.</p>
+<p>TATIM, W. G. Imperativo Categórico. Filosofia na Escola, 1 de set. de 2019a. Disponível em <a href="https://bit.ly/2Up3mjB" target="_blank" rel="noopener">https://bit.ly/2Up3mjB</a>. Acesso em <em>29 de mar. de 2020</em>.</p>
+<p>TATIM, W. G. Utilitarismo. Filosofia na Escola, 1 de set. de 2019b. Disponível em <a href="https://bit.ly/3bCLis7" target="_blank" rel="noopener">https://bit.ly/3bCLis7</a>. Acesso em <em>29 de mar. de 2020</em>.</p>
+<p>TATIM, W. G. Utilitarismo. Filosofia na Escola, 1 de set. de 2019b. Disponível em <a href="https://bit.ly/3bCLis7" target="_blank" rel="noopener">https://bit.ly/3bCLis7</a>. Acesso em <em>29 de mar. de 2020</em>.</p>
+<p>TATIM, W. G. Diferenças entre utilitarismo e ética kantiana. Filosofia na Escola, 17 de dez. de 2019b. Disponível em <a href="https://bit.ly/2xvi3sk" target="_blank" rel="noopener">https://bit.ly/2xvi3sk</a>. Acesso em <em>29 de mar. de 2020</em>.</p>
+
+        </div>
+
+        
+            <section class="post-copyright">
+                
+                
+                    <p class="copyright-item">
+                        <span>Conteúdo disponível em:</span>
+                        <span><a href="http://zmdy.github.io/aulas.txt/posts/administracao/aulas/aula-02/">http://zmdy.github.io/aulas.txt/posts/administracao/aulas/aula-02/</a></span>
+                    </p>
+                
+                
+                    <p class="copyright-item">
+                        <span>Licença:</span>
+                        <span>Este material está distribuído com uma licença <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC-BY-4.0</a></span>
+                    </p>
+                
+                
+
+            </section>
+        
+        <section class="post-tags">
+            <div>
+                <span>Tag(s):</span>
+                <span class="tag">
+                    
+                    
+                        <a href="/aulas.txt/pages/tag/Auxiliar-Administrativo-Modulo-01-Aulas/"># Auxiliar Administrativo - Módulo 01 - Aulas</a>
+                    
+                        
+                </span>
+            </div>
+            <div>
+                <a href="javascript:window.history.back();">voltar</a>
+                <span>· </span>
+                <a href="/aulas.txt/">home</a>
+            </div>
+        </section>
+        <section class="post-nav">
+            
+                <a class="prev" rel="prev" href="/aulas.txt/posts/slides/administracao/informacoes-gerais/ementa-do-curso/">Informações do Curso</a>
+            
+            
+            <a class="next" rel="next" href="/aulas.txt/posts/administracao/aulas/aula-01/">Aula 01 -  Módulo 01 - Auxiliar Administrativo</a>
+            
+        </section>
+
+
+    </article>
+</div>
+
+        </div>
+        <footer id="footer" class="footer">
+    <div class="copyright">
+        <span>© aulas.txt | Feito com <a href="https://hexo.io" target="_blank">Hexo</a> & <a href="https://github.com/Siricee/hexo-theme-Chic" target="_blank">Chic</a> | <a target="_blank" onclick="printPage()">Imprimir esta página em PDF</a></span>
+    </div>
+</footer>
+
+    </div><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+</body>
+</html>

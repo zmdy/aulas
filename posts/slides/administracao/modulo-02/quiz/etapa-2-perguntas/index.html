@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="UTF-8">
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="author" content="zmdy">
+
+
+
+
+
+<title>slides/administracao/modulo-02/quiz/etapa-2-perguntas | aulas.txt</title>
+
+<!-- HERE ARE SOME LIBARIES AND PERSONAL TOOLS OF THE SRC FOLDER -->
+<script src="/aulas.txt/src/js/bonisa.min.js"></script>
+<script src="/aulas.txt/src/libs/printjs/print.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="/aulas.txt/assets/media/fonts/icofont/icofont.css">
+<script>
+  function printPage(){
+    printJS({
+        printable: 'aulasTXT', type: 'html',
+        header: null,
+        css: '/aulas.txt/css/style.css'
+    });
+  }
+</script>
+
+
+
+
+    <link rel="icon" href="/aulas.txt/favicon.png">
+
+
+
+
+    <!-- stylesheets list from _config.yml -->
+    
+    <link rel="stylesheet" href="/aulas.txt/css/style.css">
+    
+
+
+
+    <!-- scripts list from _config.yml -->
+    
+    <script src="/aulas.txt/js/script.js"></script>
+    
+    <script src="/aulas.txt/js/tocbot.min.js"></script>
+    
+
+
+
+    
+    
+        
+    
+
+
+<meta name="generator" content="Hexo 4.2.0"><!-- hexo-inject:begin --><!-- hexo-inject:end --></head>
+<body>
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><div class="wrapper">
+        <header>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header header-logo"><a href="/aulas.txt/">aulas.txt</a></div>
+            <div class="menu navbar-right">
+                
+                    <a class="menu-item" href="/aulas.txt/pages/cursos">Cursos</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/tag">Materiais</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/manual">Manual</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/sobre">Sobre</a>
+                
+                <input id="switch_default" type="checkbox" class="switch_default">
+                <label for="switch_default" class="toggleBtn"></label>
+            </div>
+        </div>
+    </nav>
+
+    
+    <nav class="navbar-mobile" id="nav-mobile">
+        <div class="container">
+            <div class="navbar-header">
+                <div>
+                    <a href="/aulas.txt/">aulas.txt</a><a id="mobile-toggle-theme">·&nbsp;Light</a>
+                </div>
+                <div class="menu-toggle" onclick="mobileBtn()">&#9776; Menu</div>
+            </div>
+            <div class="menu" id="mobile-menu">
+                
+                    <a class="menu-item" href="/aulas.txt/pages/cursos">Cursos</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/tag">Materiais</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/manual">Manual</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/sobre">Sobre</a>
+                
+            </div>
+        </div>
+    </nav>
+
+</header>
+<script>
+    var mobileBtn = function f() {
+        var toggleMenu = document.getElementsByClassName("menu-toggle")[0];
+        var mobileMenu = document.getElementById("mobile-menu");
+        if(toggleMenu.classList.contains("active")){
+           toggleMenu.classList.remove("active")
+            mobileMenu.classList.remove("active")
+        }else{
+            toggleMenu.classList.add("active")
+            mobileMenu.classList.add("active")
+        }
+    }
+</script>
+        <div class="main padding-05mm" id="aulasTXT">
+            <div class="container">
+    
+    
+        <div class="post-toc">
+    <div class="tocbot-list">
+    </div>
+    <div class="tocbot-list-menu">
+        <a class="tocbot-toc-expand" onclick="expand_toc()">Expand all</a>
+        <a onclick="go_top()">Back to top</a>
+        <a onclick="go_bottom()">Go to bottom</a>
+    </div>
+</div>
+
+<script>
+    document.ready(
+        function () {
+            tocbot.init({
+                tocSelector: '.tocbot-list',
+                contentSelector: '.post-content',
+                headingSelector: 'h1, h2, h3, h4, h5',
+                collapseDepth: 1,
+                orderedList: false,
+                scrollSmooth: true,
+            })
+        }
+    )
+
+    function expand_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 6,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "collapse_toc()");
+        b.innerHTML = "Collapse all"
+    }
+
+    function collapse_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 1,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "expand_toc()");
+        b.innerHTML = "Expand all"
+    }
+
+    function go_top() {
+        window.scrollTo(0, 0);
+    }
+
+    function go_bottom() {
+        window.scrollTo(0, document.body.scrollHeight);
+    }
+
+</script>
+    
+
+    
+    <article class="post-wrap">
+        <header class="post-header">
+            <h1 class="post-title">slides/administracao/modulo-02/quiz/etapa-2-perguntas</h1>
+            
+                <div class="post-meta">
+                    
+
+                    
+                        <span class="post-time">
+                        Data de Publicação: <a href="#">12/05/2020&nbsp;&nbsp;9:33</a>
+                        </span>
+                    
+                    
+                </div>
+            
+        </header>
+
+        <div class="post-content">
+            <h1 id="Quiz-Contabilidade"><a href="#Quiz-Contabilidade" class="headerlink" title="Quiz Contabilidade"></a>Quiz Contabilidade</h1><h2 id="Etapa-02"><a href="#Etapa-02" class="headerlink" title="Etapa 02"></a>Etapa 02</h2><hr>
+<h1 id="Pegunta-01"><a href="#Pegunta-01" class="headerlink" title="Pegunta 01"></a>Pegunta 01</h1><p>Uma organização que alcança seus objetivos e desperdiça recursos faz uso de:</p>
+<p>a. Alta eficiência gerencial e alta eficácia<br>b. Alta eficiência gerencial e baixa eficácia<br>c. Baixa eficiência gerencial e alta eficácia<br>d. Baixa eficiência gerencial e baixa eficácia</p>
+<hr>
+<h1 id="Pegunta-01-1"><a href="#Pegunta-01-1" class="headerlink" title="Pegunta 01"></a>Pegunta 01</h1><p>Uma organização que alcança seus objetivos e desperdiça recursos faz uso de:</p>
+<p>a. Alta eficiência gerencial e alta eficácia<br>b. Alta eficiência gerencial e baixa eficácia<br><strong>c. Baixa eficiência gerencial e alta eficácia</strong><br>d. Baixa eficiência gerencial e baixa eficácia</p>
+<hr>
+<h1 id="Pergunta-02"><a href="#Pergunta-02" class="headerlink" title="Pergunta 02"></a>Pergunta 02</h1><p>Qual imposto estadual é cobrado pela circulação de mercadorias:</p>
+<p>a. IPI<br>b. IR<br>c. ICMS<br>d. IPTU</p>
+<hr>
+<h1 id="Pergunta-03"><a href="#Pergunta-03" class="headerlink" title="Pergunta 03"></a>Pergunta 03</h1><p>Qual imposto estadual é cobrado pela circulação de mercadorias:</p>
+<p>a. IPI<br>b. IR<br><strong>c. ICMS</strong><br>d. IPTU</p>
+<hr>
+<h1 id="Pergunta-03-1"><a href="#Pergunta-03-1" class="headerlink" title="Pergunta 03"></a>Pergunta 03</h1><p>Qual das seguintes opções não corresponde a uma função do administrador, de acordo com Fayol:</p>
+<p>a. Prever<br>b. Planejar<br>c. Controlar<br>d. Organizar</p>
+<hr>
+<h1 id="Pergunta-03-2"><a href="#Pergunta-03-2" class="headerlink" title="Pergunta 03"></a>Pergunta 03</h1><p>Qual das seguintes opções não corresponde a uma função do administrador, de acordo com Fayol:</p>
+<p>a. Prever<br>b. Planejar<br>c. Controlar<br>d. Organizar</p>
+<hr>
+<h1 id="Pergunta-04"><a href="#Pergunta-04" class="headerlink" title="Pergunta 04"></a>Pergunta 04</h1><p>Que documento é utilizado em reuniões para se registrar os acontecimentos da mesma:</p>
+<p>a. Declaração<br>b. Ata<br>c. Alvará<br>d. Redação</p>
+<hr>
+<h1 id="Pergunta-04-1"><a href="#Pergunta-04-1" class="headerlink" title="Pergunta 04"></a>Pergunta 04</h1><p>Que documento é utilizado em reuniões para se registrar os acontecimentos da mesma:</p>
+<p>a. Declaração<br><strong>b. Ata</strong><br>c. Alvará<br>d. Redação</p>
+<hr>
+<h1 id="Pergunta-05"><a href="#Pergunta-05" class="headerlink" title="Pergunta 05"></a>Pergunta 05</h1><p>O Taylorismo se aproxima mais da seguinte área da Administração:</p>
+<p>a. Eficácia Organizacional<br>b. Eficiência Organizacional<br>c. Satisfação do Funcionário<br>d. Compromisso do Funcionário</p>
+<hr>
+<h1 id="Pergunta-05-1"><a href="#Pergunta-05-1" class="headerlink" title="Pergunta 05"></a>Pergunta 05</h1><p>O Taylorismo se aproxima mais da seguinte área da Administração:</p>
+<p>a. Eficácia Organizacional<br><strong>b. Eficiência Organizacional</strong><br>c. Satisfação do Funcionário<br>d. Compromisso do Funcionário</p>
+<hr>
+<h1 id="Pergunta-06"><a href="#Pergunta-06" class="headerlink" title="Pergunta 06"></a>Pergunta 06</h1><p>Elton Mayo dirigiu um projeto de pesquisa na fábrica de Hawthorne entre 1927 e 1932. Durante a pesquisa ele percebeu que a cobrança e o monitoramento constante dos funcionários, junto à uma boa remuneração por produtividade e boa iluminação, eram os principais fatores para o aumento da eficácia dos empregados. A afirmação acima pode ser considerada Verdadeira ou Falsa? Justifique.</p>
+<p>a. VERDADEIRA<br>b. FALSA</p>
+<hr>
+<h1 id="Pergunta-06-1"><a href="#Pergunta-06-1" class="headerlink" title="Pergunta 06"></a>Pergunta 06</h1><p>Elton Mayo dirigiu um projeto de pesquisa na fábrica de Hawthorne entre 1927 e 1932. Durante a pesquisa ele percebeu que a cobrança e o monitoramento constante dos funcionários, junto à uma boa remuneração por produtividade e boa iluminação, eram os principais fatores para o aumento da eficácia dos empregados. A afirmação acima pode ser considerada Verdadeira ou Falsa? Justifique.</p>
+<p>a. VERDADEIRA<br><strong>b. FALSA</strong></p>
+<hr>
+<h1 id="Pergunta-07"><a href="#Pergunta-07" class="headerlink" title="Pergunta 07"></a>Pergunta 07</h1><p>Os estudos de Weber das organizações levaram a criação dos princípios burocráticos a seguir, exceto:</p>
+<p>a. Hierarquia e relações de poder definidas por relações afetivas</p>
+<p>b. Funções e competência definidas em regulamentos escritos</p>
+<p>c. Igualdade de todos perante as regras</p>
+<p>d. Contratações técnicas e meritocráticas</p>
+<hr>
+<h1 id="Pergunta-07-1"><a href="#Pergunta-07-1" class="headerlink" title="Pergunta 07"></a>Pergunta 07</h1><p>Os estudos de Weber das organizações levaram a criação dos princípios burocráticos a seguir, exceto:</p>
+<p><strong>a. Hierarquia e relações de poder definidas por relações afetivas</strong></p>
+<p>b. Funções e competência definidas em regulamentos escritos</p>
+<p>c. Igualdade de todos perante as regras</p>
+<p>d. Contratações técnicas e meritocráticas</p>
+<hr>
+<h1 id="Pergunta-08"><a href="#Pergunta-08" class="headerlink" title="Pergunta 08"></a>Pergunta 08</h1><p>De acordo com os Princípios Gerais de Fayol, a rotatividade de pessoal é extremamente benéfica para as organizações devido à necessidade das mesmas de se adaptarem e se renovarem diante da concorrência. A afirmação acima pode ser considerada Verdadeira ou Falsa? Justifique.</p>
+<p>a. VERDADEIRA</p>
+<p>b. FALSA</p>
+<hr>
+<h1 id="Pergunta-08-1"><a href="#Pergunta-08-1" class="headerlink" title="Pergunta 08"></a>Pergunta 08</h1><p>De acordo com os Princípios Gerais de Fayol, a rotatividade de pessoal é extremamente benéfica para as organizações devido à necessidade das mesmas de se adaptarem e se renovarem diante da concorrência. A afirmação acima pode ser considerada Verdadeira ou Falsa? Justifique.</p>
+<p>a. VERDADEIRA</p>
+<p><strong>b. FALSA</strong></p>
+<hr>
+<h1 id="Pergunta-09"><a href="#Pergunta-09" class="headerlink" title="Pergunta 09"></a>Pergunta 09</h1><p>Alvir Gouldner, teórico estruturalista, propôs a existência de 2 modelos diferentes de organizações. A respeito destes modelos julgue as alternativas como Verdadeiras ou Falsas:</p>
+<ul>
+<li><p>O modelo racional não se preocupa com o ambiente interno</p>
+</li>
+<li><p>O modelo natural se preocupa com as trocas com o exterior</p>
+</li>
+<li><p>O modelo racional está baseado no controle e planejamento</p>
+</li>
+<li><p>O modelo natural se baseia na incerteza da realidade</p>
+</li>
+</ul>
+<hr>
+<h1 id="Pergunta-09-1"><a href="#Pergunta-09-1" class="headerlink" title="Pergunta 09"></a>Pergunta 09</h1><p>Alvir Gouldner, teórico estruturalista, propôs a existência de 2 modelos diferentes de organizações. A respeito destes modelos julgue as alternativas como Verdadeiras ou Falsas:</p>
+<p>** F. O modelo natural se preocupa com as trocas com o exterior**</p>
+<p>** V. O modelo natural se baseia na incerteza da realidade **</p>
+<p>** V. O modelo racional está baseado no controle e planejamento **</p>
+<p>** V. O modelo racional não se preocupa com o ambiente interno **</p>
+<hr>
+<h1 id="TEORIA-X-ESCOLA"><a href="#TEORIA-X-ESCOLA" class="headerlink" title="TEORIA X ESCOLA"></a>TEORIA X ESCOLA</h1><p>No mundo dos negócios é importante diferenciar <strong>teorias administrativas</strong> de <strong>escolas administrativas</strong>. Enquanto as <strong>teorias são modelos</strong> de como se estruturar  e organizar uma empresa (como a Teoria das 5 Funções Administrativas do Fayol) as <strong>escolas são um conjunto de especialistas</strong> que têm uma visão semelhante sobre um tema.</p>
+<p>A Teoria Clássica da Administração, desenvolvida por Fayol, é diferente da Escola Clássica da Administração (que abrange o modelo fordista e as relações humanas).</p>
+<p>–</p>
+<h1 id="Pergunta-10"><a href="#Pergunta-10" class="headerlink" title="Pergunta 10"></a>Pergunta 10</h1><p>Dentre os estudiosos vistos, qual não faz parte da Escola Clássica da Administração:</p>
+<p>a. Elton Mayo</p>
+<p>b. Henry Ford</p>
+<p>c. Henri Fayol</p>
+<p>d. Frederick Taylor</p>
+<hr>
+<h1 id="Pergunta-10-1"><a href="#Pergunta-10-1" class="headerlink" title="Pergunta 10"></a>Pergunta 10</h1><p>Dentre os estudiosos vistos, qual não faz parte da Escola Clássica da Administração:</p>
+<p><strong>a. Elton Mayo</strong></p>
+<p>b. Henry Ford</p>
+<p>c. Henri Fayol</p>
+<p>d. Frederick Taylor</p>
+<hr>
+<h1 id="Pergunta-11"><a href="#Pergunta-11" class="headerlink" title="Pergunta 11"></a>Pergunta 11</h1><p>O taylor-fordismo é um modelo de organização regido pelos seguintes princípios:</p>
+<p>a. Espírito de grupo e padronização de tarefas e processos</p>
+<p>b. Espírito de grupo e iniciativa dos empregados</p>
+<p>c. Divisão do trabalho e padronização de tarefas e processos</p>
+<p>d. Divisão do trabalho e iniciativa dos empregados</p>
+<hr>
+<h1 id="Pergunta-11-1"><a href="#Pergunta-11-1" class="headerlink" title="Pergunta 11"></a>Pergunta 11</h1><p>O taylor-fordismo é um modelo de organização regido pelos seguintes princípios:</p>
+<p>a. Espírito de grupo e padronização de tarefas e processos</p>
+<p>b. Espírito de grupo e iniciativa dos empregados</p>
+<p><strong>c. Divisão do trabalho e padronização de tarefas e processos</strong></p>
+<p>d. Divisão do trabalho e iniciativa dos empregados</p>
+<hr>
+<h1 id="Pergunta-12"><a href="#Pergunta-12" class="headerlink" title="Pergunta 12"></a>Pergunta 12</h1><p>A Escola das Relações Humanas se distingue da Escola Clássica por enfatizar as pessoas. Não constitui um fator determinante para a produtividade de acordo com esta escola:</p>
+<p>a. A cultura e os hábitos dos trabalhadores</p>
+<p>b. A comunicação adequada da gerência aos subordinados</p>
+<p>c. Os padrões e comportamentos informais do ambiente interno</p>
+<p>d. Os benefícios financeiros como forma de motivação</p>
+<hr>
+<h1 id="Pergunta-12-1"><a href="#Pergunta-12-1" class="headerlink" title="Pergunta 12"></a>Pergunta 12</h1><p>A Escola das Relações Humanas se distingue da Escola Clássica por enfatizar as pessoas. Não constitui um fator determinante para a produtividade de acordo com esta escola:</p>
+<p>a. A cultura e os hábitos dos trabalhadores</p>
+<p>b. A comunicação adequada da gerência aos subordinados</p>
+<p>c. Os padrões e comportamentos informais do ambiente interno</p>
+<p><strong>d. Os benefícios financeiros como forma de motivação</strong></p>
+<hr>
+<h1 id="Pergunta-13"><a href="#Pergunta-13" class="headerlink" title="Pergunta 13"></a>Pergunta 13</h1><p>A Teoria Geral dos Sistemas afirma que as organizações, como sistemas abertos, interagem com diversos elementos. O único elemento que não está relacionado a esta teoria é:</p>
+<p>a. Feedback</p>
+<p>b. Caixa-Preta</p>
+<p>c. Homeostase</p>
+<p>d. Inputs</p>
+<hr>
+<h1 id="Pergunta-13-1"><a href="#Pergunta-13-1" class="headerlink" title="Pergunta 13"></a>Pergunta 13</h1><p>A Teoria Geral dos Sistemas afirma que as organizações, como sistemas abertos, interagem com diversos elementos. O único elemento que não está relacionado a esta teoria é:</p>
+<p>a. Feedback</p>
+<p>b. Caixa-Preta</p>
+<p><strong>c. Homeostase</strong></p>
+<p>d. Inputs</p>
+<hr>
+<h1 id="Pergunta-14"><a href="#Pergunta-14" class="headerlink" title="Pergunta 14"></a>Pergunta 14</h1><p>De acordo com a Teoria das Contingências, uma organização bem sucedida é aquela que:</p>
+<p>a. Está em constante equilíbrio e não necessita de inovação</p>
+<p>b. São capazes de enfrentar os concorrentes</p>
+<p>c. Ajustam-se às pressões e contingências do ambiente</p>
+<p>d. Garantem seu sucesso por meio da organização interna</p>
+<hr>
+<h1 id="Pergunta-14-1"><a href="#Pergunta-14-1" class="headerlink" title="Pergunta 14"></a>Pergunta 14</h1><p>De acordo com a Teoria das Contingências, uma organização bem sucedida é aquela que:</p>
+<p>a. Está em constante equilíbrio e não necessita de inovação</p>
+<p>b. São capazes de enfrentar os concorrentes</p>
+<p><strong>c. Ajustam-se às pressões e contingências do ambiente</strong></p>
+<p>d. Garantem seu sucesso por meio da organização interna</p>
+<hr>
+<h1 id="Pergunta-15"><a href="#Pergunta-15" class="headerlink" title="Pergunta 15"></a>Pergunta 15</h1><p>Para colocar em prática os princípios de sua teoria, Taylor descreveu algumas técnicas. Assinale cada técnica abaixo como VERDADEIRA ou FALSA, de acordo com o descrito pelo autor.</p>
+<ul>
+<li>Adoção de sistemas de pagamento por desempenho</li>
+<li>Motivação emocional dos funcionários</li>
+<li>Padronização de ferramentas, instrumentos e técnicas</li>
+<li>Estudo de tempos e movimentos</li>
+<li>Preocupação com a concorrência e o feedback</li>
+</ul>
+<hr>
+<h1 id="Pergunta-15-1"><a href="#Pergunta-15-1" class="headerlink" title="Pergunta 15"></a>Pergunta 15</h1><p>Para colocar em prática os princípios de sua teoria, Taylor descreveu algumas técnicas. Assinale cada técnica abaixo como VERDADEIRA ou FALSA, de acordo com o descrito pelo autor.</p>
+<p>** V. Adoção de sistemas de pagamento por desempenho **<br>** F. Motivação emocional dos funcionários **<br>** V. Padronização de ferramentas, instrumentos e técnicas **<br>** V. Estudo de tempos e movimentos **<br>** F. reocupação com a concorrência e o feedback **</p>
+
+        </div>
+
+        
+            <section class="post-copyright">
+                
+                
+                    <p class="copyright-item">
+                        <span>Conteúdo disponível em:</span>
+                        <span><a href="http://zmdy.github.io/aulas.txt/posts/slides/administracao/modulo-02/quiz/etapa-2-perguntas/">http://zmdy.github.io/aulas.txt/posts/slides/administracao/modulo-02/quiz/etapa-2-perguntas/</a></span>
+                    </p>
+                
+                
+                    <p class="copyright-item">
+                        <span>Licença:</span>
+                        <span>Este material está distribuído com uma licença <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC-BY-4.0</a></span>
+                    </p>
+                
+                
+
+            </section>
+        
+        <section class="post-tags">
+            <div>
+                <span>Tag(s):</span>
+                <span class="tag">
+                    
+                </span>
+            </div>
+            <div>
+                <a href="javascript:window.history.back();">voltar</a>
+                <span>· </span>
+                <a href="/aulas.txt/">home</a>
+            </div>
+        </section>
+        <section class="post-nav">
+            
+                <a class="prev" rel="prev" href="/aulas.txt/posts/administracao/aulas/aula-07/">Aula 07 -  Módulo 01 - Auxiliar Administrativo</a>
+            
+            
+            <a class="next" rel="next" href="/aulas.txt/posts/slides/administracao/modulo-02/quiz/etapa-3-perguntas-casa/">slides/administracao/modulo-02/quiz/etapa-3-perguntas-casa</a>
+            
+        </section>
+
+
+    </article>
+</div>
+
+        </div>
+        <footer id="footer" class="footer">
+    <div class="copyright">
+        <span>© aulas.txt | Feito com <a href="https://hexo.io" target="_blank">Hexo</a> & <a href="https://github.com/Siricee/hexo-theme-Chic" target="_blank">Chic</a> | <a target="_blank" onclick="printPage()">Imprimir esta página em PDF</a></span>
+    </div>
+</footer>
+
+    </div><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+</body>
+</html>

@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="UTF-8">
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="author" content="zmdy">
+
+
+
+
+
+<title>Aula 05 -  Módulo 01 - Auxiliar Administrativo | aulas.txt</title>
+
+<!-- HERE ARE SOME LIBARIES AND PERSONAL TOOLS OF THE SRC FOLDER -->
+<script src="/aulas.txt/src/js/bonisa.min.js"></script>
+<script src="/aulas.txt/src/libs/printjs/print.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="/aulas.txt/assets/media/fonts/icofont/icofont.css">
+<script>
+  function printPage(){
+    printJS({
+        printable: 'aulasTXT', type: 'html',
+        header: null,
+        css: '/aulas.txt/css/style.css'
+    });
+  }
+</script>
+
+
+
+
+    <link rel="icon" href="/aulas.txt/favicon.png">
+
+
+
+
+    <!-- stylesheets list from _config.yml -->
+    
+    <link rel="stylesheet" href="/aulas.txt/css/style.css">
+    
+
+
+
+    <!-- scripts list from _config.yml -->
+    
+    <script src="/aulas.txt/js/script.js"></script>
+    
+    <script src="/aulas.txt/js/tocbot.min.js"></script>
+    
+
+
+
+    
+    
+        
+            <!-- MathJax配置，可通过单美元符号书写行内公式等 -->
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+    "HTML-CSS": {
+        preferredFont: "TeX",
+        availableFonts: ["STIX","TeX"],
+        linebreaks: { automatic:true },
+        EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50)
+    },
+    tex2jax: {
+        inlineMath: [ ["$", "$"], ["\\(","\\)"] ],
+        processEscapes: true,
+        ignoreClass: "tex2jax_ignore|dno",
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    },
+    TeX: {
+        equationNumbers: { autoNumber: "AMS" },
+        noUndefined: { attributes: { mathcolor: "red", mathbackground: "#FFEEEE", mathsize: "90%" } },
+        Macros: { href: "{}" }
+    },
+    messageStyle: "none"
+    });
+</script>
+<!-- 给MathJax元素添加has-jax class -->
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+<!-- 通过连接CDN加载MathJax的js代码 -->
+<script type="text/javascript" async
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+
+        
+    
+
+
+<meta name="generator" content="Hexo 4.2.0"><!-- hexo-inject:begin --><!-- hexo-inject:end --></head>
+<body>
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><div class="wrapper">
+        <header>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header header-logo"><a href="/aulas.txt/">aulas.txt</a></div>
+            <div class="menu navbar-right">
+                
+                    <a class="menu-item" href="/aulas.txt/pages/cursos">Cursos</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/tag">Materiais</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/manual">Manual</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/sobre">Sobre</a>
+                
+                <input id="switch_default" type="checkbox" class="switch_default">
+                <label for="switch_default" class="toggleBtn"></label>
+            </div>
+        </div>
+    </nav>
+
+    
+    <nav class="navbar-mobile" id="nav-mobile">
+        <div class="container">
+            <div class="navbar-header">
+                <div>
+                    <a href="/aulas.txt/">aulas.txt</a><a id="mobile-toggle-theme">·&nbsp;Light</a>
+                </div>
+                <div class="menu-toggle" onclick="mobileBtn()">&#9776; Menu</div>
+            </div>
+            <div class="menu" id="mobile-menu">
+                
+                    <a class="menu-item" href="/aulas.txt/pages/cursos">Cursos</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/tag">Materiais</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/manual">Manual</a>
+                
+                    <a class="menu-item" href="/aulas.txt/pages/sobre">Sobre</a>
+                
+            </div>
+        </div>
+    </nav>
+
+</header>
+<script>
+    var mobileBtn = function f() {
+        var toggleMenu = document.getElementsByClassName("menu-toggle")[0];
+        var mobileMenu = document.getElementById("mobile-menu");
+        if(toggleMenu.classList.contains("active")){
+           toggleMenu.classList.remove("active")
+            mobileMenu.classList.remove("active")
+        }else{
+            toggleMenu.classList.add("active")
+            mobileMenu.classList.add("active")
+        }
+    }
+</script>
+        <div class="main padding-05mm" id="aulasTXT">
+            <div class="container">
+    
+    
+        <div class="post-toc">
+    <div class="tocbot-list">
+    </div>
+    <div class="tocbot-list-menu">
+        <a class="tocbot-toc-expand" onclick="expand_toc()">Expand all</a>
+        <a onclick="go_top()">Back to top</a>
+        <a onclick="go_bottom()">Go to bottom</a>
+    </div>
+</div>
+
+<script>
+    document.ready(
+        function () {
+            tocbot.init({
+                tocSelector: '.tocbot-list',
+                contentSelector: '.post-content',
+                headingSelector: 'h1, h2, h3, h4, h5',
+                collapseDepth: 1,
+                orderedList: false,
+                scrollSmooth: true,
+            })
+        }
+    )
+
+    function expand_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 6,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "collapse_toc()");
+        b.innerHTML = "Collapse all"
+    }
+
+    function collapse_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 1,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "expand_toc()");
+        b.innerHTML = "Expand all"
+    }
+
+    function go_top() {
+        window.scrollTo(0, 0);
+    }
+
+    function go_bottom() {
+        window.scrollTo(0, document.body.scrollHeight);
+    }
+
+</script>
+    
+
+    
+    <article class="post-wrap">
+        <header class="post-header">
+            <h1 class="post-title">Aula 05 -  Módulo 01 - Auxiliar Administrativo</h1>
+            
+                <div class="post-meta">
+                    
+
+                    
+                        <span class="post-time">
+                        Data de Publicação: <a href="#">30/04/2020&nbsp;&nbsp;16:41</a>
+                        </span>
+                    
+                    
+                </div>
+            
+        </header>
+
+        <div class="post-content">
+            <img src="../../../../assets/media/img/cursos/logo-auxiliar-administrativo-01.png" alt="Auxiliar Administrativo" title="Auxiliar Administrativo" class="img-50  bg-white">
+
+<p>Bem vindx à mais uma aula do curso de Auxiliar Administrativo!</p>
+<p>Hoje iremos revisar todo o conteúdo visto até aqui.</p>
+<p>Se quiser acessar o material anteriormente produzido e utilizado, basta clicar aqui:  <a href="../../../../assets/content/administracao/modulo-01/05 - Revisão - Aulas 01 a 05.pdf" target="_blank"><i class="icofont-download"></i> Material Aula 04</a></p>
+<p>Sugiro, para estudos complementares deste curso o material descrito nas referências bibliográficas, em especial:</p>
+<p><a href="https://bit.ly/3e9aqsA" target="_blank" rel="noopener">BACARJI, A. G. Formação Inicial e Continuada: Auxiliar Administrativo</a></p>
+<p><a href="https://bit.ly/2JRzNkL" target="_blank" rel="noopener">JUNIOR, R. Matemática Financeira</a></p>
+<p><a href="https://bit.ly/2UVPNZf" target="_blank" rel="noopener">VIANNA, R. de M. I. Matemática Financeira</a></p>
+<p>Vamos começar!</p>
+<hr>
+<h2 id="Sumario-da-Aula"><a href="#Sumario-da-Aula" class="headerlink" title="Sumário da Aula"></a>Sumário da Aula</h2><ol>
+<li><a href="#Aula-01">Aula 01</a></li>
+<li><a href="#Aula-02">Aula 02</a></li>
+<li><a href="#Aula-03">Aula 03</a></li>
+<li><a href="#Aula-04">Aula 04</a></li>
+<li><a href="#Aula-05">Aula 05</a></li>
+<li><a href="#Exercicios">Exercícios</a></li>
+<li><a href="#Referencias-Bibliograficas">Referências Bibliográficas</a></li>
+</ol>
+<hr>
+<h2 id="Aula-01"><a href="#Aula-01" class="headerlink" title="Aula 01"></a>Aula 01</h2><ul>
+<li><p>A função do auxiliar administrativo é  dar apoio à administração de uma empresa em suas tarefas diárias, realizando <strong>tarefas diversas e em diferentes setores</strong>, como, por exemplo: compras, pessoal, logística, estoque, financeiro, marketing, etc.</p>
+</li>
+<li><p>57% dos auxiliares administrativos possuem graduação e 12% têm Inglês Intermediário (CATHO, 2020), o que significa que a <strong>especialização</strong> é essencial para esta área! Saber utilizar o <strong>Pacote Office</strong>, se comunicar bem e demonstrar força de vontade e prontidão são competências importantes para se tornar um bom Auxiliar Administrativo.</p>
+</li>
+<li><p>A <strong>Análise SWOT</strong>, também conhecida como Matriz FOFA é uma estratégia utilizada para identificar os pontos fortes e fracos de uma pessoa, situação, ideia ou empresa.</p>
+</li>
+</ul>
+<p><img src="../../../../assets/media/img/ferramentas-gestao-desempenho/matriz-fofa-conceito.png" alt="Matriz FOFA - Conceito"></p>
+<ul>
+<li><strong>Eficiência</strong> e <strong>eficácia</strong> são palavras semelhantes, mas com significados diferentes:  <code>Eficiência</code> consiste em utilizar bem os recursos e <code>Eficácia</code> consiste em atingir o objetivo ou metas de uma tarefa.</li>
+</ul>
+<p><img src="../../../../assets/media/img/ferramentas-gestao-desempenho/conceito-efetividade-novo.png" alt="Conceito - Efetividade"></p>
+<ul>
+<li>Toda ideia apresenta, por si só, <strong>pontos fortes e fracos</strong>. Há sempre um <strong>momento certo</strong> para apresentar suas ideias: o melhor momento é quando um projeto necessita ser planejado ou um problema foi detectado.</li>
+</ul>
+<hr>
+<h2 id="Aula-02"><a href="#Aula-02" class="headerlink" title="Aula 02"></a>Aula 02</h2><ul>
+<li><p>Quando falamos sobre <strong>ética ou moral</strong>, estamos nos referindo aos costumes, comportamentos e hábitos de um povo ou sociedade. As duas palavras são traduzidas para o português como <strong>costume</strong>: <em>ethos</em> tem origem grega; e <em>mores</em> tem origem latina.</p>
+<ul>
+<li>A <strong>moral</strong> está relacionada ao <strong>agir de acordo com os costumes</strong> e regras socialmente difundidas.</li>
+<li>A <strong>ética</strong> nasce quando se passa a indagar o que são, de onde vêm e o que valem os costumes.</li>
+</ul>
+</li>
+<li><p>Assim como existem diferentes visões morais sobre o mundo, existem <strong>diferentes Teorias Éticas</strong> sobre as ações humanas.</p>
+<ul>
+<li><strong>Teoria do Comando Divino</strong>: afirma que Deus (ou os deuses) são os responsáveis por <em>comandar e escolher</em> aquilo que é certo e errado;</li>
+<li><strong>Teoria Deontológica</strong>: afirma que devemos seguir o Imperativo Categórico para decidir o que é certo e errado: <em>devemos agir da maneira como gostaríamos que todas as outras pessoas agissem - desde que isso não desrespeite sua autonomia</em>;</li>
+<li><strong>Teoria Consequencialista</strong>: as ações devem ser analisadas em termos de quanta <strong>felicidade ou prazer</strong> elas produzem;</li>
+<li><strong>Teoria Contratualista</strong>: afirma que a moralidade surge para garantir a liberdade por meio de regras sociais (Contrato Social).</li>
+</ul>
+</li>
+</ul>
+<p><img src="../../../../assets/media/img/etica/teorias-resumo.png" alt="Teorias Éticas"></p>
+<ul>
+<li><p>Os Códigos de Ética Profissional são um conjunto de regras éticas próprias que orienta e direciona o comportamento dos profissionais da área.</p>
+<ul>
+<li>O Código de Ética do Administrador possui 23 artigos que dispõe sobre direitos, deveres e proibições inerentes aos profissionais administrativos.</li>
+</ul>
+</li>
+<li><p>As empresas podem ser classificadas de acordo com <strong>seu tipo de atividade</strong> (INDÚSTRIA, COMÉRCIO E PRESTAÇÃO DE SERVIÇOS) ou com o <strong>objetivo financeiro</strong> (COM OU SEM FINS LUCRATIVOS).</p>
+</li>
+</ul>
+<h3 id="Codigo-de-Etica-do-Administrador-Trechos"><a href="#Codigo-de-Etica-do-Administrador-Trechos" class="headerlink" title="Código de Ética do Administrador - Trechos"></a>Código de Ética do Administrador - Trechos</h3><p>(Art. 2º) São deveres do profissional de Administração:</p>
+<ul>
+  <li class='item-ok'>II – defender os direitos e interesses do cliente;</li>
+  <li class='item-ok'>III - guardar sigilo sobre o que saiba em razão do exercício profissional lícito de seu ofício,</li>
+  <li class='item-ok'>IV - manter independência técnica na orientação de serviços, sem abdicar de sua dignidade e prerrogativas, seja como profissional liberal ou empregado;</li>
+  <li class='item-ok'>VII – esclarecer o cliente sobre a função social da organização e a necessidade de preservação do meio ambiente.</li>
+</ul>
+
+
+<p>(Art. 3º) Constitui infração disciplinar::</p>
+<ul>
+  <li class='item-not'>I. tratar outros profissionais ou profissões sem urbanidade, de modo a ofender sua dignidade, ou discriminá-los de qualquer forma; </li>
+  <li class='item-not'>III. assinar documentos elaborados por terceiros sem a sua orientação ou supervisão; </li>
+  <li class='item-not'>IV. afastar-se, sem justificativa, de suas atividades profissionais sem comunicar previamente ao seu cliente ou empregador;</li>
+  <li class='item-not'>V. violar, sem justa causa, sigilo profissional;</li>
+  <li class='item-not'>XV. praticar, no exercício da atividade profissional, ato contrário à lei ou destinado a fraudá-la, ou contribuir para a realização de ato definido como ilícito penal;</li>
+  <li class='item-not'>XVI. usar de artifícios enganosos ou fraudulentos para obter vantagem indevida;</li>
+</ul>
+
+<p>(Art. 4º) São direitos do Profissional de Administração:</p>
+<ul>
+  <li class='item-ok'>I - exercer a profissão independentemente  de questões religiosas, raça, sexo, nacionalidade, cor, idade, condição social, orientação sexual ou de qualquer natureza discriminatória; </li>
+  <li class='item-ok'>II - apontar falhas nos regulamentos e normas das instituições, quando as julgar indignas do exercício profissional ou prejudiciais ao cliente, devendo, nesse caso, dirigir-se aos órgãos competentes, em especial ao Conselho Regional de Administração;</li>
+  <li class='item-ok'>III - exigir justa remuneração por seu trabalho, a qual corresponderá às responsabilidades assumidas a seu tempo de serviço dedicado, sendo-lhe livre firmar acordos sobre salários, velando, no entanto, pelo seu justo valor;</li>
+</ul>
+
+<hr>
+<h2 id="Aula-03"><a href="#Aula-03" class="headerlink" title="Aula 03"></a>Aula 03</h2><ul>
+<li><p>A <strong>Regra de Três</strong> é uma maneira simples e fácil de resolver problemas que envolvem calcular <strong>valores desconhecidos</strong> quando já dispomos de 3 valores conhecidos. Elas podem ser <strong>simples</strong> ou <strong>compostas</strong>.</p>
+</li>
+<li><p>O <strong>Princípio do 1%</strong> afirma que ao dividir qualquer número por 100 você obtém como resultado <strong>1% daquele número</strong>. A partir daí fica muito fácil encontrar o percentual de qualquer número.</p>
+</li>
+<li><p>Outra maneira fácil de se resolver problemas envolvendo porcentagens é por meio de regras de três simples.</p>
+</li>
+</ul>
+<hr>
+<h2 id="Aula-04"><a href="#Aula-04" class="headerlink" title="Aula 04"></a>Aula 04</h2><ul>
+<li><p>Os juros são a remuneração obtida pelo uso do capital por um intervalo de tempo, isto é, é o custo do crédito obtido. Pode ser entendido também como sendo o aluguel pelo uso do dinheiro. Ele pode ser <strong>simples</strong> ou <strong>composto</strong></p>
+</li>
+<li><p>O Capital (C) é a quantia emprestada ou investida no início da aplicação.</p>
+</li>
+<li><p>Toda aplicação financeira possui um prazo (t), ou seja, um período para ser finalizado. No caso de um empréstimo o prazo indica o tempo proposto para se quitar a dívida; no caso de uma aplicação, o prazo indica o período no qual o capital será resgatado.</p>
+</li>
+<li><p>Montante é a quantia total, em dinheiro, paga ou resgatada no fim da aplicação, sendo a soma do capital aplicado e o juro produzido em um determinado período.</p>
+</li>
+<li><p>No Regime de Capitalização Simples a taxa de juros incide diretamente sobre o valor do capital. Sua fórmula é dada por: $J = C * i * t$  </p>
+<ul>
+<li>Capital =  100,00</li>
+<li>Taxa = 5%</li>
+<li>Após 1 mês = 5% de  100,00 = 5,00 + 100,00 = 105,00</li>
+<li>Após 2 meses = 10% de  100,00 = 10,00 + 100,00 = 110,00</li>
+<li>Após 3 meses = 15% de  100,00 = 15,00 + 100,00 = 115,00</li>
+<li>Após 4 meses = 20% de  100,00 = 20,00 + 100,00 = 120,00</li>
+<li>Após 5 meses = 25% de  100,00 = 25,00 + 100,00 = 125,00</li>
+<li>Após 6 meses = 30% de  100,00 = 30,00 + 100,00 = 130,00<br>…</li>
+</ul>
+</li>
+<li><p>No Regime de Capitalização Composta, a taxa de juros incide diretamente sobre o valor do montante do período anterior. É também chamado de Juros Compostos. SUa fórmula é: $M = C * (1+i)^t$</p>
+<ul>
+<li>Capital =  100,00</li>
+<li>Taxa = 5%</li>
+<li>Após 1 mês = 5% de  100,00 = 5,00 + 100,00 = 105,00</li>
+<li>Após 2 meses = 5% de  105,00 = 5,25 + 100,00 = 110,25</li>
+<li>Após 3 meses = 5% de  110,25 = 5,51 + 110,25 = 115,76</li>
+<li>Após 4 meses = 5% de  115,76 = 5,79 + 115,76 = 121,55</li>
+<li>Após 5 meses = 5% de  121,55 = 6,08 + 121,55 = 127,63</li>
+<li>Após 6 meses = 5% de  127,63 = 6,38 + 127,63 = 134,01</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="Exercicios"><a href="#Exercicios" class="headerlink" title="Exercícios"></a>Exercícios</h2><ol>
+<li><p>Dê 5 exemplos de tarefas que podem e não podem ser feitas por auxiliares administrativos.</p>
+</li>
+<li><p>Dê 3 exemplos de atividades/situações eficazes, eficientes e efetivas.</p>
+</li>
+<li><p>A etiqueta surgiu na França no século XVI como uma forma de padronizar o comportamento dos indivíduos perante a sociedade. Tendo em vista as diferenças e semelhanças entre os conceitos, indique se a etiqueta se refere à moral ou ética. Justifique.</p>
+</li>
+<li><p>Analise as situações abaixo classificando-as como corretas (C) ou incorretas (I) do ponto de vista da ética profissional.</p>
+<ul>
+<li>(__) Um auxiliar administrativo, acatando ordens de um superior, omitiu dados importantes da empresa em um documento que redigia para um cliente, induzindo-o assim a adquirir um produto da empresa.</li>
+<li>(__) Um vendedor, sabendo que um produto estava com defeito, coagiu Dona Maria a comprá-lo. No dia seguinte Dona Maria voltou à loja e solicitou a um auxiliar administrativo que passasse o nome completo do vendedor para que ela pudesse processá-lo por propaganda falsa ou enganosa. O auxiliar não forneceu a informação.</li>
+<li>(__) Stephanie trabalha como auxiliar administrativo na Uber e por isso tem direito a viagens gratuitas pelo aplicativo. Ela utiliza estas viagens, diariamente, para ir da sua Faculdade até a sede da empresa.</li>
+<li>(__) Durante a realização de uma consultoria, Ana aconselhou seu contratante a parar de fraudar os documentos da empresa e ainda deu algumas dicas de como sonegar impostos corretamente.</li>
+<li>(__) Bruno foi contratado pelo Sr. Betânio para fiscalizar sua empresa em busca de irregularidades. Durante a consultoria, Bruno percebeu que o gerente da empresa, filho do Sr. Betânio, estava realizando atividades ilícitas dentro da mesma. Ao ser informado da situação o Sr. Betânio enfartou e teve de ser internado.</li>
+<li>(__) Para economizar energia, o dono de um restaurante realiza a prática de deixar os freezers da do seu estabelecimento desligados durante o dia.</li>
+</ul>
+</li>
+<li><p>Considerando as seguintes empresas – Netflix; Empresa de Manutenção de Celulares; Cinema ABC; Supermercados BH; Fiat. Geenpeace – é correto afirmar que:<br>A) A Fiat e o Greenpeace são exemplos de, respectivamente, indústria e comércio<br>B) A Netflix e o Cinema ABC são exemplos de comércio, pois as duas empresas vendem produtos cinematográficos<br>C) Os Supermercados BH e a Empresa de Manutenção de Celulares, apesar de possuírem diferentes ramos de atuação, são ambas sem fins lucrativos.<br>D) O Greenpeace é um prestador de serviços sem fins lucrativos<br>E) A Fiat não pode ser considerada como uma empresa, pois ela somente realiza a montagem dos automóveis<br>F) A Netflix, diferentemente do Cinema ABC, é um exemplo de prestadora de serviços</p>
+</li>
+<li><p>Maricleuza deseja fazer um empréstimo, no valor de 2.000 para ser pago em 2 anos. Ao consultar um amigo próximo, o mesmo resolve emprestá-la o valor, cobrando uma taxa de juros simples de 3,0% a.m. Sabendo que a agência bancária de Maricleuza oferece o mesmo empréstimo a uma taxa de juros compostos de 24% a.a., calcule a aplicação que gerará menos juros.</p>
+</li>
+<li><p>Rosicleide comprou uma televisão à prazo em uma loja. Sabendo que o valor à vista é de  1500,00 e que o valor total à prazo é 15% maior que o valor à vista, responda: Quanto Rosicleide vai pagar no total?</p>
+</li>
+<li><p>Para a eleição do síndico de um condomínio verificou-se que 20% dos condôminos não votaram. Sabendo que o candidato Antônio recebeu 3 votos, a candidata Bárbara recebeu 5 votos, o candidato Carlos recebeu 8 votos e que não houveram outros candidatos ao cargo, quantas pessoas do condomínio não votaram?</p>
+</li>
+<li><p>Um computador foi adquirido por 2.00,00, por um lojista, foi vendido por 2,400,00. Qual foi a porcentagem de lucro do lojista sobre o preço de venda?</p>
+</li>
+<li><p>Antes do lançamento de um novo CD foram entrevistados 360 ouvintes a apenas 90 dos entrevistados disseram gostar das músicas de CD. Qual é o percentual de ouvintes que não gostaram do CD?</p>
+</li>
+<li><p>O IPI é um imposto federal que é cobrado por produtos industrializados. Para incentivar o consumo de automóveis no país, o Governo reduziu a taxa do IPI para veículos de 4,5% para 3,6%. Sabendo que com a taxa a 4,5% uma concessionária vendeu, em 6 meses, 1080 veículos, calcule quantos veículos a mais esta concessionária irá vender a cada mês com a nova taxa proposta.    </p>
+</li>
+<li><p>Um investidor aplicou a quantia de 750,00 em um fundo de investimento que opera no regime de juros simples. Após 10 meses o investidor verificou que o montante era de 850,00. Qual a taxa de juros desse fundo de investimento?</p>
+</li>
+<li><p>Uma quantia foi aplicada a juros simples de 5% ao mês, durante 10 meses. No final dos 10 meses, o montante foi de 3500,00. Qual o valor da quantia aplicada inicialmente? </p>
+</li>
+<li><p>Determinado capital gerou, após 24 meses, um montante composto de 15.000,00. Sabendo que a taxa de juros é de 2,5% ao mês, determine o valor desse capital.</p>
+</li>
+<li><p>Quanto terei de aplicar hoje num fundo de renda fixa (juros compostos) para que, ao final de 5 anos a uma taxa de 2,5%a.m., haja um montante de 22.000,00? Considere $1,025^60 = 4,4$.</p>
+</li>
+</ol>
+<hr>
+<h2 id="Referencias-Bibliograficas"><a href="#Referencias-Bibliograficas" class="headerlink" title="Referências Bibliográficas"></a>Referências Bibliográficas</h2><p>BACARJI, Alencar Garcia. Formação Incial e Continuada Auxiliar Administrativo. Curitiba: Instituto Federal do Paraná, 2012.</p>
+<p>CATHO. Guia de Profissões e Salários 2020 - Auxiliar Administrativo. Barueri, 2020. Disponível em <a href="https://bit.ly/2WM4rU5" target="_blank" rel="noopener">https://bit.ly/2WM4rU5</a>. Acesso em <em>27 de mar. de 2020</em>.</p>
+<p>CHAUÍ, Marilena. Convite à filosofia. São Paulo: Editora Ática, 2000.</p>
+<p>GRCIC, Joseph. Ethics: Theory and Practice (English Edition) - 7 ed. Terre Haute: Philosophy Department / Indiana State University, 2015. 675 p.</p>
+<p>JUNIOR, R. J. M. Matemática Financeira. Curitiba, PR: Instituto Federal do Paraná, 2012. 176 p. Disponível em <a href="https://bit.ly/2JRzNkL" target="_blank" rel="noopener">https://bit.ly/2JRzNkL</a>. Acesso em <em>27 de mar. de 2020</em>.</p>
+<p>VIANNA, R. de M. I.  Matemática financeira. Salvador: UFBA, Faculdade de Ciências Contábeis; Superintendência de Educação a Distância, 2018. 131 p. : il. Disponível em <a href="https://bit.ly/2UVPNZf" target="_blank" rel="noopener">https://bit.ly/2UVPNZf</a>. Acesso em <em>27 de mar. de 2020</em>.</p>
+
+        </div>
+
+        
+            <section class="post-copyright">
+                
+                
+                    <p class="copyright-item">
+                        <span>Conteúdo disponível em:</span>
+                        <span><a href="http://zmdy.github.io/aulas.txt/posts/administracao/aulas/aula-05/">http://zmdy.github.io/aulas.txt/posts/administracao/aulas/aula-05/</a></span>
+                    </p>
+                
+                
+                    <p class="copyright-item">
+                        <span>Licença:</span>
+                        <span>Este material está distribuído com uma licença <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC-BY-4.0</a></span>
+                    </p>
+                
+                
+
+            </section>
+        
+        <section class="post-tags">
+            <div>
+                <span>Tag(s):</span>
+                <span class="tag">
+                    
+                    
+                        <a href="/aulas.txt/pages/tag/Auxiliar-Administrativo-Modulo-01-Aulas/"># Auxiliar Administrativo - Módulo 01 - Aulas</a>
+                    
+                        
+                </span>
+            </div>
+            <div>
+                <a href="javascript:window.history.back();">voltar</a>
+                <span>· </span>
+                <a href="/aulas.txt/">home</a>
+            </div>
+        </section>
+        <section class="post-nav">
+            
+                <a class="prev" rel="prev" href="/aulas.txt/posts/administracao/aulas/aula-16/">Aula 06 -  Módulo 02 - Contabilidade</a>
+            
+            
+            <a class="next" rel="next" href="/aulas.txt/posts/administracao/projetos/2020%20-%20PDI/">Projeto TCM - Plano de Desenvolvimento Individual (PDI)</a>
+            
+        </section>
+
+
+    </article>
+</div>
+
+        </div>
+        <footer id="footer" class="footer">
+    <div class="copyright">
+        <span>© aulas.txt | Feito com <a href="https://hexo.io" target="_blank">Hexo</a> & <a href="https://github.com/Siricee/hexo-theme-Chic" target="_blank">Chic</a> | <a target="_blank" onclick="printPage()">Imprimir esta página em PDF</a></span>
+    </div>
+</footer>
+
+    </div><!-- hexo-inject:begin --><!-- Begin: Injected MathJax -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({"tex2jax":{"inlineMath":[["$","$"],["\\(","\\)"]],"skipTags":["script","noscript","style","textarea","pre","code"],"processEscapes":true},"TeX":{"equationNumbers":{"autoNumber":"AMS"}}});
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+      all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+</script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js">
+</script>
+<!-- End: Injected MathJax -->
+<!-- hexo-inject:end -->
+</body>
+</html>

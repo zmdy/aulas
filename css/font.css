@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/ubuntu-v14-latin/ubuntu-v14-latin-300.eot"); /* IE9 Compat Modes */
+  src: local('Ubuntu Light'), local('Ubuntu-Light'), url("../fonts/ubuntu-v14-latin/ubuntu-v14-latin-300.eot?#iefix") format('embedded-opentype'), url("../fonts/ubuntu-v14-latin/ubuntu-v14-latin-300.woff2") format('woff2'), url("../fonts/ubuntu-v14-latin/ubuntu-v14-latin-300.woff") format('woff'), url("../fonts/ubuntu-v14-latin/ubuntu-v14-latin-300.ttf") format('truetype'), url("../fonts/ubuntu-v14-latin/ubuntu-v14-latin-300.svg#Ubuntu") format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/roboto-v20-latin/roboto-v20-latin-300.eot"); /* IE9 Compat Modes */
+  src: local('Roboto Light'), local('Roboto-Light'), url("../fonts/roboto-v20-latin/roboto-v20-latin-300.eot?#iefix") format('embedded-opentype'), url("../fonts/roboto-v20-latin/roboto-v20-latin-300.woff2") format('woff2'), url("../fonts/roboto-v20-latin/roboto-v20-latin-300.woff") format('woff'), url("../fonts/roboto-v20-latin/roboto-v20-latin-300.ttf") format('truetype'), url("../fonts/roboto-v20-latin/roboto-v20-latin-300.svg#Roboto") format('svg'); /* Legacy iOS */
+}
