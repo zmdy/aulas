@@ -123,6 +123,68 @@
             <div class="container">
     
     
+        <div class="post-toc">
+    <div class="tocbot-list">
+    </div>
+    <div class="tocbot-list-menu">
+        <a class="tocbot-toc-expand" onclick="expand_toc()">Expand all</a>
+        <a onclick="go_top()">Back to top</a>
+        <a onclick="go_bottom()">Go to bottom</a>
+    </div>
+</div>
+
+<script>
+    document.ready(
+        function () {
+            tocbot.init({
+                tocSelector: '.tocbot-list',
+                contentSelector: '.post-content',
+                headingSelector: 'h1, h2, h3, h4, h5',
+                collapseDepth: 1,
+                orderedList: false,
+                scrollSmooth: true,
+            })
+        }
+    )
+
+    function expand_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 6,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "collapse_toc()");
+        b.innerHTML = "Collapse all"
+    }
+
+    function collapse_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 1,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "expand_toc()");
+        b.innerHTML = "Expand all"
+    }
+
+    function go_top() {
+        window.scrollTo(0, 0);
+    }
+
+    function go_bottom() {
+        window.scrollTo(0, document.body.scrollHeight);
+    }
+
+</script>
+    
 
     
     <article class="post-wrap">
@@ -147,9 +209,86 @@
 
 <p>Bem vindx à mais uma aula do curso de Auxiliar Administrativo!</p>
 <p>Hoje iremos aprender sobre os principais tributos do Brasil e entender como os mesmos são utilizados pelo Governo. Além disso, vamos analisar as diferenças entre notas fiscais e cupons fiscais.</p>
+<p>Sugiro, para estudos complementares deste curso o material descrito nas referências bibliográficas, em especial:</p>
+<p><a href="https://bit.ly/3e9aqsA" target="_blank" rel="noopener">BACARJI, A. G. Formação Inicial e Continuada: Auxiliar Administrativo</a></p>
 <p>Vamos lá!</p>
 <hr>
-<p><img src="../../../../assets/media/img/wallpapers/producao.gif" alt="Material em Produção"></p>
+<h2 id="Sumario-da-Aula"><a href="#Sumario-da-Aula" class="headerlink" title="Sumário da Aula"></a>Sumário da Aula</h2><ol>
+<li><a href="#Tributos">Tributos</a></li>
+<li><a href="#Tributos-de-Pessoas-Fisicas">Tributos de Pessoas Físicas</a></li>
+<li><a href="#Tributos-de-Pessoas-Juridicas">Tributos de Pessoas Jurídicas</a></li>
+<li><a href="#Carga-Tributaria">Carga Tributária</a></li>
+<li><a href="#Notas-Fisicais-e-Cupons-Fiscais">Notas Fiscais e Cupons Fiscais</a></li>
+<li><a href="#Resumo">Resumo</a></li>
+<li><a href="#Exercicios">Exercícios</a></li>
+<li><a href="#Referencias-Bibliograficas">Referências Bibliográficas</a></li>
+</ol>
+<hr>
+<h2 id="Tributos"><a href="#Tributos" class="headerlink" title="Tributos"></a>Tributos</h2><p><strong>Tributos</strong> consistem em uma série de valores pagos ao Estado que custeiam todo o seu funcionamento – desde o pagamento de funcionários públicos até os investimentos em saúde, educação e segurança.</p>
+<p>Estes valores podem incidir sobre produtos, serviços e bens das mais diversas naturezas, e serem cobrados de pessoas físicas ou jurídicas (empresas).</p>
+<p>Cada tributo possui uma <strong>obrigação</strong> diferente, ou seja, um propósito que é delimitado pelo seu <strong>fato gerador</strong>. Por exemplo, o tributo cobrado pela importação de produtos tem por objetivo aumentar o preço de alguns produtos importados para garantir a sobrevivência e concorrência da produção nacional.</p>
+<p>“<em>O objetivo principal da cobrança de impostos é basicamente fazer com que o cidadão contribua financeiramente com serviços que utiliza frequentemente, como saúde e transporte público. O dinheiro revertido em impostos seria, então, para manter com eficiência e qualidade as frotas de ônibus do sistema público de transporte do país, assim como os hospitais, postos de saúde e pronto-socorros de todo o território nacional.</em>“ Disponível em <a href="https://financaspessoais.organizze.com.br/afinal-para-onde-vao-os-impostos-que-pagamos/" target="_blank" rel="noopener">Organizze</a></p>
+<p>O dinheiro arrecadado pelos mais diferentes tributos pode ser destinado às reservas do país (Governo Federal), do estado ou do município.</p>
+<p>O [Sistema Tributário Brasileiro] define 3 <strong>tipos diferentes</strong> de tributos que se diferenciam por sua origem e finalidade. São eles: os taxas, contribuições e impostos.</p>
+<h3 id="Taxas"><a href="#Taxas" class="headerlink" title="Taxas"></a>Taxas</h3><p>Taxas são tributos cobrados pela utilização de serviços públicos diversos, como:</p>
+<ul>
+<li>Coleta de Lixo (Municipal);</li>
+<li>Combate a Incêndios (Estadual);</li>
+<li>Conservação e Limpeza Pública (Municipal);</li>
+<li>Licenciamento de Empresas e Alvarás (Municipal);</li>
+<li>Taxas do Registro do Comércio - Juntas Comerciais - (Estadual);</li>
+<li>Taxa de Fiscalização de Sorteios, Brindes ou Concursos (Federal);</li>
+<li>Taxa de Licenciamento, Controle e Fiscalização de Materiais Nucleares e Radioativos e suas instalações (Federal);</li>
+<li><strong>Emissão de documentos</strong> (Municipal, Estadual ou Federal)</li>
+</ul>
+<p>O Brasil possui 34 taxas diferentes, que possuem particularidades e pormenores. No entanto, é bom ressaltar que o valor arrecadado pelas taxas é destinado ao seu <em>fato gerador</em>, ou seja:</p>
+<ul>
+<li>O dinheiro arrecadado pela taxa de coleta de lixo é utilizado para a melhoria na coleta de lixo da cidade;</li>
+<li>O dinheiro arrecadado pela taxa de emissão de documentos é utilizado para a melhoria neste serviço;</li>
+<li>Etc;</li>
+</ul>
+<h3 id="Contribuicoes"><a href="#Contribuicoes" class="headerlink" title="Contribuições"></a>Contribuições</h3><p>Assim como as taxas, as <strong>contribuições de melhoria</strong> são cobradas de serviços públicos diversos. O objetivo delas é de melhorar a prestação dos serviços públicos - em especial dos serviços e fundos nacionais, como:</p>
+<ul>
+<li>CONDECINE - Contribuição ao Cinema Nacional;</li>
+<li>FNDCT - Contribuição ao Fundo Nacional de DEsenvolvimento Científico e Tecnológico;</li>
+<li>Contribuições Sindicais - Cobradas pelos Sindicatos de Trabalhadores;</li>
+<li>Contribuições aos Órgãos de Fiscalização Profissional, como OAB, CREA, CRM…</li>
+<li><strong>COFINS - Contribuição nacional utilizada para o pagamento de seguro-desemprego e abonos salariais</strong>;</li>
+</ul>
+<p>Assim como as taxas, o dinheiro arrecadado por cada contribuição se destina à melhoria do serviço delimitado pelo seu fato gerador, ou seja:</p>
+<ul>
+<li>O dinheiro arrecadado pelo CONDECINE é utilizado para a o desenvolvimento do setor audiovisual nacional;</li>
+<li>O dinheiro arrecadado pelo COFINS é utilizado para o pagamento de seguros-desemprego e abonos;</li>
+<li>Etc;</li>
+</ul>
+<h3 id="Impostos"><a href="#Impostos" class="headerlink" title="Impostos"></a>Impostos</h3><p>Diferentemente das taxas e contribuições, o dinheiro arrecadado pelos impostos não possui destino definido, sendo utilizados para a <em>formação de reservas monetárias</em> (conforme a Lei 5.172).</p>
+<p>De acordo com o Sistema Tributário, <em>imposto é o tributo cuja obrigação tem por fato gerador uma situação independente de qualquer atividade estatal específica, relativa ao contribuinte</em>.</p>
+<p>Dito de forma simples, impostos são tributos obrigatórios que o Estado cobra pelos mais diferentes produtos, serviços privados e bens. </p>
+<p>Note que os <strong>serviços públicos</strong> são regulados pelas taxas e contribuições, e não pelos impostos! Isso significa que o dinheiro que é utilizado para manter e regular a emissão de documentos, por exemplo, vem de lugar diferente do dinheiro usado para pagar funcionários públicos e realizar a manutenção em hospitais e escolas.</p>
+<p>É com os impostos que o Estado arrecada a maior parte de sua renda, pois o <strong>destino</strong> do dinheiro arrecadado são as <em>reservas monetárias do Governo</em>.</p>
+<p>Dos 92 tributos existentes no Brasil, 19 são impostos. Alguns deles são pagos por pessoas físicas e outro por pessoas jurídicas, como veremos a seguir.</p>
+<hr>
+<h2 id="Tributos-de-Pessoas-Fisicas"><a href="#Tributos-de-Pessoas-Fisicas" class="headerlink" title="Tributos de Pessoas Físicas"></a>Tributos de Pessoas Físicas</h2><p><img src="../../../../assets/media/img/wallpapers/producao.gif" alt="Material em Produção"></p>
+<hr>
+<h2 id="Tributos-de-Pessoas-Juridicas"><a href="#Tributos-de-Pessoas-Juridicas" class="headerlink" title="Tributos de Pessoas Jurídicas"></a>Tributos de Pessoas Jurídicas</h2><p><img src="../../../../assets/media/img/wallpapers/producao.gif" alt="Material em Produção"></p>
+<hr>
+<h2 id="Carga-Tributaria"><a href="#Carga-Tributaria" class="headerlink" title="Carga Tributária"></a>Carga Tributária</h2><p><img src="../../../../assets/media/img/wallpapers/producao.gif" alt="Material em Produção"></p>
+<hr>
+<h2 id="Notas-Fiscais-e-Cupons-Fiscais"><a href="#Notas-Fiscais-e-Cupons-Fiscais" class="headerlink" title="Notas Fiscais e Cupons Fiscais"></a>Notas Fiscais e Cupons Fiscais</h2><p><img src="../../../../assets/media/img/wallpapers/producao.gif" alt="Material em Produção"></p>
+<hr>
+<h2 id="Resumo"><a href="#Resumo" class="headerlink" title="Resumo"></a>Resumo</h2><p><img src="../../../../assets/media/img/wallpapers/producao.gif" alt="Material em Produção"></p>
+<hr>
+<h2 id="Exercicios"><a href="#Exercicios" class="headerlink" title="Exercícios"></a>Exercícios</h2><p><img src="../../../../assets/media/img/wallpapers/producao.gif" alt="Material em Produção"></p>
+<hr>
+<h2 id="Referencias-BIbliograficas"><a href="#Referencias-BIbliograficas" class="headerlink" title="Referências BIbliográficas"></a>Referências BIbliográficas</h2><p>AGÊNCIA SENADO. Principais impostos e contribuições pagos no Brasil. Brasília: Senado Federal, 2006. Disponível em <a href="https://bit.ly/2LoE93k" target="_blank" rel="noopener">https://bit.ly/2LoE93k</a>. Acesso em <em>12 de mai. de 2020</em>.</p>
+<p>BACARJI, Alencar Garcia. Formação Incial e Continuada Auxiliar Administrativo. Curitiba: Instituto Federal do Paraná, 2012.</p>
+<p>BRASIL. LEI Nº 5.172, DE 25 DE OUTUBRO DE 1966. Dispõe sobre o Sistema Tributário Nacional e institui normas gerais de direito tributário aplicáveis à União, Estados e Municípios. Brasília, DF. Disponível em: <a href="https://bit.ly/2zy7ju6" target="_blank" rel="noopener">https://bit.ly/2zy7ju6</a>. Acesso em <em>12 de mai. de 2020</em>.</p>
+<p>CARAVANTES, G. R.P; KLOECKNER, C. M.; PANNO, C. Administração: teoria e processos. São Paulo: Pearson Prentice Hall, 2005.</p>
+<p>FRASER INSTITUTE. Economic Freedom of the World: 2019 Annual Report. Vancouver: The Fraser Institute, 2019. Disponíel em <a href="https://bit.ly/2WqCLDD" target="_blank" rel="noopener">https://bit.ly/2WqCLDD</a>. Acesso em <em>12 de mai. de 2020</em>.</p>
+<p>HERITAGE FOUNDATION. 2020 Index of Economic Freedom. Washington: The Heritage Foundation, 2020. Disponível em <a href="https://herit.ag/3fKVMs3" target="_blank" rel="noopener">https://herit.ag/3fKVMs3</a>. Acesso em <em>12 de mai. de 2020</em>.</p>
+<p>NETO, J. S. Uma montanha ainda maior de impostos. O GLOBO, n. 29995, 21//09/2015. Economia, p. 17. Disponível em <a href="https://bit.ly/2Z87M1d" target="_blank" rel="noopener">https://bit.ly/2Z87M1d</a>. Acesso em <em>12 de mai. de 2020</em>.</p>
+<p>PORTAL TRIBUTÁRIO. Os Tributos no Brasil. Curita: Portal Tributário, 2020. Disponível em <a href="https://bit.ly/3bseH7C" target="_blank" rel="noopener">https://bit.ly/3bseH7C</a>. Acesso em <em>12 de mai. de 2020</em>.</p>
+<p>SACHIDA, A. Tributação no Brasil : estudos, ideias e propostas : ICMS, seguridade social, carga tributária, impactos econômicos. Brasília : Ipea, 2017. 220 p. : gráfs., mapas color.</p>
 
         </div>
 
@@ -190,6 +329,8 @@
             </div>
         </section>
         <section class="post-nav">
+            
+                <a class="prev" rel="prev" href="/aulas.txt/posts/administracao/anexos/contabilidade-modelo-requerimento-empresario/">Módulo 02 - Modelo de Requerimento de Empresário</a>
             
             
             <a class="next" rel="next" href="/aulas.txt/posts/slides/administracao/modulo-02/quiz/etapa-2-perguntas/">slides/administracao/modulo-02/quiz/etapa-2-perguntas</a>
