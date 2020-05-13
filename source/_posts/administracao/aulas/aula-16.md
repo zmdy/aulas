@@ -68,7 +68,6 @@ O processo de formalização de um negócio deve ser feito em várias etapas dis
 
 4) **Registro Municipal**: A última etapa do processo consiste na emissão do alvará de localização e funcionamento, que assegura à empresa operar em sua sede.
 
-
 ---
 
 ## Conceitos Empresariais
@@ -374,27 +373,25 @@ Para o EI, o Contrato Social recebe o nome de **Requerimento de Empresário**. e
 
 O EIRELI possui o **Ato Constitutivo**, que funciona de modo semelhante ao Contrato Social padrão, possuindo algumas diferenças pontuais.
 
-Para as Socieades Empresárias (SS, LTDA e SA) os contratos devem ser registrados - em cartório, no caso das SS, e nas juntas comercias, no caso das LTDA e SA - e, em alguns casos, deve possuir a assinatura de um advogado (exceto se a empresa for ME ou EPP)
+Para as Sociedades Empresárias (SS, LTDA e SA) os contratos devem ser registrados - em cartório, no caso das SS, e nas juntas comercias, no caso das LTDA e SA - e, em alguns casos, deve possuir a assinatura de um advogado (exceto se a empresa for ME ou EPP)
 
-Abaixo seguem modelos dos diferentes tipos de contratos sociais. Baixe-os e estude-os.
+Abaixo seguem os diferentes tipos de contratos sociais, explicados detalhadamente. Acesse cada página e faça um pequeno resumo sobre os mesmos.
 
-<a href="../../../../assets/content/administracao/modelos/modelo-requerimento-de-empresario.docx" target="_blank"><i class="icofont-download"></i>EI - Modelo de Requerimento de Empresário</a>
+É importante avisar que todos estes documentos possuem cláusulas em comum, podendo variar a posição onde as mesmas estão localizadas. Estas cláusulas podem ser adaptadas e receber adendos, mas recomenda-se não retirá-las.
 
-<a href="../../../../assets/content/administracao/modelos/modelo-ato-constitutivo-ei.docx" target="_blank"><i class="icofont-download"></i>EI - Modelo de Ato Constitutivo</a>
+[EI - Requerimento de Empresário](../../anexos/contabilidade-modelo-requerimento-empresario)
 
-<a href="../../../../assets/content/administracao/modelos/modelo-ato-constitutivo-eireli.docx" target="_blank"><i class="icofont-download"></i>EIRELI - Modelo de Ato Constitutivo</a>
+[EI - Ato Constitutivo](../../anexos/contabilidade-modelo-ato-constitutivo-ei)
 
-<a href="../../../../assets/content/administracao/modelos/modelo-contrato-social.pdf" target="_blank"><i class="icofont-download"></i>PDF - Modelo de Contrato Social para Sociedade Simples Pura e Limitada</a>
+[EIRELI - Ato Constitutivo](../../anexos/contabilidade-modelo-ato-constitutivo-eireli)
 
-<a href="../../../../assets/content/administracao/modelos/modelo-contrato-social-ltda.docx" target="_blank"><i class="icofont-download"></i>LTDA - Modelo de Contrato Social para Sociedade Simples Limitada</a>
+[SS e LTDA](../../anexos/contabilidade-modelo-contrato-social-ss-ltda)
 
 Após a confeção e registro do contrato, o mesmo poderá ser modificado. Para a alteração do Contrato Social, deve-se reunir todos os sócios da empresa (ou maioria simples) afim de se realizar uma **Assembleia** (reunião).
 
 Nesta assembleia ocorrerá a modificação do contrato social conforme as necessidades da situação. Em toda reunião deverá ser feita uma **Ata** contendo os pontos abordados na mesma.
 
-<a href="../../../../assets/content/administracao/modelos/modelo-alteracao-contratual.doc" target="_blank"><i class="icofont-download"></i>LTDA - Modelo de Alteração Contratual para Sociedade Simples Pura e Limitada</a>
-
-<a href="../../../../assets/content/administracao/modelos/modelo-basico-ata-assembleia.doc" target="_blank"><i class="icofont-download"></i>Modelo de Ata Para Reunião</a>
+[Modelo de ATA Explicada](../../anexos/contabilidade-modelo-ata)
 
 ---
 

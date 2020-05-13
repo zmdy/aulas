@@ -1,5 +1,5 @@
 ---
-title: Aula 07 -  Módulo 02 - Auxiliar Administrativo
+title: Aula 07 -  Módulo 02 - Contabilidade
 date: 2020-05-11 14:57:52
 tags:
 - Auxiliar Administrativo - Módulo 02 - Aulas
@@ -7,7 +7,7 @@ tags:
 
 <img src="../../../../assets/media/img/cursos/logo-auxiliar-administrativo-01.png" alt="Auxiliar Administrativo" title="Auxiliar Administrativo" class="img-50  bg-white">
 
-Bem vindx à mais uma aula do curso de Auxiliar Administrativo!
+Bem vindx à mais uma aula do curso de Contabilidade!
 
 Conforme presente no nosso cronograma, nesta aula será aplicada a **Prova Parcial**, no valor de 10 pontos.
 
@@ -33,9 +33,7 @@ A segunda página do caderno de respostas é composta pela matriz, na qual dever
 
 ![Caderno de Respostas - Página 02](../../../../assets/media/img/avaliacoes/prova-pag-02.png)
 
-
-Somente o **caderno de respostas** será considerado para a correção das provas, mesmo que as as mesmas sejam entregues inteiras.
-
+Somente o **caderno de respostas** será considerado para a correção das provas, mesmo que a prova seja entregue inteira.
 
 ![Correção de Provas](../../../../assets/media/img/avaliacoes/prova-correcao.png)
 
@@ -50,4 +48,4 @@ Somente o **caderno de respostas** será considerado para a correção das prova
 
 - Demais casos não previstos serão analisados pelo professor ou coordenador do curso.
 
-- Todas as provas anteriormente aplicadas podem ser acessadas pelos alunos como forma de estudo e consulta [nesta página](../provas-anteriores).
+- Todas as provas anteriormente aplicadas podem ser acessadas pelos alunos como forma de estudo e consulta [nesta página](../../provas-anteriores).

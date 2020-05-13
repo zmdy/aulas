@@ -70,13 +70,17 @@ Agora basta instalar os módulos [Node.js](https://nodejs.org/en/) necessários 
 
 3. Instalar as dependências Node.js: `npm install`
 
-Com o download finalizado, basta iniciar o servidor [Hexo](https://hexo.io/).
+Com o download finalizado, basta gerar os arquivos estáticos do site:
 
-4. Inicia o servidor: `hexo server`
+4. Gerar os arquivos do site: `hexo generate`
+
+E por fim, é só iniciar o servidor [Hexo](https://hexo.io/).
+
+5. Inicia o servidor: `hexo server`
 
 Para acessar o site, vá até o navegador de sua preferência e abra o endereço a seguir:
 
-5. Abrir o site com o navegador: `127.0.0.1:4000/aulas.txt`
+6. Abrir o site com o navegador: `127.0.0.1:4000/aulas.txt`
 
 ## Licenças
 ### aulas.txt

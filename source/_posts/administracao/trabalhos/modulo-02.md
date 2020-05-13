@@ -360,7 +360,7 @@ AO FINAL DO PROCESSO VOCÊS DEVERÃO EXPORTAR O CONTRATO PARA O FORMATO PDF E IM
 
 <a href="../../../../assets/content/administracao/modelos/modelo-contrato-social.pdf" target="_blank"><i class="icofont-download"></i> PDF - Modelo de Contrato Social para Sociedade Simples Pura e Limitada</a>
 
-<a href="../../../../assets/content/administracao/modelos/modelo-contrato-social-ltda.docx" target="_blank"><i class="icofont-download"></i> LTDA - Modelo de Contrato Social para Sociedade Simples Limitada</a>
+<a href="../../../../assets/content/administracao/modelos/modelo-contrato-social-ss-ltda.docx" target="_blank"><i class="icofont-download"></i> SS e LTDA - Modelo de Contrato Social para Sociedade Simples Limitada</a>
 
 Como vimos em sala, em toda reunião feita pelos sócios de uma empresa é necessário redigir uma ata. Por esta razão, vocês também deverão escrever as atas de suas reuniões, registrando o passo a passo da criação de sua empresa.
 
