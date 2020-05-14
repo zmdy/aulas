@@ -56,6 +56,45 @@
     
     
         
+            <!-- MathJax配置，可通过单美元符号书写行内公式等 -->
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+    "HTML-CSS": {
+        preferredFont: "TeX",
+        availableFonts: ["STIX","TeX"],
+        linebreaks: { automatic:true },
+        EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50)
+    },
+    tex2jax: {
+        inlineMath: [ ["$", "$"], ["\\(","\\)"] ],
+        processEscapes: true,
+        ignoreClass: "tex2jax_ignore|dno",
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    },
+    TeX: {
+        equationNumbers: { autoNumber: "AMS" },
+        noUndefined: { attributes: { mathcolor: "red", mathbackground: "#FFEEEE", mathsize: "90%" } },
+        Macros: { href: "{}" }
+    },
+    messageStyle: "none"
+    });
+</script>
+<!-- 给MathJax元素添加has-jax class -->
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+<!-- 通过连接CDN加载MathJax的js代码 -->
+<script type="text/javascript" async
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+
+        
     
 
 
@@ -196,7 +235,7 @@
 
                     
                         <span class="post-time">
-                        Data de Publicação: <a href="#">11/05/2020&nbsp;&nbsp;13:33</a>
+                        Data de Publicação: <a href="#">12/05/2020&nbsp;&nbsp;9:44</a>
                         </span>
                     
                     
@@ -208,33 +247,368 @@
             <img src="../../../../assets/media/img/cursos/logo-auxiliar-administrativo-01.png" alt="Auxiliar Administrativo" title="Auxiliar Administrativo" class="img-50  bg-white">
 
 <p>Bem vindx à mais uma aula do curso de Auxiliar Administrativo!</p>
-<p>Conforme presente no nosso cronograma, nesta aula será aplicada a <strong>Prova Parcial</strong>, no valor de 10 pontos.</p>
-<h3 id="Aplicacao-das-Provas"><a href="#Aplicacao-das-Provas" class="headerlink" title="Aplicação das Provas"></a>Aplicação das Provas</h3><p>Todas as provas são compostas por duas partes: o caderno de respostas e o caderno de perguntas.</p>
-<p><img src="../../../../assets/media/img/avaliacoes/provas-caderno-respostas.png" alt="Caderno de Respostas"></p>
-<p>O <strong>caderno de respostas</strong> é composto pelas 2 primeiras páginas da prova (1ª folha). Somente este caderno deverá ser entregue.</p>
-<p><img src="../../../../assets/media/img/avaliacoes/prova-correcao-01.png" alt="Caderno de Respostas"></p>
-<p>O <strong>caderno de perguntas</strong> é composto pelas demais páginas da prova. Este caderno pode ser levado para casa.</p>
-<p><img src="../../../../assets/media/img/avaliacoes/prova-correcao-02.png" alt="Caderno de Perguntas"></p>
-<p>A primeira página do caderno de respostas é composta pelo gabarito, no qual deverão estar as respostas fechadas da prova. Ele deve ser preenchido obrigatoriamente a caneta (azul ou preta).</p>
-<p><img src="../../../../assets/media/img/avaliacoes/prova-pag-01.png" alt="Caderno de Respostas - Página 01"></p>
-<p>A segunda página do caderno de respostas é composta pela matriz, na qual deverão estar  as respostas abertas da prova. Ele deve ser preenchido obrigatoriamente a caneta (azul ou preta).</p>
-<p><img src="../../../../assets/media/img/avaliacoes/prova-pag-02.png" alt="Caderno de Respostas - Página 02"></p>
-<p>Somente o <strong>caderno de respostas</strong> será considerado para a correção das provas, mesmo que a prova seja entregue inteira.</p>
-<p><img src="../../../../assets/media/img/avaliacoes/prova-correcao.png" alt="Correção de Provas"></p>
-<h3 id="Reposicao-das-Provas"><a href="#Reposicao-das-Provas" class="headerlink" title="Reposição das Provas"></a>Reposição das Provas</h3><ul>
-<li><p>As provas serão <strong>repostas</strong>, garantindo seu valor integral (100%), mediante a apresentação de <strong>justificativas ou atestados</strong>, que expliquem uma possível falta.</p>
-</li>
-<li><p>Em caso da <strong>não apresentação</strong> de justificativas por escrito das faltas ocorridas em data de prova(s), haverá:</p>
+<p>Hoje iremos aprender sobre os principais tributos do Brasil e entender como os mesmos são utilizados pelo Governo. Além disso, vamos analisar as diferenças entre notas fiscais e cupons fiscais.</p>
+<p>Vamos lá!</p>
+<hr>
+<h2 id="Sumario-da-Aula"><a href="#Sumario-da-Aula" class="headerlink" title="Sumário da Aula"></a>Sumário da Aula</h2><ol>
+<li><a href="#Tributos">Tributos</a></li>
+<li><a href="#Impostos-sobre-Produtos-e-Circulacao">Impostos sobre Produtos e Circulação</a></li>
+<li><a href="#Impostos-sobre-Renda-e-Propriedade">Impostos sobre Renda e Propriedade</a></li>
+<li><a href="#Outros-Impostos">Outros Impostos</a></li>
+<li><a href="#Carga-Tributaria">Carga Tributária</a></li>
+<li><a href="#Notas-Fisicais-e-Cupons-Fiscais">Notas Fiscais e Cupons Fiscais</a></li>
+<li><a href="#Resumo">Resumo</a></li>
+<li><a href="#Exercicios">Exercícios</a></li>
+<li><a href="#Referencias-Bibliograficas">Referências Bibliográficas</a></li>
+</ol>
+<hr>
+<h2 id="Tributos"><a href="#Tributos" class="headerlink" title="Tributos"></a>Tributos</h2><p><strong>Tributos</strong> consistem em uma série de valores pagos ao Estado que custeiam todo o seu funcionamento – desde o pagamento de funcionários públicos até os investimentos em saúde, educação e segurança.</p>
+<p>Estes valores podem incidir sobre produtos, serviços e bens das mais diversas naturezas, e serem cobrados de pessoas físicas ou jurídicas (empresas).</p>
+<p>Cada tributo possui uma <strong>obrigação</strong> diferente, ou seja, um propósito que é delimitado pelo seu <strong>fato gerador</strong>. Por exemplo, o tributo cobrado pela importação de produtos tem por objetivo aumentar o preço de alguns produtos importados para garantir a sobrevivência e concorrência da produção nacional.</p>
+<p>“<em>O objetivo principal da cobrança de impostos é basicamente fazer com que o cidadão contribua financeiramente com serviços que utiliza frequentemente, como saúde e transporte público. O dinheiro revertido em impostos seria, então, para manter com eficiência e qualidade as frotas de ônibus do sistema público de transporte do país, assim como os hospitais, postos de saúde e pronto-socorros de todo o território nacional.</em>“ Disponível em <a href="https://financaspessoais.organizze.com.br/afinal-para-onde-vao-os-impostos-que-pagamos/" target="_blank" rel="noopener">Organizze</a></p>
+<p>O dinheiro arrecadado pelos mais diferentes tributos pode ser destinado às reservas do país (Governo Federal), do estado ou do município.</p>
+<p>O [Sistema Tributário Brasileiro] define 3 <strong>tipos diferentes</strong> de tributos que se diferenciam por sua origem e finalidade. São eles: os taxas, contribuições e impostos.</p>
+<h3 id="Taxas"><a href="#Taxas" class="headerlink" title="Taxas"></a>Taxas</h3><p>Taxas são tributos cobrados pela utilização de serviços públicos diversos, como:</p>
 <ul>
-<li>Reposição da PROVA PARCIAL, em data acertada, por trabalho de valor equivalente a 60% do valor da prova;</li>
-<li>Nulidade da nota da PROVA FINAL.</li>
+<li>Coleta de Lixo (Municipal);</li>
+<li>Combate a Incêndios (Estadual);</li>
+<li>Conservação e Limpeza Pública (Municipal);</li>
+<li>Licenciamento de Empresas e Alvarás (Municipal);</li>
+<li>Taxas do Registro do Comércio - Juntas Comerciais - (Estadual);</li>
+<li>Taxa de Fiscalização de Sorteios, Brindes ou Concursos (Federal);</li>
+<li>Taxa de Licenciamento, Controle e Fiscalização de Materiais Nucleares e Radioativos e suas instalações (Federal);</li>
+<li><strong>Emissão de documentos</strong> (Municipal, Estadual ou Federal)</li>
+</ul>
+<p>O Brasil possui 34 taxas diferentes, que possuem particularidades e pormenores. No entanto, é bom ressaltar que o valor arrecadado pelas taxas é destinado ao seu <em>fato gerador</em>, ou seja:</p>
+<ul>
+<li>O dinheiro arrecadado pela taxa de coleta de lixo é utilizado para a melhoria na coleta de lixo da cidade;</li>
+<li>O dinheiro arrecadado pela taxa de emissão de documentos é utilizado para a melhoria neste serviço;</li>
+<li>Etc;</li>
+</ul>
+<h3 id="Contribuicoes"><a href="#Contribuicoes" class="headerlink" title="Contribuições"></a>Contribuições</h3><p>Assim como as taxas, as <strong>contribuições de melhoria</strong> são cobradas de serviços públicos diversos. O objetivo delas é de melhorar a prestação dos serviços públicos - em especial dos serviços e fundos nacionais, como:</p>
+<ul>
+<li>CONDECINE - Contribuição ao Cinema Nacional;</li>
+<li>FNDCT - Contribuição ao Fundo Nacional de DEsenvolvimento Científico e Tecnológico;</li>
+<li>Contribuições Sindicais - Cobradas pelos Sindicatos de Trabalhadores;</li>
+<li>Contribuições aos Órgãos de Fiscalização Profissional, como OAB, CREA, CRM…</li>
+<li><strong>COFINS - Contribuição nacional utilizada para o pagamento de seguro-desemprego e abonos salariais</strong>;</li>
+</ul>
+<p>Assim como as taxas, o dinheiro arrecadado por cada contribuição se destina à melhoria do serviço delimitado pelo seu fato gerador, ou seja:</p>
+<ul>
+<li>O dinheiro arrecadado pelo CONDECINE é utilizado para a o desenvolvimento do setor audiovisual nacional;</li>
+<li>O dinheiro arrecadado pelo COFINS é utilizado para o pagamento de seguros-desemprego e abonos;</li>
+<li>Etc;</li>
+</ul>
+<h3 id="Impostos"><a href="#Impostos" class="headerlink" title="Impostos"></a>Impostos</h3><p>Diferentemente das taxas e contribuições, o dinheiro arrecadado pelos impostos não possui destino definido, sendo utilizados para a <em>formação de reservas monetárias</em> (conforme a Lei 5.172).</p>
+<p>De acordo com o Sistema Tributário, <em>imposto é o tributo cuja obrigação tem por fato gerador uma situação independente de qualquer atividade estatal específica, relativa ao contribuinte</em>.</p>
+<p>Dito de forma simples, impostos são tributos obrigatórios que o Estado cobra pelos mais diferentes produtos, serviços privados e bens. </p>
+<p>Note que os <strong>serviços públicos</strong> são regulados pelas taxas e contribuições, e não pelos impostos! Isso significa que o dinheiro que é utilizado para manter e regular a emissão de documentos, por exemplo, vem de lugar diferente do dinheiro usado para pagar funcionários públicos e realizar a manutenção em hospitais e escolas.</p>
+<p>É com os impostos que o Estado arrecada a maior parte de sua renda, pois o <strong>destino</strong> do dinheiro arrecadado são as <em>reservas monetárias do Governo</em>.</p>
+<p>Dos 92 tributos existentes no Brasil, 19 são impostos. Alguns deles são pagos por pessoas físicas e outro por pessoas jurídicas, como veremos a seguir.</p>
+<h3 id="Imunidade-Tributaria"><a href="#Imunidade-Tributaria" class="headerlink" title="Imunidade Tributária"></a>Imunidade Tributária</h3><p>A Constituição de 1988 delega no artigo 150º, inciso VI, alínea “d” a proibição da cobrança de tributos sobre:</p>
+<ul>
+<li>templos religiosos;</li>
+<li>Partidos políticos;</li>
+<li>Sindicatos de Trabalhadores;</li>
+<li>Instituições de Educação e Assistência Social;</li>
+<li>ONGs;</li>
+<li>Livros,  jornais e periódicos e o papel utilizado em sua impressão.</li>
+</ul>
+<p>A imunidade tributário dos livros tem o objetivo de propiciar a maior difusão de ideias e informações e contribuir, objetivamente, para o incremento da cultura do povo.</p>
+<hr>
+<h2 id="Impostos-sobre-Produtos-e-Circulacao"><a href="#Impostos-sobre-Produtos-e-Circulacao" class="headerlink" title="Impostos sobre Produtos e Circulação"></a>Impostos sobre Produtos e Circulação</h2><p>Estes impostos incidem sobre a produção ou circulação de mercadorias e serviços. São eles: ICMS, IOF, IPI e ISS</p>
+<h3 id="ICMS-Imposto-sobre-Circulacao-de-Mercadorias-e-Servicos"><a href="#ICMS-Imposto-sobre-Circulacao-de-Mercadorias-e-Servicos" class="headerlink" title="ICMS - Imposto sobre Circulação de Mercadorias e Serviços"></a>ICMS - Imposto sobre Circulação de Mercadorias e Serviços</h3><p>O ICMS é uma das principais formas de arrecadação de dinheiro pelos Estados, sendo cobrado diretamente sobre Pessoas Jurídicas, o que incide indiretamente sobre o preço dos produtos às Pessoas Físicas.</p>
+<p>Cada estado possui uma taxa diferente deste imposto que é pago pelas empresas ao governo por meio de guias de pagamento (boletos).</p>
+<p><img src="../../../../assets/media/img/impostos/icms-explicado-01.png" alt="ICMS Explicado - 01"></p>
+<p><img src="../../../../assets/media/img/impostos/icms-explicado-02.png" alt="ICMS Explicado - 02"></p>
+<p><img src="../../../../assets/media/img/impostos/icms-explicado-03.png" alt="ICMS Explicado - 03"></p>
+<p><img src="../../../../assets/media/img/impostos/icms-explicado-04.png" alt="ICMS Explicado - 04"></p>
+<p><img src="../../../../assets/media/img/impostos/icms-explicado-05.png" alt="ICMS Explicado - 05"></p>
+<p><img src="../../../../assets/media/img/impostos/icms-explicado-06.png" alt="ICMS Explicado - 06"></p>
+<h3 id="IOF-Imposto-sobre-Operacoes-Financeiras"><a href="#IOF-Imposto-sobre-Operacoes-Financeiras" class="headerlink" title="IOF - Imposto sobre Operações Financeiras"></a>IOF - Imposto sobre Operações Financeiras</h3><p>O IOF é cobrado de pessoas físicas e jurídicas em empréstimos e operações de crédito internacionais ou em transações de títulos públicos.</p>
+<p>O imposto também incide sobre seguros, como de vida, de veículos e de bens.</p>
+<p><img src="../../../../assets/media/img/impostos/iof-explicado-01.png" alt="IOF Explicado - 01"></p>
+<p><img src="../../../../assets/media/img/impostos/iof-explicado-02.png" alt="IOF Explicado - 02"></p>
+<p><img src="../../../../assets/media/img/impostos/iof-explicado-03.png" alt="IOF Explicado - 03"></p>
+<p><img src="../../../../assets/media/img/impostos/iof-explicado-04.png" alt="IOF Explicado - 04"></p>
+<p><img src="../../../../assets/media/img/impostos/iof-explicado-05.png" alt="IOF Explicado - 05"></p>
+<h3 id="IPI-Imposto-sobre-Produtos-Industrializados"><a href="#IPI-Imposto-sobre-Produtos-Industrializados" class="headerlink" title="IPI - Imposto sobre Produtos Industrializados"></a>IPI - Imposto sobre Produtos Industrializados</h3><p>Todo produto produzido em indústrias brasileiras (ou importados) possui o IPI incidido sobre ele.</p>
+<p>O imposto é pago pelas indústrias (ou o importador), que  pode repassar o preço aos consumidores.</p>
+<p><img src="../../../../assets/media/img/impostos/ipi-explicado-01.png" alt="IPI Explicado - 01"></p>
+<p><img src="../../../../assets/media/img/impostos/ipi-explicado-02.png" alt="IPI Explicado - 02"></p>
+<p><img src="../../../../assets/media/img/impostos/ipi-explicado-03.png" alt="IPI Explicado - 03"></p>
+<h3 id="ISS-Imposto-sobre-Servicos"><a href="#ISS-Imposto-sobre-Servicos" class="headerlink" title="ISS - Imposto sobre Serviços"></a>ISS - Imposto sobre Serviços</h3><p>Também conhecido como ISSQN, este imposto incide sobre todos os tipos de serviço prestados por empresas e autônomos.</p>
+<p>O imposto é pago pelo prestador de serviços, em regras específicas de modalidade.</p>
+<p><img src="../../../../assets/media/img/impostos/iss-explicado-01.png" alt="ISS Explicado - 01"></p>
+<p><img src="../../../../assets/media/img/impostos/iss-explicado-02.png" alt="ISS Explicado - 02"></p>
+<p><img src="../../../../assets/media/img/impostos/iss-explicado-03.png" alt="ISS Explicado - 03"></p>
+<p><img src="../../../../assets/media/img/impostos/iss-explicado-04.png" alt="ISS Explicado - 04"></p>
+<hr>
+<h2 id="Impostos-sobre-Renda-e-Propriedade"><a href="#Impostos-sobre-Renda-e-Propriedade" class="headerlink" title="Impostos sobre Renda e Propriedade"></a>Impostos sobre Renda e Propriedade</h2><p>Estes impostos incidem sobre a renda e a propriedade de pessoas físicas e jurídicas<br>São eles: IPVA, IR,     ITCMD, ITR, IPTU e ITBI.</p>
+<p>Destes iremos estudar detalhadamente o IPVA, IT e IPTU.</p>
+<h3 id="IPVA-Imposto-sobre-a-Propriedade-de-Veiculos-Automotores"><a href="#IPVA-Imposto-sobre-a-Propriedade-de-Veiculos-Automotores" class="headerlink" title="IPVA - Imposto sobre a Propriedade de Veículos Automotores"></a>IPVA - Imposto sobre a Propriedade de Veículos Automotores</h3><p>O IPVA é cobrado, anualmente, sobre veículos automotores.</p>
+<p>Sua taxa varia em cada estado e também em diferentes meses do ano.</p>
+<p>A taxa do IPVA é calculado levando em conta o preço do veículo, podendo variar de 1% a 6%.</p>
+<p><img src="../../../../assets/media/img/impostos/ipva-explicado-01.png" alt="IPVA Explicado - 01"></p>
+<p><img src="../../../../assets/media/img/impostos/ipva-explicado-02.png" alt="IPVA Explicado - 02"></p>
+<p><img src="../../../../assets/media/img/impostos/ipva-explicado-03.png" alt="IPVA Explicado - 03"></p>
+<p><img src="../../../../assets/media/img/impostos/ipva-explicado-04.png" alt="IPVA Explicado - 04"></p>
+<h3 id="IR-Imposto-de-Renda"><a href="#IR-Imposto-de-Renda" class="headerlink" title="IR - Imposto de Renda"></a>IR - Imposto de Renda</h3><p>Este tributo incide sobre a renda de pessoas físicas (IRPF) ou jurídicas (IRPJ).</p>
+<p>O valor cobrado de Imposto de Renda depende dos rendimentos anuais.</p>
+<p>Os cálculos do IR serão vistos no curso de Departamento Pesoal.</p>
+<p><img src="../../../../assets/media/img/impostos/ir-explicado-01.png" alt="IR Explicado - 01"></p>
+<p><img src="../../../../assets/media/img/impostos/ir-explicado-02.png" alt="IR Explicado - 02"></p>
+<p><img src="../../../../assets/media/img/impostos/ir-explicado-03.png" alt="IR Explicado - 03"></p>
+<p><img src="../../../../assets/media/img/impostos/ir-explicado-04.png" alt="IR Explicado - 04"></p>
+<p><img src="../../../../assets/media/img/impostos/ir-explicado-05.png" alt="IR Explicado - 05"></p>
+<p><img src="../../../../assets/media/img/impostos/ir-explicado-06.png" alt="IR Explicado - 06"></p>
+<h3 id="IPTU-Imposto-sobre-a-Propriedade-Predial-e-Territorial-Urbana-amp-ITR-Imposto-sobre-a-Propriedade-Territorial-Rural"><a href="#IPTU-Imposto-sobre-a-Propriedade-Predial-e-Territorial-Urbana-amp-ITR-Imposto-sobre-a-Propriedade-Territorial-Rural" class="headerlink" title="IPTU -  Imposto sobre a Propriedade Predial e Territorial Urbana &amp; ITR - Imposto sobre a Propriedade Territorial Rural"></a>IPTU -  Imposto sobre a Propriedade Predial e Territorial Urbana &amp; ITR - Imposto sobre a Propriedade Territorial Rural</h3><p>Estes impostos são cobrados posse de propriedades rurais ou imóveis, de pessoas físicas e jurídicas.</p>
+<p><img src="../../../../assets/media/img/impostos/iptu-explicado-01.png" alt="IR Explicado - 01"></p>
+<p><img src="../../../../assets/media/img/impostos/itbi-explicado-01.png" alt="ITBI Explicado - 01"></p>
+<hr>
+<h2 id="Outros-Impostos"><a href="#Outros-Impostos" class="headerlink" title="Outros Impostos"></a>Outros Impostos</h2><p>Impostos sobre o Comércio Exterior</p>
+<p>Estes impostos incidem sobre a importação e exportação de produtos</p>
+<p>São eles: II, IE, CIDE</p>
+<h3 id="II-e-IE-Importo-sobre-Importacao-Exportacao"><a href="#II-e-IE-Importo-sobre-Importacao-Exportacao" class="headerlink" title="II e IE - Importo sobre Importação/Exportação"></a>II e IE - Importo sobre Importação/Exportação</h3><p><img src="../../../../assets/media/img/impostos/ii-ie-explicado-01.png" alt="II IE Explicado"></p>
+<hr>
+<h3 id="Impostos-Trabalhistas"><a href="#Impostos-Trabalhistas" class="headerlink" title="Impostos Trabalhistas"></a>Impostos Trabalhistas</h3><p>Há outros impostos cobrados no Brasil, cuja natureza é principalmente trabalhista.</p>
+<p>São eles: CSLL, FGTS, COFINS, INSS, PIS/PASEP</p>
+<p>Estudaremos cada um individualmente no módulo de Departamento Pessoal</p>
+<hr>
+<h2 id="Carga-Tributaria"><a href="#Carga-Tributaria" class="headerlink" title="Carga Tributária"></a>Carga Tributária</h2><p>Muito se fala sobre a grande quantidade de impostos cobrados no Brasil e a necessidade de realizarmos reformas em nosso sistema tributário.</p>
+<p>Os impostos municipais, estaduais e federais são cobrados em produtos e serviços, e sua arrecadação serve para financiar e alavancar projetos que abrangem a população em geral (em teoria).</p>
+<p>Há uma maneira de se calcular o impacto dos tributos sobre a economia de um país - por meio da <strong>Carga Tributária</strong>.</p>
+<p>A Carga Tributária (CT) calcula a porcentagem de impostos pagos em um país em relação ao seu PIB.</p>
+<p>$CT = \frac{Arrecadação Total de Tributos}{PIB} * 100$</p>
+<h3 id="CT-do-Brasil"><a href="#CT-do-Brasil" class="headerlink" title="CT do Brasil"></a>CT do Brasil</h3><p>Vamos calcular o PIB do Brasil em 2018 utilizando dados disponibilizados pela <a href="https://herit.ag/3fKVMs3" target="_blank" rel="noopener">The Heritage Foundation</a>.</p>
+<ul>
+<li>PIB do Brasil (2018) = 6.9 Trilhões de Dólares</li>
+<li>Tributos Arrecadados (2018) = 2.18 Trilhões de Dólares</li>
+</ul>
+<p>$CT = \frac{Arrecadação Total de Tributos}{PIB} * 100 = \frac{2.18}{6.9} * 100 = $ 31,59%</p>
+<p>A Carga Tributária indica que, no Brasil, a cada R$ 100,00 produzidos em forma de bens, produtos ou serviços, R$ 31,59 provêm dos impostos.</p>
+<p>Há um site interessantísimo que mostra em tempo real a arrecadação de impostos no Brasil - o <a href="https://impostometro.com.br/" target="_blank" rel="noopener">Impostômetro</a>. A iniciativa partiu do IBPT (Instituto Brasileiro de Planejamento e Tributação) em parceria com as Associações Comerciais dos estados. A ideia central é mensurar todos os impostos pagos pelos cidadãos e o que poderia ser realizado com o dinheiro em prol da sociedade.</p>
+<p>Nossa alta carga tributária implica que, em 2018, os brasileiros precisaram trabalhar 153 dias somente para pagar os impostos cobrados sobre suas necessidades - como produtos, serviços e renda!</p>
+<p>Uma pesquisa realizada em <a href="http://ibpt.impostometro.s3.amazonaws.com/Arquivos/06%2BIRBES%2B2015.pdf" target="_blank" rel="noopener">2015 pelo IBPT</a> mostra que, dentre os 30 países com maior carga tributária do mundo, o Brasil é o que apresenta pior retorno sobre os impostos pagos.</p>
+<img src="../../../../assets/media/img/impostos/irbes-pesquisa-2015.png" class="img-50"/>
+
+<h3 id="Relacao-entre-Carga-Tributaria-e-o-PIB"><a href="#Relacao-entre-Carga-Tributaria-e-o-PIB" class="headerlink" title="Relação entre Carga Tributária e o PIB"></a>Relação entre Carga Tributária e o PIB</h3><p>Será que os países que mais cobram impostos também estão na mesma situação do Brasil?</p>
+<p>Para fazer uma análise bem simplificada deste cenário, vamos analisar alguns países em ordem crescente de Carga Tributária, utilizando dados disponibilizados pela <a href="https://herit.ag/3fKVMs3" target="_blank" rel="noopener">The Heritage Foundation</a>, <a href="https://www.gapminder.org/" target="_blank" rel="noopener">Gapminder</a> e <a href="http://hdr.undp.org/sites/default/files/hdr2019.pdf" target="_blank" rel="noopener">ONU</a>:</p>
+<table>
+<thead>
+<tr>
+<th>Posição</th>
+<th>País</th>
+<th>Carga Tributária (% do PIB)</th>
+<th>PIB Per Capita</th>
+<th>IDH</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1º</td>
+<td>Lesoto</td>
+<td>47%</td>
+<td>$ 3.581</td>
+<td>0,518</td>
+</tr>
+<tr>
+<td>2º</td>
+<td>Dinamarca</td>
+<td>45,9%</td>
+<td>$ 49.883</td>
+<td>0,930</td>
+</tr>
+<tr>
+<td>3º</td>
+<td>França</td>
+<td>45,3%</td>
+<td>$ 43.761</td>
+<td>0,891</td>
+</tr>
+<tr>
+<td>4º</td>
+<td>Bélgica</td>
+<td>44,2%</td>
+<td>$ 46.553</td>
+<td>0,919</td>
+</tr>
+<tr>
+<td>…</td>
+<td>…</td>
+<td>…</td>
+<td>…</td>
+<td>…</td>
+</tr>
+<tr>
+<td>23º</td>
+<td>Portugal</td>
+<td>34,4%</td>
+<td>$ 30.417</td>
+<td>0,850</td>
+</tr>
+<tr>
+<td>30º</td>
+<td>Reino   Unido</td>
+<td>33,2%</td>
+<td>$ 44.118</td>
+<td>0,920</td>
+</tr>
+<tr>
+<td>34º</td>
+<td>Brasil</td>
+<td>32,2%</td>
+<td>$ 15.603</td>
+<td>0,761</td>
+</tr>
+<tr>
+<td>36°</td>
+<td>Canadá</td>
+<td>31,7%</td>
+<td>$ 48.265</td>
+<td>0,922</td>
+</tr>
+<tr>
+<td>38º</td>
+<td>África do   Sul</td>
+<td>31,3%</td>
+<td>$ 13.545</td>
+<td>0,705</td>
+</tr>
+<tr>
+<td>…</td>
+<td>…</td>
+<td>…</td>
+<td>…</td>
+<td>…</td>
+</tr>
+<tr>
+<td>165°</td>
+<td>Emirados   Árabes U.</td>
+<td>8,9%</td>
+<td>$ 67.741</td>
+<td>0,866</td>
+</tr>
+<tr>
+<td>173º</td>
+<td>Qatar</td>
+<td>5,7%</td>
+<td>$ 124.529</td>
+<td>0,848</td>
+</tr>
+<tr>
+<td>176º</td>
+<td>Nigéria</td>
+<td>5,2%</td>
+<td>$ 5.929</td>
+<td>0,534</td>
+</tr>
+<tr>
+<td>178º</td>
+<td>Arábia   Saudita</td>
+<td>3,4%</td>
+<td>$ 57.777</td>
+<td>0,857</td>
+</tr>
+<tr>
+<td>179º</td>
+<td>Kuwait</td>
+<td>1,6%</td>
+<td>$ 66.163</td>
+<td>0,808</td>
+</tr>
+</tbody></table>
+<p>A Carga Tributária é uma maneira de calcular os <strong>impactos dos tributos</strong> na economia de um país.</p>
+<p>Repare que entre os países analisados, não há uma relação direta e simples entre a Carga Tributária e a qualidade de vida. </p>
+<p>Ter uma alta carga tributária não significa que o país será desenvolvido ou rico.</p>
+<hr>
+<h2 id="Notas-Fiscais-e-Cupons-Fiscais"><a href="#Notas-Fiscais-e-Cupons-Fiscais" class="headerlink" title="Notas Fiscais e Cupons Fiscais"></a>Notas Fiscais e Cupons Fiscais</h2><p><strong>Notas Fiscais</strong> são documentos emitidos por pessoa jurídica que demonstram e registram a venda de mercadorias ou a prestação de serviço.</p>
+<p>Seu objetivo é <strong>registrar as transações comercias</strong> realizadas por empresas, garantindo que os <strong>impostos referentes</strong> sejam devidamente recolhidos.</p>
+<p>Quando uma empresa se nega ou não emite notas fiscais, ela está cometendo um <strong>crime</strong>. Por parte do vendedor o crime é de <strong>sonegação fiscal</strong>, pois ele não estará declarando a venda dos produtos ou prestação dos serviços realizados - e assim pagará (teoricamente) menos impostos.</p>
+<p>Por parte do consumidor o crime é de <strong>receptação de mercadorias ilegais</strong>.</p>
+<h3 id="Modelos-de-Notas-Fiscais"><a href="#Modelos-de-Notas-Fiscais" class="headerlink" title="Modelos de Notas Fiscais"></a>Modelos de Notas Fiscais</h3><p>Existem diversos modelos de notas fiscais, sendo o mais comum o tipo 1. Este modelo é impresso em folhas tamanho A4 e constam os dados do vendedor e do comprador, além dos produtos/serviços vendidos.</p>
+<p>Este modelo de nota pode conter a discriminação do <strong>ICMS do produto</strong>.</p>
+<p>No módulo de Contabilidade estudaremos detalhadamente o preenchimento deste modelo de nota fiscal e de outros.</p>
+<p><img src="../../../../assets/media/img/tributacao/nota-fiscal-tipo-1-em-branco.jpg" alt="Nota Fiscal Tipo 01"></p>
+<p>Este modelo de nota possui 4 campos importantes que serão destacados.</p>
+<p><img src="../../../../assets/media/img/tributacao/nota-fiscal-tipo-1-destaque.jpg" alt="Nota Fiscal Tipo 01 - Destaque"></p>
+<p>No cabeçalho da Nota Fiscal Modelo 1 há as informações sobre o vendedor (destaque em vermelho) e o comprador (destaque em verde).</p>
+<p>Logo abaixo há a descrição dos produtos/serviços vendidos, com detalhes sobre os tipos de produtos, preços e quantidades.</p>
+<p>Em 2012 foi sancionada a <a href="https://www.sebrae.com.br/sites/PortalSebrae/ufs/rj/noticias/lei-do-imposto-na-nota-valor-dos-impostos-deve-constar-na-nota,4aabe20d55fba410VgnVCM2000003c74010aRCRD" target="_blank" rel="noopener">Lei nº 12.741</a> que obriga os estabelecimentos emissores de nota fiscal a incluirem nas mesmas os impostos pagos sobre os produtos vendidos.</p>
+<p>Por esta razão, as notas possuem uma área (destacada em laranja) onde há a descrição dos impostos cobrados por ela. O principal imposto incluído nesta descrição é o <strong>ICMS</strong>.</p>
+<h3 id="Nota-Fiscal-Eletronica-NFe-e-Danfe"><a href="#Nota-Fiscal-Eletronica-NFe-e-Danfe" class="headerlink" title="Nota Fiscal Eletrônica (NFe) e Danfe"></a>Nota Fiscal Eletrônica (NFe) e Danfe</h3><p>Muitas empresas optam pela emissão de notas fiscais por programas auditados pela Receita Federal, que geram o NFe (Nota Fiscal Eletrônica) ou o DANFE(Documento Auxiliar de Nota Fiscal Eletrônica).</p>
+<p>Ambos os documentos possuem a mesma finalidade das Notas Fiscais Tipo 1, incluindo, porém, maior quantidade de informações.</p>
+<p><img src="../../../../assets/media/img/tributacao/danfe-modelo.png" alt="Danfe"></p>
+<h3 id="Cupons-Fiscais"><a href="#Cupons-Fiscais" class="headerlink" title="Cupons Fiscais"></a>Cupons Fiscais</h3><p>Você provavelmente já viu uma máquina como esta mostrada abaixo:</p>
+<p><img src="../../../../assets/media/img/tributacao/emissao-cupom-fiscal.jpg" alt="Cupom Fiscal"></p>
+<p>Você sabia que o documento emitido por estas impressoras não é uma nota fiscal? Tecnciamente, este documento é um <strong>cupom fiscal</strong>.</p>
+<p>Existem diferenças entre notas fiscais e cupons fiscais.</p>
+<p>Cupons e notas fiscais são documentos obrigatórios <strong>emitidos por empresas</strong> que vendem diretamente ao consumidor.</p>
+<p>O cupom fiscal é emitido pelo <strong>Emissor de Cupom Fiscal</strong>, uma impressora especial, homologada pela Receita Federal. Já a nota fiscal é geralmente gerada por um programa especial, utilizando modelos de arquivos e formulários disponibilizados pela Secretaria da Fazenda.</p>
+<p>No cupom fiscal não é possível, devido ao tamanho do papel utilizado, incluir muitos dados dos consumidores. Na nota fiscal é obrigatório incluir um cadastro do comprador e seus dados pessoais.</p>
+<p>Em resumo:</p>
+<ul>
+<li><p><strong>Notas ficais</strong> são mais completas, possuindo muitas informações sobre os clientes, e devem ser feitas em programas ou arquivos específicos.</p>
+</li>
+<li><p><strong>Cupons fiscais</strong> devem ser impressos em uma impressora especial e não possuem tantos dados.</p>
+</li>
+</ul>
+<hr>
+<h2 id="Resumo"><a href="#Resumo" class="headerlink" title="Resumo"></a>Resumo</h2><ul>
+<li><p>Há 3 <strong>tipos principais</strong> de tributos no Brasil, que se diferenciam por sua origem e finalidade. São eles: os taxas, contribuições e impostos.</p>
+</li>
+<li><p><strong>Taxas e Contribuições</strong> são valores pagos por serviços prestados pelo Estado, como limpeza urbana, iluminação pública, emissão de documentos e combate a incêndios. O valor arrecadado por estes tirbutos vai diretamente para o seu <em>fato gerador</em>.</p>
+</li>
+<li><p><strong>Impostos</strong> são valores pagos por produtos, renda e serviços privados. O valor arrecadado pelos impostos não possui destino fixo, sendo enviado para as <strong>reservas do Governo</strong>.</p>
+</li>
+<li><p>É com os tributos que o Estado obtêm sua renda, que pode ser utilizada para a melhoria de serviços, pagamento de funcionários, execução de obras, etc.</p>
+</li>
+<li><p>Algumas instituições e produtos não pagam impostos (imunidade tributária).</p>
+</li>
+<li><p>Dos 92 tributos existentes no Brasil, 19 são impostos. Alguns deles são pagos por pessoas físicas e outro por pessoas jurídicas</p>
+<ul>
+<li><img src="../../../../assets/media/img/impostos/resumo-impostos-produtos.png" alt="Resumo Impostos sobre Produtos"></li>
+<li><img src="../../../../assets/media/img/impostos/resumo-impostos-renda.png" alt="Resumo Impostos sobre Renda"></li>
+<li><img src="../../../../assets/media/img/impostos/ii-ie-explicado-01.png" alt="II IE Explicado"></li>
 </ul>
 </li>
-<li><p>Demais casos não previstos serão analisados pelo professor ou coordenador do curso.</p>
+<li><p>A Carga Tributária é uma maneira de calcular os <strong>impactos dos tributos</strong> na economia de um país.</p>
 </li>
-<li><p>Todas as provas anteriormente aplicadas podem ser acessadas pelos alunos como forma de estudo e consulta <a href="../../provas-anteriores">nesta página</a>.</p>
+<li><p><strong>Notas ficais</strong> são documentos obrigatórios emitidos por empresas que possuem muitas informações sobre os clientes, e devem ser feitas em programas ou arquivos específicos.</p>
+</li>
+<li><p><strong>Cupons fiscais</strong> são documentos fiscais que devem ser impressos em uma impressora especial e não possuem tantos dados quanto as notas fiscais.</p>
 </li>
 </ul>
+<hr>
+<h2 id="Exercicios"><a href="#Exercicios" class="headerlink" title="Exercícios"></a>Exercícios</h2><ol>
+<li><p>Quais são os tipos de tributos existentes? Exemplifique.</p>
+</li>
+<li><p>O que é a carga tributária de um país? Dê exemplos de cargas de 5 diferentes países.</p>
+</li>
+<li><p>Em quais situações a alta cobrança de tributos é benéfica para um país?</p>
+</li>
+<li><p>Dê 3 exemplos diferentes de impostos empresariais, explicando cada um. Dê 3 exemplos diferentes de impostos incididos sobre pessoas físicas, explicando cada um.</p>
+</li>
+<li><p>Qual a utilidade das notas fiscais para uma empresa?</p>
+</li>
+<li><p>Porque a não utilização de notas fiscais pode ser considerada um crime?</p>
+</li>
+<li><p>Qual a utilidade dos cupons fiscais? Como estes se diferenciam das notas fiscais?</p>
+</li>
+<li><p>O que é o ICMS? Pesquise a alíquota deste imposto, tendo como origem o Estado de Minas Gerais e destino os estados de Minas Gerais, São Paulo, Bahia, Pará, Goiás e Rio Grande do Sul.</p>
+</li>
+</ol>
+<hr>
+<h2 id="Referencias-Bibliograficas"><a href="#Referencias-Bibliograficas" class="headerlink" title="Referências Bibliográficas"></a>Referências Bibliográficas</h2><p>AGÊNCIA SENADO. Principais impostos e contribuições pagos no Brasil. Brasília: Senado Federal, 2006. Disponível em <a href="https://bit.ly/2LoE93k" target="_blank" rel="noopener">https://bit.ly/2LoE93k</a>. Acesso em <em>12 de mai. de 2020</em>.</p>
+<p>BACARJI, Alencar Garcia. Formação Incial e Continuada Auxiliar Administrativo. Curitiba: Instituto Federal do Paraná, 2012.</p>
+<p>BRASIL. LEI Nº 5.172, DE 25 DE OUTUBRO DE 1966. Dispõe sobre o Sistema Tributário Nacional e institui normas gerais de direito tributário aplicáveis à União, Estados e Municípios. Brasília, DF. Disponível em: <a href="https://bit.ly/2zy7ju6" target="_blank" rel="noopener">https://bit.ly/2zy7ju6</a>. Acesso em <em>12 de mai. de 2020</em>.</p>
+<p>BRASIL. LEI Nº 12.741, DE 8 DE DEZEMBRO DE 2012. Dispõe sobre as medidas de esclarecimento ao consumidor, de que trata o § 5º do artigo 150 da Constituição Federal; altera o inciso III do art. 6º e o inciso IV do art. 106 da Lei nº 8.078, de 11 de setembro de 1990 - Código de Defesa do Consumidor. Brasília, DF. Disponível em <a href="https://bit.ly/2T0UtLW" target="_blank" rel="noopener">https://bit.ly/2T0UtLW</a>.  Acesso em <em>14 de mai. de 2020</em>.</p>
+<p>BRASIL. Carga Tributária no Brasil 2018. Análise por Tributos e Base de Incidência. Brasília: Ministério da Fazenda, 2020. Disponível em <a href="https://bit.ly/2WtA6JC" target="_blank" rel="noopener">https://bit.ly/2WtA6JC</a>. Acesso em <em>13 de mai. de 2020</em>.</p>
+<p>CARAVANTES, G. R.P; KLOECKNER, C. M.; PANNO, C. Administração: teoria e processos. São Paulo: Pearson Prentice Hall, 2005.</p>
+<p>FRASER INSTITUTE. Economic Freedom of the World: 2019 Annual Report. Vancouver: The Fraser Institute, 2019. Disponíel em <a href="https://bit.ly/2WqCLDD" target="_blank" rel="noopener">https://bit.ly/2WqCLDD</a>. Acesso em <em>12 de mai. de 2020</em>.</p>
+<p>HERITAGE FOUNDATION. 2020 Index of Economic Freedom. Washington: The Heritage Foundation, 2020. Disponível em <a href="https://herit.ag/3fKVMs3" target="_blank" rel="noopener">https://herit.ag/3fKVMs3</a>. Acesso em <em>12 de mai. de 2020</em>.</p>
+<p>NETO, J. S. Uma montanha ainda maior de impostos. O GLOBO, n. 29995, 21//09/2015. Economia, p. 17. Disponível em <a href="https://bit.ly/2Z87M1d" target="_blank" rel="noopener">https://bit.ly/2Z87M1d</a>. Acesso em <em>12 de mai. de 2020</em>.</p>
+<p>PORTAL TRIBUTÁRIO. Os Tributos no Brasil. Curita: Portal Tributário, 2020. Disponível em <a href="https://bit.ly/3bseH7C" target="_blank" rel="noopener">https://bit.ly/3bseH7C</a>. Acesso em <em>12 de mai. de 2020</em>.</p>
+<p>SACHIDA, A. Tributação no Brasil : estudos, ideias e propostas : ICMS, seguridade social, carga tributária, impactos econômicos. Brasília : Ipea, 2017. 220 p. : gráfs., mapas color.</p>
 
         </div>
 
@@ -276,10 +650,10 @@
         </section>
         <section class="post-nav">
             
-                <a class="prev" rel="prev" href="/aulas.txt/posts/administracao/aulas/aula-17/">Aula 07 -  Módulo 02 - Contabilidade</a>
+                <a class="prev" rel="prev" href="/aulas.txt/posts/administracao/anexos/contabilidade-modelo-requerimento-empresario/">Módulo 02 - Modelo de Requerimento de Empresário</a>
             
             
-            <a class="next" rel="next" href="/aulas.txt/posts/slides/temas/standard/">Demonstração do Tema - Standard</a>
+            <a class="next" rel="next" href="/aulas.txt/posts/slides/administracao/modulo-02/quiz/etapa-2-perguntas/">slides/administracao/modulo-02/quiz/etapa-2-perguntas</a>
             
         </section>
 
@@ -294,6 +668,23 @@
     </div>
 </footer>
 
-    </div><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+    </div><!-- hexo-inject:begin --><!-- Begin: Injected MathJax -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({"tex2jax":{"inlineMath":[["$","$"],["\\(","\\)"]],"skipTags":["script","noscript","style","textarea","pre","code"],"processEscapes":true},"TeX":{"equationNumbers":{"autoNumber":"AMS"}}});
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+      all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+</script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js">
+</script>
+<!-- End: Injected MathJax -->
+<!-- hexo-inject:end -->
 </body>
 </html>
