@@ -13,9 +13,19 @@ Após preenchidos os contratos devem ser registrados - em cartório, no caso das
 
 <a href="../../../../assets/content/administracao/modelos/modelo-contrato-social.pdf" target="_blank"><i class="icofont-download"></i>PDF - Modelo de Contrato Social para Sociedade Simples Pura e Limitada</a>
 
-<a href="../../../../assets/content/administracao/modelos/modelo-contrato-social-ss-ltda.docx" target="_blank"><i class="icofont-download"></i>SS e LTDA - Modelo de Contrato Social para Sociedade Simples Limitada</a>
+<a href="../../../../assets/content/administracao/modelos/modelo-contrato-social-ss-ltda.docx" target="_blank"><i class="icofont-download"></i>SS e LTDA - Modelo de Contrato Social para Sociedade Simples e Limitada</a>
 
-Os modelos acima apresentados podem ser adaptados e modificados para se adequarem ao enquadramento SS ou LTDA. De modo geral, o Contrato destas empresas possui as seguintes cláusulas:
+<a href="../../../../assets/content/administracao/modelos/modelo-contrato-social-ss.docx" target="_blank"><i class="icofont-download"></i>SS - Modelo de Contrato Social para Sociedade Simples Pura</a>
+
+Os modelos acima apresentados podem ser adaptados e modificados para se adequarem ao enquadramento SS ou LTDA.
+
+Abaixo segue para estudo e modificação o Contrato Social da TravelGO, agência de viagens fictícia utilizada para apresentar o projeto aos alunos:
+
+<a href="../../../../assets/content/administracao/modulo-02/contrato-social-travelgo.pdf" target="_blank"><i class="icofont-download"></i>PDF - Contrato Social TravelGO</a>
+
+<a href="../../../../assets/content/administracao/modulo-02/contrato-social-travelgo.docx" target="_blank"><i class="icofont-download"></i>DOCX - Contrato Social TravelGO</a>
+
+De modo geral, o Contrato destas empresas possui as seguintes cláusulas:
 
 ![Modelo Contrato Social](../../../../assets/media/img/contabilidade/contratos-sociais/modelo-contrato-social.png)
 

@@ -386,11 +386,16 @@ AO FINAL DO PROCESSO VOCÊS DEVERÃO EXPORTAR AS ATAS PARA O FORMATO PDF E IMPRI
 
 ## Modelos
 
+
+PACOTE COMPLETO COM TODOS OS ARQUIVOS
+
+<a href="../../../../assets/content/administracao/modulo-02/pack-slides.rar" target="_blank"><i class="icofont-download"></i> RAR - Template de Apresentação de Slides + Imagens</a>
+
+ARQUIVOS SEPARADOS
+
 <a href="../../../../assets/content/administracao/modelos/modelo-slide-com-regras.pptx" target="_blank"><i class="icofont-download"></i> PPTX - Template de Apresentação de Slides - Regras</a>
 
 <a href="../../../../assets/content/administracao/modulo-02/modelo-slide-tcm.pptx" target="_blank"><i class="icofont-download"></i> PPTX - Template de Apresentação de Slides - TCM</a>
-
-<a href="../../../../assets/content/administracao/modulo-02/pack-slides.rar" target="_blank"><i class="icofont-download"></i> RAR - Template de Apresentação de Slides + Imagens</a>
 
 <a href="../../../../assets/content/administracao/modulo-02/modelo-comprovante-cnpj.pptx" target="_blank"><i class="icofont-download"></i> PPTX - Modelo de Comprovante CNPJ</a>
 
