@@ -191,6 +191,7 @@ Se você tem uma ideia inovadora, precisará se preparar para dialogar e negocia
 Planeje uma ideia que ajuda a empresa de Maricleuza a se tornar reconhecida. Analise sua ideia, levando em consideração os prós e contras, e a viabilidade da mesma.
 
 ---
+
 ## Referências Bibliográficas
 
 BACARJI, Alencar Garcia. Formação Incial e Continuada Auxiliar Administrativo. Curitiba: Instituto Federal do Paraná, 2012.
