@@ -1,5 +1,5 @@
 ---
-title: Auxiliar Administrativo - Prova Parcial
+title: Auxiliar Administrativo - Atividade Avaliativa
 date: 2020-05-11 13:33:16
 tags:
 - Auxiliar Administrativo - Manual de Avaliações
@@ -7,7 +7,7 @@ tags:
 
 <img src="../../../../assets/media/img/cursos/logo-auxiliar-administrativo-01.png" alt="Auxiliar Administrativo" title="Auxiliar Administrativo" class="img-50  bg-white">
 
-Conforme presente no nosso cronograma, nesta aula será aplicada a **Prova Parcial**, no valor de 10 pontos.
+Conforme presente no nosso cronograma, nesta aula será aplicada a **Prova Parcial**, no valor de 10 pontos OU a **Prova Final**, no valor de 30 pontos.
 
 ### Aplicação das Provas
 

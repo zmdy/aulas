@@ -19,6 +19,16 @@ Sem mais delongas, vamos à nossa 2ª aula de revisão deste curso.
 
 ---
 
+## Sumário
+
+1. [Aulas 01 e 02](#Aulas-01-e-02)
+2. [Aula 03 e 04](#Aula-03-e-04)
+3. [Aula 06 a 08](#Aula-06-a-08)
+4. [Exercícios](#Exercicios)
+5. [Referências Bibliográficas](#Referencias-Bibliograficas)
+
+---
+
 ## Aulas 01 e 02
 
 - A **Análise SWOT**, também conhecida como Matriz FOFA é uma estratégia utilizada para identificar os pontos fortes e fracos de uma pessoa, situação, ideia ou empresa.
@@ -175,4 +185,81 @@ Sem mais delongas, vamos à nossa 2ª aula de revisão deste curso.
 
 ## Exercícios
 
-01) 
+01.  A respeito de notas fiscais e cupons fiscais assinale a alternativa correta.
+  - Cupons e notas fiscais são documentos que devem ser preenchidos pelos próprios consumidores em folhas de papel almaço
+  - A nota fiscal é emitida pelo Emissor de Nota Fiscal, uma impressora especial, homologada pela Receita Federal.
+  - A não emissão de nota fiscal não é crime, pois sua emissão depende da vontade do cliente.
+  - Ao contrário das notas fiscais, os cupons fiscais possuem mais informações sobre os clientes, como nome completo, CPF/CNPJ e endereço
+  - O modelo tipo 1 de Notas Fiscais deve conter obrigatoriamente a discriminação do imposto ICMS
+
+02. A Análise SWOT é uma estratégia utilizada para identificar os pontos fortes e fracos de uma pessoa, situação ou empresa. Considerando os fatores descritos abaixo,pode-se afirmar que o único que está corretamente caracterizado é:
+  - Fator Interno Negativo: O mercado necessita constantemente de auxiliares administrativos
+  - Fator Externo Positivo: O candidato consegue lidar bem com o público e sabe trabalhar em equipe
+  - Fator Interno Positivo: A grande demanda de profissionais administrativos torna esta uma área muito concorrido
+  - Fator Externo Negativo: O candidato possui dificuldade em utilizar o Pacote Office
+  - Fator Externo Positivo: O candidato recebeu uma proposta de emprego como auxiliar administrativo na empresa XYZ
+
+03. Em relação a eficácia, eficiência e efetividade, é correto afirmar que:
+  - Uma fábrica que produz automóveis em um menor tempo e a preços reduzidos, mas não tem boa procura por parte dos consumidores é ineficiente;
+  - Um restaurante é considerado eficiente se consegue produzir alimentos de qualidade, manter os seus clientes e criar promoções para se destacar perante ao mercado;
+  - Um empregado é considerado eficaz quando sua produtividade é alta;
+  - Uma atividade efetiva não precisa ser, necessariamente, eficiente;
+  - Uma empresa que realiza a montagem, venda e manutenção de celulares é eficaz se conseguir realizar bem as três atividades.
+
+04. Assinale a alternativa que informa corretamente o tipo documento mais indicado para a situação.
+  - Ata - O sócio de uma empresa irá viajar e precisará se ausentar pelo período de 6 meses. Para participar das decisões da empresa, ele transferiu suas responsabilidades temporariamente ao seu secretário.
+  - Recibo - Todos os meses uma agência de viagens envia aos seus clientes e parceiros comerciais um catálogo com promoções especiais.
+  - Requerimento - Uma Escola de Samba irá promover um ensaio em uma rua. Para isto necessita solicitar à Prefeitura a utilização deste espaço público.
+  - Ofício - Um grupo de funcionários precisa agendar o uso de uma sala de reuniões, para isso deve informar a todos que a sala estará sendo usada naquele período.
+  - Carta Comercial - Uma empresa solicita o uso do auditório de um teatro, fora das instalações da empresa, para a realização de um evento.
+
+05. Sobre os diferentes tipos de empreendedorismo, analise cada opção como Verdadeira (V) ou Falsa (F):
+  - (__) No Brasil, em virtude das condições socioeconômicas vivenciadas por grande parte da população, pode-se surgir o empreendedorismo do tipo privado, no qual ocorre falta de inovação e estruturação (informalidade);
+  - (__) A Motivação de Poder pode ser encontrada nos empreendedores por necessidade, devido as condições sociais e econômicas vivenciadas pelo indivíduo;
+  - (__) A inovação que ocorre no interior das organizações, modificando o seu *modus operandi*, recebe o nome de intraempreendedorismo;
+  - (__) Ao contrário dos capitalistas, os empreendedores não tem como objetivo principal o lucro, sendo sua principal preocupação os benefícios sociais de suas ações;
+  - (__) De acordo com a Teoria das Necessidades Adquiridas, a motivação de afiliação pode estar mais relacionada com o perfil do empreendedor social;
+
+06. A carga tributária (CT) a é uma maneira de calcular os impactos dos tributos na economia de um
+país. A respeito deste conceito, classifique as alternativas como Verdadeiras ou Falsas:
+  - A Carga Tributária é calculada divindido-se o total de impostos arrecadados por um país pelo seu PIB;
+  - Países com alta carga tributária arrecadam, proporcionalmente, mais impostos do que aqueles com baixa CT;
+  - No Brasil, os tributos arrecadados pelos municípios não são considerados no cálculo do PIB;
+  - Quanto mais tributos um país arrecada pior será sua distribuição de renda per capita
+
+---
+
+## Referências Bibliográficas
+
+BACARJI, Alencar Garcia. Formação Incial e Continuada Auxiliar Administrativo. Curitiba: Instituto Federal do Paraná, 2012.
+
+BRASIL. LEI Nº 5.172, DE 25 DE OUTUBRO DE 1966. Dispõe sobre o Sistema Tributário Nacional e institui normas gerais de direito tributário aplicáveis à União, Estados e Municípios. Brasília, DF. Disponível em: <https://bit.ly/2zy7ju6>. Acesso em *12 de mai. de 2020*.
+
+BRASIL. Presidência da República. Casa Civil. Manual de redação da Presidência da República. BRASÍLIA, DF: Casa Civil, Subchefia de Assuntos Jurídicos ; coordenação de Gilmar Ferreira Mendes, Nestor José Forster Júnior [et al.]. – 3. ed., rev., atual. e ampl. – Brasília: Presidência da República, 2018. 189 p. Disponível em <https://bit.ly/3fGZWRM>. Acesso em *14 de mai. de 2020*.
+
+
+CARVALHO, José Luis Felício; FARIA, Marina Dias de. O teatro de improviso como proposta pedagógica na formação em ciências sociais aplicadas. Revista Interdisciplinar de Gestão Social, 3 (3), pp.79-104.
+
+CATHO. Guia de Profissões e Salários 2020 - Auxiliar Administrativo. Barueri, 2020. Disponível em <https://bit.ly/2WM4rU5>. Acesso em *27 de mar. de 2020*.
+
+CHAUÍ, Marilena. Convite à filosofia. São Paulo: Editora Ática, 2000.
+
+DORNELAS, José Carlos Assis. Empreendedorismo: transformando ideias em negócios. 4. ed. Rio de Janeiro: Elsevier, 2011. Disponível em <https://bit.ly/2LVYQE4>. Acesso em *24 de mai. de 2020*.
+
+DUNKER, Christian; THEBAS, Cláudio. O Palhaço e o Psicanalista: como escutar os outros pode transformar vidas. São Paulo: Planeta do Brasil, 2019
+
+FERREIRA, Brenno Jadvas Soares. Fluxo espontâneo e capacidade de jogo: Estudos atorais a partir de princípios do Teatro-Esporte e do Match de Improvisação. Dissertação de Mestrado. Instituto de Artes- IARTE. Universidade Federal de Uberlândia. Uberlândia, 2015.
+
+GRCIC, Joseph. Ethics: Theory and Practice (English Edition) - 7 ed. Terre Haute: Philosophy Department / Indiana State University, 2015. 675 p.
+
+JUNIOR, R. J. M. Matemática Financeira. Curitiba, PR: Instituto Federal do Paraná, 2012. 176 p. Disponível em <https://bit.ly/2JRzNkL>. Acesso em *27 de mar. de 2020*.
+
+LOPES, G. V. C. P. F.; PORRUA, R. P. D. Comunicação Empresarial. Curitiba: Instituto Federal do Paraná, 2012. Disponível em <https://bit.ly/2zEFHDG>. Acesso em *14 de mai. de 2020*.
+
+MASSENSINI, A. R. Empreendedorismo. Curso Técnico de Administração. Pelotas, RS: Instituto Federal Sul-Rio-Grandense, 2011. Disponível em <https://bit.ly/2LHoe04>. Acesso em *18 de mai. de 2020*.
+
+NETO, J. S. Uma montanha ainda maior de impostos. O GLOBO, n. 29995, 21//09/2015. Economia, p. 17. Disponível em <https://bit.ly/2Z87M1d>. Acesso em *12 de mai. de 2020*.
+
+PORTAL TRIBUTÁRIO. Os Tributos no Brasil. Curita: Portal Tributário, 2020. Disponível em <https://bit.ly/3bseH7C>. Acesso em *12 de mai. de 2020*.
+
+VIANNA, R. de M. I.  Matemática financeira. Salvador: UFBA, Faculdade de Ciências Contábeis; Superintendência de Educação a Distância, 2018. 131 p. : il. Disponível em <https://bit.ly/2UVPNZf>. Acesso em *27 de mar. de 2020*.

@@ -11,6 +11,8 @@ Será considerado como apto a cursar o próximo módulo o aluno que obter **nota
 
 O trabalho é composto por uma série de 25 exercícios que deverão ser resolvidos e entregues no prazo estipulado pelo seu professor e entregues. A lista com os exercícios deverá ser **impressa pelo aluno**. As questões deverão ser respondidas individualmente, manuscritas a caneta azul ou preta, no espaço delimitado da lista impressa.
 
+> Em virtude de situações atípicas, o **trabalho de recuperação** poderá ser substituído por equivalentes pedagógicos, avisados com antecedência aos alunos. (Decisão feita em 31/05/2020)
+
 Caso o aluno não consiga imprimir a lista, o mesmo deverá avisar ao professor **com antencedência**.
 
 Abaixo seguem os trabalhos de recuperação de cada módulo do curso nos formatos PDF e DOCX (Word).
