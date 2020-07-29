@@ -3,10 +3,10 @@ navname: aulas.txt
 
 # navigatior items
 nav:
-  Cursos: /pages/cursos
-  Materiais: /pages/tag
-  Manual: /pages/manual
-  Sobre: /pages/sobre
+  Cursos: ./pages/cursos
+  Materiais: ./pages/materiais
+  Projetos: ./pages/projetos
+  Sobre: ./pages/sobre
 
 # favicon
 favicon: /favicon.png
@@ -21,8 +21,8 @@ avatar: /image/avatar-01.png
 ## Unused key can be commented out.
 links:
   Blog: ./posts
-#  Category:
-#  Tags: 
+  Category: ./pages/categories
+  Tags: ./pages/assuntos
 #  Link:
 #  Resume:
 #  Publish:

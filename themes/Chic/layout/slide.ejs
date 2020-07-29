@@ -3,7 +3,13 @@
 <% } %>
 
 <script>
-  window.onload = function(){
+  // Defines the delay function
+  function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+  }
+
+
+  function startPresentation(){
     var 
       content = document.querySelector("#slide-content").innerHTML,
       metadata = content.split('---')[1],
@@ -25,8 +31,44 @@
       title: title
     });
   }
+
+  window.onload = function(){
+    if(window.location.search == '?print-pdf'){
+      // Starts the presentation
+      startPresentation();
+
+      // Waits 5 seconds
+      sleep(5000).then(() => { 
+        // Opens the print page
+        window.print();
+      });
+    }
+  }
 </script>
 
-<div id="slide-content">
+<div id="slide-content" style="display: none;">
   <%- page.raw %>
+</div>
+
+<div class="container">
+  <article class="post-wrap page">
+      <% if(theme.page_title_enable){ %>
+      <h2 class="post-title"><%- page.title %></h2>
+
+      <p><a href="#" onclick="startPresentation()"><i class="icofont-presentation"></i> Iniciar Apresentação</a></p>
+      <!--
+        AVISO!
+
+        O redirecionamento desta página, com um parâmetro de pesquisa ?print-pdf gera o arquivo PDF da apresentação.
+
+        Esta é uma funcionalidade experimental, ainda em processo de desenvolvimento e adaptação.
+        
+        <p><a href="./?print-pdf"><i class="icofont-presentation"></i> Gerar Apresentação em PDF</a></p>
+      -->
+
+      <% } %>
+      <section class="post-content">
+          <%- page.content %>
+      </section>
+  </article>
 </div>

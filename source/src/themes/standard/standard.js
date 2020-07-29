@@ -10,41 +10,40 @@ function standard(){
 
       // Background
     });
-  
 
     // Configura os backgrounds de cada slide
     var
       presentation = document.querySelectorAll('section.bonisa'),
-      filter = ['h1', 'h2', 'h3'],
-      background = [
-        Bonisa.THEMES_DIR + 'standard/bg/modelo-geometrico-01.png',
-        Bonisa.THEMES_DIR + 'standard/bg/modelo-geometrico-02.png',
-        Bonisa.THEMES_DIR + 'standard/bg/modelo-geometrico-03.png',
-        Bonisa.THEMES_DIR + 'standard/bg/modelo-geometrico-04.png'
-      ];
+      bgImages = document.querySelectorAll('img.full'),
+      filter = ['h1', 'h2', 'h3', 'h4', 'h5', 'h6'];
 
-    // Percorre cada slide da apresentação
+    // Percorre cada imagem com a classe 'full'
+    for(let slide in bgImages){
+      if(typeof bgImages[slide] == 'object'){
+        // Extrai a fonte (src) da imagem
+        var bgSRC = bgImages[slide].src;
+
+        // Define o atributo data-background do elemento pai
+        // como a imagem base
+        bgImages[slide].parentNode.setAttribute('data-background', bgSRC);
+      }
+    }
+    
+      // Percorre cada slide da apresentação
     for(let slide in presentation){
       if(typeof presentation[slide] == 'object'){
         // Analisa o primeiro elemento do slide
         var
           firstElement = presentation[slide].firstElementChild.tagName,
           lastElement = presentation[slide].lastElementChild.tagName;
-        
-        // Pre-define o background de fundo
-        presentation[slide].setAttribute('data-background', background[background.length - 1]);
-        presentation[slide].setAttribute('data-background-size', '100vw auto');
 
         // Percorre cada elemento do filtro
         for(let element in filter){
           // Se o elemento filtrado for igual ao tipo de tag do slide
           if(firstElement.toLowerCase() == filter[element].toLowerCase()){
             try{
-              // Aplica o background definido
-              presentation[slide].setAttribute('data-background', background[element]);
-
               // Define uma classe
-              presentation[slide].className += ' STANDARD' + filter[element];
+              presentation[slide].className += ' STANDARD' + filter[element].toLowerCase();
             } catch(error){
               console.log(error);
             }

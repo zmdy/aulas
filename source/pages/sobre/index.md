@@ -7,15 +7,23 @@ date: 2020-03-17 08:52:28
 
 Este é um repositório de apresentações, anotações, livros, apostilas, imagens, vídeos e recursos utilizados em diversas aulas de Administração e TI.
 
-Todo o conteúdo disponibilizado, incluindo (mas não se limitado a) textos, imagens, vídeos, fontes, ícones e/ou eventuais bibliotecas, módulos ou softwares utilizados para a criação de interações ou animações, é **conteúdo livre** (free/libre), **ao menos que explicitamente informado o contrário.**
+Todo o conteúdo disponibilizado é **livre** (free/libre), o que significa que você está **automaticamente autorizado** a baixar, estudar e modificar todo o conteúdo do projeto como você quiser!
 
-O projeto em si é livre e está distribuídas sob Licença MIT. Verifique a sessão "LICENÇA" ao final deste documento e das apresentações para maiores detalhes.
+Para acessar os conteúdos finais já processados, em **.pdf ou outros formatos**, acesse a página [Materiais](../materiais)
 
-> [O termo] Software Livre *(Free Software)* se refere à liberdade, não ao preço. Portanto, pense em *liberdade de expressão*, e não em *cerveja grátis*. As liberdades da qual me refiro são aquelas de realizar mudanças caso você queira, ou mesmo contratar alguém para realizá-las. Se você está usando um software para os seus negócios, [me refiro] à liberdade de redistribuir cópias, compartilhar com outras pessoas, realizar aprimoramentos e publicá-los para que outros também obtenham esses benefícios. **STALLMAN, Richard *em* Revolution OS, 2001**
+Os textos, imagens, fontes, ícones e eventuais bibliotecas, módulos ou softwares utilizados no site podem ser acessados pelo repositório do projeto no [GitHub](https://github.com/zmdy/aulas.txt).
 
-### Conteúdo
+Ao acessar o repositório de aulas.txt, você verá uma tela como a mostrada a seguir:
 
-O conteúdo disponibilizado pode ser facilmente acessado pelo site do projeto, acessível em [aulas.txt](zmdy.github.io/aulas.txt)!
+![Print da tela inicial do projeto no GitHub](../../assets/media/img/github/github-inicial.png)
+
+Nesta página estão todos os conteúdos de texto, imagens, fontes, scripts e bibliotecas utilizados para criar o site e os slides.
+
+Caso deseje baixar ou clonar todo o conteúdo e adaptá-lo aos seus projetos pessoas, faça o download do branch `master`.
+
+> Para baixar os arquivos de qualquer *branch* basta clicar no botão `Clone or Download` e em seguida clicar sobre `Download ZIP`
+
+![Destaque da Área de Download no GitHub](../../assets/media/img/github/github-download.png)
 
 Ao baixar e extrair o conteúdo, você terá acesso à seguinte estrutura de pastas e arquivos:
 
@@ -27,12 +35,12 @@ ESTRUTURA DO BRANCH MASTER
   │  ├── pages                # Páginas do site em formato Markdown  
   │  ├── src                  # Scripts e arquivos personalizados
   │  └── assets                   
-  │     ├── content           # Arquivos de texto usados para criar os slides
-  │     └── media             # Arquivos de mídia
-  │         ├── fonts       	# Fontes utilizadas nos slides
-  │         ├── icons         # Ícones diversos
-  │         ├── img         	# Todas as imagens utilizadas
-  │         └── logo          # Logo do projeto aulas.txt
+  │     ├── content             # Arquivos de texto usados para criar os slides
+  │     └── media               # Arquivos de mídia
+  │         ├── fonts         	# Fontes utilizadas nos slides
+  │         ├── icons           # Ícones diversos
+  │         ├── img           	# Todas as imagens utilizadas
+  │         └── logo            # Logo do projeto aulas.txt
   |
   ├── _config.yml_            # Arquivo de configurações do Hexo
   ├── .gitignore
@@ -43,11 +51,67 @@ ESTRUTURA DO BRANCH MASTER
 
 Caso queira utilizar alguma imagem, pdf, fonte, ou modificar algum conteúdo de texto **fique a vontade**! Só **não se esqueça** de manter o arquivo LICENSE.txt na pasta ;)
 
-Este projeto é hospedado via [GitHub Pages](https://pages.github.com/) utilizando temas disponibilizados pelo framework [Hexo](https://hexo.io/themes/).
+Para baixar o **conteúdo bruto** (todo este conteúdo é chamado de *assets*), contendo os arquivos de texto, PDFs, imagens e fontes utilizados no site, você deverá acessar o branch `assets`, conforme mostrado abaixo.
 
-Você pode baixar e rodar este site (e seus recursos) localmente, se desejar. Para isto basta seguir o passo a passo a seguir:
+---
 
-#### Passo a passo
+## Branches do projeto
+
+Todos os slides utilizados no projeto (e o próprio site) são construídos utilizando os assets mostrados acima. No entanto, para **renderizar** este conteúdo em um [site](https://zmdy.github.io/aulas.txt/), é necessário utilizar alguns frameworks especiais.
+
+O site deste projeto é hospedado via [GitHub Pages](https://pages.github.com/) utilizando temas disponibilizados pelo framework [Hexo](https://hexo.io/themes/).
+
+Para acessar os arquivos utilizados para criar o site e os slides, clique sobre `Branch: master` e em seguida clique na opção `assets`.
+
+![Destaque da Área de Branches no GitHub](../../assets/media/img/github/github-branches.png)
+
+Cada um dos itens mostrados na imagem acima (master, assets e gh-pages) é chamado de *branch*.
+
+Um *branch* nada mais é do que a ramificação de um projeto de software ou site. No caso do [aulas.txt](https://github.com/zmdy/aulas.txt), há 3 diferentes ramos:
+
+- `master`: branch responsável pelo armazenamento dos arquivos brutos (assets), das dependências do framework [Hexo](https://hexo.io/themes/) e das bibliotecas usadas para produzir os [slides](https://github.com/zmdy/bonisa).
+- `assets`: branch responsável pelo armazenamento de todos os conteúdos de texto, imagens e fontes;
+- `gh-pages`: branch responsável pelo armazenamento deste [site](https://zmdy.github.io/aulas.txt/);
+
+O branch `assets` contém todo o material bruto utilizado para produzir o site. Isto inclui imagens, fontes, PDFs, documentos e outros arquivos de texto.
+
+Ao baixar este *branch*, você terá acesso à seguinte estrutura de pastas:
+
+```
+ESTRUTURA DO BRANCH ASSETS
+  .
+  ├── assets                   
+  │   ├── content           # Arquivos de texto usados para criar os slides
+  │   └── media             # Arquivos de mídia
+  │      ├── fonts          # Fontes utilizadas nos slides
+  │      ├── icons          # Ícones diversos
+  │      ├── img            # Todas as imagens utilizadas
+  │      └── logo           # Logo do projeto aulas.txt
+  ├── sources                 
+  │  ├── _posts             # Posts do site em formato de texto
+  │  ├── pages              # Páginas do site em formato de texto  
+  │  ├── src                # Scripts e arquivos personalizados
+  |
+  ├── .gitignore            
+  ├── LICENSE.txt
+  └── README.md
+```
+
+Caso queira utilizar alguma imagem, pdf, fonte, ou modificar algum conteúdo de texto **fique a vontade**! Só **não se esqueça** de manter o arquivo LICENSE.txt na pasta ;)
+
+Por questões de praticidade, o branch `gh-pages` é automaticamente atualizado no processo de *deployment* do [Hexo](https://hexo.io/docs/github-pages). Por esta razão o mesmo **não é modificado manualmente**.
+
+Se desejar, você poderá [baixar](https://github.com/zmdy/aulas.txt/tree/gh-pages) este branch e rodar em sua máquina. O site será corretamente mostrado, mas os slides não!
+
+---
+
+## Rodando o projeto localmente
+
+Como vimos, o `master` é o branch responsável por armazenar e gerar todas as páginas do site e todos os slides.
+
+Para converter os arquivos do branch `master` no site acessado no `gh-pages` é utilizado um *framework* chamado [Hexo](https://hexo.io/themes/). 
+
+Caso você queira instalar o site, localmente, com **todas** as suas funcionalidades (incluindo os slides), siga o passo a passo a seguir:
 
 Primeiramente, você precisará instalar o [Node.js](https://nodejs.org/en/) em seu computador para garantir que tudo funcione corretamente.
 
