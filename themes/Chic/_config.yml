@@ -21,8 +21,8 @@ avatar: /image/avatar-01.png
 ## Unused key can be commented out.
 links:
   Blog: ./posts
-  Category: ./pages/categories
-  Tags: ./pages/assuntos
+#  Category: ./pages/categories
+  Tags: ./pages/tag
 #  Link:
 #  Resume:
 #  Publish:
