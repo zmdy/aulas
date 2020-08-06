@@ -125,8 +125,6 @@ Os bens podem ser **classificados** de diversas maneiras. Utilizaremos 3 defini�
 
 Direitos geralmente aparecem acompanhados da expressão “a receber”, “a compensar”, a “recuperar”, “a creditar”, ou outra similar, indicando a **promessa de recebimento** ou que permita recuperar parte do bem transferido.
 
-
-
 ### Obrigações
 
 **Obrigações** são as responsabilidades de pagamento por bens adquiridos ou despesas realizadas. Portanto, temos aqui uma obrigação, uma **dívida** que poderá ser paga imediatamente ou a prazo. As obrigações na contabilidade recebem o nome técnico de **exigível**, por se exigir da empresa o pagamento das dívidas (BÄCHTOLD, 2012). 
@@ -199,8 +197,6 @@ Para se fazer um Balanço Patrimonial deve-se montar uma **tabela** na qual são
 ![contabilidade-balanco](../../../../assets/media/img/contabilidade/modelo-balanco-patrimonial.png)
 
 Na próxima aula entenderemos em detalhes o que é o Capital Social, mas por ora considere-o como **o dinheiro que os donos ou sócios de uma empresa investem nela**. Este dinheiro é um passivo, que será convertido em ativo para a compra de bens para a empresa ou como capital de giro em Caixa.
-
-
 
 > EXERCÍCIO 04: Calcule o Patrimônio Líquido de uma empresa com os seguintes elementos:
 
