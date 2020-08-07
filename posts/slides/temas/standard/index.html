@@ -68,13 +68,13 @@
             <div class="navbar-header header-logo"><a href="/aulas.txt/">aulas.txt</a></div>
             <div class="menu navbar-right">
                 
-                    <a class="menu-item" href="/aulas.txt/pages/cursos">Cursos</a>
+                    <a class="menu-item" href="/aulas.txt/./pages/cursos">Cursos</a>
                 
-                    <a class="menu-item" href="/aulas.txt/pages/tag">Materiais</a>
+                    <a class="menu-item" href="/aulas.txt/./pages/materiais">Materiais</a>
                 
-                    <a class="menu-item" href="/aulas.txt/pages/manual">Manual</a>
+                    <a class="menu-item" href="/aulas.txt/./pages/projetos">Projetos</a>
                 
-                    <a class="menu-item" href="/aulas.txt/pages/sobre">Sobre</a>
+                    <a class="menu-item" href="/aulas.txt/./pages/sobre">Sobre</a>
                 
                 <input id="switch_default" type="checkbox" class="switch_default">
                 <label for="switch_default" class="toggleBtn"></label>
@@ -93,13 +93,13 @@
             </div>
             <div class="menu" id="mobile-menu">
                 
-                    <a class="menu-item" href="/aulas.txt/pages/cursos">Cursos</a>
+                    <a class="menu-item" href="/aulas.txt/./pages/cursos">Cursos</a>
                 
-                    <a class="menu-item" href="/aulas.txt/pages/tag">Materiais</a>
+                    <a class="menu-item" href="/aulas.txt/./pages/materiais">Materiais</a>
                 
-                    <a class="menu-item" href="/aulas.txt/pages/manual">Manual</a>
+                    <a class="menu-item" href="/aulas.txt/./pages/projetos">Projetos</a>
                 
-                    <a class="menu-item" href="/aulas.txt/pages/sobre">Sobre</a>
+                    <a class="menu-item" href="/aulas.txt/./pages/sobre">Sobre</a>
                 
             </div>
         </div>
@@ -125,7 +125,13 @@
 
 
 <script>
-  window.onload = function(){
+  // Defines the delay function
+  function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+  }
+
+
+  function startPresentation(){
     var 
       content = document.querySelector("#slide-content").innerHTML,
       metadata = content.split('---')[1],
@@ -147,9 +153,22 @@
       title: title
     });
   }
+
+  window.onload = function(){
+    if(window.location.search == '?print-pdf'){
+      // Starts the presentation
+      startPresentation();
+
+      // Waits 5 seconds
+      sleep(5000).then(() => { 
+        // Opens the print page
+        window.print();
+      });
+    }
+  }
 </script>
 
-<div id="slide-content">
+<div id="slide-content" style="display: none;">
   ---
 title: Demonstração do Tema - Standard
 date: 2020-05-07 10:30:19
@@ -166,9 +185,9 @@ tags:
 
 ---
 
-# Background
+# Standard
 
-O background das apresentações é modificado conforme o tipo de cabeçalho ( &lt;h1&gt; a &lt;h6&gt;) que é colocado em cada slide.
+Este é o tema padrão da biblioteca Bonisa.js.
 
 ---
 
@@ -176,9 +195,9 @@ O background das apresentações é modificado conforme o tipo de cabeçalho ( &
 
 ---
 
-Este tema permite a utilização dos elementos de *heading* do HTML, &lt;h1&gt; a &lt;h6&gt; como forma de se alterar os backgrounds.
+Este tema permite a utilização dos elementos de *heading* do HTML, &lt;h1&gt; a &lt;h6&gt;, conforme mostrado abaixo.
 
----
+***
 
 # Título &lt;h1&gt;
 
@@ -196,13 +215,21 @@ Este tema permite a utilização dos elementos de *heading* do HTML, &lt;h1&gt; 
 
 ***
 
-Neste slide não há nenhum título. A imagem padrão de fundo se torna esta!
+##### Título &lt;h5&gt;
 
----
+***
+
+###### Título &lt;h6&gt;
+
+***
+
+Neste slide não há nenhum título, apenas textos!
+
+***
 
 # 
 
-Caso você não queira inserir um título para o seu slide (&lt;h1&gt; a &lt;h6&gt;), basta inserir um cabeçalho em vazio!
+Para alinhar o seu texto verticalmente sem a necessidade de inserir um título (&lt;h1&gt; a &lt;h6&gt;), basta inserir um cabeçalho em vazio!
 
 Neste slide há um elemento  &lt;h1&gt; vazio.
 
@@ -220,7 +247,7 @@ Este é um exemplo de <i>itálico</i> e este é um exemplo do tipo <em>ênfase</
 
 Aqui temos um exemplo de código-fonte: <code>for(;;){console.log('Loop');} </code>
 
-Este é um [link](#) que redireciona para a Terra da Representação.
+Este é um [link](#).
 
 <blockqoute>Este é um exemplo simples de uma frase utilizando o &lt;blockqoute&gt;</blockquote>
 
@@ -236,13 +263,13 @@ Este é um exemplo de <i>itálico</i> e este é um exemplo do tipo <em>ênfase</
 
 Aqui temos um exemplo de código-fonte: <code>for(;;){console.log('Loop');} </code>
 
-Este é um [link](#) que redireciona para a Terra da Representação.
+Este é um [link](#).
 
 <blockqoute>Este é um exemplo simples de uma frase utilizando o &lt;blockqoute&gt;</blockquote>
 
 ***
 
-## Este é um cabeçalho &lt;h2&gt;
+### Este é um cabeçalho &lt;h3&gt;
 
 Este é um parágrafo.
 
@@ -252,9 +279,134 @@ Este é um exemplo de <i>itálico</i> e este é um exemplo do tipo <em>ênfase</
 
 Aqui temos um exemplo de código-fonte: <code>for(;;){console.log('Loop');} </code>
 
-Este é um [link](#) que redireciona para a Terra da Representação.
+Este é um [link](#).
 
 <blockqoute>Este é um exemplo simples de uma frase utilizando o &lt;blockqoute&gt;</blockquote>
+
+***
+
+##### Este é um cabeçalho &lt;h5&gt;
+
+Este é um parágrafo.
+
+Este é um exemplo em <b>negrito</b> e este utiliza o elemento <strong>strong</strong>.
+
+Este é um exemplo de <i>itálico</i> e este é um exemplo do tipo <em>ênfase</em>.
+
+Aqui temos um exemplo de código-fonte: <code>for(;;){console.log('Loop');} </code>
+
+Este é um [link](#).
+
+<blockqoute>Este é um exemplo simples de uma frase utilizando o &lt;blockqoute&gt;</blockquote>
+
+***
+
+###### Este é um cabeçalho &lt;h6&gt;
+
+Este é um parágrafo.
+
+Este é um exemplo em <b>negrito</b> e este utiliza o elemento <strong>strong</strong>.
+
+Este é um exemplo de <i>itálico</i> e este é um exemplo do tipo <em>ênfase</em>.
+
+Aqui temos um exemplo de código-fonte: <code>for(;;){console.log('Loop');} </code>
+
+Este é um [link](#).
+
+<blockqoute>Este é um exemplo simples de uma frase utilizando o &lt;blockqoute&gt;</blockquote>
+---
+
+## Efeitos de Imagens
+
+---
+
+![Imagem de Teste](../../../../src/themes/standard/bg-teste.jpg)
+
+***
+
+### Imagem com classe *full*
+
+<img src="../../../../src/themes/standard/bg-teste.jpg" class="full" alt="Imagem de Teste" title="Imagem de Teste"/>
+
+***
+
+### Imagem com classe *gray*
+
+<img src="../../../../src/themes/standard/bg-teste.jpg" class="gray" alt="Imagem de Teste" title="Imagem de Teste"/>
+
+***
+
+### Imagem com classe *transparent*
+
+<img src="../../../../src/themes/standard/bg-teste.jpg" class="transparent" alt="Imagem de Teste" title="Imagem de Teste"/>
+
+***
+
+### Imagem com classe *gray-transparent*
+
+<img src="../../../../src/themes/standard/bg-teste.jpg" class="gray-transparent" alt="Imagem de Teste" title="Imagem de Teste"/>
+
+---
+
+## Tamanhos de Imagens
+
+---
+
+### Imagem padrão - width = 75vw
+
+<img src="../../../../src/themes/standard/bg-teste.jpg" alt="Imagem de Teste" title="Imagem de Teste"/>
+
+***
+
+### Imagem com classe *size-50*
+
+<img src="../../../../src/themes/standard/bg-teste.jpg" class="size-50" alt="Imagem de Teste" title="Imagem de Teste"/>
+
+***
+
+### Imagem com classe *size-25*
+
+<img src="../../../../src/themes/standard/bg-teste.jpg" class="size-25" alt="Imagem de Teste" title="Imagem de Teste"/>
+
+***
+
+### Imagem com classe *size-20*
+
+<img src="../../../../src/themes/standard/bg-teste.jpg" class="size-20" alt="Imagem de Teste" title="Imagem de Teste"/>
+
+***
+
+### Imagem com classe *size-15*
+
+<img src="../../../../src/themes/standard/bg-teste.jpg" class="size-15" alt="Imagem de Teste" title="Imagem de Teste"/>
+
+***
+
+### Imagem com classe *size-10*
+
+<img src="../../../../src/themes/standard/bg-teste.jpg" class="size-10" alt="Imagem de Teste" title="Imagem de Teste"/>
+
+***
+
+### Imagem com classe *size-5*
+
+<img src="../../../../src/themes/standard/bg-teste.jpg" class="size-5" alt="Imagem de Teste" title="Imagem de Teste"/>
+
+---
+
+## Alinhamento de Imagens
+
+---
+
+### Imagem com classe *left*
+
+<img src="../../../../src/themes/standard/bg-teste.jpg" class="left" alt="Imagem de Teste" title="Imagem de Teste"/>
+
+***
+
+### Imagem com classe *right*
+
+<img src="../../../../src/themes/standard/bg-teste.jpg" class="right" alt="Imagem de Teste" title="Imagem de Teste"/>
 
 ---
 
@@ -262,7 +414,7 @@ Este é um [link](#) que redireciona para a Terra da Representação.
 
 ---
 
-# Obras de Arthur Schopenhauer
+### Obras de Arthur Schopenhauer
 
 |                           Obra                          | Ano de Publicação |
 |:-------------------------------------------------------:|:-----------------:|
@@ -275,11 +427,65 @@ Este é um [link](#) que redireciona para a Terra da Representação.
 
 ---
 
-## Licença & Design
+## Design
 
 ---
 
-# Licença
+### Classes Especiais - Cores (I)
+
+<p class="color-black">.color-black    {  color: rgb(23, 23, 23);} </p>
+<p class="color-black-1">.color-black-1  {  color: rgb(87, 86, 87);} </p>
+<p class="color-white  ">.color-white    {  color: #fefefe;} </p>
+<p class="color-gray   ">.color-gray     {  color: #858585;} </p>
+<p class="color-blue   ">.color-blue     {  color: rgb(29, 73, 145);} </p>
+<p class="color-blue-1 ">.color-blue-1   {  color: rgb(0, 135, 196);} </p>
+<p class="color-teal   ">.color-teal     {  color: rgb(0, 195, 211);} </p>
+
+***
+
+### Classes Especiais - Cores (II)
+
+<p class="color-green  ">.color-green    {  color: rgb(38, 193, 150);} </p>
+<p class="color-green-1">.color-green-1  {  color: rgb(0, 138, 99);} </p>
+<p class="color-purple ">.color-purple   {  color: rgb(83, 83, 163);} </p>
+<p class="color-pink   ">.color-pink     {  color: rgb(220, 95, 144);} </p>
+<p class="color-yellow ">.color-yellow   {  color: rgb(250, 219, 29);} </p>
+<p class="color-orange ">.color-orange   {  color: #F4B400;  } </p>
+<p class="color-red    ">.color-red      {  color: rgb(219, 63, 26);} </p>
+
+***
+
+### Classes Especiais - Background (I)
+
+<p class="bg-black">.bg-black    {  background-color: rgb(23, 23, 23);} </p>
+<p class="bg-black-1">.bg-black-1  {  background-color: rgb(87, 86, 87);} </p>
+<p class="bg-white  ">.bg-white    {  background-color: #fefefe;} </p>
+<p class="bg-gray   ">.bg-gray     {  background-color: #858585;} </p>
+<p class="bg-blue   ">.bg-blue     {  background-color: rgb(29, 73, 145);} </p>
+<p class="bg-blue-1 ">.bg-blue-1   {  background-color: rgb(0, 135, 196);} </p>
+<p class="bg-teal   ">.bg-teal     {  background-color: rgb(0, 195, 211);} </p>
+
+***
+
+### Classes Especiais - Background (II)
+
+<p class="bg-green  ">.bg-green    {  background-color: rgb(38, 193, 150);} </p>
+<p class="bg-green-1">.bg-green-1  {  background-color: rgb(0, 138, 99);} </p>
+<p class="bg-purple ">.bg-purple   {  background-color: rgb(83, 83, 163);} </p>
+<p class="bg-pink   ">.bg-pink     {  background-color: rgb(220, 95, 144);} </p>
+<p class="bg-yellow ">.bg-yellow   {  background-color: rgb(250, 219, 29);} </p>
+<p class="bg-orange ">.bg-orange   {  background-color: #F4B400;  } </p>
+<p class="bg-red    ">.bg-red      {  background-color: rgb(219, 63, 26);} </p>
+
+---
+
+### Fontes Utilizadas
+
+- Raleway
+
+---
+
+### Licença
 
 Esta apresentação está distribuída com uma licença [Creative Commons Atribuição 4.0 Internacional](https://creativecommons.org/licenses/by/4.0/). Sinta-se a vontade para:
 
@@ -295,24 +501,213 @@ Esta apresentação está distribuída com uma licença [Creative Commons Atribu
 
 ---
 
-# Design
-
-**Fontes Utilizadas:**
-
-- Raleway Black
-- EB Garamond
-- EB Garamond SC 08
-
-**Cores Utilizadas:**
-
-<p style="color:#111111;">color-black:       #111111;</p>
-<p style="color:#3B3322;">color-brown:       #3B3322;</p>
-<p style="color:#eec600;">color-yellow:      #eec600;</p>
-<p style="color:#f0d040;">color-pale-yellow: #f0d040;</p>
-
----
-
 # Bonisa - Standard
+</div>
+
+<div class="container">
+  <article class="post-wrap page">
+      
+      <h2 class="post-title">Demonstração do Tema - Standard</h2>
+
+      <p><a href="#" onclick="startPresentation()"><i class="icofont-presentation"></i> Iniciar Apresentação</a></p>
+      <!--
+        AVISO!
+
+        O redirecionamento desta página, com um parâmetro de pesquisa ?print-pdf gera o arquivo PDF da apresentação.
+
+        Esta é uma funcionalidade experimental, ainda em processo de desenvolvimento e adaptação.
+        
+        <p><a href="./?print-pdf"><i class="icofont-presentation"></i> Gerar Apresentação em PDF</a></p>
+      -->
+
+      
+      <section class="post-content">
+          <h1 id="Bonisa-Standard"><a href="#Bonisa-Standard" class="headerlink" title="Bonisa - Standard"></a>Bonisa - Standard</h1><h2 id="Template-de-Apresentacao"><a href="#Template-de-Apresentacao" class="headerlink" title="Template de Apresentação"></a>Template de Apresentação</h2><h3 id="by-Bonisa-js"><a href="#by-Bonisa-js" class="headerlink" title="by: Bonisa.js"></a>by: Bonisa.js</h3><hr>
+<h1 id="Standard"><a href="#Standard" class="headerlink" title="Standard"></a>Standard</h1><p>Este é o tema padrão da biblioteca Bonisa.js.</p>
+<hr>
+<h2 id="Titulos"><a href="#Titulos" class="headerlink" title="Títulos"></a>Títulos</h2><hr>
+<p>Este tema permite a utilização dos elementos de <em>heading</em> do HTML, &lt;h1&gt; a &lt;h6&gt;, conforme mostrado abaixo.</p>
+<hr>
+<h1 id="Titulo-lt-h1-gt"><a href="#Titulo-lt-h1-gt" class="headerlink" title="Título &lt;h1&gt;"></a>Título &lt;h1&gt;</h1><hr>
+<h2 id="Titulo-lt-h2-gt"><a href="#Titulo-lt-h2-gt" class="headerlink" title="Título &lt;h2&gt;"></a>Título &lt;h2&gt;</h2><hr>
+<h3 id="Titulo-lt-h3-gt"><a href="#Titulo-lt-h3-gt" class="headerlink" title="Título &lt;h3&gt;"></a>Título &lt;h3&gt;</h3><hr>
+<h4 id="Titulo-lt-h4-gt"><a href="#Titulo-lt-h4-gt" class="headerlink" title="Título &lt;h4&gt;"></a>Título &lt;h4&gt;</h4><hr>
+<h5 id="Titulo-lt-h5-gt"><a href="#Titulo-lt-h5-gt" class="headerlink" title="Título &lt;h5&gt;"></a>Título &lt;h5&gt;</h5><hr>
+<h6 id="Titulo-lt-h6-gt"><a href="#Titulo-lt-h6-gt" class="headerlink" title="Título &lt;h6&gt;"></a>Título &lt;h6&gt;</h6><hr>
+<p>Neste slide não há nenhum título, apenas textos!</p>
+<hr>
+<h1 id=""><a href="#" class="headerlink" title=""></a></h1><p>Para alinhar o seu texto verticalmente sem a necessidade de inserir um título (&lt;h1&gt; a &lt;h6&gt;), basta inserir um cabeçalho em vazio!</p>
+<p>Neste slide há um elemento  &lt;h1&gt; vazio.</p>
+<hr>
+<h2 id="Textos"><a href="#Textos" class="headerlink" title="Textos"></a>Textos</h2><hr>
+<p>Este é um parágrafo.</p>
+<p>Este é um exemplo em <b>negrito</b> e este utiliza o elemento <strong>strong</strong>.</p>
+<p>Este é um exemplo de <i>itálico</i> e este é um exemplo do tipo <em>ênfase</em>.</p>
+<p>Aqui temos um exemplo de código-fonte: <code>for(;;){console.log('Loop');} </code></p>
+<p>Este é um <a href="#">link</a>.</p>
+<p><blockqoute>Este é um exemplo simples de uma frase utilizando o &lt;blockqoute&gt;</blockquote></p>
+<hr>
+<h1 id="Este-e-um-cabecalho-lt-h1-gt"><a href="#Este-e-um-cabecalho-lt-h1-gt" class="headerlink" title="Este é um cabeçalho &lt;h1&gt;"></a>Este é um cabeçalho &lt;h1&gt;</h1><p>Este é um parágrafo.</p>
+<p>Este é um exemplo em <b>negrito</b> e este utiliza o elemento <strong>strong</strong>.</p>
+<p>Este é um exemplo de <i>itálico</i> e este é um exemplo do tipo <em>ênfase</em>.</p>
+<p>Aqui temos um exemplo de código-fonte: <code>for(;;){console.log('Loop');} </code></p>
+<p>Este é um <a href="#">link</a>.</p>
+<p><blockqoute>Este é um exemplo simples de uma frase utilizando o &lt;blockqoute&gt;</blockquote></p>
+<hr>
+<h3 id="Este-e-um-cabecalho-lt-h3-gt"><a href="#Este-e-um-cabecalho-lt-h3-gt" class="headerlink" title="Este é um cabeçalho &lt;h3&gt;"></a>Este é um cabeçalho &lt;h3&gt;</h3><p>Este é um parágrafo.</p>
+<p>Este é um exemplo em <b>negrito</b> e este utiliza o elemento <strong>strong</strong>.</p>
+<p>Este é um exemplo de <i>itálico</i> e este é um exemplo do tipo <em>ênfase</em>.</p>
+<p>Aqui temos um exemplo de código-fonte: <code>for(;;){console.log('Loop');} </code></p>
+<p>Este é um <a href="#">link</a>.</p>
+<p><blockqoute>Este é um exemplo simples de uma frase utilizando o &lt;blockqoute&gt;</blockquote></p>
+<hr>
+<h5 id="Este-e-um-cabecalho-lt-h5-gt"><a href="#Este-e-um-cabecalho-lt-h5-gt" class="headerlink" title="Este é um cabeçalho &lt;h5&gt;"></a>Este é um cabeçalho &lt;h5&gt;</h5><p>Este é um parágrafo.</p>
+<p>Este é um exemplo em <b>negrito</b> e este utiliza o elemento <strong>strong</strong>.</p>
+<p>Este é um exemplo de <i>itálico</i> e este é um exemplo do tipo <em>ênfase</em>.</p>
+<p>Aqui temos um exemplo de código-fonte: <code>for(;;){console.log('Loop');} </code></p>
+<p>Este é um <a href="#">link</a>.</p>
+<p><blockqoute>Este é um exemplo simples de uma frase utilizando o &lt;blockqoute&gt;</blockquote></p>
+<hr>
+<h6 id="Este-e-um-cabecalho-lt-h6-gt"><a href="#Este-e-um-cabecalho-lt-h6-gt" class="headerlink" title="Este é um cabeçalho &lt;h6&gt;"></a>Este é um cabeçalho &lt;h6&gt;</h6><p>Este é um parágrafo.</p>
+<p>Este é um exemplo em <b>negrito</b> e este utiliza o elemento <strong>strong</strong>.</p>
+<p>Este é um exemplo de <i>itálico</i> e este é um exemplo do tipo <em>ênfase</em>.</p>
+<p>Aqui temos um exemplo de código-fonte: <code>for(;;){console.log('Loop');} </code></p>
+<p>Este é um <a href="#">link</a>.</p>
+<h2 id="Este-e-um-exemplo-simples-de-uma-frase-utilizando-o-lt-blockqoute-gt"><a href="#Este-e-um-exemplo-simples-de-uma-frase-utilizando-o-lt-blockqoute-gt" class="headerlink" title="Este é um exemplo simples de uma frase utilizando o &lt;blockqoute&gt;"></a><blockqoute>Este é um exemplo simples de uma frase utilizando o &lt;blockqoute&gt;</blockquote></h2><h2 id="Efeitos-de-Imagens"><a href="#Efeitos-de-Imagens" class="headerlink" title="Efeitos de Imagens"></a>Efeitos de Imagens</h2><hr>
+<p><img src="../../../../src/themes/standard/bg-teste.jpg" alt="Imagem de Teste"></p>
+<hr>
+<h3 id="Imagem-com-classe-full"><a href="#Imagem-com-classe-full" class="headerlink" title="Imagem com classe full"></a>Imagem com classe <em>full</em></h3><img src="../../../../src/themes/standard/bg-teste.jpg" class="full" alt="Imagem de Teste" title="Imagem de Teste"/>
+
+<hr>
+<h3 id="Imagem-com-classe-gray"><a href="#Imagem-com-classe-gray" class="headerlink" title="Imagem com classe gray"></a>Imagem com classe <em>gray</em></h3><img src="../../../../src/themes/standard/bg-teste.jpg" class="gray" alt="Imagem de Teste" title="Imagem de Teste"/>
+
+<hr>
+<h3 id="Imagem-com-classe-transparent"><a href="#Imagem-com-classe-transparent" class="headerlink" title="Imagem com classe transparent"></a>Imagem com classe <em>transparent</em></h3><img src="../../../../src/themes/standard/bg-teste.jpg" class="transparent" alt="Imagem de Teste" title="Imagem de Teste"/>
+
+<hr>
+<h3 id="Imagem-com-classe-gray-transparent"><a href="#Imagem-com-classe-gray-transparent" class="headerlink" title="Imagem com classe gray-transparent"></a>Imagem com classe <em>gray-transparent</em></h3><img src="../../../../src/themes/standard/bg-teste.jpg" class="gray-transparent" alt="Imagem de Teste" title="Imagem de Teste"/>
+
+<hr>
+<h2 id="Tamanhos-de-Imagens"><a href="#Tamanhos-de-Imagens" class="headerlink" title="Tamanhos de Imagens"></a>Tamanhos de Imagens</h2><hr>
+<h3 id="Imagem-padrao-width-75vw"><a href="#Imagem-padrao-width-75vw" class="headerlink" title="Imagem padrão - width = 75vw"></a>Imagem padrão - width = 75vw</h3><img src="../../../../src/themes/standard/bg-teste.jpg" alt="Imagem de Teste" title="Imagem de Teste"/>
+
+<hr>
+<h3 id="Imagem-com-classe-size-50"><a href="#Imagem-com-classe-size-50" class="headerlink" title="Imagem com classe size-50"></a>Imagem com classe <em>size-50</em></h3><img src="../../../../src/themes/standard/bg-teste.jpg" class="size-50" alt="Imagem de Teste" title="Imagem de Teste"/>
+
+<hr>
+<h3 id="Imagem-com-classe-size-25"><a href="#Imagem-com-classe-size-25" class="headerlink" title="Imagem com classe size-25"></a>Imagem com classe <em>size-25</em></h3><img src="../../../../src/themes/standard/bg-teste.jpg" class="size-25" alt="Imagem de Teste" title="Imagem de Teste"/>
+
+<hr>
+<h3 id="Imagem-com-classe-size-20"><a href="#Imagem-com-classe-size-20" class="headerlink" title="Imagem com classe size-20"></a>Imagem com classe <em>size-20</em></h3><img src="../../../../src/themes/standard/bg-teste.jpg" class="size-20" alt="Imagem de Teste" title="Imagem de Teste"/>
+
+<hr>
+<h3 id="Imagem-com-classe-size-15"><a href="#Imagem-com-classe-size-15" class="headerlink" title="Imagem com classe size-15"></a>Imagem com classe <em>size-15</em></h3><img src="../../../../src/themes/standard/bg-teste.jpg" class="size-15" alt="Imagem de Teste" title="Imagem de Teste"/>
+
+<hr>
+<h3 id="Imagem-com-classe-size-10"><a href="#Imagem-com-classe-size-10" class="headerlink" title="Imagem com classe size-10"></a>Imagem com classe <em>size-10</em></h3><img src="../../../../src/themes/standard/bg-teste.jpg" class="size-10" alt="Imagem de Teste" title="Imagem de Teste"/>
+
+<hr>
+<h3 id="Imagem-com-classe-size-5"><a href="#Imagem-com-classe-size-5" class="headerlink" title="Imagem com classe size-5"></a>Imagem com classe <em>size-5</em></h3><img src="../../../../src/themes/standard/bg-teste.jpg" class="size-5" alt="Imagem de Teste" title="Imagem de Teste"/>
+
+<hr>
+<h2 id="Alinhamento-de-Imagens"><a href="#Alinhamento-de-Imagens" class="headerlink" title="Alinhamento de Imagens"></a>Alinhamento de Imagens</h2><hr>
+<h3 id="Imagem-com-classe-left"><a href="#Imagem-com-classe-left" class="headerlink" title="Imagem com classe left"></a>Imagem com classe <em>left</em></h3><img src="../../../../src/themes/standard/bg-teste.jpg" class="left" alt="Imagem de Teste" title="Imagem de Teste"/>
+
+<hr>
+<h3 id="Imagem-com-classe-right"><a href="#Imagem-com-classe-right" class="headerlink" title="Imagem com classe right"></a>Imagem com classe <em>right</em></h3><img src="../../../../src/themes/standard/bg-teste.jpg" class="right" alt="Imagem de Teste" title="Imagem de Teste"/>
+
+<hr>
+<h2 id="Tabelas"><a href="#Tabelas" class="headerlink" title="Tabelas"></a>Tabelas</h2><hr>
+<h3 id="Obras-de-Arthur-Schopenhauer"><a href="#Obras-de-Arthur-Schopenhauer" class="headerlink" title="Obras de Arthur Schopenhauer"></a>Obras de Arthur Schopenhauer</h3><table>
+<thead>
+<tr>
+<th align="center">Obra</th>
+<th align="center">Ano de Publicação</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">Sobre a Raiz Quádrupla do Princípio da Razão Suficiente</td>
+<td align="center">1813</td>
+</tr>
+<tr>
+<td align="center">Sobre a Visão e as Cores</td>
+<td align="center">1815</td>
+</tr>
+<tr>
+<td align="center">O Mundo como Vontade e Representação</td>
+<td align="center">1819</td>
+</tr>
+<tr>
+<td align="center">Sobre a Vontade da Natureza</td>
+<td align="center">1836</td>
+</tr>
+<tr>
+<td align="center">Os Dois Problemas Fundamentais da Ética</td>
+<td align="center">1841</td>
+</tr>
+<tr>
+<td align="center">Parerga e Paralipomena</td>
+<td align="center">1851</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="Design"><a href="#Design" class="headerlink" title="Design"></a>Design</h2><hr>
+<h3 id="Classes-Especiais-Cores-I"><a href="#Classes-Especiais-Cores-I" class="headerlink" title="Classes Especiais - Cores (I)"></a>Classes Especiais - Cores (I)</h3><p class="color-black">.color-black    {  color: rgb(23, 23, 23);} </p>
+<p class="color-black-1">.color-black-1  {  color: rgb(87, 86, 87);} </p>
+<p class="color-white  ">.color-white    {  color: #fefefe;} </p>
+<p class="color-gray   ">.color-gray     {  color: #858585;} </p>
+<p class="color-blue   ">.color-blue     {  color: rgb(29, 73, 145);} </p>
+<p class="color-blue-1 ">.color-blue-1   {  color: rgb(0, 135, 196);} </p>
+<p class="color-teal   ">.color-teal     {  color: rgb(0, 195, 211);} </p>
+
+<hr>
+<h3 id="Classes-Especiais-Cores-II"><a href="#Classes-Especiais-Cores-II" class="headerlink" title="Classes Especiais - Cores (II)"></a>Classes Especiais - Cores (II)</h3><p class="color-green  ">.color-green    {  color: rgb(38, 193, 150);} </p>
+<p class="color-green-1">.color-green-1  {  color: rgb(0, 138, 99);} </p>
+<p class="color-purple ">.color-purple   {  color: rgb(83, 83, 163);} </p>
+<p class="color-pink   ">.color-pink     {  color: rgb(220, 95, 144);} </p>
+<p class="color-yellow ">.color-yellow   {  color: rgb(250, 219, 29);} </p>
+<p class="color-orange ">.color-orange   {  color: #F4B400;  } </p>
+<p class="color-red    ">.color-red      {  color: rgb(219, 63, 26);} </p>
+
+<hr>
+<h3 id="Classes-Especiais-Background-I"><a href="#Classes-Especiais-Background-I" class="headerlink" title="Classes Especiais - Background (I)"></a>Classes Especiais - Background (I)</h3><p class="bg-black">.bg-black    {  background-color: rgb(23, 23, 23);} </p>
+<p class="bg-black-1">.bg-black-1  {  background-color: rgb(87, 86, 87);} </p>
+<p class="bg-white  ">.bg-white    {  background-color: #fefefe;} </p>
+<p class="bg-gray   ">.bg-gray     {  background-color: #858585;} </p>
+<p class="bg-blue   ">.bg-blue     {  background-color: rgb(29, 73, 145);} </p>
+<p class="bg-blue-1 ">.bg-blue-1   {  background-color: rgb(0, 135, 196);} </p>
+<p class="bg-teal   ">.bg-teal     {  background-color: rgb(0, 195, 211);} </p>
+
+<hr>
+<h3 id="Classes-Especiais-Background-II"><a href="#Classes-Especiais-Background-II" class="headerlink" title="Classes Especiais - Background (II)"></a>Classes Especiais - Background (II)</h3><p class="bg-green  ">.bg-green    {  background-color: rgb(38, 193, 150);} </p>
+<p class="bg-green-1">.bg-green-1  {  background-color: rgb(0, 138, 99);} </p>
+<p class="bg-purple ">.bg-purple   {  background-color: rgb(83, 83, 163);} </p>
+<p class="bg-pink   ">.bg-pink     {  background-color: rgb(220, 95, 144);} </p>
+<p class="bg-yellow ">.bg-yellow   {  background-color: rgb(250, 219, 29);} </p>
+<p class="bg-orange ">.bg-orange   {  background-color: #F4B400;  } </p>
+<p class="bg-red    ">.bg-red      {  background-color: rgb(219, 63, 26);} </p>
+
+<hr>
+<h3 id="Fontes-Utilizadas"><a href="#Fontes-Utilizadas" class="headerlink" title="Fontes Utilizadas"></a>Fontes Utilizadas</h3><ul>
+<li>Raleway</li>
+</ul>
+<hr>
+<h3 id="Licenca"><a href="#Licenca" class="headerlink" title="Licença"></a>Licença</h3><p>Esta apresentação está distribuída com uma licença <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">Creative Commons Atribuição 4.0 Internacional</a>. Sinta-se a vontade para:</p>
+<ul>
+<li>Distribuir</li>
+<li>Copiar</li>
+<li>Modificar</li>
+<li>Publicar</li>
+<li>Fazer uso comercial</li>
+<li>Fazer uso privado</li>
+<li>Criar conteúdo derivado, utilizando outra licença</li>
+<li>Fazer o que você quiser (literalmente)</li>
+<li>Mas não se esqueça de manter uma cópia do arquivo LICENSE e atribuir o devido crédito a nóis, porque “dá trabalho pra fazer!”</li>
+</ul>
+<hr>
+<h1 id="Bonisa-Standard-1"><a href="#Bonisa-Standard-1" class="headerlink" title="Bonisa - Standard"></a>Bonisa - Standard</h1>
+      </section>
+  </article>
 </div>
         </div>
         <footer id="footer" class="footer">

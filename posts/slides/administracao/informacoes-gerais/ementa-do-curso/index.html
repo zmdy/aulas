@@ -68,13 +68,13 @@
             <div class="navbar-header header-logo"><a href="/aulas.txt/">aulas.txt</a></div>
             <div class="menu navbar-right">
                 
-                    <a class="menu-item" href="/aulas.txt/pages/cursos">Cursos</a>
+                    <a class="menu-item" href="/aulas.txt/./pages/cursos">Cursos</a>
                 
-                    <a class="menu-item" href="/aulas.txt/pages/tag">Materiais</a>
+                    <a class="menu-item" href="/aulas.txt/./pages/materiais">Materiais</a>
                 
-                    <a class="menu-item" href="/aulas.txt/pages/manual">Manual</a>
+                    <a class="menu-item" href="/aulas.txt/./pages/projetos">Projetos</a>
                 
-                    <a class="menu-item" href="/aulas.txt/pages/sobre">Sobre</a>
+                    <a class="menu-item" href="/aulas.txt/./pages/sobre">Sobre</a>
                 
                 <input id="switch_default" type="checkbox" class="switch_default">
                 <label for="switch_default" class="toggleBtn"></label>
@@ -93,13 +93,13 @@
             </div>
             <div class="menu" id="mobile-menu">
                 
-                    <a class="menu-item" href="/aulas.txt/pages/cursos">Cursos</a>
+                    <a class="menu-item" href="/aulas.txt/./pages/cursos">Cursos</a>
                 
-                    <a class="menu-item" href="/aulas.txt/pages/tag">Materiais</a>
+                    <a class="menu-item" href="/aulas.txt/./pages/materiais">Materiais</a>
                 
-                    <a class="menu-item" href="/aulas.txt/pages/manual">Manual</a>
+                    <a class="menu-item" href="/aulas.txt/./pages/projetos">Projetos</a>
                 
-                    <a class="menu-item" href="/aulas.txt/pages/sobre">Sobre</a>
+                    <a class="menu-item" href="/aulas.txt/./pages/sobre">Sobre</a>
                 
             </div>
         </div>
@@ -125,7 +125,13 @@
 
 
 <script>
-  window.onload = function(){
+  // Defines the delay function
+  function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+  }
+
+
+  function startPresentation(){
     var 
       content = document.querySelector("#slide-content").innerHTML,
       metadata = content.split('---')[1],
@@ -147,9 +153,22 @@
       title: title
     });
   }
+
+  window.onload = function(){
+    if(window.location.search == '?print-pdf'){
+      // Starts the presentation
+      startPresentation();
+
+      // Waits 5 seconds
+      sleep(5000).then(() => { 
+        // Opens the print page
+        window.print();
+      });
+    }
+  }
 </script>
 
-<div id="slide-content">
+<div id="slide-content" style="display: none;">
   ---
 title: Informações do Curso
 layout: slide
@@ -296,6 +315,321 @@ Descrição dos Módulos do Curso
 | Aula 02 | Apresentações - Parte 01                | 
 | Aula 03 | Apresentações - Parte 02                | 
 
+</div>
+
+<div class="container">
+  <article class="post-wrap page">
+      
+      <h2 class="post-title">Informações do Curso</h2>
+
+      <p><a href="#" onclick="startPresentation()"><i class="icofont-presentation"></i> Iniciar Apresentação</a></p>
+      <!--
+        AVISO!
+
+        O redirecionamento desta página, com um parâmetro de pesquisa ?print-pdf gera o arquivo PDF da apresentação.
+
+        Esta é uma funcionalidade experimental, ainda em processo de desenvolvimento e adaptação.
+        
+        <p><a href="./?print-pdf"><i class="icofont-presentation"></i> Gerar Apresentação em PDF</a></p>
+      -->
+
+      
+      <section class="post-content">
+          <h1 id="Auxiliar-Administrativo"><a href="#Auxiliar-Administrativo" class="headerlink" title="Auxiliar Administrativo"></a>Auxiliar Administrativo</h1><h2 id="Informacoes-do-Curso"><a href="#Informacoes-do-Curso" class="headerlink" title="Informações do Curso"></a>Informações do Curso</h2><hr>
+<h1 id="Objetivo-Geral-do-Curso"><a href="#Objetivo-Geral-do-Curso" class="headerlink" title="Objetivo Geral do Curso"></a>Objetivo Geral do Curso</h1><p>Criar oportunidade de qualificação profissional, por meio do desenvolvimento de competências e habilidades para atuar na área administrativa de empresas públicas e privadas de todos os portes e segmentos.</p>
+<hr>
+<h1 id="Objetivos-Especificos"><a href="#Objetivos-Especificos" class="headerlink" title="Objetivos Específicos"></a>Objetivos Específicos</h1><ul>
+<li>Apresentar e desenvolver abordagens teóricas e práticas relativas ao mercado administrativo;</li>
+<li>Apresentar ferramentas e técnicas utilizadas para a gestão de pessoas e situações;</li>
+<li>Apresentar abordagens práticas da comunicação e dinâmicas de grupo como ferramentas essenciais para todos os relacionamentos humanos;</li>
+<li>Fortalecer vínculos e habilidades interpessoais entre os estudantes, possibilitando o (re)conhecimento de suas forças e fraquezas perante ao mercado.</li>
+</ul>
+<hr>
+<h1 id="Requisitos"><a href="#Requisitos" class="headerlink" title="Requisitos"></a>Requisitos</h1><ul>
+<li>Não é necessário nenhum conhecimento prévio na área administrativa;</li>
+<li>Ensino Fundamental Completo;</li>
+<li>Idade Mínima: 16 anos;</li>
+</ul>
+<hr>
+<h1 id="Materiais-Necessarios"><a href="#Materiais-Necessarios" class="headerlink" title="Materiais Necessários"></a>Materiais Necessários</h1><ul>
+<li>1 Caderno - 96 folhas ou mais</li>
+<li>Material individual de escrita (caneta, lápis/lapiseira, borracha…)</li>
+<li>Calculadora (opcional mas <strong>altamente recomendável</strong>)</li>
+</ul>
+<hr>
+<h1 id="Modulos"><a href="#Modulos" class="headerlink" title="Módulos"></a>Módulos</h1><p>Descrição dos Módulos do Curso</p>
+<table>
+<thead>
+<tr>
+<th align="center">Curso</th>
+<th align="center">Carga Horária</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">Auxiliar Administrativo</td>
+<td align="center">20h</td>
+</tr>
+<tr>
+<td align="center">Contabilidade</td>
+<td align="center">26h</td>
+</tr>
+<tr>
+<td align="center">Departamento Pessoal</td>
+<td align="center">22h</td>
+</tr>
+<tr>
+<td align="center">Gestão de Pessoas</td>
+<td align="center">22h</td>
+</tr>
+<tr>
+<td align="center">Seminário de Conclusão</td>
+<td align="center">06h</td>
+</tr>
+<tr>
+<td align="center"><strong>Total</strong></td>
+<td align="center">96h / 12 meses</td>
+</tr>
+</tbody></table>
+<hr>
+<h1 id="EMENTA-–-MODULO-01"><a href="#EMENTA-–-MODULO-01" class="headerlink" title="EMENTA – MÓDULO 01"></a>EMENTA – MÓDULO 01</h1><h2 id="Auxiliar-Administrativo-1"><a href="#Auxiliar-Administrativo-1" class="headerlink" title="Auxiliar Administrativo"></a>Auxiliar Administrativo</h2><table>
+<thead>
+<tr>
+<th align="center">Aula</th>
+<th align="center">Conteúdo</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">Aula 01</td>
+<td align="center">Auxiliar Administrativo – Parte I</td>
+</tr>
+<tr>
+<td align="center">Aula 02</td>
+<td align="center">Auxiliar Administrativo – Parte II</td>
+</tr>
+<tr>
+<td align="center">Aula 03</td>
+<td align="center">Planejamento Financeiro - Parte I</td>
+</tr>
+<tr>
+<td align="center">Aula 04</td>
+<td align="center">Planejamento Financeiro - Parte II</td>
+</tr>
+<tr>
+<td align="center">Aula 05</td>
+<td align="center">Planejamento Financeiro - Parte III</td>
+</tr>
+<tr>
+<td align="center">Aula 06</td>
+<td align="center">TRABALHO PARCIAL</td>
+</tr>
+<tr>
+<td align="center">Aula 07</td>
+<td align="center">Impostos e Notas Fiscais</td>
+</tr>
+<tr>
+<td align="center">Aula 08</td>
+<td align="center">Comunicação e Empreendedorismo</td>
+</tr>
+<tr>
+<td align="center">Aula 09</td>
+<td align="center">Revisão</td>
+</tr>
+<tr>
+<td align="center">Aula 10</td>
+<td align="center">PROVA FINAL</td>
+</tr>
+</tbody></table>
+<hr>
+<h1 id="EMENTA-–-MODULO-02"><a href="#EMENTA-–-MODULO-02" class="headerlink" title="EMENTA – MÓDULO 02"></a>EMENTA – MÓDULO 02</h1><h2 id="Contabilidade"><a href="#Contabilidade" class="headerlink" title="Contabilidade"></a>Contabilidade</h2><table>
+<thead>
+<tr>
+<th align="center">Aula</th>
+<th align="center">Conteúdo</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">Aula 01</td>
+<td align="center">Introdução</td>
+</tr>
+<tr>
+<td align="center">Aula 02</td>
+<td align="center">Economia e Contabilidade</td>
+</tr>
+<tr>
+<td align="center">Aula 03</td>
+<td align="center">Pessoa Física x Jurídica – Tipos de Empresa</td>
+</tr>
+<tr>
+<td align="center">Aula 04</td>
+<td align="center">Contrato Social e Alteração Contratual</td>
+</tr>
+<tr>
+<td align="center">Aula 05</td>
+<td align="center">Contstituição de uma empresa</td>
+</tr>
+<tr>
+<td align="center">Aula 06</td>
+<td align="center">TRABALHO PARCIAL</td>
+</tr>
+<tr>
+<td align="center">Aula 07</td>
+<td align="center">Balanço Patrimonial e suas operações</td>
+</tr>
+<tr>
+<td align="center">Aula 08</td>
+<td align="center">Contabilização das contas</td>
+</tr>
+<tr>
+<td align="center">Aula 09</td>
+<td align="center">Grupo e plano de contas</td>
+</tr>
+<tr>
+<td align="center">Aula 10</td>
+<td align="center">Apurando Resultados / DRE</td>
+</tr>
+<tr>
+<td align="center">Aula 11</td>
+<td align="center">TRABALHO PARCIAL II</td>
+</tr>
+<tr>
+<td align="center">Aula 12</td>
+<td align="center">Revisão</td>
+</tr>
+<tr>
+<td align="center">Aula 13</td>
+<td align="center">PROVA FINAL</td>
+</tr>
+</tbody></table>
+<hr>
+<h1 id="EMENTA-–-MODULO-03"><a href="#EMENTA-–-MODULO-03" class="headerlink" title="EMENTA – MÓDULO 03"></a>EMENTA – MÓDULO 03</h1><h2 id="Departamento-Pessoal"><a href="#Departamento-Pessoal" class="headerlink" title="Departamento Pessoal"></a>Departamento Pessoal</h2><table>
+<thead>
+<tr>
+<th align="center">Aula</th>
+<th align="center">Conteúdo</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">Aula 01</td>
+<td align="center">Introdução + Tipos de Trabalho + Admissão</td>
+</tr>
+<tr>
+<td align="center">Aula 02</td>
+<td align="center">Jornada de Trabalho e folha de pagamento</td>
+</tr>
+<tr>
+<td align="center">Aula 03</td>
+<td align="center">Hora extra e hora noturna</td>
+</tr>
+<tr>
+<td align="center">Aula 04</td>
+<td align="center">REVISÃO + EXERCÍCIOS</td>
+</tr>
+<tr>
+<td align="center">Aula 05</td>
+<td align="center">FGTS</td>
+</tr>
+<tr>
+<td align="center">Aula 06</td>
+<td align="center">Descontos na Folha de Pagamento</td>
+</tr>
+<tr>
+<td align="center">Aula 07</td>
+<td align="center">Férias</td>
+</tr>
+<tr>
+<td align="center">Aula 08</td>
+<td align="center">13o Salário</td>
+</tr>
+<tr>
+<td align="center">Aula 09</td>
+<td align="center">Recisão de Contrato de Trabalho</td>
+</tr>
+<tr>
+<td align="center">Aula 10</td>
+<td align="center">REVISÃO</td>
+</tr>
+<tr>
+<td align="center">Aula 11</td>
+<td align="center">PROVA FINAL</td>
+</tr>
+</tbody></table>
+<hr>
+<h1 id="EMENTA-–-MODULO-04"><a href="#EMENTA-–-MODULO-04" class="headerlink" title="EMENTA – MÓDULO 04"></a>EMENTA – MÓDULO 04</h1><h2 id="Gestao-de-Pessoas"><a href="#Gestao-de-Pessoas" class="headerlink" title="Gestão de Pessoas"></a>Gestão de Pessoas</h2><table>
+<thead>
+<tr>
+<th align="center">Aula</th>
+<th align="center">Conteúdo</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">Aula 01</td>
+<td align="center">Introdução</td>
+</tr>
+<tr>
+<td align="center">Aula 02</td>
+<td align="center">Gestão Estratégica</td>
+</tr>
+<tr>
+<td align="center">Aula 03</td>
+<td align="center">Planejamento de Metas e Motivação</td>
+</tr>
+<tr>
+<td align="center">Aula 04</td>
+<td align="center">Psicologia 101</td>
+</tr>
+<tr>
+<td align="center">Aula 05</td>
+<td align="center">Delegação e Aconselhamento</td>
+</tr>
+<tr>
+<td align="center">Aula 06</td>
+<td align="center">Administração de Conflitos</td>
+</tr>
+<tr>
+<td align="center">Aula 07</td>
+<td align="center">REVISÃO + EXERCÍCIOS</td>
+</tr>
+<tr>
+<td align="center">Aula 08</td>
+<td align="center">Desenvolvimento Gerencial e Comunicação</td>
+</tr>
+<tr>
+<td align="center">Aula 09</td>
+<td align="center">Relacionamento Interpessoal</td>
+</tr>
+<tr>
+<td align="center">Aula 10</td>
+<td align="center">REVISÃO FINAL</td>
+</tr>
+<tr>
+<td align="center">Aula 11</td>
+<td align="center">PROVA FINAL</td>
+</tr>
+</tbody></table>
+<hr>
+<h1 id="EMENTA-–-MODULO-05"><a href="#EMENTA-–-MODULO-05" class="headerlink" title="EMENTA – MÓDULO 05"></a>EMENTA – MÓDULO 05</h1><h2 id="Seminario-Final"><a href="#Seminario-Final" class="headerlink" title="Seminário Final"></a>Seminário Final</h2><table>
+<thead>
+<tr>
+<th align="center">Aula</th>
+<th align="center">Conteúdo</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">Aula 01</td>
+<td align="center">Preparação das Apresentação</td>
+</tr>
+<tr>
+<td align="center">Aula 02</td>
+<td align="center">Apresentações - Parte 01</td>
+</tr>
+<tr>
+<td align="center">Aula 03</td>
+<td align="center">Apresentações - Parte 02</td>
+</tr>
+</tbody></table>
+
+      </section>
+  </article>
 </div>
         </div>
         <footer id="footer" class="footer">

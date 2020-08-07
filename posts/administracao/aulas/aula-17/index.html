@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="UTF-8">
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="author" content="zmdy">
+
+
+
+
+
+<title>Aula 07 -  Módulo 02 - Contabilidade | aulas.txt</title>
+
+<!-- HERE ARE SOME LIBARIES AND PERSONAL TOOLS OF THE SRC FOLDER -->
+<script src="/aulas.txt/src/js/bonisa.min.js"></script>
+<script src="/aulas.txt/src/libs/printjs/print.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="/aulas.txt/assets/media/fonts/icofont/icofont.css">
+<script>
+  function printPage(){
+    printJS({
+        printable: 'aulasTXT', type: 'html',
+        header: null,
+        css: '/aulas.txt/css/style.css'
+    });
+  }
+</script>
+
+
+
+
+    <link rel="icon" href="/aulas.txt/favicon.png">
+
+
+
+
+    <!-- stylesheets list from _config.yml -->
+    
+    <link rel="stylesheet" href="/aulas.txt/css/style.css">
+    
+
+
+
+    <!-- scripts list from _config.yml -->
+    
+    <script src="/aulas.txt/js/script.js"></script>
+    
+    <script src="/aulas.txt/js/tocbot.min.js"></script>
+    
+
+
+
+    
+    
+        
+    
+
+
+<meta name="generator" content="Hexo 4.2.0"><!-- hexo-inject:begin --><!-- hexo-inject:end --></head>
+<body>
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><div class="wrapper">
+        <header>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header header-logo"><a href="/aulas.txt/">aulas.txt</a></div>
+            <div class="menu navbar-right">
+                
+                    <a class="menu-item" href="/aulas.txt/./pages/cursos">Cursos</a>
+                
+                    <a class="menu-item" href="/aulas.txt/./pages/materiais">Materiais</a>
+                
+                    <a class="menu-item" href="/aulas.txt/./pages/projetos">Projetos</a>
+                
+                    <a class="menu-item" href="/aulas.txt/./pages/sobre">Sobre</a>
+                
+                <input id="switch_default" type="checkbox" class="switch_default">
+                <label for="switch_default" class="toggleBtn"></label>
+            </div>
+        </div>
+    </nav>
+
+    
+    <nav class="navbar-mobile" id="nav-mobile">
+        <div class="container">
+            <div class="navbar-header">
+                <div>
+                    <a href="/aulas.txt/">aulas.txt</a><a id="mobile-toggle-theme">·&nbsp;Light</a>
+                </div>
+                <div class="menu-toggle" onclick="mobileBtn()">&#9776; Menu</div>
+            </div>
+            <div class="menu" id="mobile-menu">
+                
+                    <a class="menu-item" href="/aulas.txt/./pages/cursos">Cursos</a>
+                
+                    <a class="menu-item" href="/aulas.txt/./pages/materiais">Materiais</a>
+                
+                    <a class="menu-item" href="/aulas.txt/./pages/projetos">Projetos</a>
+                
+                    <a class="menu-item" href="/aulas.txt/./pages/sobre">Sobre</a>
+                
+            </div>
+        </div>
+    </nav>
+
+</header>
+<script>
+    var mobileBtn = function f() {
+        var toggleMenu = document.getElementsByClassName("menu-toggle")[0];
+        var mobileMenu = document.getElementById("mobile-menu");
+        if(toggleMenu.classList.contains("active")){
+           toggleMenu.classList.remove("active")
+            mobileMenu.classList.remove("active")
+        }else{
+            toggleMenu.classList.add("active")
+            mobileMenu.classList.add("active")
+        }
+    }
+</script>
+        <div class="main padding-05mm" id="aulasTXT">
+            <div class="container">
+    
+    
+        <div class="post-toc">
+    <div class="tocbot-list">
+    </div>
+    <div class="tocbot-list-menu">
+        <a class="tocbot-toc-expand" onclick="expand_toc()">Expand all</a>
+        <a onclick="go_top()">Back to top</a>
+        <a onclick="go_bottom()">Go to bottom</a>
+    </div>
+</div>
+
+<script>
+    document.ready(
+        function () {
+            tocbot.init({
+                tocSelector: '.tocbot-list',
+                contentSelector: '.post-content',
+                headingSelector: 'h1, h2, h3, h4, h5',
+                collapseDepth: 1,
+                orderedList: false,
+                scrollSmooth: true,
+            })
+        }
+    )
+
+    function expand_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 6,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "collapse_toc()");
+        b.innerHTML = "Collapse all"
+    }
+
+    function collapse_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 1,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "expand_toc()");
+        b.innerHTML = "Expand all"
+    }
+
+    function go_top() {
+        window.scrollTo(0, 0);
+    }
+
+    function go_bottom() {
+        window.scrollTo(0, document.body.scrollHeight);
+    }
+
+</script>
+    
+
+    
+    <article class="post-wrap">
+        <header class="post-header">
+            <h1 class="post-title">Aula 07 -  Módulo 02 - Contabilidade</h1>
+            
+                <div class="post-meta">
+                    
+
+                    
+                        <span class="post-time">
+                        Data de Publicação: <a href="#">06/08/2020&nbsp;&nbsp;10:39</a>
+                        </span>
+                    
+                    
+                </div>
+            
+        </header>
+
+        <div class="post-content">
+            <img src="../../../../assets/media/img/cursos/logo-auxiliar-administrativo-01.png" alt="Auxiliar Administrativo" title="Auxiliar Administrativo" class="img-50  bg-white">
+
+<p>Bem vindx a mais uma aula de Contabilidade.</p>
+<p>Até a aula passada, o nosso módulo focou nos aspectos burocráticos da Contabilidade. Dessa forma, analisamos os diferentes tipos de Pessoas Jurídicas e Formas de Organização, bem como aprendemos a importância do Contrato Social.</p>
+<p>A partir desta aula iremos focar nos aspectos patrimoniais da contabilidade.</p>
+<p>Para melhor absorção dos conceitos desta aula, sugiro o material descrito nas referências bibliográficas, em especial:</p>
+<p><a href="http://redeetec.mec.gov.br/images/stories/pdf/proeja/contabil_basica.pdf" target="_blank" rel="noopener">BÄCHTOLD. Contabilidade Básica</a></p>
+<p><a href="https://www.ifb.edu.br/attachments/6243_no%C3%A7%C3%B5es%20de%20contabilidade%20b%C3%A1sica%20para%20cursos%20t%C3%A9cnicos%20final.pdf" target="_blank" rel="noopener">OLIVEIRA &amp; MOREIRA. Noções de Contabilidade Básica Para Cursos Técnicos</a></p>
+<hr>
+<h2 id="Sumario-da-Aula"><a href="#Sumario-da-Aula" class="headerlink" title="Sumário da Aula"></a>Sumário da Aula</h2><ol>
+<li><a href="#Como-Funciona-a-Economia">Como funciona a economia?</a></li>
+<li><a href="#A-Maquina-Economica-de-Ray-Dalio">A Máquina Econômica de Ray Dalio</a></li>
+<li><a href="#Contabilidade-e-Economia">Contabilidade e Economia</a></li>
+<li><a href="#Resumo">Resumo</a></li>
+<li><a href="#Exercicios">Exercícios</a></li>
+<li><a href="#Referencias-Bibliograficas">Referências Bibliográficas</a></li>
+</ol>
+<hr>
+<h2 id="Revisao-dos-Conceitos-Contabeis"><a href="#Revisao-dos-Conceitos-Contabeis" class="headerlink" title="Revisão dos Conceitos Contábeis"></a>Revisão dos Conceitos Contábeis</h2><p>Na <a href="../aula-14/">4ª aula deste módulo</a> analisamos alguns princípios e conceitos fundamentais para o estudo da Contabilidade.</p>
+<p>A Resolução nº 750, aprovada pelo Conselho Federal da Contabilidade em 1993 (e alterada em alguns tópicos em 2010), delimita os 7 Princípios Fundamentais da Contabilidade. Estes princípios “<em>são necessários para fundamentar as técnicas ou doutrinas e orientar os profissionais da Contabilidade na utilização de parâmetros para realização de suas atividades</em>“ (OLIVEIRA &amp; MOREIRA, 2013).</p>
+<p>Destes 7 Princípios, daremos ênfase especial a 1 deles:</p>
+<p>1) <strong>Princípio da Entidade</strong>: o patrimônio de uma entidade é diferente e autônomo do patrimônio particular de seus gestores ou sócios. Em resumo: o patrimônio de uma empresa não deve ser confundido com o patrimônio de seus donos/sócios.</p>
+<p>O Princípio da Entidade pressupõe que toda empresa possui um <strong>patrimônio</strong>, isto é, um conjunto de bens, direitos e obrigações vinculados a ela.</p>
+<p>Em contabilidade <strong>bens</strong> são os elementos que podem ser <strong>avaliados monetariamente</strong> e podem ser destinados para uso, troca ou venda. Os bens <strong>possuem utilidade</strong>, pois são eles que satisfazem as necessidades de seus proprietários (BÄCHTOLD, 2012). </p>
+<p><strong>Direitos</strong> são os elementos que representam os bens que a empresa tem a receber. Exemplo: contribuições a receber, títulos a receber, adiantamento concedido, <strong>créditos</strong> a receber, etc</p>
+<p><strong>Obrigações</strong> são as responsabilidades de pagamento por bens adquiridos ou despesas realizadas. Portanto, temos aqui uma obrigação, uma <strong>dívida</strong> que poderá ser paga imediatamente ou a prazo. As obrigações na contabilidade recebem o nome técnico de <strong>exigível</strong>, por se exigir da empresa o pagamento das dívidas (BÄCHTOLD, 2012). </p>
+<hr>
+<h2 id="Componentes-do-Patrimonio"><a href="#Componentes-do-Patrimonio" class="headerlink" title="Componentes do Patrimônio"></a>Componentes do Patrimônio</h2><p>Os diferentes elementos do patrimônio (bens, direitos e obrigações) podem ser agrupados em 2 diferentes componentes: o <strong>ativo</strong> e o <strong>passivo</strong>.</p>
+<p>O <strong>ativo</strong> compreende os <strong>bens e os direitos</strong> controlados pela entidade e expresso em moeda e possuem a característica de <strong>gerar benefícios de fluxos de Caixa</strong> futuros para a entidade (OLIVEIRA &amp; MOREIRA, 2012).</p>
+<p>Já os <strong>passivos</strong> são todas as <strong>obrigações a pagar</strong> que a empresa possui, ou seja, são compromissos para com terceiros devido ao consumo de recursos (OLIVEIRA &amp; MOREIRA, 2012).</p>
+<p>O <strong>Patrimônio Líquido</strong> é definido como o <strong>saldo</strong> resultante da diferença entre o valor do Ativo e do Passivo de uma empresa.</p>
+<p>Exemplo: se uma empresa possuir um Ativo (bens + direitos) no valor de R$ 50.000 e um Passivo (obrigações) no valor de R$ 30.000, então, tem-se um Patrimônio Líquido de R$ 20.000</p>
+<p><code>PATRIMÔNIO LÍQUIDO (PL) = ATIVOS - PASSIVOS</code></p>
+<p>Em resumo:</p>
+<p><strong>Componentes do Patrimônio de uma Entidade</strong></p>
+<table>
+<thead>
+<tr>
+<th>Componente</th>
+<th>Elementos</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Ativo</td>
+<td>* Bens; * Direitos;</td>
+</tr>
+<tr>
+<td>Passivo</td>
+<td>* Deveres;</td>
+</tr>
+<tr>
+<td>Patrimônio Líquido</td>
+<td>* Ativos - Passivos</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="Balanco-Patrimonial"><a href="#Balanco-Patrimonial" class="headerlink" title="Balanço Patrimonial"></a>Balanço Patrimonial</h2><p>O Patrimônio de uma Entidade pode ser representado graficamente por meio de uma tabela especial chamada de <strong>Balanço Patrimonial</strong>.</p>
+<p>No balanço patrimonial considera-se o <strong>Patrimônio Líquido</strong> de uma Empresa como uma parte do <strong>Patrimônio Passivo</strong>. Desta forma, ao realizar as devidas operações, <strong>o total do Ativo (A) será exatamente igual ao total do Passsivo (P)</strong>.</p>
+<p><strong>Exemplo:</strong> uma empresa possui um patrimônio composto pelos seguintes elementos:</p>
+<ul>
+<li>Bens = R$ 125.000,00</li>
+<li>Exigíveis = R$ 50.000,00</li>
+<li>Direitos = 25.000,00</li>
+</ul>
+<p>Para calcular o <strong>Patrimônio Ativo</strong> da empresa, basta somar os <strong>bens com os direitos</strong>:</p>
+<p><code>PATRIMÔNIO ATIVO = BENS + DIREITOS</code></p>
+<ul>
+<li>Patrimônio Ativo = 125.000,00 + 25.000,00 = R$ 150.000,00</li>
+</ul>
+<p>O próximo passo é delimitar os exigíveis (deveres) da empresa:</p>
+<p><code>EXIGÍVEIS = DEVERES</code></p>
+<ul>
+<li>Exigíveis da Empresa = R$ 50.000,00</li>
+</ul>
+<p>Com esses dados podemos calcular o <strong>Patrimônio Líquido da Empresa</strong>:</p>
+<p><code>PATRIMÔNIO LÍQUIDO (PL) = ATIVOS - PASSIVOS</code></p>
+<ul>
+<li>Patrimônio Líquido = 150.000 - 50.000 = R$ 100.000,00</li>
+</ul>
+<p>O último passo é calcular o <strong>Patrimônio Passivo</strong> da Empresa:</p>
+<p><code>PATRIMÔNIO PASSIVO = EXIGÍVEIS + PL</code></p>
+<ul>
+<li>Patrimônio Passivo = 50.000,00 + 100.000,00 = R$ 150.000,00</li>
+</ul>
+<p>A representação gráfica do Balanço Patrimonial é feita por meio de uma tabela que apresenta a seguinte estrutura:</p>
+<p><img src="../../../../assets/media/img/contabilidade/estrutura-grafica-patrimonio.png" alt="Estrutura Gráfica do Balanço Patrimonial"></p>
+<p>(Imagem retirada do livro de Ciro Bächtold - Contabilidade Básica, 2013)</p>
+<p>Para fixar os conceitos vistos, vamos montar o Gráfico Patrimonial (Balanço Patrimonial) de uma padaria, que em determinado dia realizou as seguintes operações financeiras:</p>
+<ul>
+<li>Vendas (dinheiro): R$ 550,00</li>
+<li>Combustível automóvel: R$ 100,00</li>
+<li>Pagamento de fatura: R$ 225,00</li>
+<li>Vendas (a receber): R$ 50,00</li>
+<li>Vale transporte dos funcionários: R$ 75,00</li>
+<li>Vendas (cartão): R$ 220,00</li>
+<li>Vendas (aplicativos): R$ 130,00 </li>
+<li>Pagamento de fornecedor: R$ 320,00</li>
+</ul>
+<p>O primeiro passo para a montagem do Balanço Patrimonial é separar os itens em ativos e passivos:</p>
+<table>
+<thead>
+<tr>
+<th>Ativos</th>
+<th>Passivos</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Vendas (Dinheiro)</td>
+<td>Combustível Automóvel</td>
+</tr>
+<tr>
+<td>Vendas (Cartão)</td>
+<td>Vale transporte dos funcionários</td>
+</tr>
+<tr>
+<td>Vendas (Aplicativos)</td>
+<td>Pagamento de Fatura</td>
+</tr>
+<tr>
+<td>Vendas (A receber)</td>
+<td>Pagamento de Fornecedor</td>
+</tr>
+</tbody></table>
+<p>Com os itens separados, devemos passá-los para uma tabela de Balanço Patrimonial, como a mostrada abaixo:</p>
+<p><img src="../../../../assets/media/img/contabilidade/modelo-balanco-patrimonial-em-branco.png" alt="Estrutura Gráfica do Balanço Patrimonial"></p>
+<p>Em um Gráfico de Balanço Patrimonial, os ativos sempre deverão ser colocados no lado esquerdo da tabela; os passivos devem ser posicionados no lado direito da mesma.</p>
+<p><img src="../../../../assets/media/img/contabilidade/modelo-balanco-patrimonial-preenchido-passo-01.png" alt="Estrutura Gráfica do Balanço Patrimonial"></p>
+<p>Com as informações já inseridas no gráfico, é hora de efetuar as operações.</p>
+<p>1) Calcule o Patrimônio Ativo: <code>PATRIMÔNIO ATIVO = BENS + DIREITOS</code></p>
+<blockquote>
+<p>Patrimônio Ativo = R$ 1.000,00</p>
+</blockquote>
+<p>2) Calcule o Passivo Exigível: <code>PASSIVO EXIGÍVEL = DEVERES</code></p>
+<blockquote>
+<p>Passivo Exigível = R$ R$ 720,00</p>
+</blockquote>
+<p>3) Calcule o Patrimônio Líquido: <code>PATRIMÔNIO LÍQUIDO (PL) = ATIVOS - PASSIVOS</code></p>
+<blockquote>
+<p>Patrimônio Líquido = 1.000,00 - 720,00 = R$ 280,00</p>
+</blockquote>
+<p><img src="../../../../assets/media/img/contabilidade/modelo-balanco-patrimonial-preenchido-passo-02.png" alt="Estrutura Gráfica do Balanço Patrimonial"></p>
+<p>4) Calcule o Patrimônio Passivo: <code>PATRIMÔNIO PASSIVO = EXIGÍVEIS + PL</code></p>
+<blockquote>
+<p>Patrimônio Passivo = 720,00 + 280,00 = R$ 1.000,00</p>
+</blockquote>
+<p>Conforme o esperado, o Patrimônio Ativo é exatamente igual ao Patrimônio Passivo.</p>
+<p><img src="../../../../assets/media/img/contabilidade/modelo-balanco-patrimonial-preenchido-passo-03.png" alt="Estrutura Gráfica do Balanço Patrimonial"></p>
+<hr>
+<h2 id="Transacoes-Especiais-do-Balanco-Patrimonial"><a href="#Transacoes-Especiais-do-Balanco-Patrimonial" class="headerlink" title="Transações Especiais do Balanço Patrimonial"></a>Transações Especiais do Balanço Patrimonial</h2><p>Algumas transações especiais, como é o caso da <strong>constituição de empresas</strong>, do <strong>investimento de capital</strong> e as <strong>compras a prazo</strong> provocam variações no Balanço Patrimonial.</p>
+<h3 id="Conceitos-Importantes"><a href="#Conceitos-Importantes" class="headerlink" title="Conceitos Importantes"></a>Conceitos Importantes</h3><p>Antes de analisarmos os casos de transações especiais, é necessário definir alguns conceitos muito utilizados em contas patrimoniais:</p>
+<p>1) <strong>Origem  dos Recursos</strong>: também chamada de <strong>fonte de recursos</strong>, é de onde a empresa está conseguindo o capital para investimento. Estas fontes podem ser de Capital Próprio (CP) ou Capital de Terceiros (CT).</p>
+<p>2) <strong>Capital Próprio</strong>:  É o capital dos sócios e está representada no Balanço Patrimonial pelo Patrimônio Líquido.</p>
+<p>3) <strong>Capital de Terceiros</strong>: É o capital dos outros (terceiros) que estão representados no Balanço Patrimonial pelas obrigações (exigíveis). Tratam-se, neste caso, de empréstimos e outras modalidades de aplicações, que serão futuramente explicadas.</p>
+<p>4) <strong>Aplicação de Recursos</strong>: É onde estão sendo investidos os recursos na empresa, podendo estar em aplicações de curto ou longo prazo.</p>
+<h3 id="Constituicao-de-uma-Empresa"><a href="#Constituicao-de-uma-Empresa" class="headerlink" title="Constituição de uma Empresa"></a>Constituição de uma Empresa</h3><p>Como vimos nas aulas anteriores, ao se abrir uma empresa faz-se necessário um investimento inicial por parte de seus sócios-fundadores. Este investimento recebe o nome de <strong>Capital Social</strong>.</p>
+<p>O Capital Social se caracteriza, ao mesmo tempo, como uma <strong>ativo</strong> e um <strong>passivo</strong>.</p>
+<p>Por um lado, este valor é considerado um <strong>passivo</strong>, parte do Patrimônio Líquido, devido ao fato de ser um investimento feito pelos sócios da empresa. Após algum tempo, conforme os lucros da empresa forem sendo mantidos, este valor será retornado aos sócios.</p>
+<p>Por outro lado, o Capital Social é visto como um <strong>ativo</strong> devido ao fato de ser aplicada ao caixa da empresa ou à sua conta bancária.</p>
+<p>O Patrimônio Líquido da empresa, neste caso, aumentou devido ao investimento realizado na mesma.</p>
+<p><strong>Exemplo:</strong> 2 sócios investiram R$ 250.000,00 cada um para a fundação de uma empresa. Deste capital, R$ 100.000,00 foram aplicados diretamente ao caixa da empresa, e o valor restante foi transferido para a conta bancária da instituição. Monte o Balanço Patrimonial referente à esta transação.  </p>
+<p><img src="../../../../assets/media/img/contabilidade/exemplo-balanco-patrimonial-constituicao-de-uma-empresa.png" alt="Transação Constituição de uma Empresa"></p>
+<h3 id="Compras-a-prazo"><a href="#Compras-a-prazo" class="headerlink" title="Compras a prazo"></a>Compras a prazo</h3><p>Ao efetuar uma compra a prazo deve-se preencher o Balanço Patrimonial de forma semelhante à mostrada no tópico anterior. Compras a prazo são vistas, simultaneamente, como um ativo e um passivo para o patrimônio da empresa. </p>
+<p><strong>Exemplo:</strong> Uma empresa realizou a compra de produtos no valor de R$ 15.000,00, para pagamento a prazo.</p>
+<p>Os produtos adquiridos são considerados <strong>ativos</strong>, pois serão incorporado ao patrimônio já existente da mesma. Por outro lado, os mesmos produtos serão considerados <strong>passivos</strong>, pois a empresa contraiu uma dívida de R$ 15.000,00 referente à compra dos mesmos.</p>
+<p>O patrimônio líquido da empresa será, neste caso, não seria afetado - pois o produto adquirido foi incorporado como ativo e passivo, simultaneamente.</p>
+<p><img src="../../../../assets/media/img/contabilidade/exemplo-balanco-patrimonial-compra-de-produto.png" alt="Transação Compra"></p>
+<h3 id="Investimento-de-Capital"><a href="#Investimento-de-Capital" class="headerlink" title="Investimento de Capital"></a>Investimento de Capital</h3><p>Quando uma empresa realiza recebe um investimento de capital, seja ele próprio ou de terceiros, tem-se uma situação diferenciada em relação ao Patrimônio Líquido.</p>
+<p>Vamos considerar uma empresa que tenha realizado as seguintes transações:</p>
+<ul>
+<li>Imóveis próprios: 90.000,00</li>
+<li>Contas a pagar: R$ 10.000,00</li>
+<li>Salários a pagar: R$ 18.700,00</li>
+<li>Estoques: R$ 35.000,00</li>
+<li>Impostos a recolher: $2.300,00</li>
+</ul>
+<p>Esta empresa recebeu um investimento de capital (Capital Social) de 60.000,00 - que foi utilizado da seguinte forma:</p>
+<ul>
+<li>Caixa da empresa: R$ 10.000,00</li>
+<li>Conta Bancária: R$ 25.000,00</li>
+<li>Compra de Equipamentos: R$ 15.000,00</li>
+</ul>
+<p>Crie o Balanço Patrimonial referente às transações mostradas acima.</p>
+<p>1º Passo: Preencher o gráfico de Balanço Patrimonial.</p>
+<p><img src="../../../../assets/media/img/contabilidade/exemplo-balanco-patrimonial-investimento-1.png" alt="Transação Investimento"></p>
+<p>2º Passo: Calcular os Patrimônios Ativo e Passivo.</p>
+<p><img src="../../../../assets/media/img/contabilidade/exemplo-balanco-patrimonial-investimento-2.png" alt="Transação Investimento"></p>
+<p>Repare que houve uma diferença de R$ 84.000,00 entre os Patrimônios Ativo e Passivo (P.A. - P.P.). Esta diferença deve ser analisada como o <strong>Lucro Acumulado</strong> da empresa.</p>
+<p><code>LUCRO ACUMULADO = PATRIMÔNIO ATIVO - PATRIMÔNIO PASSIVOS</code></p>
+<p><img src="../../../../assets/media/img/contabilidade/exemplo-balanco-patrimonial-investimento-3.png" alt="Transação Investimento"></p>
+<hr>
+<h2 id="Situacoes-Patrimoniais-Possiveis"><a href="#Situacoes-Patrimoniais-Possiveis" class="headerlink" title="Situações Patrimoniais Possíveis"></a>Situações Patrimoniais Possíveis</h2><p>Existem 3 diferentes tipos de situações patrimoniais que podem ser vivenciados por uma empresa. Estas situações refletem o estado da Patrimônio Líquido da instituição.</p>
+<p>As Situações Patrimoniais possíveis devem ser analisadas a partir do cálculo do PL da empresa: <code>PATRIMÔNIO LÍQUIDO (PL) = ATIVOS - PASSIVOS</code></p>
+<h3 id="Situacao-Liquida-Positiva-superavitaria"><a href="#Situacao-Liquida-Positiva-superavitaria" class="headerlink" title="Situação Líquida Positiva (superavitária)"></a>Situação Líquida Positiva (superavitária)</h3><p>Quando o conjunto de bens e direitos é maior do que as obrigações de uma instituição, diz-se que a empresa possui uma <strong>situação líquida positiva</strong>, também conhecida como <strong>situação líquida ativa</strong> ou <strong>superavitária</strong>.</p>
+<p>Essa situação implica diretamente que o Patrimônio Líquido será maior que 0.</p>
+<p><code>Situação Superavitária: Ativo &gt; Passivo; PL &gt; 0</code></p>
+<p>Exemplo: o Patrimônio Ativo de uma empresa é de R$ 150.000,00, ao passo em que o Patrimônio Passivo da mesma é de R$ 25.000,00.</p>
+<p>Repare que o ativo da empresa (R$ 150.000,00) é maior que o passivo da mesma (R$ 25.000,00). Neste caso, o Patrimônio Líquido foi de R$ 125.000,00.</p>
+<h3 id="Situacao-Liquida-Negativa-deficitaria"><a href="#Situacao-Liquida-Negativa-deficitaria" class="headerlink" title="Situação Líquida Negativa (deficitária)"></a>Situação Líquida Negativa (deficitária)</h3><p>Essa situação ocorre quando o passivo de uma empresa (exigíveis) é superior ao ativo da mesma. Também conhecida como <strong>situação líquida passiva</strong> ou <strong>deficitária</strong>.</p>
+<p>Essa situação implica diretamente que o Patrimônio Líquido será menor que 0. Em termos técnicos, essa situação é chamada de <strong>Passivo a Descoberto</strong> e indica que a empresa não consegue cobrir (honrar) as suas obrigações com terceiros.</p>
+<p><code>Situação Deficitária: Ativo &lt; Passivo; PL &lt; 0</code></p>
+<p>Exemplo: o Patrimônio Ativo de uma empresa é de R$ 100.000,00, ao passo em que o Patrimônio Passivo da mesma é de R$ 125.000,00.</p>
+<p>Repare que o ativo da empresa (R$ 100.000,00) é menor que o passivo da mesma (R$ 125.000,00). Neste caso, o Patrimônio Líquido foi de - R$ 25.000,00.</p>
+<h3 id="Situacao-Liquida-Nula"><a href="#Situacao-Liquida-Nula" class="headerlink" title="Situação Líquida Nula"></a>Situação Líquida Nula</h3><p>Essa situação ocorre quando o passivo de uma empresa é igual ao ativo da mesmo.</p>
+<p>Essa situação implica que o Patrimônio Líquido da mesma é zero (ou nulo).</p>
+<p><code>Situação Nula: Ativo = Passivo; PL = 0</code></p>
+<hr>
+<h2 id="Resumo"><a href="#Resumo" class="headerlink" title="Resumo"></a>Resumo</h2><ul>
+<li><p>Os diferentes elementos do patrimônio (bens, direitos e obrigações) podem ser agrupados em 2 diferentes componentes: o <strong>ativo</strong> e o <strong>passivo</strong>.</p>
+</li>
+<li><p>O <strong>Patrimônio Líquido</strong> é definido como o <strong>saldo</strong> resultante da diferença entre o valor do Ativo e do Passivo de uma empresa.</p>
+</li>
+<li><p>O Patrimônio de uma Entidade pode ser representado graficamente por meio de uma tabela especial chamada de <strong>Balanço Patrimonial</strong>.</p>
+</li>
+<li><p><img src="../../../../assets/media/img/contabilidade/estrutura-grafica-patrimonio.png" alt="Estrutura Gráfica do Balanço Patrimonial"></p>
+</li>
+<li><p>No balanço patrimonial considera-se o <strong>Patrimônio Líquido</strong> de uma Empresa como uma parte do <strong>Patrimônio Passivo</strong>. </p>
+</li>
+<li><p>Existem 3 diferentes tipos de situações patrimoniais que podem ser vivenciados por uma empresa. Estas situações refletem o estado da  Patrimônio Líquido da instituição.</p>
+</li>
+<li><p>Quando o conjunto de bens e direitos é maior do que as obrigações de uma instituição, diz-se que a empresa possui uma <strong>situação líquida positiva</strong>, também conhecida como <strong>situação líquida ativa</strong> ou <strong>superavitária</strong>. <code>Situação Superavitária: Ativo &gt; Passivo; PL &gt; 0</code></p>
+</li>
+<li><p>Essa situação ocorre quando o passivo de uma empresa (exigíveis) é superior ao ativo da mesma. Também conhecida como <strong>situação líquida passiva</strong> ou <strong>deficitária</strong>. <code>Situação Deficitária: Ativo &lt; Passivo; PL &lt; 0</code></p>
+</li>
+<li><p>Essa situação ocorre quando o passivo de uma empresa é igual ao ativo da mesmo.</p>
+</li>
+</ul>
+<hr>
+<h2 id="Exercicios"><a href="#Exercicios" class="headerlink" title="Exercícios"></a>Exercícios</h2><ol>
+<li>Em seu caderno, monte o Balanço Patrimonial de uma empresa com os seguintes elementos. Caso necessário, calcule o <strong>Lucro Acumulado</strong>.</li>
+</ol>
+<ul>
+<li>Caixa: R$ 10.000,00 </li>
+<li>Pagamento Fornecedores: R$ 2.500,00</li>
+<li>Imóveis Próprios: R$ 25.000,00</li>
+<li>Veículos Próprios: R$ 5.500,00</li>
+<li>Contas a Receber: R$ 3.000,00</li>
+<li>Salários a Pagar: R$ 5.000,00</li>
+<li>Contas a Pagar: R$ 6.00,00</li>
+<li>Capital Social: R$ 15.000,00</li>
+</ul>
+<p>02: Em seu caderno, monte o Balanço Patrimonial de uma empresa com os seguintes elementos. Caso necessário, calcule o <strong>Lucro Acumulado</strong>.</p>
+<ul>
+<li>Caixa: R$ 25.000,00 </li>
+<li>Pagamento Fornecedores: R$ 5000,00</li>
+<li>Imóveis Próprios: R$ 10.000,00</li>
+<li>Veículos Próprios: R$ 20.000,00</li>
+<li>Impostos a pagar: R$ 2.000,00</li>
+<li>Contas a Receber: R$ 3.000,00</li>
+<li>Salários a Pagar: R$ 15.000,00</li>
+<li>Empréstimos Bancários: R$ 10.000,00</li>
+<li>Contas a Pagar: R$ 25.000,00</li>
+<li>Capital Social: R$ 15.000,00</li>
+</ul>
+<p>03: Em seu caderno, monte o Balanço Patrimonial de uma empresa com os seguintes elementos. Caso necessário, calcule o <strong>Lucro Acumulado</strong>.</p>
+<ul>
+<li>Caixa: R$ 7.500,00 </li>
+<li>Pagamento Fornecedores: R$ 8000,00</li>
+<li>Imóveis Próprios: R$ 80.000,00</li>
+<li>Veículos Próprios: R$ 45.500,00</li>
+<li>Impostos a pagar: R$ 2.500,00</li>
+<li>Contas a Receber: R$ 3.000,00</li>
+<li>Salários a Pagar: R$ 25.000,00</li>
+<li>Empréstimos Bancários: R$ 18.000,00</li>
+<li>Contas a Pagar: R$ 52.000,00</li>
+</ul>
+<ol start="4">
+<li>Em seu caderno, monte o Balanço Patrimonial de uma empresa com os seguintes elementos. Sabendo que o Lucro Acumulado da empresa foi nulo, calcule o valor transferido ao Caixa da Empresa. </li>
+</ol>
+<ul>
+<li><p>Imóveis próprios: R$ 9.000,00</p>
+</li>
+<li><p>Contas a pagar: R$ 1.000,00</p>
+</li>
+<li><p>Salários a pagar: R$ 7000,00</p>
+</li>
+<li><p>Empréstimos Bancários: R$ 18.000,00</p>
+</li>
+<li><p>Estoques: R$ 3.500,00</p>
+</li>
+<li><p>Impostos a recolher: $2.400,00</p>
+<ol start="5">
+<li>Encontre a Situação Líquida Patrimonial de cada empresa. Monte o Balanço Patrimonial em cada item.</li>
+</ol>
+<p>a) Empresa 01</p>
+</li>
+<li><p>Caixa: R$ 500,00</p>
+</li>
+<li><p>Fornecedores: R$ 1.500,00</p>
+</li>
+<li><p>Salários a pagar: R$ 3.000,00</p>
+</li>
+<li><p>Contas a receber: R$ 1.200,00</p>
+</li>
+<li><p>Impostos a recuperar: R$ 200,00</p>
+</li>
+<li><p>Impostos a pagar: R$ 350,00</p>
+</li>
+<li><p>Conta Bancária: R$ 8.000,00</p>
+</li>
+</ul>
+<p>b) Empresa 02</p>
+<ul>
+<li>Caixa: R$ 7.200,00</li>
+<li>Fornecedores: R$ 4.500,00</li>
+<li>Salários a pagar: R$ 3.000,00</li>
+<li>Contas a receber: R$ 2.00,00</li>
+<li>Impostos a recuperar: R$ 800,00</li>
+<li>Impostos a pagar: R$ 1.500,00</li>
+<li>Equipamentos: R$ 6000,00</li>
+<li>Conta Bancária: R$ 8.000,00</li>
+<li>Empréstimo Bancário: R$ 15.000,00</li>
+</ul>
+<p>c) Empresa 03</p>
+<ul>
+<li><p>Caixa: R$ 5.000,00</p>
+</li>
+<li><p>Fornecedores: R$ 4.500,00</p>
+</li>
+<li><p>Salários a pagar: R$ 3.000,00</p>
+</li>
+<li><p>Contas a receber: R$ 700,00</p>
+</li>
+<li><p>Impostos a recuperar: R$ 800,00</p>
+</li>
+<li><p>Impostos a pagar: R$ 1.050,00</p>
+</li>
+<li><p>Conta Bancária: R$ 10.000,00</p>
+</li>
+<li><p>Empréstimo Bancário: R$ 15.000,00</p>
+<p>d) Empresa 04</p>
+</li>
+<li><p>Caixa: R$ 2.000,00</p>
+</li>
+<li><p>Contas a receber: R$ 3.000,00</p>
+</li>
+<li><p>Equipamentos: 3.000,00</p>
+</li>
+<li><p>Conta Bancária: R$ 8.000,00</p>
+</li>
+<li><p>Capital Social: R$ 5.000,00</p>
+</li>
+<li><p>Fornecedores: R$ 8.000,00</p>
+</li>
+<li><p>Salários a pagar: R$ 4.000,00</p>
+</li>
+</ul>
+<ol start="6">
+<li>Calcule a situação Patrimonial Líquida de cada empresa abaixo. Não é necessário montar o Balanço Patrimonial.</li>
+</ol>
+<p>a) Empresa 01</p>
+<ul>
+<li>Caixa: R$ 800,00</li>
+<li>Clientes: R$ 500,00</li>
+<li>Fornecedores: R$ 250,00</li>
+<li>Utensílios: R$ 300,00</li>
+<li>Salários a pagar: 220,00</li>
+<li>Duplicatas a pagar: R$ 170,00</li>
+</ul>
+<p>b) Empresa 02</p>
+<ul>
+<li>Veículos: R$ 25.000,00</li>
+<li>Móveis e Utensílios: R$ 5.000,00</li>
+<li>Máquinas: R$ 2.000,00</li>
+<li>Caixa: R$ 2.000,00</li>
+<li>Promissórias a pagar: R$ 4.000,00</li>
+<li>Impostos a recolher: R$ 7.00,00</li>
+<li>Duplicatas a pagar: R$ 11.000,00</li>
+<li>Títulos a receber: R$ 800,00</li>
+</ul>
+<p>c) Empresa 03</p>
+<ul>
+<li>Imóveis: R$ 80.000,00</li>
+<li>Instalações: R$ 30.000,00</li>
+<li>Móveis e Utensílios: R$ 5.000,00</li>
+<li>Veículos: R$ 14.000,00</li>
+<li>Caixa: R$ 3.000,00</li>
+<li>Conta Bancária: R$ 63.000,00</li>
+<li>Empréstimo Bancário: R$ 50.000,00</li>
+<li>Clientes: R$ 10.000,00</li>
+<li>Fornecederes: R$ 30.000,00</li>
+</ul>
+<hr>
+<h2 id="Referencias-Bibliograficas"><a href="#Referencias-Bibliograficas" class="headerlink" title="Referências Bibliográficas"></a>Referências Bibliográficas</h2><p>BACARJI, Alencar Garcia. Formação Incial e Continuada Auxiliar Administrativo. Curitiba: Instituto Federal do Paraná, 2012. Disponível em <a href="https://bit.ly/2vZG4Y5" target="_blank" rel="noopener">https://bit.ly/2vZG4Y5</a>. Acesso en <em>20 de mar. de 2020</em>. </p>
+<p>BÄCHTOLD, CIRO. Contabilidade Básica. Curitiba: Instituto Federal do Paraná, 2012.Disponível em <a href="https://bit.ly/342pLX5" target="_blank" rel="noopener">https://bit.ly/342pLX5</a>. Acesso en <em>20 de mar. de 2020</em>.</p>
+<p>CONSELHO FEDERAL DE CONTABILIDADE. Princípios fundamentais e normas brasileiras de contabilidade. Brasília: CFC, 2003.</p>
+<p>OLIVEIRA, M. S. de; MOREIRA, S C. Noções de contabilidade básica para cursos técnicos. Brasília, DF : Instituto Federal de Educação, Ciência e Tecnologia de Brasília, 2012. 120p.</p>
+<p>OLIVO, Ana Maria; BOSCHILIA, Luiz. Contabilidade geral e gerencial: conceitos introdutórios para os cursos superiores de tecnologia. Florianópolis: Publicações do IF-SC, 2012. 102 p. : il.</p>
+<p>RENNÓ, R. Administração Geral para Concursos. Rio de Janeiro, Elsevier, 2013.</p>
+
+        </div>
+
+        
+            <section class="post-copyright">
+                
+                
+                    <p class="copyright-item">
+                        <span>Conteúdo disponível em:</span>
+                        <span><a href="http://zmdy.github.io/aulas.txt/posts/administracao/aulas/aula-17/">http://zmdy.github.io/aulas.txt/posts/administracao/aulas/aula-17/</a></span>
+                    </p>
+                
+                
+                    <p class="copyright-item">
+                        <span>Licença:</span>
+                        <span>Este material está distribuído com uma licença <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC-BY-4.0</a></span>
+                    </p>
+                
+                
+
+            </section>
+        
+        <section class="post-tags">
+            <div>
+                <span>Tag(s):</span>
+                <span class="tag">
+                    
+                    
+                        <a href="/aulas.txt/pages/assuntos/Auxiliar-Administrativo-Modulo-02-Aulas/"># Auxiliar Administrativo - Módulo 02 - Aulas</a>
+                    
+                        
+                </span>
+            </div>
+            <div>
+                <a href="javascript:window.history.back();">voltar</a>
+                <span>· </span>
+                <a href="/aulas.txt/">home</a>
+            </div>
+        </section>
+        <section class="post-nav">
+            
+            
+            <a class="next" rel="next" href="/aulas.txt/posts/administracao/aulas/aula-10/">Aula 10 -  Módulo 01 - Auxiliar Administrativo</a>
+            
+        </section>
+
+
+    </article>
+</div>
+
+        </div>
+        <footer id="footer" class="footer">
+    <div class="copyright">
+        <span>© aulas.txt | Feito com <a href="https://hexo.io" target="_blank">Hexo</a> & <a href="https://github.com/Siricee/hexo-theme-Chic" target="_blank">Chic</a> | <a target="_blank" onclick="printPage()">Imprimir esta página em PDF</a></span>
+    </div>
+</footer>
+
+    </div><!-- hexo-inject:begin --><!-- Begin: Injected MathJax -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({"tex2jax":{"inlineMath":[["$","$"],["\\(","\\)"]],"skipTags":["script","noscript","style","textarea","pre","code"],"processEscapes":true},"TeX":{"equationNumbers":{"autoNumber":"AMS"}}});
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+      all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+</script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js">
+</script>
+<!-- End: Injected MathJax -->
+<!-- hexo-inject:end -->
+</body>
+</html>

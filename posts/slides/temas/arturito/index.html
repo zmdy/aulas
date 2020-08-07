@@ -68,13 +68,13 @@
             <div class="navbar-header header-logo"><a href="/aulas.txt/">aulas.txt</a></div>
             <div class="menu navbar-right">
                 
-                    <a class="menu-item" href="/aulas.txt/pages/cursos">Cursos</a>
+                    <a class="menu-item" href="/aulas.txt/./pages/cursos">Cursos</a>
                 
-                    <a class="menu-item" href="/aulas.txt/pages/tag">Materiais</a>
+                    <a class="menu-item" href="/aulas.txt/./pages/materiais">Materiais</a>
                 
-                    <a class="menu-item" href="/aulas.txt/pages/manual">Manual</a>
+                    <a class="menu-item" href="/aulas.txt/./pages/projetos">Projetos</a>
                 
-                    <a class="menu-item" href="/aulas.txt/pages/sobre">Sobre</a>
+                    <a class="menu-item" href="/aulas.txt/./pages/sobre">Sobre</a>
                 
                 <input id="switch_default" type="checkbox" class="switch_default">
                 <label for="switch_default" class="toggleBtn"></label>
@@ -93,13 +93,13 @@
             </div>
             <div class="menu" id="mobile-menu">
                 
-                    <a class="menu-item" href="/aulas.txt/pages/cursos">Cursos</a>
+                    <a class="menu-item" href="/aulas.txt/./pages/cursos">Cursos</a>
                 
-                    <a class="menu-item" href="/aulas.txt/pages/tag">Materiais</a>
+                    <a class="menu-item" href="/aulas.txt/./pages/materiais">Materiais</a>
                 
-                    <a class="menu-item" href="/aulas.txt/pages/manual">Manual</a>
+                    <a class="menu-item" href="/aulas.txt/./pages/projetos">Projetos</a>
                 
-                    <a class="menu-item" href="/aulas.txt/pages/sobre">Sobre</a>
+                    <a class="menu-item" href="/aulas.txt/./pages/sobre">Sobre</a>
                 
             </div>
         </div>
@@ -125,7 +125,13 @@
 
 
 <script>
-  window.onload = function(){
+  // Defines the delay function
+  function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+  }
+
+
+  function startPresentation(){
     var 
       content = document.querySelector("#slide-content").innerHTML,
       metadata = content.split('---')[1],
@@ -147,9 +153,22 @@
       title: title
     });
   }
+
+  window.onload = function(){
+    if(window.location.search == '?print-pdf'){
+      // Starts the presentation
+      startPresentation();
+
+      // Waits 5 seconds
+      sleep(5000).then(() => { 
+        // Opens the print page
+        window.print();
+      });
+    }
+  }
 </script>
 
-<div id="slide-content">
+<div id="slide-content" style="display: none;">
   ---
 title: Demonstração do Tema - Arthurito
 date: 2020-04-11 11:24:25
@@ -337,6 +356,149 @@ Esta apresentação está distribuída com uma licença [Creative Commons Atribu
 ---
 
 ### Arthurito
+</div>
+
+<div class="container">
+  <article class="post-wrap page">
+      
+      <h2 class="post-title">Demonstração do Tema - Arthurito</h2>
+
+      <p><a href="#" onclick="startPresentation()"><i class="icofont-presentation"></i> Iniciar Apresentação</a></p>
+      <!--
+        AVISO!
+
+        O redirecionamento desta página, com um parâmetro de pesquisa ?print-pdf gera o arquivo PDF da apresentação.
+
+        Esta é uma funcionalidade experimental, ainda em processo de desenvolvimento e adaptação.
+        
+        <p><a href="./?print-pdf"><i class="icofont-presentation"></i> Gerar Apresentação em PDF</a></p>
+      -->
+
+      
+      <section class="post-content">
+          <h1 id="Arthurito"><a href="#Arthurito" class="headerlink" title="Arthurito"></a>Arthurito</h1><h2 id="Template-de-Apresentacao"><a href="#Template-de-Apresentacao" class="headerlink" title="Template de Apresentação"></a>Template de Apresentação</h2><hr>
+<h1 id="Arthurito-1"><a href="#Arthurito-1" class="headerlink" title="Arthurito"></a>Arthurito</h1><p><img src="../../../../src/themes/arthurito/schopenhauer.png" alt="Arthur Schopenhauer"></p>
+<p>Este é um template de apresentação inspirada na vida e obra do filósofo alemão Arthur Schopenhauer.</p>
+<hr>
+<h2 id="Titulos"><a href="#Titulos" class="headerlink" title="Títulos"></a>Títulos</h2><hr>
+<p>Este tema permite a utilização de todos os elementos de <em>heading</em> do HTML, &lt;h1&gt; a &lt;h6&gt;.</p>
+<hr>
+<h1 id="Titulo-lt-h1-gt"><a href="#Titulo-lt-h1-gt" class="headerlink" title="Título &lt;h1&gt;"></a>Título &lt;h1&gt;</h1><hr>
+<h2 id="Titulo-lt-h2-gt"><a href="#Titulo-lt-h2-gt" class="headerlink" title="Título &lt;h2&gt;"></a>Título &lt;h2&gt;</h2><hr>
+<h3 id="Titulo-lt-h3-gt"><a href="#Titulo-lt-h3-gt" class="headerlink" title="Título &lt;h3&gt;"></a>Título &lt;h3&gt;</h3><hr>
+<h4 id="Titulo-lt-h4-gt"><a href="#Titulo-lt-h4-gt" class="headerlink" title="Título &lt;h4&gt;"></a>Título &lt;h4&gt;</h4><hr>
+<h5 id="Titulo-lt-h5-gt"><a href="#Titulo-lt-h5-gt" class="headerlink" title="Título &lt;h5&gt;"></a>Título &lt;h5&gt;</h5><hr>
+<h6 id="Titulo-lt-h6-gt"><a href="#Titulo-lt-h6-gt" class="headerlink" title="Título &lt;h6&gt;"></a>Título &lt;h6&gt;</h6><hr>
+<h2 id="Textos"><a href="#Textos" class="headerlink" title="Textos"></a>Textos</h2><hr>
+<p>Este é um parágrafo.</p>
+<p>Este é um exemplo em <b>negrito</b> e este utiliza o elemento <strong>strong</strong>.</p>
+<p>Este é um exemplo de <i>itálico</i> e este é um exemplo do tipo <em>ênfase</em>.</p>
+<p>Aqui temos um exemplo de código-fonte: <code>for(;;){console.log('Loop');} </code></p>
+<p>Este é um <a href="#">link</a> que redireciona para a Terra da Representação.</p>
+<p><blockqoute>Este é um exemplo simples de uma frase utilizando o &lt;blockqoute&gt;</blockquote></p>
+<hr>
+<h2 id="Imagens"><a href="#Imagens" class="headerlink" title="Imagens"></a>Imagens</h2><hr>
+<p><img src="../../../../src/themes/arthurito/schopenhauer.png" alt="Arthur Schopenhauer"></p>
+<p>Este é uma imagem simples.</p>
+<hr>
+<img src="../../../../src/themes/arthurito/schopenhauer.png" class="center"/>
+
+<p>Este é uma imagem com a classe <code>center</code>.</p>
+<hr>
+<img src="../../../../src/themes/arthurito/schopenhauer.png" class="img50"/>
+
+<p>Este é uma imagem com a classe <code>img50</code>.</p>
+<hr>
+<img src="../../../../src/themes/arthurito/schopenhauer.png" class="img25"/>
+
+<p>Este é uma imagem com a classe <code>img25</code>.</p>
+<hr>
+<img src="../../../../src/themes/arthurito/schopenhauer.png" class="img50center"/>
+
+<p>Este é uma imagem com a classe <code>img50center</code>.</p>
+<hr>
+<img src="../../../../src/themes/arthurito/schopenhauer.png" class="img25center"/>
+
+<p>Este é uma imagem com a classe <code>img25center</code>.</p>
+<hr>
+<figure>
+  <img src="../../../../src/themes/arthurito/schopenhauer.png"/>
+  <figcaption>Legenda</figcaption>
+</figure>
+
+<p>Este é uma imagem inserida em uma tag <code>figure</code>, utilizando o elemento <code>figcaption</code>.</p>
+<hr>
+<figure class="center">
+  <img src="../../../../src/themes/arthurito/schopenhauer.png"/>
+  <figcaption>Legenda</figcaption>
+</figure>
+
+<p>Este é uma imagem inserida em uma tag <code>figure</code>, utilizando o elemento <code>figcaption</code> e a classe <code>center</code>.</p>
+<hr>
+<h2 id="Tabelas"><a href="#Tabelas" class="headerlink" title="Tabelas"></a>Tabelas</h2><hr>
+<h1 id="Obras-de-Arthur-Schopenhauer"><a href="#Obras-de-Arthur-Schopenhauer" class="headerlink" title="Obras de Arthur Schopenhauer"></a>Obras de Arthur Schopenhauer</h1><table>
+<thead>
+<tr>
+<th align="center">Obra</th>
+<th align="center">Ano de Publicação</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">Sobre a Raiz Quádrupla do Princípio da Razão Suficiente</td>
+<td align="center">1813</td>
+</tr>
+<tr>
+<td align="center">Sobre a Visão e as Cores</td>
+<td align="center">1815</td>
+</tr>
+<tr>
+<td align="center">O Mundo como Vontade e Representação</td>
+<td align="center">1819</td>
+</tr>
+<tr>
+<td align="center">Sobre a Vontade da Natureza</td>
+<td align="center">1836</td>
+</tr>
+<tr>
+<td align="center">Os Dois Problemas Fundamentais da Ética</td>
+<td align="center">1841</td>
+</tr>
+<tr>
+<td align="center">Parerga e Paralipomena</td>
+<td align="center">1851</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="Licenca-amp-Design"><a href="#Licenca-amp-Design" class="headerlink" title="Licença &amp; Design"></a>Licença &amp; Design</h2><hr>
+<h1 id="Licenca"><a href="#Licenca" class="headerlink" title="Licença"></a>Licença</h1><p>Esta apresentação está distribuída com uma licença <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">Creative Commons Atribuição 4.0 Internacional</a>. Sinta-se a vontade para:</p>
+<ul>
+<li>Distribuir</li>
+<li>Copiar</li>
+<li>Modificar</li>
+<li>Publicar</li>
+<li>Fazer uso comercial</li>
+<li>Fazer uso privado</li>
+<li>Criar conteúdo derivado, utilizando outra licença</li>
+<li>Fazer o que você quiser (literalmente)</li>
+<li>Mas não se esqueça de manter uma cópia do arquivo LICENSE e atribuir o devido crédito a nóis, porque “dá trabalho pra fazer!”</li>
+</ul>
+<hr>
+<h1 id="Design"><a href="#Design" class="headerlink" title="Design"></a>Design</h1><p><strong>Fontes Utilizadas:</strong></p>
+<ul>
+<li>Raleway Black</li>
+<li>EB Garamond</li>
+<li>EB Garamond SC 08</li>
+</ul>
+<p><strong>Cores Utilizadas:</strong></p>
+<p style="color:#111111;">color-black:       #111111;</p>
+<p style="color:#3B3322;">color-brown:       #3B3322;</p>
+<p style="color:#eec600;">color-yellow:      #eec600;</p>
+<p style="color:#f0d040;">color-pale-yellow: #f0d040;</p>
+
+<hr>
+<h3 id="Arthurito-2"><a href="#Arthurito-2" class="headerlink" title="Arthurito"></a>Arthurito</h3>
+      </section>
+  </article>
 </div>
         </div>
         <footer id="footer" class="footer">

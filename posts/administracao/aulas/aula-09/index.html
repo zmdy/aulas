@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="UTF-8">
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="author" content="zmdy">
+
+
+
+
+
+<title>Aula 09 -  Módulo 01 - Auxiliar Administrativo | aulas.txt</title>
+
+<!-- HERE ARE SOME LIBARIES AND PERSONAL TOOLS OF THE SRC FOLDER -->
+<script src="/aulas.txt/src/js/bonisa.min.js"></script>
+<script src="/aulas.txt/src/libs/printjs/print.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="/aulas.txt/assets/media/fonts/icofont/icofont.css">
+<script>
+  function printPage(){
+    printJS({
+        printable: 'aulasTXT', type: 'html',
+        header: null,
+        css: '/aulas.txt/css/style.css'
+    });
+  }
+</script>
+
+
+
+
+    <link rel="icon" href="/aulas.txt/favicon.png">
+
+
+
+
+    <!-- stylesheets list from _config.yml -->
+    
+    <link rel="stylesheet" href="/aulas.txt/css/style.css">
+    
+
+
+
+    <!-- scripts list from _config.yml -->
+    
+    <script src="/aulas.txt/js/script.js"></script>
+    
+    <script src="/aulas.txt/js/tocbot.min.js"></script>
+    
+
+
+
+    
+    
+        
+    
+
+
+<meta name="generator" content="Hexo 4.2.0"><!-- hexo-inject:begin --><!-- hexo-inject:end --></head>
+<body>
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><div class="wrapper">
+        <header>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header header-logo"><a href="/aulas.txt/">aulas.txt</a></div>
+            <div class="menu navbar-right">
+                
+                    <a class="menu-item" href="/aulas.txt/./pages/cursos">Cursos</a>
+                
+                    <a class="menu-item" href="/aulas.txt/./pages/materiais">Materiais</a>
+                
+                    <a class="menu-item" href="/aulas.txt/./pages/projetos">Projetos</a>
+                
+                    <a class="menu-item" href="/aulas.txt/./pages/sobre">Sobre</a>
+                
+                <input id="switch_default" type="checkbox" class="switch_default">
+                <label for="switch_default" class="toggleBtn"></label>
+            </div>
+        </div>
+    </nav>
+
+    
+    <nav class="navbar-mobile" id="nav-mobile">
+        <div class="container">
+            <div class="navbar-header">
+                <div>
+                    <a href="/aulas.txt/">aulas.txt</a><a id="mobile-toggle-theme">·&nbsp;Light</a>
+                </div>
+                <div class="menu-toggle" onclick="mobileBtn()">&#9776; Menu</div>
+            </div>
+            <div class="menu" id="mobile-menu">
+                
+                    <a class="menu-item" href="/aulas.txt/./pages/cursos">Cursos</a>
+                
+                    <a class="menu-item" href="/aulas.txt/./pages/materiais">Materiais</a>
+                
+                    <a class="menu-item" href="/aulas.txt/./pages/projetos">Projetos</a>
+                
+                    <a class="menu-item" href="/aulas.txt/./pages/sobre">Sobre</a>
+                
+            </div>
+        </div>
+    </nav>
+
+</header>
+<script>
+    var mobileBtn = function f() {
+        var toggleMenu = document.getElementsByClassName("menu-toggle")[0];
+        var mobileMenu = document.getElementById("mobile-menu");
+        if(toggleMenu.classList.contains("active")){
+           toggleMenu.classList.remove("active")
+            mobileMenu.classList.remove("active")
+        }else{
+            toggleMenu.classList.add("active")
+            mobileMenu.classList.add("active")
+        }
+    }
+</script>
+        <div class="main padding-05mm" id="aulasTXT">
+            <div class="container">
+    
+    
+        <div class="post-toc">
+    <div class="tocbot-list">
+    </div>
+    <div class="tocbot-list-menu">
+        <a class="tocbot-toc-expand" onclick="expand_toc()">Expand all</a>
+        <a onclick="go_top()">Back to top</a>
+        <a onclick="go_bottom()">Go to bottom</a>
+    </div>
+</div>
+
+<script>
+    document.ready(
+        function () {
+            tocbot.init({
+                tocSelector: '.tocbot-list',
+                contentSelector: '.post-content',
+                headingSelector: 'h1, h2, h3, h4, h5',
+                collapseDepth: 1,
+                orderedList: false,
+                scrollSmooth: true,
+            })
+        }
+    )
+
+    function expand_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 6,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "collapse_toc()");
+        b.innerHTML = "Collapse all"
+    }
+
+    function collapse_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 1,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "expand_toc()");
+        b.innerHTML = "Expand all"
+    }
+
+    function go_top() {
+        window.scrollTo(0, 0);
+    }
+
+    function go_bottom() {
+        window.scrollTo(0, document.body.scrollHeight);
+    }
+
+</script>
+    
+
+    
+    <article class="post-wrap">
+        <header class="post-header">
+            <h1 class="post-title">Aula 09 -  Módulo 01 - Auxiliar Administrativo</h1>
+            
+                <div class="post-meta">
+                    
+
+                    
+                        <span class="post-time">
+                        Data de Publicação: <a href="#">24/05/2020&nbsp;&nbsp;12:04</a>
+                        </span>
+                    
+                    
+                </div>
+            
+        </header>
+
+        <div class="post-content">
+            <img src="../../../../assets/media/img/cursos/logo-auxiliar-administrativo-01.png" alt="Auxiliar Administrativo" title="Auxiliar Administrativo" class="img-50  bg-white">
+
+<p>Bem vindx à mais uma aula do curso de Auxiliar Administrativo!</p>
+<p>Hoje iremos revisar todo o conteúdo visto no decorrer deste módulo. Estude este material com bastante atenção e tire suas dúvidas com seu professor se achar necessário.</p>
+<p>Ao longo deste primeiro módulo foram utilizados diversos materiais de referência que foram citados ao fim de cada aula. Destes materiais, os mais importantes são:</p>
+<p>Se quiser, consulte o material acima para maiores detalhes sobre os temos estudados.</p>
+<p>Sem mais delongas, vamos à nossa 2ª aula de revisão deste curso.</p>
+<hr>
+<h2 id="Sumario"><a href="#Sumario" class="headerlink" title="Sumário"></a>Sumário</h2><ol>
+<li><a href="#Aulas-01-e-02">Aulas 01 e 02</a></li>
+<li><a href="#Aula-03-e-04">Aula 03 e 04</a></li>
+<li><a href="#Aula-06-a-08">Aula 06 a 08</a></li>
+<li><a href="#Exercicios">Exercícios</a></li>
+<li><a href="#Referencias-Bibliograficas">Referências Bibliográficas</a></li>
+</ol>
+<hr>
+<h2 id="Aulas-01-e-02"><a href="#Aulas-01-e-02" class="headerlink" title="Aulas 01 e 02"></a>Aulas 01 e 02</h2><ul>
+<li>A <strong>Análise SWOT</strong>, também conhecida como Matriz FOFA é uma estratégia utilizada para identificar os pontos fortes e fracos de uma pessoa, situação, ideia ou empresa.</li>
+</ul>
+<p><img src="../../../../assets/media/img/ferramentas-gestao-desempenho/matriz-fofa-conceito.png" alt="Matriz FOFA - Conceito"></p>
+<ul>
+<li><strong>Eficiência</strong> e <strong>eficácia</strong> são palavras semelhantes, mas com significados diferentes:  <code>Eficiência</code> consiste em utilizar bem os recursos e <code>Eficácia</code> consiste em atingir o objetivo ou metas de uma tarefa.</li>
+</ul>
+<p><img src="../../../../assets/media/img/ferramentas-gestao-desempenho/conceito-efetividade-novo.png" alt="Conceito - Efetividade"></p>
+<ul>
+<li><p>Toda ideia apresenta, por si só, <strong>pontos fortes e fracos</strong>. Há sempre um <strong>momento certo</strong> para apresentar suas ideias: o melhor momento é quando um projeto necessita ser planejado ou um problema foi detectado.</p>
+</li>
+<li><p>Quando falamos sobre <strong>ética ou moral</strong>, estamos nos referindo aos costumes, comportamentos e hábitos de um povo ou sociedade. As duas palavras são traduzidas para o português como <strong>costume</strong>: <em>ethos</em> tem origem grega; e <em>mores</em> tem origem latina.</p>
+<ul>
+<li>A <strong>moral</strong> está relacionada ao <strong>agir de acordo com os costumes</strong> e regras socialmente difundidas.</li>
+<li>A <strong>ética</strong> nasce quando se passa a indagar o que são, de onde vêm e o que valem os costumes.</li>
+</ul>
+</li>
+</ul>
+<p><img src="../../../../assets/media/img/etica/teorias-resumo.png" alt="Teorias Éticas"></p>
+<ul>
+<li>Os Códigos de Ética Profissional são um conjunto de regras éticas próprias que orienta e direciona o comportamento dos profissionais da área.<ul>
+<li>O Código de Ética do Administrador possui 23 artigos que dispõe sobre direitos, deveres e proibições inerentes aos profissionais administrativos.</li>
+</ul>
+</li>
+</ul>
+<h3 id="Codigo-de-Etica-do-Administrador-Trechos"><a href="#Codigo-de-Etica-do-Administrador-Trechos" class="headerlink" title="Código de Ética do Administrador - Trechos"></a>Código de Ética do Administrador - Trechos</h3><p>(Art. 2º) São deveres do profissional de Administração:</p>
+<ul>
+  <li class='item-ok'>II – defender os direitos e interesses do cliente;</li>
+  <li class='item-ok'>III - guardar sigilo sobre o que saiba em razão do exercício profissional lícito de seu ofício,</li>
+  <li class='item-ok'>IV - manter independência técnica na orientação de serviços, sem abdicar de sua dignidade e prerrogativas, seja como profissional liberal ou empregado;</li>
+  <li class='item-ok'>VII – esclarecer o cliente sobre a função social da organização e a necessidade de preservação do meio ambiente.</li>
+</ul>
+
+
+<p>(Art. 3º) Constitui infração disciplinar::</p>
+<ul>
+  <li class='item-not'>I. tratar outros profissionais ou profissões sem urbanidade, de modo a ofender sua dignidade, ou discriminá-los de qualquer forma; </li>
+  <li class='item-not'>III. assinar documentos elaborados por terceiros sem a sua orientação ou supervisão; </li>
+  <li class='item-not'>IV. afastar-se, sem justificativa, de suas atividades profissionais sem comunicar previamente ao seu cliente ou empregador;</li>
+  <li class='item-not'>V. violar, sem justa causa, sigilo profissional;</li>
+  <li class='item-not'>XV. praticar, no exercício da atividade profissional, ato contrário à lei ou destinado a fraudá-la, ou contribuir para a realização de ato definido como ilícito penal;</li>
+  <li class='item-not'>XVI. usar de artifícios enganosos ou fraudulentos para obter vantagem indevida;</li>
+</ul>
+
+<p>(Art. 4º) São direitos do Profissional de Administração:</p>
+<ul>
+  <li class='item-ok'>I - exercer a profissão independentemente  de questões religiosas, raça, sexo, nacionalidade, cor, idade, condição social, orientação sexual ou de qualquer natureza discriminatória; </li>
+  <li class='item-ok'>II - apontar falhas nos regulamentos e normas das instituições, quando as julgar indignas do exercício profissional ou prejudiciais ao cliente, devendo, nesse caso, dirigir-se aos órgãos competentes, em especial ao Conselho Regional de Administração;</li>
+  <li class='item-ok'>III - exigir justa remuneração por seu trabalho, a qual corresponderá às responsabilidades assumidas a seu tempo de serviço dedicado, sendo-lhe livre firmar acordos sobre salários, velando, no entanto, pelo seu justo valor;</li>
+</ul>
+
+<ul>
+<li>As empresas podem ser classificadas de acordo com <strong>seu tipo de atividade</strong> (INDÚSTRIA, COMÉRCIO E PRESTAÇÃO DE SERVIÇOS) ou com o <strong>objetivo financeiro</strong> (COM OU SEM FINS LUCRATIVOS).</li>
+</ul>
+<hr>
+<h2 id="Aulas-03-e-04"><a href="#Aulas-03-e-04" class="headerlink" title="Aulas 03 e 04"></a>Aulas 03 e 04</h2><ul>
+<li><p>A <strong>Regra de Três</strong> é uma maneira simples e fácil de resolver problemas que envolvem calcular <strong>valores desconhecidos</strong> quando já dispomos de 3 valores conhecidos. Elas podem ser <strong>simples</strong> ou <strong>compostas</strong>.</p>
+</li>
+<li><p>O <strong>Princípio do 1%</strong> afirma que ao dividir qualquer número por 100 você obtém como resultado <strong>1% daquele número</strong>. A partir daí fica muito fácil encontrar o percentual de qualquer número.</p>
+</li>
+<li><p>Outra maneira fácil de se resolver problemas envolvendo porcentagens é por meio de regras de três simples.</p>
+</li>
+<li><p>Os juros são a remuneração obtida pelo uso do capital por um intervalo de tempo, isto é, é o custo do crédito obtido. Pode ser entendido também como sendo o aluguel pelo uso do dinheiro. Ele pode ser <strong>simples</strong> ou <strong>composto</strong></p>
+</li>
+<li><p>O Capital (C) é a quantia emprestada ou investida no início da aplicação.</p>
+</li>
+<li><p>Toda aplicação financeira possui um prazo (t), ou seja, um período para ser finalizado. No caso de um empréstimo o prazo indica o tempo proposto para se quitar a dívida; no caso de uma aplicação, o prazo indica o período no qual o capital será resgatado.</p>
+</li>
+<li><p>Montante é a quantia total, em dinheiro, paga ou resgatada no fim da aplicação, sendo a soma do capital aplicado e o juro produzido em um determinado período.</p>
+</li>
+<li><p>No Regime de Capitalização Simples a taxa de juros incide diretamente sobre o valor do capital. Sua fórmula é dada por: $J = C * i * t$  </p>
+<ul>
+<li>Capital =  100,00</li>
+<li>Taxa = 5%</li>
+<li>Após 1 mês = 5% de  100,00 = 5,00 + 100,00 = 105,00</li>
+<li>Após 2 meses = 10% de  100,00 = 10,00 + 100,00 = 110,00</li>
+<li>Após 3 meses = 15% de  100,00 = 15,00 + 100,00 = 115,00</li>
+<li>Após 4 meses = 20% de  100,00 = 20,00 + 100,00 = 120,00</li>
+<li>Após 5 meses = 25% de  100,00 = 25,00 + 100,00 = 125,00</li>
+<li>Após 6 meses = 30% de  100,00 = 30,00 + 100,00 = 130,00<br>…</li>
+</ul>
+</li>
+<li><p>No Regime de Capitalização Composta, a taxa de juros incide diretamente sobre o valor do montante do período anterior. É também chamado de Juros Compostos. SUa fórmula é: $M = C * (1+i)^t$</p>
+<ul>
+<li>Capital =  100,00</li>
+<li>Taxa = 5%</li>
+<li>Após 1 mês = 5% de  100,00 = 5,00 + 100,00 = 105,00</li>
+<li>Após 2 meses = 5% de  105,00 = 5,25 + 100,00 = 110,25</li>
+<li>Após 3 meses = 5% de  110,25 = 5,51 + 110,25 = 115,76</li>
+<li>Após 4 meses = 5% de  115,76 = 5,79 + 115,76 = 121,55</li>
+<li>Após 5 meses = 5% de  121,55 = 6,08 + 121,55 = 127,63</li>
+<li>Após 6 meses = 5% de  127,63 = 6,38 + 127,63 = 134,01</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="Aulas-06-a-08"><a href="#Aulas-06-a-08" class="headerlink" title="Aulas 06 a 08"></a>Aulas 06 a 08</h2><ul>
+<li><p>Há 3 <strong>tipos principais</strong> de tributos no Brasil, que se diferenciam por sua origem e finalidade. São eles: os taxas, contribuições e impostos.</p>
+</li>
+<li><p><strong>Taxas e Contribuições</strong> são valores pagos por serviços prestados pelo Estado, como limpeza urbana, iluminação pública, emissão de documentos e combate a incêndios. O valor arrecadado por estes tirbutos vai diretamente para o seu <em>fato gerador</em>.</p>
+</li>
+<li><p><strong>Impostos</strong> são valores pagos por produtos, renda e serviços privados. O valor arrecadado pelos impostos não possui destino fixo, sendo enviado para as <strong>reservas do Governo</strong>.</p>
+</li>
+<li><p>É com os tributos que o Estado obtêm sua renda, que pode ser utilizada para a melhoria de serviços, pagamento de funcionários, execução de obras, etc.</p>
+</li>
+<li><p>Algumas instituições e produtos não pagam impostos (imunidade tributária).</p>
+</li>
+<li><p>Dos 92 tributos existentes no Brasil, 19 são impostos. Alguns deles são pagos por pessoas físicas e outro por pessoas jurídicas</p>
+<ul>
+<li><img src="../../../../assets/media/img/impostos/resumo-impostos-produtos.png" alt="Resumo Impostos sobre Produtos"></li>
+<li><img src="../../../../assets/media/img/impostos/resumo-impostos-renda.png" alt="Resumo Impostos sobre Renda"></li>
+<li><img src="../../../../assets/media/img/impostos/ii-ie-explicado-01.png" alt="II IE Explicado"></li>
+</ul>
+</li>
+<li><p>A Carga Tributária é uma maneira de calcular os <strong>impactos dos tributos</strong> na economia de um país.</p>
+</li>
+<li><p><strong>Notas ficais</strong> são documentos obrigatórios emitidos por empresas que possuem muitas informações sobre os clientes, e devem ser feitas em programas ou arquivos específicos.</p>
+</li>
+<li><p><strong>Cupons fiscais</strong> são documentos fiscais que devem ser impressos em uma impressora especial e não possuem tantos dados quanto as notas fiscais.</p>
+</li>
+<li><p>Existem diversos modelos diferentes de documentos empresariais, cada qual com suas particularidades e regras de escrita.</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>DOCUMENTO</th>
+<th>ORIGEM</th>
+<th>DESTINO</th>
+<th>OBJETIVOS</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Ata</td>
+<td>Empresa</td>
+<td>Interno</td>
+<td>Registrar o que aconteceu em uma reunião</td>
+</tr>
+<tr>
+<td>Carta Comercial</td>
+<td>Empresa</td>
+<td>Cliente, fornecedor ou patrocinador</td>
+<td>Divulgar a empresa   para atrair e manter clientes ou parceiros</td>
+</tr>
+<tr>
+<td>Declaração</td>
+<td>Empresa</td>
+<td>Empresa</td>
+<td>Atestar a   veracidade de   uma informação sobre uma pessoa física</td>
+</tr>
+<tr>
+<td>E-mail</td>
+<td>Pessoa Física ou Empresa</td>
+<td>Interno ou Externo</td>
+<td>Enviar documentos ou encaminhar informações</td>
+</tr>
+<tr>
+<td>Memorando</td>
+<td>Empresa</td>
+<td>Interno</td>
+<td>Comunicação interna da empresa</td>
+</tr>
+<tr>
+<td>Ofício</td>
+<td>Empresa</td>
+<td>Externo</td>
+<td>Comunicação externa da empresa</td>
+</tr>
+<tr>
+<td>Procuração</td>
+<td>Pessoas Físicas</td>
+<td>Interno ou Externo</td>
+<td>Transferir poderes a terceiros</td>
+</tr>
+<tr>
+<td>Recibo</td>
+<td>Empresa</td>
+<td>Pessoa Física ou empresa</td>
+<td>Registrar o recebimento de produtos/serviços e o seu pagamento</td>
+</tr>
+<tr>
+<td>Requerimento</td>
+<td>Pessoa Física ou Empresa</td>
+<td>Autoridades Públicas</td>
+<td>Realizar   solicitações ou pedidos aos órgãos públicos</td>
+</tr>
+</tbody></table>
+<ul>
+<li><p>A comunicação ocorre por meio da interação de um <strong>emissor</strong> que transmite uma <strong>mensagem</strong> cifrada em determinada <strong>código</strong>, utilizando-se determinado <strong>canal</strong>, para um <strong>receptor</strong>.</p>
+</li>
+<li><p>Várias línguas fazem distinção entre a <strong>capacidade de ouvir</strong> (<em>hearing</em>, <em>entendre</em>), ou seja, a habilidade sensorial de identificar variações nos sons, e a <strong>arte de escutar</strong> (<em>listening</em>, <em>écouter</em>), ou seja, tramitar e conectar sentidos e conceitos. </p>
+</li>
+<li><p>No contexto da improvisação, a escuta ocorre por meio da percepção e do rebote do que acontece no espaço.</p>
+</li>
+<li><p>O empreendedorismo pode ser de 4 tipos principais:</p>
+<ul>
+<li>Empreendedorismo Privado: focado na obtenção de lucros e ganhos pessoais;</li>
+<li>Empreendedorismo Social: focado na obtenção de benefícios para a sociedade, sem obtenção de lucros;</li>
+<li>Empreendedorismo por Necessidade: ocorre devido a necessidades econômicas por parte do indivíduo, geralmente sem grande inovação e estruturação (informalidade);</li>
+<li>Intraempreendedorismo: ocorre no interior de organizações já existentes, alterando o seu <em>modus operandi</em> em busca de maior eficiência e eficácia.</li>
+</ul>
+</li>
+<li><p>De acordo com a Teoria das Necessidades Adquiridas, há 3 tipos diferentes de motivação por trás de todas as ações, incluindo as empreendedoras:</p>
+<ul>
+<li>Motivo de Relização: busca alcançar sucesso e metas elevadas, reagindo bem às competições;</li>
+<li>Motivo de Afiliação: busca construir relações interpessoais fortes, atribuindo mais importância às pessoas do que às tarefas;</li>
+<li>Motivo de Poder: busca controlar, dominar e influenciar outras pessoas, espontaneamente assumindo posições de liderança.</li>
+</ul>
+</li>
+<li><p>Diversas críticas históricas e sociais são feitas à visão do empreendedorismo como uma <em>farmacopeia</em> (remédio) para a felicidade e o sucesso pessoal.</p>
+</li>
+</ul>
+<hr>
+<h2 id="Exercicios"><a href="#Exercicios" class="headerlink" title="Exercícios"></a>Exercícios</h2><ol>
+<li><p>A respeito de notas fiscais e cupons fiscais assinale a alternativa correta.</p>
+<ul>
+<li>Cupons e notas fiscais são documentos que devem ser preenchidos pelos próprios consumidores em folhas de papel almaço</li>
+<li>A nota fiscal é emitida pelo Emissor de Nota Fiscal, uma impressora especial, homologada pela Receita Federal.</li>
+<li>A não emissão de nota fiscal não é crime, pois sua emissão depende da vontade do cliente.</li>
+<li>Ao contrário das notas fiscais, os cupons fiscais possuem mais informações sobre os clientes, como nome completo, CPF/CNPJ e endereço</li>
+<li>O modelo tipo 1 de Notas Fiscais deve conter obrigatoriamente a discriminação do imposto ICMS</li>
+</ul>
+</li>
+<li><p>A Análise SWOT é uma estratégia utilizada para identificar os pontos fortes e fracos de uma pessoa, situação ou empresa. Considerando os fatores descritos abaixo,pode-se afirmar que o único que está corretamente caracterizado é:</p>
+<ul>
+<li>Fator Interno Negativo: O mercado necessita constantemente de auxiliares administrativos</li>
+<li>Fator Externo Positivo: O candidato consegue lidar bem com o público e sabe trabalhar em equipe</li>
+<li>Fator Interno Positivo: A grande demanda de profissionais administrativos torna esta uma área muito concorrido</li>
+<li>Fator Externo Negativo: O candidato possui dificuldade em utilizar o Pacote Office</li>
+<li>Fator Externo Positivo: O candidato recebeu uma proposta de emprego como auxiliar administrativo na empresa XYZ</li>
+</ul>
+</li>
+<li><p>Em relação a eficácia, eficiência e efetividade, é correto afirmar que:</p>
+<ul>
+<li>Uma fábrica que produz automóveis em um menor tempo e a preços reduzidos, mas não tem boa procura por parte dos consumidores é ineficiente;</li>
+<li>Um restaurante é considerado eficiente se consegue produzir alimentos de qualidade, manter os seus clientes e criar promoções para se destacar perante ao mercado;</li>
+<li>Um empregado é considerado eficaz quando sua produtividade é alta;</li>
+<li>Uma atividade efetiva não precisa ser, necessariamente, eficiente;</li>
+<li>Uma empresa que realiza a montagem, venda e manutenção de celulares é eficaz se conseguir realizar bem as três atividades.</li>
+</ul>
+</li>
+<li><p>Assinale a alternativa que informa corretamente o tipo documento mais indicado para a situação.</p>
+<ul>
+<li>Ata - O sócio de uma empresa irá viajar e precisará se ausentar pelo período de 6 meses. Para participar das decisões da empresa, ele transferiu suas responsabilidades temporariamente ao seu secretário.</li>
+<li>Recibo - Todos os meses uma agência de viagens envia aos seus clientes e parceiros comerciais um catálogo com promoções especiais.</li>
+<li>Requerimento - Uma Escola de Samba irá promover um ensaio em uma rua. Para isto necessita solicitar à Prefeitura a utilização deste espaço público.</li>
+<li>Ofício - Um grupo de funcionários precisa agendar o uso de uma sala de reuniões, para isso deve informar a todos que a sala estará sendo usada naquele período.</li>
+<li>Carta Comercial - Uma empresa solicita o uso do auditório de um teatro, fora das instalações da empresa, para a realização de um evento.</li>
+</ul>
+</li>
+<li><p>Sobre os diferentes tipos de empreendedorismo, analise cada opção como Verdadeira (V) ou Falsa (F):</p>
+<ul>
+<li>(__) No Brasil, em virtude das condições socioeconômicas vivenciadas por grande parte da população, pode-se surgir o empreendedorismo do tipo privado, no qual ocorre falta de inovação e estruturação (informalidade);</li>
+<li>(__) A Motivação de Poder pode ser encontrada nos empreendedores por necessidade, devido as condições sociais e econômicas vivenciadas pelo indivíduo;</li>
+<li>(__) A inovação que ocorre no interior das organizações, modificando o seu <em>modus operandi</em>, recebe o nome de intraempreendedorismo;</li>
+<li>(__) Ao contrário dos capitalistas, os empreendedores não tem como objetivo principal o lucro, sendo sua principal preocupação os benefícios sociais de suas ações;</li>
+<li>(__) De acordo com a Teoria das Necessidades Adquiridas, a motivação de afiliação pode estar mais relacionada com o perfil do empreendedor social;</li>
+</ul>
+</li>
+<li><p>A carga tributária (CT) a é uma maneira de calcular os impactos dos tributos na economia de um<br>país. A respeito deste conceito, classifique as alternativas como Verdadeiras ou Falsas:</p>
+<ul>
+<li>A Carga Tributária é calculada divindido-se o total de impostos arrecadados por um país pelo seu PIB;</li>
+<li>Países com alta carga tributária arrecadam, proporcionalmente, mais impostos do que aqueles com baixa CT;</li>
+<li>No Brasil, os tributos arrecadados pelos municípios não são considerados no cálculo do PIB;</li>
+<li>Quanto mais tributos um país arrecada pior será sua distribuição de renda per capita</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="Referencias-Bibliograficas"><a href="#Referencias-Bibliograficas" class="headerlink" title="Referências Bibliográficas"></a>Referências Bibliográficas</h2><p>BACARJI, Alencar Garcia. Formação Incial e Continuada Auxiliar Administrativo. Curitiba: Instituto Federal do Paraná, 2012.</p>
+<p>BRASIL. LEI Nº 5.172, DE 25 DE OUTUBRO DE 1966. Dispõe sobre o Sistema Tributário Nacional e institui normas gerais de direito tributário aplicáveis à União, Estados e Municípios. Brasília, DF. Disponível em: <a href="https://bit.ly/2zy7ju6" target="_blank" rel="noopener">https://bit.ly/2zy7ju6</a>. Acesso em <em>12 de mai. de 2020</em>.</p>
+<p>BRASIL. Presidência da República. Casa Civil. Manual de redação da Presidência da República. BRASÍLIA, DF: Casa Civil, Subchefia de Assuntos Jurídicos ; coordenação de Gilmar Ferreira Mendes, Nestor José Forster Júnior [et al.]. – 3. ed., rev., atual. e ampl. – Brasília: Presidência da República, 2018. 189 p. Disponível em <a href="https://bit.ly/3fGZWRM" target="_blank" rel="noopener">https://bit.ly/3fGZWRM</a>. Acesso em <em>14 de mai. de 2020</em>.</p>
+<p>CARVALHO, José Luis Felício; FARIA, Marina Dias de. O teatro de improviso como proposta pedagógica na formação em ciências sociais aplicadas. Revista Interdisciplinar de Gestão Social, 3 (3), pp.79-104.</p>
+<p>CATHO. Guia de Profissões e Salários 2020 - Auxiliar Administrativo. Barueri, 2020. Disponível em <a href="https://bit.ly/2WM4rU5" target="_blank" rel="noopener">https://bit.ly/2WM4rU5</a>. Acesso em <em>27 de mar. de 2020</em>.</p>
+<p>CHAUÍ, Marilena. Convite à filosofia. São Paulo: Editora Ática, 2000.</p>
+<p>DORNELAS, José Carlos Assis. Empreendedorismo: transformando ideias em negócios. 4. ed. Rio de Janeiro: Elsevier, 2011. Disponível em <a href="https://bit.ly/2LVYQE4" target="_blank" rel="noopener">https://bit.ly/2LVYQE4</a>. Acesso em <em>24 de mai. de 2020</em>.</p>
+<p>DUNKER, Christian; THEBAS, Cláudio. O Palhaço e o Psicanalista: como escutar os outros pode transformar vidas. São Paulo: Planeta do Brasil, 2019</p>
+<p>FERREIRA, Brenno Jadvas Soares. Fluxo espontâneo e capacidade de jogo: Estudos atorais a partir de princípios do Teatro-Esporte e do Match de Improvisação. Dissertação de Mestrado. Instituto de Artes- IARTE. Universidade Federal de Uberlândia. Uberlândia, 2015.</p>
+<p>GRCIC, Joseph. Ethics: Theory and Practice (English Edition) - 7 ed. Terre Haute: Philosophy Department / Indiana State University, 2015. 675 p.</p>
+<p>JUNIOR, R. J. M. Matemática Financeira. Curitiba, PR: Instituto Federal do Paraná, 2012. 176 p. Disponível em <a href="https://bit.ly/2JRzNkL" target="_blank" rel="noopener">https://bit.ly/2JRzNkL</a>. Acesso em <em>27 de mar. de 2020</em>.</p>
+<p>LOPES, G. V. C. P. F.; PORRUA, R. P. D. Comunicação Empresarial. Curitiba: Instituto Federal do Paraná, 2012. Disponível em <a href="https://bit.ly/2zEFHDG" target="_blank" rel="noopener">https://bit.ly/2zEFHDG</a>. Acesso em <em>14 de mai. de 2020</em>.</p>
+<p>MASSENSINI, A. R. Empreendedorismo. Curso Técnico de Administração. Pelotas, RS: Instituto Federal Sul-Rio-Grandense, 2011. Disponível em <a href="https://bit.ly/2LHoe04" target="_blank" rel="noopener">https://bit.ly/2LHoe04</a>. Acesso em <em>18 de mai. de 2020</em>.</p>
+<p>NETO, J. S. Uma montanha ainda maior de impostos. O GLOBO, n. 29995, 21//09/2015. Economia, p. 17. Disponível em <a href="https://bit.ly/2Z87M1d" target="_blank" rel="noopener">https://bit.ly/2Z87M1d</a>. Acesso em <em>12 de mai. de 2020</em>.</p>
+<p>PORTAL TRIBUTÁRIO. Os Tributos no Brasil. Curita: Portal Tributário, 2020. Disponível em <a href="https://bit.ly/3bseH7C" target="_blank" rel="noopener">https://bit.ly/3bseH7C</a>. Acesso em <em>12 de mai. de 2020</em>.</p>
+<p>VIANNA, R. de M. I.  Matemática financeira. Salvador: UFBA, Faculdade de Ciências Contábeis; Superintendência de Educação a Distância, 2018. 131 p. : il. Disponível em <a href="https://bit.ly/2UVPNZf" target="_blank" rel="noopener">https://bit.ly/2UVPNZf</a>. Acesso em <em>27 de mar. de 2020</em>.</p>
+
+        </div>
+
+        
+            <section class="post-copyright">
+                
+                
+                    <p class="copyright-item">
+                        <span>Conteúdo disponível em:</span>
+                        <span><a href="http://zmdy.github.io/aulas.txt/posts/administracao/aulas/aula-09/">http://zmdy.github.io/aulas.txt/posts/administracao/aulas/aula-09/</a></span>
+                    </p>
+                
+                
+                    <p class="copyright-item">
+                        <span>Licença:</span>
+                        <span>Este material está distribuído com uma licença <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC-BY-4.0</a></span>
+                    </p>
+                
+                
+
+            </section>
+        
+        <section class="post-tags">
+            <div>
+                <span>Tag(s):</span>
+                <span class="tag">
+                    
+                    
+                        <a href="/aulas.txt/pages/assuntos/Auxiliar-Administrativo-Modulo-01-Aulas/"># Auxiliar Administrativo - Módulo 01 - Aulas</a>
+                    
+                        
+                </span>
+            </div>
+            <div>
+                <a href="javascript:window.history.back();">voltar</a>
+                <span>· </span>
+                <a href="/aulas.txt/">home</a>
+            </div>
+        </section>
+        <section class="post-nav">
+            
+                <a class="prev" rel="prev" href="/aulas.txt/posts/administracao/aulas/aula-10/">Aula 10 -  Módulo 01 - Auxiliar Administrativo</a>
+            
+            
+            <a class="next" rel="next" href="/aulas.txt/posts/administracao/aulas/aula-08/">Aula 08 -  Módulo 01 - Auxiliar Administrativo</a>
+            
+        </section>
+
+
+    </article>
+</div>
+
+        </div>
+        <footer id="footer" class="footer">
+    <div class="copyright">
+        <span>© aulas.txt | Feito com <a href="https://hexo.io" target="_blank">Hexo</a> & <a href="https://github.com/Siricee/hexo-theme-Chic" target="_blank">Chic</a> | <a target="_blank" onclick="printPage()">Imprimir esta página em PDF</a></span>
+    </div>
+</footer>
+
+    </div><!-- hexo-inject:begin --><!-- Begin: Injected MathJax -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({"tex2jax":{"inlineMath":[["$","$"],["\\(","\\)"]],"skipTags":["script","noscript","style","textarea","pre","code"],"processEscapes":true},"TeX":{"equationNumbers":{"autoNumber":"AMS"}}});
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+      all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+</script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js">
+</script>
+<!-- End: Injected MathJax -->
+<!-- hexo-inject:end -->
+</body>
+</html>

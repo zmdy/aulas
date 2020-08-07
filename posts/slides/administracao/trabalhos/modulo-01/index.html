@@ -68,13 +68,13 @@
             <div class="navbar-header header-logo"><a href="/aulas.txt/">aulas.txt</a></div>
             <div class="menu navbar-right">
                 
-                    <a class="menu-item" href="/aulas.txt/pages/cursos">Cursos</a>
+                    <a class="menu-item" href="/aulas.txt/./pages/cursos">Cursos</a>
                 
-                    <a class="menu-item" href="/aulas.txt/pages/tag">Materiais</a>
+                    <a class="menu-item" href="/aulas.txt/./pages/materiais">Materiais</a>
                 
-                    <a class="menu-item" href="/aulas.txt/pages/manual">Manual</a>
+                    <a class="menu-item" href="/aulas.txt/./pages/projetos">Projetos</a>
                 
-                    <a class="menu-item" href="/aulas.txt/pages/sobre">Sobre</a>
+                    <a class="menu-item" href="/aulas.txt/./pages/sobre">Sobre</a>
                 
                 <input id="switch_default" type="checkbox" class="switch_default">
                 <label for="switch_default" class="toggleBtn"></label>
@@ -93,13 +93,13 @@
             </div>
             <div class="menu" id="mobile-menu">
                 
-                    <a class="menu-item" href="/aulas.txt/pages/cursos">Cursos</a>
+                    <a class="menu-item" href="/aulas.txt/./pages/cursos">Cursos</a>
                 
-                    <a class="menu-item" href="/aulas.txt/pages/tag">Materiais</a>
+                    <a class="menu-item" href="/aulas.txt/./pages/materiais">Materiais</a>
                 
-                    <a class="menu-item" href="/aulas.txt/pages/manual">Manual</a>
+                    <a class="menu-item" href="/aulas.txt/./pages/projetos">Projetos</a>
                 
-                    <a class="menu-item" href="/aulas.txt/pages/sobre">Sobre</a>
+                    <a class="menu-item" href="/aulas.txt/./pages/sobre">Sobre</a>
                 
             </div>
         </div>
@@ -125,7 +125,13 @@
 
 
 <script>
-  window.onload = function(){
+  // Defines the delay function
+  function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+  }
+
+
+  function startPresentation(){
     var 
       content = document.querySelector("#slide-content").innerHTML,
       metadata = content.split('---')[1],
@@ -147,9 +153,22 @@
       title: title
     });
   }
+
+  window.onload = function(){
+    if(window.location.search == '?print-pdf'){
+      // Starts the presentation
+      startPresentation();
+
+      // Waits 5 seconds
+      sleep(5000).then(() => { 
+        // Opens the print page
+        window.print();
+      });
+    }
+  }
 </script>
 
-<div id="slide-content">
+<div id="slide-content" style="display: none;">
   ---
 title: TCM - Módulo 01
 date: 2020-04-20 15:03:07
@@ -309,6 +328,100 @@ Na década de 1940 as teorias de Jung receberam contribuições de Katharine Bri
 
 ---
 
+</div>
+
+<div class="container">
+  <article class="post-wrap page">
+      
+      <h2 class="post-title">TCM - Módulo 01</h2>
+
+      <p><a href="#" onclick="startPresentation()"><i class="icofont-presentation"></i> Iniciar Apresentação</a></p>
+      <!--
+        AVISO!
+
+        O redirecionamento desta página, com um parâmetro de pesquisa ?print-pdf gera o arquivo PDF da apresentação.
+
+        Esta é uma funcionalidade experimental, ainda em processo de desenvolvimento e adaptação.
+        
+        <p><a href="./?print-pdf"><i class="icofont-presentation"></i> Gerar Apresentação em PDF</a></p>
+      -->
+
+      
+      <section class="post-content">
+          <h1 id="TCM"><a href="#TCM" class="headerlink" title="TCM"></a>TCM</h1><h2 id="Modulo-01"><a href="#Modulo-01" class="headerlink" title="Módulo 01"></a>Módulo 01</h2><hr>
+<h1 id="Objetivo-Geral"><a href="#Objetivo-Geral" class="headerlink" title="Objetivo Geral"></a>Objetivo Geral</h1><p>Desenvolver um PDI (Plano de Desenvolvimento Individual), estipulando suas metas e objetivos para este curso.</p>
+<hr>
+<h1 id="Objetivos-Especificos"><a href="#Objetivos-Especificos" class="headerlink" title="Objetivos Específicos"></a>Objetivos Específicos</h1><ul>
+<li>Apresentar teorias, testes e escalas psicométricas para desenvolvimento do auto-conhecimento e inteligência emocional;</li>
+<li>Apresentar o PDI como ferramenta de Gestão de projetos e objetivos;</li>
+<li>Possibilitar o auto-conhecimento por meio da percepção de si mesmo e dos outros;</li>
+<li>Desenvolver habilidades sociais por meio da construção de atividades conjuntas e troca de experiências.</li>
+</ul>
+<hr>
+<h1 id="Etapas"><a href="#Etapas" class="headerlink" title="Etapas"></a>Etapas</h1><p>O TCM é constituído em 2 partes: </p>
+<ul>
+<li>Na <strong>1º Parte</strong> será feito um exercício individual, pautado nos aspectos técnicos e teóricos absorvidos pelo educando no processo educacional.</li>
+<li>Na <strong>2ª Parte</strong> do TCM haverá o desenvolvimento de uma série de atividades e exercícios em grupo que buscarão conciliar os aspectos teóricos e técnicos das matérias estudadas em sala, com as demandas e anseios de cada estudante e o mercado administrativo.</li>
+</ul>
+<hr>
+<h3 id="1ª-Parte-Projeto-Individual"><a href="#1ª-Parte-Projeto-Individual" class="headerlink" title="1ª Parte - Projeto Individual"></a>1ª Parte - Projeto Individual</h3><hr>
+<h1 id="Objetivo-do-Projeto"><a href="#Objetivo-do-Projeto" class="headerlink" title="Objetivo do  Projeto"></a>Objetivo do  Projeto</h1><p>Construir um PDI - Plano de Desenvolvimento Individual - pautado nos planos e objetivos do aluno para o decorrer do curso.</p>
+<hr>
+<h2 id="Inspiracao"><a href="#Inspiracao" class="headerlink" title="Inspiração"></a>Inspiração</h2><hr>
+<figure class="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/8/8c/David_-_The_Death_of_Socrates.jpg">
+  <figcaption>A Morte de Sócrates<br/>Jacques-Louis David - 1787  </figcaption>
+</figure>
+
+<hr>
+<blockquote>Conhece-te a Ti mesmo e conhecerás todo o universo e os deuses, porque se o que procuras não achares primeiro dentro de ti mesmo, não acharás em lugar algum. <strong>Oráculo de Delfos</strong></blockqoute>
+
+<hr>
+<h1 id="Primeira-Etapa"><a href="#Primeira-Etapa" class="headerlink" title="Primeira Etapa"></a>Primeira Etapa</h1><p>Realizar os testes de personalidade online.</p>
+<ul>
+<li><i class="icofont-link"></i> <a href="https://www.16personalities.com/br" target="_blank" rel="noopener">Teste 16 Personalities</a></li>
+<li><i class="icofont-link"></i> <a href="http://inspiira.org/" target="_blank" rel="noopener">Teste Inspiira</a></li>
+<li><i class="icofont-link"></i> <a href="https://www.idrlabs.com/pt/teste.php" target="_blank" rel="noopener">Teste IDRlabs</a>  </li>
+</ul>
+<hr>
+<h1 id="Explicacao"><a href="#Explicacao" class="headerlink" title="Explicação"></a>Explicação</h1><p>Estes testes foram especificamente escolhidos devido a clareza presente nos mesmos sobre a metodologia e as teorias utilizadas como base para sua construção, bem como a relação dos resultados dos mesmos com as do Instrumento MBTI;</p>
+<hr>
+<h1 id="O-que-e-MBTI"><a href="#O-que-e-MBTI" class="headerlink" title="O que é MBTI?"></a>O que é MBTI?</h1><p>O MBTI é um Teste de Personalidade amplamente utilizado, difundido e divulgado que se baseia na <strong>Teoria de Tipos Psicológicos</strong> desenvolvida por Jung na década de 1920, e mais tarde adaptada por Myers e Briggs.</p>
+<p>Seu objetivo é delimitar os principais traços da personalidade de uma pessoa, categorizando-a em um <em>tipo</em>.</p>
+<hr>
+<h1 id="Tipos-de-Personalidade"><a href="#Tipos-de-Personalidade" class="headerlink" title="Tipos de Personalidade"></a>Tipos de Personalidade</h1><img src="../../../../../assets/media/img/figuras-historicas/jung.png">
+
+<p>Na década de 1920, o psiquiatra suíço Carl Gustav Jung desenvolveu a <em>Teoria dos Tipos Psicológicos</em>, no qual traçou um quadro sobre os diferentes aspectos que compõe a personalidade.</p>
+<p>Esta teoria se baseia em 2 conceitos importantes: disposições (atitudes) e funções.</p>
+<hr>
+<h2 id="Introvertido-ou-Extrovertido"><a href="#Introvertido-ou-Extrovertido" class="headerlink" title="Introvertido ou Extrovertido?"></a>Introvertido ou Extrovertido?</h2><hr>
+<h1 id="Disposicoes-Psiquicas"><a href="#Disposicoes-Psiquicas" class="headerlink" title="Disposições Psíquicas"></a>Disposições Psíquicas</h1><p>Por trás dos termos <strong>introversão e extroversão</strong> reside o conceito junguiano de <strong>disposições psíquicas</strong>.</p>
+<p>Para Jung, a libido (energia psíquica) de uma pessoa pode fluir de dentro para fora (extroversão) ou de fora para dentro (introversão).</p>
+<p>Na prática isto leva as pessoas a serem orientadas por atitudes focadas em fatores/objetivos externos (extroversão) ou internos (introversão).</p>
+<hr>
+<blockquote>
+Tanto o tímido quanto o extrovertido são <em>carentes</em>. [...] a diferença (entre eles) está na atitude adotada com a carência. O <em>tímido</em> tanto teme que a exposição na vida social o frustre mais ainda que prefere se arriscar no isolamento. Já o <em>extrovertido</em> tanto teme que o isolamento o frustre mais ainda que prefere o risco da exposição social. <br/>
+<strong>DANIEL GRANDINETTI. Psicologia no Cotidiano: 100 Ensaios Sobre a Psicologia de Nosso Dia-a-Dia</strong>
+</blockqoute>
+
+<hr>
+<h1 id="Funcoes-Psiquicas-Jungunianas"><a href="#Funcoes-Psiquicas-Jungunianas" class="headerlink" title="Funções Psíquicas Jungunianas"></a>Funções Psíquicas Jungunianas</h1><p>Além das disposições, Jung desenvolveu o conceito de função psíquica. Para ele há 4 funções psíquicas diferentes: pensamento, sentimento, sensação e intuição.</p>
+<p>Essas funções se estruturam em pares:</p>
+<hr>
+<h1 id="Pensamento-amp-Sentimento"><a href="#Pensamento-amp-Sentimento" class="headerlink" title="Pensamento &amp; Sentimento"></a>Pensamento &amp; Sentimento</h1><p>A função <strong>Pensamento</strong> estabelece a conexão lógica e conceitual entre os fatos percebidos. Não se preocupa tanto com os valores afetivos das coisas.</p>
+<p>A função <strong>Sentimento</strong> julga o valor intrínseco das coisas, tende a valorizar os sentimentos em suas avaliações, preocupa­se com a harmonia do ambiente e incentiva movimentos sociais. Utilizam­se de valores pessoais (seus ou de outros) na tomada de decisões, mesmo que essas decisões não tenham lógica do ponto de vista da causalidade</p>
+<p>Para Nise da Silveira, a pessoa que utiliza a função Sentimento<br>“estabelece julgamentos como o pensamento, mas a sua lógica é toda diferente. É a lógica do coração”. Silveira (1988: 54)</p>
+<hr>
+<h2 id="Sensacao-amp-Intuicao"><a href="#Sensacao-amp-Intuicao" class="headerlink" title="Sensação &amp; Intuição"></a>Sensação &amp; Intuição</h2><p>A função <strong>Sensação</strong> é a função dos sentidos, a função do real, a função que traz as informações (percepções) do mundo através dos órgãos do sentidos. Pessoas do tipo Sensação acreditam nos fatos, têm facilidade para lembrar­se deles e dão atenção ao presente. Essas pessoas têm enfoque no real e no concreto, são voltadas para o “aqui ­ agora” e costumam ser práticas e realistas. Preocupamse mais em manter as coisas funcionando do que em criar novos caminhos.</p>
+<p>função Intuição, onde a percepção se dá através do inconsciente e a<br>apreensão do ambiente geralmente acontece por meio de “pressentimentos”, “palpites” ou<br>“inspirações”. Os sonhos premonitórios e as comunicações telepáticas via inconsciente são algumas<br>das propriedades da intuição. A intuição busca os significados, as relações e possibilidades futuras da<br>informação recebida. Pessoas do tipo intuição tendem a ver o todo e não as partes, e, por isso,<br>costumam apresentar dificuldades na percepção de detalhes.</p>
+<p>–</p>
+<h1 id="Funcoes-Psiquicas-Myers-e-Briggs"><a href="#Funcoes-Psiquicas-Myers-e-Briggs" class="headerlink" title="Funções Psíquicas Myers e Briggs"></a>Funções Psíquicas Myers e Briggs</h1><img src="../../../../../assets/media/img/figuras-historicas/myers-e-briggs.png">
+
+<p>Na década de 1940 as teorias de Jung receberam contribuições de Katharine Briggs e Isabel Myers, mãe e filha que de desenvolveram as funções de <em>percepção</em> e <em>julgamento</em>.</p>
+<hr>
+
+      </section>
+  </article>
 </div>
         </div>
         <footer id="footer" class="footer">
