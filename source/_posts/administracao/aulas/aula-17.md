@@ -218,7 +218,6 @@ O patrimônio líquido da empresa será, neste caso, não seria afetado - pois o
 
 ![Transação Compra](../../../../assets/media/img/contabilidade/exemplo-balanco-patrimonial-compra-de-produto.png)
 
-
 ### Investimento de Capital
 
 Quando uma empresa realiza recebe um investimento de capital, seja ele próprio ou de terceiros, tem-se uma situação diferenciada em relação ao Patrimônio Líquido.
@@ -256,13 +255,63 @@ Repare que houve uma diferença de R$ 84.000,00 entre os Patrimônios Ativo e Pa
 
 ## Situações Patrimoniais Possíveis
 
-- [Conteúdo em Produção]
+Existem 3 diferentes tipos de situações patrimoniais que podem ser vivenciados por uma empresa. Estas situações refletem o estado da Patrimônio Líquido da instituição.
+
+As Situações Patrimoniais possíveis devem ser analisadas a partir do cálculo do PL da empresa: `PATRIMÔNIO LÍQUIDO (PL) = ATIVOS - PASSIVOS`
+
+### Situação Líquida Positiva (superavitária)
+
+Quando o conjunto de bens e direitos é maior do que as obrigações de uma instituição, diz-se que a empresa possui uma **situação líquida positiva**, também conhecida como **situação líquida ativa** ou **superavitária**.
+
+Essa situação implica diretamente que o Patrimônio Líquido será maior que 0.
+
+`Situação Superavitária: Ativo > Passivo; PL > 0`
+
+Exemplo: o Patrimônio Ativo de uma empresa é de R$ 150.000,00, ao passo em que o Patrimônio Passivo da mesma é de R$ 25.000,00.
+
+Repare que o ativo da empresa (R$ 150.000,00) é maior que o passivo da mesma (R$ 25.000,00). Neste caso, o Patrimônio Líquido foi de R$ 125.000,00.
+
+### Situação Líquida Negativa (deficitária)
+
+Essa situação ocorre quando o passivo de uma empresa (exigíveis) é superior ao ativo da mesma. Também conhecida como **situação líquida passiva** ou **deficitária**.
+
+Essa situação implica diretamente que o Patrimônio Líquido será menor que 0. Em termos técnicos, essa situação é chamada de **Passivo a Descoberto** e indica que a empresa não consegue cobrir (honrar) as suas obrigações com terceiros.
+
+`Situação Deficitária: Ativo < Passivo; PL < 0`
+
+Exemplo: o Patrimônio Ativo de uma empresa é de R$ 100.000,00, ao passo em que o Patrimônio Passivo da mesma é de R$ 125.000,00.
+
+Repare que o ativo da empresa (R$ 100.000,00) é menor que o passivo da mesma (R$ 125.000,00). Neste caso, o Patrimônio Líquido foi de - R$ 25.000,00.
+
+### Situação Líquida Nula
+
+Essa situação ocorre quando o passivo de uma empresa é igual ao ativo da mesmo.
+
+Essa situação implica que o Patrimônio Líquido da mesma é zero (ou nulo).
+
+`Situação Nula: Ativo = Passivo; PL = 0`
 
 ---
 
 ## Resumo
 
-- [Conteúdo em Produção]
+- Os diferentes elementos do patrimônio (bens, direitos e obrigações) podem ser agrupados em 2 diferentes componentes: o **ativo** e o **passivo**.
+
+- O **Patrimônio Líquido** é definido como o **saldo** resultante da diferença entre o valor do Ativo e do Passivo de uma empresa.
+
+- O Patrimônio de uma Entidade pode ser representado graficamente por meio de uma tabela especial chamada de **Balanço Patrimonial**.
+
+- ![Estrutura Gráfica do Balanço Patrimonial](../../../../assets/media/img/contabilidade/estrutura-grafica-patrimonio.png)
+
+- No balanço patrimonial considera-se o **Patrimônio Líquido** de uma Empresa como uma parte do **Patrimônio Passivo**. 
+
+- Existem 3 diferentes tipos de situações patrimoniais que podem ser vivenciados por uma empresa. Estas situações refletem o estado da  Patrimônio Líquido da instituição.
+
+- Quando o conjunto de bens e direitos é maior do que as obrigações de uma instituição, diz-se que a empresa possui uma **situação líquida positiva**, também conhecida como **situação líquida ativa** ou **superavitária**. `Situação Superavitária: Ativo > Passivo; PL > 0`
+
+- Essa situação ocorre quando o passivo de uma empresa (exigíveis) é superior ao ativo da mesma. Também conhecida como **situação líquida passiva** ou **deficitária**. `Situação Deficitária: Ativo < Passivo; PL < 0`
+
+- Essa situação ocorre quando o passivo de uma empresa é igual ao ativo da mesmo.
 
 ---
 
@@ -306,12 +355,84 @@ Repare que houve uma diferença de R$ 84.000,00 entre os Patrimônios Ativo e Pa
 
 04. Em seu caderno, monte o Balanço Patrimonial de uma empresa com os seguintes elementos. Sabendo que o Lucro Acumulado da empresa foi nulo, calcule o valor transferido ao Caixa da Empresa. 
 
-- Imóveis próprios: 9.000,00
+- Imóveis próprios: R$ 9.000,00
 - Contas a pagar: R$ 1.000,00
 - Salários a pagar: R$ 7000,00
 - Empréstimos Bancários: R$ 18.000,00
 - Estoques: R$ 3.500,00
 - Impostos a recolher: $2.400,00
+
+ 05. Encontre a Situação Líquida Patrimonial de cada empresa. Monte o Balanço Patrimonial em cada item.
+
+ a) Empresa 01
+- Caixa: R$ 500,00
+- Fornecedores: R$ 1.500,00
+- Salários a pagar: R$ 3.000,00
+- Contas a receber: R$ 1.200,00
+- Impostos a recuperar: R$ 200,00
+- Impostos a pagar: R$ 350,00
+- Conta Bancária: R$ 8.000,00
+
+b) Empresa 02
+- Caixa: R$ 7.200,00
+- Fornecedores: R$ 4.500,00
+- Salários a pagar: R$ 3.000,00
+- Contas a receber: R$ 2.00,00
+- Impostos a recuperar: R$ 800,00
+- Impostos a pagar: R$ 1.500,00
+- Equipamentos: R$ 6000,00
+- Conta Bancária: R$ 8.000,00
+- Empréstimo Bancário: R$ 15.000,00
+
+c) Empresa 03
+- Caixa: R$ 5.000,00
+- Fornecedores: R$ 4.500,00
+- Salários a pagar: R$ 3.000,00
+- Contas a receber: R$ 700,00
+- Impostos a recuperar: R$ 800,00
+- Impostos a pagar: R$ 1.050,00
+- Conta Bancária: R$ 10.000,00
+- Empréstimo Bancário: R$ 15.000,00
+
+ d) Empresa 04
+- Caixa: R$ 2.000,00
+- Contas a receber: R$ 3.000,00
+- Equipamentos: 3.000,00
+- Conta Bancária: R$ 8.000,00
+- Capital Social: R$ 5.000,00
+- Fornecedores: R$ 8.000,00
+- Salários a pagar: R$ 4.000,00
+
+06. Calcule a situação Patrimonial Líquida de cada empresa abaixo. Não é necessário montar o Balanço Patrimonial.
+
+a) Empresa 01
+- Caixa: R$ 800,00
+- Clientes: R$ 500,00
+- Fornecedores: R$ 250,00
+- Utensílios: R$ 300,00
+- Salários a pagar: 220,00
+- Duplicatas a pagar: R$ 170,00
+
+b) Empresa 02
+- Veículos: R$ 25.000,00
+- Móveis e Utensílios: R$ 5.000,00
+- Máquinas: R$ 2.000,00
+- Caixa: R$ 2.000,00
+- Promissórias a pagar: R$ 4.000,00
+- Impostos a recolher: R$ 7.00,00
+- Duplicatas a pagar: R$ 11.000,00
+- Títulos a receber: R$ 800,00
+
+c) Empresa 03
+- Imóveis: R$ 80.000,00
+- Instalações: R$ 30.000,00
+- Móveis e Utensílios: R$ 5.000,00
+- Veículos: R$ 14.000,00
+- Caixa: R$ 3.000,00
+- Conta Bancária: R$ 63.000,00
+- Empréstimo Bancário: R$ 50.000,00
+- Clientes: R$ 10.000,00
+- Fornecederes: R$ 30.000,00
 
 ---
 
@@ -320,6 +441,8 @@ Repare que houve uma diferença de R$ 84.000,00 entre os Patrimônios Ativo e Pa
 BACARJI, Alencar Garcia. Formação Incial e Continuada Auxiliar Administrativo. Curitiba: Instituto Federal do Paraná, 2012. Disponível em <https://bit.ly/2vZG4Y5>. Acesso en *20 de mar. de 2020*. 
 
 BÄCHTOLD, CIRO. Contabilidade Básica. Curitiba: Instituto Federal do Paraná, 2012.Disponível em <https://bit.ly/342pLX5>. Acesso en *20 de mar. de 2020*.
+
+CONSELHO FEDERAL DE CONTABILIDADE. Princípios fundamentais e normas brasileiras de contabilidade. Brasília: CFC, 2003.
 
 OLIVEIRA, M. S. de; MOREIRA, S C. Noções de contabilidade básica para cursos técnicos. Brasília, DF : Instituto Federal de Educação, Ciência e Tecnologia de Brasília, 2012. 120p.
 
