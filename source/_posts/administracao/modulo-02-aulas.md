@@ -21,7 +21,7 @@ Acesse os recursos de cada aula do MÓDULO 02 - CONTABILIDADE utilizando os link
 | Aula 06 | Tipos de Empresa, Contrato Social e Alteração Contratual | [Acessar](../aulas/aula-16)  | 
 | --- | TRABALHO PARCIAL I | [Acessar](../aulas/aula-prova)     | 
 | Aula 08 | Balanço Patrimonial e suas operações          | [Acessar](../aulas/aula-17)      | 
-| Aula 09 | Contabilização das contas                     | [Acessar]()      | 
+| Aula 09 | Contabilização das contas                     | [Acessar](../aulas/aula-18)      | 
 | Aula 10 | Apuração de Resultados/DRE | [Acessar]()      | 
 | Aula 11 | TRABALHO PARCIAL II                           | [Acessar]()      | 
 | Aula 12 | Revisão                                       | [Acessar]()      | 

@@ -23,12 +23,14 @@ Para melhor absorção dos conceitos desta aula, sugiro o material descrito nas 
 
 ## Sumário da Aula
 
-1. [Como funciona a economia?](#Como-Funciona-a-Economia)
-2. [A Máquina Econômica de Ray Dalio](#A-Maquina-Economica-de-Ray-Dalio)
-3. [Contabilidade e Economia](#Contabilidade-e-Economia)
-4. [Resumo](#Resumo)
-5. [Exercícios](#Exercicios)
-6. [Referências Bibliográficas](#Referencias-Bibliograficas)
+1. [Revisão de Conceitos Contábeis](#Revisao-dos-Conceitos-Contabeis)
+2. [Componentes do Patrimônio](#Componentes-do-Patrimonio)
+3. [Balanço Patrimonial](#Balanco-Patrimonial)
+4. [Transações Especiais do Balanço Patrimonial](#Balanco-Patrimonial)
+5. [Situações Patrimoniais Possíveis](#Situacoes-Patrimoniais-Possiveis)
+6. [Resumo](#Resumo)
+7. [Exercícios](#Exercicios)
+8. [Referências Bibliográficas](#Referencias-Bibliograficas)
 
 ---
 
